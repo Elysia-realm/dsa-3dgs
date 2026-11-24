@@ -1,0 +1,7 @@
+[
+  "/usr/bin/vvp",
+  "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_backpressure.vvp",
+  "+N=4097",
+  "+INPUT=experiments/t06_20261014/units_v2/random_4097/input.memh",
+  "+EXPECTED=experiments/t06_20261014/units_v2/random_4097/expected.memh"
+]

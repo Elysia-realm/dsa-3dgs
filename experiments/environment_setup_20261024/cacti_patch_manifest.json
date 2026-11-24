@@ -1,0 +1,7 @@
+{
+  "upstream_commit": "1ffd8dfb10303d306ecd8d215320aea07651e878",
+  "file": "io.cc",
+  "before_sha256": "78584c149e83d1da9a33a55392c2233fea3144696050f1ddc3b2b65bab7831be",
+  "after_sha256": "7ff1aa9331e69ba4a7d6a4b10b52d1abbdd2c838abb2ef3d4c5f1895493ac669",
+  "scope": "Parse/validate three missing external IO configuration fields; no SRAM algorithm changes"
+}

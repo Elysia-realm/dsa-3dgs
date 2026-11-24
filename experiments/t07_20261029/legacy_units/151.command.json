@@ -1,0 +1,17 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-I",
+  "rtl/raster",
+  "-D",
+  "TB_FRAME_PARALLEL_SORT=1",
+  "-s",
+  "tb_gaussian_frame_render_pipeline",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_frame_parallel_sort.vvp",
+  "-f",
+  "verification/rtl/system_top_sources.f",
+  "verification/rtl/tb_gaussian_frame_render_pipeline.sv"
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "39BFFB3D56A187448B8D461E2BFF2B42816B441BBD5C846D925CD4B260B9C85E",
+    "Path": "D:\\3DGS\\docs\\开发日志_2026-10-24_T01工具环境配置.md"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "CDD8007B4D3AC6E65A45EC583A0D3C9ADE353270FA4A6615BEEB6AA05DDD6F2B",
+    "Path": "D:\\3DGS\\verification\\implementation_status.json"
+  }
+]

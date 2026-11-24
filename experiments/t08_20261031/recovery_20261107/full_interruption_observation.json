@@ -1,0 +1,9 @@
+{
+  "previous_status": {
+    "status": "RUNNING",
+    "signed_off": false
+  },
+  "observation": "No simulation or encoder process found; WSL instance newly started during status inspection. Two .partial encodings exist; no full-model result.json.",
+  "cause": "not established",
+  "signed_off": false
+}

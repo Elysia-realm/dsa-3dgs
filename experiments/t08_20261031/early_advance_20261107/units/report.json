@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "enabled": 0,
+      "cycles": 143874,
+      "status": "PASS",
+      "log_sha256": "A1D876EDE70F3763514CA320D129163049A81578E7550E4D412FF3A27A531D53"
+    },
+    {
+      "enabled": 1,
+      "cycles": 133893,
+      "status": "PASS",
+      "log_sha256": "79A7E7A7333C7350F888BDE7E18DF92A8A1F1B943B18A65E261092570BD615C7"
+    }
+  ],
+  "signed_off": false,
+  "source_sha256": {
+    "rtl/dma/axi4_t08_attribute_read_engine.sv": "45CB90708BD2D47CA67481911E65EE682AC2CE327C5F72E414EBF2424A9C842D",
+    "rtl/dma/t08_attribute_decoder.sv": "71689CEDE0C0871E4EAFC7C29B54057F5FE338D6EDC23154290E0AB0EF4E6F88",
+    "experiments/t08_20261031/early_advance_20261107/units/tb_t08_attribute_dma.sv": "3D6C733274B69C50CD2FF24FBCE90AFD6BA8FA64FA441C9A9624974483AB0327"
+  }
+}

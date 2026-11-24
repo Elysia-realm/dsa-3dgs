@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "window": 0,
+      "line_amplification": 2.4967490247074124,
+      "useful_GBps": 5.584477476455237,
+      "controller_reported_bytes": 307200
+    },
+    {
+      "scene": "bonsai",
+      "window": 1,
+      "line_amplification": 1.0,
+      "useful_GBps": 18.40126382306477,
+      "controller_reported_bytes": 116480
+    },
+    {
+      "scene": "bonsai",
+      "window": 2,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.9808335317932837,
+      "controller_reported_bytes": 276288
+    },
+    {
+      "scene": "bonsai",
+      "window": 3,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.863239047493751,
+      "controller_reported_bytes": 486976
+    },
+    {
+      "scene": "counter",
+      "window": 0,
+      "line_amplification": 2.4892838473601673,
+      "useful_GBps": 5.607572519083969,
+      "controller_reported_bytes": 304768
+    },
+    {
+      "scene": "counter",
+      "window": 1,
+      "line_amplification": 1.0,
+      "useful_GBps": 18.40126382306477,
+      "controller_reported_bytes": 116480
+    },
+    {
+      "scene": "counter",
+      "window": 2,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.806125483199524,
+      "controller_reported_bytes": 126720
+    },
+    {
+      "scene": "counter",
+      "window": 3,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.85761165477154,
+      "controller_reported_bytes": 520832
+    },
+    {
+      "scene": "room",
+      "window": 0,
+      "line_amplification": 2.471506016131165,
+      "useful_GBps": 5.629588276343336,
+      "controller_reported_bytes": 299072
+    },
+    {
+      "scene": "room",
+      "window": 1,
+      "line_amplification": 1.0,
+      "useful_GBps": 18.40126382306477,
+      "controller_reported_bytes": 116480
+    },
+    {
+      "scene": "room",
+      "window": 2,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.8774874272754163,
+      "controller_reported_bytes": 520896
+    },
+    {
+      "scene": "room",
+      "window": 3,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.900178536004761,
+      "controller_reported_bytes": 521216
+    },
+    {
+      "scene": "train",
+      "window": 0,
+      "line_amplification": 2.491649269311065,
+      "useful_GBps": 5.535239241649112,
+      "controller_reported_bytes": 305536
+    },
+    {
+      "scene": "train",
+      "window": 1,
+      "line_amplification": 2.5001030149028227,
+      "useful_GBps": 6.414979004612102,
+      "controller_reported_bytes": 582464
+    },
+    {
+      "scene": "train",
+      "window": 2,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.6116487044255905,
+      "controller_reported_bytes": 465600
+    },
+    {
+      "scene": "train",
+      "window": 3,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.6228588570571474,
+      "controller_reported_bytes": 474368
+    },
+    {
+      "scene": "truck",
+      "window": 0,
+      "line_amplification": 2.449986591579512,
+      "useful_GBps": 5.613674141445821,
+      "controller_reported_bytes": 292352
+    },
+    {
+      "scene": "truck",
+      "window": 1,
+      "line_amplification": 2.5001030149028227,
+      "useful_GBps": 6.415126204681046,
+      "controller_reported_bytes": 582464
+    },
+    {
+      "scene": "truck",
+      "window": 2,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.5883644769793874,
+      "controller_reported_bytes": 367232
+    },
+    {
+      "scene": "truck",
+      "window": 3,
+      "line_amplification": 4.0,
+      "useful_GBps": 3.5722337809721956,
+      "controller_reported_bytes": 186368
+    }
+  ],
+  "report_sha256": "7BAC96F00FB65E29FDE5EB3855D46A4AFB446726932297F206B94F72662BBF57",
+  "signed_off": false
+}

@@ -1,0 +1,13 @@
+{
+  "original": "/mnt/d/3DGS/verification/rtl/tb_t06_release_repeat.sv",
+  "original_sha256": "D6E2E51EB2D87740D41076901617DBA5FA07297B484058C1B4B318393D3983D9",
+  "target": "/mnt/d/3DGS/verification/rtl/tb_t07_repeat.sv",
+  "target_sha256": "A9375BE9E913F2A6FD46F4CFF02B26AA433572F7E6C06D8D15FD1BE64E0F22BF",
+  "changes": [
+    "module name",
+    "explicit candidate parameter",
+    "actual path and numerical-bound counters/assertions",
+    "reject legacy testbench state injection on candidate"
+  ],
+  "dma_input_output_and_memory_model_changed": false
+}

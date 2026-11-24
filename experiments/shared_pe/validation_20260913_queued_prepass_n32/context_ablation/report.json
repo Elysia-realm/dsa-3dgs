@@ -1,0 +1,45 @@
+{
+  "functional_pass": true,
+  "synthesis_or_ppa_signoff": false,
+  "sva_executed": false,
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51E3DDCC0F2187942FC27B77905E33979ACC95DC012DC30A3ED7F2B0B0D65F9D",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "D22343FB0FA103285FB1740A6E184E541C68694B6478F65EE3909FA250A38463",
+    "rtl/sort/gaussian_depth_prepass_core.sv": "A7846C33C4B874A4BF1199844F196FD171686A594351B8FFF7ADF6D64455446D",
+    "rtl/sort/gaussian_depth_prepass_shared_mac.sv": "478F4B0394A56A731453CBD19AC79B56A7DF21FCB23B26F1E8AF665AC69C9E79",
+    "verification/rtl/tb_gaussian_depth_prepass_shared_mac.sv": "D78446617533C5A2EB2D37B2A54BDB211C0D36D86DA090D12FE38B9F7170C9EF"
+  },
+  "records": [
+    {
+      "contexts": 1,
+      "vectors": 324,
+      "burst64_cycles": 384,
+      "grants": 972,
+      "stalls": 16,
+      "cycles": 2071,
+      "full": 1746,
+      "concurrent_io": 0
+    },
+    {
+      "contexts": 3,
+      "vectors": 324,
+      "burst64_cycles": 195,
+      "grants": 972,
+      "stalls": 113,
+      "cycles": 1105,
+      "full": 760,
+      "concurrent_io": 31
+    },
+    {
+      "contexts": 4,
+      "vectors": 324,
+      "burst64_cycles": 195,
+      "grants": 972,
+      "stalls": 110,
+      "cycles": 1092,
+      "full": 737,
+      "concurrent_io": 31
+    }
+  ],
+  "burst64_speedup_context4_vs_context1": 1.9692307692307693
+}

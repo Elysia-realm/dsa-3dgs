@@ -1,0 +1,26 @@
+{
+  "scene": "train",
+  "status": "PASS",
+  "metrics": {
+    "n": 1026508,
+    "cycles": 15456299,
+    "partitions": 34721,
+    "leaves": 161730,
+    "reads": 10398230,
+    "writes": 9371722,
+    "peak": 50,
+    "overlap": 293671,
+    "parallel": 173777
+  },
+  "seconds": 1254.625,
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "95b7abdbdd59b3a79d456144aca9941fd6542ca708108b45f884d94c9bebd7b9",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259a001e202e3703c6005fe6712ced73dbf13bdcadcf0f9042e582527858c",
+    "verification/rtl/tb_t06_qsu_bsu.sv": "c0e63037ece64bac1e856225bfb60b920d4963e4852df4e14e6ff816e6819ff7"
+  },
+  "binary_sha256": "627f86dc626d1670f6706b3ab18e90f09ada85487b13bc8d0a2b5456550cdf77",
+  "simulator": "icarus",
+  "manifest_sha256": "d88dd88d93f311604e598f9ea4c4e94a78017a4dfdfe8f81b8422addf1f09b2f",
+  "log_sha256": "8fb6da2c67e8b6964f7541271c185327966f2caeaceba89283c83b6afa9213be"
+}

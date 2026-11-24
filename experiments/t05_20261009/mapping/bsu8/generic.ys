@@ -1,0 +1,7 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/rtl/common/rv_reg_slice.sv" "D:/3DGS/rtl/sort/bitonic_group_sorter_shared.sv" "D:/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv" "D:/3DGS/rtl/sort/stable_group_sorter_parallel_shared.sv" "D:/3DGS/rtl/raster/blend_fixed_core.sv" "D:/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv"
+chparam -set CAPACITY 8 -set DEPTH_W 27 -set GID_W 32 -set SEQ_W 16 -set PAYLOAD_W 1 -set COMPARE_LANES 4 bitonic_group_sorter_shared
+hierarchy -check -top bitonic_group_sorter_shared
+rename bitonic_group_sorter_shared t05_dut
+synth -top t05_dut -flatten -noabc
+check -assert
+write_rtlil "D:/3DGS/experiments/t05_20261009/mapping/bsu8/generic.il"

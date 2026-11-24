@@ -1,0 +1,20 @@
+[
+  "/home/gs3d/work/t08_20261031/dual_format_sequences_20261122/simulation",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/f1.memh",
+  "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/mean.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/camera.memh",
+  "+NEXT_ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/f1.memh",
+  "+NEXT_FORMAT=1",
+  "+ATTR_FORMAT=1",
+  "+SEQ_KIND=1",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/control_1_1_1/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/control_1_1_1/frame.rgb",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/control_1_1_1/sorted.txt",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=50000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/usr/bin/vvp",
+    "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/nangate45/dma.vvp",
+    "+N=159",
+    "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_dma_gates_20261122/nangate45/probe/0/input.memh",
+    "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dual_dma_gates_20261122/nangate45/probe/0/expected.memh"
+  ],
+  "inputs_sha256": "6ED779F4DFA315507A441124391CF27656299F35F94878305C14B0B2C413EE7D",
+  "expected_sha256": "251ECC82E4F5BB89B4D06DBCC138CF868D621F48D71758E738F4BA7683D74F4E",
+  "binary_sha256": "6E9532CD97A79E67811BBEF8087BE05A864BE0E923A79C710E4BCB11831F0DAC"
+}

@@ -1,0 +1,19 @@
+[
+  "/home/gs3d/work/t08_20261031/bbox_pair_serial_native_20261122/1/simulation",
+  "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/bonsai/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/bonsai/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/bonsai/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/real/bonsai/1/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/real/bonsai/1/rgb.memh",
+  "+FRAME_MODE=0",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+MAX_TIMEOUT=2000000000",
+  "+AUTO_QSU",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/real/bonsai/1/sorted.txt",
+  "+ATTR_FORMAT=1",
+  "+MUTATE_FORMAT"
+]

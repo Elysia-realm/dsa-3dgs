@@ -1,0 +1,250 @@
+{
+  "scene": "train",
+  "format": 2,
+  "width": 128,
+  "height": 71,
+  "gaussians": 1026508,
+  "counters": {
+    "REAL_RGB_BURST": {
+      "configured": 16
+    },
+    "REAL_ADDRESS_LAYOUT": {
+      "camera": 2000,
+      "mean": 1000000,
+      "attr": 10000000,
+      "scratch": 60000000,
+      "output": 70000000,
+      "max_count": 7000000,
+      "max_pixels": 16384,
+      "disjoint": 1
+    },
+    "REAL_END_TO_END": {
+      "command_cycles": 31217013,
+      "camera_setup_cycles": 33,
+      "post_batch_cycles": 31216980,
+      "command_count": 1,
+      "window": 4,
+      "mshr": 4,
+      "response_bypass": 1,
+      "commit_bypass": 1
+    },
+    "REAL_DMA_COUNTS": {
+      "camera_beats": 14,
+      "mean_beats": 1026508,
+      "attribute_beats": 7190908,
+      "qsu_read_beats": 8652965,
+      "qsu_write_beats": 7726358,
+      "camera_bursts": 1,
+      "mean_bursts": 64157,
+      "attribute_bursts": 1874072,
+      "qsu_read_bursts": 647767,
+      "qsu_write_bursts": 7726358,
+      "state_read_bursts": 111532,
+      "output_write_bursts": 807283
+    },
+    "REAL_LOCAL_QSU": {
+      "records": 0
+    },
+    "REAL_RGB": {
+      "reads": 9088,
+      "write_beats": 1704,
+      "bursts": 146,
+      "bytes": 27264,
+      "epoch": 1,
+      "error": 0
+    },
+    "REAL_SORT_WORK": {
+      "caps": 1048601,
+      "sequence": 1,
+      "shared": 141048,
+      "local": 11142792,
+      "swaps": 1664666,
+      "phases": 1410480,
+      "groups": 141048,
+      "fallback": 141842,
+      "phase_grants": 3797,
+      "phase_stalls": 8,
+      "shifts": 0,
+      "collect": 0,
+      "fast": 0,
+      "reverse": 0
+    },
+    "REAL_QSU": {
+      "enabled": 1,
+      "input": 926607,
+      "partitions": 31635,
+      "leaves": 141048,
+      "reads": 8652965,
+      "writes": 7726358,
+      "stalls": 20959977,
+      "peak": 50,
+      "axi_reads": 8652965,
+      "axi_writes": 7726358
+    },
+    "REAL_WORKLOAD": {
+      "gaussians": 1026508,
+      "resolution": 128,
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready": 1,
+      "write_response_latency": 2
+    },
+    "REAL_CONTINUATION": {
+      "enabled": 0,
+      "batches": 1,
+      "first_count": 1026508,
+      "second_count": 0,
+      "epoch": 1,
+      "state_in": 0
+    },
+    "REAL_PERF": {
+      "cycles": 31216980,
+      "commits": 807137,
+      "state_misses": 110928,
+      "read_stall": 31415,
+      "output_stall": 0,
+      "state_reads": 110928,
+      "state_writes": 807137
+    },
+    "REAL_ALPHA_SKIP": {
+      "enabled": 1,
+      "skipped": 3188508
+    },
+    "REAL_SHARED_PE": {
+      "enabled": 1,
+      "main_projection": 1,
+      "G": 141048,
+      "P": 3806329,
+      "R": 807137,
+      "G_stall": 8,
+      "P_stall": 150446,
+      "R_stall": 80121,
+      "utilization": 4754514,
+      "competing": 92408,
+      "main_mac": 2779821
+    },
+    "REAL_WRITEBACK": {
+      "enabled": 0,
+      "depth": 32,
+      "coalesced": 0,
+      "forwarded_reads": 0
+    },
+    "REAL_MULTIWRITE": {
+      "enabled": 1,
+      "depth": 8,
+      "peak_outstanding": 4
+    },
+    "REAL_WRITE_LOCALITY": {
+      "consecutive_same_pixel_commits": 3078
+    },
+    "REAL_STAGE": {
+      "mode": 0,
+      "lanes": 4,
+      "collect": 2181330,
+      "drain": 29022771,
+      "group_busy": 31201839,
+      "sort_busy": 23142783,
+      "attr_wait": 742901,
+      "projection_busy": 23225955,
+      "sh_busy": 23158803,
+      "raster_busy": 18857500,
+      "overlap": 18855610,
+      "sorted_bp": 22211506,
+      "block_bp": 16963855,
+      "retire_wait": 10774077,
+      "state_cache_busy": 1008030,
+      "window_wait": 102228,
+      "window_same": 0,
+      "window_diff": 102228,
+      "group_active": 4,
+      "group_service_stall": 0
+    },
+    "REAL_RECONFIG": {
+      "projection_mask": 3,
+      "sh_mask": 3,
+      "raster_mask": 3,
+      "projection_issue": 926607,
+      "sh_issue": 926607,
+      "raster_issue": 3995645,
+      "projection_inactive_issue": 0,
+      "sh_inactive_issue": 0,
+      "raster_inactive_issue": 0
+    },
+    "REAL_SHAPE": {
+      "enabled": 1,
+      "rejected_blocks": 216715
+    },
+    "REAL_BACKEND": {
+      "mshr_count": 4,
+      "blend_full": 254623,
+      "mshr_zero": 30902776,
+      "mshr_one": 119439,
+      "mshr_two": 194798,
+      "mshr_full_query_block": 0,
+      "cache_rsp_block": 0,
+      "miss_issue_block": 31415,
+      "ar_stall": 0,
+      "r_stall": 0,
+      "reader_rsp_block": 0
+    },
+    "REAL_WINDOW_OPP": {
+      "third_candidate": 102228,
+      "third_mshr_two": 7003,
+      "third_mshr_one": 14731,
+      "third_distinct": 102228,
+      "third_distinct_mshr_two": 7003,
+      "third_raw": 0,
+      "head_need_query": 0,
+      "head_wait_rsp": 97534,
+      "head_need_blend": 0,
+      "head_wait_blend": 4694,
+      "head_done_blocked": 0
+    },
+    "REAL_BLEND_BYPASS": {
+      "enabled": 1,
+      "fires": 807137
+    },
+    "REAL_COMMIT_BYPASS": {
+      "enabled": 1,
+      "fires": 741508
+    },
+    "REAL_OPERAND_ISOLATION": {
+      "enabled": 0,
+      "broadcast_exposures": 23395436,
+      "isolated_exposures": 23395436,
+      "avoided_exposures": 0
+    },
+    "REAL_T07_TERMINATION": {
+      "enabled": 1,
+      "accepted": 17491891,
+      "alpha_issued": 3995645,
+      "skipped": 13496246,
+      "updates": 7990,
+      "full_blocks": 84
+    },
+    "REAL_T08": {
+      "format": 2,
+      "requests": 926607,
+      "expected_beats": 7190908,
+      "precomputed": 925436,
+      "world_precomputed": 925436
+    }
+  },
+  "command_cycles": 31217013,
+  "bbox_skips": 0,
+  "reference_sha256": "2FE8F73A9ADE023A7ED00CA03915EE449F1026D56F403451F12268C4FBD01CCF",
+  "internal_float_mae": 0.3867737676056338,
+  "internal_float_max": 4,
+  "hashes": {
+    "rgb.memh": "96EDE83EF81E34B6645E964DA85523A5AE77E1C62F2C319EDEE16FAD5AFFC14C",
+    "state.memh": "EF4859600A7919D24F0714F2EE94607373A32C58F22E42FB6D3859439AE509DF",
+    "sorted.txt": "8C2A4E13D17CA703266D563F6CE41BD52FEC07AB791B5A7D18F4DD138652B1ED",
+    "frame.png": "FA343825B5C8575CAE7C734448376A17DDC1777A5BD5D853493C2B4E1545C069",
+    "launch.json": "FAC90C5BAA2F55363021C66210454B4E010E7D322B2AC2BF6441F739FD2292B9"
+  },
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 1000.7303632009998,
+    "log_sha256": "502AC3114275C337677B201B9B3E6D30BAD2641439376947B7C698B3F1E4B9AD"
+  }
+}

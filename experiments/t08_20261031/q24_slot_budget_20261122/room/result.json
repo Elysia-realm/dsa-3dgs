@@ -1,0 +1,11 @@
+{
+  "scene": "room",
+  "records": 1593376,
+  "requests": 1380856,
+  "v1_actual_bytes": 168735856,
+  "q24_projected_bytes": 168739088,
+  "raw_bytes": 198843264,
+  "extra_escapes": 200,
+  "source_ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+  "q24_saved_vs_raw_percent": 15.139650896094725
+}

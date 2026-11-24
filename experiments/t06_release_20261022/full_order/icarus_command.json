@@ -1,0 +1,15 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-DT06_MAX_COUNT=7000000",
+  "-DTB_QSU_PRECOUNT=1",
+  "-s",
+  "tb_t06_qsu_bsu",
+  "-o",
+  "D:\\3DGS\\experiments\\t06_release_20261022\\full_order\\order.vvp",
+  "rtl/sort/autonomous_qsu.sv",
+  "rtl/sort/bitonic_group_sorter_pipelined_shared.sv",
+  "rtl/control/shared_reconfigurable_pe_slice.sv",
+  "verification/rtl/tb_t06_qsu_bsu.sv"
+]

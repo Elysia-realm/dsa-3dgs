@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/shared_ddr_render_20261123/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/room/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/inputs/room/v2.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/room/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/room/f2_t1/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/room/f2_t1/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/room/f2_t1/sorted.txt",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT",
+    "+LABEL=room_camera155",
+    "+LPDDR_TIMED",
+    "+MODEL_CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+    "+MODEL_STATS=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/room/f2_t1/model.stats"
+  ],
+  "elf_sha256": "2B4E84C1E2AFF5250C28BFEE421EEEB3C8F0F5BD2BAB5CE8D6E43C7DF116E294",
+  "input_sha256": {
+    "MEAN": "439F9BB4A364792D91FF685155CF6267D2E2669E3FCA22BF91811048650C4C4B",
+    "ATTR": "2E5B25E87E667A5F4D2B19431E512285351DA8DDEC8F16F99B87AB442E91E119",
+    "CAMERA": "F6BD7B0F5DA2C21FBAE24EBB1F279439B72FB19D75BAA2D4447EED963AC3EB82"
+  }
+}

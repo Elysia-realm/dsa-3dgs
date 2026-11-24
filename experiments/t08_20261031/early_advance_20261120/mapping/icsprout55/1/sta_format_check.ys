@@ -1,0 +1,11 @@
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+read_verilog "/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/mapping/icsprout55/1/mapped.v"
+hierarchy -check -top axi4_t08_attribute_read_engine
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t08_20261031/early_advance_20261120/mapping/sta_format/D315D2BC093963D3/original.il"
+design -reset
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+read_verilog "/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/mapping/icsprout55/1/mapped.sta.v"
+hierarchy -check -top axi4_t08_attribute_read_engine
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t08_20261031/early_advance_20261120/mapping/sta_format/D315D2BC093963D3/adapted.il"

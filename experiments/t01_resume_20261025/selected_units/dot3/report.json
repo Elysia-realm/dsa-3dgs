@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "pe",
+      "status": "PASS",
+      "build_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-s",
+        "tb_t06_dot3_pe",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/pe.vvp",
+        "rtl/common/rv_reg_slice.sv",
+        "rtl/control/shared_reconfigurable_pe_slice.sv",
+        "verification/rtl/tb_t06_dot3_pe.sv"
+      ],
+      "run_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/pe.vvp"
+      ],
+      "result": "PASS DOT3_PE vectors=256 G=63 R=126 held=98 cycles=667\nverification/rtl/tb_t06_dot3_pe.sv:51: $finish called at 6705000 (1ps)\n"
+    },
+    {
+      "name": "depth",
+      "status": "PASS",
+      "build_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-s",
+        "tb_t06_dot3_depth",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/depth.vvp",
+        "rtl/common/rv_reg_slice.sv",
+        "rtl/control/shared_reconfigurable_pe_slice.sv",
+        "rtl/sort/gaussian_depth_prepass_core.sv",
+        "rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+        "verification/rtl/tb_t06_dot3_depth.sv"
+      ],
+      "run_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/depth.vvp"
+      ],
+      "result": "PREPASS_QUEUE contexts=4 vectors=324 burst64_cycles=67 grants=324 stalls=46 cycles=451 full=110 concurrent_io=253\nPASS: tb_t06_dot3_depth\nverification/rtl/tb_t06_dot3_depth.sv:106: $finish called at 4526000 (1ps)\n"
+    },
+    {
+      "name": "xyz",
+      "status": "PASS",
+      "build_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-s",
+        "tb_t06_dot3_xyz",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/xyz.vvp",
+        "rtl/common/rv_reg_slice.sv",
+        "rtl/control/shared_reconfigurable_pe_slice.sv",
+        "rtl/projection/world_to_camera_core.sv",
+        "rtl/projection/world_to_camera_shared_mac.sv",
+        "verification/rtl/tb_t06_dot3_xyz.sv"
+      ],
+      "run_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/xyz.vvp"
+      ],
+      "result": "PASS: tb_t06_dot3_xyz vectors=258 P=774 G=3771 stalls=612 cycles=7657\nverification/rtl/tb_t06_dot3_xyz.sv:145: $finish called at 76586000 (1ps)\n"
+    },
+    {
+      "name": "xyz_stream",
+      "status": "PASS",
+      "build_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-DTB_XYZ_STREAMING=1",
+        "-s",
+        "tb_t06_dot3_xyz",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/xyz_stream.vvp",
+        "rtl/common/rv_reg_slice.sv",
+        "rtl/control/shared_reconfigurable_pe_slice.sv",
+        "rtl/projection/world_to_camera_core.sv",
+        "rtl/projection/world_to_camera_shared_mac.sv",
+        "verification/rtl/tb_t06_dot3_xyz.sv"
+      ],
+      "run_command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/dot3/xyz_stream.vvp"
+      ],
+      "result": "XYZ_STREAM turnover=1 bypass=1 stress=0 vectors=128 P=384 G=0 stalls=0 cycles=513 turnovers=127 first_grants=128 first_stalls=0\nXYZ_STREAM turnover=1 bypass=1 stress=1 vectors=128 P=384 G=841 stalls=389 cycles=1729 turnovers=127 first_grants=20 first_stalls=108\nPASS: tb_t06_dot3_xyz streaming\nverification/rtl/tb_t06_dot3_xyz.sv:132: $finish called at 22456000 (1ps)\n"
+    }
+  ],
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51e3ddcc0f2187942fc27b77905e33979acc95dc012dc30a3ed7f2b0b0d65f9d",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259a001e202e3703c6005fe6712ced73dbf13bdcadcf0f9042e582527858c",
+    "verification/rtl/tb_t06_dot3_pe.sv": "345b18a0bbf3666cace9fb7abb997812609ec82c50995bc8c585a1c00d7fc2d9",
+    "rtl/sort/gaussian_depth_prepass_core.sv": "a7846c33c4b874a4bf1199844f196fd171686a594351b8fff7adf6d64455446d",
+    "rtl/sort/gaussian_depth_prepass_shared_mac.sv": "90bb3d1bd5ed4f1fab36bf0982de91ede8c3e14f578e1861e0d29b947f61e839",
+    "verification/rtl/tb_t06_dot3_depth.sv": "5e628de703a11f72c367858f84980a3b01d6ff18208b09b220f9b94ef3036ab4",
+    "rtl/projection/world_to_camera_core.sv": "3f4def3883094b33e8b98b1cf10db3a613cd9fc25b9b2c1371f5c137a47be98b",
+    "rtl/projection/world_to_camera_shared_mac.sv": "949e2203897508ae9806767287b5fff80fcc76d12b6ccc704a5fc85a557ed4fb",
+    "verification/rtl/tb_t06_dot3_xyz.sv": "8c9b8b15d804e143afc53eae4a5caf5c897aeb23432cdd18163b7f004010d9dd"
+  }
+}

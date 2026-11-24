@@ -1,0 +1,52 @@
+{
+  "scene": "truck",
+  "gaussians": 2541226,
+  "full_model": true,
+  "ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+  "covariance_fractional_bits": 20,
+  "covariance_integer_min": -8886617,
+  "covariance_integer_max": 68096233,
+  "world_covariance_overflow_records": 0,
+  "covariance_signed24_fit_records": 2541195,
+  "sh_integer_min": -9979,
+  "sh_integer_max": 57497,
+  "sh_signed16_fit_records": 2541174,
+  "lossless_degree_histogram": [
+    26127,
+    58400,
+    12909,
+    2443790
+  ],
+  "analytic_tail_bound_sensitivity": {
+    "1": [
+      26127,
+      58400,
+      12909,
+      2443790
+    ],
+    "4": [
+      26286,
+      58242,
+      12910,
+      2443788
+    ]
+  },
+  "nonzero_error_budget_selected": false,
+  "candidate_beats_histogram": [
+    0,
+    0,
+    0,
+    26126,
+    58400,
+    0,
+    12907,
+    0,
+    2443710,
+    83
+  ],
+  "uncompressed_attribute_bytes": 365936544,
+  "candidate_useful_payload_bytes": 319037552,
+  "estimated_attribute_payload_reduction_percent": 12.816154267445889,
+  "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+  "signed_off": false
+}

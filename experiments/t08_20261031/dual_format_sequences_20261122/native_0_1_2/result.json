@@ -1,0 +1,21 @@
+{
+  "label": "native_0_1_2",
+  "kind": 0,
+  "first": 1,
+  "second": 2,
+  "native": true,
+  "outputs": {
+    "frame.rgb": "C69768F0C1A10233AB112775D8A9D201A6888E888C78A57E1DA625D75C53CB6E",
+    "sorted.txt": "A3312129DA1086DB99D493DF0FBD43F01EFCF41215E760F4B39B8D53D9F0ECE6",
+    "frame.rgb.first": "D94C305C5FD2B706CE10B59768DCF18B5168D2D62E779A3562304B741C08DF5E"
+  },
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 736.358433254,
+    "log_sha256": "44EF029E81F4E2228270982F32E2D403C5A05FF2A3884E5687DBF31EEE8ADC8A"
+  },
+  "frames": [
+    "SEQUENCE_FRAME fmt=1 epoch=1 requests=61 precomputed=61 beats=481 reads=6479204 rgb_bytes=19450080",
+    "SEQUENCE_FRAME fmt=2 epoch=2 requests=61 precomputed=61 beats=481 reads=6479204 rgb_bytes=19450080"
+  ]
+}

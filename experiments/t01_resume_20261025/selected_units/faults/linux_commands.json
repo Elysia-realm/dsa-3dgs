@@ -1,0 +1,190 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-s",
+      "tb_t06_precount_abort",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_abort.vvp",
+      "rtl/sort/autonomous_qsu.sv",
+      "rtl/sort/bitonic_group_sorter_pipelined_shared.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "verification/rtl/tb_t06_precount_abort.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.06498136300001534,
+    "child_cpu_seconds": 0.029666000000002413,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_abort.vvp",
+      "+ABORT_KIND=0",
+      "+N=256",
+      "+ABORT_READ=3",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.10891611400001011,
+    "child_cpu_seconds": 0.056346999999998815,
+    "binary_sha256": "413E57EE2E023711911B100BE39087B85F1F79FC9B77AF1A393779FD8EE65B9E",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh": "2D55059AD91CD9FBFD588177229117ED1F9EC2A6DFB365CCAEE5DFE4E968FFFF",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh": "AA5345F37ACED81E80627EF6DAA4ED18DE96FD2F2D1CE40FC613BE858E551A84"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_abort.vvp",
+      "+ABORT_KIND=1",
+      "+N=256",
+      "+ABORT_READ=3",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.13102668099998027,
+    "child_cpu_seconds": 0.1119520000000005,
+    "binary_sha256": "413E57EE2E023711911B100BE39087B85F1F79FC9B77AF1A393779FD8EE65B9E",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh": "2D55059AD91CD9FBFD588177229117ED1F9EC2A6DFB365CCAEE5DFE4E968FFFF",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh": "AA5345F37ACED81E80627EF6DAA4ED18DE96FD2F2D1CE40FC613BE858E551A84"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_abort.vvp",
+      "+ABORT_KIND=2",
+      "+N=256",
+      "+ABORT_READ=3",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.08656824799999185,
+    "child_cpu_seconds": 0.06719600000000092,
+    "binary_sha256": "413E57EE2E023711911B100BE39087B85F1F79FC9B77AF1A393779FD8EE65B9E",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh": "2D55059AD91CD9FBFD588177229117ED1F9EC2A6DFB365CCAEE5DFE4E968FFFF",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh": "AA5345F37ACED81E80627EF6DAA4ED18DE96FD2F2D1CE40FC613BE858E551A84"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_abort.vvp",
+      "+ABORT_KIND=3",
+      "+N=256",
+      "+ABORT_READ=3",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.08810625500001379,
+    "child_cpu_seconds": 0.07794200000000018,
+    "binary_sha256": "413E57EE2E023711911B100BE39087B85F1F79FC9B77AF1A393779FD8EE65B9E",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh": "2D55059AD91CD9FBFD588177229117ED1F9EC2A6DFB365CCAEE5DFE4E968FFFF",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh": "AA5345F37ACED81E80627EF6DAA4ED18DE96FD2F2D1CE40FC613BE858E551A84"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_abort.vvp",
+      "+ABORT_KIND=4",
+      "+N=256",
+      "+ABORT_READ=3",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.08884782199999108,
+    "child_cpu_seconds": 0.07689099999999982,
+    "binary_sha256": "413E57EE2E023711911B100BE39087B85F1F79FC9B77AF1A393779FD8EE65B9E",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh": "2D55059AD91CD9FBFD588177229117ED1F9EC2A6DFB365CCAEE5DFE4E968FFFF",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh": "AA5345F37ACED81E80627EF6DAA4ED18DE96FD2F2D1CE40FC613BE858E551A84"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_abort.vvp",
+      "+ABORT_KIND=5",
+      "+N=256",
+      "+ABORT_READ=3",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.13806578300000183,
+    "child_cpu_seconds": 0.0725289999999994,
+    "binary_sha256": "413E57EE2E023711911B100BE39087B85F1F79FC9B77AF1A393779FD8EE65B9E",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh": "2D55059AD91CD9FBFD588177229117ED1F9EC2A6DFB365CCAEE5DFE4E968FFFF",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh": "AA5345F37ACED81E80627EF6DAA4ED18DE96FD2F2D1CE40FC613BE858E551A84"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-s",
+      "tb_t06_precount_backpressure",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_backpressure.vvp",
+      "rtl/sort/autonomous_qsu.sv",
+      "rtl/sort/bitonic_group_sorter_pipelined_shared.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "verification/rtl/tb_t06_precount_backpressure.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.11066835399998354,
+    "child_cpu_seconds": 0.03089999999999904,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_backpressure.vvp",
+      "+N=256",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.19567248399999926,
+    "child_cpu_seconds": 0.1732440000000004,
+    "binary_sha256": "A010BC0A04C8315A191C3CA36D033259612A5BAD6B54C94FDB944C4C4EF08136",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh": "2D55059AD91CD9FBFD588177229117ED1F9EC2A6DFB365CCAEE5DFE4E968FFFF",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh": "AA5345F37ACED81E80627EF6DAA4ED18DE96FD2F2D1CE40FC613BE858E551A84"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/faults/tb_t06_precount_backpressure.vvp",
+      "+N=4097",
+      "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_4097/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_4097/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.6667891189999864,
+    "child_cpu_seconds": 2.6313710000000015,
+    "binary_sha256": "A010BC0A04C8315A191C3CA36D033259612A5BAD6B54C94FDB944C4C4EF08136",
+    "vector_sha256": {
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_4097/input.memh": "5BD22588F34092F15411F8E04B0E2D80706C0C65F824A665CDEE50F50D4AC268",
+      "/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_4097/expected.memh": "671432CB784EE0A01000E8B9E18792BFB67E47FA983B10322EE8DCB16C8D2171"
+    }
+  }
+]

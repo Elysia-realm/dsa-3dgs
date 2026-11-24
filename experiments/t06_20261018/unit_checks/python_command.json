@@ -1,0 +1,8 @@
+[
+  "C:\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "-m",
+  "unittest",
+  "verification.test_t06_projection_reference",
+  "verification.test_scene_io",
+  "-v"
+]

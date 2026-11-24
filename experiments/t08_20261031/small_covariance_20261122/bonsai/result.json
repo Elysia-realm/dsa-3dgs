@@ -1,0 +1,28 @@
+{
+  "scene": "bonsai",
+  "camera": 146,
+  "counts": {
+    "records": 1244819,
+    "selected": 95971,
+    "risk_q20": 6800,
+    "risk_q24": 0,
+    "recovered": 6800,
+    "new_risks": 0
+  },
+  "examples_q20": [
+    15,
+    186,
+    314,
+    366,
+    717,
+    993,
+    1151,
+    1184
+  ],
+  "known_case": [
+    true,
+    false
+  ],
+  "ply_sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273",
+  "camera_sha256": "9D644EE390CB16361D71E505A0F83E073E40965CC9D8AE9C0B38396B471DA2DE"
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "Artifact integrity and same-condition mapping; not STA or PPA signoff",
+  "runs": [
+    {
+      "pdk": "freepdk45_nangate45",
+      "variant": "alpha_only",
+      "integrity": "PASS",
+      "area_um2": 14895044.79403,
+      "sta": "NOT_EXECUTED"
+    },
+    {
+      "pdk": "freepdk45_nangate45",
+      "variant": "shared_baseline",
+      "integrity": "PASS",
+      "area_um2": 14894909.13403,
+      "sta": "NOT_EXECUTED"
+    },
+    {
+      "pdk": "icsprout55_rvt",
+      "variant": "alpha_only",
+      "integrity": "PASS",
+      "area_um2": 21612424.960009,
+      "sta": "NOT_EXECUTED"
+    },
+    {
+      "pdk": "icsprout55_rvt",
+      "variant": "shared_baseline",
+      "integrity": "PASS",
+      "area_um2": 21612258.080009,
+      "sta": "NOT_EXECUTED"
+    }
+  ]
+}

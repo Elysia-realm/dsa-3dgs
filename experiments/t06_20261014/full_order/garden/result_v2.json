@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scene": "garden",
+  "gaussians": 5834784,
+  "seconds": 433.5470000002533,
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "efedf31cba4a2d2235535177b658573014b02251c44c91b17c944021345659b7",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "d22343fb0fa103285fb1740a6e184e541c68694b6478f65ee3909fa250a38463",
+    "verification/rtl/tb_t06_qsu_bsu.sv": "12cff38647b430a85844f31742c02ad19427b00889cbf117ced26208e61c656f"
+  }
+}

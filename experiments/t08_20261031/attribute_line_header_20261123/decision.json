@@ -1,0 +1,154 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "records": 1051092,
+      "logical_length_histogram": {
+        "3": 58073,
+        "4": 5870,
+        "6": 2872,
+        "8": 984036,
+        "9": 241
+      },
+      "line": {
+        "bytes": 129662832,
+        "bursts": 2083159,
+        "lines": 2810497,
+        "single": 30533
+      },
+      "eight_projection": {
+        "bytes": 134438768,
+        "bursts": 1078746,
+        "lines": 2888481,
+        "single": 1023438
+      },
+      "raw_bytes": 151357248,
+      "cycles": 62373298,
+      "saved_pct": 1.1342379914963119,
+      "gap_raw_pct": 15.156930269472912,
+      "comparison_sha256": "ABA7B61B68DB34C3DA805C6D58EA427959043FE7E5B1909C3EBF168F48F1AAD3",
+      "result_log_sha256": "D4D137CD957C96E25B30F6C5B1EC9F764ECCF69AE4AFB4A217B159D8AFC975D3"
+    },
+    {
+      "scene": "counter",
+      "records": 1110964,
+      "logical_length_histogram": {
+        "3": 24240,
+        "4": 2141,
+        "6": 1259,
+        "8": 1083230,
+        "9": 94
+      },
+      "line": {
+        "bytes": 140184848,
+        "bursts": 2222219,
+        "lines": 3022463,
+        "single": 12440
+      },
+      "eight_projection": {
+        "bytes": 142165056,
+        "bursts": 1140928,
+        "lines": 3054567,
+        "single": 1081000
+      },
+      "raw_bytes": 159978816,
+      "cycles": 66913160,
+      "saved_pct": 1.041649027617808,
+      "gap_raw_pct": 16.615687110366274,
+      "comparison_sha256": "C2D4DDE1634DDBEC936A10E7E1E3129D89A76A80596EF848AA372CF878760DCD",
+      "result_log_sha256": "07982D8AEB1E225FF6B9814F48EA126D341E230A1A2683061E6097C66B501EA9"
+    },
+    {
+      "scene": "room",
+      "records": 1380856,
+      "logical_length_histogram": {
+        "3": 96488,
+        "4": 3839,
+        "6": 1530,
+        "8": 1278798,
+        "9": 201
+      },
+      "line": {
+        "bytes": 169125872,
+        "bursts": 2727622,
+        "lines": 3672266,
+        "single": 49095
+      },
+      "eight_projection": {
+        "bytes": 176593840,
+        "bursts": 1416861,
+        "lines": 3794322,
+        "single": 1344851
+      },
+      "raw_bytes": 198843264,
+      "cycles": 82890597,
+      "saved_pct": 1.155981356213398,
+      "gap_raw_pct": 14.201032378714729,
+      "comparison_sha256": "52DD710FFF0BC8D0AAB93C6DD3DAA81080365784702E029A1E21603795466677",
+      "result_log_sha256": "02B0EDF20DAF4F17F7B4235501957534F998F7957000B021DAFC39CB4C71FB4C"
+    },
+    {
+      "scene": "train",
+      "records": 926607,
+      "logical_length_histogram": {
+        "3": 40987,
+        "4": 3962,
+        "6": 1168,
+        "8": 879319,
+        "9": 1171
+      },
+      "line": {
+        "bytes": 115218800,
+        "bursts": 1841929,
+        "lines": 2492700,
+        "single": 21663
+      },
+      "eight_projection": {
+        "bytes": 118555552,
+        "bursts": 952197,
+        "lines": 2547987,
+        "single": 901017
+      },
+      "raw_bytes": 133431408,
+      "cycles": 55063761,
+      "saved_pct": 1.0487416132136995,
+      "gap_raw_pct": 15.942419254442196,
+      "comparison_sha256": "AAAA9CE123AE7926B0F3591CD2668C9059C77E860D7DB3CC0AA1EAD3EFC30D0C",
+      "result_log_sha256": "3A40D24DDB3E163E51C4777BC64D97C3EB3851D4C7A9D40C27B1CE605A729305"
+    },
+    {
+      "scene": "truck",
+      "records": 1664518,
+      "logical_length_histogram": {
+        "3": 19908,
+        "4": 31801,
+        "6": 9337,
+        "8": 1601823,
+        "9": 1649
+      },
+      "line": {
+        "bytes": 209235760,
+        "bursts": 3329877,
+        "lines": 4516413,
+        "single": 17974
+      },
+      "eight_projection": {
+        "bytes": 213002864,
+        "bursts": 1710725,
+        "lines": 4577403,
+        "single": 1618311
+      },
+      "raw_bytes": 239690592,
+      "cycles": 99523282,
+      "saved_pct": 0.9860832132394748,
+      "gap_raw_pct": 16.474085247769075,
+      "comparison_sha256": "EE300D4FFD425925C1A4BA0E47EEBB0141F029BC401DFCE4558D8D887177FBEC",
+      "result_log_sha256": "F1DD6EC682B0290E290947B132240005BE4CD835EE1667FCAF7D9C4BF0C3E6F0"
+    }
+  ],
+  "report_sha256": "9A0BD82324CF6B142D93FA6E73CF46CBEC4474A7A9F4D5E511C5A020F381AAC0",
+  "subset_sha256": "7F593A1A727753AF2F4DBF82956241116A9454AF4A54FB398A77A294BBD5EFA5",
+  "protocol_sha256": "B5F8B216B0115D86AA50B88AFCB81D3AB55647EB259DED150126CC4218E0774D",
+  "decision": "Freeze line-bounded first burst as measured ablation. Trial up to eight beats in first burst to test the remaining length-dependent stall.",
+  "signed_off": false
+}

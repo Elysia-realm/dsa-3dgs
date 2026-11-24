@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXISTING_RESULT",
+  "kind": "oracle",
+  "scene": "kitchen",
+  "command": [
+    "C:\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:\\3DGS\\scripts\\run_t06_oracle_render.py",
+    "run",
+    "--scenes",
+    "kitchen",
+    "--workers",
+    "1"
+  ],
+  "started_at": "2026-10-16T23:03:43.958160+08:00",
+  "adopted_pids": [
+    6632,
+    10500
+  ],
+  "returncode": 0,
+  "finished_at": "2026-10-16T23:45:59.058192+08:00"
+}

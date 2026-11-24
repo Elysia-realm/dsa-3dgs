@@ -1,0 +1,1136 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.66+183 (git sha1 b285b72e3, Release, Clang /usr/bin/clang++ 18.1.8)
+
+-- Executing script file `/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/cell_models.ys' --
+
+1. Executing Liberty frontend: /mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib
+Ignoring cell ICGNX0P5H7R with missing function on output ECK.
+Ignoring cell ICGNX1H7R with missing function on output ECK.
+Ignoring cell ICGNX2H7R with missing function on output ECK.
+Ignoring cell ICGNX3H7R with missing function on output ECK.
+Ignoring cell ICGNX4H7R with missing function on output ECK.
+Ignoring cell ICGX0P5H7R with missing function on output ECK.
+Ignoring cell ICGX1H7R with missing function on output ECK.
+Ignoring cell ICGX2H7R with missing function on output ECK.
+Ignoring cell ICGX3H7R with missing function on output ECK.
+Ignoring cell ICGX4H7R with missing function on output ECK.
+Imported 737 cell types from liberty file.
+<suppressed ~26 debug messages>
+
+2. Executing Verilog-2005 frontend: /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/icsprout55/mapped.v
+Parsing Verilog input from `/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/icsprout55/mapped.v' to AST representation.
+Generating RTLIL representation for module `\axi4_t08_attribute_read_engine'.
+Successfully finished Verilog frontend.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \axi4_t08_attribute_read_engine
+Used module:     \DFFRQX2H7R
+Used module:     \DFFQX1H7R
+Used module:     \OAOI211X0P5H7R
+Used module:     \NOR2X0P5H7R
+Used module:     \OAI21X0P5H7R
+Used module:     \OA22X0P5H7R
+Used module:     \AOI21X0P5H7R
+Used module:     \NAND2BX0P5H7R
+Used module:     \NOR2BX1P4H7R
+Used module:     \OAI2BB1X0P5H7R
+Used module:     \NAND3BX0P5H7R
+Used module:     \MUX2X0P5H7R
+Used module:     \AOI2BB1X0P5H7R
+Used module:     \OR2X1P4H7R
+Used module:     \AO22X0P7H7R
+Used module:     \OAI211X1P4H7R
+Used module:     \OAI211X0P7H7R
+Used module:     \INVX0P5H7R
+Used module:     \OA21X0P7H7R
+Used module:     \NAND2X0P5H7R
+Used module:     \AOI32X0P5H7R
+Used module:     \AOI211X0P5H7R
+Used module:     \XNOR2X0P5H7R
+Used module:     \AOI2XB1X0P5H7R
+Used module:     \OAI31X0P5H7R
+Used module:     \NOR2BX1H7R
+Used module:     \AOAI211X0P5H7R
+Used module:     \AOI31X0P5H7R
+Used module:     \OR2X0P5H7R
+Used module:     \AOI22X0P5H7R
+Used module:     \OA211X0P7H7R
+Used module:     \NOR4X0P5H7R
+Used module:     \NAND4X0P5H7R
+Used module:     \NAND3X0P5H7R
+Used module:     \AND4X0P5H7R
+Used module:     \AOI222X0P5H7R
+Used module:     \NAND4BX0P5H7R
+Used module:     \OAI221X0P5H7R
+Used module:     \AOI221X0P5H7R
+Used module:     \NOR3X0P5H7R
+Used module:     \AND2X1H7R
+Used module:     \AND3X1P4H7R
+Used module:     \AOI2BB2X0P5H7R
+Used module:     \NOR4BX0P5H7R
+Used module:     \OA221X0P5H7R
+Used module:     \AO211X1H7R
+Used module:     \OAI22X0P5H7R
+Used module:     \XOR2X0P5H7R
+Used module:     \AO21X1H7R
+Used module:     \OA31X1H7R
+Used module:     \AO31X0P5H7R
+Used module:     \AND3X1H7R
+Used module:     \OAI32X0P5H7R
+Used module:     \OR3X1H7R
+Used module:     \AOA211X1P4H7R
+Used module:     \OAI2XB1X0P5H7R
+Used module:     \AND3X0P5H7R
+Used module:     \AOI21BX0P5H7R
+Used module:     \BUFX1H7R
+Used module:     \BUFX0P5H7R
+Used module:     \BUFX1P4H7R
+Used module:     \OR4X1P4H7R
+Used module:     \NOR3BX0P5H7R
+Used module:     \NOR4BBX0P5H7R
+Used module:     \OA211X1P4H7R
+Used module:     \OAO211X0P5H7R
+Used module:     \OA211X1H7R
+Used module:     \OAI21BX0P5H7R
+Used module:     \XNOR3X0P7H7R
+Used module:     \AOI33X0P5H7R
+Used module:     \XOR3X0P5H7R
+Used module:     \AO211X1P4H7R
+Used module:     \AOA211X0P5H7R
+Used module:     \BUFX0P7H7R
+Used module:     \OAI2BB2X0P5H7R
+Used module:     \BUFX3H7R
+Used module:     \OAI211X1H7R
+Used module:     \AOA211X1H7R
+Used module:     \OR2X0P7H7R
+Used module:     \OAI222X0P5H7R
+Used module:     \MUXI2X0P5H7R
+Used module:     \AO211X0P7H7R
+Used module:     \NAND3BBX0P5H7R
+Used module:     \MUX4X1P4H7R
+Used module:     \OAI33X0P7H7R
+Used module:     \OA211X0P5H7R
+Used module:     \NAND4BBX0P5H7R
+Used module:     \OAI21X1H7R
+Used module:     \OA21X1P4H7R
+Used module:     \NOR2X1P4H7R
+Used module:     \AND2X1P4H7R
+Used module:     \NAND2X1P4H7R
+Used module:     \NOR2X1H7R
+Used module:     \AO221X0P7H7R
+Used module:     \OAI21X0P7H7R
+Used module:     \AO222X0P5H7R
+Used module:     \AOI21X1H7R
+Used module:     \NAND2X0P7H7R
+Used module:     \AOI21X0P7H7R
+Used module:     \NAND2X1H7R
+Used module:     \OA21X0P5H7R
+Used module:     \AOI21X1P4H7R
+Used module:     \NOR2X0P7H7R
+Used module:     \NAND2BX1P4H7R
+Used module:     \NAND3X1H7R
+Used module:     \NOR4X1H7R
+Used module:     \INVX1P4H7R
+Used module:     \NOR3X0P7H7R
+
+3.2. Analyzing design hierarchy..
+Top module:  \axi4_t08_attribute_read_engine
+Used module:     \DFFRQX2H7R
+Used module:     \DFFQX1H7R
+Used module:     \OAOI211X0P5H7R
+Used module:     \NOR2X0P5H7R
+Used module:     \OAI21X0P5H7R
+Used module:     \OA22X0P5H7R
+Used module:     \AOI21X0P5H7R
+Used module:     \NAND2BX0P5H7R
+Used module:     \NOR2BX1P4H7R
+Used module:     \OAI2BB1X0P5H7R
+Used module:     \NAND3BX0P5H7R
+Used module:     \MUX2X0P5H7R
+Used module:     \AOI2BB1X0P5H7R
+Used module:     \OR2X1P4H7R
+Used module:     \AO22X0P7H7R
+Used module:     \OAI211X1P4H7R
+Used module:     \OAI211X0P7H7R
+Used module:     \INVX0P5H7R
+Used module:     \OA21X0P7H7R
+Used module:     \NAND2X0P5H7R
+Used module:     \AOI32X0P5H7R
+Used module:     \AOI211X0P5H7R
+Used module:     \XNOR2X0P5H7R
+Used module:     \AOI2XB1X0P5H7R
+Used module:     \OAI31X0P5H7R
+Used module:     \NOR2BX1H7R
+Used module:     \AOAI211X0P5H7R
+Used module:     \AOI31X0P5H7R
+Used module:     \OR2X0P5H7R
+Used module:     \AOI22X0P5H7R
+Used module:     \OA211X0P7H7R
+Used module:     \NOR4X0P5H7R
+Used module:     \NAND4X0P5H7R
+Used module:     \NAND3X0P5H7R
+Used module:     \AND4X0P5H7R
+Used module:     \AOI222X0P5H7R
+Used module:     \NAND4BX0P5H7R
+Used module:     \OAI221X0P5H7R
+Used module:     \AOI221X0P5H7R
+Used module:     \NOR3X0P5H7R
+Used module:     \AND2X1H7R
+Used module:     \AND3X1P4H7R
+Used module:     \AOI2BB2X0P5H7R
+Used module:     \NOR4BX0P5H7R
+Used module:     \OA221X0P5H7R
+Used module:     \AO211X1H7R
+Used module:     \OAI22X0P5H7R
+Used module:     \XOR2X0P5H7R
+Used module:     \AO21X1H7R
+Used module:     \OA31X1H7R
+Used module:     \AO31X0P5H7R
+Used module:     \AND3X1H7R
+Used module:     \OAI32X0P5H7R
+Used module:     \OR3X1H7R
+Used module:     \AOA211X1P4H7R
+Used module:     \OAI2XB1X0P5H7R
+Used module:     \AND3X0P5H7R
+Used module:     \AOI21BX0P5H7R
+Used module:     \BUFX1H7R
+Used module:     \BUFX0P5H7R
+Used module:     \BUFX1P4H7R
+Used module:     \OR4X1P4H7R
+Used module:     \NOR3BX0P5H7R
+Used module:     \NOR4BBX0P5H7R
+Used module:     \OA211X1P4H7R
+Used module:     \OAO211X0P5H7R
+Used module:     \OA211X1H7R
+Used module:     \OAI21BX0P5H7R
+Used module:     \XNOR3X0P7H7R
+Used module:     \AOI33X0P5H7R
+Used module:     \XOR3X0P5H7R
+Used module:     \AO211X1P4H7R
+Used module:     \AOA211X0P5H7R
+Used module:     \BUFX0P7H7R
+Used module:     \OAI2BB2X0P5H7R
+Used module:     \BUFX3H7R
+Used module:     \OAI211X1H7R
+Used module:     \AOA211X1H7R
+Used module:     \OR2X0P7H7R
+Used module:     \OAI222X0P5H7R
+Used module:     \MUXI2X0P5H7R
+Used module:     \AO211X0P7H7R
+Used module:     \NAND3BBX0P5H7R
+Used module:     \MUX4X1P4H7R
+Used module:     \OAI33X0P7H7R
+Used module:     \OA211X0P5H7R
+Used module:     \NAND4BBX0P5H7R
+Used module:     \OAI21X1H7R
+Used module:     \OA21X1P4H7R
+Used module:     \NOR2X1P4H7R
+Used module:     \AND2X1P4H7R
+Used module:     \NAND2X1P4H7R
+Used module:     \NOR2X1H7R
+Used module:     \AO221X0P7H7R
+Used module:     \OAI21X0P7H7R
+Used module:     \AO222X0P5H7R
+Used module:     \AOI21X1H7R
+Used module:     \NAND2X0P7H7R
+Used module:     \AOI21X0P7H7R
+Used module:     \NAND2X1H7R
+Used module:     \OA21X0P5H7R
+Used module:     \AOI21X1P4H7R
+Used module:     \NOR2X0P7H7R
+Used module:     \NAND2BX1P4H7R
+Used module:     \NAND3X1H7R
+Used module:     \NOR4X1H7R
+Used module:     \INVX1P4H7R
+Used module:     \NOR3X0P7H7R
+Removing unused module `\XOR3X6H7R'.
+Removing unused module `\XOR3X4H7R'.
+Removing unused module `\XOR3X3H7R'.
+Removing unused module `\XOR3X2H7R'.
+Removing unused module `\XOR3X1P4H7R'.
+Removing unused module `\XOR3X1H7R'.
+Removing unused module `\XOR3X0P7H7R'.
+Removing unused module `\XOR2X6H7R'.
+Removing unused module `\XOR2X4H7R'.
+Removing unused module `\XOR2X3H7R'.
+Removing unused module `\XOR2X2H7R'.
+Removing unused module `\XOR2X1P4H7R'.
+Removing unused module `\XOR2X1H7R'.
+Removing unused module `\XOR2X0P7H7R'.
+Removing unused module `\XNOR3X6H7R'.
+Removing unused module `\XNOR3X4H7R'.
+Removing unused module `\XNOR3X3H7R'.
+Removing unused module `\XNOR3X2H7R'.
+Removing unused module `\XNOR3X1P4H7R'.
+Removing unused module `\XNOR3X1H7R'.
+Removing unused module `\XNOR3X0P5H7R'.
+Removing unused module `\XNOR2X6H7R'.
+Removing unused module `\XNOR2X4H7R'.
+Removing unused module `\XNOR2X3H7R'.
+Removing unused module `\XNOR2X2H7R'.
+Removing unused module `\XNOR2X1P4H7R'.
+Removing unused module `\XNOR2X1H7R'.
+Removing unused module `\XNOR2X0P7H7R'.
+Removing unused module `\TINVX8H7R'.
+Removing unused module `\TINVX6H7R'.
+Removing unused module `\TINVX4H7R'.
+Removing unused module `\TINVX3H7R'.
+Removing unused module `\TINVX2H7R'.
+Removing unused module `\TINVX1P4H7R'.
+Removing unused module `\TINVX1H7R'.
+Removing unused module `\TINVX16H7R'.
+Removing unused module `\TINVX12H7R'.
+Removing unused module `\TINVX0P7H7R'.
+Removing unused module `\TINVX0P5H7R'.
+Removing unused module `\TIELOH7R'.
+Removing unused module `\TIEHIH7R'.
+Removing unused module `\TBUFX8H7R'.
+Removing unused module `\TBUFX6H7R'.
+Removing unused module `\TBUFX4H7R'.
+Removing unused module `\TBUFX3H7R'.
+Removing unused module `\TBUFX2H7R'.
+Removing unused module `\TBUFX1P4H7R'.
+Removing unused module `\TBUFX1H7R'.
+Removing unused module `\TBUFX16H7R'.
+Removing unused module `\TBUFX12H7R'.
+Removing unused module `\TBUFX0P7H7R'.
+Removing unused module `\TBUFX0P5H7R'.
+Removing unused module `\SDFFX3H7R'.
+Removing unused module `\SDFFX2H7R'.
+Removing unused module `\SDFFX1H7R'.
+Removing unused module `\SDFFX0P5H7R'.
+Removing unused module `\SDFFTRQX3H7R'.
+Removing unused module `\SDFFTRQX2H7R'.
+Removing unused module `\SDFFTRQX1H7R'.
+Removing unused module `\SDFFTRQX0P5H7R'.
+Removing unused module `\SDFFSX2H7R'.
+Removing unused module `\SDFFSX1H7R'.
+Removing unused module `\SDFFSX0P5H7R'.
+Removing unused module `\SDFFSRX2H7R'.
+Removing unused module `\SDFFSRX1H7R'.
+Removing unused module `\SDFFSRX0P5H7R'.
+Removing unused module `\SDFFSRQX2H7R'.
+Removing unused module `\SDFFSRQX1H7R'.
+Removing unused module `\SDFFRQX2H7R'.
+Removing unused module `\SDFFRQX1H7R'.
+Removing unused module `\SDFFRQX0P5H7R'.
+Removing unused module `\SDFFQX3H7R'.
+Removing unused module `\SDFFQX2H7R'.
+Removing unused module `\SDFFQX1H7R'.
+Removing unused module `\SDFFQX0P5H7R'.
+Removing unused module `\SDFFNX0P5H7R'.
+Removing unused module `\SDFFNSX2H7R'.
+Removing unused module `\SDFFNSX1H7R'.
+Removing unused module `\SDFFNSX0P5H7R'.
+Removing unused module `\SDFFNRX3H7R'.
+Removing unused module `\SDFFNRX2H7R'.
+Removing unused module `\SDFFNRX1H7R'.
+Removing unused module `\SDFFNRX0P5H7R'.
+Removing unused module `\OR4X6H7R'.
+Removing unused module `\OR4X4H7R'.
+Removing unused module `\OR4X3H7R'.
+Removing unused module `\OR4X2H7R'.
+Removing unused module `\OR4X1H7R'.
+Removing unused module `\OR4X0P7H7R'.
+Removing unused module `\OR4X0P5H7R'.
+Removing unused module `\OR3X8H7R'.
+Removing unused module `\OR3X6H7R'.
+Removing unused module `\OR3X4H7R'.
+Removing unused module `\OR3X3H7R'.
+Removing unused module `\OR3X2H7R'.
+Removing unused module `\OR3X1P4H7R'.
+Removing unused module `\OR3X0P7H7R'.
+Removing unused module `\OR3X0P5H7R'.
+Removing unused module `\OR2X8H7R'.
+Removing unused module `\OR2X6H7R'.
+Removing unused module `\OR2X4H7R'.
+Removing unused module `\OR2X3H7R'.
+Removing unused module `\OR2X2H7R'.
+Removing unused module `\OR2X1H7R'.
+Removing unused module `\OR2X16H7R'.
+Removing unused module `\OR2X12H7R'.
+Removing unused module `\OAOI211X4H7R'.
+Removing unused module `\OAOI211X3H7R'.
+Removing unused module `\OAOI211X2H7R'.
+Removing unused module `\OAOI211X1P4H7R'.
+Removing unused module `\OAOI211X1H7R'.
+Removing unused module `\OAOI211X0P7H7R'.
+Removing unused module `\OAO211X4H7R'.
+Removing unused module `\OAO211X3H7R'.
+Removing unused module `\OAO211X2H7R'.
+Removing unused module `\OAO211X1P4H7R'.
+Removing unused module `\OAO211X1H7R'.
+Removing unused module `\OAO211X0P7H7R'.
+Removing unused module `\OAI33X4H7R'.
+Removing unused module `\OAI33X3H7R'.
+Removing unused module `\OAI33X2H7R'.
+Removing unused module `\OAI33X1P4H7R'.
+Removing unused module `\OAI33X1H7R'.
+Removing unused module `\OAI33X0P5H7R'.
+Removing unused module `\OAI32X4H7R'.
+Removing unused module `\OAI32X3H7R'.
+Removing unused module `\OAI32X2H7R'.
+Removing unused module `\OAI32X1P4H7R'.
+Removing unused module `\OAI32X1H7R'.
+Removing unused module `\OAI32X0P7H7R'.
+Removing unused module `\OAI31X4H7R'.
+Removing unused module `\OAI31X3H7R'.
+Removing unused module `\OAI31X2H7R'.
+Removing unused module `\OAI31X1P4H7R'.
+Removing unused module `\OAI31X1H7R'.
+Removing unused module `\OAI31X0P7H7R'.
+Removing unused module `\OAI2XB1X6H7R'.
+Removing unused module `\OAI2XB1X4H7R'.
+Removing unused module `\OAI2XB1X3H7R'.
+Removing unused module `\OAI2XB1X2H7R'.
+Removing unused module `\OAI2XB1X1P4H7R'.
+Removing unused module `\OAI2XB1X1H7R'.
+Removing unused module `\OAI2XB1X0P7H7R'.
+Removing unused module `\OAI2BB2X6H7R'.
+Removing unused module `\OAI2BB2X4H7R'.
+Removing unused module `\OAI2BB2X3H7R'.
+Removing unused module `\OAI2BB2X2H7R'.
+Removing unused module `\OAI2BB2X1P4H7R'.
+Removing unused module `\OAI2BB2X1H7R'.
+Removing unused module `\OAI2BB2X0P7H7R'.
+Removing unused module `\OAI2BB1X6H7R'.
+Removing unused module `\OAI2BB1X4H7R'.
+Removing unused module `\OAI2BB1X3H7R'.
+Removing unused module `\OAI2BB1X2H7R'.
+Removing unused module `\OAI2BB1X1P4H7R'.
+Removing unused module `\OAI2BB1X1H7R'.
+Removing unused module `\OAI2BB1X0P7H7R'.
+Removing unused module `\OAI22X6H7R'.
+Removing unused module `\OAI22X4H7R'.
+Removing unused module `\OAI22X3H7R'.
+Removing unused module `\OAI22X2H7R'.
+Removing unused module `\OAI22X1P4H7R'.
+Removing unused module `\OAI22X1H7R'.
+Removing unused module `\OAI22X0P7H7R'.
+Removing unused module `\OAI222X4H7R'.
+Removing unused module `\OAI222X3H7R'.
+Removing unused module `\OAI222X2H7R'.
+Removing unused module `\OAI222X1P4H7R'.
+Removing unused module `\OAI222X1H7R'.
+Removing unused module `\OAI222X0P7H7R'.
+Removing unused module `\OAI221X4H7R'.
+Removing unused module `\OAI221X3H7R'.
+Removing unused module `\OAI221X2H7R'.
+Removing unused module `\OAI221X1P4H7R'.
+Removing unused module `\OAI221X1H7R'.
+Removing unused module `\OAI221X0P7H7R'.
+Removing unused module `\OAI21X8H7R'.
+Removing unused module `\OAI21X6H7R'.
+Removing unused module `\OAI21X4H7R'.
+Removing unused module `\OAI21X3H7R'.
+Removing unused module `\OAI21X2H7R'.
+Removing unused module `\OAI21X1P4H7R'.
+Removing unused module `\OAI21BX6H7R'.
+Removing unused module `\OAI21BX4H7R'.
+Removing unused module `\OAI21BX3H7R'.
+Removing unused module `\OAI21BX2H7R'.
+Removing unused module `\OAI21BX1P4H7R'.
+Removing unused module `\OAI21BX1H7R'.
+Removing unused module `\OAI21BX0P7H7R'.
+Removing unused module `\OAI211X6H7R'.
+Removing unused module `\OAI211X4H7R'.
+Removing unused module `\OAI211X3H7R'.
+Removing unused module `\OAI211X2H7R'.
+Removing unused module `\OAI211X0P5H7R'.
+Removing unused module `\OA31X4H7R'.
+Removing unused module `\OA31X3H7R'.
+Removing unused module `\OA31X2H7R'.
+Removing unused module `\OA31X1P4H7R'.
+Removing unused module `\OA31X0P7H7R'.
+Removing unused module `\OA31X0P5H7R'.
+Removing unused module `\OA22X6H7R'.
+Removing unused module `\OA22X4H7R'.
+Removing unused module `\OA22X3H7R'.
+Removing unused module `\OA22X2H7R'.
+Removing unused module `\OA22X1P4H7R'.
+Removing unused module `\OA22X1H7R'.
+Removing unused module `\OA22X0P7H7R'.
+Removing unused module `\OA222X4H7R'.
+Removing unused module `\OA222X3H7R'.
+Removing unused module `\OA222X2H7R'.
+Removing unused module `\OA222X1P4H7R'.
+Removing unused module `\OA222X1H7R'.
+Removing unused module `\OA222X0P7H7R'.
+Removing unused module `\OA222X0P5H7R'.
+Removing unused module `\OA221X4H7R'.
+Removing unused module `\OA221X3H7R'.
+Removing unused module `\OA221X2H7R'.
+Removing unused module `\OA221X1P4H7R'.
+Removing unused module `\OA221X1H7R'.
+Removing unused module `\OA221X0P7H7R'.
+Removing unused module `\OA21X8H7R'.
+Removing unused module `\OA21X6H7R'.
+Removing unused module `\OA21X4H7R'.
+Removing unused module `\OA21X3H7R'.
+Removing unused module `\OA21X2H7R'.
+Removing unused module `\OA21X1H7R'.
+Removing unused module `\OA211X6H7R'.
+Removing unused module `\OA211X4H7R'.
+Removing unused module `\OA211X3H7R'.
+Removing unused module `\OA211X2H7R'.
+Removing unused module `\NOR4X6H7R'.
+Removing unused module `\NOR4X4H7R'.
+Removing unused module `\NOR4X3H7R'.
+Removing unused module `\NOR4X2H7R'.
+Removing unused module `\NOR4X1P4H7R'.
+Removing unused module `\NOR4X0P7H7R'.
+Removing unused module `\NOR4BX4H7R'.
+Removing unused module `\NOR4BX3H7R'.
+Removing unused module `\NOR4BX2H7R'.
+Removing unused module `\NOR4BX1P4H7R'.
+Removing unused module `\NOR4BX1H7R'.
+Removing unused module `\NOR4BX0P7H7R'.
+Removing unused module `\NOR4BBX4H7R'.
+Removing unused module `\NOR4BBX3H7R'.
+Removing unused module `\NOR4BBX2H7R'.
+Removing unused module `\NOR4BBX1P4H7R'.
+Removing unused module `\NOR4BBX1H7R'.
+Removing unused module `\NOR4BBX0P7H7R'.
+Removing unused module `\NOR3X8H7R'.
+Removing unused module `\NOR3X6H7R'.
+Removing unused module `\NOR3X4H7R'.
+Removing unused module `\NOR3X3H7R'.
+Removing unused module `\NOR3X2H7R'.
+Removing unused module `\NOR3X1P4H7R'.
+Removing unused module `\NOR3X1H7R'.
+Removing unused module `\NOR3BX6H7R'.
+Removing unused module `\NOR3BX4H7R'.
+Removing unused module `\NOR3BX3H7R'.
+Removing unused module `\NOR3BX2H7R'.
+Removing unused module `\NOR3BX1P4H7R'.
+Removing unused module `\NOR3BX1H7R'.
+Removing unused module `\NOR3BX0P7H7R'.
+Removing unused module `\NOR2X8H7R'.
+Removing unused module `\NOR2X6H7R'.
+Removing unused module `\NOR2X4H7R'.
+Removing unused module `\NOR2X3H7R'.
+Removing unused module `\NOR2X2H7R'.
+Removing unused module `\NOR2X16H7R'.
+Removing unused module `\NOR2X12H7R'.
+Removing unused module `\NOR2BX8H7R'.
+Removing unused module `\NOR2BX6H7R'.
+Removing unused module `\NOR2BX4H7R'.
+Removing unused module `\NOR2BX3H7R'.
+Removing unused module `\NOR2BX2H7R'.
+Removing unused module `\NOR2BX16H7R'.
+Removing unused module `\NOR2BX12H7R'.
+Removing unused module `\NOR2BX0P7H7R'.
+Removing unused module `\NOR2BX0P5H7R'.
+Removing unused module `\NAND4X6H7R'.
+Removing unused module `\NAND4X4H7R'.
+Removing unused module `\NAND4X3H7R'.
+Removing unused module `\NAND4X2H7R'.
+Removing unused module `\NAND4X1P4H7R'.
+Removing unused module `\NAND4X1H7R'.
+Removing unused module `\NAND4X0P7H7R'.
+Removing unused module `\NAND4BX6H7R'.
+Removing unused module `\NAND4BX4H7R'.
+Removing unused module `\NAND4BX3H7R'.
+Removing unused module `\NAND4BX2H7R'.
+Removing unused module `\NAND4BX1P4H7R'.
+Removing unused module `\NAND4BX1H7R'.
+Removing unused module `\NAND4BX0P7H7R'.
+Removing unused module `\NAND4BBX6H7R'.
+Removing unused module `\NAND4BBX4H7R'.
+Removing unused module `\NAND4BBX3H7R'.
+Removing unused module `\NAND4BBX2H7R'.
+Removing unused module `\NAND4BBX1P4H7R'.
+Removing unused module `\NAND4BBX1H7R'.
+Removing unused module `\NAND4BBX0P7H7R'.
+Removing unused module `\NAND3X8H7R'.
+Removing unused module `\NAND3X6H7R'.
+Removing unused module `\NAND3X4H7R'.
+Removing unused module `\NAND3X3H7R'.
+Removing unused module `\NAND3X2H7R'.
+Removing unused module `\NAND3X1P4H7R'.
+Removing unused module `\NAND3X0P7H7R'.
+Removing unused module `\NAND3BX6H7R'.
+Removing unused module `\NAND3BX4H7R'.
+Removing unused module `\NAND3BX3H7R'.
+Removing unused module `\NAND3BX2H7R'.
+Removing unused module `\NAND3BX1P4H7R'.
+Removing unused module `\NAND3BX1H7R'.
+Removing unused module `\NAND3BX0P7H7R'.
+Removing unused module `\NAND3BBX6H7R'.
+Removing unused module `\NAND3BBX4H7R'.
+Removing unused module `\NAND3BBX3H7R'.
+Removing unused module `\NAND3BBX2H7R'.
+Removing unused module `\NAND3BBX1P4H7R'.
+Removing unused module `\NAND3BBX1H7R'.
+Removing unused module `\NAND3BBX0P7H7R'.
+Removing unused module `\NAND2X8H7R'.
+Removing unused module `\NAND2X6H7R'.
+Removing unused module `\NAND2X4H7R'.
+Removing unused module `\NAND2X3H7R'.
+Removing unused module `\NAND2X2H7R'.
+Removing unused module `\NAND2X16H7R'.
+Removing unused module `\NAND2X12H7R'.
+Removing unused module `\NAND2BX8H7R'.
+Removing unused module `\NAND2BX6H7R'.
+Removing unused module `\NAND2BX4H7R'.
+Removing unused module `\NAND2BX3H7R'.
+Removing unused module `\NAND2BX2H7R'.
+Removing unused module `\NAND2BX1H7R'.
+Removing unused module `\NAND2BX16H7R'.
+Removing unused module `\NAND2BX12H7R'.
+Removing unused module `\NAND2BX0P7H7R'.
+Removing unused module `\MUXI2X4H7R'.
+Removing unused module `\MUXI2X3H7R'.
+Removing unused module `\MUXI2X2H7R'.
+Removing unused module `\MUXI2X1P4H7R'.
+Removing unused module `\MUXI2X1H7R'.
+Removing unused module `\MUXI2X0P7H7R'.
+Removing unused module `\MUX4X6H7R'.
+Removing unused module `\MUX4X4H7R'.
+Removing unused module `\MUX4X3H7R'.
+Removing unused module `\MUX4X2H7R'.
+Removing unused module `\MUX4X1H7R'.
+Removing unused module `\MUX4X0P7H7R'.
+Removing unused module `\MUX4X0P5H7R'.
+Removing unused module `\MUX2X8H7R'.
+Removing unused module `\MUX2X6H7R'.
+Removing unused module `\MUX2X4H7R'.
+Removing unused module `\MUX2X3H7R'.
+Removing unused module `\MUX2X2H7R'.
+Removing unused module `\MUX2X1P4H7R'.
+Removing unused module `\MUX2X1H7R'.
+Removing unused module `\MUX2X16H7R'.
+Removing unused module `\MUX2X12H7R'.
+Removing unused module `\MUX2X0P7H7R'.
+Removing unused module `\LATLX4H7R'.
+Removing unused module `\LATLX3H7R'.
+Removing unused module `\LATLX2H7R'.
+Removing unused module `\LATLX1H7R'.
+Removing unused module `\LATLX0P5H7R'.
+Removing unused module `\LATLSX2H7R'.
+Removing unused module `\LATLSX1H7R'.
+Removing unused module `\LATLSX0P5H7R'.
+Removing unused module `\LATLSRX2H7R'.
+Removing unused module `\LATLSRX1H7R'.
+Removing unused module `\LATLSRX0P5H7R'.
+Removing unused module `\LATLRX2H7R'.
+Removing unused module `\LATLRX1H7R'.
+Removing unused module `\LATLRX0P5H7R'.
+Removing unused module `\LATHX4H7R'.
+Removing unused module `\LATHX3H7R'.
+Removing unused module `\LATHX2H7R'.
+Removing unused module `\LATHX1H7R'.
+Removing unused module `\LATHX0P5H7R'.
+Removing unused module `\LATHSX2H7R'.
+Removing unused module `\LATHSX1H7R'.
+Removing unused module `\LATHSX0P5H7R'.
+Removing unused module `\LATHSRX2H7R'.
+Removing unused module `\LATHSRX1H7R'.
+Removing unused module `\LATHSRX0P5H7R'.
+Removing unused module `\LATHRX2H7R'.
+Removing unused module `\LATHRX1H7R'.
+Removing unused module `\LATHRX0P5H7R'.
+Removing unused module `\INVX8H7R'.
+Removing unused module `\INVX7H7R'.
+Removing unused module `\INVX6H7R'.
+Removing unused module `\INVX5H7R'.
+Removing unused module `\INVX4H7R'.
+Removing unused module `\INVX3P5H7R'.
+Removing unused module `\INVX3H7R'.
+Removing unused module `\INVX2P5H7R'.
+Removing unused module `\INVX2H7R'.
+Removing unused module `\INVX20H7R'.
+Removing unused module `\INVX1H7R'.
+Removing unused module `\INVX16H7R'.
+Removing unused module `\INVX12H7R'.
+Removing unused module `\INVX10H7R'.
+Removing unused module `\INVX0P7H7R'.
+Removing unused module `\FILLCAP8H7R'.
+Removing unused module `\FILLCAP4H7R'.
+Removing unused module `\FILLCAP32H7R'.
+Removing unused module `\FILLCAP16H7R'.
+Removing unused module `\ESDFFQX2H7R'.
+Removing unused module `\ESDFFQX1H7R'.
+Removing unused module `\ESDFFQX0P5H7R'.
+Removing unused module `\DLY4X6H7R'.
+Removing unused module `\DLY4X2H7R'.
+Removing unused module `\DLY3X6H7R'.
+Removing unused module `\DLY3X2H7R'.
+Removing unused module `\DLY2X6H7R'.
+Removing unused module `\DLY2X2H7R'.
+Removing unused module `\DLY1X6H7R'.
+Removing unused module `\DLY1X2H7R'.
+Removing unused module `\DFFX3H7R'.
+Removing unused module `\DFFX2H7R'.
+Removing unused module `\DFFX1H7R'.
+Removing unused module `\DFFX0P5H7R'.
+Removing unused module `\DFFTRQX2H7R'.
+Removing unused module `\DFFTRQX1H7R'.
+Removing unused module `\DFFTRQX0P5H7R'.
+Removing unused module `\DFFSX2H7R'.
+Removing unused module `\DFFSX1H7R'.
+Removing unused module `\DFFSX0P5H7R'.
+Removing unused module `\DFFSRX2H7R'.
+Removing unused module `\DFFSRX1H7R'.
+Removing unused module `\DFFSRX0P5H7R'.
+Removing unused module `\DFFSRQX2H7R'.
+Removing unused module `\DFFSRQX1H7R'.
+Removing unused module `\DFFSQX2H7R'.
+Removing unused module `\DFFSQX1H7R'.
+Removing unused module `\DFFSQNX2H7R'.
+Removing unused module `\DFFSQNX1H7R'.
+Removing unused module `\DFFRX3H7R'.
+Removing unused module `\DFFRX2H7R'.
+Removing unused module `\DFFRX1H7R'.
+Removing unused module `\DFFRX0P5H7R'.
+Removing unused module `\DFFRQX1H7R'.
+Removing unused module `\DFFRQX0P5H7R'.
+Removing unused module `\DFFRQNX2H7R'.
+Removing unused module `\DFFRQNX1H7R'.
+Removing unused module `\DFFQX3H7R'.
+Removing unused module `\DFFQX2H7R'.
+Removing unused module `\DFFQX0P5H7R'.
+Removing unused module `\DFFNX3H7R'.
+Removing unused module `\DFFNX2H7R'.
+Removing unused module `\DFFNX1H7R'.
+Removing unused module `\DFFNX0P5H7R'.
+Removing unused module `\DFFNSX2H7R'.
+Removing unused module `\DFFNSX1H7R'.
+Removing unused module `\DFFNSX0P5H7R'.
+Removing unused module `\DFFNSRX2H7R'.
+Removing unused module `\DFFNSRX1H7R'.
+Removing unused module `\DFFNSRX0P5H7R'.
+Removing unused module `\DFFNRX4H7R'.
+Removing unused module `\DFFNRX2H7R'.
+Removing unused module `\DFFNRX1H7R'.
+Removing unused module `\DFFNRX0P5H7R'.
+Removing unused module `\DFFNQX3H7R'.
+Removing unused module `\DFFNQX2H7R'.
+Removing unused module `\DFFNQX1H7R'.
+Removing unused module `\BUFX8H7R'.
+Removing unused module `\BUFX7H7R'.
+Removing unused module `\BUFX6H7R'.
+Removing unused module `\BUFX5H7R'.
+Removing unused module `\BUFX4H7R'.
+Removing unused module `\BUFX3P5H7R'.
+Removing unused module `\BUFX2P5H7R'.
+Removing unused module `\BUFX2H7R'.
+Removing unused module `\BUFX20H7R'.
+Removing unused module `\BUFX16H7R'.
+Removing unused module `\BUFX12H7R'.
+Removing unused module `\BUFX10H7R'.
+Removing unused module `\AOI33X4H7R'.
+Removing unused module `\AOI33X3H7R'.
+Removing unused module `\AOI33X2H7R'.
+Removing unused module `\AOI33X1P4H7R'.
+Removing unused module `\AOI33X1H7R'.
+Removing unused module `\AOI33X0P7H7R'.
+Removing unused module `\AOI32X4H7R'.
+Removing unused module `\AOI32X3H7R'.
+Removing unused module `\AOI32X2H7R'.
+Removing unused module `\AOI32X1P4H7R'.
+Removing unused module `\AOI32X1H7R'.
+Removing unused module `\AOI32X0P7H7R'.
+Removing unused module `\AOI31X4H7R'.
+Removing unused module `\AOI31X3H7R'.
+Removing unused module `\AOI31X2H7R'.
+Removing unused module `\AOI31X1P4H7R'.
+Removing unused module `\AOI31X1H7R'.
+Removing unused module `\AOI31X0P7H7R'.
+Removing unused module `\AOI2XB1X6H7R'.
+Removing unused module `\AOI2XB1X4H7R'.
+Removing unused module `\AOI2XB1X3H7R'.
+Removing unused module `\AOI2XB1X2H7R'.
+Removing unused module `\AOI2XB1X1P4H7R'.
+Removing unused module `\AOI2XB1X1H7R'.
+Removing unused module `\AOI2XB1X0P7H7R'.
+Removing unused module `\AOI2BB2X6H7R'.
+Removing unused module `\AOI2BB2X4H7R'.
+Removing unused module `\AOI2BB2X3H7R'.
+Removing unused module `\AOI2BB2X2H7R'.
+Removing unused module `\AOI2BB2X1P4H7R'.
+Removing unused module `\AOI2BB2X1H7R'.
+Removing unused module `\AOI2BB2X0P7H7R'.
+Removing unused module `\AOI2BB1X6H7R'.
+Removing unused module `\AOI2BB1X4H7R'.
+Removing unused module `\AOI2BB1X3H7R'.
+Removing unused module `\AOI2BB1X2H7R'.
+Removing unused module `\AOI2BB1X1P4H7R'.
+Removing unused module `\AOI2BB1X1H7R'.
+Removing unused module `\AOI2BB1X0P7H7R'.
+Removing unused module `\AOI22X6H7R'.
+Removing unused module `\AOI22X4H7R'.
+Removing unused module `\AOI22X3H7R'.
+Removing unused module `\AOI22X2H7R'.
+Removing unused module `\AOI22X1P4H7R'.
+Removing unused module `\AOI22X1H7R'.
+Removing unused module `\AOI22X0P7H7R'.
+Removing unused module `\AOI222X4H7R'.
+Removing unused module `\AOI222X3H7R'.
+Removing unused module `\AOI222X2H7R'.
+Removing unused module `\AOI222X1P4H7R'.
+Removing unused module `\AOI222X1H7R'.
+Removing unused module `\AOI222X0P7H7R'.
+Removing unused module `\AOI221X4H7R'.
+Removing unused module `\AOI221X3H7R'.
+Removing unused module `\AOI221X2H7R'.
+Removing unused module `\AOI221X1P4H7R'.
+Removing unused module `\AOI221X1H7R'.
+Removing unused module `\AOI221X0P7H7R'.
+Removing unused module `\AOI21X8H7R'.
+Removing unused module `\AOI21X6H7R'.
+Removing unused module `\AOI21X4H7R'.
+Removing unused module `\AOI21X3H7R'.
+Removing unused module `\AOI21X2H7R'.
+Removing unused module `\AOI21BX6H7R'.
+Removing unused module `\AOI21BX4H7R'.
+Removing unused module `\AOI21BX3H7R'.
+Removing unused module `\AOI21BX2H7R'.
+Removing unused module `\AOI21BX1P4H7R'.
+Removing unused module `\AOI21BX1H7R'.
+Removing unused module `\AOI21BX0P7H7R'.
+Removing unused module `\AOI211X6H7R'.
+Removing unused module `\AOI211X4H7R'.
+Removing unused module `\AOI211X3H7R'.
+Removing unused module `\AOI211X2H7R'.
+Removing unused module `\AOI211X1P4H7R'.
+Removing unused module `\AOI211X1H7R'.
+Removing unused module `\AOI211X0P7H7R'.
+Removing unused module `\AOAI211X4H7R'.
+Removing unused module `\AOAI211X3H7R'.
+Removing unused module `\AOAI211X2H7R'.
+Removing unused module `\AOAI211X1P4H7R'.
+Removing unused module `\AOAI211X1H7R'.
+Removing unused module `\AOAI211X0P7H7R'.
+Removing unused module `\AOA211X4H7R'.
+Removing unused module `\AOA211X3H7R'.
+Removing unused module `\AOA211X2H7R'.
+Removing unused module `\AOA211X0P7H7R'.
+Removing unused module `\AO31X4H7R'.
+Removing unused module `\AO31X3H7R'.
+Removing unused module `\AO31X2H7R'.
+Removing unused module `\AO31X1P4H7R'.
+Removing unused module `\AO31X1H7R'.
+Removing unused module `\AO31X0P7H7R'.
+Removing unused module `\AO22X6H7R'.
+Removing unused module `\AO22X4H7R'.
+Removing unused module `\AO22X3H7R'.
+Removing unused module `\AO22X2H7R'.
+Removing unused module `\AO22X1P4H7R'.
+Removing unused module `\AO22X1H7R'.
+Removing unused module `\AO22X0P5H7R'.
+Removing unused module `\AO222X4H7R'.
+Removing unused module `\AO222X3H7R'.
+Removing unused module `\AO222X2H7R'.
+Removing unused module `\AO222X1P4H7R'.
+Removing unused module `\AO222X1H7R'.
+Removing unused module `\AO222X0P7H7R'.
+Removing unused module `\AO221X4H7R'.
+Removing unused module `\AO221X3H7R'.
+Removing unused module `\AO221X2H7R'.
+Removing unused module `\AO221X1P4H7R'.
+Removing unused module `\AO221X1H7R'.
+Removing unused module `\AO221X0P5H7R'.
+Removing unused module `\AO21X8H7R'.
+Removing unused module `\AO21X6H7R'.
+Removing unused module `\AO21X4H7R'.
+Removing unused module `\AO21X3H7R'.
+Removing unused module `\AO21X2H7R'.
+Removing unused module `\AO21X1P4H7R'.
+Removing unused module `\AO21X0P7H7R'.
+Removing unused module `\AO21X0P5H7R'.
+Removing unused module `\AO211X6H7R'.
+Removing unused module `\AO211X4H7R'.
+Removing unused module `\AO211X3H7R'.
+Removing unused module `\AO211X2H7R'.
+Removing unused module `\AO211X0P5H7R'.
+Removing unused module `\AND4X6H7R'.
+Removing unused module `\AND4X4H7R'.
+Removing unused module `\AND4X3H7R'.
+Removing unused module `\AND4X2H7R'.
+Removing unused module `\AND4X1P4H7R'.
+Removing unused module `\AND4X1H7R'.
+Removing unused module `\AND4X0P7H7R'.
+Removing unused module `\AND3X8H7R'.
+Removing unused module `\AND3X6H7R'.
+Removing unused module `\AND3X4H7R'.
+Removing unused module `\AND3X3H7R'.
+Removing unused module `\AND3X2H7R'.
+Removing unused module `\AND3X0P7H7R'.
+Removing unused module `\AND2X8H7R'.
+Removing unused module `\AND2X6H7R'.
+Removing unused module `\AND2X4H7R'.
+Removing unused module `\AND2X3H7R'.
+Removing unused module `\AND2X2H7R'.
+Removing unused module `\AND2X16H7R'.
+Removing unused module `\AND2X12H7R'.
+Removing unused module `\AND2X0P7H7R'.
+Removing unused module `\AND2X0P5H7R'.
+Removing unused module `\ADDHX2H7R'.
+Removing unused module `\ADDHX1P4H7R'.
+Removing unused module `\ADDHX1H7R'.
+Removing unused module `\ADDFX2H7R'.
+Removing unused module `\ADDFX1P4H7R'.
+Removing unused module `\ADDFX1H7R'.
+Removed 629 unused modules.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module OAI222X0P5H7R...
+Checking module BUFX3H7R...
+Checking module INVX0P5H7R...
+Checking module OR2X0P7H7R...
+Checking module OR2X0P5H7R...
+Checking module BUFX1P4H7R...
+Checking module AOI21BX0P5H7R...
+Checking module BUFX1H7R...
+Checking module XNOR2X0P5H7R...
+Checking module NOR4BBX0P5H7R...
+Checking module MUXI2X0P5H7R...
+Checking module BUFX0P7H7R...
+Checking module BUFX0P5H7R...
+Checking module OAI211X1P4H7R...
+Checking module AOI211X0P5H7R...
+Checking module OAI211X1H7R...
+Checking module NAND4BX0P5H7R...
+Checking module OA221X0P5H7R...
+Checking module MUX4X1P4H7R...
+Checking module OAI211X0P7H7R...
+Checking module AOI33X0P5H7R...
+Checking module AOAI211X0P5H7R...
+Checking module XOR3X0P5H7R...
+Checking module OAI2BB1X0P5H7R...
+Checking module OAO211X0P5H7R...
+Checking module AOA211X1P4H7R...
+Checking module AOA211X1H7R...
+Checking module NOR3X0P7H7R...
+Checking module AOA211X0P5H7R...
+Checking module NOR3X0P5H7R...
+Checking module NAND4BBX0P5H7R...
+Checking module AOI32X0P5H7R...
+Checking module OAI221X0P5H7R...
+Checking module OA21X1P4H7R...
+Checking module OAI2XB1X0P5H7R...
+Checking module AO31X0P5H7R...
+Checking module OA21X0P7H7R...
+Checking module OA21X0P5H7R...
+Checking module OA31X1H7R...
+Checking module AOI31X0P5H7R...
+Checking module MUX2X0P5H7R...
+Checking module NAND3X1H7R...
+Checking module AO22X0P7H7R...
+Checking module OAI32X0P5H7R...
+Checking module NAND3X0P5H7R...
+Checking module NOR3BX0P5H7R...
+Checking module axi4_t08_attribute_read_engine...
+Checking module OR3X1H7R...
+Checking module AOI2XB1X0P5H7R...
+Checking module OA211X1P4H7R...
+Checking module AO222X0P5H7R...
+Checking module OA211X1H7R...
+Checking module OA211X0P7H7R...
+Checking module NOR2X1P4H7R...
+Checking module NAND3BX0P5H7R...
+Checking module NOR2X1H7R...
+Checking module AO221X0P7H7R...
+Checking module OA211X0P5H7R...
+Checking module AOI2BB2X0P5H7R...
+Checking module OR2X1P4H7R...
+Checking module DFFRQX2H7R...
+Checking module NOR2X0P7H7R...
+Checking module NOR2X0P5H7R...
+Checking module XOR2X0P5H7R...
+Checking module AO21X1H7R...
+Checking module OAI21X1H7R...
+Checking module NAND3BBX0P5H7R...
+Checking module AOI2BB1X0P5H7R...
+Checking module OAI21X0P7H7R...
+Checking module DFFQX1H7R...
+Checking module OAI21X0P5H7R...
+Checking module AO211X1P4H7R...
+Checking module AO211X1H7R...
+Checking module AO211X0P7H7R...
+Checking module NOR4X1H7R...
+Checking module NOR2BX1P4H7R...
+Checking module NOR2BX1H7R...
+Checking module NAND2X1P4H7R...
+Checking module AOI22X0P5H7R...
+Checking module NAND2X1H7R...
+Checking module OAI22X0P5H7R...
+Checking module NOR4X0P5H7R...
+Checking module AND4X0P5H7R...
+Checking module NAND2X0P7H7R...
+Checking module NAND2X0P5H7R...
+Checking module OA22X0P5H7R...
+Checking module AOI222X0P5H7R...
+Checking module OAOI211X0P5H7R...
+Checking module AND3X1P4H7R...
+Checking module AND3X1H7R...
+Checking module OAI33X0P7H7R...
+Checking module AND3X0P5H7R...
+Checking module OAI2BB2X0P5H7R...
+Checking module OAI31X0P5H7R...
+Checking module NAND2BX1P4H7R...
+Checking module XNOR3X0P7H7R...
+Checking module AOI221X0P5H7R...
+Checking module AND2X1P4H7R...
+Checking module AND2X1H7R...
+Checking module NOR4BX0P5H7R...
+Checking module INVX1P4H7R...
+Checking module OR4X1P4H7R...
+Checking module OAI21BX0P5H7R...
+Checking module NAND2BX0P5H7R...
+Checking module AOI21X1P4H7R...
+Checking module AOI21X1H7R...
+Checking module AOI21X0P7H7R...
+Checking module AOI21X0P5H7R...
+Checking module NAND4X0P5H7R...
+Found and reported 0 problems.
+
+5. Executing Verilog backend.
+
+5.1. Executing BMUXMAP pass.
+
+5.2. Executing DEMUXMAP pass.
+Dumping module `\AND2X1H7R'.
+Dumping module `\AND2X1P4H7R'.
+Dumping module `\AND3X0P5H7R'.
+Dumping module `\AND3X1H7R'.
+Dumping module `\AND3X1P4H7R'.
+Dumping module `\AND4X0P5H7R'.
+Dumping module `\AO211X0P7H7R'.
+Dumping module `\AO211X1H7R'.
+Dumping module `\AO211X1P4H7R'.
+Dumping module `\AO21X1H7R'.
+Dumping module `\AO221X0P7H7R'.
+Dumping module `\AO222X0P5H7R'.
+Dumping module `\AO22X0P7H7R'.
+Dumping module `\AO31X0P5H7R'.
+Dumping module `\AOA211X0P5H7R'.
+Dumping module `\AOA211X1H7R'.
+Dumping module `\AOA211X1P4H7R'.
+Dumping module `\AOAI211X0P5H7R'.
+Dumping module `\AOI211X0P5H7R'.
+Dumping module `\AOI21BX0P5H7R'.
+Dumping module `\AOI21X0P5H7R'.
+Dumping module `\AOI21X0P7H7R'.
+Dumping module `\AOI21X1H7R'.
+Dumping module `\AOI21X1P4H7R'.
+Dumping module `\AOI221X0P5H7R'.
+Dumping module `\AOI222X0P5H7R'.
+Dumping module `\AOI22X0P5H7R'.
+Dumping module `\AOI2BB1X0P5H7R'.
+Dumping module `\AOI2BB2X0P5H7R'.
+Dumping module `\AOI2XB1X0P5H7R'.
+Dumping module `\AOI31X0P5H7R'.
+Dumping module `\AOI32X0P5H7R'.
+Dumping module `\AOI33X0P5H7R'.
+Dumping module `\BUFX0P5H7R'.
+Dumping module `\BUFX0P7H7R'.
+Dumping module `\BUFX1H7R'.
+Dumping module `\BUFX1P4H7R'.
+Dumping module `\BUFX3H7R'.
+Dumping module `\DFFQX1H7R'.
+Dumping module `\DFFRQX2H7R'.
+Dumping module `\INVX0P5H7R'.
+Dumping module `\INVX1P4H7R'.
+Dumping module `\MUX2X0P5H7R'.
+Dumping module `\MUX4X1P4H7R'.
+Dumping module `\MUXI2X0P5H7R'.
+Dumping module `\NAND2BX0P5H7R'.
+Dumping module `\NAND2BX1P4H7R'.
+Dumping module `\NAND2X0P5H7R'.
+Dumping module `\NAND2X0P7H7R'.
+Dumping module `\NAND2X1H7R'.
+Dumping module `\NAND2X1P4H7R'.
+Dumping module `\NAND3BBX0P5H7R'.
+Dumping module `\NAND3BX0P5H7R'.
+Dumping module `\NAND3X0P5H7R'.
+Dumping module `\NAND3X1H7R'.
+Dumping module `\NAND4BBX0P5H7R'.
+Dumping module `\NAND4BX0P5H7R'.
+Dumping module `\NAND4X0P5H7R'.
+Dumping module `\NOR2BX1H7R'.
+Dumping module `\NOR2BX1P4H7R'.
+Dumping module `\NOR2X0P5H7R'.
+Dumping module `\NOR2X0P7H7R'.
+Dumping module `\NOR2X1H7R'.
+Dumping module `\NOR2X1P4H7R'.
+Dumping module `\NOR3BX0P5H7R'.
+Dumping module `\NOR3X0P5H7R'.
+Dumping module `\NOR3X0P7H7R'.
+Dumping module `\NOR4BBX0P5H7R'.
+Dumping module `\NOR4BX0P5H7R'.
+Dumping module `\NOR4X0P5H7R'.
+Dumping module `\NOR4X1H7R'.
+Dumping module `\OA211X0P5H7R'.
+Dumping module `\OA211X0P7H7R'.
+Dumping module `\OA211X1H7R'.
+Dumping module `\OA211X1P4H7R'.
+Dumping module `\OA21X0P5H7R'.
+Dumping module `\OA21X0P7H7R'.
+Dumping module `\OA21X1P4H7R'.
+Dumping module `\OA221X0P5H7R'.
+Dumping module `\OA22X0P5H7R'.
+Dumping module `\OA31X1H7R'.
+Dumping module `\OAI211X0P7H7R'.
+Dumping module `\OAI211X1H7R'.
+Dumping module `\OAI211X1P4H7R'.
+Dumping module `\OAI21BX0P5H7R'.
+Dumping module `\OAI21X0P5H7R'.
+Dumping module `\OAI21X0P7H7R'.
+Dumping module `\OAI21X1H7R'.
+Dumping module `\OAI221X0P5H7R'.
+Dumping module `\OAI222X0P5H7R'.
+Dumping module `\OAI22X0P5H7R'.
+Dumping module `\OAI2BB1X0P5H7R'.
+Dumping module `\OAI2BB2X0P5H7R'.
+Dumping module `\OAI2XB1X0P5H7R'.
+Dumping module `\OAI31X0P5H7R'.
+Dumping module `\OAI32X0P5H7R'.
+Dumping module `\OAI33X0P7H7R'.
+Dumping module `\OAO211X0P5H7R'.
+Dumping module `\OAOI211X0P5H7R'.
+Dumping module `\OR2X0P5H7R'.
+Dumping module `\OR2X0P7H7R'.
+Dumping module `\OR2X1P4H7R'.
+Dumping module `\OR3X1H7R'.
+Dumping module `\OR4X1P4H7R'.
+Dumping module `\XNOR2X0P5H7R'.
+Dumping module `\XNOR3X0P7H7R'.
+Dumping module `\XOR2X0P5H7R'.
+Dumping module `\XOR3X0P5H7R'.
+Dumping module `\axi4_t08_attribute_read_engine'.
+
+End of script. Logfile hash: 40635fb35e, time: 4.52s, user: 3.50s, system: 0.23s, MEM: 379.37 MB peak
+Yosys 0.66+183 (git sha1 b285b72e3, Release, Clang /usr/bin/clang++ 18.1.8)
+Time spent: 83% 2x read_verilog (3 sec), 12% 2x read_liberty (0 sec), ...
+	Command being timed: "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys -s /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/cell_models.ys"
+	User time (seconds): 3.57
+	System time (seconds): 0.23
+	Percent of CPU this job got: 82%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 388472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 95607
+	Voluntary context switches: 10864
+	Involuntary context switches: 15
+	Swaps: 0
+	File system inputs: 167808
+	File system outputs: 9080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

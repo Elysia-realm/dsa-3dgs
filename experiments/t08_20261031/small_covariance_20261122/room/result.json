@@ -1,0 +1,25 @@
+{
+  "scene": "room",
+  "camera": 155,
+  "counts": {
+    "records": 1593376,
+    "selected": 16322,
+    "risk_q20": 332,
+    "risk_q24": 0,
+    "recovered": 332,
+    "new_risks": 0
+  },
+  "examples_q20": [
+    5498,
+    15071,
+    25392,
+    42815,
+    65349,
+    68020,
+    95763,
+    111533
+  ],
+  "known_case": null,
+  "ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+  "camera_sha256": "130773694CE985B0CB642D37ED0E4229D5B3DFF9A310DDCB2BC22088DFE91B10"
+}

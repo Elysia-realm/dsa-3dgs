@@ -1,0 +1,15 @@
+read_verilog -sv -DSYNTHESIS -Irtl/raster rtl/common/rv_reg_slice.sv rtl/raster/alpha_block_float_core.sv
+hierarchy -check -top alpha_block_float_core
+proc
+opt_expr
+opt_clean
+check -assert
+opt -nodffe -nosdff
+wreduce
+memory_dff
+memory_share
+memory_collect
+opt_clean
+flatten -noscopeinfo
+opt_clean
+check -assert

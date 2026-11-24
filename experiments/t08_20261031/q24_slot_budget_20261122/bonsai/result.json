@@ -1,0 +1,11 @@
+{
+  "scene": "bonsai",
+  "records": 1244819,
+  "requests": 1051092,
+  "v1_actual_bytes": 129425728,
+  "q24_projected_bytes": 129430208,
+  "raw_bytes": 151357248,
+  "extra_escapes": 240,
+  "source_ply_sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273",
+  "q24_saved_vs_raw_percent": 14.486944160084093
+}

@@ -1,0 +1,15 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t05_parallel_pipe16\\t05_parallel.exe",
+  "+BATCH_ROOT=D:/3DGS/experiments/t05_parallel_20261011/real/room/g8",
+  "+BATCH_LAST=15",
+  "+FRAME=D:/3DGS/experiments/t05_parallel_20261011/real/room/g8/pipe16_m1_ideal/state.memh",
+  "+RGB=D:/3DGS/experiments/t05_parallel_20261011/real/room/g8/pipe16_m1_ideal/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t05_parallel_20261011/real/room/g8/pipe16_m1_ideal/sorted.txt",
+  "+FRAME_MODE=1",
+  "+MAX_TIMEOUT=3000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

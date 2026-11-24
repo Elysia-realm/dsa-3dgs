@@ -1,0 +1,26 @@
+{
+  "scene": "truck",
+  "status": "PASS",
+  "metrics": {
+    "n": 2541226,
+    "cycles": 37526072,
+    "partitions": 79869,
+    "leaves": 502547,
+    "reads": 24749187,
+    "writes": 22207961,
+    "peak": 48,
+    "overlap": 744090,
+    "parallel": 667408
+  },
+  "seconds": 2896.3279999999795,
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "95b7abdbdd59b3a79d456144aca9941fd6542ca708108b45f884d94c9bebd7b9",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259a001e202e3703c6005fe6712ced73dbf13bdcadcf0f9042e582527858c",
+    "verification/rtl/tb_t06_qsu_bsu.sv": "c0e63037ece64bac1e856225bfb60b920d4963e4852df4e14e6ff816e6819ff7"
+  },
+  "binary_sha256": "627f86dc626d1670f6706b3ab18e90f09ada85487b13bc8d0a2b5456550cdf77",
+  "simulator": "icarus",
+  "manifest_sha256": "0c4821c348eef196b7db233373e85dba168a32c1a99884a0ab3a820d854c5f2d",
+  "log_sha256": "7ccd0f99a616d5af3f6fff52aa322885389befd2c556d93566e8f15360f4a1fd"
+}

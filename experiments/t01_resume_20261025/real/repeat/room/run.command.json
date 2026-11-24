@@ -1,0 +1,19 @@
+[
+  "/home/gs3d/work/t01_resume_20261025/build/repeat/simulation",
+  "+AUTO_QSU",
+  "+AUTO_MODE",
+  "+AUTO_REPEAT_FRAMES=2",
+  "+FRAME_MODE=3",
+  "+MEAN=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/real/subset/room/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/real/subset/room/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/real/subset/room/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t01_resume_20261025/real/repeat/room/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t01_resume_20261025/real/repeat/room/rgb.memh",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t01_resume_20261025/real/repeat/room/sorted.txt",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8",
+  "+MAX_TIMEOUT=10000000"
+]

@@ -1,0 +1,2 @@
+PASS: tb_covariance2d_cholesky_encoder
+verification\rtl\tb_covariance2d_cholesky_encoder.sv:77: $finish called at 4786000 (1ps)

@@ -1,0 +1,95 @@
+{
+  "format_version": 1,
+  "source": "local D:/3DGS/data only; no network upload",
+  "scene": "flowers",
+  "camera_index": 86,
+  "original_gaussian_indices": [
+    40106,
+    188690,
+    204815,
+    237223,
+    252646,
+    275546,
+    317305,
+    401876,
+    476832,
+    729975,
+    879043,
+    949588,
+    1027130,
+    1087945,
+    1262323,
+    1331731,
+    1364179,
+    1399745,
+    1539844,
+    1698603,
+    1739564,
+    1754409,
+    2156210,
+    2321592,
+    2388008,
+    2492581,
+    2703350,
+    3092928,
+    3214656,
+    3232513,
+    3438664,
+    3515396
+  ],
+  "gaussian_count": 32,
+  "width": 64,
+  "height": 42,
+  "mean_record_bytes": 16,
+  "attribute_record_bytes": 144,
+  "gaussian_base": 4096,
+  "attribute_base": 16384,
+  "output_base": 1048576,
+  "fixed_formats": {
+    "mean": "signed Q10.16 / 27-bit",
+    "quaternion": "signed Q2.20 / 22-bit",
+    "scale": "unsigned Q4.20 / 24-bit",
+    "opacity_rgb": "Q1.12 / 13-bit",
+    "sh": "signed Q5.12 / 18-bit channel-major"
+  },
+  "camera_fixed": {
+    "rotation_q20": [
+      -710906,
+      -265316,
+      -723693,
+      -42705,
+      996545,
+      -323397,
+      769610,
+      -189781,
+      -686436
+    ],
+    "translation_q16": [
+      2036,
+      -19430,
+      262975
+    ],
+    "position_q16": [
+      -192424,
+      66576,
+      167566
+    ],
+    "fx_fy_cx_cy_q16": [
+      3613020,
+      3577017,
+      2064384,
+      1343488
+    ],
+    "near_far_q16": [
+      13107,
+      65536000
+    ],
+    "regularizer_q8": 77
+  },
+  "depth_pivots_q16": [
+    293196,
+    414491,
+    880354
+  ],
+  "selection": "deterministic scene-wide priority sample of visible fixed-point-representable trained Gaussians; frame-local GID remap"
+}

@@ -1,0 +1,15 @@
+{
+  "clock_period_ns": 5,
+  "uncertainty_ns": 0.25,
+  "clock_and_driver_source_slew_ns": 0.05,
+  "input_max_ns": 0.5,
+  "input_min_ns": 0,
+  "output_max_ns": 0.5,
+  "output_min_ns": 0,
+  "driver_cell": "BUF_X4",
+  "output_load": 3.899,
+  "capacitance_unit": "fF",
+  "reset_false_path": false,
+  "interconnect": "ideal, no extracted parasitics",
+  "storage": "register-expanded original RTL; not SRAM macro timing"
+}

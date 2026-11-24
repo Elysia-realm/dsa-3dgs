@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "valid_capacity",
+      "status": "PASS",
+      "expected_rejection": false,
+      "returncode": 0,
+      "build": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-s",
+        "tb_t06_memory_layout",
+        "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+        "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/valid_capacity.vvp",
+        "verification/rtl/tb_t06_memory_layout.sv"
+      ],
+      "command": [
+        "/usr/bin/vvp",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/valid_capacity.vvp",
+        "+FAULT=0"
+      ]
+    },
+    {
+      "name": "below_region",
+      "status": "PASS",
+      "expected_rejection": true,
+      "returncode": 1,
+      "build": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-s",
+        "tb_t06_memory_layout",
+        "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+        "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/below_region.vvp",
+        "verification/rtl/tb_t06_memory_layout.sv"
+      ],
+      "command": [
+        "/usr/bin/vvp",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/below_region.vvp",
+        "+FAULT=1"
+      ]
+    },
+    {
+      "name": "past_region",
+      "status": "PASS",
+      "expected_rejection": true,
+      "returncode": 1,
+      "build": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-s",
+        "tb_t06_memory_layout",
+        "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+        "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/past_region.vvp",
+        "verification/rtl/tb_t06_memory_layout.sv"
+      ],
+      "command": [
+        "/usr/bin/vvp",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/past_region.vvp",
+        "+FAULT=2"
+      ]
+    },
+    {
+      "name": "address_wrap",
+      "status": "PASS",
+      "expected_rejection": true,
+      "returncode": 1,
+      "build": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-s",
+        "tb_t06_memory_layout",
+        "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+        "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/address_wrap.vvp",
+        "verification/rtl/tb_t06_memory_layout.sv"
+      ],
+      "command": [
+        "/usr/bin/vvp",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/address_wrap.vvp",
+        "+FAULT=3"
+      ]
+    },
+    {
+      "name": "zero_length",
+      "status": "PASS",
+      "expected_rejection": true,
+      "returncode": 1,
+      "build": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-s",
+        "tb_t06_memory_layout",
+        "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+        "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/zero_length.vvp",
+        "verification/rtl/tb_t06_memory_layout.sv"
+      ],
+      "command": [
+        "/usr/bin/vvp",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/zero_length.vvp",
+        "+FAULT=4"
+      ]
+    },
+    {
+      "name": "scratch_overlap",
+      "status": "PASS",
+      "expected_rejection": true,
+      "returncode": 1,
+      "build": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-s",
+        "tb_t06_memory_layout",
+        "-Ptb_t06_memory_layout.MAX_COUNT=8500000",
+        "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/scratch_overlap.vvp",
+        "verification/rtl/tb_t06_memory_layout.sv"
+      ],
+      "command": [
+        "/usr/bin/vvp",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/scratch_overlap.vvp",
+        "+FAULT=0"
+      ]
+    },
+    {
+      "name": "output_overflow",
+      "status": "PASS",
+      "expected_rejection": true,
+      "returncode": 1,
+      "build": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-s",
+        "tb_t06_memory_layout",
+        "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+        "-Ptb_t06_memory_layout.MAX_PIXELS=9000000",
+        "-o",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/output_overflow.vvp",
+        "verification/rtl/tb_t06_memory_layout.sv"
+      ],
+      "command": [
+        "/usr/bin/vvp",
+        "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/addresses/output_overflow.vvp",
+        "+FAULT=0"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "verification/rtl/t06_memory_layout.svh": "a6747c0418997979787c4a1096c6ff1a3bcddbc4ddee25973069bf9b702f2159",
+    "verification/rtl/tb_t06_memory_layout.sv": "8c9eda7066b3faf56e244f3d3274e0a2071874ea08bf28d7b8c83815b090b405",
+    "scripts/check_t06_memory_layout.py": "e49838dfe08d2e6760c3772718fbe3d8217c5df102118e7cec6b16b5893b3a35"
+  }
+}

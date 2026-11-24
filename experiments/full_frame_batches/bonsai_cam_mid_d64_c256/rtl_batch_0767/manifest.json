@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "date": "2026-08-16",
+  "data_policy": "Local D:/3DGS filesystem only; no upload.",
+  "source_manifest": "D:\\3DGS\\experiments\\full_frame_batches\\bonsai_cam_mid_d64_c256\\manifest.json",
+  "scene": "bonsai",
+  "camera_index": 146,
+  "batch_index": 767,
+  "offset_records": 783032,
+  "gaussian_count": 1019,
+  "resolution": [
+    64,
+    43
+  ],
+  "global_gid_min": 20320,
+  "global_gid_max": 1242472,
+  "global_gid_unique": true,
+  "pivots_q16": [
+    824731,
+    824976,
+    825265
+  ],
+  "group_counts": [
+    254,
+    254,
+    255,
+    256
+  ],
+  "control": {
+    "continue": true,
+    "more_batches": true
+  },
+  "attribute_address_contract": "ATTRIBUTE_BASE + global_GID * 144",
+  "sparse_lookup_contract": "global_gid.memh slot i maps to attribute_sparse.memh beats i*9..i*9+8",
+  "files": {
+    "mean.memh": {
+      "bytes": 33627,
+      "sha256": "0e12436580d183595cb394a19768855adc143980c4f284985f90e11b32125faf"
+    },
+    "global_gid.memh": {
+      "bytes": 9171,
+      "sha256": "9f069435163157e462be0aaf367c7e92602be89a3922341f132e243946ecc519"
+    },
+    "attribute_sparse.memh": {
+      "bytes": 302643,
+      "sha256": "c4863f6a467d88ba5b5eb649a1c1996b6a423966695634460c7b707913c4a475"
+    },
+    "camera.memh": {
+      "bytes": 476,
+      "sha256": "a3e2b99e72e531724fbc15e8ad4984aa840695f819f87c3f89700af644bdc302"
+    }
+  }
+}

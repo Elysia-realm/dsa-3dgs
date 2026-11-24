@@ -1,0 +1,13 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-s",
+  "tb_t06_covariance_clamp",
+  "-o",
+  "D:\\3DGS\\experiments\\t06_20261017\\unit_checks\\clamp.vvp",
+  "rtl/common/rv_reg_slice.sv",
+  "rtl/projection/fixed_div_pipe2.sv",
+  "rtl/projection/screen_covariance_core.sv",
+  "verification/rtl/tb_t06_covariance_clamp.sv"
+]

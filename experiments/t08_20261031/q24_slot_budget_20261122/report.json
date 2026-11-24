@@ -1,0 +1,62 @@
+{
+  "status": "SIZING_ONLY",
+  "results": [
+    {
+      "scene": "bonsai",
+      "records": 1244819,
+      "requests": 1051092,
+      "v1_actual_bytes": 129425728,
+      "q24_projected_bytes": 129430208,
+      "raw_bytes": 151357248,
+      "extra_escapes": 240,
+      "source_ply_sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273",
+      "q24_saved_vs_raw_percent": 14.486944160084093
+    },
+    {
+      "scene": "counter",
+      "records": 1222956,
+      "requests": 1110964,
+      "v1_actual_bytes": 140086880,
+      "q24_projected_bytes": 140088384,
+      "raw_bytes": 159978816,
+      "extra_escapes": 94,
+      "source_ply_sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4",
+      "q24_saved_vs_raw_percent": 12.433166151198416
+    },
+    {
+      "scene": "room",
+      "records": 1593376,
+      "requests": 1380856,
+      "v1_actual_bytes": 168735856,
+      "q24_projected_bytes": 168739088,
+      "raw_bytes": 198843264,
+      "extra_escapes": 200,
+      "source_ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+      "q24_saved_vs_raw_percent": 15.139650896094725
+    },
+    {
+      "scene": "train",
+      "records": 1026508,
+      "requests": 926607,
+      "v1_actual_bytes": 115036080,
+      "q24_projected_bytes": 115054528,
+      "raw_bytes": 133431408,
+      "extra_escapes": 1121,
+      "source_ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+      "q24_saved_vs_raw_percent": 13.772529478216999
+    },
+    {
+      "scene": "truck",
+      "records": 2541226,
+      "requests": 1664518,
+      "v1_actual_bytes": 209131696,
+      "q24_projected_bytes": 209158000,
+      "raw_bytes": 239690592,
+      "extra_escapes": 1581,
+      "source_ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+      "q24_saved_vs_raw_percent": 12.73833559558316
+    }
+  ],
+  "signed_off": false,
+  "scope": "Same header/slot widths, Q24 compact when all six words fit signed24, otherwise raw escape. Dedicated precision version required before hardware use. Q20 prediction checked against actual bus bytes."
+}

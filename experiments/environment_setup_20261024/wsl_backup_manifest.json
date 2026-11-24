@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-24",
+  "distribution": "Ubuntu-24.04",
+  "path": "D:\\WSL-backups\\Ubuntu-24.04-3dgs-20261024.tar",
+  "bytes": 3176304640,
+  "sha256": "7D3415FB8BC6F2B38EBB8FD766B449E2957B206FAEB5603926C15993E8BC140D",
+  "export_exit_code": 0,
+  "scope": "Linux root filesystem; D:\\3DGS mounted project files excluded",
+  "boot_restore_test_executed": false
+}

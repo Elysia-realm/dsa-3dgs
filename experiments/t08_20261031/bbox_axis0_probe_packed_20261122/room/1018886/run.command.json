@@ -1,0 +1,12 @@
+[
+  "/home/gs3d/work/t08_20261031/bbox_axis0_probe_packed_20261122/simulation",
+  "+AUTO_QSU",
+  "+ATTR_FORMAT=1",
+  "+FRAME_MODE=0",
+  "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/room/1018886/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/room/1018886/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/room/1018886/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/room/1018886/FRAME.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/room/1018886/RGB.memh",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/room/1018886/SORTED_TRACE.memh"
+]

@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/build/axi4_t08_attribute_read_engine.sv" "/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv"
+chparam -set EARLY_ADVANCE 1 -set ENABLE_Q24 1 axi4_t08_attribute_read_engine
+synth -top axi4_t08_attribute_read_engine -flatten -noabc
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+dfflibmap -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+abc -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -constr "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/icsprout55/abc.constr" -D 5000
+clean
+delete t:$scopeinfo
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/icsprout55/stat.json" stat -json -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+write_verilog -noattr -noexpr -nodec "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/icsprout55/mapped.v"

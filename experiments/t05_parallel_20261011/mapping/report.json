@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "fold8",
+      "pdk": "nangate45",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 28823,
+      "area_um2": 32024.272,
+      "sequential_area_um2": 4107.04,
+      "abc_max_module_delay_ps": 1817.3,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "c883dc52c47a7d20ec14c74bf54af271bc76c9d7d9cc4739057ad010a87cfc19"
+    },
+    {
+      "name": "fold8",
+      "pdk": "icsprout55",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 25571,
+      "area_um2": 42550.2,
+      "sequential_area_um2": 5730.76,
+      "abc_max_module_delay_ps": 4189.09,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "35bdac4c42fda86ff15e863182279145fdbfa7f0e7e38809a21bab2afae03ccb"
+    },
+    {
+      "name": "pipe8",
+      "pdk": "nangate45",
+      "top": "bitonic_group_sorter_pipelined_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 42564,
+      "area_um2": 59581.074,
+      "sequential_area_um2": 24742.256,
+      "abc_max_module_delay_ps": 2287.73,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "d788c3b6fd955dfdf7bfaada429fcf72cee36b629290ab314301f6b0c9534b81"
+    },
+    {
+      "name": "pipe8",
+      "pdk": "icsprout55",
+      "top": "bitonic_group_sorter_pipelined_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 39372,
+      "area_um2": 81558.12,
+      "sequential_area_um2": 33897.92,
+      "abc_max_module_delay_ps": 4300.27,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "9816b7ee2fc4bae3741c699318730eee28b3e934c440dd0da292471de1de617f"
+    },
+    {
+      "name": "fold16",
+      "pdk": "nangate45",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 54716,
+      "area_um2": 61104.456,
+      "sequential_area_um2": 7105.392,
+      "abc_max_module_delay_ps": 1926.2,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "13877647252ad11ad1d51f724e13822aef3823b73c0bf94eb46c4f8e2452ade9"
+    },
+    {
+      "name": "fold16",
+      "pdk": "icsprout55",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 51928,
+      "area_um2": 84954.52,
+      "sequential_area_um2": 9818.76,
+      "abc_max_module_delay_ps": 4156.56,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "032aaca74ae71519c1111ee0a5d52ea342a7269925a350b6379ecefe6c34a472"
+    },
+    {
+      "name": "pipe16",
+      "pdk": "nangate45",
+      "top": "bitonic_group_sorter_pipelined_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 120568,
+      "area_um2": 169396.248,
+      "sequential_area_um2": 71922.144,
+      "abc_max_module_delay_ps": 2400.1,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "87b00c25cf128f1bc64392d1ce816f6bf02e3ecb70372b7d193944c27b03289c"
+    },
+    {
+      "name": "pipe16",
+      "pdk": "icsprout55",
+      "top": "bitonic_group_sorter_pipelined_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 111375,
+      "area_um2": 230366.36,
+      "sequential_area_um2": 98192.64,
+      "abc_max_module_delay_ps": 4462.9,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "3796d48a33b3f63702bc5fba7e8d2630ea505c64963802a195abe20744dbca7a"
+    }
+  ],
+  "scope": "isolated BSU including buffers/counters, common external PE excluded, TT only; no chip STA or power signoff",
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51e3ddcc0f2187942fc27b77905e33979acc95dc012dc30a3ed7f2b0b0d65f9d",
+    "rtl/sort/bitonic_group_sorter_shared.sv": "414924df082c2cea1683326e2ce7fa78d43683f2896bdca25c7eaf004cc8f4a0",
+    "rtl/sort/stable_group_sorter_shared_compare.sv": "091e250df622498b019775ae57aa539ced551160c58863f2ce94a8b3fe1d1199",
+    "rtl/sort/stable_group_sorter_parallel_shared.sv": "3496f7568a33eda000ce251d60e468de3d46a975645fea5303ad1d879a748b39",
+    "rtl/raster/blend_fixed_core.sv": "59b41b5c382fbc77124f6cdd4c3c258da1f0374b8304f1d73689c161a6b87ebd",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "d22343fb0fa103285fb1740a6e184e541c68694b6478f65ee3909fa250a38463",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c"
+  },
+  "libraries": {
+    "nangate45": {
+      "path": "D:\\3DGS\\tmp\\toolchains\\freepdk45\\NangateOpenCellLibrary_typical.lib",
+      "sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1"
+    },
+    "icsprout55": {
+      "path": "D:\\3DGS\\tmp\\toolchains\\icsprout55\\rvt-v1.10.102\\liberty\\ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib",
+      "sha256": "15af0dceceeeb02e174174e7123c7d551551369bf5ad1e8417d3ce8dcbc24fcd"
+    }
+  },
+  "yosys_executable_sha256": "a53086750dd0225e03427fbe8460611b96251f5a45a13c357a2368aff74b5536"
+}

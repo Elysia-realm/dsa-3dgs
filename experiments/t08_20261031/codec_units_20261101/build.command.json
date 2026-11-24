@@ -1,0 +1,18 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+  "--binary",
+  "--build",
+  "-j",
+  "2",
+  "--timing",
+  "--assert",
+  "-Wno-fatal",
+  "--top-module",
+  "tb_t08_attribute_decoder",
+  "--Mdir",
+  "/home/gs3d/work/t08_20261031/codec_units_20261101",
+  "-o",
+  "simulation",
+  "rtl/dma/t08_attribute_decoder.sv",
+  "verification/rtl/tb_t08_attribute_decoder.sv"
+]

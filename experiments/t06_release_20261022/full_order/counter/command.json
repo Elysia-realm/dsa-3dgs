@@ -1,0 +1,7 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t06_release_20261022\\full_order\\order.vvp",
+  "+N=1222956",
+  "+INPUT=D:/3DGS/experiments/t06_release_20261022/full_order/counter/input.memh",
+  "+EXPECTED=D:/3DGS/experiments/t06_release_20261022/full_order/counter/expected.memh"
+]

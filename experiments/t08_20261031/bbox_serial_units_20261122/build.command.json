@@ -1,0 +1,18 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+  "--binary",
+  "--timing",
+  "--assert",
+  "-j",
+  "2",
+  "-Wno-fatal",
+  "--top-module",
+  "tb_t08_bbox_serial",
+  "--Mdir",
+  "/home/gs3d/work/t08_20261031/bbox_serial_units_20261122",
+  "-o",
+  "simulation",
+  "rtl/projection/gaussian_bbox_axis0_reject.sv",
+  "rtl/projection/gaussian_bbox_axis0_serial.sv",
+  "verification/rtl/tb_t08_bbox_serial.sv"
+]

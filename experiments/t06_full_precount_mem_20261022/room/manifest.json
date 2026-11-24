@@ -1,0 +1,18 @@
+{
+  "scene": "room",
+  "camera_index": 155,
+  "gaussians": 1593376,
+  "visible": 1380856,
+  "full_scene": true,
+  "width": 128,
+  "height": 84,
+  "software_preprocessing": "PLY decode and fixed-point format only; original order; pivots zero/ignored; one command",
+  "source_ply_sha256": "7db92776b7ee8818866c00de62e1102dde344b5e83abf107e20accd88e2d9201",
+  "input_sha256": {
+    "attribute.memh": "8bb9588b12ca9b15cc10f110cc2cf0abd5a522abb38b8426ec1c95720063c2ed",
+    "camera.memh": "f6bd7b0f5da2c21fbae24ebb1f279439b72fb19d75baa2d4447eed963ac3eb82",
+    "mean.memh": "439f9bb4a364792d91ff685155cf6267d2e2669e3fca22bf91811048650c4c4b"
+  },
+  "oracle_sha256": "4021e854aa0576eb6ec029e168adb1907b6da9a108b9cbfd76813edd4d0a20d9",
+  "status": "INPUT_PREPARED_NOT_TESTED"
+}

@@ -1,0 +1,655 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-DTB_RGB_BURST=1",
+      "-s",
+      "tb_t06_rgb_burst",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "rtl/dma/axi4_final_rgb_frame_dma.sv",
+      "verification/rtl/tb_t06_rgb_burst.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.03048284699980286,
+    "child_cpu_seconds": 0.011258000000005097,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=1",
+      "+HEIGHT=1",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.014151949000279274,
+    "child_cpu_seconds": 0.008570999999996332,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=1",
+      "+HEIGHT=1",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.013986698999815417,
+    "child_cpu_seconds": 0.007085000000003561,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=5",
+      "+HEIGHT=3",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.015927509999983158,
+    "child_cpu_seconds": 0.009570000000003631,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=5",
+      "+HEIGHT=3",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.014669720999791025,
+    "child_cpu_seconds": 0.009282999999996377,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=79",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.024141000999861717,
+    "child_cpu_seconds": 0.018463999999994485,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=79",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.025731298999744467,
+    "child_cpu_seconds": 0.019372000000004164,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=80",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.022911364000265166,
+    "child_cpu_seconds": 0.017079999999999984,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=80",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.029363891999764746,
+    "child_cpu_seconds": 0.024922000000003663,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=81",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.020812258999740152,
+    "child_cpu_seconds": 0.015305999999995379,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=81",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.024924986999849352,
+    "child_cpu_seconds": 0.019516000000002975,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.024786820999906922,
+    "child_cpu_seconds": 0.019753999999991834,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.02674564900007681,
+    "child_cpu_seconds": 0.01960600000000312,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=128",
+      "+HEIGHT=84",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.6921049469997342,
+    "child_cpu_seconds": 0.7069890000000001,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=128",
+      "+HEIGHT=84",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.7204098459997113,
+    "child_cpu_seconds": 0.7373589999999979,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.03120920199989996,
+    "child_cpu_seconds": 0.02562600000000259,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=2"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.03287938799985568,
+    "child_cpu_seconds": 0.027155000000000484,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=4"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.023258366000391106,
+    "child_cpu_seconds": 0.017758999999998082,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=5"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.036592547000054765,
+    "child_cpu_seconds": 0.030738000000006593,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=6"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.034035837999908836,
+    "child_cpu_seconds": 0.028511999999999205,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b1.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=7"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.024114515000292158,
+    "child_cpu_seconds": 0.01972899999999811,
+    "binary_sha256": "78923F91CC06EE2AC49450F26216BE347AC86DDD3ACE1632CDC62F92161EE31B",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-DTB_RGB_BURST=16",
+      "-s",
+      "tb_t06_rgb_burst",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "rtl/dma/axi4_final_rgb_frame_dma.sv",
+      "verification/rtl/tb_t06_rgb_burst.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.029247244000089268,
+    "child_cpu_seconds": 0.010572999999993726,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=1",
+      "+HEIGHT=1",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.013955154000086623,
+    "child_cpu_seconds": 0.008294000000006463,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=1",
+      "+HEIGHT=1",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.013620476000141934,
+    "child_cpu_seconds": 0.007682000000002631,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=5",
+      "+HEIGHT=3",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.013423153000076127,
+    "child_cpu_seconds": 0.00870599999999655,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=5",
+      "+HEIGHT=3",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.017279340000186494,
+    "child_cpu_seconds": 0.010737000000005992,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=79",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.019434349999755796,
+    "child_cpu_seconds": 0.014522999999996955,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=79",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.020593760999872757,
+    "child_cpu_seconds": 0.015464999999998952,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=80",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.018432114999995974,
+    "child_cpu_seconds": 0.013392999999993549,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=80",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.019880689999808965,
+    "child_cpu_seconds": 0.014741000000000781,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=81",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.021194042999923113,
+    "child_cpu_seconds": 0.01588699999999932,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=81",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.021526675000131945,
+    "child_cpu_seconds": 0.01605400000000401,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.02237920400011717,
+    "child_cpu_seconds": 0.016466000000001202,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.022646068000085506,
+    "child_cpu_seconds": 0.016911000000000342,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=128",
+      "+HEIGHT=84",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.5523008390000541,
+    "child_cpu_seconds": 0.5550659999999965,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=128",
+      "+HEIGHT=84",
+      "+PROFILE=1",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.5835029949998898,
+    "child_cpu_seconds": 0.5968420000000023,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.02968163600007756,
+    "child_cpu_seconds": 0.02372400000000141,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=2"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.031255853999937244,
+    "child_cpu_seconds": 0.02657299999999907,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=3"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.0228466139997181,
+    "child_cpu_seconds": 0.018346000000001084,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=4"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.022090165999998135,
+    "child_cpu_seconds": 0.016908999999998287,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=5"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.032908818000123574,
+    "child_cpu_seconds": 0.029152000000003397,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=6"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.02976326499992865,
+    "child_cpu_seconds": 0.02494999999999692,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb/b16.vvp",
+      "+WIDTH=83",
+      "+HEIGHT=2",
+      "+PROFILE=1",
+      "+FAULT=7"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.02199151200011329,
+    "child_cpu_seconds": 0.016847999999995977,
+    "binary_sha256": "ED9199A2C82A1A3DC079E92CA8F0BDD2A32D9B29CDF7359D1CE21921027A0B1E",
+    "vector_sha256": {}
+  }
+]

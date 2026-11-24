@@ -1,0 +1,45 @@
+{
+  "status": "CAPTURED_TWO_WINDOWS",
+  "scene": "room",
+  "windows": [
+    {
+      "window": 0,
+      "start_requests": 4096,
+      "end_requests": 267680,
+      "cycles": 13996478,
+      "state_updates": 65536,
+      "fills": 65537,
+      "queries": 65539,
+      "hits": 0,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 61441,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 65536,
+      "modeled_write_reduction_percent": 0.0
+    },
+    {
+      "window": 1,
+      "start_requests": 267680,
+      "end_requests": 267680,
+      "cycles": 151905,
+      "state_updates": 65536,
+      "fills": 65536,
+      "queries": 65536,
+      "hits": 0,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 61441,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 65536,
+      "modeled_write_reduction_percent": 0.0
+    }
+  ],
+  "trace_sha256": "2FE5614E2F6CAA0E1737E4E0DFC05A86E167E2743411F8F98530C0DB4EBAA017",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 729.742628253,
+    "log_sha256": "5960E305E257AB3D8003584DDF637E616C7A583DD35B63CE0A379187312957F1"
+  },
+  "launch_sha256": "4A0D9A2E2C00545B4AA6D72049B352421873B9B57C43C0EAC2A2914A40EB2663",
+  "complete_frame": false,
+  "signed_off": false
+}

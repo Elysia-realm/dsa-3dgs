@@ -1,0 +1,68 @@
+{
+  "status": "EVIDENCE_AUDITED_NOT_ACCEPTED",
+  "results": [
+    {
+      "scene": "bonsai",
+      "status": "TIMEOUT_2_BILLION_CYCLES",
+      "log_sha256": "D4FDBBDFC501FA496B695333F1358942D14CBFBCBB32E84D904B0BDF205A1862",
+      "execution": {
+        "exit_code": 1,
+        "wall_seconds": 83069.444383854,
+        "log_sha256": "D4FDBBDFC501FA496B695333F1358942D14CBFBCBB32E84D904B0BDF205A1862"
+      },
+      "complete_frame": false
+    },
+    {
+      "scene": "counter",
+      "status": "TIMEOUT_2_BILLION_CYCLES",
+      "log_sha256": "659162828F46E905928F03CAAEAF5502264E0846CDE1455B804451AD9DF8ED51",
+      "execution": {
+        "exit_code": 1,
+        "wall_seconds": 84500.874112321,
+        "log_sha256": "659162828F46E905928F03CAAEAF5502264E0846CDE1455B804451AD9DF8ED51"
+      },
+      "complete_frame": false
+    },
+    {
+      "scene": "room",
+      "status": "TIMEOUT_2_BILLION_CYCLES",
+      "log_sha256": "F25A1389891B489BFA26F16CC75DD9FCB23B03EF3DCD1F80882B8BC9DAB061C2",
+      "execution": {
+        "exit_code": 1,
+        "wall_seconds": 84174.800745671,
+        "log_sha256": "F25A1389891B489BFA26F16CC75DD9FCB23B03EF3DCD1F80882B8BC9DAB061C2"
+      },
+      "complete_frame": false
+    },
+    {
+      "scene": "train",
+      "status": "PROTOCOL_PASS_REFERENCE_PENDING",
+      "log_sha256": "3EB6A9953A5137F299FFD32E92FE2CC5E1F8FAEAD98325EB240C7A37447B9941",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 43562.512964138004,
+        "log_sha256": "3EB6A9953A5137F299FFD32E92FE2CC5E1F8FAEAD98325EB240C7A37447B9941"
+      },
+      "command_cycles": 1012803782,
+      "assumed_200MHz_FPS": 0.19747161647151115,
+      "independent_reference_pass": false,
+      "GT_pass": false
+    },
+    {
+      "scene": "truck",
+      "status": "PROTOCOL_PASS_REFERENCE_PENDING",
+      "log_sha256": "E6C05FB3B2580947E96C1C4A290DB26672D01AACEB13FFABC5F223104AEE37BE",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 43624.356037066,
+        "log_sha256": "E6C05FB3B2580947E96C1C4A290DB26672D01AACEB13FFABC5F223104AEE37BE"
+      },
+      "command_cycles": 1003006820,
+      "assumed_200MHz_FPS": 0.1994004387726895,
+      "independent_reference_pass": false,
+      "GT_pass": false
+    }
+  ],
+  "signed_off": false,
+  "source_manifest_sha256": "3BCFF3848BA87DE73770E622C5124F98D33B64F3078C002CF07C5401F5241828"
+}

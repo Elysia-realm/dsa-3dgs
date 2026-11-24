@@ -1,0 +1,558 @@
+{
+  "status": "CAPTURED_TWO_WINDOWS",
+  "scene": "counter",
+  "windows": [
+    {
+      "window": 0,
+      "start_requests": 4096,
+      "end_requests": 57464,
+      "cycles": 3159851,
+      "state_updates": 65536,
+      "fills": 65537,
+      "queries": 65539,
+      "hits": 0,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 61441,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 65536,
+      "modeled_write_reduction_percent": 0.0
+    },
+    {
+      "window": 1,
+      "start_requests": 65536,
+      "end_requests": 124727,
+      "cycles": 2574479,
+      "state_updates": 65536,
+      "fills": 39021,
+      "queries": 65538,
+      "hits": 26517,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 34925,
+      "modeled_terminal_flush": 4096,
+      "modeled_write_beats": 39021,
+      "modeled_write_reduction_percent": 40.45867919921875
+    }
+  ],
+  "trace_sha256": "ACC573F86A659DEC6753C02391B2BF373DE8EE4797B91EEB7DFCA248BB20BE96",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 558.394990774,
+    "log_sha256": "2BD75CF2675DEBEDAA3D101296BA9150A21F1B85A28B3273BBC330F5B34C259C"
+  },
+  "launch_sha256": "8FB674B1D21E254538BF8FB9BC682D75C04C1C68D847F15AC82108E701E9BD18",
+  "complete_frame": false,
+  "signed_off": false,
+  "work_trace_sha256": "BC6C0AD65A12428DBFCE9A2D181691EA8DFE8F60CE0EAE96354280A3BAAA1DC3",
+  "work_attribution": [
+    {
+      "window": 0,
+      "observed_gids": 8,
+      "totals": {
+        "blocks": 45701,
+        "rejected": 15482,
+        "tasks": 1909654,
+        "commits": 65536,
+        "terminated": 0
+      },
+      "top_by_tasks": [
+        {
+          "gid": 1074640,
+          "blocks": 13127,
+          "rejected": 0,
+          "tasks": 833799,
+          "commits": 63109,
+          "terminated": 0,
+          "bbox": [
+            0,
+            800,
+            921,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 929117,
+          "blocks": 16380,
+          "rejected": 4536,
+          "tasks": 747000,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            0,
+            498,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1109001,
+          "blocks": 4692,
+          "rejected": 816,
+          "tasks": 243000,
+          "commits": 2427,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1719,
+            810,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1139526,
+          "blocks": 1372,
+          "rejected": 0,
+          "tasks": 85855,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1691,
+            223,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1013592,
+          "blocks": 3434,
+          "rejected": 3434,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1948,
+            1616,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1134536,
+          "blocks": 4240,
+          "rejected": 4240,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1657,
+            633,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1135083,
+          "blocks": 816,
+          "rejected": 816,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1811,
+            187,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1159296,
+          "blocks": 1640,
+          "rejected": 1640,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1920,
+            656,
+            2076
+          ],
+          "descriptor_overflow": false
+        }
+      ],
+      "top_by_commits": [
+        {
+          "gid": 1074640,
+          "blocks": 13127,
+          "rejected": 0,
+          "tasks": 833799,
+          "commits": 63109,
+          "terminated": 0,
+          "bbox": [
+            0,
+            800,
+            921,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1109001,
+          "blocks": 4692,
+          "rejected": 816,
+          "tasks": 243000,
+          "commits": 2427,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1719,
+            810,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 929117,
+          "blocks": 16380,
+          "rejected": 4536,
+          "tasks": 747000,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            0,
+            498,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1013592,
+          "blocks": 3434,
+          "rejected": 3434,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1948,
+            1616,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1134536,
+          "blocks": 4240,
+          "rejected": 4240,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1657,
+            633,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1135083,
+          "blocks": 816,
+          "rejected": 816,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1811,
+            187,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1139526,
+          "blocks": 1372,
+          "rejected": 0,
+          "tasks": 85855,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1691,
+            223,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1159296,
+          "blocks": 1640,
+          "rejected": 1640,
+          "tasks": 0,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1920,
+            656,
+            2076
+          ],
+          "descriptor_overflow": false
+        }
+      ]
+    },
+    {
+      "window": 1,
+      "observed_gids": 249,
+      "totals": {
+        "blocks": 28954,
+        "rejected": 9699,
+        "tasks": 1165021,
+        "commits": 65536,
+        "terminated": 19
+      },
+      "top_by_tasks": [
+        {
+          "gid": 703556,
+          "blocks": 8740,
+          "rejected": 0,
+          "tasks": 549036,
+          "commits": 3488,
+          "terminated": 0,
+          "bbox": [
+            1662,
+            1472,
+            2571,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1110229,
+          "blocks": 4077,
+          "rejected": 756,
+          "tasks": 210700,
+          "commits": 28285,
+          "terminated": 0,
+          "bbox": [
+            0,
+            879,
+            215,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1094485,
+          "blocks": 6675,
+          "rejected": 5073,
+          "tasks": 99400,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            0,
+            1486,
+            710,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 1088692,
+          "blocks": 462,
+          "rejected": 168,
+          "tasks": 17004,
+          "commits": 0,
+          "terminated": 0,
+          "bbox": [
+            557,
+            1995,
+            884,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 252504,
+          "blocks": 324,
+          "rejected": 126,
+          "tasks": 12232,
+          "commits": 930,
+          "terminated": 3,
+          "bbox": [
+            2116,
+            874,
+            2255,
+            1013
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 955000,
+          "blocks": 256,
+          "rejected": 80,
+          "tasks": 10824,
+          "commits": 484,
+          "terminated": 0,
+          "bbox": [
+            2124,
+            877,
+            2247,
+            1000
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 670980,
+          "blocks": 210,
+          "rejected": 60,
+          "tasks": 8560,
+          "commits": 336,
+          "terminated": 0,
+          "bbox": [
+            2134,
+            892,
+            2241,
+            999
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 213848,
+          "blocks": 196,
+          "rejected": 70,
+          "tasks": 7416,
+          "commits": 690,
+          "terminated": 0,
+          "bbox": [
+            2134,
+            886,
+            2237,
+            989
+          ],
+          "descriptor_overflow": false
+        }
+      ],
+      "top_by_commits": [
+        {
+          "gid": 1110229,
+          "blocks": 4077,
+          "rejected": 756,
+          "tasks": 210700,
+          "commits": 28285,
+          "terminated": 0,
+          "bbox": [
+            0,
+            879,
+            215,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 703556,
+          "blocks": 8740,
+          "rejected": 0,
+          "tasks": 549036,
+          "commits": 3488,
+          "terminated": 0,
+          "bbox": [
+            1662,
+            1472,
+            2571,
+            2076
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 286542,
+          "blocks": 81,
+          "rejected": 0,
+          "tasks": 3969,
+          "commits": 1577,
+          "terminated": 0,
+          "bbox": [
+            820,
+            1983,
+            883,
+            2046
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 277011,
+          "blocks": 132,
+          "rejected": 48,
+          "tasks": 4872,
+          "commits": 1067,
+          "terminated": 1,
+          "bbox": [
+            2154,
+            913,
+            2241,
+            1000
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 252504,
+          "blocks": 324,
+          "rejected": 126,
+          "tasks": 12232,
+          "commits": 930,
+          "terminated": 3,
+          "bbox": [
+            2116,
+            874,
+            2255,
+            1013
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 276300,
+          "blocks": 182,
+          "rejected": 78,
+          "tasks": 6464,
+          "commits": 809,
+          "terminated": 0,
+          "bbox": [
+            2146,
+            901,
+            2247,
+            1002
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 213848,
+          "blocks": 196,
+          "rejected": 70,
+          "tasks": 7416,
+          "commits": 690,
+          "terminated": 0,
+          "bbox": [
+            2134,
+            886,
+            2237,
+            989
+          ],
+          "descriptor_overflow": false
+        },
+        {
+          "gid": 662702,
+          "blocks": 156,
+          "rejected": 72,
+          "tasks": 5096,
+          "commits": 625,
+          "terminated": 0,
+          "bbox": [
+            2157,
+            911,
+            2248,
+            1002
+          ],
+          "descriptor_overflow": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  "/home/gs3d/eda/venvs/gsverify/bin/python",
+  "asic/scripts/run_t01_wsl_sta.py",
+  "--alpha",
+  "1",
+  "--pdk",
+  "icsprout55"
+]

@@ -1,0 +1,18 @@
+{
+  "status": "current_post_q20_j34_cov2_35_repair; previous 18.222/0.883964 values superseded",
+  "reference": "software floating-point Gaussian-wise renderer, same camera/resolution, first ordered 1024; all pixels terminate in this prefix",
+  "source_metrics": "tmp/quality_cov20_final/metrics.json",
+  "metrics": {
+    "rtl_batch0": {
+      "psnr": 47.027860056219254,
+      "ssim": 0.9902411403678723,
+      "lpips": null
+    },
+    "rtl_full": {
+      "psnr": 47.027860056219254,
+      "ssim": 0.9902411403678723,
+      "lpips": null
+    }
+  },
+  "warning": "internal algorithmic diagnostic only; not ground-truth image quality"
+}

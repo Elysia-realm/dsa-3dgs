@@ -1,0 +1,17 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t05_20261009\\real\\build\\linear.vvp",
+  "+BATCH_ROOT=D:/3DGS/experiments/t05_20261009/real/bonsai",
+  "+BATCH_LAST=63",
+  "+FRAME=D:/3DGS/experiments/t05_20261009/real/bonsai/linear_m0_limited/state.memh",
+  "+RGB=D:/3DGS/experiments/t05_20261009/real/bonsai/linear_m0_limited/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t05_20261009/real/bonsai/linear_m0_limited/sorted.txt",
+  "+LABEL=bonsai_linear",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=2000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

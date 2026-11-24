@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_axi4_camera_config_read_dma",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_axi4_camera_config_read_dma.vvp",
+  "/mnt/d/3DGS/rtl/dma/axi4_camera_config_read_dma.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_axi4_camera_config_read_dma.sv"
+]

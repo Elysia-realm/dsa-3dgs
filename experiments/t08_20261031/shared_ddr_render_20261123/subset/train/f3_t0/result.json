@@ -1,0 +1,255 @@
+{
+  "format": 3,
+  "timed": 0,
+  "counters": {
+    "REAL_RGB_BURST": {
+      "configured": 16
+    },
+    "REAL_ADDRESS_LAYOUT": {
+      "camera": 2000,
+      "mean": 1000000,
+      "attr": 10000000,
+      "scratch": 60000000,
+      "output": 70000000,
+      "max_count": 2600000,
+      "max_pixels": 6500000,
+      "disjoint": 1
+    },
+    "REAL_END_TO_END": {
+      "command_cycles": 34391,
+      "camera_setup_cycles": 33,
+      "post_batch_cycles": 34358,
+      "command_count": 1,
+      "window": 4,
+      "mshr": 4,
+      "response_bypass": 1,
+      "commit_bypass": 1
+    },
+    "REAL_DMA_COUNTS": {
+      "camera_beats": 14,
+      "mean_beats": 512,
+      "attribute_beats": 4608,
+      "qsu_read_beats": 2394,
+      "qsu_write_beats": 2394,
+      "camera_bursts": 1,
+      "mean_bursts": 32,
+      "attribute_bursts": 528,
+      "qsu_read_bursts": 207,
+      "qsu_write_bursts": 2394,
+      "state_read_bursts": 3256,
+      "output_write_bursts": 4772
+    },
+    "REAL_LOCAL_QSU": {
+      "records": 0
+    },
+    "REAL_RGB": {
+      "reads": 9088,
+      "write_beats": 1704,
+      "bursts": 146,
+      "bytes": 27264,
+      "epoch": 1,
+      "error": 0
+    },
+    "REAL_SORT_WORK": {
+      "caps": 1048601,
+      "sequence": 1,
+      "shared": 81,
+      "local": 6399,
+      "swaps": 1114,
+      "phases": 810,
+      "groups": 81,
+      "fallback": 78,
+      "phase_grants": 4,
+      "phase_stalls": 0,
+      "shifts": 0,
+      "collect": 0,
+      "fast": 0,
+      "reverse": 0
+    },
+    "REAL_QSU": {
+      "enabled": 1,
+      "input": 512,
+      "partitions": 13,
+      "leaves": 81,
+      "reads": 2394,
+      "writes": 2394,
+      "stalls": 14642,
+      "peak": 23,
+      "axi_reads": 2394,
+      "axi_writes": 2394
+    },
+    "REAL_WORKLOAD": {
+      "gaussians": 512,
+      "resolution": 128,
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready": 1,
+      "write_response_latency": 2
+    },
+    "REAL_CONTINUATION": {
+      "enabled": 0,
+      "batches": 1,
+      "first_count": 512,
+      "second_count": 0,
+      "epoch": 1,
+      "state_in": 0
+    },
+    "REAL_PERF": {
+      "cycles": 34358,
+      "commits": 4626,
+      "state_misses": 2652,
+      "read_stall": 991,
+      "output_stall": 0,
+      "state_reads": 2652,
+      "state_writes": 4626
+    },
+    "REAL_ALPHA_SKIP": {
+      "enabled": 1,
+      "skipped": 12489
+    },
+    "REAL_SHARED_PE": {
+      "enabled": 1,
+      "main_projection": 1,
+      "G": 81,
+      "P": 2048,
+      "R": 4626,
+      "G_stall": 0,
+      "P_stall": 351,
+      "R_stall": 638,
+      "utilization": 6755,
+      "competing": 39,
+      "main_mac": 1536
+    },
+    "REAL_WRITEBACK": {
+      "enabled": 0,
+      "depth": 32,
+      "coalesced": 0,
+      "forwarded_reads": 0
+    },
+    "REAL_MULTIWRITE": {
+      "enabled": 1,
+      "depth": 8,
+      "peak_outstanding": 4
+    },
+    "REAL_WRITE_LOCALITY": {
+      "consecutive_same_pixel_commits": 0
+    },
+    "REAL_STAGE": {
+      "mode": 0,
+      "lanes": 4,
+      "collect": 1088,
+      "drain": 20388,
+      "group_busy": 18053,
+      "sort_busy": 18223,
+      "attr_wait": 224,
+      "projection_busy": 19149,
+      "sh_busy": 18491,
+      "raster_busy": 18957,
+      "overlap": 18924,
+      "sorted_bp": 17684,
+      "block_bp": 17669,
+      "retire_wait": 1134,
+      "state_cache_busy": 10083,
+      "window_wait": 1490,
+      "window_same": 0,
+      "window_diff": 1490,
+      "group_active": 4,
+      "group_service_stall": 0
+    },
+    "REAL_RECONFIG": {
+      "projection_mask": 3,
+      "sh_mask": 3,
+      "raster_mask": 3,
+      "projection_issue": 512,
+      "sh_issue": 512,
+      "raster_issue": 17115,
+      "projection_inactive_issue": 0,
+      "sh_inactive_issue": 0,
+      "raster_inactive_issue": 0
+    },
+    "REAL_SHAPE": {
+      "enabled": 1,
+      "rejected_blocks": 170
+    },
+    "REAL_BACKEND": {
+      "mshr_count": 4,
+      "blend_full": 3997,
+      "mshr_zero": 26401,
+      "mshr_one": 3295,
+      "mshr_two": 4695,
+      "mshr_full_query_block": 0,
+      "cache_rsp_block": 0,
+      "miss_issue_block": 991,
+      "ar_stall": 0,
+      "r_stall": 0,
+      "reader_rsp_block": 0
+    },
+    "REAL_WINDOW_OPP": {
+      "third_candidate": 1490,
+      "third_mshr_two": 123,
+      "third_mshr_one": 254,
+      "third_distinct": 1490,
+      "third_distinct_mshr_two": 123,
+      "third_raw": 0,
+      "head_need_query": 0,
+      "head_wait_rsp": 1333,
+      "head_need_blend": 0,
+      "head_wait_blend": 157,
+      "head_done_blocked": 0
+    },
+    "REAL_BLEND_BYPASS": {
+      "enabled": 1,
+      "fires": 4626
+    },
+    "REAL_COMMIT_BYPASS": {
+      "enabled": 1,
+      "fires": 3842
+    },
+    "REAL_OPERAND_ISOLATION": {
+      "enabled": 0,
+      "broadcast_exposures": 72556,
+      "isolated_exposures": 72556,
+      "avoided_exposures": 0
+    },
+    "REAL_T07_TERMINATION": {
+      "enabled": 1,
+      "accepted": 17115,
+      "alpha_issued": 17115,
+      "skipped": 0,
+      "updates": 0,
+      "full_blocks": 0
+    },
+    "REAL_T08": {
+      "format": 3,
+      "requests": 512,
+      "expected_beats": 4608,
+      "precomputed": 0,
+      "world_precomputed": 0
+    },
+    "REAL_SHARED_BUS": {
+      "beats": 27992,
+      "overlap_cycles": 4368,
+      "excess_beats": 5143,
+      "peak_queue": 1452,
+      "final_queue": 0
+    },
+    "REAL_COARSE_BLOCK": {
+      "updates": 0,
+      "skipped": 0
+    }
+  },
+  "cycles": 34391,
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 2.3833378390000064,
+    "log_sha256": "3511EC3F6119C514319DD7F578638D2A8821A55148F7FB0EA8949B698DD4D7AE"
+  },
+  "hashes": {
+    "frame.png": "6CE48AD6E23C7343EA14597E842123E4D4FA0A8C11DF631D143948CBCAA2BA37",
+    "rgb.memh": "340801A4A3F6350349F2D63B8173CAB0F4355FBE3B971B31424E9BA85E45849E",
+    "sorted.txt": "BD2A8F7E31A8573A995B236C1F7F9DF42BE0ED211C927C882019DEAB6908AA20",
+    "state.memh": "A807A9FB92F3B78D7DF11936046F15BC1B1F7C6FEED74713CDF5E5F00525D6B5",
+    "launch.json": "59BDE736DA5BAA991BBA045CCA71A146B79F8F9571E85BE0C94100314A7CD2B6"
+  },
+  "stats_sha256": null
+}

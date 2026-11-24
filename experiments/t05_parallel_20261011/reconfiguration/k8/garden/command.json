@@ -1,0 +1,19 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t05_parallel_20261011\\reconfiguration\\k8.vvp",
+  "+MEAN=D:/3DGS/experiments/t05_parallel_20261011/real/garden/g8/rtl_batch_0000/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t05_parallel_20261011/real/garden/g8/rtl_batch_0000/attribute_sparse.memh",
+  "+GLOBAL_GIDS=D:/3DGS/experiments/t05_parallel_20261011/real/garden/g8/rtl_batch_0000/global_gid.memh",
+  "+CAMERA=D:/3DGS/experiments/t05_parallel_20261011/real/garden/g8/rtl_batch_0000/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t05_parallel_20261011/reconfiguration/k8/garden/state.memh",
+  "+RGB=D:/3DGS/experiments/t05_parallel_20261011/reconfiguration/k8/garden/rgb.memh",
+  "+FRAME_MODE=3",
+  "+AUTO_MODE",
+  "+AUTO_REPEAT_FRAMES=2",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8",
+  "+MAX_TIMEOUT=2000000"
+]

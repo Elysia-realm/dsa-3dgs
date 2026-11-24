@@ -1,0 +1,13 @@
+{
+  "scene": "train",
+  "gaussians": 1026508,
+  "camera_index": 150,
+  "full_scene": true,
+  "input_sha256": "a6b66e5e5fd3cd6303cf49e147a59bf0efb108e91d8cee62dbd34fa48004d259",
+  "camera_sha256": "6ad2dfdbd456f5c739994b77f5bbb4781a54d87848966f0e3e13cb6945017bb0",
+  "vectors_sha256": {
+    "input.memh": "09518f9fda7692ae7383a80a9272378c702f6ea5763cb16e535be3af43862edb",
+    "expected.memh": "0dce1218abddd6cfa694b0688c4464fbf282ce450d50063d7968510fa8801cbd"
+  },
+  "scope": "all model records, no depth visibility cull; module QSU+BSU capacity/order evidence only"
+}

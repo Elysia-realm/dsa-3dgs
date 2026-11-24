@@ -1,0 +1,56 @@
+{
+  "scene": "counter",
+  "records": 1110964,
+  "partitions": 39463,
+  "leaves": 266346,
+  "reads": 9579942,
+  "writes": 8468978,
+  "candidates": [
+    {
+      "capacity": 32,
+      "ping_pong_payload_bytes": 728,
+      "subtree_loads": 23329,
+      "saved_read_beats": 553748,
+      "saved_write_beats": 553748,
+      "remaining_reads": 9026194,
+      "remaining_writes": 7915230,
+      "remaining_bytes": 271062784,
+      "independent_read_port_multiple_at_200mhz_30fps": 1.3539291
+    },
+    {
+      "capacity": 64,
+      "ping_pong_payload_bytes": 1456,
+      "subtree_loads": 32690,
+      "saved_read_beats": 943854,
+      "saved_write_beats": 943854,
+      "remaining_reads": 8636088,
+      "remaining_writes": 7525124,
+      "remaining_bytes": 258579392,
+      "independent_read_port_multiple_at_200mhz_30fps": 1.2954132
+    },
+    {
+      "capacity": 128,
+      "ping_pong_payload_bytes": 2912,
+      "subtree_loads": 32705,
+      "saved_read_beats": 1090431,
+      "saved_write_beats": 1090431,
+      "remaining_reads": 8489511,
+      "remaining_writes": 7378547,
+      "remaining_bytes": 253888928,
+      "independent_read_port_multiple_at_200mhz_30fps": 1.27342665
+    },
+    {
+      "capacity": 256,
+      "ping_pong_payload_bytes": 5824,
+      "subtree_loads": 13992,
+      "saved_read_beats": 1683172,
+      "saved_write_beats": 1683172,
+      "remaining_reads": 7896770,
+      "remaining_writes": 6785806,
+      "remaining_bytes": 234921216,
+      "independent_read_port_multiple_at_200mhz_30fps": 1.1845155
+    }
+  ],
+  "trace_sha256": "F72F119013970922ECDD5B901B242C68988385587155F89FC6B57475588E6316",
+  "source_report_sha256": "16A65D36DC0B6912E9D8D80853DC445F06D59360AEDC009D5E63A7C527A568CD"
+}

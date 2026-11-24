@@ -1,0 +1,88 @@
+REAL_RGB_BURST configured=16
+REAL_ADDRESS_LAYOUT camera=0000000000002000 mean=0000000001000000 attr=0000000010000000 scratch=0000000060000000 output=0000000070000000 max_count=2600000 max_pixels=6500000 disjoint=1
+T08_NATIVE_PROGRESS tick=33554432 qsu_reads=3090851 records=29377 commits=2434277 bus_beats=15460989
+T08_NATIVE_PROGRESS tick=67108864 qsu_reads=3345543 records=81307 commits=6811847 bus_beats=25086060
+T08_NATIVE_PROGRESS tick=100663296 qsu_reads=3663440 records=102365 commits=11121110 bus_beats=34267790
+T08_NATIVE_PROGRESS tick=134217728 qsu_reads=3740405 records=116901 commits=15733733 bus_beats=43579824
+T08_NATIVE_PROGRESS tick=167772160 qsu_reads=3822779 records=130593 commits=20627870 bus_beats=53521275
+T08_NATIVE_PROGRESS tick=201326592 qsu_reads=3874572 records=143871 commits=25159433 bus_beats=62608991
+T08_NATIVE_PROGRESS tick=234881024 qsu_reads=3968094 records=159880 commits=30025145 bus_beats=72463251
+T08_NATIVE_PROGRESS tick=268435456 qsu_reads=4028937 records=175222 commits=34807782 bus_beats=82123104
+T08_NATIVE_PROGRESS tick=301989888 qsu_reads=4120665 records=190527 commits=39641316 bus_beats=91939214
+T08_NATIVE_PROGRESS tick=335544320 qsu_reads=4188740 records=207863 commits=43733035 bus_beats=100192500
+T08_NATIVE_PROGRESS tick=369098752 qsu_reads=4297736 records=227878 commits=48800615 bus_beats=110525987
+T08_NATIVE_PROGRESS tick=402653184 qsu_reads=4419165 records=250981 commits=53761023 bus_beats=120646474
+T08_NATIVE_PROGRESS tick=436207616 qsu_reads=4548687 records=275185 commits=58816767 bus_beats=131007212
+T08_NATIVE_PROGRESS tick=469762048 qsu_reads=5180163 records=302133 commits=63002515 bus_beats=140597100
+T08_NATIVE_PROGRESS tick=503316480 qsu_reads=5318261 records=335093 commits=67429005 bus_beats=149717522
+T08_NATIVE_PROGRESS tick=536870912 qsu_reads=5519059 records=366476 commits=72078531 bus_beats=159442533
+T08_NATIVE_PROGRESS tick=570425344 qsu_reads=5704479 records=408952 commits=76448883 bus_beats=168527726
+T08_NATIVE_PROGRESS tick=603979776 qsu_reads=5979593 records=456895 commits=81049097 bus_beats=178303815
+T08_NATIVE_PROGRESS tick=637534208 qsu_reads=6255170 records=504716 commits=85256666 bus_beats=187169069
+T08_NATIVE_PROGRESS tick=671088640 qsu_reads=6687379 records=580936 commits=89466839 bus_beats=196544011
+T08_NATIVE_PROGRESS tick=704643072 qsu_reads=7522174 records=733228 commits=93692562 bus_beats=207269064
+T08_NATIVE_PROGRESS tick=738197504 qsu_reads=7996193 records=811118 commits=97144291 bus_beats=215234140
+T08_NATIVE_PROGRESS tick=771751936 qsu_reads=8495858 records=890499 commits=100667833 bus_beats=223449537
+T08_NATIVE_PROGRESS tick=805306368 qsu_reads=9183320 records=1009207 commits=103951642 bus_beats=231608053
+T08_NATIVE_PROGRESS tick=838860800 qsu_reads=10890523 records=1260964 commits=107028915 bus_beats=242513303
+T08_NATIVE_PROGRESS tick=872415232 qsu_reads=11286393 records=1332393 commits=111058507 bus_beats=251593662
+T08_NATIVE_PROGRESS tick=905969664 qsu_reads=11627073 records=1400933 commits=114639481 bus_beats=259655971
+T08_NATIVE_PROGRESS tick=939524096 qsu_reads=11957792 records=1460938 commits=118314630 bus_beats=267859558
+T08_NATIVE_PROGRESS tick=973078528 qsu_reads=12265340 records=1516427 commits=121959396 bus_beats=275946843
+T08_NATIVE_PROGRESS tick=1006632960 qsu_reads=12528897 records=1568345 commits=125727217 bus_beats=283901437
+REAL_END_TO_END command_cycles=1037731357 camera_setup_cycles=44 post_batch_cycles=1037731313 command_count=1 window=4 mshr=4 response_bypass=1 commit_bypass=1
+REAL_DMA_COUNTS camera_beats=14 mean_beats=2541226 attribute_beats=13312679 qsu_read_beats=13042093 qsu_write_beats=13042093 camera_bursts=1 mean_bursts=158827 attribute_bursts=1710725 qsu_read_bursts=1071440 qsu_write_bursts=13042093 state_read_bursts=120552339 output_write_bursts=129102879
+REAL_LOCAL_QSU records=0
+REAL_RGB reads=2135087 write_beats=400397 bursts=28733 bytes=6406352 epoch=1 error=00000000
+REAL_SORT_WORK caps=1048601 sequence=1 shared=318825 local=25187175 swaps=2965117 phases=3188250 groups=318825 fallback=318375 phase_grants=968 phase_stalls=0 shifts=0 collect=0 fast=0 reverse=0
+REAL_QSU enabled=1 input=1664518 partitions=52852 leaves=318825 reads=13042093 writes=13042093 stalls=1005923574 peak=47 axi_reads=13042093 axi_writes=13042093
+REAL_WORKLOAD label=truck_camera125 gaussians=2541226 resolution=1957x1091 read_latency=0 read_gap=0 ready=1/1 write_response_latency=2
+REAL_CONTINUATION enabled=0 batches=1 first_count=2541226 second_count=0 epoch=1 state_in=0
+REAL_PERF cycles=1037731313 commits=129074146 state_misses=120410421 read_stall=11711622 output_stall=10 state_reads=120410421 state_writes=129074146
+REAL_ALPHA_SKIP enabled=1 skipped=438772707
+REAL_SHARED_PE enabled=1 main_projection=1 G=318825 P=7534780 R=129074146 G_stall=0 P_stall=467573 R_stall=368057 utilization=136927751 competing=212651 main_mac=4993554
+REAL_WRITEBACK enabled=0 depth=32 coalesced=0 forwarded_reads=0
+REAL_MULTIWRITE enabled=1 depth=8 peak_outstanding=8
+REAL_WRITE_LOCALITY consecutive_same_pixel_commits=623
+REAL_STAGE mode=0 lanes=4 collect=7538409 drain=1025843550 group_busy=1033353888 sort_busy=1012783039 attr_wait=1049890 projection_busy=1013257782 sh_busy=1012620130 raster_busy=994536930 overlap=994534381 sorted_bp=1011114381 block_bp=974435163 retire_wait=27230499 state_cache_busy=607614830 window_wait=415780734 window_same=404 window_diff=415780330 group_active=4 group_service_stall=0
+REAL_RECONFIG projection_mask=3 sh_mask=3 raster_mask=3 projection_issue=1664518 sh_issue=1664518 raster_issue=567846853 projection_inactive_issue=0 sh_inactive_issue=0 raster_inactive_issue=0
+REAL_SHAPE enabled=1 rejected_blocks=13260300
+REAL_BACKEND mshr_count=4 blend_full=551993567 mshr_zero=440373051 mshr_one=32314657 mshr_two=565043649 mshr_full_query_block=0 cache_rsp_block=0 miss_issue_block=11711622 ar_stall=0 r_stall=0 reader_rsp_block=0
+REAL_WINDOW_OPP third_candidate=415780734 third_mshr_two=247584456 third_mshr_one=7322064 third_distinct=415780301 third_distinct_mshr_two=247584384 third_raw=433 head_need_query=3 head_wait_rsp=415699114 head_need_blend=0 head_wait_blend=81610 head_done_blocked=7
+REAL_BLEND_BYPASS enabled=1 fires=129074146
+REAL_COMMIT_BYPASS enabled=1 fires=119080253
+REAL_OPERAND_ISOLATION enabled=0 broadcast_exposures=-2010263740 isolated_exposures=-2010263740 avoided_exposures=0
+REAL_T07_TERMINATION enabled=1 accepted=574612731 alpha_issued=567846853 skipped=6765878 updates=1350707 full_blocks=1111
+REAL_T08 format=2 requests=1664518 expected_beats=13312679 precomputed=1662869 world_precomputed=1662869
+BBOX_SKIPS 100
+REAL_SHARED_BUS beats=293958156 overlap_cycles=51679369 excess_beats=53079335 peak_queue=843 final_queue=0
+REAL_COARSE_BLOCK updates=1313655 skipped=4341916
+REAL_LPDDR lines=272111427 dram_tail_cycles=0 qsu_b=13042093 out_b=129102879
+PASS: tb_t08_native_eight_shared
+- /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1259: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.051 devel
+- Verilator: $finish at 10s; walltime 35869.596 s; speed 289.307 us/s
+- Verilator: cpu 36513.188 s on 1 threads; allocated 746 MB
+	Command being timed: "/home/gs3d/work/t08_20261031/eight_beat_native_shared_20261123/simulation +MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/mean.memh +ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/inputs/truck/v2.memh +CAMERA=/mnt/d/3DGS/experiments/t08_20261031/inputs/native/truck/camera.memh +FRAME=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/native/truck/f2/state.memh +RGB=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/native/truck/f2/rgb.memh +FRAME_MODE=0 +READ_LATENCY=0 +READ_GAP=0 +READY_PERIOD=1 +READY_LOW=0 +WRITE_RESPONSE_LATENCY=2 +MAX_TIMEOUT=4000000000 +AUTO_QSU +SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/native/truck/f2/sorted.txt +ATTR_FORMAT=2 +MUTATE_FORMAT +LABEL=truck_camera125 +LPDDR_TIMED +MODEL_CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg +MODEL_STATS=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/native/truck/f2/model.stats"
+	User time (seconds): 36509.54
+	System time (seconds): 4.74
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:09:24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 760664
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 188447
+	Voluntary context switches: 285115
+	Involuntary context switches: 52490
+	Swaps: 0
+	File system inputs: 1642863
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,300 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "native_capacity",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/native_capacity.vvp",
+        "+FAULT=0"
+      ],
+      "returncode": 0,
+      "status": "PASS",
+      "expected_rejection": null,
+      "log_sha256": "48B0E952B3A0B5719A7B682DC01CFC91016F3A5C9ED8AB3852595E0ED188D5C5",
+      "binary_sha256": "A62A06A2F8BE25A8D2F4FA69FFA76F8AC502514CBD05D3B28BB8C6722E9748A5"
+    },
+    {
+      "name": "original_model_capacity_native_pixels",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/original_model_capacity_native_pixels.vvp",
+        "+FAULT=0"
+      ],
+      "returncode": 0,
+      "status": "PASS",
+      "expected_rejection": null,
+      "log_sha256": "DDC199B9639444258ABED12965511A61B67C27A9A06C2AF1F0E8571A03E82F11",
+      "binary_sha256": "12493405F0EC3C6241DDBFEB6D57F4013CBB91B80E45E06E8595AE84D8721B81"
+    },
+    {
+      "name": "below_region",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/below_region.vvp",
+        "+FAULT=1"
+      ],
+      "returncode": 1,
+      "status": "PASS",
+      "expected_rejection": "AXI region violation",
+      "log_sha256": "C7751348E362C1CFA3869D7EA4DB2DD31C7B41158CA9667A0AA47331823D857E",
+      "binary_sha256": "9DF6BE4E3932BF40242E159E0459CECECF65D782B626C35CC1E3090A38D8B6ED"
+    },
+    {
+      "name": "past_region",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/past_region.vvp",
+        "+FAULT=2"
+      ],
+      "returncode": 1,
+      "status": "PASS",
+      "expected_rejection": "AXI region violation",
+      "log_sha256": "F18C011B9DD6F1DA92C34FBBA100AFB35415A07E90EFECD6614AA84A4EE80F8E",
+      "binary_sha256": "CFF38509DB8CF7CC87EDF8792DFF9B989C9CB26644D3775F6925A1B4345422FA"
+    },
+    {
+      "name": "address_wrap",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/address_wrap.vvp",
+        "+FAULT=3"
+      ],
+      "returncode": 1,
+      "status": "PASS",
+      "expected_rejection": "AXI region violation",
+      "log_sha256": "8771DB6A5F69AB9D4BD21BD42EA712A17ACC8C32309134F31B2091B5D21BF2A4",
+      "binary_sha256": "E2EC5DF3FF9DFE79C873AC4CE4428F06AD602A577628DE1B59F2C5121894532A"
+    },
+    {
+      "name": "zero_length",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/zero_length.vvp",
+        "+FAULT=4"
+      ],
+      "returncode": 1,
+      "status": "PASS",
+      "expected_rejection": "AXI region violation",
+      "log_sha256": "EF942BD3B8ABBE03FCA75EDE5AB2A60F9EB20F7B916B09FE4F2F55A61AEC0561",
+      "binary_sha256": "E470608D49F69DEC194FB0B4ED610B8B324F839464CD6B3A56BE40ED2ABFF856"
+    },
+    {
+      "name": "scratch_overlap",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/scratch_overlap.vvp",
+        "+FAULT=0"
+      ],
+      "returncode": 1,
+      "status": "PASS",
+      "expected_rejection": "overlapping or overflowing",
+      "log_sha256": "35E703979F555F6869025399ED5317C32BC8B8300BE1DE2F1DA5685AF86AA510",
+      "binary_sha256": "07905B68F4A84B9FC5E915E50FB0C919BAEECD6DB849B06A616254ADF6C8F98E"
+    },
+    {
+      "name": "output_overflow",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/entry_checks/output_overflow.vvp",
+        "+FAULT=0"
+      ],
+      "returncode": 1,
+      "status": "PASS",
+      "expected_rejection": "overlapping or overflowing",
+      "log_sha256": "35E703979F555F6869025399ED5317C32BC8B8300BE1DE2F1DA5685AF86AA510",
+      "binary_sha256": "675F0BB4891232DB1ECC39C76024AD0310442A6257FD32995098032098457549"
+    },
+    {
+      "name": "bonsai_runtime_regions",
+      "status": "PASS",
+      "ranges": [
+        [
+          "camera",
+          8192,
+          224
+        ],
+        [
+          "mean",
+          16777216,
+          19917104
+        ],
+        [
+          "attr",
+          268435456,
+          179253936
+        ],
+        [
+          "qsu",
+          1610612736,
+          39834208
+        ],
+        [
+          "RGB",
+          1879048192,
+          19450080
+        ],
+        [
+          "state",
+          1898498272,
+          103667264
+        ]
+      ],
+      "input_manifest_sha256": "7193C2CDED1A46712CE886A8BE259971929052AC60244970EEF766396DE4E647"
+    },
+    {
+      "name": "counter_runtime_regions",
+      "status": "PASS",
+      "ranges": [
+        [
+          "camera",
+          8192,
+          224
+        ],
+        [
+          "mean",
+          16777216,
+          19567296
+        ],
+        [
+          "attr",
+          268435456,
+          176105664
+        ],
+        [
+          "qsu",
+          1610612736,
+          39134592
+        ],
+        [
+          "RGB",
+          1879048192,
+          19431360
+        ],
+        [
+          "state",
+          1898479552,
+          103467840
+        ]
+      ],
+      "input_manifest_sha256": "8282DED56DBB895EA1B3B3C8559D7C9FA22CFD57A117306223CCA10934DCBF80"
+    },
+    {
+      "name": "room_runtime_regions",
+      "status": "PASS",
+      "ranges": [
+        [
+          "camera",
+          8192,
+          224
+        ],
+        [
+          "mean",
+          16777216,
+          25494016
+        ],
+        [
+          "attr",
+          268435456,
+          229446144
+        ],
+        [
+          "qsu",
+          1610612736,
+          50988032
+        ],
+        [
+          "RGB",
+          1879048192,
+          19388800
+        ],
+        [
+          "state",
+          1898436992,
+          103384800
+        ]
+      ],
+      "input_manifest_sha256": "ED5D51C44C2029AD19C9768353FEDEDE65DB00715CA3B347EEAD26B6D0EC195E"
+    },
+    {
+      "name": "train_runtime_regions",
+      "status": "PASS",
+      "ranges": [
+        [
+          "camera",
+          8192,
+          224
+        ],
+        [
+          "mean",
+          16777216,
+          16424128
+        ],
+        [
+          "attr",
+          268435456,
+          147817152
+        ],
+        [
+          "qsu",
+          1610612736,
+          32848256
+        ],
+        [
+          "RGB",
+          1879048192,
+          6417920
+        ],
+        [
+          "state",
+          1885466112,
+          34164960
+        ]
+      ],
+      "input_manifest_sha256": "5DAC5E338113D66CB20F2583962831B47A1B7742E9AFFB07B1F4FE04B2DA91D0"
+    },
+    {
+      "name": "truck_runtime_regions",
+      "status": "PASS",
+      "ranges": [
+        [
+          "camera",
+          8192,
+          224
+        ],
+        [
+          "mean",
+          16777216,
+          40659616
+        ],
+        [
+          "attr",
+          268435456,
+          365936544
+        ],
+        [
+          "qsu",
+          1610612736,
+          81319232
+        ],
+        [
+          "RGB",
+          1879048192,
+          6406352
+        ],
+        [
+          "state",
+          1885454544,
+          34161392
+        ]
+      ],
+      "input_manifest_sha256": "689A5FB8BAF9E95ACF069A871C377C8F0460599D30FDE2D32E2E6B3B5BDC7AFA"
+    }
+  ],
+  "signed_off": false,
+  "source_sha256": {
+    "scripts/check_t08_entry.py": "C269603324469031F99382167F660714DE5D1D75E5A4F97C3067963C5E47EA1F",
+    "verification/rtl/t06_memory_layout.svh": "A6747C0418997979787C4A1096C6FF1A3BCDDBC4DDEE25973069BF9B702F2159",
+    "verification/rtl/tb_t06_memory_layout.sv": "8C9EDA7066B3FAF56E244F3D3274E0A2071874EA08BF28D7B8C83815B090B405"
+  }
+}

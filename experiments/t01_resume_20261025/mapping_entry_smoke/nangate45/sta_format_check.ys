@@ -1,0 +1,11 @@
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+read_verilog "/mnt/d/3DGS/experiments/t01_resume_20261025/mapping_entry_smoke/nangate45/shared_pe.v"
+hierarchy -check -top shared_reconfigurable_pe_slice
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t01_resume_20261025/sta_format/2C3F7DD53BEF1B77/original.il"
+design -reset
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+read_verilog "/mnt/d/3DGS/experiments/t01_resume_20261025/mapping_entry_smoke/nangate45/shared_pe.sta.v"
+hierarchy -check -top shared_reconfigurable_pe_slice
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t01_resume_20261025/sta_format/2C3F7DD53BEF1B77/adapted.il"

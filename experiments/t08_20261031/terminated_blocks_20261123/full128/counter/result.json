@@ -1,0 +1,256 @@
+{
+  "scene": "counter",
+  "kind": "full128",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 1108.799571027,
+    "log_sha256": "E5029C9999AEB923C5C3DE990F531031E34125AD69239B64CB283EF4FBD1A73A"
+  },
+  "counters": {
+    "REAL_RGB_BURST": {
+      "configured": 16
+    },
+    "REAL_ADDRESS_LAYOUT": {
+      "camera": 2000,
+      "mean": 1000000,
+      "attr": 10000000,
+      "scratch": 60000000,
+      "output": 70000000,
+      "max_count": 2600000,
+      "max_pixels": 6500000,
+      "disjoint": 1
+    },
+    "REAL_END_TO_END": {
+      "command_cycles": 33899821,
+      "camera_setup_cycles": 33,
+      "post_batch_cycles": 33899788,
+      "command_count": 1,
+      "window": 4,
+      "mshr": 4,
+      "response_bypass": 1,
+      "commit_bypass": 1
+    },
+    "REAL_DMA_COUNTS": {
+      "camera_beats": 14,
+      "mean_beats": 1222956,
+      "attribute_beats": 8755524,
+      "qsu_read_beats": 9579942,
+      "qsu_write_beats": 8468978,
+      "camera_bursts": 1,
+      "mean_bursts": 76435,
+      "attribute_bursts": 2247459,
+      "qsu_read_bursts": 823909,
+      "qsu_write_bursts": 8468978,
+      "state_read_bursts": 25770,
+      "output_write_bursts": 1278892
+    },
+    "REAL_LOCAL_QSU": {
+      "records": 0
+    },
+    "REAL_RGB": {
+      "reads": 10752,
+      "write_beats": 2016,
+      "bursts": 173,
+      "bytes": 32256,
+      "epoch": 1,
+      "error": 0
+    },
+    "REAL_SORT_WORK": {
+      "caps": 1048601,
+      "sequence": 1,
+      "shared": 266346,
+      "local": 21041334,
+      "swaps": 1398584,
+      "phases": 2663460,
+      "groups": 266346,
+      "fallback": 269408,
+      "phase_grants": 4065,
+      "phase_stalls": 87,
+      "shifts": 0,
+      "collect": 0,
+      "fast": 0,
+      "reverse": 0
+    },
+    "REAL_QSU": {
+      "enabled": 1,
+      "input": 1110964,
+      "partitions": 39463,
+      "leaves": 266346,
+      "reads": 9579942,
+      "writes": 8468978,
+      "stalls": 22077222,
+      "peak": 46,
+      "axi_reads": 9579942,
+      "axi_writes": 8468978
+    },
+    "REAL_WORKLOAD": {
+      "gaussians": 1222956,
+      "resolution": 128,
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready": 1,
+      "write_response_latency": 2
+    },
+    "REAL_CONTINUATION": {
+      "enabled": 0,
+      "batches": 1,
+      "first_count": 1222956,
+      "second_count": 0,
+      "epoch": 1,
+      "state_in": 0
+    },
+    "REAL_PERF": {
+      "cycles": 33899788,
+      "commits": 1278719,
+      "state_misses": 25098,
+      "read_stall": 6513,
+      "output_stall": 0,
+      "state_reads": 25098,
+      "state_writes": 1278719
+    },
+    "REAL_ALPHA_SKIP": {
+      "enabled": 1,
+      "skipped": 5865658
+    },
+    "REAL_SHARED_PE": {
+      "enabled": 1,
+      "main_projection": 1,
+      "G": 266346,
+      "P": 4555848,
+      "R": 1278719,
+      "G_stall": 87,
+      "P_stall": 300336,
+      "R_stall": 153523,
+      "utilization": 6100913,
+      "competing": 180647,
+      "main_mac": 3332892
+    },
+    "REAL_WRITEBACK": {
+      "enabled": 0,
+      "depth": 32,
+      "coalesced": 0,
+      "forwarded_reads": 0
+    },
+    "REAL_MULTIWRITE": {
+      "enabled": 1,
+      "depth": 8,
+      "peak_outstanding": 4
+    },
+    "REAL_WRITE_LOCALITY": {
+      "consecutive_same_pixel_commits": 7142
+    },
+    "REAL_STAGE": {
+      "mode": 0,
+      "lanes": 4,
+      "collect": 2598782,
+      "drain": 31285854,
+      "group_busy": 33881921,
+      "sort_busy": 24724855,
+      "attr_wait": 997679,
+      "projection_busy": 24914594,
+      "sh_busy": 24758082,
+      "raster_busy": 19267837,
+      "overlap": 19262712,
+      "sorted_bp": 23605008,
+      "block_bp": 16600571,
+      "retire_wait": 17162476,
+      "state_cache_busy": 1343252,
+      "window_wait": 16238,
+      "window_same": 0,
+      "window_diff": 16238,
+      "group_active": 4,
+      "group_service_stall": 0
+    },
+    "REAL_RECONFIG": {
+      "projection_mask": 3,
+      "sh_mask": 3,
+      "raster_mask": 3,
+      "projection_issue": 1110964,
+      "sh_issue": 1110964,
+      "raster_issue": 7144377,
+      "projection_inactive_issue": 0,
+      "sh_inactive_issue": 0,
+      "raster_inactive_issue": 0
+    },
+    "REAL_SHAPE": {
+      "enabled": 1,
+      "rejected_blocks": 269862
+    },
+    "REAL_BACKEND": {
+      "mshr_count": 4,
+      "blend_full": 53036,
+      "mshr_zero": 33810448,
+      "mshr_one": 56640,
+      "mshr_two": 32733,
+      "mshr_full_query_block": 0,
+      "cache_rsp_block": 0,
+      "miss_issue_block": 6513,
+      "ar_stall": 0,
+      "r_stall": 0,
+      "reader_rsp_block": 0
+    },
+    "REAL_WINDOW_OPP": {
+      "third_candidate": 16238,
+      "third_mshr_two": 917,
+      "third_mshr_one": 3501,
+      "third_distinct": 16238,
+      "third_distinct_mshr_two": 917,
+      "third_raw": 0,
+      "head_need_query": 0,
+      "head_wait_rsp": 14283,
+      "head_need_blend": 0,
+      "head_wait_blend": 1955,
+      "head_done_blocked": 0
+    },
+    "REAL_BLEND_BYPASS": {
+      "enabled": 1,
+      "fires": 1278719
+    },
+    "REAL_COMMIT_BYPASS": {
+      "enabled": 1,
+      "fires": 1258632
+    },
+    "REAL_OPERAND_ISOLATION": {
+      "enabled": 0,
+      "broadcast_exposures": 37465220,
+      "isolated_exposures": 37465220,
+      "avoided_exposures": 0
+    },
+    "REAL_T07_TERMINATION": {
+      "enabled": 1,
+      "accepted": 17862198,
+      "alpha_issued": 7144377,
+      "skipped": 10717821,
+      "updates": 9762,
+      "full_blocks": 102
+    },
+    "REAL_T08": {
+      "format": 2,
+      "requests": 1110964,
+      "expected_beats": 8755524,
+      "precomputed": 1110870,
+      "world_precomputed": 1110870
+    },
+    "REAL_SHARED_BUS": {
+      "beats": 29343999,
+      "overlap_cycles": 7581095,
+      "excess_beats": 8570432,
+      "peak_queue": 1325267,
+      "final_queue": 0
+    },
+    "REAL_COARSE_BLOCK": {
+      "updates": 9762,
+      "skipped": 246071
+    }
+  },
+  "terminal_changes": 0,
+  "cycles_saved": 3154370,
+  "r_grants_saved": 0,
+  "hashes": {
+    "state.memh": "6B777569172B43BEFB361B40615B9C73DDFC1898E9E694EF2A2F205FC181DF5B",
+    "rgb.memh": "5529D48A51805C10F19381F4758A2D71B08E876378BBDDE5FEF5064E783B42A3",
+    "sorted.txt": "F72F119013970922ECDD5B901B242C68988385587155F89FC6B57475588E6316",
+    "frame.png": "629CE18B93ED8A115CEC461EA6DA5A8291B43D7C62D50A7A1C83B0828088865E",
+    "launch.json": "FDDFAF69CF38134D6968986E5C46A4038FEAA0AA2B6932BD1002F156D2E74DC8"
+  }
+}

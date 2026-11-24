@@ -1,0 +1,65 @@
+--- a/io.cc
++++ b/io.cc
+@@ -34,6 +34,7 @@
+ #include <fstream>
+ #include <iostream>
+ #include <sstream>
++#include <cmath>
+ 
+ 
+ #include "io.h"
+@@ -65,7 +66,8 @@
+  power_gating(false),
+  cl_vertical (true)
+ {
+-
++  // GS_CONFIG_IO_FIELDS: reject missing IO parameters instead of using indeterminate values.
++  ron_value = rtt_value = tflight_value = -1.0;
+ }
+ 
+ /* Parses "cache.cfg" file */
+@@ -83,6 +85,31 @@
+   }
+ 
+   while(fscanf(fp, "%[^\n]\n", line) != EOF) {
++
++    if (!strncmp("-ron_value", line, strlen("-ron_value"))) {
++      if (sscanf(line, "-ron_value %lf", &ron_value) != 1 ||
++          !std::isfinite(ron_value) || ron_value <= 0) {
++        cerr << "Invalid -ron_value in CACTI configuration" << endl;
++        exit(1);
++      }
++      continue;
++    }
++    if (!strncmp("-rtt_value", line, strlen("-rtt_value"))) {
++      if (sscanf(line, "-rtt_value %lf", &rtt_value) != 1 ||
++          !std::isfinite(rtt_value) || rtt_value <= 0) {
++        cerr << "Invalid -rtt_value in CACTI configuration" << endl;
++        exit(1);
++      }
++      continue;
++    }
++    if (!strncmp("-tflight_value", line, strlen("-tflight_value"))) {
++      if (sscanf(line, "-tflight_value %lf", &tflight_value) != 1 ||
++          !std::isfinite(tflight_value) || tflight_value < 0) {
++        cerr << "Invalid -tflight_value in CACTI configuration" << endl;
++        exit(1);
++      }
++      continue;
++    }
+ 
+     if (!strncmp("-size", line, strlen("-size"))) {
+       sscanf(line, "-size %[(:-~)*]%u", jk, &(cache_sz));
+@@ -1048,6 +1075,12 @@
+   }
+   rpters_in_htree = true;
+   fclose(fp);
++  if ((io_type == DDR3 || io_type == DDR4) &&
++      (!(ron_value > 0) || !(rtt_value > 0) || !(tflight_value >= 0))) {
++    cerr << "DDR3/DDR4 IO requires explicit ron_value, rtt_value and tflight_value" << endl;
++    exit(1);
++  }
++
+ }
+ 
+   void

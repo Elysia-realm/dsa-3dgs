@@ -1,0 +1,13 @@
+[
+  "D:/IcarusVerilog/iverilog/bin/iverilog.exe",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-s",
+  "tb_t06_shared_window",
+  "-o",
+  "D:\\3DGS\\experiments\\t06_perf_20261018\\units\\window.vvp",
+  "rtl/common/rv_reg_slice.sv",
+  "rtl/raster/blend_fixed_core.sv",
+  "rtl/raster/blend_state_commit_4.sv",
+  "verification/rtl/tb_t06_shared_window.sv"
+]

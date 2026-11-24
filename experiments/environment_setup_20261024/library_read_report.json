@@ -1,0 +1,65 @@
+[
+  {
+    "path": "tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib",
+    "corner": "TT",
+    "status": "PASS",
+    "cells": 135,
+    "exit_code": 0,
+    "log": "experiments/environment_setup_20261024/logs/library-read-0.log",
+    "warnings": []
+  },
+  {
+    "path": "tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib",
+    "corner": "TT",
+    "status": "PASS",
+    "cells": 747,
+    "exit_code": 0,
+    "log": "experiments/environment_setup_20261024/logs/library-read-1.log",
+    "warnings": []
+  },
+  {
+    "path": "tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_ss_rcworst_1p08_125_nldm.lib",
+    "corner": "SS",
+    "status": "PASS",
+    "cells": 747,
+    "exit_code": 0,
+    "log": "experiments/environment_setup_20261024/logs/library-read-2.log",
+    "warnings": []
+  },
+  {
+    "path": "tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_ff_rcbest_1p32_m40_nldm.lib",
+    "corner": "FF",
+    "status": "PASS",
+    "cells": 747,
+    "exit_code": 0,
+    "log": "experiments/environment_setup_20261024/logs/library-read-3.log",
+    "warnings": []
+  },
+  {
+    "path": "tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib",
+    "corner": "typical",
+    "status": "PASS",
+    "cells": 134,
+    "exit_code": 0,
+    "log": "experiments/environment_setup_20261024/logs/library-read-4.log",
+    "warnings": []
+  },
+  {
+    "path": "tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib",
+    "corner": "slow",
+    "status": "PASS",
+    "cells": 134,
+    "exit_code": 0,
+    "log": "experiments/environment_setup_20261024/logs/library-read-5.log",
+    "warnings": []
+  },
+  {
+    "path": "tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_fast.lib",
+    "corner": "fast",
+    "status": "PASS",
+    "cells": 134,
+    "exit_code": 0,
+    "log": "experiments/environment_setup_20261024/logs/library-read-6.log",
+    "warnings": []
+  }
+]

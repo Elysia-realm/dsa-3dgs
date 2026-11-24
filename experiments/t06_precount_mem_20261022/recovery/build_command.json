@@ -1,0 +1,13 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Irtl/raster",
+  "-s",
+  "tb_t06_precount_recovery",
+  "-o",
+  "D:\\3DGS\\experiments\\t06_precount_mem_20261022\\recovery\\recovery.vvp",
+  "-f",
+  "verification/rtl/system_top_sources.f",
+  "verification/rtl/tb_t06_precount_recovery.sv"
+]

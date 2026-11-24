@@ -1,0 +1,17 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_rgb_20261022_R\\t06_perf.exe",
+  "+AUTO_QSU",
+  "+MEAN=D:/3DGS/experiments/t06_rgb_burst_20261022/real/subset/train/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_rgb_burst_20261022/real/subset/train/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_rgb_burst_20261022/real/subset/train/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_rgb_burst_20261022/real/subset/train/R_m1_limited/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_rgb_burst_20261022/real/subset/train/R_m1_limited/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_rgb_burst_20261022/real/subset/train/R_m1_limited/sorted.txt",
+  "+FRAME_MODE=1",
+  "+MAX_TIMEOUT=10000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

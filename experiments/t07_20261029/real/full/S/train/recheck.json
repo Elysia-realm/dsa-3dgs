@@ -1,0 +1,6 @@
+{
+  "reason": "Apply the frozen terminal-T equivalence to both existing coarse and new pixel termination. No RTL rerun or output modification.",
+  "original_launch_sha256": "DB2336BE2503E49040C3C02425E19879CA37D3D8D1E1B336E5B54CF933072C8E",
+  "original_execution_sha256": "A5D6AD5BD72BE828DADED98B23F63AC6D868B74F23EFD8D0AE34A4F1275D592C",
+  "checker_sha256": "282CFF7D07ED1F28F21D767EF9C9463FD9708019ED08D1B19C9651AFDB5D6516"
+}

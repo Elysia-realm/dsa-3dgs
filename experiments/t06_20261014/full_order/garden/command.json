@@ -1,0 +1,6 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_full_order\\t06_full_order.exe",
+  "+N=5834784",
+  "+INPUT=D:/3DGS/experiments/t06_20261014/full_order/garden/input.memh",
+  "+EXPECTED=D:/3DGS/experiments/t06_20261014/full_order/garden/expected.memh"
+]

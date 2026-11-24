@@ -1,0 +1,5 @@
+{
+  "started_utc": "2026-11-23T15:36:41.2218737Z",
+  "windows_wsl_pid": 4424,
+  "command": "wsl -d Ubuntu-24.04 -u gs3d --cd /mnt/d/3DGS -- /home/gs3d/eda/bin/gs-python scripts/run_t08_eight_native_shared.py"
+}

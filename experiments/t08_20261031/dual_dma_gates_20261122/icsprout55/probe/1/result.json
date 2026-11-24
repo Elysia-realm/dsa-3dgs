@@ -1,0 +1,25 @@
+{
+  "pdk": "icsprout55",
+  "variant": 1,
+  "sample": true,
+  "records": 159,
+  "beats": 1132,
+  "controls": 14,
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 298.14846355699996,
+    "log_sha256": "684F256D73534986017F61A9259A3C981078045BDB51D9CEAE873799EA430CA0"
+  },
+  "config": {
+    "command": [
+      "/usr/bin/vvp",
+      "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/icsprout55/dma.vvp",
+      "+N=159",
+      "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_dma_gates_20261122/icsprout55/probe/1/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dual_dma_gates_20261122/icsprout55/probe/1/expected.memh"
+    ],
+    "inputs_sha256": "D64959091337CB72C406E2B8DC1EFD1A5B33F29B0BAC0EEE95DADCC145FBA284",
+    "expected_sha256": "251ECC82E4F5BB89B4D06DBCC138CF868D621F48D71758E738F4BA7683D74F4E",
+    "binary_sha256": "EABCE5650C09C684AF1F28C070B224E96894DBE616CFC7B02D764D023040AFA3"
+  }
+}

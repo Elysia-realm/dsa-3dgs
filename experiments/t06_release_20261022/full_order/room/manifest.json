@@ -1,0 +1,13 @@
+{
+  "scene": "room",
+  "gaussians": 1593376,
+  "camera_index": 155,
+  "full_scene": true,
+  "input_sha256": "439f9bb4a364792d91ff685155cf6267d2e2669e3fca22bf91811048650c4c4b",
+  "camera_sha256": "f6bd7b0f5da2c21fbae24ebb1f279439b72fb19d75baa2d4447eed963ac3eb82",
+  "vectors_sha256": {
+    "input.memh": "0040df1b18896a86e5642c4f2c597afbe9487db11da7884fc47ef6add99c490d",
+    "expected.memh": "9ff4ce9a7ebaad64f2eb0a3b9827edfb852341373d0f42d37d9f28e56e3533a0"
+  },
+  "scope": "all model records, no depth visibility cull; module QSU+BSU capacity/order evidence only"
+}

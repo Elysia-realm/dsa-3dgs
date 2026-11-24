@@ -1,0 +1,23 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+  "--binary",
+  "--build",
+  "-j",
+  "2",
+  "--timing",
+  "--assert",
+  "-Wno-fatal",
+  "--top-module",
+  "tb_t08_state_line_timed",
+  "--Mdir",
+  "/home/gs3d/work/t08_20261031/state_lines_timed_20261123",
+  "-o",
+  "simulation",
+  "-CFLAGS",
+  "-I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR",
+  "-LDFLAGS",
+  "/home/gs3d/eda/src-20261024/ramulator/obj/ALDRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/Cache.o /home/gs3d/eda/src-20261024/ramulator/obj/Config.o /home/gs3d/eda/src-20261024/ramulator/obj/Controller.o /home/gs3d/eda/src-20261024/ramulator/obj/DDR3.o /home/gs3d/eda/src-20261024/ramulator/obj/DDR4.o /home/gs3d/eda/src-20261024/ramulator/obj/DSARP.o /home/gs3d/eda/src-20261024/ramulator/obj/GDDR5.o /home/gs3d/eda/src-20261024/ramulator/obj/HBM.o /home/gs3d/eda/src-20261024/ramulator/obj/LPDDR3.o /home/gs3d/eda/src-20261024/ramulator/obj/LPDDR4.o /home/gs3d/eda/src-20261024/ramulator/obj/MemoryFactory.o /home/gs3d/eda/src-20261024/ramulator/obj/PCM.o /home/gs3d/eda/src-20261024/ramulator/obj/Processor.o /home/gs3d/eda/src-20261024/ramulator/obj/Refresh.o /home/gs3d/eda/src-20261024/ramulator/obj/SALP.o /home/gs3d/eda/src-20261024/ramulator/obj/STTMRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/StatType.o /home/gs3d/eda/src-20261024/ramulator/obj/TLDRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/WideIO.o /home/gs3d/eda/src-20261024/ramulator/obj/WideIO2.o",
+  "/mnt/d/3DGS/rtl/dma/pixel_state_line_buffer.sv",
+  "/mnt/d/3DGS/experiments/t08_20261031/state_lines_timed_20261123/tb_t08_state_line_timed.sv",
+  "/mnt/d/3DGS/verification/rtl/t08_lpddr_timing.cpp"
+]

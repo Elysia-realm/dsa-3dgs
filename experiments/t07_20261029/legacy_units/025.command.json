@@ -1,0 +1,14 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_screen_covariance_core",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_screen_covariance_core.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+  "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_screen_covariance_core.sv"
+]

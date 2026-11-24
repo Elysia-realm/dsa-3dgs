@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "b1_1920x1080_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 1920,
+          "height": 1080,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 4616596,
+          "reads": 2073600,
+          "AR": 2073600,
+          "writes": 388800,
+          "AW": 27337
+        }
+      ],
+      "log": "b1_1920x1080_p0_f0.log"
+    },
+    {
+      "name": "b16_1920x1080_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 1920,
+          "height": 1080,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 2680696,
+          "reads": 2073600,
+          "AR": 137700,
+          "writes": 388800,
+          "AW": 27337
+        }
+      ],
+      "log": "b16_1920x1080_p0_f0.log"
+    }
+  ],
+  "source_sha256": {
+    "rtl/dma/axi4_final_rgb_frame_dma.sv": "dfc8e53c8b4d517cce725b72a2016bd5eac9b7f7cbbbed12f098d6d43ae04dd2",
+    "verification/rtl/tb_t06_rgb_burst.sv": "00309ab79c68ad7997f5897815a2c3cdaa0963224e62a1dc555f6cf5c0bfe864"
+  },
+  "scope": "RGB output stage only; synthetic state values; not whole-renderer real-data or 30FPS signoff"
+}

@@ -1,0 +1,10 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-s",
+  "tb_t08_attribute_dma",
+  "-o",
+  "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/icsprout55/dma.vvp",
+  "/mnt/d/3DGS/experiments/t08_20261031/dual_dma_gates_20261122/icsprout55/tb_t08_attribute_dma.sv",
+  "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/icsprout55/cells.v"
+]

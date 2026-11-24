@@ -1,0 +1,10 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/rtl/sort/autonomous_qsu.sv"
+chparam -set LOCAL_RECORDS 0 autonomous_qsu
+hierarchy -check -top autonomous_qsu
+proc
+opt
+memory_dff
+memory_collect
+opt_clean
+check -assert
+tee -o "D:/3DGS/experiments/t06_local_20261019/synthesis/local0.json" stat -json

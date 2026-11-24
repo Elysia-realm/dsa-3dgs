@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/home/gs3d/eda/src-20261024/ramulator/ramulator",
+    "/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+    "--mode=dram",
+    "--stats",
+    "/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/truck/w2/model.stats",
+    "/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/truck/w2/lines.trace"
+  ],
+  "model": {
+    "hashes": {
+      "/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg": "AFCE8BA8758D574662F3115171EDB9C2221D0941561CD416E7ED200F017F4734",
+      "/home/gs3d/eda/src-20261024/ramulator/ramulator": "DA0899A428B874ECD1394E5D29B623F9FB99171B8CD430AE7D17E8B47C5F8943",
+      "/home/gs3d/eda/src-20261024/ramulator/src/Main.cpp": "AAD9EF12C554F84E851B445F72322D369332EB3E78E5D25F7799E6C67E9B6B8C",
+      "/home/gs3d/eda/src-20261024/ramulator/src/LPDDR4.h": "AFD35A6F4D0BA0F172C32B2ADB2D6FB46A28083CB480C133C7B5DA91D2F021A5",
+      "/home/gs3d/eda/src-20261024/ramulator/src/Memory.h": "BE9C3F634F3292E3709820D48FC8F62039D0221C8FC026B103B464E30596AB0A"
+    },
+    "configuration": "LPDDR4_2400, two channels, one rank each, 1200 MHz DRAM clock, 64-byte transactions",
+    "policy": "Cold saturated DRAM replay per window, no interburst merge, one request per touched line per AXI burst, no explicit partial-write RMW. Fixed same-tick port tie ordering. No RTL feedback."
+  },
+  "trace_sha256": "E79D536EECA7007D2C409F1C92601277D8E190BE24BA1EC52560168BD8A2B2D1"
+}

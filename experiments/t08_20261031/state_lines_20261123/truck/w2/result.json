@@ -1,0 +1,35 @@
+{
+  "scene": "truck",
+  "window": 2,
+  "axi_bytes": 93136,
+  "axi_bursts": 5821,
+  "direct_line_requests": 5821,
+  "modeled_counts": {
+    "1": 8253,
+    "4": 4988,
+    "16": 2241
+  },
+  "verified_rtl_line_requests": 2241,
+  "direct_dram_cycles": 31146,
+  "buffered_dram_cycles": 11381,
+  "direct_useful_GBps": 3.5883644769793874,
+  "buffered_useful_GBps": 9.820156401019242,
+  "bench": {
+    "execution": {
+      "exit_code": 0,
+      "wall_seconds": 0.18478037899999933,
+      "log_sha256": "84CFD6EC2506BD285B9CDC67F15E6A4D18D2982FA3DE2DB713DC2B0CC47EC54E"
+    },
+    "reads": 1189,
+    "writes": 1052,
+    "bench_cycles": 48533,
+    "stimulus_sha256": "68E0035E5A21A9CD6509001CF12C3107422974ABD12086B948B128A08E6639F2",
+    "trace_sha256": "24A5DAADC6234430DD1A3E8F0EA08F453AC9BC9EFD94B9D1BE8D8F1FDD1D23D6"
+  },
+  "model_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.23016482899999957,
+    "log_sha256": "CB5F32E08277663101055ABA6DD033713EA05E5A7F95770EB85E1C168D9B0586"
+  },
+  "model_stats_sha256": "56B2110666E6DF6E89C0C4951740C287D527C6429020E08B24966D22ECE2E327"
+}

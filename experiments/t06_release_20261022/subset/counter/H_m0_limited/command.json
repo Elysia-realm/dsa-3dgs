@@ -1,0 +1,18 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t06_release_20261022\\build\\H\\perf.vvp",
+  "+AUTO_QSU",
+  "+MEAN=D:/3DGS/experiments/t06_release_20261022/subset/counter/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_release_20261022/subset/counter/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_release_20261022/subset/counter/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_release_20261022/subset/counter/H_m0_limited/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_release_20261022/subset/counter/H_m0_limited/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_release_20261022/subset/counter/H_m0_limited/sorted.txt",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=10000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

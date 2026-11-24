@@ -1,0 +1,25 @@
+{
+  "pdk": "nangate45",
+  "sample": false,
+  "variant": 0,
+  "records": 6144,
+  "physical_beats": 49565,
+  "controls": 18,
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 6777.56736555,
+    "log_sha256": "130F8BC97BE5467DDE504D5967572F06AD5A4668F38645630ACAB6008E15330A"
+  },
+  "config": {
+    "command": [
+      "/usr/bin/vvp",
+      "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp",
+      "+N=6144",
+      "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/0/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+    ],
+    "input_sha256": "7EDDBA85DAFBC93CEB20C1FAFE26738C53374A7822EEEDE7CE7367926E582C4A",
+    "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+    "vvp_sha256": "C86E8752B191A013A2C02AC73A5521EACA70DF6CBCA9B739C1BA25F1E99627FC"
+  }
+}

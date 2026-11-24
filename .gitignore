@@ -1,0 +1,68 @@
+# Scene inputs, local toolchains, and build products.
+/data/
+/tmp/
+/obj_dir/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.vvp
+*.vcd
+*.fst
+
+# Local documents and credentials.
+/参考文献/
+*完整对话历史*.md
+/继续开发.png
+*.docx
+~$*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Retain reviewable experiment sources and reports. Large data, traces,
+# compiled simulators and generated netlists stay in the local archive.
+/experiments/**/*
+!/experiments/**/
+!/experiments/**/*.json
+!/experiments/**/*.md
+!/experiments/**/*.py
+!/experiments/**/*.sh
+!/experiments/**/*.ps1
+!/experiments/**/*.sv
+!/experiments/**/*.svh
+!/experiments/**/*.f
+!/experiments/**/*.tcl
+!/experiments/**/*.sdc
+!/experiments/**/*.constr
+!/experiments/**/*.ys
+!/experiments/**/*.yaml
+!/experiments/**/*.yml
+!/experiments/**/*.csv
+!/experiments/**/*.patch
+!/experiments/**/*.c
+!/experiments/**/*.cc
+!/experiments/**/*.cpp
+!/experiments/**/*.h
+!/experiments/**/*.hpp
+/experiments/**/*_netlist.json
+/experiments/**/__pycache__/
+# AUX is a reserved Windows path component.
+/experiments/**/aux/
+!/experiments/t08_20261031/attribute_eight_beat_20261123/gates/**/*.log
+!/experiments/t08_20261031/eight_beat_native_shared_20261123/**/*.log
+
+# ASIC synthesis summaries and constraints are tracked with the source.
+/asic/reports/**/*.il
+/asic/reports/**/*_mapped.v
+/asic/reports/**/*_before_rom.v
+/asic/reports/**/runs/**/*.log

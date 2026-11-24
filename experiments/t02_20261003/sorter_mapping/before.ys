@@ -1,0 +1,9 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/experiments/t02_20261003/source_before/rtl/sort/stable_group_sorter_shared_compare.sv"
+synth -top stable_group_sorter_shared_compare -nofsm
+read_liberty -lib "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib"
+dfflibmap -liberty "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib"
+abc -liberty "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib"
+clean
+check -assert
+tee -o "D:/3DGS/experiments/t02_20261003/sorter_mapping/before.json" stat -json -liberty "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib" -top stable_group_sorter_shared_compare
+write_verilog -noattr -noexpr "D:/3DGS/experiments/t02_20261003/sorter_mapping/before.v"

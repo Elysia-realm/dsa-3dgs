@@ -1,0 +1,35 @@
+{
+  "scene": "truck",
+  "window": 3,
+  "axi_bytes": 47216,
+  "axi_bursts": 2951,
+  "direct_line_requests": 2951,
+  "modeled_counts": {
+    "1": 4177,
+    "4": 2510,
+    "16": 1127
+  },
+  "verified_rtl_line_requests": 1127,
+  "direct_dram_cycles": 15861,
+  "buffered_dram_cycles": 5694,
+  "direct_useful_GBps": 3.5722337809721956,
+  "buffered_useful_GBps": 9.95068493150685,
+  "bench": {
+    "execution": {
+      "exit_code": 0,
+      "wall_seconds": 0.17493509799999885,
+      "log_sha256": "8E2D4173704372A6BB36BD046FC73FBB88348266139E09B016C4470C094DC454"
+    },
+    "reads": 597,
+    "writes": 530,
+    "bench_cycles": 24598,
+    "stimulus_sha256": "8E35B95B504AC77B1F5CA41742839AFFF373C60A312485C3BDE61FC3364B32C1",
+    "trace_sha256": "8E85DC4C1AA294C46F81982D64519D12DFA85A4688911FFDA9DAB1AF3E0522BF"
+  },
+  "model_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.19377016900000044,
+    "log_sha256": "8DB30F574DD1F79D9C01FB2E668FDD56014EF74A3CB67C41B545576E6D17A6A6"
+  },
+  "model_stats_sha256": "961DFBC32AFDFBD7EDD01B0287658E1AEAA639710B8D12202909ED8FC1195490"
+}

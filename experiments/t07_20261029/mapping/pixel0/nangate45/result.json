@@ -1,0 +1,61 @@
+{
+  "status": "PASS_LOCAL_REPORT_GENERATION",
+  "pixel_skip": 0,
+  "pdk": "nangate45",
+  "area_mm2": 0.628116174,
+  "cells": 339888,
+  "cell_types": {
+    "AND2_X1": 1967,
+    "AND3_X1": 1019,
+    "AND4_X1": 1997,
+    "AOI211_X1": 1816,
+    "AOI21_X1": 42157,
+    "AOI22_X1": 20351,
+    "BUF_X1": 23076,
+    "CLKBUF_X1": 8747,
+    "DFFR_X1": 1629,
+    "DFF_X1": 77824,
+    "INV_X1": 18344,
+    "MUX2_X1": 21997,
+    "NAND2_X1": 34465,
+    "NAND3_X1": 4901,
+    "NAND4_X1": 5021,
+    "NOR2_X1": 41971,
+    "NOR3_X1": 2471,
+    "NOR4_X1": 1219,
+    "OAI211_X1": 440,
+    "OAI21_X1": 21467,
+    "OAI221_X1": 1707,
+    "OAI22_X1": 4655,
+    "OR2_X1": 67,
+    "OR3_X1": 122,
+    "OR4_X1": 323,
+    "XNOR2_X1": 119,
+    "XOR2_X1": 16
+  },
+  "unknown_cells": [],
+  "worst_slack_reports": [],
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51E3DDCC0F2187942FC27B77905E33979ACC95DC012DC30A3ED7F2B0B0D65F9D",
+    "rtl/raster/block_termination_bank.sv": "198C9B83FF95271A9C6B3532E775E03AD47CF9D3CFB2D024717AD8E32D77CE17",
+    "rtl/raster/block_termination_table.sv": "2A3FB3DE426F88A95CAC299487790853AED36D2D8A09F19A833DB6929ED26657",
+    "rtl/raster/raster_termination_filter.sv": "62FB81133898E2B283E9080529513BF7492DBC20B417BBE51276952D3F0D1FB0",
+    "rtl/raster/pixel_termination_mask.sv": "B335459D7C6251C6C870D0EBFFD0D4E7728FA1430FDBDE5F87A2F3EA2B775F11",
+    "rtl/raster/raster_pixel_termination_filter.sv": "4F6FC444E178A49D22DD050F31FC936F33B7736A7403B39CAE1A7CDC9B777665",
+    "verification/rtl/t07_termination_cost_top.sv": "040960F498C21E25F94FEBCAD2FD24E63E0791FCA3B720F36B6B91244D58EEC9"
+  },
+  "liberty_sha256": "2EFD0B32EB580E4E60E72FC0575BB3BC69AAC907C91D908442E4AE6D7FE55895",
+  "netlist_sha256": "3FF1E087E7660CDE69C8FD511A5C205B3EB1AD5ADC109FF64552E4E44C729B07",
+  "mapping": {
+    "exit_code": 0,
+    "wall_seconds": 71.628516027,
+    "log_sha256": "BEC71BE088AC1AF15EAFF3FF72AEAE5E5E12288D050FB4CC65589D05C34DFBA2"
+  },
+  "sta": {
+    "exit_code": 0,
+    "wall_seconds": 14.335715606999997,
+    "log_sha256": "A4435063EE8D7DBBC21E1376A86D2F8C71DE715C436B07D4B183A56A25E9A903"
+  },
+  "sta_log_sha256": "A4435063EE8D7DBBC21E1376A86D2F8C71DE715C436B07D4B183A56A25E9A903",
+  "scope": "Local termination filter only, 292-bit production payload, TT/5ns; register-expanded arrays. Negative slack/electrical violations are not waived, no top-level frequency/PPA pass claimed."
+}

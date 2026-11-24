@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "input_gaussians": 1024,
+    "visible_gaussians": 161,
+    "depth_groups": 1,
+    "projected_gaussians": 161,
+    "screen_culled_gaussians": 863,
+    "gaussian_block_tests": 7716,
+    "active_block_visits": 4904,
+    "pixel_tests": 275510,
+    "alpha_evaluations": 261380,
+    "alpha_pruned": 140971,
+    "blend_updates": 120409,
+    "terminated_pixels": 2752,
+    "skipped_terminated_pixels": 180746
+  },
+  "rgb_min": [
+    85,
+    77,
+    65
+  ],
+  "rgb_max": [
+    118,
+    109,
+    94
+  ],
+  "rgb_mean": [
+    99.99018895348837,
+    92.16133720930233,
+    72.76489825581395
+  ],
+  "t_min": 2.374917676206678e-05,
+  "t_max": 9.998739551519975e-05,
+  "metrics_rtl_vs_float_batch0": {
+    "psnr": 18.223475102081178,
+    "ssim": 0.8850065862057326,
+    "lpips": null,
+    "lpips_status": {
+      "available": false,
+      "reason": "local bundled runtime currently lacks torch and lpips"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+"""Freeze accepted T01 sources and draft the scope/risk report; status is separate."""
+import json,shutil,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from scripts.t01_resume_common import BASE,read,save,sha,frozen
+def main():
+    audit=read(BASE/'final_audit.json');assert audit['status']=='PASS_T01_INITIAL_FEEDBACK_EVIDENCE'
+    sources=dict(frozen())
+    extra=['AGENTS.md','verification/t06_release_profile.json','verification/test_t01_sta_structural.py',
+      'scripts/run_t06_image_release.py','model/io/scene.py','model/reference/math3d.py']
+    extra += [p.relative_to(ROOT).as_posix() for p in (ROOT/'scripts').glob('*t01*.py')]
+    extra += [p.relative_to(ROOT).as_posix() for p in (ROOT/'asic/scripts').glob('*t01*wsl*')]
+    extra += ['asic/scripts/t01_memory_padding.py','asic/scripts/t01_sta_netlist_adapter.py','asic/scripts/t01_structural_width_proof.py','asic/scripts/check_t01_linux_mapping_entry.py']
+    for f in sorted(set(extra)):sources[f]=sha(ROOT/f)
+    snap=BASE/'source_snapshot'
+    for f,h in sources.items():
+        target=snap/f;target.parent.mkdir(parents=True,exist_ok=True)
+        if target.exists():assert sha(target)==h.upper(),('existing snapshot differs',f)
+        else:shutil.copy2(ROOT/f,target)
+        assert sha(target)==h.upper()
+    save(snap/'manifest.json',sources)
+    matrix=audit['physical_matrix'];perf=sorted(audit['full_model_performance'],key=lambda r:['bonsai','counter','room','train','truck'].index(r['scene']))
+    lines=['# T01恢复轮验收与物理风险交接','',
+      '验收日期：2026-10-28。验收对象：当前冻结`t06_h_v1`、`gs_accel_system_top`正式源码与参数。',
+      '**本项结论：WSL接入、真实基线迁移及双工艺首次综合/顶层STA反馈证据齐全。T01可按此范围签核；不代表200MHz、最终面积/存储、功耗、目标分辨率/GT或30FPS通过。**','',
+      '本报告对应主清单第2.2节和本轮执行前验收合同。最终签核状态由`experiments/t01_resume_20261025/signoff.json`与`verification/implementation_status.json`记录；原队列`COMPLETE_PENDING_REVIEW`是报告生成阶段的历史状态。','',
+      '## 1. 验收条件与证据','',
+      '| 条件 | 本轮结果 |','|---|---|',
+      '| 正式源与参数冻结 | 89项生产源/头文件/清单与T06基线匹配；生产RTL未修改，正式功能保持启用 |',
+      '| 真实子集生产集成 | 五场景×G/P/R/E×ideal/limited，40次512记录运行通过；输入无CPU排序/pivot替代 |',
+      '| 完整模型 | 五场景完整集合、宽128、G/legacy-ideal；RGB DMA/PNG、排序、状态转码、DONE/IRQ/排空与地址守卫通过；图像已查看 |',
+      '| 边界与恢复 | 84次编译、83次基础运行；8组定向检查、五场景非空连续帧、五场景全记录QSU/BSU排序通过 |',
+      '| 独立语义 | 独立数学/字段测试通过；完整图像浮点MAE≤5；10套实际输入的7680个SH字段抽查及原PLY/编码输入哈希核验通过。字段抽查不是逐字段穷尽证明 |',
+      '| 双工艺同条件比较 | ICsprout55与Nangate45，TT、5ns约束、alpha=0/1四组完整映射和顶层STA完成；只有alpha开关不同 |',
+      '| 存储/控制完整性 | 未排除整个缓存；原控制与阵列映射为标准单元寄存器。没有未声明未知单元，面积按层级实例数核算 |',
+      '| STA覆盖 | 四组均完成真实顶层链接和check_setup覆盖检查，无缺失时钟/约束端点/组合环报告；复位未设整端口false path；setup/hold/recovery/removal及电气报告归档 |',
+      '| 特殊映射与格式修正 | QSU填充地址有指针边界归纳证明；仅定义65056个未被有效采样的填充位。signed声明适配通过流式结构/位宽全连接检查，原网表保留；检查器10项正负向测试通过 |','',
+      '证据入口：`final_audit.json`、`migration_audit.json`、`encoding/input_encoding_report.json`、`hist_padding_proof/`、`visual_review.json`及各`synthesis/alpha*/<pdk>/`目录，均位于`experiments/t01_resume_20261025`。','',
+      '## 2. 首次物理结果：明确未满足最终指标','',
+      '| 工艺/TT | alpha | 标准单元面积 mm² | 工具报告setup WNS ns | 工具报告hold WNS ns | 约束覆盖 |',
+      '|---|---:|---:|---:|---:|---|']
+    for r in matrix:lines.append(f"| {r['pdk']} | {r['alpha']} | {r['area_mm2']:.6f} | {r['setup_wns_ns']:.2f} | {r['hold_wns_ns']:.2f} | 通过 |")
+    lines += ['',
+      '**这些WNS含严重电气越界下的库表外推，只作工具诊断，不能当作物理可信的延时/Fmax估算。** 当前报告不证明200MHz或任何更高频率通过，也没有实测硬件FPS。',
+      '最突出的路径由APB软复位触发，经过`core_rst_ni = rst_ni && !soft_reset_pulse`的高扇出驱动，进入大量寄存器的复位端。当前映射没有完成该分布网络的电气修复，出现很大的slew/cap与恢复/撤除违例。未通过屏蔽复位路径、删除单元或修改库表掩盖问题。',
+      '面积包含本轮实际寄存器阵列与控制逻辑；不是最终SRAM宏面积，不再额外叠加CACTI样例面积。最终宏组织、端口、延迟、padding与控制成本仍需T11落实。当前两种寄存器方案均超过4mm²硬线，不能外推最终宏实现必然达标。',
+      '分析为综合级、理想时钟/互连，无提取寄生；输入/输出预算各0.5ns，时钟不确定度0.25ns，源slew预算0.05ns。Nangate负载3.899fF；ICsprout负载0.003539972pF（即3.539972fF）。ABC约束负载单位为fF，OpenSTA按各库单位使用。',
+      '主时序/电气诊断只做TT；已取得并核验的SS/FF库不等于已经完成三角STA。完整PPA/活动功耗、真实共享DDR带宽及最终画质/帧率仍未验收。','',
+      '## 3. 完整模型性能基线','',
+      '以下均为原始完整模型输入、一个指定相机、G模式和legacy-ideal AXI。RTL计时从命令接受到最终RGB响应/DONE；主机进程时间包含测试台装载/转储，另列且不算加速器开销。','',
+      '| 场景/相机 | Gaussian数 | 分辨率 | 整帧RTL周期 | 假定200MHz FPS | 主机墙钟秒 | 主机CPU秒 | 浮点MAE |',
+      '|---|---:|---|---:|---:|---:|---:|---:|']
+    for r in perf:
+        cpu=(r['host_process']['user_seconds'] or 0)+(r['host_process']['system_seconds'] or 0)
+        lines.append(f"| {r['scene']}/{r['camera']} | {r['gaussians']:,} | {r['width']}×{r['height']} | {r['command_cycles']:,} | {r['hypothetical_200MHz_fps']:.3f} | {r['host_wall_seconds']:.2f} | {cpu:.2f} | {r['independent_float_mae']:.4f} |")
+    lines += ['',
+      '阶段工作/忙碌/背压/等待、G/P/R服务、QSU划分/叶子、DMA事务与字节、缓存及提交行为均保留在`final_audit.json`的`full_model_performance`及原始运行日志。重叠计数不相加。硬件频率、硬件FPS、活动功耗均明确未测；没有把主机加速算作RTL收益。',
+      '现存属性供给、QSU搬运与共享服务仍是吞吐约束。服务下界逐资源分列；原ideal模型仍不等于共同物理DDR控制器。T07/T08继续减少无效工作和字节数，T11的资源/共享DDR预算同步前移，T08后强制性能检查保持。','',
+      '## 4. 有边界的alpha对照与停止决定','',
+      '本轮没有新增RTL优化；对当前已有精确alpha跳过做同源码、同输入、G/legacy-ideal的五场景512记录开关对照。RGB和排序保持一致，子集整帧周期减少约17.21%–17.93%。该收益只代表此对照范围，不外推完整模型或目标分辨率。','',
+      '| 工艺 | alpha启用的面积增量 μm² | 相对整个寄存器实现 | 决定 |','|---|---:|---:|---|']
+    for r in audit['alpha_comparison']:lines.append(f"| {r['pdk']} | {r['area_delta_mm2']*1e6:.3f} | {r['area_delta_percent']:.6f}% | 保留现有精确alpha跳过 |")
+    lines += ['',
+      '两组最坏时序均被相同的重大物理风险主导，不据此断言alpha机制没有任何局部时序代价。本轮到首次可信风险反馈即停止扩展，转T07；不会以低收益停止规则豁免最终硬指标。','',
+      '## 5. 失败、修复与资源边界','',
+      '- 首次排序文本对拍因CRLF/LF不同失败；仅归一化行尾，所有记录及其他字节严格相同，RGB没有任何归一化。',
+      '- QSU非二次幂存储展开产生65056个未驱动填充位；逐位定位后用原指针更新逻辑的二值状态归纳证明约束有效读取，再做限定填充连接，重新通过check -assert。没有全局setundef。',
+      '- 完整数据锥的SAT尝试超出资源，四态X抽象尝试也失败；最终仅对原指针控制锥进行显式anyseq保守抽象，归纳证明通过。它不替代完整QSU数据/排序验证。',
+      '- OpenSTA不接受映射输出的signed声明；小网表用重新导入后的结构记录核验，大网表用全结构/全位宽连接证明。不是只看读入成功；原始网表和等价证明保留。',
+      '- 大网表重新导入复核达到内存容量后被主动停止；首次完整STA在20GB内存/8GB swap配置下被终止。之后以24GB内存/64GB swap串行运行，四组STA均实际完成。主机资源设置不改变硬件模型或验收标准。',
+      '- 缺目录、Windows路径展开、早期格式比较等迁移问题及其失败日志保留；最终接受的输入、源快照、工具版本与报告单独绑定，不笼统声称历史失败为零。',
+      '- Windows应用控制保持开启；Linux流程不以Windows解封为前置条件。','',
+      '## 6. 后续责任与签核边界','',
+      '| 责任任务 | 必须继续完成 |','|---|---|',
+      '| T07/T08 | 正式剪枝/提前终止、压缩及按需取数；按清单做真实性能与质量验证 |',
+      '| T11（配套前移） | 软复位/高扇出电气实现及复位释放合同；真实存储端口/时延/宏模型；共享DDR与AXI联动；完整资源台账和必要综合收敛 |',
+      '| T12 | 在冻结实现上完成SS/TT/FF、200MHz、面积、存储、活动功耗及验证频率下的30FPS硬线 |',
+      '| T10 | 全部13场景、每场景至少5视角、正式分辨率及匹配GT质量验证；Kitchen/Garden仅暂缓当前开发测试 |','',
+      'T01签核关闭的是本轮工具/设计接入与首次诊断报告工作包，不关闭上述设计违例。后续源码或参数变化后，必须重新验证受影响项目，不把本轮物理结果追认为新源码通过。','',
+      '## 7. 复现与证据入口','',
+      '- 证据根目录：`experiments/t01_resume_20261025`。',
+      '- 最终门禁：`scripts/audit_t01_final.py`；纯审计不会设置签核。',
+      '- 物理流程：`scripts/run_t01_physical_queue.py`，有单实例锁与已完成报告的来源匹配复用，避免重复长测。',
+      '- 分步综合：`asic/scripts/run_t01_wsl_synthesis.py`；STA：`asic/scripts/run_t01_wsl_sta.py`。可用`--liberty`重定位同一冻结版本库文件；不能在同一证据目录静默换库版本。',
+      '- 实际工具命令、生成的Yosys/Tcl/SDC、输入与输出哈希、原始日志、完整网表位于各阶段目录；RTL与执行脚本快照位于`source_snapshot/`。',
+      '- 大型Linux中间检查点仍在`/home/gs3d/work/t01_resume_20261025`，其路径/哈希已记录；需要保留，不得在尚需复现时清理。',
+      '- 当前运行入口依赖本项目路径和已冻结输入；旧Windows启动器未全部迁移，不应直接重跑旧发布冻结脚本覆盖历史证据。','']
+    path=ROOT/'docs/T01恢复轮验收与物理风险交接_2026-10-28.md';path.write_text('\n'.join(lines),encoding='utf-8')
+    save(BASE/'signoff_package.json',dict(status='FROZEN_PENDING_SIGNOFF_RECORD',source_snapshot_manifest_sha256=sha(snap/'manifest.json'),final_audit_sha256=sha(BASE/'final_audit.json'),report_path=path.relative_to(ROOT).as_posix(),report_sha256=sha(path),production_profile_sha256=sha(ROOT/'verification/t06_release_profile.json')))
+    print(path)
+if __name__=='__main__':main()

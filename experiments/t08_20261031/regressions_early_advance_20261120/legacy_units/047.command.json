@@ -1,0 +1,13 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_gaussian_depth_prepass_core",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_depth_prepass_core.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_gaussian_depth_prepass_core.sv"
+]

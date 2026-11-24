@@ -1,0 +1,273 @@
+{
+  "status": "ANALYSIS_COMPLETE_NOT_INTEGRATED",
+  "results": [
+    {
+      "scene": "bonsai",
+      "gaussians": 1244819,
+      "full_model": true,
+      "ply_sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273",
+      "covariance_fractional_bits": 20,
+      "covariance_integer_min": -3763244,
+      "covariance_integer_max": 7883401,
+      "world_covariance_overflow_records": 0,
+      "covariance_signed24_fit_records": 1244819,
+      "sh_integer_min": -9981,
+      "sh_integer_max": 33871,
+      "sh_signed16_fit_records": 1244818,
+      "lossless_degree_histogram": [
+        64233,
+        7093,
+        3073,
+        1170420
+      ],
+      "analytic_tail_bound_sensitivity": {
+        "1": [
+          64235,
+          7091,
+          3073,
+          1170420
+        ],
+        "4": [
+          64471,
+          6864,
+          3064,
+          1170420
+        ]
+      },
+      "nonzero_error_budget_selected": false,
+      "candidate_beats_histogram": [
+        0,
+        0,
+        0,
+        64233,
+        7093,
+        0,
+        3073,
+        0,
+        1170419,
+        1
+      ],
+      "uncompressed_attribute_bytes": 179253936,
+      "candidate_useful_payload_bytes": 153645920,
+      "estimated_attribute_payload_reduction_percent": 14.285887702906564,
+      "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+      "signed_off": false
+    },
+    {
+      "scene": "counter",
+      "gaussians": 1222956,
+      "full_model": true,
+      "ply_sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4",
+      "covariance_fractional_bits": 20,
+      "covariance_integer_min": -6015575,
+      "covariance_integer_max": 6847294,
+      "world_covariance_overflow_records": 0,
+      "covariance_signed24_fit_records": 1222956,
+      "sh_integer_min": -9757,
+      "sh_integer_max": 31603,
+      "sh_signed16_fit_records": 1222956,
+      "lossless_degree_histogram": [
+        28021,
+        2897,
+        1416,
+        1190622
+      ],
+      "analytic_tail_bound_sensitivity": {
+        "1": [
+          28022,
+          2897,
+          1415,
+          1190622
+        ],
+        "4": [
+          28151,
+          2773,
+          1417,
+          1190615
+        ]
+      },
+      "nonzero_error_budget_selected": false,
+      "candidate_beats_histogram": [
+        0,
+        0,
+        0,
+        28021,
+        2897,
+        0,
+        1416,
+        0,
+        1190622,
+        0
+      ],
+      "uncompressed_attribute_bytes": 176105664,
+      "candidate_useful_payload_bytes": 154065968,
+      "estimated_attribute_payload_reduction_percent": 12.515040969948588,
+      "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+      "signed_off": false
+    },
+    {
+      "scene": "room",
+      "gaussians": 1593376,
+      "full_model": true,
+      "ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+      "covariance_fractional_bits": 20,
+      "covariance_integer_min": -1780795,
+      "covariance_integer_max": 9144142,
+      "world_covariance_overflow_records": 0,
+      "covariance_signed24_fit_records": 1593375,
+      "sh_integer_min": -10087,
+      "sh_integer_max": 27176,
+      "sh_signed16_fit_records": 1593376,
+      "lossless_degree_histogram": [
+        98067,
+        5191,
+        2429,
+        1487689
+      ],
+      "analytic_tail_bound_sensitivity": {
+        "1": [
+          98067,
+          5191,
+          2429,
+          1487689
+        ],
+        "4": [
+          98067,
+          5196,
+          2433,
+          1487680
+        ]
+      },
+      "nonzero_error_budget_selected": false,
+      "candidate_beats_histogram": [
+        0,
+        0,
+        0,
+        98067,
+        5191,
+        0,
+        2429,
+        0,
+        1487688,
+        1
+      ],
+      "uncompressed_attribute_bytes": 229446144,
+      "candidate_useful_payload_bytes": 195696832,
+      "estimated_attribute_payload_reduction_percent": 14.709034290853019,
+      "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+      "signed_off": false
+    },
+    {
+      "scene": "train",
+      "gaussians": 1026508,
+      "full_model": true,
+      "ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+      "covariance_fractional_bits": 20,
+      "covariance_integer_min": -131642830,
+      "covariance_integer_max": 141216237,
+      "world_covariance_overflow_records": 0,
+      "covariance_signed24_fit_records": 1026452,
+      "sh_integer_min": -10468,
+      "sh_integer_max": 45951,
+      "sh_signed16_fit_records": 1026472,
+      "lossless_degree_histogram": [
+        42321,
+        5300,
+        2359,
+        976528
+      ],
+      "analytic_tail_bound_sensitivity": {
+        "1": [
+          42321,
+          5300,
+          2359,
+          976528
+        ],
+        "4": [
+          42455,
+          5167,
+          2358,
+          976528
+        ]
+      },
+      "nonzero_error_budget_selected": false,
+      "candidate_beats_histogram": [
+        0,
+        0,
+        0,
+        42321,
+        5298,
+        0,
+        2359,
+        0,
+        976438,
+        92
+      ],
+      "uncompressed_attribute_bytes": 147817152,
+      "candidate_useful_payload_bytes": 127594256,
+      "estimated_attribute_payload_reduction_percent": 13.681021266057137,
+      "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+      "signed_off": false
+    },
+    {
+      "scene": "truck",
+      "gaussians": 2541226,
+      "full_model": true,
+      "ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+      "covariance_fractional_bits": 20,
+      "covariance_integer_min": -8886617,
+      "covariance_integer_max": 68096233,
+      "world_covariance_overflow_records": 0,
+      "covariance_signed24_fit_records": 2541195,
+      "sh_integer_min": -9979,
+      "sh_integer_max": 57497,
+      "sh_signed16_fit_records": 2541174,
+      "lossless_degree_histogram": [
+        26127,
+        58400,
+        12909,
+        2443790
+      ],
+      "analytic_tail_bound_sensitivity": {
+        "1": [
+          26127,
+          58400,
+          12909,
+          2443790
+        ],
+        "4": [
+          26286,
+          58242,
+          12910,
+          2443788
+        ]
+      },
+      "nonzero_error_budget_selected": false,
+      "candidate_beats_histogram": [
+        0,
+        0,
+        0,
+        26126,
+        58400,
+        0,
+        12907,
+        0,
+        2443710,
+        83
+      ],
+      "uncompressed_attribute_bytes": 365936544,
+      "candidate_useful_payload_bytes": 319037552,
+      "estimated_attribute_payload_reduction_percent": 12.816154267445889,
+      "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+      "signed_off": false
+    }
+  ],
+  "signed_off": false,
+  "source_sha256": {
+    "model/io/t08_precompute.py": "351F7A6874A73042D065E32893D229FE8CDBD135DA299FA7D3F19A3A5B47293B",
+    "model/io/scene.py": "EEB71E1602156E6254EBBCAA8BBA186E067577D593A85A1CBF6D0CC2BB2071F6",
+    "scripts/analyze_t08_parameters.py": "6DF7D84B7A8F1304E4D298D264FA538FD28336C1DCA5915C7169CF1FAF320C89",
+    "rtl/projection/quaternion_scale_covariance_core.sv": "9B74478E80A556B75F7F6B91EE724F306BD74B3DB39C2374ECD50A3B1E1AE24C",
+    "rtl/projection/raw_gaussian_projection_lane.sv": "DDB9BD988F95C8BBEA72FB5A90360FFCF39B1DAAF2CEF479C77B03639D6ADD23"
+  }
+}

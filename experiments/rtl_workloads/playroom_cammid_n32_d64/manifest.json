@@ -1,0 +1,95 @@
+{
+  "format_version": 1,
+  "source": "local D:/3DGS/data only; no network upload",
+  "scene": "playroom",
+  "camera_index": 112,
+  "original_gaussian_indices": [
+    7326,
+    40106,
+    259773,
+    501280,
+    542688,
+    669379,
+    698980,
+    712423,
+    792325,
+    793963,
+    819352,
+    858143,
+    865845,
+    914343,
+    943080,
+    983616,
+    1155191,
+    1158885,
+    1248038,
+    1250704,
+    1400968,
+    1435234,
+    1560616,
+    1671752,
+    1890008,
+    1963004,
+    1963876,
+    2097661,
+    2106957,
+    2156210,
+    2276933,
+    2460638
+  ],
+  "gaussian_count": 32,
+  "width": 64,
+  "height": 42,
+  "mean_record_bytes": 16,
+  "attribute_record_bytes": 144,
+  "gaussian_base": 4096,
+  "attribute_base": 16384,
+  "output_base": 1048576,
+  "fixed_formats": {
+    "mean": "signed Q10.16 / 27-bit",
+    "quaternion": "signed Q2.20 / 22-bit",
+    "scale": "unsigned Q4.20 / 24-bit",
+    "opacity_rgb": "Q1.12 / 13-bit",
+    "sh": "signed Q5.12 / 18-bit channel-major"
+  },
+  "camera_fixed": {
+    "rotation_q20": [
+      906928,
+      -191820,
+      490100,
+      377072,
+      918025,
+      -338465,
+      -367164,
+      468985,
+      862992
+    ],
+    "translation_q16": [
+      46200,
+      8517,
+      6763
+    ],
+    "position_q16": [
+      -40654,
+      -2030,
+      -24410
+    ],
+    "fx_fy_cx_cy_q16": [
+      3451034,
+      3451649,
+      2064384,
+      1343488
+    ],
+    "near_far_q16": [
+      13107,
+      65536000
+    ],
+    "regularizer_q8": 77
+  },
+  "depth_pivots_q16": [
+    292399,
+    310559,
+    339711
+  ],
+  "selection": "deterministic scene-wide priority sample of visible fixed-point-representable trained Gaussians; frame-local GID remap"
+}

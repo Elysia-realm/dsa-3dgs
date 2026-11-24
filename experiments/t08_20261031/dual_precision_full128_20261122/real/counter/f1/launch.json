@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/dual_precision_full128_20261122/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/counter/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/extended_20261107/inputs/full/counter/attribute.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/counter/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/real/counter/f1/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/real/counter/f1/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/real/counter/f1/sorted.txt",
+    "+ATTR_FORMAT=1",
+    "+MUTATE_FORMAT"
+  ],
+  "elf_sha256": "AF86B22B5B51B0A60AB8670DE8F550EAA0BEA25A1884D39341421967EA67D791",
+  "input_sha256": {
+    "MEAN": "01798E6CA573789C0658EB980F2AB132BCA5E89C8D9E3D3DC30D51AC242D0914",
+    "ATTR": "217BEBB6F2DF699E08957EC1664B34317D875F245FE1649459F11E56B7D22425",
+    "CAMERA": "16F1DDB6C8236206070FD29875B8B62EF2136A5AD60413F021FC5AB3DB3B01C7"
+  }
+}

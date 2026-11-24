@@ -1,0 +1,8 @@
+[
+  "/home/gs3d/eda/src-20261024/ramulator/ramulator",
+  "/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+  "--mode=dram",
+  "--stats",
+  "/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/room/w0/model.stats",
+  "/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/room/w0/lines.trace"
+]

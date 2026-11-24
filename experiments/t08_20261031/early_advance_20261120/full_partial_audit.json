@@ -1,0 +1,21 @@
+{
+  "status": "PARTIAL_FULL_MODEL_EVIDENCE",
+  "results": [
+    {
+      "scene": "bonsai",
+      "candidate_cycles": 32908642,
+      "frozen_split_cycles": 33992977,
+      "candidate_raw_cycles": 33847278,
+      "savings_vs_frozen_split_percent": 3.189879485989121,
+      "savings_vs_candidate_raw_percent": 2.7731506208564247,
+      "independent_float": {
+        "mae_rgb8": 0.2156187996031746,
+        "internal_reference_sha256": "D8C4AE0DEB2E2D20ACB4073D095FF1CDC4E2A0C7E08647243DE0E73948D912BC",
+        "candidate_image_sha256": "4DDAE4D798A0817534082DC36473331E9C799F7AE6B90EBA92F1377DC8BDA5BE",
+        "scope": "Width128 independent internal float reference"
+      },
+      "result_sha256": "3BC45F9E853D60EFD6FC58A85E981C7D370A36EFC084A14D665AF875603E0958"
+    }
+  ],
+  "signed_off": false
+}

@@ -1,0 +1,6 @@
+[
+  "/home/gs3d/eda/opt/opensta/bin/sta",
+  "-no_init",
+  "-exit",
+  "/mnt/d/3DGS/asic/scripts/run_t01_wsl_sta.tcl"
+]

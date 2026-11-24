@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/terminated_blocks_20261123/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/inputs/bonsai/v2.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/full128/bonsai/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/full128/bonsai/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/full128/bonsai/sorted.txt",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT",
+    "+LABEL=bonsai_camera146"
+  ],
+  "inputs": {
+    "MEAN": "F29B71996B32E0497E05E9CC2345A4EEE708A88ADF409F8576EB3173A851EFC5",
+    "ATTR": "C1E204DDCF0288E57C060309A2AD3236B7B8B32DF8443290B70FD079D5495EB5",
+    "CAMERA": "9943E12B5871932500E7C0B95D52CDD8E78829459A518A2E013C1A9260AC8649"
+  },
+  "baseline_result_sha256": "1BB3224F2813B7DE8F0E4C707D755914507CA8509CEFF04C9FFFDDC97BD09E1C",
+  "elf_sha256": "EE585288A71C5878F8DBF8B719FB5E9229375CFC20E3A4F7581FC5873664098C"
+}

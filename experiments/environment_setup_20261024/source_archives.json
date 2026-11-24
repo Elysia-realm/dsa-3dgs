@@ -1,0 +1,50 @@
+[
+  {
+    "name": "cudd",
+    "repo": "cuddorg/cudd",
+    "requested_ref": "refs/tags/3.0.0",
+    "url": "https://codeload.github.com/cuddorg/cudd/tar.gz/refs/tags/3.0.0",
+    "path": "tmp\\toolchains\\linux_sources_20261024\\cudd.tar.gz",
+    "bytes": 1170598,
+    "sha256": "ce2c41c000f4374868ee4d713283a35d3d975a96f1c6f3bcfbee96e79eeb4560",
+    "pax": {
+      "comment": "f54f533303640afd5dbe47a05ebeabb3066f2a25"
+    }
+  },
+  {
+    "name": "OpenSTA",
+    "repo": "parallaxsw/OpenSTA",
+    "requested_ref": "refs/heads/master",
+    "url": "https://codeload.github.com/parallaxsw/OpenSTA/tar.gz/refs/heads/master",
+    "path": "tmp\\toolchains\\linux_sources_20261024\\OpenSTA.tar.gz",
+    "bytes": 13513595,
+    "sha256": "ba0f3370ea3b39e6e05d8bae19c1f7807fdeb9b1de5d2518ea54916c6568e4e5",
+    "pax": {
+      "comment": "2b5a1181a7293e62c0ba513004238c8c3a048ab3"
+    }
+  },
+  {
+    "name": "cacti",
+    "repo": "HewlettPackard/cacti",
+    "requested_ref": "1ffd8dfb10303d306ecd8d215320aea07651e878",
+    "url": "https://codeload.github.com/HewlettPackard/cacti/tar.gz/1ffd8dfb10303d306ecd8d215320aea07651e878",
+    "path": "tmp\\toolchains\\linux_sources_20261024\\cacti.tar.gz",
+    "bytes": 195137,
+    "sha256": "bfed924722bb8ebfa0b224741d3955034e1ced7bd1371fbb5472c81c509df9a3",
+    "pax": {
+      "comment": "1ffd8dfb10303d306ecd8d215320aea07651e878"
+    }
+  },
+  {
+    "name": "ramulator",
+    "repo": "CMU-SAFARI/ramulator",
+    "requested_ref": "refs/heads/master",
+    "url": "https://codeload.github.com/CMU-SAFARI/ramulator/tar.gz/refs/heads/master",
+    "path": "tmp\\toolchains\\linux_sources_20261024\\ramulator.tar.gz",
+    "bytes": 251005850,
+    "sha256": "4a426704796de5a2bf9e07374a60e653ba5c0ef5681aeb1dc45f1a1feaff9e3b",
+    "pax": {
+      "comment": "214f635845214adf030367939655d172ef0fed5f"
+    }
+  }
+]

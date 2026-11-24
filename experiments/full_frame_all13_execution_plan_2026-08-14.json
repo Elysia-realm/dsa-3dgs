@@ -1,0 +1,693 @@
+{
+  "report_version": 1,
+  "date": "2026-08-14",
+  "data_policy": "Local D:/3DGS filesystem only; no upload.",
+  "main_dataflow": "depth groups -> ordered Gaussian issue -> Gaussian-internal 8x8 block traversal",
+  "planning_contract": {
+    "eligible": "near/far valid and representable by the frozen mean/scale fixed-point formats",
+    "screen_center_count": "diagnostic only; never used to discard wide off-screen-centered Gaussians",
+    "conservative_batch": "at most one group capacity; always prevents a group-buffer overflow",
+    "optimistic_batch": "up to GROUPS*capacity only after a depth-pivot builder proves every group fits",
+    "continuation_requirement": "successive batches must preserve epoch, image state and front-to-back order"
+  },
+  "groups": 4,
+  "max_dimension": 64,
+  "scenes": [
+    {
+      "scene": "bicycle",
+      "camera_index": 97,
+      "camera_count": 194,
+      "resolution": [
+        64,
+        43
+      ],
+      "source_gaussians": 6131954,
+      "depth_valid_gaussians": 4672750,
+      "fixed_representable_gaussians": 6131954,
+      "execution_eligible_gaussians": 4672750,
+      "screen_center_candidate_gaussians_diagnostic_only": 2249432,
+      "depth_range": [
+        0.20000314712524414,
+        90.45128631591797
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 23,
+      "mean_stream_bytes": 74764000,
+      "dense_attribute_store_bytes": 883001376,
+      "pixel_state_bytes": 44032,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 584094,
+          "optimistic_batch_count": 146024,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 73012,
+          "optimistic_batch_count": 18253,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 18253,
+          "optimistic_batch_count": 4564,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "bonsai",
+      "camera_index": 146,
+      "camera_count": 292,
+      "resolution": [
+        64,
+        43
+      ],
+      "source_gaussians": 1244819,
+      "depth_valid_gaussians": 1051092,
+      "fixed_representable_gaussians": 1244819,
+      "execution_eligible_gaussians": 1051092,
+      "screen_center_candidate_gaussians_diagnostic_only": 609956,
+      "depth_range": [
+        0.20001459121704102,
+        30.86829948425293
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 21,
+      "mean_stream_bytes": 16817472,
+      "dense_attribute_store_bytes": 179253936,
+      "pixel_state_bytes": 44032,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 131387,
+          "optimistic_batch_count": 32847,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 16424,
+          "optimistic_batch_count": 4106,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 4106,
+          "optimistic_batch_count": 1027,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "counter",
+      "camera_index": 120,
+      "camera_count": 240,
+      "resolution": [
+        64,
+        43
+      ],
+      "source_gaussians": 1222956,
+      "depth_valid_gaussians": 1110963,
+      "fixed_representable_gaussians": 1222956,
+      "execution_eligible_gaussians": 1110963,
+      "screen_center_candidate_gaussians_diagnostic_only": 733769,
+      "depth_range": [
+        0.2000260353088379,
+        19.556135177612305
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 21,
+      "mean_stream_bytes": 17775408,
+      "dense_attribute_store_bytes": 176105664,
+      "pixel_state_bytes": 44032,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 138871,
+          "optimistic_batch_count": 34718,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 17359,
+          "optimistic_batch_count": 4340,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 4340,
+          "optimistic_batch_count": 1085,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "drjohnson",
+      "camera_index": 131,
+      "camera_count": 263,
+      "resolution": [
+        64,
+        42
+      ],
+      "source_gaussians": 3405153,
+      "depth_valid_gaussians": 1763505,
+      "fixed_representable_gaussians": 3405153,
+      "execution_eligible_gaussians": 1763505,
+      "screen_center_candidate_gaussians_diagnostic_only": 1241904,
+      "depth_range": [
+        0.20000040531158447,
+        8.587053298950195
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 22,
+      "mean_stream_bytes": 28216080,
+      "dense_attribute_store_bytes": 490342032,
+      "pixel_state_bytes": 43008,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 220439,
+          "optimistic_batch_count": 55110,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 27555,
+          "optimistic_batch_count": 6889,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 6889,
+          "optimistic_batch_count": 1723,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "flowers",
+      "camera_index": 86,
+      "camera_count": 173,
+      "resolution": [
+        64,
+        42
+      ],
+      "source_gaussians": 3636448,
+      "depth_valid_gaussians": 2602265,
+      "fixed_representable_gaussians": 3636448,
+      "execution_eligible_gaussians": 2602265,
+      "screen_center_candidate_gaussians_diagnostic_only": 1374045,
+      "depth_range": [
+        0.20000028610229492,
+        60.147647857666016
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 22,
+      "mean_stream_bytes": 41636240,
+      "dense_attribute_store_bytes": 523648512,
+      "pixel_state_bytes": 43008,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 325284,
+          "optimistic_batch_count": 81321,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 40661,
+          "optimistic_batch_count": 10166,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 10166,
+          "optimistic_batch_count": 2542,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "garden",
+      "camera_index": 92,
+      "camera_count": 185,
+      "resolution": [
+        64,
+        41
+      ],
+      "source_gaussians": 5834784,
+      "depth_valid_gaussians": 4182979,
+      "fixed_representable_gaussians": 5834784,
+      "execution_eligible_gaussians": 4182979,
+      "screen_center_candidate_gaussians_diagnostic_only": 2170752,
+      "depth_range": [
+        0.20000481605529785,
+        49.31159973144531
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 23,
+      "mean_stream_bytes": 66927664,
+      "dense_attribute_store_bytes": 840208896,
+      "pixel_state_bytes": 41984,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 522873,
+          "optimistic_batch_count": 130719,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 65360,
+          "optimistic_batch_count": 16340,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 16340,
+          "optimistic_batch_count": 4085,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "kitchen",
+      "camera_index": 139,
+      "camera_count": 279,
+      "resolution": [
+        64,
+        43
+      ],
+      "source_gaussians": 1852335,
+      "depth_valid_gaussians": 1630748,
+      "fixed_representable_gaussians": 1852335,
+      "execution_eligible_gaussians": 1630748,
+      "screen_center_candidate_gaussians_diagnostic_only": 1339426,
+      "depth_range": [
+        0.20001745223999023,
+        19.457672119140625
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 21,
+      "mean_stream_bytes": 26091968,
+      "dense_attribute_store_bytes": 266736240,
+      "pixel_state_bytes": 44032,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 203844,
+          "optimistic_batch_count": 50961,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 25481,
+          "optimistic_batch_count": 6371,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 6371,
+          "optimistic_batch_count": 1593,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "playroom",
+      "camera_index": 112,
+      "camera_count": 225,
+      "resolution": [
+        64,
+        42
+      ],
+      "source_gaussians": 2546116,
+      "depth_valid_gaussians": 1888426,
+      "fixed_representable_gaussians": 2546116,
+      "execution_eligible_gaussians": 1888426,
+      "screen_center_candidate_gaussians_diagnostic_only": 309993,
+      "depth_range": [
+        0.2000012993812561,
+        7.42935037612915
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 22,
+      "mean_stream_bytes": 30214816,
+      "dense_attribute_store_bytes": 366640704,
+      "pixel_state_bytes": 43008,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 236054,
+          "optimistic_batch_count": 59014,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 29507,
+          "optimistic_batch_count": 7377,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 7377,
+          "optimistic_batch_count": 1845,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "room",
+      "camera_index": 155,
+      "camera_count": 311,
+      "resolution": [
+        64,
+        43
+      ],
+      "source_gaussians": 1593376,
+      "depth_valid_gaussians": 1380855,
+      "fixed_representable_gaussians": 1593376,
+      "execution_eligible_gaussians": 1380855,
+      "screen_center_candidate_gaussians_diagnostic_only": 676955,
+      "depth_range": [
+        0.20000028610229492,
+        46.25251388549805
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 21,
+      "mean_stream_bytes": 22093680,
+      "dense_attribute_store_bytes": 229446144,
+      "pixel_state_bytes": 44032,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 172607,
+          "optimistic_batch_count": 43152,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 21576,
+          "optimistic_batch_count": 5394,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 5394,
+          "optimistic_batch_count": 1349,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "stump",
+      "camera_index": 62,
+      "camera_count": 125,
+      "resolution": [
+        64,
+        42
+      ],
+      "source_gaussians": 4961797,
+      "depth_valid_gaussians": 3493526,
+      "fixed_representable_gaussians": 4961797,
+      "execution_eligible_gaussians": 3493526,
+      "screen_center_candidate_gaussians_diagnostic_only": 1406850,
+      "depth_range": [
+        0.20000648498535156,
+        164.8533477783203
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 23,
+      "mean_stream_bytes": 55896416,
+      "dense_attribute_store_bytes": 714498768,
+      "pixel_state_bytes": 43008,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 436691,
+          "optimistic_batch_count": 109173,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 54587,
+          "optimistic_batch_count": 13647,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 13647,
+          "optimistic_batch_count": 3412,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "train",
+      "camera_index": 150,
+      "camera_count": 301,
+      "resolution": [
+        64,
+        36
+      ],
+      "source_gaussians": 1026508,
+      "depth_valid_gaussians": 926606,
+      "fixed_representable_gaussians": 1026507,
+      "execution_eligible_gaussians": 926606,
+      "screen_center_candidate_gaussians_diagnostic_only": 602089,
+      "depth_range": [
+        0.2000265121459961,
+        119.22704315185547
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 20,
+      "mean_stream_bytes": 14825696,
+      "dense_attribute_store_bytes": 147817152,
+      "pixel_state_bytes": 36864,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 115826,
+          "optimistic_batch_count": 28957,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 14479,
+          "optimistic_batch_count": 3620,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 3620,
+          "optimistic_batch_count": 905,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "treehill",
+      "camera_index": 70,
+      "camera_count": 141,
+      "resolution": [
+        64,
+        42
+      ],
+      "source_gaussians": 3783761,
+      "depth_valid_gaussians": 2477477,
+      "fixed_representable_gaussians": 3783760,
+      "execution_eligible_gaussians": 2477477,
+      "screen_center_candidate_gaussians_diagnostic_only": 918073,
+      "depth_range": [
+        0.20002222061157227,
+        99.39604187011719
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 22,
+      "mean_stream_bytes": 39639632,
+      "dense_attribute_store_bytes": 544861584,
+      "pixel_state_bytes": 43008,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 309685,
+          "optimistic_batch_count": 77422,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 38711,
+          "optimistic_batch_count": 9678,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 9678,
+          "optimistic_batch_count": 2420,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    },
+    {
+      "scene": "truck",
+      "camera_index": 125,
+      "camera_count": 251,
+      "resolution": [
+        64,
+        36
+      ],
+      "source_gaussians": 2541226,
+      "depth_valid_gaussians": 1664517,
+      "fixed_representable_gaussians": 2541226,
+      "execution_eligible_gaussians": 1664517,
+      "screen_center_candidate_gaussians_diagnostic_only": 1152545,
+      "depth_range": [
+        0.20004749298095703,
+        85.32555389404297
+      ],
+      "sh_values_requiring_saturation": 0,
+      "gid_bits_required": 22,
+      "mean_stream_bytes": 26632272,
+      "dense_attribute_store_bytes": 365936544,
+      "pixel_state_bytes": 36864,
+      "capacity_plans": [
+        {
+          "group_capacity": 8,
+          "conservative_gaussians_per_batch": 8,
+          "optimistic_gaussians_per_batch": 32,
+          "conservative_batch_count": 208065,
+          "optimistic_batch_count": 52017,
+          "sequence_bits_required_conservative": 3,
+          "sequence_bits_required_optimistic": 5
+        },
+        {
+          "group_capacity": 64,
+          "conservative_gaussians_per_batch": 64,
+          "optimistic_gaussians_per_batch": 256,
+          "conservative_batch_count": 26009,
+          "optimistic_batch_count": 6503,
+          "sequence_bits_required_conservative": 6,
+          "sequence_bits_required_optimistic": 8
+        },
+        {
+          "group_capacity": 256,
+          "conservative_gaussians_per_batch": 256,
+          "optimistic_gaussians_per_batch": 1024,
+          "conservative_batch_count": 6503,
+          "optimistic_batch_count": 1626,
+          "sequence_bits_required_conservative": 8,
+          "sequence_bits_required_optimistic": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "rtl_clamp_transactions": 8,
+  "python_tests": 8,
+  "cpp_syntax": "PASS_NOT_RUNTIME_EQUIVALENCE",
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51e3ddcc0f2187942fc27b77905e33979acc95dc012dc30a3ed7f2b0b0d65f9d",
+    "rtl/projection/fixed_div_pipe2.sv": "bd713a156f06b2ef3c20b107fdb74b643fb29cae1c2c8f6d5ed7fb4f2b0a7313",
+    "rtl/projection/screen_covariance_core.sv": "146f8638ebd76419da7ba7fb31ba3ae09a828ea498e34f3d82384074dc051d7e",
+    "verification/rtl/tb_t06_covariance_clamp.sv": "f807f0a6b1ff3b1716ede89a8731b11a5304aab985d0a600e218901f6993c22b",
+    "model/reference/math3d.py": "a4caa0601b4fc1a8be3a0cc45e665a2a6992902ce1bde5694033b1e5eea5b5c0",
+    "model/io/scene.py": "eeb71e1602156e6254ebbcaa8bba186e067577d593a85a1cbf6d0cc2bb2071f6",
+    "scripts/build_full_frame_rtl_batch.py": "3896e387f40bbd6d95655878ff2fe5dde294ead02a024845941176a5537609e5",
+    "scripts/build_full_frame_rtl_batch_stdlib.cpp": "2f6247f68136a75e6943aa786cedb191401de78ac7563c2f1eb0dc5ca98b93d4",
+    "verification/test_scene_io.py": "7e5b2293e43a4256b6fff0e757c05c946e82bc61d4e35d46f33111db665e8e9b",
+    "verification/test_t06_projection_reference.py": "09602a3d6b214fa76cdf8a64138a69388322268dcf1c1621a69c45b62aa47555"
+  }
+}

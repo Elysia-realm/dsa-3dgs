@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "Nangate45 cross-corner cell/pin/function/ff/latch compatibility and old TT common-cell text identity; no full-top STA",
+  "libraries": [
+    {
+      "corner": "typical",
+      "path": "tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib",
+      "sha256": "2efd0b32eb580e4e60e72fc0575bb3bc69aac907c91d908442e4ae6d7fe55895",
+      "cells": 134,
+      "metadata": {
+        "nom_voltage": "1.10",
+        "nom_temperature": "25.00",
+        "time_unit": "\"1ns\"",
+        "leakage_power_unit": "\"1nW\""
+      }
+    },
+    {
+      "corner": "slow",
+      "path": "tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib",
+      "sha256": "372787d4970a6bde9fcd26e5499920c289ac5c7c780e21c3d518a64c002008be",
+      "cells": 134,
+      "metadata": {
+        "nom_voltage": "0.95",
+        "nom_temperature": "125.00",
+        "time_unit": "\"1ns\"",
+        "leakage_power_unit": "\"1nW\""
+      }
+    },
+    {
+      "corner": "fast",
+      "path": "tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_fast.lib",
+      "sha256": "31a231d64224b86d60e88c572e280f12e5d26361115e0b22bfc7e744fe8349ac",
+      "cells": 134,
+      "metadata": {
+        "nom_voltage": "1.25",
+        "nom_temperature": "0.00",
+        "time_unit": "\"1ns\"",
+        "leakage_power_unit": "\"1nW\""
+      }
+    }
+  ],
+  "cross_corner_signatures_identical": true,
+  "old_tt_common_cell_bodies_identical": true,
+  "old_tt_extra_cells": [
+    "TAPCELL_X1"
+  ],
+  "tap_cell_used_in_old_mapped_netlists": [],
+  "source_commit": "954b16e2fcd52994e9d3c8b5af35b5f91d261889"
+}

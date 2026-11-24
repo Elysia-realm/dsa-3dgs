@@ -1,0 +1,12 @@
+{
+  "status": "PASS_MODULE_ONLY",
+  "vectors": 8324,
+  "rejected": 3473,
+  "rejected_pixels_checked": 68356,
+  "source_sha256": {
+    "rtl/projection/gaussian_bbox_axis0_reject.sv": "8916D7CCB2C25D317C48D5D6C9C55936948C1E93377FDF28B1B91B7BEC19E4BD",
+    "verification/rtl/tb_t08_bbox_axis0.sv": "BEDD24CD8B93BF3344E61A525E9385CED940B3EACE8E53127C7AA026203CCD7D"
+  },
+  "vectors_sha256": "2F9B4FA35AFC06C7212AB503E84DED9E4900CEAB0A4C0F3EEC421B36D73ABF64",
+  "signed_off": false
+}

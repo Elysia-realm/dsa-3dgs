@@ -1,0 +1,10 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-s",
+  "tb_t08_terminated_block_counter",
+  "-o",
+  "/home/gs3d/work/t08_20261031/terminated_blocks_20261123/units/counter.vvp",
+  "/mnt/d/3DGS/rtl/raster/terminated_block_counter.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_t08_terminated_block_counter.sv"
+]

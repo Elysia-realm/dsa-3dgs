@@ -1,0 +1,17 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_perf_F\\t06_perf.exe",
+  "+AUTO_QSU",
+  "+MEAN=D:/3DGS/experiments/t06_perf_20261018/subset/room/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_perf_20261018/subset/room/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_perf_20261018/subset/room/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_perf_20261018/subset/room/F_m1_ideal/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_perf_20261018/subset/room/F_m1_ideal/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_perf_20261018/subset/room/F_m1_ideal/sorted.txt",
+  "+FRAME_MODE=1",
+  "+MAX_TIMEOUT=10000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

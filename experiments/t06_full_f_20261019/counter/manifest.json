@@ -1,0 +1,18 @@
+{
+  "scene": "counter",
+  "camera_index": 120,
+  "gaussians": 1222956,
+  "visible": 1110964,
+  "full_scene": true,
+  "width": 128,
+  "height": 84,
+  "software_preprocessing": "PLY decode and fixed-point format only; original order; pivots zero/ignored; one command",
+  "source_ply_sha256": "d676d3d9c4730933030e8cc02017bdf5c73c0ac58fafee05b8130f6369be39e4",
+  "input_sha256": {
+    "attribute.memh": "6c8b1c82d6d2c36cb62a62c822515c9e9dc6861d2e8242fa713d0f1f16563209",
+    "camera.memh": "16f1ddb6c8236206070fd29875b8b62ef2136a5ad60413f021fc5ab3db3b01c7",
+    "mean.memh": "01798e6ca573789c0658eb980f2ab132bca5e89c8d9e3d3dc30d51ac242d0914"
+  },
+  "oracle_sha256": "c24bc0e673bf402b2dd11fa362fa0810b242f885d17c711dc04d4b1887007d30",
+  "status": "INPUT_PREPARED_NOT_TESTED"
+}

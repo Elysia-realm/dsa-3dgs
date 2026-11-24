@@ -1,0 +1,6 @@
+[
+  "/home/gs3d/work/t08_20261031/v2_compact_native_20261122/protocol/v2/simulation",
+  "+N=6144",
+  "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/v2_compact_native_20261122/protocol/v2/input.memh",
+  "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+]

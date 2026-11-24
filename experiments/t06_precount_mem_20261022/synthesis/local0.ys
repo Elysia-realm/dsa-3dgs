@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/rtl/sort/autonomous_qsu.sv"
+chparam -set PRECOUNT_CHILDREN 0 autonomous_qsu
+hierarchy -check -top autonomous_qsu
+proc
+opt
+memory_dff
+memory_collect
+opt_clean
+check -assert
+tee -o "D:/3DGS/experiments/t06_precount_mem_20261022/synthesis/local0.json" stat -json
+write_json "D:/3DGS/experiments/t06_precount_mem_20261022/synthesis/local0_netlist.json"

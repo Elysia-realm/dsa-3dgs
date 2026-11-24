@@ -1,0 +1,10 @@
+read_verilog -formal -sv -DSYNTHESIS -DT01_FORMAL_BOUNDS /mnt/d/3DGS/experiments/t01_resume_20261025/hist_padding_proof/autonomous_qsu_bounds.sv
+chparam -set PRECOUNT_CHILDREN 1 -set LOCAL_RECORDS 0 autonomous_qsu
+prep -top autonomous_qsu
+cutpoint w:state_q w:counts* w:local_active_q w:local_exit_sp_q
+delete -output w:*
+opt_clean -purge
+async2sync
+opt_clean
+write_rtlil /mnt/d/3DGS/experiments/t01_resume_20261025/hist_padding_proof/pointer_cone.il
+sat -seq 2 -tempinduct -maxsteps 4 -set rst_ni 1 -set-at 1 rst_ni 0 -show sp_q -show state_q -show push_q -prove-asserts -verify -dump_vcd /mnt/d/3DGS/experiments/t01_resume_20261025/hist_padding_proof/bounds_counterexample.vcd

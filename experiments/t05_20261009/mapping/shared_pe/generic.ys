@@ -1,0 +1,7 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/rtl/common/rv_reg_slice.sv" "D:/3DGS/rtl/sort/bitonic_group_sorter_shared.sv" "D:/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv" "D:/3DGS/rtl/sort/stable_group_sorter_parallel_shared.sv" "D:/3DGS/rtl/raster/blend_fixed_core.sv" "D:/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv"
+chparam -set DATA_W 32 -set GID_W 32 -set SEQ_W 16 shared_reconfigurable_pe_slice
+hierarchy -check -top shared_reconfigurable_pe_slice
+rename shared_reconfigurable_pe_slice t05_dut
+synth -top t05_dut -flatten -noabc
+check -assert
+write_rtlil "D:/3DGS/experiments/t05_20261009/mapping/shared_pe/generic.il"

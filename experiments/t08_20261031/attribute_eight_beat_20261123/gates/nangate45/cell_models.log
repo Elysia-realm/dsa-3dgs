@@ -1,0 +1,292 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.66+183 (git sha1 b285b72e3, Release, Clang /usr/bin/clang++ 18.1.8)
+
+-- Executing script file `/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/cell_models.ys' --
+
+1. Executing Liberty frontend: /mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib
+Ignoring cell CLKGATETST_X1 with missing function on output IQ.
+Ignoring cell CLKGATETST_X2 with missing function on output IQ.
+Ignoring cell CLKGATETST_X4 with missing function on output IQ.
+Ignoring cell CLKGATETST_X8 with missing function on output IQ.
+Ignoring cell CLKGATE_X1 with missing function on output IQ.
+Ignoring cell CLKGATE_X2 with missing function on output IQ.
+Ignoring cell CLKGATE_X4 with missing function on output IQ.
+Ignoring cell CLKGATE_X8 with missing function on output IQ.
+Imported 126 cell types from liberty file.
+<suppressed ~8 debug messages>
+
+2. Executing Verilog-2005 frontend: /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/nangate45/mapped.v
+Parsing Verilog input from `/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/nangate45/mapped.v' to AST representation.
+Generating RTLIL representation for module `\axi4_t08_attribute_read_engine'.
+Successfully finished Verilog frontend.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \axi4_t08_attribute_read_engine
+Used module:     \DFFR_X1
+Used module:     \DFF_X1
+Used module:     \MUX2_X1
+Used module:     \NOR2_X1
+Used module:     \AOI21_X1
+Used module:     \NOR3_X1
+Used module:     \OR2_X1
+Used module:     \AND2_X1
+Used module:     \OAI21_X1
+Used module:     \NAND3_X1
+Used module:     \INV_X1
+Used module:     \OAI221_X1
+Used module:     \XNOR2_X1
+Used module:     \NAND2_X1
+Used module:     \AOI22_X1
+Used module:     \XOR2_X1
+Used module:     \OAI22_X1
+Used module:     \NOR4_X1
+Used module:     \AOI221_X1
+Used module:     \NAND4_X1
+Used module:     \OAI211_X1
+Used module:     \AOI211_X1
+Used module:     \AND3_X1
+Used module:     \AOI222_X1
+Used module:     \OR3_X1
+Used module:     \CLKBUF_X1
+Used module:     \BUF_X1
+Used module:     \AND4_X1
+Used module:     \OAI222_X1
+Used module:     \OR4_X1
+Used module:     \OAI33_X1
+
+3.2. Analyzing design hierarchy..
+Top module:  \axi4_t08_attribute_read_engine
+Used module:     \DFFR_X1
+Used module:     \DFF_X1
+Used module:     \MUX2_X1
+Used module:     \NOR2_X1
+Used module:     \AOI21_X1
+Used module:     \NOR3_X1
+Used module:     \OR2_X1
+Used module:     \AND2_X1
+Used module:     \OAI21_X1
+Used module:     \NAND3_X1
+Used module:     \INV_X1
+Used module:     \OAI221_X1
+Used module:     \XNOR2_X1
+Used module:     \NAND2_X1
+Used module:     \AOI22_X1
+Used module:     \XOR2_X1
+Used module:     \OAI22_X1
+Used module:     \NOR4_X1
+Used module:     \AOI221_X1
+Used module:     \NAND4_X1
+Used module:     \OAI211_X1
+Used module:     \AOI211_X1
+Used module:     \AND3_X1
+Used module:     \AOI222_X1
+Used module:     \OR3_X1
+Used module:     \CLKBUF_X1
+Used module:     \BUF_X1
+Used module:     \AND4_X1
+Used module:     \OAI222_X1
+Used module:     \OR4_X1
+Used module:     \OAI33_X1
+Removing unused module `\XOR2_X2'.
+Removing unused module `\XNOR2_X2'.
+Removing unused module `\TLAT_X1'.
+Removing unused module `\TINV_X1'.
+Removing unused module `\TBUF_X16'.
+Removing unused module `\TBUF_X8'.
+Removing unused module `\TBUF_X4'.
+Removing unused module `\TBUF_X2'.
+Removing unused module `\TBUF_X1'.
+Removing unused module `\SDFF_X2'.
+Removing unused module `\SDFF_X1'.
+Removing unused module `\SDFFS_X2'.
+Removing unused module `\SDFFS_X1'.
+Removing unused module `\SDFFR_X2'.
+Removing unused module `\SDFFR_X1'.
+Removing unused module `\SDFFRS_X2'.
+Removing unused module `\SDFFRS_X1'.
+Removing unused module `\OR4_X4'.
+Removing unused module `\OR4_X2'.
+Removing unused module `\OR3_X4'.
+Removing unused module `\OR3_X2'.
+Removing unused module `\OR2_X4'.
+Removing unused module `\OR2_X2'.
+Removing unused module `\OAI222_X4'.
+Removing unused module `\OAI222_X2'.
+Removing unused module `\OAI221_X4'.
+Removing unused module `\OAI221_X2'.
+Removing unused module `\OAI211_X4'.
+Removing unused module `\OAI211_X2'.
+Removing unused module `\OAI22_X4'.
+Removing unused module `\OAI22_X2'.
+Removing unused module `\OAI21_X4'.
+Removing unused module `\OAI21_X2'.
+Removing unused module `\NOR4_X4'.
+Removing unused module `\NOR4_X2'.
+Removing unused module `\NOR3_X4'.
+Removing unused module `\NOR3_X2'.
+Removing unused module `\NOR2_X4'.
+Removing unused module `\NOR2_X2'.
+Removing unused module `\NAND4_X4'.
+Removing unused module `\NAND4_X2'.
+Removing unused module `\NAND3_X4'.
+Removing unused module `\NAND3_X2'.
+Removing unused module `\NAND2_X4'.
+Removing unused module `\NAND2_X2'.
+Removing unused module `\MUX2_X2'.
+Removing unused module `\LOGIC1_X1'.
+Removing unused module `\LOGIC0_X1'.
+Removing unused module `\INV_X32'.
+Removing unused module `\INV_X16'.
+Removing unused module `\INV_X8'.
+Removing unused module `\INV_X4'.
+Removing unused module `\INV_X2'.
+Removing unused module `\HA_X1'.
+Removing unused module `\FILLCELL_X32'.
+Removing unused module `\FILLCELL_X16'.
+Removing unused module `\FILLCELL_X8'.
+Removing unused module `\FILLCELL_X4'.
+Removing unused module `\FILLCELL_X2'.
+Removing unused module `\FILLCELL_X1'.
+Removing unused module `\FA_X1'.
+Removing unused module `\DLL_X2'.
+Removing unused module `\DLL_X1'.
+Removing unused module `\DLH_X2'.
+Removing unused module `\DLH_X1'.
+Removing unused module `\DFF_X2'.
+Removing unused module `\DFFS_X2'.
+Removing unused module `\DFFS_X1'.
+Removing unused module `\DFFR_X2'.
+Removing unused module `\DFFRS_X2'.
+Removing unused module `\DFFRS_X1'.
+Removing unused module `\CLKBUF_X3'.
+Removing unused module `\CLKBUF_X2'.
+Removing unused module `\BUF_X32'.
+Removing unused module `\BUF_X16'.
+Removing unused module `\BUF_X8'.
+Removing unused module `\BUF_X4'.
+Removing unused module `\BUF_X2'.
+Removing unused module `\AOI222_X4'.
+Removing unused module `\AOI222_X2'.
+Removing unused module `\AOI221_X4'.
+Removing unused module `\AOI221_X2'.
+Removing unused module `\AOI211_X4'.
+Removing unused module `\AOI211_X2'.
+Removing unused module `\AOI22_X4'.
+Removing unused module `\AOI22_X2'.
+Removing unused module `\AOI21_X4'.
+Removing unused module `\AOI21_X2'.
+Removing unused module `\ANTENNA_X1'.
+Removing unused module `\AND4_X4'.
+Removing unused module `\AND4_X2'.
+Removing unused module `\AND3_X4'.
+Removing unused module `\AND3_X2'.
+Removing unused module `\AND2_X4'.
+Removing unused module `\AND2_X2'.
+Removed 95 unused modules.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module CLKBUF_X1...
+Checking module NOR2_X1...
+Checking module XNOR2_X1...
+Checking module XOR2_X1...
+Checking module NAND4_X1...
+Checking module OAI22_X1...
+Checking module BUF_X1...
+Checking module OAI222_X1...
+Checking module NAND3_X1...
+Checking module AOI222_X1...
+Checking module OR3_X1...
+Checking module OAI21_X1...
+Checking module AOI221_X1...
+Checking module NAND2_X1...
+Checking module axi4_t08_attribute_read_engine...
+Checking module AOI211_X1...
+Checking module MUX2_X1...
+Checking module OAI221_X1...
+Checking module AOI22_X1...
+Checking module DFF_X1...
+Checking module NOR4_X1...
+Checking module AOI21_X1...
+Checking module OR4_X1...
+Checking module OR2_X1...
+Checking module DFFR_X1...
+Checking module AND4_X1...
+Checking module NOR3_X1...
+Checking module OAI211_X1...
+Checking module AND3_X1...
+Checking module OAI33_X1...
+Checking module INV_X1...
+Checking module AND2_X1...
+Found and reported 0 problems.
+
+5. Executing Verilog backend.
+
+5.1. Executing BMUXMAP pass.
+
+5.2. Executing DEMUXMAP pass.
+Dumping module `\AND2_X1'.
+Dumping module `\AND3_X1'.
+Dumping module `\AND4_X1'.
+Dumping module `\AOI211_X1'.
+Dumping module `\AOI21_X1'.
+Dumping module `\AOI221_X1'.
+Dumping module `\AOI222_X1'.
+Dumping module `\AOI22_X1'.
+Dumping module `\BUF_X1'.
+Dumping module `\CLKBUF_X1'.
+Dumping module `\DFFR_X1'.
+Dumping module `\DFF_X1'.
+Dumping module `\INV_X1'.
+Dumping module `\MUX2_X1'.
+Dumping module `\NAND2_X1'.
+Dumping module `\NAND3_X1'.
+Dumping module `\NAND4_X1'.
+Dumping module `\NOR2_X1'.
+Dumping module `\NOR3_X1'.
+Dumping module `\NOR4_X1'.
+Dumping module `\OAI211_X1'.
+Dumping module `\OAI21_X1'.
+Dumping module `\OAI221_X1'.
+Dumping module `\OAI222_X1'.
+Dumping module `\OAI22_X1'.
+Dumping module `\OAI33_X1'.
+Dumping module `\OR2_X1'.
+Dumping module `\OR3_X1'.
+Dumping module `\OR4_X1'.
+Dumping module `\XNOR2_X1'.
+Dumping module `\XOR2_X1'.
+Dumping module `\axi4_t08_attribute_read_engine'.
+
+End of script. Logfile hash: 44d28e4c45, time: 3.49s, user: 3.46s, system: 0.19s, MEM: 396.89 MB peak
+Yosys 0.66+183 (git sha1 b285b72e3, Release, Clang /usr/bin/clang++ 18.1.8)
+Time spent: 94% 2x read_verilog (3 sec), 2% 2x write_verilog (0 sec), ...
+	Command being timed: "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys -s /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/cell_models.ys"
+	User time (seconds): 3.52
+	System time (seconds): 0.19
+	Percent of CPU this job got: 104%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 406412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 101336
+	Voluntary context switches: 1769
+	Involuntary context switches: 12
+	Swaps: 0
+	File system inputs: 22505
+	File system outputs: 9424
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

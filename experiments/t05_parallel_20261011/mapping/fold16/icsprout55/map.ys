@@ -1,0 +1,9 @@
+read_rtlil "D:/3DGS/experiments/t05_parallel_20261011/mapping/fold16/generic.il"
+delete t:$scopeinfo
+read_liberty -lib "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+dfflibmap -liberty "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+abc -script "D:/3DGS/experiments/t05_parallel_20261011/mapping/fold16/icsprout55/abc.script" -liberty "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -constr "D:/3DGS/experiments/t05_parallel_20261011/mapping/fold16/icsprout55/abc.constr" -D 5000
+clean
+check -assert
+tee -o "D:/3DGS/experiments/t05_parallel_20261011/mapping/fold16/icsprout55/stats.json" stat -json -liberty "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+write_verilog -noattr -noexpr "D:/3DGS/experiments/t05_parallel_20261011/mapping/fold16/icsprout55/mapped.v"

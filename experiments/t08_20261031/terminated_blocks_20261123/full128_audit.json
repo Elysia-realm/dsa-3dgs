@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "old_cycles": 32908823,
+      "candidate_cycles": 30887130,
+      "savings_percent": 6.143316034122521,
+      "blocks_skipped": 281740,
+      "pixel_inputs_avoided": 4167025,
+      "alpha_issues_delta": 0,
+      "r_grants_saved": 0,
+      "data_beats_saved": 0,
+      "terminal_changes": 0,
+      "baseline_sha256": "1BB3224F2813B7DE8F0E4C707D755914507CA8509CEFF04C9FFFDDC97BD09E1C",
+      "candidate_sha256": "38E9CCF395878E2A1E3031B7DF1E268C1497F818C2CEA5ABA8B3BC1DA3212939"
+    },
+    {
+      "scene": "counter",
+      "old_cycles": 37054191,
+      "candidate_cycles": 33899821,
+      "savings_percent": 8.512856211055857,
+      "blocks_skipped": 246071,
+      "pixel_inputs_avoided": 3814571,
+      "alpha_issues_delta": 1,
+      "r_grants_saved": 0,
+      "data_beats_saved": 0,
+      "terminal_changes": 0,
+      "baseline_sha256": "A1C25C5A0C137901BB23AA5B44A4750D89689360B0EA3A6189D1CEAB5DE23B96",
+      "candidate_sha256": "DEBD5D064E63FC98C09A469CEF4BB2F7ADAD12DBD62081B70AFB3BA9534F7405"
+    },
+    {
+      "scene": "room",
+      "old_cycles": 43835398,
+      "candidate_cycles": 42285501,
+      "savings_percent": 3.5357201501854734,
+      "blocks_skipped": 106398,
+      "pixel_inputs_avoided": 1957739,
+      "alpha_issues_delta": 0,
+      "r_grants_saved": 0,
+      "data_beats_saved": 0,
+      "terminal_changes": 0,
+      "baseline_sha256": "65262E7290FB2F2EE5840496F8B794661AB2ED6BB34AE41C2AF64B746399694C",
+      "candidate_sha256": "2A09659AD07FC3283C32DDDDB669A55DF883B0C1CCCD16B3578E80F160327D21"
+    },
+    {
+      "scene": "train",
+      "old_cycles": 30174579,
+      "candidate_cycles": 26478570,
+      "savings_percent": 12.248750844212276,
+      "blocks_skipped": 550281,
+      "pixel_inputs_avoided": 7749963,
+      "alpha_issues_delta": 2,
+      "r_grants_saved": 0,
+      "data_beats_saved": 0,
+      "terminal_changes": 0,
+      "baseline_sha256": "95FE2DE4E523283DF9C265EB52F5C1D72FB5FA3122FBF2DD9E814CEF9871480C",
+      "candidate_sha256": "2C23693809D6F3A69DFC11930064A3FCD133F2A1E7D6C30226EA10A3A63C33E9"
+    },
+    {
+      "scene": "truck",
+      "old_cycles": 51382851,
+      "candidate_cycles": 47833746,
+      "savings_percent": 6.907178038836342,
+      "blocks_skipped": 825605,
+      "pixel_inputs_avoided": 11042314,
+      "alpha_issues_delta": 0,
+      "r_grants_saved": 0,
+      "data_beats_saved": 0,
+      "terminal_changes": 2,
+      "baseline_sha256": "01838C77749FEE2001DB74744502E94AFCF7AA2B3A2E14822581915DF239D1E4",
+      "candidate_sha256": "47C519AD192B40F36E935B46BD07DF5B7EEC315B05ED17940E0627B41B4553B3"
+    }
+  ],
+  "report_sha256": "70F59ADB8BD76E20D8C47D5A86A24102E4724D87A1FE715DF2BE83850675A0AD",
+  "scope": "Complete models at width128 G/legacy-ideal; frame and work deltas, independent comparator outputs are bound through the QSU-on baseline. Native paired results pending.",
+  "signed_off": false
+}

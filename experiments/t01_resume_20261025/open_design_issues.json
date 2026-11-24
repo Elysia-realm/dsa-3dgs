@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "issues": [
+    {
+      "id": "T01-R1",
+      "owner": "T11",
+      "priority": "before timing-based architecture decisions during T07/T08",
+      "problem": "Soft-reset distribution, slew/cap and recovery/removal violations",
+      "status": "OPEN",
+      "plan": "docs/T01问题闭环与后续开发计划_2026-10-28.md",
+      "closure_requires": "Implementation and evidence against the corresponding row in plan section 2; not closed by T01 signoff"
+    },
+    {
+      "id": "T01-R2",
+      "owner": "T11",
+      "priority": "resource budget alongside T07/T08",
+      "problem": "Register-array area exceeds limit; macro ports/latencies and total storage budget pending",
+      "status": "OPEN",
+      "plan": "docs/T01问题闭环与后续开发计划_2026-10-28.md",
+      "closure_requires": "Implementation and evidence against the corresponding row in plan section 2; not closed by T01 signoff"
+    },
+    {
+      "id": "T01-R3",
+      "owner": "T07/T08/T11",
+      "priority": "mandatory post-T08 performance gate",
+      "problem": "QSU/attribute/shared-service workload exceeds throughput budget; shared DDR model pending",
+      "status": "OPEN",
+      "plan": "docs/T01问题闭环与后续开发计划_2026-10-28.md",
+      "closure_requires": "Implementation and evidence against the corresponding row in plan section 2; not closed by T01 signoff"
+    },
+    {
+      "id": "T01-R4",
+      "owner": "T12",
+      "priority": "before final PPA signoff",
+      "problem": "Valid data-path timing, all-corner electrical closure, frequency and activity power pending",
+      "status": "OPEN",
+      "plan": "docs/T01问题闭环与后续开发计划_2026-10-28.md",
+      "closure_requires": "Implementation and evidence against the corresponding row in plan section 2; not closed by T01 signoff"
+    },
+    {
+      "id": "T01-R5",
+      "owner": "T10",
+      "priority": "target-resolution diagnostics during T07/T08; full formal acceptance at T10",
+      "problem": "Formal 13-scene multi-view resolution/GT/FPS coverage pending",
+      "status": "OPEN",
+      "plan": "docs/T01问题闭环与后续开发计划_2026-10-28.md",
+      "closure_requires": "Implementation and evidence against the corresponding row in plan section 2; not closed by T01 signoff"
+    }
+  ],
+  "t00_contract_unchanged": true
+}

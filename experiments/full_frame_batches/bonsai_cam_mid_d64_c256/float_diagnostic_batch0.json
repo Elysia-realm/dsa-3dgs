@@ -1,0 +1,34 @@
+{
+  "camera": [
+    64,
+    43
+  ],
+  "input": 1024,
+  "projected_overlap": 161,
+  "stats": {
+    "projected_roi_gaussians": 161,
+    "candidate_blocks": 7716,
+    "skipped_terminated_blocks": 2812,
+    "active_block_visits": 4904,
+    "candidate_pixels": 442126,
+    "alpha_evaluations": 261376,
+    "alpha_pruned": 140963,
+    "blend_updates": 120413,
+    "skipped_terminated_pixels": 180750,
+    "terminated_pixels": 2752
+  },
+  "t_min": 2.375510666752234e-05,
+  "t_max": 9.999403118854389e-05,
+  "t_mean": 5.7273951824754477e-05,
+  "terminated_fraction": 1.0,
+  "bbox_area": {
+    "min": 1806,
+    "median": 2752.0,
+    "max": 2752
+  },
+  "opacity": {
+    "min": 0.0021766112186014652,
+    "median": 0.28497081995010376,
+    "max": 0.9999995231628418
+  }
+}

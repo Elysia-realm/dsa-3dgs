@@ -1,0 +1,19 @@
+{
+  "label": "control_2_0_3",
+  "kind": 2,
+  "first": 0,
+  "second": 3,
+  "native": false,
+  "outputs": {
+    "frame.rgb": "508F6FDCB3FA8264DF9D921A310488CBB426DFD21DD6DA9BDD4C4B41E36EEA88",
+    "sorted.txt": "2451A257D290A5C00565A378AA10D83E1C5EAF0622579BA4043DF2E1B5C5C982"
+  },
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 2.0389523449999984,
+    "log_sha256": "C5CFC097EF8D008F37B53AAABABDEA9DC3C44D51898E1DA7BBF55EE070542D9A"
+  },
+  "frames": [
+    "SEQUENCE_FRAME fmt=3 epoch=2 requests=1 precomputed=0 beats=9 reads=10752 rgb_bytes=32256"
+  ]
+}

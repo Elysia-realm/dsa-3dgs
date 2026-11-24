@@ -1,0 +1,12 @@
+{
+  "scene": "counter",
+  "camera_index": 120,
+  "gaussians": 1222956,
+  "full_scene": true,
+  "scope": "all PLY records; exact quantized/saturated depth oracle at QSU input, not production top/visibility/RGB validation",
+  "prepass_numeric_overflows": 0,
+  "input_order": "original PLY; CPU never pivots or constructs subsets",
+  "source_ply_sha256": "d676d3d9c4730933030e8cc02017bdf5c73c0ac58fafee05b8130f6369be39e4",
+  "input_sha256": "91b4d0406a28907ad36186f677b9c2133327272f197fa92c4fccdbc33637194c",
+  "expected_sha256": "40efb61513268f071ea729dc03c808e7b6e0848d13d9f3ce1b95f9e0fa4e21a3"
+}

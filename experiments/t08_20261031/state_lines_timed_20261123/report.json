@@ -1,0 +1,188 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "window": 2,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 24587,
+      "dram_cycles_including_drain": 147548,
+      "service_to_window_ratio": 3.0018717447916665,
+      "useful_GBps_with_feedback": 0.5664434624664515,
+      "source_result_sha256": "73D4E4E22F268DC5267B3B47E301C804DF589A32A406071E932320D44D5FD45F",
+      "schedule_sha256": "C34D142ED8E493852ABCC8F2B59798E722A544BF3FB1D534AF5CB095C3CEE361",
+      "trace_sha256": "40FAB68738DEA74D221E45D970EC4756D125C897D50EBDFA08CDF4B8631A36D9",
+      "stats_sha256": "DE3069402238F73064FF776F2FFF00588F7514DBFBA2E236F491D5F0D772BFF7",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.42644368600002736,
+        "log_sha256": "73A84D914C9D7B2AFD5F8A2ACBB9FCFE0AAFB16ACB02DB9240E9FECC2BC141BC"
+      }
+    },
+    {
+      "scene": "bonsai",
+      "window": 3,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 45015,
+      "dram_cycles_including_drain": 270090,
+      "service_to_window_ratio": 5.4949951171875,
+      "useful_GBps_with_feedback": 0.5436054648450517,
+      "source_result_sha256": "2ABADA63377C6E51AFBE06EB47F85CD50A5FEFD5A23BB14ADAD11CC3C873157F",
+      "schedule_sha256": "F5AB5767E13007DC763B724433E7ECA345211248A65D65AE3AEED24985ADB004",
+      "trace_sha256": "EE9969F76DFF5E6297E80D4C83CB146AFA088A1F718DD492E9FB8274078F6D53",
+      "stats_sha256": "65EB41F7FCE111D2CDB7E09A4EB620505752D0D57E841250AE5928475A661025",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.41865883200000553,
+        "log_sha256": "1BC13988126D3BBA49C67F7EFC8F2A793B26C5122544CA7D75F8A8AC91EFD89F"
+      }
+    },
+    {
+      "scene": "counter",
+      "window": 2,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 17625,
+      "dram_cycles_including_drain": 105751,
+      "service_to_window_ratio": 2.1515096028645835,
+      "useful_GBps_with_feedback": 0.3631171336441263,
+      "source_result_sha256": "1DC16893A1E9BB71474A9831CDA97CF5F5316E2AA0D108634AB574102F1B57B9",
+      "schedule_sha256": "D023F4F6C8E1EB50B554A0B3E88C1234346BD324CD2CD25B7F834F98E9462FDD",
+      "trace_sha256": "716A16F0DAF8DC90DFB9137AB402C3C900499B1A3C2C48115D9434C9A33F2E01",
+      "stats_sha256": "4E774829A7F8595B08411D21391B8D821D2A65AFCBA4C234ADD5C5C8BC082AAA",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.4232676519999927,
+        "log_sha256": "B4BA3ADAAE3A68846967CA622878242DF5A3AC65649240E8367BB556F6DC583A"
+      }
+    },
+    {
+      "scene": "counter",
+      "window": 3,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 49918,
+      "dram_cycles_including_drain": 299508,
+      "service_to_window_ratio": 6.093505859375,
+      "useful_GBps_with_feedback": 0.5251492447614087,
+      "source_result_sha256": "E5C71AC3954FD00EE65B6B8B5372A1B7CFA07E515CCD05D78C017B102E9A8CEE",
+      "schedule_sha256": "7A0FD34EC6B0D2038C5285F6A2496CA7FC23A75CE04CF07866B99725355B7557",
+      "trace_sha256": "F8165A5768FCB19FCB7909F9E8B989CBB1BF2387EFA908C6502D56D41D6D5BCC",
+      "stats_sha256": "2D29E09E77E30D8BE4039E377B3754D17434D7585241330D053A8B0DBE90E182",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.41704972799999496,
+        "log_sha256": "D2A554F9988A4D052757CAD0A2144245D2491F917E3DE6E42C89074DB4140F53"
+      }
+    },
+    {
+      "scene": "room",
+      "window": 2,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 44122,
+      "dram_cycles_including_drain": 264733,
+      "service_to_window_ratio": 5.386006673177083,
+      "useful_GBps_with_feedback": 0.594132201123396,
+      "source_result_sha256": "675C1802014CEDD0BC258D99361CF94A33B9613472476992C1366D67B7636055",
+      "schedule_sha256": "7A0FD34EC6B0D2038C5285F6A2496CA7FC23A75CE04CF07866B99725355B7557",
+      "trace_sha256": "4264B8643AB3A0753084B2B02F83C480B76A9952D86604DF18E434EF1E730268",
+      "stats_sha256": "7291E24FF3FC1F1161CD5DA1EE345AAF92BE04AED9B89EC3AA9E59AB2F1475B0",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.42261750199998005,
+        "log_sha256": "731439A815DC16CAC3A2DA5CA454C1EB22D7ED36BFEE60A9CBD4E49EB6D6F514"
+      }
+    },
+    {
+      "scene": "room",
+      "window": 3,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 44067,
+      "dram_cycles_including_drain": 264403,
+      "service_to_window_ratio": 5.379292805989583,
+      "useful_GBps_with_feedback": 0.5948737344129983,
+      "source_result_sha256": "A91087613F5A00762C7E736EB131DBD9A6B215F5D142A1009DCFFD5645DD5B06",
+      "schedule_sha256": "7A0FD34EC6B0D2038C5285F6A2496CA7FC23A75CE04CF07866B99725355B7557",
+      "trace_sha256": "16F456B08D049B449DC0C72E5E226144BF38DFCFEE9FAC58498B6D30602974C7",
+      "stats_sha256": "76014F08D4E0BFFD0FB5DD61266F8B49FA7662B17842D5C2A28A472B00B332BA",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.4174318959999823,
+        "log_sha256": "ACD3341ABA4ADA38E337B2B58FC414CDE9E4294D555BD789B8513BF490ABD110"
+      }
+    },
+    {
+      "scene": "train",
+      "window": 2,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 43938,
+      "dram_cycles_including_drain": 263653,
+      "service_to_window_ratio": 5.364034016927083,
+      "useful_GBps_with_feedback": 0.5376521412614308,
+      "source_result_sha256": "D0258544587AF76394E29E95E579D6B93A00C490073CADF14AA660C85D23E4E8",
+      "schedule_sha256": "34F3E0A151883876845D8B985140CA3A050384E535A96892B5B421CAD641BE6D",
+      "trace_sha256": "2521DEBC6CE8FB31C836D77A9E50549F3F92C52681DFB3F0C5ACCB9FB4AE390C",
+      "stats_sha256": "7FFF24BF4074F2C6E36B5CD7ACB0A067CB39DED45C8A5E1CBACF116176D30386",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.42210604100000637,
+        "log_sha256": "385DE9BDE53BDB9A40D1D8739B5F5EA1F3B9BF8246A84924EB627E93CA4F1ED7"
+      }
+    },
+    {
+      "scene": "train",
+      "window": 3,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 44740,
+      "dram_cycles_including_drain": 268440,
+      "service_to_window_ratio": 5.46142578125,
+      "useful_GBps_with_feedback": 0.539865891819401,
+      "source_result_sha256": "18FB7ED20307DF1FDE525B9BA37D2A38D6A88466466D10ECCB1035332CC3AD87",
+      "schedule_sha256": "570595F7693AA13796DAA529647EB427036F42579CC6FB07FC5835860B51D1F0",
+      "trace_sha256": "56A8EFD73E95D798736A66E17F60A648CD9F37EA9C403D3F97EEDD9EDE9328B5",
+      "stats_sha256": "F9FC96A46819B4396FE7D1F3093EA547E691C915F128D9A7030CDCA1B3020BFF",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.4193437160000144,
+        "log_sha256": "A4FF4FBE95DC54F7DEB54F2B8D2A39E7117DC7B6AC016A1F899CAC41114B0A43"
+      }
+    },
+    {
+      "scene": "truck",
+      "window": 2,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 37257,
+      "dram_cycles_including_drain": 223556,
+      "service_to_window_ratio": 4.548258463541667,
+      "useful_GBps_with_feedback": 0.4999337973483154,
+      "source_result_sha256": "16FF5DD645F3C5D6D95F17818293B36E37B56312C61F44C0EC05FF35AF686E15",
+      "schedule_sha256": "5163B882EDAC0D29C7EE673C0F0E7C94E3FC6D98F94C26515AA4C5B110CFFB58",
+      "trace_sha256": "24A5DAADC6234430DD1A3E8F0EA08F453AC9BC9EFD94B9D1BE8D8F1FDD1D23D6",
+      "stats_sha256": "937BAB3C7A04DD4210CF007D930C9E8EDCF1C52CCD28DC8B726295CB3E2F3A0A",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.2681062760000259,
+        "log_sha256": "1B93700263E7F8C4636796726F2585F0B656353695CA5CA17E1EA1504555A8EC"
+      }
+    },
+    {
+      "scene": "truck",
+      "window": 3,
+      "offered_span_cycles": 8192,
+      "controller_cycles_including_flush": 19003,
+      "dram_cycles_including_drain": 114019,
+      "service_to_window_ratio": 2.3197224934895835,
+      "useful_GBps_with_feedback": 0.49692770503161754,
+      "source_result_sha256": "1E19BC8AA3F7A794FC3D6471B5232AEFA7C30B98093AC2CFCA6FF245B9AB71F3",
+      "schedule_sha256": "4B5066D7614E62D6DB00046E7F5265AEEE110CED85C15AB67D21535B8954B04C",
+      "trace_sha256": "8E85DC4C1AA294C46F81982D64519D12DFA85A4688911FFDA9DAB1AF3E0522BF",
+      "stats_sha256": "3BCC552E3CD5906FE4D21A7333E221AB4107AEB35EB8095813B8B29BF26AFFE1",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.21671111599999904,
+        "log_sha256": "9011BF3569E0F6921B33CD6DE643A7ABCC287AC090288FEAECD4644A1176DE8E"
+      }
+    }
+  ],
+  "binary_sha256": "57B5DF48FD6A8A18778B771FBCE5ECC7DA510379A6EC1FF76F25F0618DB87D03",
+  "script_sha256": "4CF392DEF70E440DEFCAD3E36DD91F5787FE4F81663358B24F2CD7D84B2EA3DF",
+  "scope": "Standalone serial state controller at assumed 200MHz, live LPDDR4 controller at 1200MHz. Address offers follow frozen relative arrivals subject to requester backpressure. CPU response always ready. Includes dirty flush and memory drain, synthetic checked data. No feedback to renderer or other AXI ports.",
+  "signed_off": false
+}

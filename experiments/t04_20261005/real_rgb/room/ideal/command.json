@@ -1,0 +1,15 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t04_rgb\\tb_t04_rgb.exe",
+  "+BATCH_ROOT=D:/3DGS/experiments/t04_20261005/real_rgb/room",
+  "+BATCH_LAST=63",
+  "+FRAME=D:/3DGS/experiments/t04_20261005/real_rgb/room/ideal/state.memh",
+  "+RGB=D:/3DGS/experiments/t04_20261005/real_rgb/room/ideal/frame_rgb.memh",
+  "+LABEL=room_ideal",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=20000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

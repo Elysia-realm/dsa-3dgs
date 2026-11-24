@@ -1,0 +1,61 @@
+{
+  "profile_id": "t06_h_v1",
+  "production_top": "gs_accel_system_top",
+  "scope": "T06 functional release; not native-resolution, GT, DDR/STA/PPA or 30FPS signoff",
+  "parameters": {
+    "LANES": 4,
+    "GROUP_CAPACITY": 16,
+    "SORT_CAPACITY": 16,
+    "GID_W": 32,
+    "SEQ_W": 32,
+    "STATE_ENTRIES": 4096,
+    "ENABLE_AUTO_QSU": 1,
+    "AUTO_QSU_LOCAL_RECORDS": 0,
+    "AUTO_QSU_PRECOUNT_CHILDREN": 1,
+    "SHARED_P_DOT3": 1,
+    "USE_AXI_MEAN_DMA": 1,
+    "USE_AXI_CAMERA_DMA": 1,
+    "USE_AXI_ATTR_DMA": 1,
+    "USE_SHARED_PE": 1,
+    "USE_SHARED_PROJECTION_PE": 1,
+    "USE_SHARED_RASTER_PE": 1,
+    "USE_BITONIC_SORT": 1,
+    "BSU_PIPELINED": 1,
+    "USE_FINAL_RGB_DMA": 1,
+    "ENABLE_ALPHA_ZERO_SKIP": 1,
+    "STATE_WINDOW_ENTRIES": 4,
+    "STATE_MSHR_COUNT": 4,
+    "ENABLE_RESPONSE_BLEND_BYPASS": 1,
+    "ENABLE_BLEND_COMMIT_BYPASS": 1,
+    "FINAL_RGB_READ_BURST_BEATS": 16,
+    "ENABLE_SHAPE_BLOCK_REJECT": 1,
+    "USE_PIXEL_WRITEBACK_BUFFER": 0,
+    "USE_PIXEL_MULTIWRITE_BUFFER": 1,
+    "PIXEL_MULTIWRITE_DEPTH": 8,
+    "ENABLE_PIXEL_TERMINATION_SKIP": 1
+  },
+  "runtime": {
+    "qsu_enable_register": "0x0c0",
+    "qsu_enable_value": 1,
+    "scratch_base_registers": [
+      "0x0c4",
+      "0x0c8"
+    ],
+    "capacity_register": "0x0cc",
+    "input_order": "original unsorted model",
+    "cpu_pivots_or_batches": false
+  },
+  "compatibility": "Bare generic-top defaults and APB reset stay backward-compatible; release builds must explicitly apply this profile. Generic defaults are not the selected release configuration.",
+  "scenes": {
+    "bonsai": 146,
+    "counter": 120,
+    "room": 155,
+    "train": 150,
+    "truck": 125
+  },
+  "subset_gaussians": 512,
+  "full_models": true,
+  "validation_width": 128,
+  "formal_target_unchanged": true,
+  "frozen_source_manifest": "experiments/t06_precount_mem_20261022/real/source_snapshot/manifest.json"
+}

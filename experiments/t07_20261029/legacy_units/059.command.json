@@ -1,0 +1,15 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_stable_group_sorter_parallel_shared",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_stable_group_sorter_parallel_shared.vvp",
+  "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+  "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+  "/mnt/d/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv",
+  "/mnt/d/3DGS/rtl/sort/stable_group_sorter_parallel_shared.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_stable_group_sorter_parallel_shared.sv"
+]

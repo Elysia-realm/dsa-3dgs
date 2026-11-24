@@ -1,0 +1,129 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-s",
+      "tb_t06_dot3_pe",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/pe.vvp",
+      "rtl/common/rv_reg_slice.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "verification/rtl/tb_t06_dot3_pe.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.021353455999815196,
+    "child_cpu_seconds": 0.009141999999997097,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/pe.vvp"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.0216069799998877,
+    "child_cpu_seconds": 0.018411000000071454,
+    "binary_sha256": "2446DA1DC088081034E6FEA8FC1832487A788F1F307CCF02D7D8024747D7C030",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-s",
+      "tb_t06_dot3_depth",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/depth.vvp",
+      "rtl/common/rv_reg_slice.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "rtl/sort/gaussian_depth_prepass_core.sv",
+      "rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+      "verification/rtl/tb_t06_dot3_depth.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.038700920999872324,
+    "child_cpu_seconds": 0.013848999999936495,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/depth.vvp"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.041719948000263685,
+    "child_cpu_seconds": 0.039103000000011434,
+    "binary_sha256": "6F6ED576440F43894CBA56B87E000A948C96D07ED9AAF73E9626AF6F30D35114",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-s",
+      "tb_t06_dot3_xyz",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/xyz.vvp",
+      "rtl/common/rv_reg_slice.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "rtl/projection/world_to_camera_core.sv",
+      "rtl/projection/world_to_camera_shared_mac.sv",
+      "verification/rtl/tb_t06_dot3_xyz.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.05127005599979384,
+    "child_cpu_seconds": 0.014075000000048021,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/xyz.vvp"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.20441810000011174,
+    "child_cpu_seconds": 0.20284499999996797,
+    "binary_sha256": "60F3C33AC518732151CCB81DE414A5186F141CAAAB7A2B10262C8F4AC13868AA",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-DTB_XYZ_STREAMING=1",
+      "-s",
+      "tb_t06_dot3_xyz",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/xyz_stream.vvp",
+      "rtl/common/rv_reg_slice.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "rtl/projection/world_to_camera_core.sv",
+      "rtl/projection/world_to_camera_shared_mac.sv",
+      "verification/rtl/tb_t06_dot3_xyz.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.034591311999975005,
+    "child_cpu_seconds": 0.014353999999968892,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/dot3/xyz_stream.vvp"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.08163913699991099,
+    "child_cpu_seconds": 0.07917700000007244,
+    "binary_sha256": "1E5A4D19465EFC7A91B42683EA9AEFDF34DCFBF043F36C6FA8A95D4D8E4ECC3B",
+    "vector_sha256": {}
+  }
+]

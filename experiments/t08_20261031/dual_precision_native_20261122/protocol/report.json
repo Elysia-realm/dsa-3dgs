@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "enabled": false,
+      "variant": 0,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.8854566609999921,
+        "log_sha256": "711D63724D469F7834DE284B6DFF6AB8B856434601016A5ECF599AC311FB175C"
+      },
+      "records": 6144,
+      "beats": 49172,
+      "controls": 10,
+      "inputs_sha256": "9F4FBDE39047BBF836366B3139D48C6052A9C02549B376EFF841027F05D5284D",
+      "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+      "elf_sha256": "7E93F221634239E67A3A9F278B103D53D9F560009EBF6BF76B94F38496EC0CA8",
+      "sources": {
+        "experiments/t08_20261031/dual_precision_native_20261122/build/axi4_t08_attribute_read_engine.sv": "F3A40C5D8E7286E02868C0ED90FCE484D502E79F3D8155F827F52021EEBD3BED",
+        "experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv": "B0DF1334951CF77615AC7D8FBE72175077CC27C09E650D75821F5B9DCBB5A8A6",
+        "experiments/t08_20261031/dual_precision_native_20261122/protocol/default/tb_t08_attribute_dma.sv": "678F30F97BCE83F7EAEF401B1F66D5458BF8AD6ABCAA4100A364B8171968392C"
+      }
+    },
+    {
+      "enabled": true,
+      "variant": 0,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.6981052569999946,
+        "log_sha256": "CE27953E84BF718BC38D90AE6BD969022317E0C026CFDD9307E4B35ED9B75057"
+      },
+      "records": 6144,
+      "beats": 49172,
+      "controls": 14,
+      "inputs_sha256": "7EDDBA85DAFBC93CEB20C1FAFE26738C53374A7822EEEDE7CE7367926E582C4A",
+      "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+      "elf_sha256": "B306928425C8CAF1743EEBABBACF376437D2F71E89E615BC7C7BE345B3B93764",
+      "sources": {
+        "experiments/t08_20261031/dual_precision_native_20261122/build/axi4_t08_attribute_read_engine.sv": "F3A40C5D8E7286E02868C0ED90FCE484D502E79F3D8155F827F52021EEBD3BED",
+        "experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv": "B0DF1334951CF77615AC7D8FBE72175077CC27C09E650D75821F5B9DCBB5A8A6",
+        "experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/tb_t08_attribute_dma.sv": "04F4AC1732E5816B19DD7375CAE50DB9AAEFACF5D97149BA48C732917B7B4FC8"
+      }
+    },
+    {
+      "enabled": true,
+      "variant": 1,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.6942084060000013,
+        "log_sha256": "54EDF5E44AAAE5D25FD67A2969F185FC91D51ABC1BBAD68A89B05310BFD543EE"
+      },
+      "records": 6144,
+      "beats": 49172,
+      "controls": 14,
+      "inputs_sha256": "E02C4600A81A125083EFDBFAFEB9C3425313EA295A699988669B3BC6FFC5DE27",
+      "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+      "elf_sha256": "B306928425C8CAF1743EEBABBACF376437D2F71E89E615BC7C7BE345B3B93764",
+      "sources": {
+        "experiments/t08_20261031/dual_precision_native_20261122/build/axi4_t08_attribute_read_engine.sv": "F3A40C5D8E7286E02868C0ED90FCE484D502E79F3D8155F827F52021EEBD3BED",
+        "experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv": "B0DF1334951CF77615AC7D8FBE72175077CC27C09E650D75821F5B9DCBB5A8A6",
+        "experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/tb_t08_attribute_dma.sv": "04F4AC1732E5816B19DD7375CAE50DB9AAEFACF5D97149BA48C732917B7B4FC8"
+      }
+    }
+  ],
+  "script_sha256": "83BAB114D29E01EC9574CE287093BE0854F9526F6A9F4B91109CECD3564627ED",
+  "signed_off": false,
+  "scope": "Transport and format snapshot at DMA level; alternating version-tagged bit patterns at enabled setting."
+}

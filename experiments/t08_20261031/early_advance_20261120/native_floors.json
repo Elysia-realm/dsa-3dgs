@@ -1,0 +1,80 @@
+{
+  "status": "BASELINE_SERVICE_BUDGET_FAIL",
+  "assumed_clock_mhz": 200,
+  "target_fps": 30,
+  "cycles_available_at_target": 6666666.666666667,
+  "assumptions": "Current single 128-bit beat per cycle on each QSU port, one R grant per cycle. Each bound is independent and excludes contention, stalls and attribute DMA. Work counts are from T07 native runs; this projects only changes that preserve those work counts.",
+  "results": [
+    {
+      "scene": "bonsai",
+      "resolution": [
+        3118,
+        2078
+      ],
+      "scope": "TIMED_OUT",
+      "log_sha256": "D4FDBBDFC501FA496B695333F1358942D14CBFBCBB32E84D904B0BDF205A1862",
+      "full_frame_floors": null
+    },
+    {
+      "scene": "counter",
+      "resolution": [
+        3115,
+        2076
+      ],
+      "scope": "TIMED_OUT",
+      "log_sha256": "659162828F46E905928F03CAAEAF5502264E0846CDE1455B804451AD9DF8ED51",
+      "full_frame_floors": null
+    },
+    {
+      "scene": "room",
+      "resolution": [
+        3114,
+        2075
+      ],
+      "scope": "TIMED_OUT",
+      "log_sha256": "F25A1389891B489BFA26F16CC75DD9FCB23B03EF3DCD1F80882B8BC9DAB061C2",
+      "full_frame_floors": null
+    },
+    {
+      "scene": "train",
+      "resolution": [
+        1959,
+        1090
+      ],
+      "scope": "BASELINE_COMPLETE",
+      "log_sha256": "3EB6A9953A5137F299FFD32E92FE2CC5E1F8FAEAD98325EB240C7A37447B9941",
+      "full_frame_floors": {
+        "qsu_read_port": 8652965,
+        "qsu_write_port": 7726358,
+        "raster_shared_R": 192813612
+      },
+      "multiple_of_frame_budget": {
+        "qsu_read_port": 1.2979447499999999,
+        "qsu_write_port": 1.1589536999999999,
+        "raster_shared_R": 28.9220418
+      },
+      "maximum_200mhz_fps_from_floors": 1.0372711652743687
+    },
+    {
+      "scene": "truck",
+      "resolution": [
+        1957,
+        1091
+      ],
+      "scope": "BASELINE_COMPLETE",
+      "log_sha256": "E6C05FB3B2580947E96C1C4A290DB26672D01AACEB13FFABC5F223104AEE37BE",
+      "full_frame_floors": {
+        "qsu_read_port": 14706611,
+        "qsu_write_port": 13042093,
+        "raster_shared_R": 190455154
+      },
+      "multiple_of_frame_budget": {
+        "qsu_read_port": 2.20599165,
+        "qsu_write_port": 1.95631395,
+        "raster_shared_R": 28.5682731
+      },
+      "maximum_200mhz_fps_from_floors": 1.0501159763836059
+    }
+  ],
+  "signed_off": false
+}

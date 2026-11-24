@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE_FUNCTIONAL_SIGNED_OFF",
+  "signed_off": true,
+  "profile": "t06_h_v1",
+  "signoff_date": "2026-10-22",
+  "audit": "experiments/t06_release_20261022/audit.json",
+  "gate_checks_passed": 20,
+  "gate_checks_total": 20,
+  "hardware_30fps_verified": false,
+  "next_task": "T07"
+}

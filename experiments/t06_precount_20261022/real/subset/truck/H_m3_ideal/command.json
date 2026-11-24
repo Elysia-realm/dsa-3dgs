@@ -1,0 +1,17 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_precount_20261022_H\\t06_perf.exe",
+  "+AUTO_QSU",
+  "+MEAN=D:/3DGS/experiments/t06_precount_20261022/real/subset/truck/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_precount_20261022/real/subset/truck/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_precount_20261022/real/subset/truck/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_precount_20261022/real/subset/truck/H_m3_ideal/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_precount_20261022/real/subset/truck/H_m3_ideal/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_precount_20261022/real/subset/truck/H_m3_ideal/sorted.txt",
+  "+FRAME_MODE=3",
+  "+MAX_TIMEOUT=10000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

@@ -1,0 +1,8 @@
+[
+  "/home/gs3d/eda/venvs/gsverify/bin/python",
+  "-m",
+  "unittest",
+  "verification.test_implementation_status",
+  "verification.test_t01_sta_structural",
+  "-v"
+]

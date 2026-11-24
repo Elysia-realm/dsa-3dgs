@@ -1,0 +1,15 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_gaussian_depth_prepass_shared_mac",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_20261107/legacy_units/tb_gaussian_depth_prepass_shared_mac.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+  "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+  "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_gaussian_depth_prepass_shared_mac.sv"
+]

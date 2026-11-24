@@ -1,0 +1,2988 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "rtl/gaussian_frame_render_pipeline.sv": "7C622B5E81071D79A44B1876087AB854DBB668A4BB1D1E3247CF93B91B57AA50",
+    "rtl/gaussian_ordered_render_frontend.sv": "5C8CB8474F684CE3198DD710DB72AEB510E009783F63F52091F825C0E2C708DE",
+    "rtl/gaussian_sorted_render_pipeline.sv": "85621871E0F71534AE471A278B850C24C3D8EFA33EFB6B994796C722EB46EA00",
+    "rtl/gs_accel_system_top.sv": "5AFDAE9C886E03044FB4DBE41E414066C9054871BEFD24D6D5A0021904AF415A",
+    "rtl/gs_accel_top.sv": "D410B70D2396F8837659CF1F09175FC034ECB0817BEC126B573E0B9B41C4F157",
+    "rtl/common/fixed_sqrt_pipe.sv": "CEF4F762C893C60D9631F0FF95ED725F8C029BE57FAE6C96F6BD4D4A4A85AD38",
+    "rtl/common/rv_fifo.sv": "37052AC69A39FA74B87D679CBDE3D0C495F53FD0DB817BBEDF08232F2F212FE3",
+    "rtl/common/rv_reg_slice.sv": "51E3DDCC0F2187942FC27B77905E33979ACC95DC012DC30A3ED7F2B0B0D65F9D",
+    "rtl/common/rv_skid_buffer.sv": "3A9EC9B37BE93A93EEA275BB3A48B2B6415C0581BCE9B009D0AD850B91B94F9F",
+    "rtl/control/apb_regfile.sv": "6F63BC47D1ED1E62A0EA9EA2D32B87FF51D027D622248C3EA2E23A1FB8D8716A",
+    "rtl/control/cfg_epoch_ctrl.sv": "3B025133C261842D1152C0751162AB8A35EAFB729199A14288C29B35C48BC478",
+    "rtl/control/gaussian_mode_advisor.sv": "0F6F0ECADF1D3B30F0660647FFBCAB669D52AAD31560586E900EDFBE4EA6C010",
+    "rtl/control/gaussian_pipeline_event_counters.sv": "B24CDA2AD078FD575097A2A88E544BBD7EBDB658E0AD3AF6E849E60EF200288F",
+    "rtl/control/gaussian_resource_mode_table.sv": "E41EFEFDDDBCE58FA8A4B664DCA1B32F40C84E513E32BD5F85DF16ADD18C1CDF",
+    "rtl/control/sat_counter_bank.sv": "5DF3AE78F86A36289B7C2BD96D7233F717951904395D3F6EFF27C187D05ABD69",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259A001E202E3703C6005FE6712CED73DBF13BDCADCF0F9042E582527858C",
+    "rtl/dma/axi4_camera_config_read_dma.sv": "F469D7DE0D4230259760D9829760946C2E1626105D328EA696CC44DA49C9378A",
+    "rtl/dma/axi4_final_rgb_frame_dma.sv": "DFC8E53C8B4D517CCE725B72A2016BD5EAC9B7F7CBBBED12F098D6D43AE04DD2",
+    "rtl/dma/axi4_gaussian_attribute_read_engine.sv": "F44A257AF62B88DA7A8BEF41D9982C98290FD581FA90E01F06ABD924C5407B6E",
+    "rtl/dma/axi4_gaussian_mean_read_dma.sv": "2E33E3B36997A50ACC333DDF53C640426603308871B8F5F3533A827A52843FA0",
+    "rtl/dma/axi4_pixel_state_dual_read_engine.sv": "F6C3970D9842DB8926CBC75256F4934D51FFD86ED46824DCF70AD6D5AC1FFBF3",
+    "rtl/dma/axi4_pixel_state_multiwrite_buffer.sv": "BEFB30B551D12EB80818F8D4CDB87BF273EE1E7DC5FBC309EC02E7EFD1266E54",
+    "rtl/dma/axi4_pixel_state_quad_read_engine.sv": "D9AC3C53E3E770BBF29D84FDF013CC079D1736C7C99BC519052291D8D5D405A1",
+    "rtl/dma/axi4_pixel_state_read_engine.sv": "8CD900774702F8B08F75880DFC89096BF49B5FA62534774EEE7614A20B89B1ED",
+    "rtl/dma/axi4_pixel_state_writeback_buffer.sv": "16914CCE012E96D180D9DC8000ABD3FBEA4EA8CBE1C5F5873C470D924AA5EC0C",
+    "rtl/dma/axi4_pixel_state_write_buffer.sv": "FFB99CFE58388889B6BEF0A9FC654D4947B1C46ED20404C1EA85783D17CE890C",
+    "rtl/dma/axi4_pixel_state_write_engine.sv": "2B93E1DE78B0057D59525212DBC9A25981A974083163B1BBDB5BC74742CA4AC0",
+    "rtl/dma/axi4_qsu_scratch_dma.sv": "2A66AB15EAA84C1B2187290AEEF5168483BBD407BBA1FEF82AD13E5BBA60E403",
+    "rtl/dma/axi4_t08_attribute_read_engine.sv": "45CB90708BD2D47CA67481911E65EE682AC2CE327C5F72E414EBF2424A9C842D",
+    "rtl/dma/t08_attribute_decoder.sv": "71689CEDE0C0871E4EAFC7C29B54057F5FE338D6EDC23154290E0AB0EF4E6F88",
+    "rtl/memory/gaussian_attribute_sram_backend.sv": "D00471C0A97351AAAFC017ABBCED84CD7F8E1155FB1DE2B7D863203779E08488",
+    "rtl/memory/gaussian_attribute_store.sv": "CFBC41FDC9AB7B9FFA42FC20F87202CB8D478834457E9FE9A194CB7A46AC16BF",
+    "rtl/memory/sram_1r1w_wrapper.sv": "CF025559489BF407E4FA3D78266617FA75E968D4EA0A41869D4E0570B5681368",
+    "rtl/projection/bbox_tile_bounds_core.sv": "26D7724BA35206AB12B7E6281438AC1811268ADADDDAE938D375BA720364B705",
+    "rtl/projection/camera_projection_tile_lane.sv": "0670081B8F966CEF35D827D7D5240D695E65ECEDCE481731ECEB631587CE77B7",
+    "rtl/projection/covariance2d_cholesky_encoder.sv": "8BC9F4C74A46370B998D093CAEE31F88D2FE22B1C2DD5656A7EB074DF5FDB26A",
+    "rtl/projection/covariance_view_rotate_core.sv": "AFF7F1583C5155D8E6367114737BB4902ECBF45B92E81D3332FC2C01103ECC58",
+    "rtl/projection/fixed_div_pipe2.sv": "BD713A156F06B2EF3C20B107FDB74B643FB29CAE1C2C8F6D5ED7FB4F2B0A7313",
+    "rtl/projection/gaussian_projection_sh_array.sv": "48E41BD46CC697F1AF25A3E8F7ED16BEFC4192822799355A273A385031C214F1",
+    "rtl/projection/gaussian_projection_sh_fork.sv": "59AE750BD12700329D2E2213E846B3CD21958AF5F982FB3D6E7EA82BFD44E5CF",
+    "rtl/projection/gaussian_tile_task_gen.sv": "13020703BCB3F76643A6B07650250FF7C890FF0FCADCE93606F289C8A4BE6045",
+    "rtl/projection/opacity_radius_bound.sv": "C6E8FF978633ABCE9CE4FF273FAB02F15A969934FA5F10C600E5D58C7EDA6BEA",
+    "rtl/projection/ordered_gaussian_block_decoder.sv": "298BDA95C04D5D3B08C09313B464FB1B8904501F16E7F7601F3E1D7F2B9B5BB9",
+    "rtl/projection/ordered_projection_lane_scheduler.sv": "832A8A7B43A778D2406A83E11A28EB0080E7EE806EA57CDBCB1293E6A6612F79",
+    "rtl/projection/ordered_projection_sh_join.sv": "33D1793D87C92D21D7AD8D073FD1370FB1A04B36FFFA07F5769DB99D108DC22A",
+    "rtl/projection/perspective_project_core.sv": "6C505458E1072B5A537AC63A61D7B3D84D23FF7D2C57F4BBDCEEFCAC37918DA6",
+    "rtl/projection/projection_epoch_lane_ctrl.sv": "0FE07BA1422A51FD45551D580B81E6052AF0B3C6106545E0A522A3F00AAEB5C3",
+    "rtl/projection/projection_lane_scheduler.sv": "016995E892AB14F26C34312610121159F3D1A545B2FFC54C90376B4586899353",
+    "rtl/projection/quaternion_scale_covariance_core.sv": "9B74478E80A556B75F7F6B91EE724F306BD74B3DB39C2374ECD50A3B1E1AE24C",
+    "rtl/projection/raw_gaussian_projection_array.sv": "63B20720B83F6BA7147D50DF375168D83E8ACF3A628F82E14FAA7C47BCB6D0AD",
+    "rtl/projection/raw_gaussian_projection_lane.sv": "B849D7EB5992E2FC8FB107420914126781F54D13E1A1D09BDA454F61CC738B8F",
+    "rtl/projection/screen_covariance_core.sv": "146F8638EBD76419DA7BA7FB31BA3AE09A828EA498E34F3D82384074DC051D7E",
+    "rtl/projection/world_to_camera_core.sv": "3F4DEF3883094B33E8B98B1CF10DB3A613CD9FC25B9B2C1371F5C137A47BE98B",
+    "rtl/projection/world_to_camera_shared_mac.sv": "949E2203897508AE9806767287B5FFF80FCC76D12B6CCC704A5FC85A557ED4FB",
+    "rtl/raster/alpha_block_float_core.sv": "67967F29AED3C058944B48AB84438FD1C89AEE5D89D3EF8A323563FF5C55D0D6",
+    "rtl/raster/alpha_exp_lut_256.svh": "279FC1CEC69AC4992827B164AA439C2E7862102DDD18F412792C71AAFF5A92DD",
+    "rtl/raster/blend_fixed_core.sv": "59B41B5C382FBC77124F6CDD4C3C258DA1F0374B8304F1D73689C161A6B87EBD",
+    "rtl/raster/blend_state_commit.sv": "7F803595619F2239EF2E1859942C8CB7383B26C1BD53576567121261DFB5C4FE",
+    "rtl/raster/blend_state_commit_4.sv": "6CFA263328EAFAB67135350376129C1AF6AE5716A344023CA5236770B7815A19",
+    "rtl/raster/block_termination_bank.sv": "198C9B83FF95271A9C6B3532E775E03AD47CF9D3CFB2D024717AD8E32D77CE17",
+    "rtl/raster/block_termination_table.sv": "2A3FB3DE426F88A95CAC299487790853AED36D2D8A09F19A833DB6929ED26657",
+    "rtl/raster/gaussian_block_pixel_expander.sv": "2008B253631C2A9366B9FD4215E148AF32D6C90E48BC2E8F2AFB02F4BDA7FFD9",
+    "rtl/raster/gaussian_shape_block_reject.sv": "9D0D5F0B84775B45E5E9AE303854A6825281214FABE308744EA8B7B25ACAAEEB",
+    "rtl/raster/image_state_cache_backend.sv": "2CBF13001BA9448CCC6508292D679F9060102596F264CA509F6538F827944111",
+    "rtl/raster/image_state_cache_backend_4.sv": "9F537ED2F91B618DCFAFFF1C845B04338385F8B8373ADDDA081CAEB31C0D3A73",
+    "rtl/raster/image_state_cache_backend_single.sv": "0D49259710526CB1AC53F6857BCCDDA450DA3EF95AA114DD8324A23EE786116C",
+    "rtl/raster/image_state_store.sv": "3996BBEF886A33CC052375F7B57F14B8298A8CDA34338C4A03A9003EC7881F2F",
+    "rtl/raster/ordered_block_raster_frontend.sv": "D769963BFD68D057D64A48F1552B24D66AFDE73D7D46E2E089B730F50B2DFC22",
+    "rtl/raster/pixel_termination_mask.sv": "B335459D7C6251C6C870D0EBFFD0D4E7728FA1430FDBDE5F87A2F3EA2B775F11",
+    "rtl/raster/raster_alpha_lane_array.sv": "1175BA27EF1C14D658047347E6BC2D27AEDE05D1EAFED74AD38C764C29D9B2D7",
+    "rtl/raster/raster_pair_shell.sv": "DA51C794E5B5503973972369A2AED97111089C608A2B388B6035B24B37A11F16",
+    "rtl/raster/raster_pixel_termination_filter.sv": "4F6FC444E178A49D22DD050F31FC936F33B7736A7403B39CAE1A7CDC9B777665",
+    "rtl/raster/raster_termination_filter.sv": "62FB81133898E2B283E9080529513BF7492DBC20B417BBE51276952D3F0D1FB0",
+    "rtl/sh/gaussian_sh_color_array.sv": "4C6CF6C5E42E5BC65C53DBF0782D0C3C3CBD0D9AF80B3E5C1D1FB1899E8C53A3",
+    "rtl/sh/gaussian_sh_color_core.sv": "BCBAFCD5001ED4E5C198B22B072986289FCFD4CAE755697785A65AD6591512B9",
+    "rtl/sh/ordered_sh_lane_scheduler.sv": "91546F88A2B8CB9C4567E63E7CDD732F7107BFCD83F71BC6C02665DDD2B62E7B",
+    "rtl/sh/sh_degree3_color_core.sv": "603693E078E814723E4AD335A54F23B449190B7ABE194C02F8698CB49B146727",
+    "rtl/sh/view_direction_normalizer.sv": "2D89DE90049D7334D4106CFF915E5F337A40E0CCF9F2381F067D914289BAFA0F",
+    "rtl/sort/autonomous_qsu.sv": "95B7ABDBDD59B3A79D456144ACA9941FD6542CA708108B45F884D94C9BEBD7B9",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705F36EE327AC6A20477B7316EE73926C90EBCE4BE7874F0A252047FEF9C",
+    "rtl/sort/bitonic_group_sorter_shared.sv": "414924DF082C2CEA1683326E2CE7FA78D43683F2896BDCA25C7EAF004CC8F4A0",
+    "rtl/sort/depth_group_buffer.sv": "DF02AF9A8DE0D0CF1B33860E21AA227EB5A481CBEF287134510F1AEF5C02EEF3",
+    "rtl/sort/gaussian_depth_prepass_core.sv": "A7846C33C4B874A4BF1199844F196FD171686A594351B8FFF7ADF6D64455446D",
+    "rtl/sort/gaussian_depth_prepass_shared_mac.sv": "90BB3D1BD5ED4F1FAB36BF0982DE91EDE8C3E14F578E1861E0D29B947F61E839",
+    "rtl/sort/group_sort_service_gate.sv": "AB713873605963C6D49DF50BF140758C55A011F17CBEC57D824EF84AE96E2121",
+    "rtl/sort/ordered_gaussian_attribute_issue.sv": "23DDBE25550AA07C20A5C8AFF20CFA3F25CCA86014966D36329891F75BB0FEDA",
+    "rtl/sort/ordered_gaussian_retire.sv": "9683FCF1E86D5307B52F5A6E28E9B87A776ACC469A2CA40A79287881055AB5E8",
+    "rtl/sort/stable_group_sorter.sv": "3B9803F888FCA1FF993E9E571D264F0A47E852504773677F9CE615F76B781A34",
+    "rtl/sort/stable_group_sorter_parallel_shared.sv": "3496F7568A33EDA000CE251D60E468DE3D46A975645FEA5303AD1D879A748B39",
+    "rtl/sort/stable_group_sorter_shared_compare.sv": "091E250DF622498B019775AE57AA539CED551160C58863F2CE94A8B3FE1D1199",
+    "verification/rtl/build_t04_real_rgb.cmd": "791529FEFE7C7E3AFA3E800D81DC3CDCB40A764D8D2D0005131AFE17AE715AB2",
+    "verification/rtl/build_verilator_full_frame_range.cmd": "B05A6FC140F0C602F8457FCA23426553F8F561150B52286765A892083542CC4C",
+    "verification/rtl/run_iverilog.cmd": "2AF38554D246829094BE1A14F99741C8DFE601172AEEB07A4409A82A8E023CF0",
+    "verification/rtl/run_verilator_lint.cmd": "2F2C1D2DF9796749F04FA4C60D0C55C99E9A590322BB7FAE52F787BA2509F426",
+    "verification/rtl/system_top_sources.f": "3FB3A489EF18EEE7C0EA25EF10E6BDB7F5762FEDDD34F025F20AED9BCA49BBA9",
+    "verification/rtl/t06_frame_signals.svh": "E05E14A79BC20EBD2D106845285C5718D2036D99539C75F6D83B9C944C41E6B7",
+    "verification/rtl/t06_memory_layout.svh": "A6747C0418997979787C4A1096C6FF1A3BCDDBC4DDEE25973069BF9B702F2159",
+    "verification/rtl/t06_memory_scratch.svh": "480E98E8B4CC0399F966D6C57A93BC176795A3BA64A371C0021CC93717FEE78A",
+    "verification/rtl/t06_perf_measurements.svh": "B70CBE74AF36CD4B26392B19C031FBA8AF2181E31B39F104DD955BF97CA68B2F",
+    "verification/rtl/t06_scratch_memory.svh": "049105FA426422B73D739BB394EB801F7E1F746482A9F208B67FA5CC5F09C32A",
+    "verification/rtl/t06_scratch_signals.svh": "80D232564013664D09002C9FA0A25598C3D631D64571BF43CC854F579A74456D",
+    "verification/rtl/t07_termination_cost_top.sv": "040960F498C21E25F94FEBCAD2FD24E63E0791FCA3B720F36B6B91244D58EEC9",
+    "verification/rtl/tb_alpha_block_float_core.sv": "1879F503E1A975E8E437579D5811B43706D578557CCC76A8B483341F88B23EAA",
+    "verification/rtl/tb_apb_regfile.sv": "A71395A21C120DB48F0C51914E7EF025A921D91E6FB0AEE11230E47F5BDC2801",
+    "verification/rtl/tb_attribute_issue_turnover.sv": "B8B10A99089BE211884CEF95BA4120900101AE7F2FFBAFBE027EC607C64C1B25",
+    "verification/rtl/tb_axi4_camera_config_read_dma.sv": "33CD5213FDC6B71633F62C04B0CB83AB0274BEAB88D14D60D5601DF6936F4286",
+    "verification/rtl/tb_axi4_final_rgb_frame_dma.sv": "BFB2CCDCEE27EB773A8918C358E30422D3D3ECF1863F328FD7A177E89FA1C060",
+    "verification/rtl/tb_axi4_gaussian_attribute_read_engine.sv": "362C93CDF66D7F0D68FB713A1AEADE2FF431275928F6365D54D945BC626A4A11",
+    "verification/rtl/tb_axi4_gaussian_mean_read_dma.sv": "611BC6FC81722CA3E51A1E6C05AE1047F488B32DEB93268F2D1EF5C570DE4622",
+    "verification/rtl/tb_axi4_pixel_state_dual_read_engine.sv": "05F191A1B4D181FD09FF992EA16D64600F0D8482BFDFD3A3932B58ECFAB5B74A",
+    "verification/rtl/tb_axi4_pixel_state_dual_read_random.sv": "DA73AA0B1880877F3514A3E2C7E2B88B78D3EB15C969FF519E4D42EB5945CA95",
+    "verification/rtl/tb_axi4_pixel_state_multiwrite_buffer.sv": "5CC2350F4AA1B31BD62DA59934595121267EACBED8A30E4734B69CD0B8BEAF0A",
+    "verification/rtl/tb_axi4_pixel_state_multiwrite_random.sv": "3620145EEC7DF689F06B00C51E23C4DAD6C1DED53E3819F752D50D0E503131F9",
+    "verification/rtl/tb_axi4_pixel_state_quad_read_random.sv": "D85FEBB3D754410D1E75AF0ABFA04A22E88C2E3D9B7E6147BB8DC2B897BD05BC",
+    "verification/rtl/tb_axi4_pixel_state_read_engine.sv": "E8C43B78B1CD51057898E8C14C7C513969A8FB632D3348ECF8EF6CBF9914C677",
+    "verification/rtl/tb_axi4_pixel_state_writeback_buffer.sv": "7D5F8DC6DC6EF0D111BBBD0DE89068013E96F553BEA26E25FEBB2BADEE2131C6",
+    "verification/rtl/tb_axi4_pixel_state_write_buffer.sv": "FB79499567450C5EF3E00E8C5DBB42B67947DF213570B5BB482F4E450A3E9A93",
+    "verification/rtl/tb_axi4_pixel_state_write_engine.sv": "91CFC802543078568D5843DD0340293E871FAB0A81EB3F1C7CB66A1A09202755",
+    "verification/rtl/tb_bbox_tile_task.sv": "4ED54F801B6661525955F79C334DD59D75EADAF63573EDB010F09A1BC322170D",
+    "verification/rtl/tb_blend_fixed_core.sv": "EB8E45720BD03C1F75424109AADD7852BBD8B540A50D8C9F18BB4BE8A5F19448",
+    "verification/rtl/tb_blend_fixed_shared_pe_core.sv": "F38931473F7BAB08329EBD815389126836A2C8D15A33912F48489FD631A29533",
+    "verification/rtl/tb_blend_state_commit_4.sv": "B9D12FF37B4D78AD33BD41266F57CA7B569108B9D6E889496A5C5A8C28E497F6",
+    "verification/rtl/tb_camera_projection_tile_lane.sv": "CF94CC9C60939258FFBCB66A08D820AA7B1919DBD98879FBDD18C680E8ABCBA9",
+    "verification/rtl/tb_cfg_epoch_ctrl.sv": "BF762D6E02F86092570D3B48B84670705D5F13E98E865B7576A6870B0B189B0D",
+    "verification/rtl/tb_covariance2d_cholesky_encoder.sv": "CAAA14A984F1B778A82324DA1264351631460C7B88D70A6A545130E16E71603D",
+    "verification/rtl/tb_covariance3d_chain.sv": "55B37CF2BFE94AA235ADE45BC5872B7BC9DE70297E90AFEF659BB99CD39370BF",
+    "verification/rtl/tb_depth_group_sort_chain.sv": "96AA69CFBF5FE088C4C834AAE15166DC1130328F740569C16B1065C6D3F43A15",
+    "verification/rtl/tb_fixed_div_pipe2.sv": "9613EFB54A2AC1321D545C6C0E422F3B265BDAC3CEAA0CD08E6D9A1CA148B497",
+    "verification/rtl/tb_fixed_sqrt_pipe.sv": "2A2529E97E91E3A9161A0821D1E981CB3A4BB53FCC47F20A708AA033EDFD8414",
+    "verification/rtl/tb_gaussian_attribute_store.sv": "E8B0567F73DABC3AE2EFA55481D2D85B17CD8E23B44395A4A8DE3F4E5460F9F1",
+    "verification/rtl/tb_gaussian_block_pixel_expander.sv": "61491714CBE6DE9265F779DDDD2923846E828CE7A257261731D7F53EFE7C8761",
+    "verification/rtl/tb_gaussian_depth_prepass_core.sv": "5C5311CE365968126888C7FF0FDC331ECAD69538BD2FDD7E5847CCFBDFA6E515",
+    "verification/rtl/tb_gaussian_depth_prepass_shared_mac.sv": "D78446617533C5A2EB2D37B2A54BDB211C0D36D86DA090D12FE38B9F7170C9EF",
+    "verification/rtl/tb_gaussian_frame_error_control.sv": "4946472307FCD30D06ECF9E4668D39A90CB53EB0C75FACFDFB093B14C4CEE1D4",
+    "verification/rtl/tb_gaussian_frame_render_pipeline.sv": "090F1A4B7D3F897A97D3EF1893C21185B0E2B9FD58900A1EC2EA7AD29C164A96",
+    "verification/rtl/tb_gaussian_mode_advisor.sv": "9613969C9EBEA7236B14F9EAB10A4CA9367A8042AE5C91D27EAF513F93012541",
+    "verification/rtl/tb_gaussian_mode_advisor_workload_matrix.sv": "F5BB38576AD4245C740D0C0329201E3064395EF67EB096BCDDFF7970789B2DCC",
+    "verification/rtl/tb_gaussian_ordered_render_frontend.sv": "17527B7768ACCACB9CF0BAEE218A0DB6A9CFFA82E171EC0F867A532733E07377",
+    "verification/rtl/tb_gaussian_projection_sh_array.sv": "B53D2276098CEDEDEF93AF1467F41B270D07E992B08B3FF0E26B657F4F1DD0B2",
+    "verification/rtl/tb_gaussian_projection_sh_fork.sv": "F74E9F40AD8F64B00CC236CF156B2A8EC03E09F9450BD833325E413FD5BBFEA3",
+    "verification/rtl/tb_gaussian_resource_control.sv": "28948CF795FD6789075D5375D1A279BBE71B2054099177770138D064CE02426D",
+    "verification/rtl/tb_gaussian_shape_block_reject.sv": "1AD7773712B92C75BE9E378C697B513C50B8DE809B086D7C4CC9E85483999F76",
+    "verification/rtl/tb_gaussian_sh_color_array.sv": "9D3C09E002FA34B8B0C01302097F7B6248EACC4D7E36A617680A8D6A39552AD8",
+    "verification/rtl/tb_gaussian_sh_color_core.sv": "C1CA73820E839373873405200B4DC9BE2275781FB2A7FE447DFD2258F42CF954",
+    "verification/rtl/tb_gaussian_sorted_render_pipeline.sv": "69A843CC6B153DE76E16827CB5D99B13B7C57832B2984D06D2FBEEC5A7F7E76B",
+    "verification/rtl/tb_group_sort_service_gate.sv": "36AA3B23E5DB9A8D9156E22BD8567B42BF6C7276B47F1183D1E138F1D88C8AF6",
+    "verification/rtl/tb_gs_accel_system_axi_mean.sv": "7D59FE101964D50F108EB36BA632C16C314A42AE685B4A38CDDD5809A0371E59",
+    "verification/rtl/tb_gs_accel_system_camera_dma.sv": "127151F9094E701A264F373249D25D5881BC5B5F4F8242637E9F6CE0A297ED97",
+    "verification/rtl/tb_gs_accel_system_top.sv": "211D31191B3685984FB65DC9E9F0B1AD7FB460E6E977B01C60B6D096652DB6FA",
+    "verification/rtl/tb_image_state_cache_backend.sv": "1359D7574D52C233F378C5121145197A0D1D1F2AA95F5C63F595E50502CDA1EB",
+    "verification/rtl/tb_image_state_cache_backend_4.sv": "97BBA2210A492EBAF4CC3A923551B5EB1650C9D7C07033CEB58DCDB6EFB13151",
+    "verification/rtl/tb_image_state_store.sv": "F47349771D67FD21A429D2AE511D8900476DF44EE9D46915E08DB708284A7666",
+    "verification/rtl/tb_ordered_block_raster_frontend.sv": "E306D99DED6206C2050125FD35BD9F80E66F935CB42A7A473DDA520785306E0E",
+    "verification/rtl/tb_ordered_gaussian_attribute_issue.sv": "DD42E0F06310C72EDC8D2EE4D5069B298FF7084456B2F9719E0162563D2B4FEE",
+    "verification/rtl/tb_ordered_gaussian_retire.sv": "D7F9165767635A2DA2FFD01F0593F7519D6839F0C3C3E96A33E7B0FD49B11B67",
+    "verification/rtl/tb_ordered_projection_lane_scheduler.sv": "DF7C4A70E6567A59926746741C57F955E79A168A54CD23500FAE9A3C37F86676",
+    "verification/rtl/tb_ordered_projection_sh_join.sv": "EB27118D5F6C62731B4921B5B731B0935595BB2A82A6AF7FCCBD829045F66372",
+    "verification/rtl/tb_ordered_sh_lane_scheduler.sv": "757E9774A74EB8B353ACC1FC299B4D7584E6E1D62FA94CFB680EB7BED0DE2A72",
+    "verification/rtl/tb_perspective_project_core.sv": "F8C332E3605B6886FBB794704DA0CA8842D042F32EC3054BA2B38779220E90AC",
+    "verification/rtl/tb_pixel_termination_mask.sv": "00943E0FBCC125409D702C834314E8B8FE83A555258B6C5FB5FFA6BB0EB1BE10",
+    "verification/rtl/tb_projection_epoch_lane_ctrl.sv": "CE51D95740BA849E818F2BF6664896ECCA4E2F073A534001B8A1E727EF867E91",
+    "verification/rtl/tb_projection_lane_scheduler.sv": "A34CF6913EEBE57F2F6931AB2B27C1282A2573DE3DE33DED70420BE67DC76042",
+    "verification/rtl/tb_projection_primitives.sv": "E10D34AAFF4A75C86357E1507265ED1865F2AB4A5B2EF13D8354B2AF28F16659",
+    "verification/rtl/tb_raster_alpha_lane_array.sv": "C12F1C2AB477A1905D76C8B536A2C12C6EE782DF82FA308DFA9FA91E52412F2A",
+    "verification/rtl/tb_raster_ordered_same_pixel.sv": "A69682C492386EB89341335499EDFDD98A603B4C38252ED80047B7742CC2A160",
+    "verification/rtl/tb_raster_pair_shell.sv": "E54F0698AF543F870EF2483AD7DAA4870D2F71C0379AA806215CD944C4089C37",
+    "verification/rtl/tb_raster_termination_filter.sv": "D6E65024F1CDA8A20C04B13286548300A76ED4EB4AE2E98FC4E06B14D66C3869",
+    "verification/rtl/tb_raw_gaussian_projection_array.sv": "C357ABE471A16000F3820414E55CB6EF2399A93F49EE93BF7EBE6D0945346AB6",
+    "verification/rtl/tb_raw_gaussian_projection_lane.sv": "BC448110109A36388ED3F304609F20BC0EE907A2B63BE665C7AA66ADB455C90B",
+    "verification/rtl/tb_real_dma_workload.sv": "8884DE67EA6F39FFE8AECAB36752ECEC45BBDC62FADE8BD14453D88E7999E838",
+    "verification/rtl/tb_screen_covariance_core.sv": "A4BE758E91876985F322724D0E69EDFEC4ACED6C57A70B65F4B6B12D4CE984AA",
+    "verification/rtl/tb_shared_reconfigurable_pe_slice.sv": "9204062006C1F01BAD52B33F035E8DCF31602C2FC99C672610CA5A17DC7C49AB",
+    "verification/rtl/tb_sh_degree3_color_core.sv": "EAA4B6A01BEF5C84448452983A76018BC9A1DE32A12D43C71995EA36B87F0860",
+    "verification/rtl/tb_stable_group_sorter_parallel_shared.sv": "B07713127FC9FF349CCE8AE61F419893AF72E0093197F4B4F45EF0033119687F",
+    "verification/rtl/tb_stable_group_sorter_shared_compare.sv": "66B5A6C68B97FCD84653B684E424D688186CE58BE23C767A16373BA40456E71C",
+    "verification/rtl/tb_t05_reconfiguration.sv": "3522AFD23D35265856C6BA67DB922F5749F42E9D9FE05711DAAC8D9D95B71737",
+    "verification/rtl/tb_t05_sorters.sv": "5191E46D675C3335A489A46BAAC1CD8976631181C01D795A47451C3615DAE063",
+    "verification/rtl/tb_t06_alpha_ordered.sv": "42191697E3CBF33D3F0C4C2491BCEC7D9E2AB9CB08431FFEC9211DBF9D917F94",
+    "verification/rtl/tb_t06_backpressure.sv": "58413A1EC6CBC20044DD4FE5D7F180CDCB258CB4A55370F2890EB7F052DD1516",
+    "verification/rtl/tb_t06_burst_workload.sv": "6109FBFAB838A45D7A2A6BC1997EF7514CCA68A5E9C26CE3B8EBD0A199B0AC31",
+    "verification/rtl/tb_t06_covariance_clamp.sv": "F807F0A6B1FF3B1716EDE89A8731B11A5304AAB985D0A600E218901F6993C22B",
+    "verification/rtl/tb_t06_dot3_depth.sv": "5E628DE703A11F72C367858F84980A3B01D6FF18208B09B220F9B94EF3036AB4",
+    "verification/rtl/tb_t06_dot3_pe.sv": "345B18A0BBF3666CACE9FB7ABB997812609EC82C50995BC8C585A1C00D7FC2D9",
+    "verification/rtl/tb_t06_dot3_recovery.sv": "3152559AAF6A69198050960529A63BB90E6432A73DD716BF693D1097D0C2739A",
+    "verification/rtl/tb_t06_dot3_xyz.sv": "8C9B8B15D804E143AFC53EAE4A5CAF5C897AEB23432CDD18163B7F004010D9DD",
+    "verification/rtl/tb_t06_local_abort.sv": "5D6BE2B8AA288C6A86A90E0724D09C26CE6EB5FDA40E7BFAD3C5F22422EA900C",
+    "verification/rtl/tb_t06_local_backpressure.sv": "0E593379FAEF3686019211C65E77B2BF869CB783192B482F22E461BB61954790",
+    "verification/rtl/tb_t06_local_recovery.sv": "1EBFA7998D91F311687AC3DBF467EE7400044054F910B45B374C4DE1F24E7771",
+    "verification/rtl/tb_t06_memory_layout.sv": "8C9EDA7066B3FAF56E244F3D3274E0A2071874EA08BF28D7B8C83815B090B405",
+    "verification/rtl/tb_t06_memory_oracle.sv": "E938A2D5B5AB331DA4A9C00D23303F8C602704A90FDE184E82CC06FDC2AFCB97",
+    "verification/rtl/tb_t06_memory_workload.sv": "BD47F9A0D4851D080063A61A71B73F6A4E623825B66EF4F733019966D0746E87",
+    "verification/rtl/tb_t06_oracle_render.sv": "7DDFCCAF5FD2819A62675CB70A486D2CD53EA0E52036A12DC5DF8A23C999CD57",
+    "verification/rtl/tb_t06_perf_recovery.sv": "43D412B54A810D055C80F42460E8D17DF02E376A5F5545F02F2C0638CA2EA09D",
+    "verification/rtl/tb_t06_perf_workload.sv": "600426ED5ECA152A2E5D54DC86F30B74BAF49923D5F793F61CC16C13476AEBD8",
+    "verification/rtl/tb_t06_precount_abort.sv": "934CF744F28455E31AEBB4FF7C8501C80B3BD7548F9060094DF7258AC2F5F525",
+    "verification/rtl/tb_t06_precount_backpressure.sv": "5269C5F17D83DE261FA93A876952C89CA367BCDDB1AF28D8EB59463B2843AFF9",
+    "verification/rtl/tb_t06_precount_recovery.sv": "C799E95BBFDCF506189B8B4EE3AB07F2AE05AEEC29B50E06730D11FE2E125647",
+    "verification/rtl/tb_t06_qsu_abort.sv": "F3983ECE30083C1146DBF9ADF6FBD79808994352581EC6E62D9D2C22D1F3D7DF",
+    "verification/rtl/tb_t06_qsu_bsu.sv": "C0E63037ECE64BAC1E856225BFB60B920D4963E4852DF4E14E6FF816E6819FF7",
+    "verification/rtl/tb_t06_qsu_local.sv": "12C55A3F6844F81EC37B650353826023EF8727CCB167D9D8DD4FA154D37C43C6",
+    "verification/rtl/tb_t06_release_repeat.sv": "D6E2E51EB2D87740D41076901617DBA5FA07297B484058C1B4B318393D3983D9",
+    "verification/rtl/tb_t06_rgb_burst.sv": "00309AB79C68AD7997F5897815A2C3CDAA0963224E62A1DC555F6CF5C0BFE864",
+    "verification/rtl/tb_t06_rgb_recovery.sv": "A5B1D3ED6E3CC08468F7E64680D80D127884E30D4CFC77A5D911E4A49279933C",
+    "verification/rtl/tb_t06_rgb_workload.sv": "AF021CC5090EAA2C1947D1E5C30A999533A04597335D82B0D9A8936100309002",
+    "verification/rtl/tb_t06_scratch_dma.sv": "72A9DCD52DCE6EE003538344F6F531B14624A2C269F31A4D6405CB1A1F130E99",
+    "verification/rtl/tb_t06_shared_window.sv": "EE8C709697B61BDEAFD8FAA3D7EC7F1F7B5C477EE24478D076C5E097171967A9",
+    "verification/rtl/tb_t06_system_recovery.sv": "EA2902E48E5397497291AB7CA657B373EFEBC49FF8B4DBF59CBB0C62CA04466A",
+    "verification/rtl/tb_t07_pixel_termination.sv": "22AF348C8A73C3E2FA64DD5E495F02FC30757551CB26867DD9F4E3446ED89BA9",
+    "verification/rtl/tb_t07_repeat.sv": "A9375BE9E913F2A6FD46F4CFF02B26AA433572F7E6C06D8D15FD1BE64E0F22BF",
+    "verification/rtl/tb_t07_shape_vectors.sv": "92B036B1C50DBE44500219270EC1018F4F423B0A98CB28E6D72DC53C9D4B4D6A",
+    "verification/rtl/tb_t07_workload.sv": "8ACDB745766A012947333BDAA5DDF67FCA14EC230ED280E068CFB002EBE9E6EB",
+    "verification/rtl/tb_t08_attribute_decoder.sv": "14A4DB87788C191DA3468862B4DCAA8BC5E4E2685BD6A504E326624266F4936B",
+    "verification/rtl/tb_t08_attribute_dma.sv": "89779F301B9233961ACBE2A6146E36B533FD22C261E4E5CB6BFED22304CCC523",
+    "verification/rtl/tb_t08_covariance_precompute.sv": "6A796490208D23D99FCE7E9E2B65DF656A99D77122F3B2519165D0F0D8FA252B",
+    "verification/rtl/tb_t08_diagnostic.sv": "39F3D81CFA5ECE8D7AA9E21B95E43B60A0EF19D2D627251B3E75E04773EBA8C9",
+    "verification/rtl/tb_t08_integrated.sv": "5FB81C543C4511251B2401F77867DDF5CCD9A27AD0D75E296BF75937D74268C7",
+    "verification/rtl/tb_t08_repeat.sv": "41BC85AFE56BCCAA9A8F159E53394B598521B0360300E869AF98AB3C76D041F9",
+    "verification/rtl/tb_view_direction_normalizer.sv": "211696D30743174E2E7AC825EEA9582FB70387D4BB1C7B7390FA59515C7CCFE0",
+    "verification/rtl/tb_world_to_camera_core.sv": "0B6A678EB57072C86411881A81211B676431DAFBA7CB36F12E1EDA02462FDFD3",
+    "verification/rtl/tb_world_to_camera_shared_mac.sv": "174F162466C3C626C969050F79A1F0446177FF9BB542158D15678642A313B99E"
+  },
+  "compile_count": 84,
+  "run_count": 83,
+  "results": [
+    {
+      "index": 0,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-Wimplicit",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "gs_accel_top",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/gs_accel_top.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/rv_skid_buffer.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/control/sat_counter_bank.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_pipeline_event_counters.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_mode_advisor.sv",
+        "/mnt/d/3DGS/rtl/control/apb_regfile.sv",
+        "/mnt/d/3DGS/rtl/sort/depth_group_buffer.sv",
+        "/mnt/d/3DGS/rtl/sort/group_sort_service_gate.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_cache_backend.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_cache_backend_single.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_cache_backend_4.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit_4.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/rtl/gs_accel_top.sv"
+      ],
+      "log_sha256": "7939F757DFBAE30630C7EFDBE8B11837B71DD493FFE31C8A606A1C97DEFE3A3A"
+    },
+    {
+      "index": 1,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_cfg_epoch_ctrl",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_cfg_epoch_ctrl.vvp",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_cfg_epoch_ctrl.sv"
+      ],
+      "log_sha256": "7AB2317B3F47A36650E42691366B5C4DC43F71F3DA14CAB57CF53596A4C84204"
+    },
+    {
+      "index": 2,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_cfg_epoch_ctrl.vvp"
+      ],
+      "log_sha256": "AF73246C99D0ACBD9CE60F0BA771504D04294F9D737DF04BCF9767D4D301F58A"
+    },
+    {
+      "index": 3,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_apb_regfile",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_apb_regfile.vvp",
+        "/mnt/d/3DGS/rtl/control/apb_regfile.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_apb_regfile.sv"
+      ],
+      "log_sha256": "CD6CBCAE6F32902C9C1BD2CBF123C25DF36C1CD7AA5F9C98C92024F7AE6C2ECA"
+    },
+    {
+      "index": 4,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_apb_regfile.vvp"
+      ],
+      "log_sha256": "74E62494E7298DD1FEF54CB35EAB3B05A65053092AAF56832263270920CF09CB"
+    },
+    {
+      "index": 5,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_alpha_block_float_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_alpha_block_float_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_alpha_block_float_core.sv"
+      ],
+      "log_sha256": "201CF467F2D3CE354B14C640AD1E6DEF8F9F259F237B5CCD06CA6FFD6354E42E"
+    },
+    {
+      "index": 6,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_alpha_block_float_core.vvp"
+      ],
+      "log_sha256": "C2EE5703F341DFF5FBBEEE641B9E08ACC94C1587B47B040D5DD52F82731F9A61"
+    },
+    {
+      "index": 7,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_blend_fixed_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_blend_fixed_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_blend_fixed_core.sv"
+      ],
+      "log_sha256": "AFB7302781BAD13E4C614C87C21AF8259E6B96970B877BC2241BF4EC010ACA08"
+    },
+    {
+      "index": 8,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_blend_fixed_core.vvp"
+      ],
+      "log_sha256": "A507C4DA094204232BA36B5E97993FF2D0F35A835C1C829D334C67ED5777C667"
+    },
+    {
+      "index": 9,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_image_state_store",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_image_state_store.vvp",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_image_state_store.sv"
+      ],
+      "log_sha256": "D285E8168C81DD119C4475835F41171E613A91A6070F7F870E39E2A5FF1A6499"
+    },
+    {
+      "index": 10,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_image_state_store.vvp"
+      ],
+      "log_sha256": "91364F39AF548FC91A2EA48150081EAFAECC97DB701AF991F96545A9616E6066"
+    },
+    {
+      "index": 11,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_pixel_termination_mask",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_pixel_termination_mask.vvp",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_pixel_termination_mask.sv"
+      ],
+      "log_sha256": "AED62F959408E00D2B8591706FC3A613D486A38BE0EBD41058ADE9D5FC19E1E6"
+    },
+    {
+      "index": 12,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_pixel_termination_mask.vvp"
+      ],
+      "log_sha256": "F4B94A848C6C8A107A398172961F3F02876B4D4F53717E0923B21014E44465FA"
+    },
+    {
+      "index": 13,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_raster_termination_filter",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_termination_filter.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_raster_termination_filter.sv"
+      ],
+      "log_sha256": "719A3CAA13E2299307390AEE25C3B6A7FB10FF128AE839357382DF25F501C8CB"
+    },
+    {
+      "index": 14,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_termination_filter.vvp"
+      ],
+      "log_sha256": "2ACE619AE304B43B13FA5B0252934B415A132B7B8671CE7C98AF575176364DD2"
+    },
+    {
+      "index": 15,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_raster_pair_shell",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_pair_shell.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_raster_pair_shell.sv"
+      ],
+      "log_sha256": "7152F7FAD478839C1736979B43A883A4C667053202C2D0EE3B958FB333190211"
+    },
+    {
+      "index": 16,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_pair_shell.vvp"
+      ],
+      "log_sha256": "435A6F9B1B50B4F437EBF6505926CBFE54A4F389D5F7047FB164934A55CE4484"
+    },
+    {
+      "index": 17,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_fixed_div_pipe2",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_fixed_div_pipe2.vvp",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_fixed_div_pipe2.sv"
+      ],
+      "log_sha256": "8BD5C59A6237F893FCCF9FA3D81FB75582AA44B3729F1CB10AF50539C2324138"
+    },
+    {
+      "index": 18,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_fixed_div_pipe2.vvp"
+      ],
+      "log_sha256": "23F1BD7C91786F740F82F724159A43FCBE203995CCC32E40DC1BEA61690DE774"
+    },
+    {
+      "index": 19,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_projection_primitives",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_projection_primitives.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_projection_primitives.sv"
+      ],
+      "log_sha256": "0A9BD27E0154582536DBB9CBBB06AB5AEC764AA8BF214B7D3D2E53433B98BF41"
+    },
+    {
+      "index": 20,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_projection_primitives.vvp"
+      ],
+      "log_sha256": "7DF13C43DE0B353BC62DA259271F622FE8DCE90A23F08CF05C199BB7FD726431"
+    },
+    {
+      "index": 21,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_world_to_camera_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_world_to_camera_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_world_to_camera_core.sv"
+      ],
+      "log_sha256": "1ECCBBD7E322EC5DAA7FD29B6A3600F4A384C29A6113744F06072BE6C9F12E09"
+    },
+    {
+      "index": 22,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_world_to_camera_core.vvp"
+      ],
+      "log_sha256": "9A5E9EAD201468552C4BA97A05CF40218C8967E289EA20FEB800B9B398F630F9"
+    },
+    {
+      "index": 23,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_perspective_project_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_perspective_project_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_perspective_project_core.sv"
+      ],
+      "log_sha256": "47FE094F1F281E3E3309B3CD2918DDBCCC4097B68EDDC8B2783F1F88340F93FC"
+    },
+    {
+      "index": 24,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_perspective_project_core.vvp"
+      ],
+      "log_sha256": "9ACA55EEDA07FB26436A3CDB0998B675EAC62CB732533F180A852FD4C03E9664"
+    },
+    {
+      "index": 25,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_screen_covariance_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_screen_covariance_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_screen_covariance_core.sv"
+      ],
+      "log_sha256": "81CDD961E2ED2DBE7ADC86489365E11680E0941F108BBE4A4B3E310981FFF025"
+    },
+    {
+      "index": 26,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_screen_covariance_core.vvp"
+      ],
+      "log_sha256": "196FAE7329F29CD855DAE19F054962FC491A06CF4F388A5DE6868C950B2C734E"
+    },
+    {
+      "index": 27,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_camera_projection_tile_lane",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_camera_projection_tile_lane.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_camera_projection_tile_lane.sv"
+      ],
+      "log_sha256": "66814DF4E336B3FFC009F2E0A9B53BC2B9DDAEAD52EC25C0A1A7CEB6DDE2ABE6"
+    },
+    {
+      "index": 28,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_camera_projection_tile_lane.vvp"
+      ],
+      "log_sha256": "175B85CC9FC04C62501A8BD8058F5DDEC8698DFE9A7D3C96BFA20CB36B1DEA37"
+    },
+    {
+      "index": 29,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_covariance3d_chain",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_covariance3d_chain.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_covariance3d_chain.sv"
+      ],
+      "log_sha256": "1B0981AA5F33724F0638491793783B8BF74EEFA059A3DB632CCD1A6D9CA5BC21"
+    },
+    {
+      "index": 30,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_covariance3d_chain.vvp"
+      ],
+      "log_sha256": "C20897CF165B74CE1273DA06430470650C1FF6D3FA0E7C74436CC1F058AF4BDA"
+    },
+    {
+      "index": 31,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_fixed_sqrt_pipe",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_fixed_sqrt_pipe.vvp",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_fixed_sqrt_pipe.sv"
+      ],
+      "log_sha256": "D3050F771823F4FB7C6C5890E527F6D9BC7E722B85D24F94D47E7D5258B64283"
+    },
+    {
+      "index": 32,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_fixed_sqrt_pipe.vvp"
+      ],
+      "log_sha256": "4BCCEC5034AC8B84BE8E3D1056FC6B92DBF7E43DE3048C7977387907CCA8E02E"
+    },
+    {
+      "index": 33,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_covariance2d_cholesky_encoder",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_covariance2d_cholesky_encoder.vvp",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_covariance2d_cholesky_encoder.sv"
+      ],
+      "log_sha256": "B782A21B05B4075890A83AC79EA5D43755D9E00E32DFFB03B0416A3327958BEF"
+    },
+    {
+      "index": 34,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_covariance2d_cholesky_encoder.vvp"
+      ],
+      "log_sha256": "E8F82C1611DABDA30C6371E44C116231999D3AFF51357D15DC48B547E7B231E6"
+    },
+    {
+      "index": 35,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_raw_gaussian_projection_lane",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raw_gaussian_projection_lane.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_raw_gaussian_projection_lane.sv"
+      ],
+      "log_sha256": "D094282536C6EA56330C19E7A3FFDE382701FDC669B29DC6DFD193539C7584F4"
+    },
+    {
+      "index": 36,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raw_gaussian_projection_lane.vvp"
+      ],
+      "log_sha256": "F88A15C512C77B5FAF021FEDFE237EC9E8EE54E02065D2BA797DE14C504C6D43"
+    },
+    {
+      "index": 37,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_projection_lane_scheduler",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_projection_lane_scheduler.vvp",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_projection_lane_scheduler.sv"
+      ],
+      "log_sha256": "7ED36A9E56F6BB43C61E1F6C3C6378E2FE857EC52167AF99D9C9927904A51B95"
+    },
+    {
+      "index": 38,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_projection_lane_scheduler.vvp"
+      ],
+      "log_sha256": "A268A393BE3D2BA99B4C09DAF83AB843058CCD02501BCD23C7D36297CC9E5961"
+    },
+    {
+      "index": 39,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_projection_epoch_lane_ctrl",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_projection_epoch_lane_ctrl.vvp",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_projection_epoch_lane_ctrl.sv"
+      ],
+      "log_sha256": "6D7EEF10C3B72780F5532D165A482887C5D07B409E415DF593848AE16CE87EBA"
+    },
+    {
+      "index": 40,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_projection_epoch_lane_ctrl.vvp"
+      ],
+      "log_sha256": "77C92EFB8DE80422152E552D44566F395D4D189CA9DF5E465D4B3B1022C5313F"
+    },
+    {
+      "index": 41,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_raw_gaussian_projection_array",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raw_gaussian_projection_array.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_raw_gaussian_projection_array.sv"
+      ],
+      "log_sha256": "4A05E72EA78DC941FB28BEB850C321CAF2432CD9450BBAA80509E44EE0534F09"
+    },
+    {
+      "index": 42,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raw_gaussian_projection_array.vvp"
+      ],
+      "log_sha256": "984E953F44FA0CAC6198FE6BDD7EDB1A456CDE2CE200623C2BC47F4CAA77D473"
+    },
+    {
+      "index": 43,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_depth_group_sort_chain",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_depth_group_sort_chain.vvp",
+        "/mnt/d/3DGS/rtl/sort/depth_group_buffer.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_depth_group_sort_chain.sv"
+      ],
+      "log_sha256": "B253C28D45FF49B2099A6420DC2BEACF2B86B91B3808998F876BFDD48E778768"
+    },
+    {
+      "index": 44,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_depth_group_sort_chain.vvp"
+      ],
+      "log_sha256": "CB0737F094F56075F7FF7136E27236BEAC2EC1F353C7637B7748834A027D9B9A"
+    },
+    {
+      "index": 45,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_group_sort_service_gate",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_group_sort_service_gate.vvp",
+        "/mnt/d/3DGS/rtl/sort/group_sort_service_gate.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_group_sort_service_gate.sv"
+      ],
+      "log_sha256": "489861002B57ED85917DAA4DA77C6FB8FDAF2228DC19270C4FAC10E32A05323F"
+    },
+    {
+      "index": 46,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_group_sort_service_gate.vvp"
+      ],
+      "log_sha256": "BBFE65CE61FC7BB14B6ED9A1A690A2A070AFE5FFBA01853173B4B660F415CCF9"
+    },
+    {
+      "index": 47,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_depth_prepass_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_depth_prepass_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_depth_prepass_core.sv"
+      ],
+      "log_sha256": "D7D61279BA1E12D1B2115EB70C577925C23664D00100B10112015C95B944AD85"
+    },
+    {
+      "index": 48,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_depth_prepass_core.vvp"
+      ],
+      "log_sha256": "3FC5859FC87B3C2FBE51FDD28A3AD4EDBA77E054B1B4EB37DCD867A74BDC3CDB"
+    },
+    {
+      "index": 49,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_ordered_gaussian_retire",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_gaussian_retire.vvp",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_ordered_gaussian_retire.sv"
+      ],
+      "log_sha256": "092BDE20342997039FF9287AB3379C381FB70FB12716DD0E229F73E4A21D001C"
+    },
+    {
+      "index": 50,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_gaussian_retire.vvp"
+      ],
+      "log_sha256": "8E2C8A45770DEE268F203CAA9553A61C54746C59724252C2A380FA9766642D4E"
+    },
+    {
+      "index": 51,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_resource_control",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_resource_control.vvp",
+        "/mnt/d/3DGS/rtl/control/sat_counter_bank.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_pipeline_event_counters.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_resource_control.sv"
+      ],
+      "log_sha256": "C17574F8DF915DE7C99BBCBEFB919CAC85813ACB52FAE199CCF6ADB2D37EA516"
+    },
+    {
+      "index": 52,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_resource_control.vvp"
+      ],
+      "log_sha256": "D7251634C7C3D42F35727D95E7C2C29876973BF1B54B8C96A7C3FDF1D9B25759"
+    },
+    {
+      "index": 53,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_shared_reconfigurable_pe_slice",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_shared_reconfigurable_pe_slice.vvp",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_shared_reconfigurable_pe_slice.sv"
+      ],
+      "log_sha256": "DE0ECDF262FAAB46DD154C511A17502866B3D17C3F754914DABF1E4C51C9C44A"
+    },
+    {
+      "index": 54,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_shared_reconfigurable_pe_slice.vvp"
+      ],
+      "log_sha256": "78182CABA6DC254DFFDDE2E3C0D2BE0E55D4E618279BACA943F8FBBAF01047C5"
+    },
+    {
+      "index": 55,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_depth_prepass_shared_mac",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_depth_prepass_shared_mac.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_depth_prepass_shared_mac.sv"
+      ],
+      "log_sha256": "025D67A99CB35C78C1452F6C0BE687C86B37B0C12F0BA0E3FC56133FA2E98D59"
+    },
+    {
+      "index": 56,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_depth_prepass_shared_mac.vvp"
+      ],
+      "log_sha256": "65833882CC2FF9F475F165522B1B4B40921BBD5F08AE323C43B6350F9731CF00"
+    },
+    {
+      "index": 57,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_stable_group_sorter_shared_compare",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_stable_group_sorter_shared_compare.vvp",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_stable_group_sorter_shared_compare.sv"
+      ],
+      "log_sha256": "3513AC7225315BFB7CC46997EE1ECA115517D91ACBDF65D5165E541AD2D810E9"
+    },
+    {
+      "index": 58,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_stable_group_sorter_shared_compare.vvp"
+      ],
+      "log_sha256": "9AA17DB654BA68DBAECD67811A38271AFC7B71F768F1456B7947A5623E0FDDDD"
+    },
+    {
+      "index": 59,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_stable_group_sorter_parallel_shared",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_stable_group_sorter_parallel_shared.vvp",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter_parallel_shared.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_stable_group_sorter_parallel_shared.sv"
+      ],
+      "log_sha256": "DEDA13324657036B638F3F546DF16FA0BE58A940D7217BFE9014CC8EF919F06F"
+    },
+    {
+      "index": 60,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_stable_group_sorter_parallel_shared.vvp"
+      ],
+      "log_sha256": "D235EE3708A48CDDE2F23853DFD73E4BD078FC7BB19E753622CD557624CD31B2"
+    },
+    {
+      "index": 61,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_world_to_camera_shared_mac",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_world_to_camera_shared_mac.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_shared_mac.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_world_to_camera_shared_mac.sv"
+      ],
+      "log_sha256": "446AE4E4BD07BC8FFBEC036DE7701906F088E874BEB25FA8959A77F4975CBD26"
+    },
+    {
+      "index": 62,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_world_to_camera_shared_mac.vvp"
+      ],
+      "log_sha256": "CF15B1AC01F1A1B820F941EF69F9248C5690AE12E686D6737ABBD9C12F769087"
+    },
+    {
+      "index": 63,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_ordered_projection_lane_scheduler",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_projection_lane_scheduler.vvp",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_ordered_projection_lane_scheduler.sv"
+      ],
+      "log_sha256": "5E3B6517264474E47DB3A8B4CBCA54615E04233C74783BAC21B23BF871A6F271"
+    },
+    {
+      "index": 64,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_projection_lane_scheduler.vvp"
+      ],
+      "log_sha256": "8E1A9ABE12CA3B0ADE4ADBCC7632054DB8F3C4794925A9735211841D22B994F5"
+    },
+    {
+      "index": 65,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_mode_advisor",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_mode_advisor.vvp",
+        "/mnt/d/3DGS/rtl/control/gaussian_mode_advisor.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_mode_advisor.sv"
+      ],
+      "log_sha256": "6CFA607D41F654300EFAECFDCA4CAA2F69FA5BD56A396A8A5DE513751ED1CCF0"
+    },
+    {
+      "index": 66,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_mode_advisor.vvp"
+      ],
+      "log_sha256": "4754554FD3CA859C9433D6433ED1A0A1E40DC96BCF2D9CB88EAA697A1E0EC70A"
+    },
+    {
+      "index": 67,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_mode_advisor_workload_matrix",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_mode_advisor_workload_matrix.vvp",
+        "/mnt/d/3DGS/rtl/control/gaussian_mode_advisor.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_mode_advisor_workload_matrix.sv"
+      ],
+      "log_sha256": "E9386AC17ADFC975746B74B9EF012494E5857D70467E4361891200088065AB68"
+    },
+    {
+      "index": 68,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_mode_advisor_workload_matrix.vvp"
+      ],
+      "log_sha256": "43153A410CDE03952ADBB5DCC4294905C56E363DFB3977C49BCFD6F93AFA4D6D"
+    },
+    {
+      "index": 69,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_view_direction_normalizer",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_view_direction_normalizer.vvp",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_view_direction_normalizer.sv"
+      ],
+      "log_sha256": "CB9BE638FEC437B4B986FB29F37E6DC8C7E304781F5CD0A6F7DFC9F45E95BBC3"
+    },
+    {
+      "index": 70,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_view_direction_normalizer.vvp"
+      ],
+      "log_sha256": "8479ADD9F9C3F62381EE4B52DC0DAF7FBE060CDBF7E2DFB2A13F7B4237A6A9F4"
+    },
+    {
+      "index": 71,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_sh_degree3_color_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_sh_degree3_color_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_sh_degree3_color_core.sv"
+      ],
+      "log_sha256": "8327BFEAEADB428CD22D3EA135448DAB3BA88FF4D9F6144F859139043A3C75F5"
+    },
+    {
+      "index": 72,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_sh_degree3_color_core.vvp"
+      ],
+      "log_sha256": "5640C604432A4F03C7B0B8363B64F7F6A979C82DC1A284D68662983DE79F4166"
+    },
+    {
+      "index": 73,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_sh_color_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_sh_color_core.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_sh_color_core.sv"
+      ],
+      "log_sha256": "25C554A07A9798EDEF248FBA051E1657B3D44958B093563AE442AC0AC99C187B"
+    },
+    {
+      "index": 74,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_sh_color_core.vvp"
+      ],
+      "log_sha256": "8FB286110D699BE95709C73A1BEE2D5B329918E8B4FBBBBC84404023BDB057E6"
+    },
+    {
+      "index": 75,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_block_pixel_expander",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_block_pixel_expander.vvp",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_block_pixel_expander.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_block_pixel_expander.sv"
+      ],
+      "log_sha256": "61C94CB88B8D3C5EA9442FC28004F7F3CE0CE6FF7DF2CE00836A66E5A0537F94"
+    },
+    {
+      "index": 76,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_block_pixel_expander.vvp"
+      ],
+      "log_sha256": "C35FF81F4B4ECCC866D7204DB50C967A638E66119FC9E378BC983BFEE6140DFF"
+    },
+    {
+      "index": 77,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_shape_block_reject",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_shape_block_reject.vvp",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_shape_block_reject.sv"
+      ],
+      "log_sha256": "D9D653812A85AA6E4D63BE00CEB27CFD79CA2AA8D19939D76C369C34BEFBFE4C"
+    },
+    {
+      "index": 78,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_shape_block_reject.vvp"
+      ],
+      "log_sha256": "202D14A6F5BE6211D36876BCA95E75C597D0391AF7CAAAB4B47264DDA38881DC"
+    },
+    {
+      "index": 79,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_ordered_block_raster_frontend",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_block_raster_frontend.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_block_pixel_expander.sv",
+        "/mnt/d/3DGS/rtl/raster/ordered_block_raster_frontend.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_ordered_block_raster_frontend.sv"
+      ],
+      "log_sha256": "605A70AFA6C4F6402AF3ADF61926C9E2AA021F89C9E741C87A323178B267B885"
+    },
+    {
+      "index": 80,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_block_raster_frontend.vvp"
+      ],
+      "log_sha256": "CD52843698068BDBFB397E62EE7A2122E4F34CA2A215548E5186AFF4EFBFCFF4"
+    },
+    {
+      "index": 81,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_projection_sh_fork",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_projection_sh_fork.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_fork.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_projection_sh_fork.sv"
+      ],
+      "log_sha256": "F7B41B685CD22FD3BE757F3DC5A1263D18E704A095E82C80E22ED17CCC9F72B8"
+    },
+    {
+      "index": 82,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_projection_sh_fork.vvp"
+      ],
+      "log_sha256": "51F3536596BD4BD154CB10E07DAA86040803AF62D0F592A9AB93F94906460CB4"
+    },
+    {
+      "index": 83,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_ordered_projection_sh_join",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_projection_sh_join.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_sh_join.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_ordered_projection_sh_join.sv"
+      ],
+      "log_sha256": "F8B657ABEEAD26082BBF9D21C89B77192722F3684561557ED0CC7745D2DE5E85"
+    },
+    {
+      "index": 84,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_projection_sh_join.vvp"
+      ],
+      "log_sha256": "307CCE2A0BF7F23889C6A1FCD45E3D39337CD070052D71EFA2FFF0887EC35E1E"
+    },
+    {
+      "index": 85,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_projection_sh_array",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_projection_sh_array.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_fork.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_sh_join.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_array.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_projection_sh_array.sv"
+      ],
+      "log_sha256": "4391D12EBBC2D7BB54A5A44C3ED75B924EA491D2F38FB5B683E1D4CB8E58F797"
+    },
+    {
+      "index": 86,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_projection_sh_array.vvp"
+      ],
+      "log_sha256": "2BCC2B6B54D9AEB13BE8F456358A2989CCC29181A8CCA761E3C47896EE75D321"
+    },
+    {
+      "index": 87,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_gaussian_ordered_render_frontend",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_ordered_render_frontend.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_fork.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_sh_join.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_gaussian_block_decoder.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_array.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_block_pixel_expander.sv",
+        "/mnt/d/3DGS/rtl/raster/ordered_block_raster_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_ordered_render_frontend.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_ordered_render_frontend.sv"
+      ],
+      "log_sha256": "47916549F006599E8E3489147C68227776E7FA1C45E1DC54FA52488B9CCD696B"
+    },
+    {
+      "index": 88,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_ordered_render_frontend.vvp"
+      ],
+      "log_sha256": "9752532D17F62973BCBC5A05EE640EB099A398CC24702E02AD69D1D5DE076028"
+    },
+    {
+      "index": 89,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_attribute_store",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_attribute_store.vvp",
+        "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_store.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_attribute_store.sv"
+      ],
+      "log_sha256": "4B887A19F40E87D922F882E64D81A72487B41C717FC593866BC7B76E0902864A"
+    },
+    {
+      "index": 90,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_attribute_store.vvp"
+      ],
+      "log_sha256": "03A49532454DFD9F6B97F26E6477118460E83DF984389E57767CBCCC95FF64BF"
+    },
+    {
+      "index": 91,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_ordered_gaussian_attribute_issue",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_gaussian_attribute_issue.vvp",
+        "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_store.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_sram_backend.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_attribute_issue.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_ordered_gaussian_attribute_issue.sv"
+      ],
+      "log_sha256": "89694D79753EDB28725604DCDBA65B35F7C20A164616027238417753C2E34506"
+    },
+    {
+      "index": 92,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_gaussian_attribute_issue.vvp"
+      ],
+      "log_sha256": "EC72A8CB1C90B94D562AD624C80D78C8C48C4EF022070EB3359E5965D17ECC1D"
+    },
+    {
+      "index": 93,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_gaussian_sorted_render_pipeline",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_sorted_render_pipeline.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_store.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_sram_backend.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_attribute_issue.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_fork.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_sh_join.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_gaussian_block_decoder.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_array.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_block_pixel_expander.sv",
+        "/mnt/d/3DGS/rtl/raster/ordered_block_raster_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_ordered_render_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_sorted_render_pipeline.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_sorted_render_pipeline.sv"
+      ],
+      "log_sha256": "D22654B79ACEF28D18BD38DF875E88D4B01CFA1928ECD3AACA2289598BB1FCCE"
+    },
+    {
+      "index": 94,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_sorted_render_pipeline.vvp"
+      ],
+      "log_sha256": "5A60419282F20179326679251E60B0F3131A8EF1FFCF45DB3CD1E9C305CC3C33"
+    },
+    {
+      "index": 95,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_ordered_sh_lane_scheduler",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_sh_lane_scheduler.vvp",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_ordered_sh_lane_scheduler.sv"
+      ],
+      "log_sha256": "0BD96D9BF913D607E77D33D5FE3E59BC09A5F1409D2B11990F8A044DB1FF00DD"
+    },
+    {
+      "index": 96,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_sh_lane_scheduler.vvp"
+      ],
+      "log_sha256": "ADC031174237AEF87E80330CE6D8E45DA82B2680109934F037A993705BBC78D0"
+    },
+    {
+      "index": 97,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_gaussian_sh_color_array",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_sh_color_array.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_array.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_sh_color_array.sv"
+      ],
+      "log_sha256": "B68D77F2F0C88D3838323AA02D4916F36D08682CD194F673CC4E28C50331D3A0"
+    },
+    {
+      "index": 98,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_sh_color_array.vvp"
+      ],
+      "log_sha256": "8BC95A5D2B98ADD466E5FBA04FD4798833017FEF43B6AB9CAB20A68E938CB683"
+    },
+    {
+      "index": 99,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_raster_alpha_lane_array",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_alpha_lane_array.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_raster_alpha_lane_array.sv"
+      ],
+      "log_sha256": "6510945ADAE20FCC1D22BFB77A06FC747997F079AB1E786778F72FEF18A16894"
+    },
+    {
+      "index": 100,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_alpha_lane_array.vvp"
+      ],
+      "log_sha256": "7AB76BC625F2CC77D90295DF650742B24BD4BDF8AE7E96967C08EF233D7094B0"
+    },
+    {
+      "index": 101,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_raster_ordered_same_pixel",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_ordered_same_pixel.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_raster_ordered_same_pixel.sv"
+      ],
+      "log_sha256": "24F725AD694D99421995C41C98775C9A45C1808202E0BD11F02C290F0B01AEA6"
+    },
+    {
+      "index": 102,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_raster_ordered_same_pixel.vvp"
+      ],
+      "log_sha256": "FB4DEC0F9FC5E64335C79E6F93CE4D7419251C9580378D23DB336792DCE10019"
+    },
+    {
+      "index": 103,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_gaussian_frame_render_pipeline",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_frame_render_pipeline.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_mode_advisor.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+        "/mnt/d/3DGS/rtl/sort/depth_group_buffer.sv",
+        "/mnt/d/3DGS/rtl/sort/group_sort_service_gate.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_attribute_issue.sv",
+        "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_store.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_sram_backend.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_fork.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_sh_join.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_gaussian_block_decoder.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_array.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_block_pixel_expander.sv",
+        "/mnt/d/3DGS/rtl/raster/ordered_block_raster_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_ordered_render_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_sorted_render_pipeline.sv",
+        "/mnt/d/3DGS/rtl/sort/autonomous_qsu.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_qsu_scratch_dma.sv",
+        "/mnt/d/3DGS/rtl/gaussian_frame_render_pipeline.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_shared_mac.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_frame_render_pipeline.sv"
+      ],
+      "log_sha256": "70D11BC00DDB5ECFDEB8A7D6E0A6CEA25B4889A292C1CFC48A136E5F5D332EDD"
+    },
+    {
+      "index": 104,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_frame_render_pipeline.vvp"
+      ],
+      "log_sha256": "4D3F84FAB19A4D25D6E73E4AA0E5856BB8AF622991B03B7BAC9EE064B18B0A1E"
+    },
+    {
+      "index": 105,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_gaussian_frame_error_control",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_frame_error_control.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+        "/mnt/d/3DGS/rtl/sort/depth_group_buffer.sv",
+        "/mnt/d/3DGS/rtl/sort/group_sort_service_gate.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_attribute_issue.sv",
+        "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_store.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_sram_backend.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_fork.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_sh_join.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_gaussian_block_decoder.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_array.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_block_pixel_expander.sv",
+        "/mnt/d/3DGS/rtl/raster/ordered_block_raster_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_ordered_render_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_sorted_render_pipeline.sv",
+        "/mnt/d/3DGS/rtl/sort/autonomous_qsu.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_qsu_scratch_dma.sv",
+        "/mnt/d/3DGS/rtl/gaussian_frame_render_pipeline.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_shared_mac.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gaussian_frame_error_control.sv"
+      ],
+      "log_sha256": "1B5740119E10B932DDC6DC4D94197F823440BFA28ECB8784AF60D50088ADEDD1"
+    },
+    {
+      "index": 106,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_frame_error_control.vvp"
+      ],
+      "log_sha256": "AAD44FB573AE9D235CC5994162F107DE86D8BA777FDFFE54C79E3BDEC4E75887"
+    },
+    {
+      "index": 107,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "/mnt/d/3DGS/rtl/raster",
+        "-s",
+        "tb_gs_accel_system_top",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gs_accel_system_top.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/common/rv_fifo.sv",
+        "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+        "/mnt/d/3DGS/rtl/control/apb_regfile.sv",
+        "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+        "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+        "/mnt/d/3DGS/rtl/control/gaussian_mode_advisor.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_core.sv",
+        "/mnt/d/3DGS/rtl/sort/gaussian_depth_prepass_shared_mac.sv",
+        "/mnt/d/3DGS/rtl/sort/depth_group_buffer.sv",
+        "/mnt/d/3DGS/rtl/sort/group_sort_service_gate.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+        "/mnt/d/3DGS/rtl/sort/stable_group_sorter_shared_compare.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+        "/mnt/d/3DGS/rtl/sort/ordered_gaussian_attribute_issue.sv",
+        "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_store.sv",
+        "/mnt/d/3DGS/rtl/memory/gaussian_attribute_sram_backend.sv",
+        "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+        "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+        "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+        "/mnt/d/3DGS/rtl/projection/screen_covariance_core.sv",
+        "/mnt/d/3DGS/rtl/projection/opacity_radius_bound.sv",
+        "/mnt/d/3DGS/rtl/projection/bbox_tile_bounds_core.sv",
+        "/mnt/d/3DGS/rtl/projection/covariance2d_cholesky_encoder.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_tile_task_gen.sv",
+        "/mnt/d/3DGS/rtl/projection/camera_projection_tile_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_lane.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+        "/mnt/d/3DGS/rtl/projection/raw_gaussian_projection_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_fork.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_projection_sh_join.sv",
+        "/mnt/d/3DGS/rtl/projection/ordered_gaussian_block_decoder.sv",
+        "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+        "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+        "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+        "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_array.sv",
+        "/mnt/d/3DGS/rtl/projection/gaussian_projection_sh_array.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+        "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+        "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+        "/mnt/d/3DGS/rtl/raster/alpha_block_float_core.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_alpha_lane_array.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_store.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit.sv",
+        "/mnt/d/3DGS/rtl/raster/raster_pair_shell.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_shape_block_reject.sv",
+        "/mnt/d/3DGS/rtl/raster/gaussian_block_pixel_expander.sv",
+        "/mnt/d/3DGS/rtl/raster/ordered_block_raster_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_ordered_render_frontend.sv",
+        "/mnt/d/3DGS/rtl/gaussian_sorted_render_pipeline.sv",
+        "/mnt/d/3DGS/rtl/sort/autonomous_qsu.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_qsu_scratch_dma.sv",
+        "/mnt/d/3DGS/rtl/gaussian_frame_render_pipeline.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_camera_config_read_dma.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_gaussian_mean_read_dma.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_cache_backend.sv",
+        "/mnt/d/3DGS/rtl/raster/image_state_cache_backend_single.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_read_engine.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_dual_read_engine.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_engine.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_buffer.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_writeback_buffer.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_multiwrite_buffer.sv",
+        "/mnt/d/3DGS/rtl/gs_accel_system_top.sv",
+        "/mnt/d/3DGS/rtl/projection/world_to_camera_shared_mac.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_gs_accel_system_top.sv"
+      ],
+      "log_sha256": "2891BA9A5A9D129EA2F82821389838D1D4EE5A360E0C5AC6D25499D92FE6EDC0"
+    },
+    {
+      "index": 108,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gs_accel_system_top.vvp"
+      ],
+      "log_sha256": "5E441CC0D5C9BA07CC2BC913653E0DA91FE78579023B807EEB3EBD07997B8C9B"
+    },
+    {
+      "index": 109,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_gaussian_mean_read_dma",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_gaussian_mean_read_dma.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_gaussian_mean_read_dma.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_gaussian_mean_read_dma.sv"
+      ],
+      "log_sha256": "8154EC783549601DBB9F8CB996925188A821B8547DDC9AF03C2E3B81CDCB2128"
+    },
+    {
+      "index": 110,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_gaussian_mean_read_dma.vvp"
+      ],
+      "log_sha256": "857F9BA050E52C6A14F94573D6E78895F4366875A04BFB5804006653C53D0CF6"
+    },
+    {
+      "index": 111,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_camera_config_read_dma",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_camera_config_read_dma.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_camera_config_read_dma.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_camera_config_read_dma.sv"
+      ],
+      "log_sha256": "A1BE1FC79D8306E5DC26CBC7C4E15BB2477169F5A6F81A3D817742A00874714E"
+    },
+    {
+      "index": 112,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_camera_config_read_dma.vvp"
+      ],
+      "log_sha256": "C6816BCCFE9B357829EB4A4B20EF4A018B6DD843959B08D97DC1EC26C4184800"
+    },
+    {
+      "index": 113,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-s",
+        "tb_gs_accel_system_camera_dma",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gs_accel_system_camera_dma.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_gs_accel_system_camera_dma.sv"
+      ],
+      "log_sha256": "59880259A00CBF791670A092D2FF35E2112368748FC9984792047BB7CBA72451"
+    },
+    {
+      "index": 114,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gs_accel_system_camera_dma.vvp"
+      ],
+      "log_sha256": "F50C43CF714AA70055CD11D4CA1199D58D1D0D467D9AFC57153CA7EC34F4EEA5"
+    },
+    {
+      "index": 115,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-s",
+        "tb_gs_accel_system_axi_mean",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gs_accel_system_axi_mean.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_gs_accel_system_axi_mean.sv"
+      ],
+      "log_sha256": "E2961D036C367AC4AB9D50AE456E5CDB63633CABA0D6B30BE58D52A06D8C5E21"
+    },
+    {
+      "index": 116,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gs_accel_system_axi_mean.vvp"
+      ],
+      "log_sha256": "0797E8D52C0695FC4F1C8B14C4D4A457996DC4FA12652C9624757D68B52A2DCC"
+    },
+    {
+      "index": 117,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_gaussian_attribute_read_engine",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_gaussian_attribute_read_engine.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_gaussian_attribute_read_engine.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_gaussian_attribute_read_engine.sv"
+      ],
+      "log_sha256": "446F7B1F2FBA19940EC98B12B631EA9AC091E8C1605BB0615368E969C6D97D9F"
+    },
+    {
+      "index": 118,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_gaussian_attribute_read_engine.vvp"
+      ],
+      "log_sha256": "0839467B9876D04C16A6292051446D4EFDBB1B1FEC86774035957CA8260FFEFA"
+    },
+    {
+      "index": 119,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_write_engine",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_write_engine.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_engine.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_write_engine.sv"
+      ],
+      "log_sha256": "830D2A60D904ECAAACC7678869817F6EFDEC36BD3DD3F5132B36051347B3D1D2"
+    },
+    {
+      "index": 120,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_write_engine.vvp"
+      ],
+      "log_sha256": "57D64C5B1D19DFFD2F69E549DFA219624C93322386D8606A75CFC4398CF61BA5"
+    },
+    {
+      "index": 121,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_read_engine",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_read_engine.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_read_engine.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_read_engine.sv"
+      ],
+      "log_sha256": "CB35A8D63E1CBC0CAB1FA3764A39B8C32F86CD68A34BCD7E5A551166878D8797"
+    },
+    {
+      "index": 122,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_read_engine.vvp"
+      ],
+      "log_sha256": "05F2FA54C47366133DC0EBDC502F0F072A63336AC1D30BFB240937CF4D8A3F1F"
+    },
+    {
+      "index": 123,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_dual_read_engine",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_dual_read_engine.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_dual_read_engine.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_dual_read_engine.sv"
+      ],
+      "log_sha256": "7AB0149F6F50AA1FD65ED001657EEFE186A037E3F2AB324F7E2BF2323002AB16"
+    },
+    {
+      "index": 124,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_dual_read_engine.vvp"
+      ],
+      "log_sha256": "93DE6F5C51A21C8E36879090F7D19FB96582D31D067D13CDAB5B62746E261411"
+    },
+    {
+      "index": 125,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_dual_read_random",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_dual_read_random.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_dual_read_engine.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_dual_read_random.sv"
+      ],
+      "log_sha256": "3478C23E3A0B9787EA8737EADD5391E116FFD3A539228209FF25DDCD75A72A7D"
+    },
+    {
+      "index": 126,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_dual_read_random.vvp"
+      ],
+      "log_sha256": "A63020672AAFCAD1B43E43D9B8186BAA799B75D9F45A95CF8ED80615671ACAF5"
+    },
+    {
+      "index": 127,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_image_state_cache_backend",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_image_state_cache_backend.vvp",
+        "/mnt/d/3DGS/rtl/raster/image_state_cache_backend.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_image_state_cache_backend.sv"
+      ],
+      "log_sha256": "1FE8AC10A7D24043408E62E7CDD0A09F60C08E9168322C88F6D8D584B69B99ED"
+    },
+    {
+      "index": 128,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_image_state_cache_backend.vvp"
+      ],
+      "log_sha256": "4939371412D0A224E22D34BD953ACBEA75E8ED9BAE62B1513FF79E901D6E64AC"
+    },
+    {
+      "index": 129,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_blend_state_commit_4",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_blend_state_commit_4.vvp",
+        "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+        "/mnt/d/3DGS/rtl/raster/blend_state_commit_4.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_blend_state_commit_4.sv"
+      ],
+      "log_sha256": "9FDEBE0BC03EF0CBB75C81E5BAF7DED99D19BD5815B09C225B47D5937A12CBC5"
+    },
+    {
+      "index": 130,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_blend_state_commit_4.vvp"
+      ],
+      "log_sha256": "66E58158237EFA7AF600EE2EB407240AE68B55DC6AE5B2276378AF95806BE95E"
+    },
+    {
+      "index": 131,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_image_state_cache_backend_4",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_image_state_cache_backend_4.vvp",
+        "/mnt/d/3DGS/rtl/raster/image_state_cache_backend_4.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_image_state_cache_backend_4.sv"
+      ],
+      "log_sha256": "79F93B36DB4AE49F3D3B1341925531BA7548E599E74274B0F00E9BD53968BFE7"
+    },
+    {
+      "index": 132,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_image_state_cache_backend_4.vvp"
+      ],
+      "log_sha256": "C2A32E732F7AF2DC5CA29D5A37E64E3303B17C394ACA5323196DD30CFA1B065A"
+    },
+    {
+      "index": 133,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_quad_read_random",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_quad_read_random.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_quad_read_engine.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_quad_read_random.sv"
+      ],
+      "log_sha256": "BDCCFEFC7F25B2E92658C9F5F50BA398197F112760FEA3E34C8C6EA344ECDBD1"
+    },
+    {
+      "index": 134,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_quad_read_random.vvp"
+      ],
+      "log_sha256": "143FF1D8737B75CFB2358FB27568A8DF9B4A3DCD9D3029CF30AEBD914A100F2F"
+    },
+    {
+      "index": 135,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_write_buffer",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_write_buffer.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_engine.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_buffer.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_write_buffer.sv"
+      ],
+      "log_sha256": "9D012BA50CBFCD82848AB44A9D00EB559DF03CC60324DA48D26B2663219B3851"
+    },
+    {
+      "index": 136,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_write_buffer.vvp"
+      ],
+      "log_sha256": "16BB9DA8D6A77A4F18B68166383EC4655F61513BFDC8264BEDB39D4C3FCAD302"
+    },
+    {
+      "index": 137,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_writeback_buffer",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_writeback_buffer.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_engine.sv",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_writeback_buffer.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_writeback_buffer.sv"
+      ],
+      "log_sha256": "8E0A5FA9C4E38E3F448B63E63F40032A592825ED44FC884FF59CB0994D2E0A26"
+    },
+    {
+      "index": 138,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_writeback_buffer.vvp"
+      ],
+      "log_sha256": "90BE443F36B85BB8CD5FD6DD0ACFFFA1903FB1B221B723B62DF139D2C8A58258"
+    },
+    {
+      "index": 139,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_multiwrite_buffer",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_multiwrite_buffer.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_multiwrite_buffer.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_multiwrite_buffer.sv"
+      ],
+      "log_sha256": "A2DB2C5B918E30FB821EB8BA6E50B78FDF567DB16091F6E6B6E96B5B0151D26D"
+    },
+    {
+      "index": 140,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_multiwrite_buffer.vvp"
+      ],
+      "log_sha256": "A3EAE08327999E697886F53A7B844B939AD7520739B3DAD5A2685747F3734960"
+    },
+    {
+      "index": 141,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-s",
+        "tb_axi4_pixel_state_multiwrite_random",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_multiwrite_random.vvp",
+        "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_multiwrite_buffer.sv",
+        "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_multiwrite_random.sv"
+      ],
+      "log_sha256": "EA95B95BBF1A624DF80888A96310E7337E97358A2DDC47010EBB28C9F0572C17"
+    },
+    {
+      "index": 142,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_pixel_state_multiwrite_random.vvp"
+      ],
+      "log_sha256": "D5F2325673C3993E5FE3263B509BF4D60E4FD150E987DA2EB8D10B18EF5DE44A"
+    },
+    {
+      "index": 143,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-s",
+        "tb_real_dma_workload",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_real_dma_workload.sv"
+      ],
+      "log_sha256": "81FDE5AC0F6206DD032112F4EC2AF81EF6CF15DCB96A1A3F4CDB74252691C77C"
+    },
+    {
+      "index": 144,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload.vvp"
+      ],
+      "log_sha256": "74F5D51AD99B2180E4153216A9182908EA47294D8C9150DDA2241BAE560EA9AA"
+    },
+    {
+      "index": 145,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-D",
+        "TB_USE_SHARED_PE=0",
+        "-s",
+        "tb_real_dma_workload",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload_bypass.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_real_dma_workload.sv"
+      ],
+      "log_sha256": "91B2D6047FA593A377165414F1F0E5C9E9496073811EABB193208C155396C108"
+    },
+    {
+      "index": 146,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload_bypass.vvp"
+      ],
+      "log_sha256": "CBAE302E2258D2577BA92C6A07398170C4C6C9F0862C19F4F89EF489F68521FB"
+    },
+    {
+      "index": 147,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-D",
+        "TB_USE_SHARED_PROJECTION_PE=0",
+        "-s",
+        "tb_real_dma_workload",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload_prepass_only.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_real_dma_workload.sv"
+      ],
+      "log_sha256": "475981B7220C0C589FB7EF42725E1ACF82638CDE3364832628017B88160A0C96"
+    },
+    {
+      "index": 148,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload_prepass_only.vvp"
+      ],
+      "log_sha256": "C53EF4735339995BCBD4076B0464F99DD037ABF1BA8EED27ED19B415F4E7BF83"
+    },
+    {
+      "index": 149,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-D",
+        "TB_USE_PARALLEL_GROUP_SORT=1",
+        "-s",
+        "tb_real_dma_workload",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload_parallel_sort.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_real_dma_workload.sv"
+      ],
+      "log_sha256": "2000B34754D8F3F92F3656FE58DCB3281A7F6C1118E44FE630AA1F7A9B004144"
+    },
+    {
+      "index": 150,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_real_dma_workload_parallel_sort.vvp"
+      ],
+      "log_sha256": "BB5BFCCC57CB2955CE19573B8A5F679B0C76D7B25AB47AA81A1F57D95B574957"
+    },
+    {
+      "index": 151,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-D",
+        "TB_FRAME_PARALLEL_SORT=1",
+        "-s",
+        "tb_gaussian_frame_render_pipeline",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_frame_parallel_sort.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_gaussian_frame_render_pipeline.sv"
+      ],
+      "log_sha256": "64C158D7A1E8E2E8C69CEA4BB51F23812CB317820A77109297025DEACFB2C1A5"
+    },
+    {
+      "index": 152,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_frame_parallel_sort.vvp"
+      ],
+      "log_sha256": "9E5C720DC0D7B8D820E87418E924ECF409D4FA68131A7CA8BE398EA9297B4384"
+    },
+    {
+      "index": 153,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-D",
+        "TB_SYSTEM_PARALLEL_SORT=1",
+        "-s",
+        "tb_gs_accel_system_top",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_system_sort_snapshot.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_gs_accel_system_top.sv"
+      ],
+      "log_sha256": "9CBAD98B8C122FE2DB7F4FC9A1C45597BC5A2682EB002C3C92DAC62BF1AF0EFD"
+    },
+    {
+      "index": 154,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_system_sort_snapshot.vvp"
+      ],
+      "log_sha256": "6A3072CE49EF13640246783449C3A46CB6606004817EA3FF44C4B56BF1BCFCD4"
+    },
+    {
+      "index": 155,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-Wall",
+        "-I",
+        "rtl/raster",
+        "-D",
+        "TB_SYSTEM_PARALLEL_SORT=1",
+        "-D",
+        "TB_SYSTEM_LANES=4",
+        "-D",
+        "TB_SYSTEM_FASTPATH_TEST=1",
+        "-s",
+        "tb_gs_accel_system_top",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_system_sort_fastpath_frames.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_gs_accel_system_top.sv"
+      ],
+      "log_sha256": "743B6444EA97F21B10323BC3E4C152C67423501128B99B7D0AF0CBE28D212C55"
+    },
+    {
+      "index": 156,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_system_sort_fastpath_frames.vvp"
+      ],
+      "log_sha256": "9CECF88CD4991D60976D0896DFB251866C62D0A5BFB33D492C53D84FD11FFB9B"
+    },
+    {
+      "index": 157,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-D",
+        "TB_XYZ_STREAMING=1",
+        "-s",
+        "tb_world_to_camera_shared_mac",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_xyz_turnover_stream.vvp",
+        "rtl/common/rv_reg_slice.sv",
+        "rtl/projection/world_to_camera_core.sv",
+        "rtl/projection/world_to_camera_shared_mac.sv",
+        "rtl/control/shared_reconfigurable_pe_slice.sv",
+        "verification/rtl/tb_world_to_camera_shared_mac.sv"
+      ],
+      "log_sha256": "F1C1B52BBF76594935D1612A885063BB7DBE8ADA8DC7BC036A51C2477AFE5AC7"
+    },
+    {
+      "index": 158,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_xyz_turnover_stream.vvp"
+      ],
+      "log_sha256": "7AA91DA006D6297E7B426BAC5A563FDD0F0782D7FE1FD5943698D4BA052BEB0D"
+    },
+    {
+      "index": 159,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-s",
+        "tb_attribute_issue_turnover",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_attribute_issue_turnover.vvp",
+        "rtl/sort/ordered_gaussian_attribute_issue.sv",
+        "verification/rtl/tb_attribute_issue_turnover.sv"
+      ],
+      "log_sha256": "8F8312D61B76B0B27D76AD28FD170C719DF2C04B3625EFD27C8A56330F13376B"
+    },
+    {
+      "index": 160,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_attribute_issue_turnover.vvp"
+      ],
+      "log_sha256": "CC1EFB7303C275BC1381C569161A2D931D37764131EFCD85F009EC19A0046EA8"
+    },
+    {
+      "index": 161,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-s",
+        "tb_blend_fixed_shared_pe_core",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_blend_fixed_shared_pe_core.vvp",
+        "rtl/common/rv_reg_slice.sv",
+        "rtl/raster/blend_fixed_core.sv",
+        "verification/rtl/tb_blend_fixed_shared_pe_core.sv"
+      ],
+      "log_sha256": "846CDDBC87CC381F11948385077D27DE3A4CC826D822654D2D9427943C8E9671"
+    },
+    {
+      "index": 162,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_blend_fixed_shared_pe_core.vvp"
+      ],
+      "log_sha256": "6F43E45E9F541F19DB3C2CD1E0A6431253CBAB3F83091FA3FF983B4BF2256AF1"
+    },
+    {
+      "index": 163,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-DTB_ALPHA_ZERO_SKIP=1",
+        "-I",
+        "rtl/raster",
+        "-s",
+        "tb_raster_ordered_same_pixel",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_alpha_zero_skip_same_pixel.vvp",
+        "-f",
+        "verification/rtl/system_top_sources.f",
+        "verification/rtl/tb_raster_ordered_same_pixel.sv"
+      ],
+      "log_sha256": "06B111202AEE8B9D9414EAC0825FEC05F3424BE7FC8B9CABF926DE348AAFD089"
+    },
+    {
+      "index": 164,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_alpha_zero_skip_same_pixel.vvp"
+      ],
+      "log_sha256": "D36CFB24A93EB273511EDC8E4A484022EF80ECD3E1FED58EBC5C1B5815CA88AE"
+    },
+    {
+      "index": 165,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/iverilog",
+        "-g2012",
+        "-DSYNTHESIS",
+        "-s",
+        "tb_axi4_final_rgb_frame_dma",
+        "-o",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_final_rgb_frame_dma.vvp",
+        "rtl/dma/axi4_final_rgb_frame_dma.sv",
+        "verification/rtl/tb_axi4_final_rgb_frame_dma.sv"
+      ],
+      "log_sha256": "FD32FABDDC36873FC6790F458C3421CDF63D3FEABBD2D10BB78F77851FD9E2C0"
+    },
+    {
+      "index": 166,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/vvp",
+        "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_axi4_final_rgb_frame_dma.vvp"
+      ],
+      "log_sha256": "59CE20E57C3A85EAA46DAE03848306BFAD45B7CEF994A8C82730832DFEB4479F"
+    }
+  ]
+}

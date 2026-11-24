@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_ONLY",
+  "scenes": [
+    "train",
+    "truck"
+  ],
+  "signed_off": false
+}

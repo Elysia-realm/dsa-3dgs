@@ -1,0 +1,15 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_ordered_gaussian_attribute_issue",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_ordered_gaussian_attribute_issue.vvp",
+  "/mnt/d/3DGS/rtl/memory/sram_1r1w_wrapper.sv",
+  "/mnt/d/3DGS/rtl/memory/gaussian_attribute_store.sv",
+  "/mnt/d/3DGS/rtl/memory/gaussian_attribute_sram_backend.sv",
+  "/mnt/d/3DGS/rtl/sort/ordered_gaussian_attribute_issue.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_ordered_gaussian_attribute_issue.sv"
+]

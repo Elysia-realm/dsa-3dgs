@@ -1,0 +1,111 @@
+{
+  "files": [
+    {
+      "sha256": "9CCB55EBD27DE4B7D4605D34607A57ACF5B2E2995CB68AC2430A60A26EB42798",
+      "path": "status.json",
+      "bytes": 84
+    },
+    {
+      "sha256": "EA4CEDC18AC66429FC572BE83F923CFAD2D854F652B51B4C490776C42F3CE141",
+      "path": "native\\train\\f2\\launch.json",
+      "bytes": 1628
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "path": "native\\train\\f2\\model.stats",
+      "bytes": 0
+    },
+    {
+      "sha256": "D28FFD751A7CCD04E8F1DE7B23952A0D5F2C6E774013EF0E87F2F3D994AFFDDE",
+      "path": "native\\train\\f2\\run.command.json",
+      "bytes": 1134
+    },
+    {
+      "sha256": "F986E4923E7DC84451634F9714D282017DCE9324DE2F48BB003671BA63C13ED4",
+      "path": "native\\train\\f2\\run.log",
+      "bytes": 1035
+    },
+    {
+      "sha256": "5965E05448BCA47C454410B2A356917404895D5ABD4F2B884AAC9A6286742050",
+      "path": "native\\train\\f2\\sorted.txt",
+      "bytes": 3756032
+    },
+    {
+      "sha256": "7F95A4469E2C38909430E4A2370CB285A6482DE3F520838211A40DA0E823A9D3",
+      "path": "native\\train\\f3\\launch.json",
+      "bytes": 1614
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "path": "native\\train\\f3\\model.stats",
+      "bytes": 0
+    },
+    {
+      "sha256": "9A4DC54A371179F7E4A844DEC822A51E21D94DD8B3E723834F45073807D46528",
+      "path": "native\\train\\f3\\run.command.json",
+      "bytes": 1120
+    },
+    {
+      "sha256": "99E13B3170B5AEF8E86AF89A32AEB7C844C2980AE105944DAD35161212B60A7D",
+      "path": "native\\train\\f3\\run.log",
+      "bytes": 1035
+    },
+    {
+      "sha256": "59D00CFB2EB3EEF8099CEF80F3353B15757C092F6D211F66574D3C0D971290D7",
+      "path": "native\\train\\f3\\sorted.txt",
+      "bytes": 3727360
+    },
+    {
+      "sha256": "06E2214712C80AD233560170756CB451257B4138BD405B994E1B1F5DA51AE845",
+      "path": "native\\truck\\f2\\launch.json",
+      "bytes": 1628
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "path": "native\\truck\\f2\\model.stats",
+      "bytes": 0
+    },
+    {
+      "sha256": "8BF4D9638D47621E949BF156B84C0E4514167CFBD7AC6A29CAA82D557030EB54",
+      "path": "native\\truck\\f2\\run.command.json",
+      "bytes": 1134
+    },
+    {
+      "sha256": "A735F1309356563F5DC527B5021D4A954D23D05E2FE074102BCF579C69842DBC",
+      "path": "native\\truck\\f2\\run.log",
+      "bytes": 1040
+    },
+    {
+      "sha256": "2540F028F6C71F4D9933FA18719A7F8163486340E75C020DB72704C7FDB74FEB",
+      "path": "native\\truck\\f2\\sorted.txt",
+      "bytes": 4005888
+    },
+    {
+      "sha256": "FA9541714FDF17AFC65455FA24CA86771EE3A849BA65D26B9FB6F8BB389D9E26",
+      "path": "native\\truck\\f3\\launch.json",
+      "bytes": 1614
+    },
+    {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "path": "native\\truck\\f3\\model.stats",
+      "bytes": 0
+    },
+    {
+      "sha256": "A2B3B09B9AA1252B989A138DB1D93DE66004D859AE4567B191AF1AA6D9C2DBD5",
+      "path": "native\\truck\\f3\\run.command.json",
+      "bytes": 1120
+    },
+    {
+      "sha256": "BBD1949128B7C6D303EDC717BA45EF3DD1758C22A1B59A756F56DD24CA578A14",
+      "path": "native\\truck\\f3\\run.log",
+      "bytes": 1040
+    },
+    {
+      "sha256": "05D464DB4FA3DAB37EE4D02EE885F09111255C722B420773348ECFAD30C1FAA1",
+      "path": "native\\truck\\f3\\sorted.txt",
+      "bytes": 4001792
+    }
+  ],
+  "detected_utc": "2026-11-23T15:33:42Z",
+  "reason": "All four simulation processes and runner absent; WSL uptime reset. Exact cause unknown. No execution/result records; rerun from start required."
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-Irtl/raster",
+      "-s",
+      "tb_t06_precount_recovery",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "-f",
+      "verification/rtl/system_top_sources.f",
+      "verification/rtl/tb_t06_precount_recovery.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.1578506829996513,
+    "child_cpu_seconds": 0.3763860000000001,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.7886724800000593,
+    "child_cpu_seconds": 2.7513030000000036,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.7116615400000228,
+    "child_cpu_seconds": 1.6550419999999981,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=2"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.83817449199978,
+    "child_cpu_seconds": 1.7788350000000008,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=3"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.0304082870002276,
+    "child_cpu_seconds": 1.9092209999999987,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=4"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.656653125000048,
+    "child_cpu_seconds": 1.6036680000000025,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=5"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.7410216809998929,
+    "child_cpu_seconds": 1.6499139999999954,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=6"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.6978436620001958,
+    "child_cpu_seconds": 1.6179249999999996,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=7"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.9855334139997467,
+    "child_cpu_seconds": 1.9091080000000034,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=8"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.9577102640000703,
+    "child_cpu_seconds": 1.8816679999999977,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/recovery/recovery.vvp",
+      "+FAULT=9"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.3703288820001944,
+    "child_cpu_seconds": 2.3199729999999974,
+    "binary_sha256": "C1BC2161890185BB110670CD10B7F0DE02C08F6BBA7D0BC7DE2AE4FD9FE1084D",
+    "vector_sha256": {}
+  }
+]

@@ -1,0 +1,7 @@
+[
+  "/usr/bin/vvp",
+  "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp",
+  "+N=159",
+  "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/sample/0/input.memh",
+  "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/sample/0/expected.memh"
+]

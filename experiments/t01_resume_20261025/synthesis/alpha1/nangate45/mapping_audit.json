@@ -1,0 +1,628 @@
+{
+  "status": "PASS_LIBRARY_COVERAGE",
+  "pdk": "nangate45",
+  "alpha": 1,
+  "standard_cell_area_um2": 23851100.406000003,
+  "standard_cell_area_mm2": 23.851100406000004,
+  "library_cell_instances": 14850611,
+  "leaf_cells": {
+    "AND2_X1": 108858,
+    "AND3_X1": 81321,
+    "AND4_X1": 17452,
+    "AOI211_X1": 84441,
+    "AOI21_X1": 1096641,
+    "AOI22_X1": 372488,
+    "BUF_X1": 733767,
+    "CLKBUF_X1": 215033,
+    "DFFR_X1": 1081202,
+    "INV_X1": 1187519,
+    "MUX2_X1": 990644,
+    "NAND2_X1": 2391186,
+    "NAND3_X1": 602592,
+    "NAND4_X1": 247665,
+    "NOR2_X1": 1410546,
+    "NOR3_X1": 108432,
+    "NOR4_X1": 28602,
+    "OAI211_X1": 96339,
+    "OAI21_X1": 1016917,
+    "OAI221_X1": 94377,
+    "OAI22_X1": 537644,
+    "OR2_X1": 121485,
+    "OR3_X1": 17031,
+    "OR4_X1": 1358,
+    "XNOR2_X1": 512580,
+    "XOR2_X1": 611616,
+    "AOI221_X1": 50,
+    "DFF_X1": 988120,
+    "DFFS_X1": 851,
+    "AND2_X2": 1506,
+    "AND2_X4": 505,
+    "AND3_X2": 3453,
+    "AND3_X4": 213,
+    "AND4_X2": 240,
+    "AND4_X4": 87,
+    "AOI211_X2": 152,
+    "AOI211_X4": 65,
+    "AOI21_X2": 5771,
+    "AOI21_X4": 759,
+    "AOI22_X2": 318,
+    "AOI22_X4": 69,
+    "BUF_X16": 746,
+    "BUF_X2": 4970,
+    "BUF_X4": 8552,
+    "BUF_X8": 1633,
+    "CLKBUF_X3": 437,
+    "INV_X16": 37,
+    "INV_X2": 4345,
+    "INV_X4": 1201,
+    "INV_X8": 396,
+    "NAND2_X2": 10768,
+    "NAND2_X4": 4202,
+    "NAND3_X2": 6567,
+    "NAND3_X4": 599,
+    "NAND4_X2": 2848,
+    "NAND4_X4": 1186,
+    "NOR2_X2": 5778,
+    "NOR2_X4": 1940,
+    "NOR3_X2": 2207,
+    "NOR3_X4": 548,
+    "NOR4_X2": 663,
+    "NOR4_X4": 549,
+    "OAI211_X2": 934,
+    "OAI211_X4": 171,
+    "OAI21_X2": 8477,
+    "OAI21_X4": 928,
+    "OAI221_X4": 10,
+    "OAI22_X2": 569,
+    "OR2_X2": 2204,
+    "OR2_X4": 566,
+    "OR3_X2": 636,
+    "OR3_X4": 231,
+    "OR4_X2": 19,
+    "OR4_X4": 1,
+    "XNOR2_X2": 3734,
+    "AOI221_X2": 28,
+    "BUF_X32": 224,
+    "CLKBUF_X2": 68,
+    "INV_X32": 12,
+    "OAI221_X2": 12,
+    "OAI22_X4": 128,
+    "XOR2_X2": 1592
+  },
+  "module_costs": [
+    {
+      "module": "$paramod$03bd8613acb3df41326f41178e761d514538d9ba\\image_state_cache_backend_4",
+      "instances": 1,
+      "own_area_um2": 4652436.292,
+      "total_own_area_um2": 4652436.292
+    },
+    {
+      "module": "$paramod$1a6a7836f6e03b96289d60b9d8a6d2205a6b26cc\\autonomous_qsu",
+      "instances": 1,
+      "own_area_um2": 3681418.986,
+      "total_own_area_um2": 3681418.986
+    },
+    {
+      "module": "$paramod$3cdd20fd5f030db67336716a1562ca4ce852d34c\\fixed_div_pipe2",
+      "instances": 8,
+      "own_area_um2": 350260.82,
+      "total_own_area_um2": 2802086.56
+    },
+    {
+      "module": "$paramod$da996612ecd63df4106ee70916ee30a3f2c938e2\\covariance_view_rotate_core",
+      "instances": 4,
+      "own_area_um2": 424332.776,
+      "total_own_area_um2": 1697331.104
+    },
+    {
+      "module": "$paramod$d410a8e9f9b3c6e7d92cb535fdc8f14362cc5c83\\fixed_div_pipe2",
+      "instances": 8,
+      "own_area_um2": 201022.58400000003,
+      "total_own_area_um2": 1608180.6720000003
+    },
+    {
+      "module": "$paramod$b5d7497a1956a0fe5a0d12a91b16ec6ab3024d9f\\sh_degree3_color_core",
+      "instances": 4,
+      "own_area_um2": 323342.418,
+      "total_own_area_um2": 1293369.672
+    },
+    {
+      "module": "$paramod\\screen_covariance_core\\META_W=32'00000000000000000000000001011101",
+      "instances": 4,
+      "own_area_um2": 249722.928,
+      "total_own_area_um2": 998891.712
+    },
+    {
+      "module": "$paramod$f5d569a219f8c9bab305f738777f75ef14e3c5ca\\fixed_sqrt_pipe",
+      "instances": 4,
+      "own_area_um2": 246420.27200000003,
+      "total_own_area_um2": 985681.0880000001
+    },
+    {
+      "module": "$paramod$fec54b1d1b31e8bda70dd252e471ec1d0945238b\\quaternion_scale_covariance_core",
+      "instances": 4,
+      "own_area_um2": 195887.72,
+      "total_own_area_um2": 783550.88
+    },
+    {
+      "module": "$paramod$3c59fe6328a89d44fbb74abe390a0eee131b0f4f\\fixed_div_pipe2",
+      "instances": 4,
+      "own_area_um2": 195010.18600000002,
+      "total_own_area_um2": 780040.7440000001
+    },
+    {
+      "module": "$paramod$8d181501ec4e4a108496381e2c479afca29bc7b9\\fixed_div_pipe2",
+      "instances": 4,
+      "own_area_um2": 184267.51,
+      "total_own_area_um2": 737070.04
+    },
+    {
+      "module": "$paramod$ab1961148195089e87059b63133e8929f229696c\\fixed_div_pipe2",
+      "instances": 4,
+      "own_area_um2": 142167.158,
+      "total_own_area_um2": 568668.632
+    },
+    {
+      "module": "$paramod$51ab4c40537de42fc304fe16a5ed7ab8462e800a\\fixed_sqrt_pipe",
+      "instances": 4,
+      "own_area_um2": 109715.956,
+      "total_own_area_um2": 438863.824
+    },
+    {
+      "module": "$paramod$f03ae9b6ede1865342acdf07591cc395b5967d09\\fixed_sqrt_pipe",
+      "instances": 4,
+      "own_area_um2": 106929.07400000001,
+      "total_own_area_um2": 427716.29600000003
+    },
+    {
+      "module": "$paramod$752e9dbfa32e53607a92c237c33272a86059cf35\\block_termination_bank",
+      "instances": 4,
+      "own_area_um2": 102119.79400000001,
+      "total_own_area_um2": 408479.17600000004
+    },
+    {
+      "module": "$paramod$0b426269d795a2bec4f1cc4e2b69193210be9be3\\fixed_div_pipe2",
+      "instances": 4,
+      "own_area_um2": 83924.596,
+      "total_own_area_um2": 335698.384
+    },
+    {
+      "module": "$paramod$190a01adf639c5b93af85a60b5875a401b5dbad2\\pixel_termination_mask",
+      "instances": 1,
+      "own_area_um2": 265217.96,
+      "total_own_area_um2": 265217.96
+    },
+    {
+      "module": "$paramod$62fbec944fccd722747926162c08fedff919e4d8\\bitonic_group_sorter_pipelined_shared",
+      "instances": 1,
+      "own_area_um2": 240789.584,
+      "total_own_area_um2": 240789.584
+    },
+    {
+      "module": "$paramod$64961f6ec21bcbd7d5b2ad0f8bfaefbd41712dbf\\fixed_sqrt_pipe",
+      "instances": 4,
+      "own_area_um2": 53407.48,
+      "total_own_area_um2": 213629.92
+    },
+    {
+      "module": "$paramod$8065f1a8b5df3e4b44f721131c5fd3b872178de5\\covariance2d_cholesky_encoder",
+      "instances": 4,
+      "own_area_um2": 34195.098,
+      "total_own_area_um2": 136780.392
+    },
+    {
+      "module": "$paramod$492b710acc0a4aaf6a7538f879bf7b1fd12de393\\view_direction_normalizer",
+      "instances": 4,
+      "own_area_um2": 19969.152000000002,
+      "total_own_area_um2": 79876.60800000001
+    },
+    {
+      "module": "$paramod\\alpha_block_float_core\\META_W=32'00000000000000000000000011011101",
+      "instances": 4,
+      "own_area_um2": 19776.302,
+      "total_own_area_um2": 79105.208
+    },
+    {
+      "module": "$paramod\\perspective_project_core\\META_W=32'00000000000000000000000001011101",
+      "instances": 4,
+      "own_area_um2": 14061.824,
+      "total_own_area_um2": 56247.296
+    },
+    {
+      "module": "$paramod$1cc651f840455b9df2f1f999c78bd79fbf05b45e\\depth_group_buffer",
+      "instances": 1,
+      "own_area_um2": 53411.47,
+      "total_own_area_um2": 53411.47
+    },
+    {
+      "module": "gs_accel_system_top",
+      "instances": 1,
+      "own_area_um2": 35320.544,
+      "total_own_area_um2": 35320.544
+    },
+    {
+      "module": "$paramod$c8532d3de65536269edcca7f3210c24aac98da28\\axi4_final_rgb_frame_dma",
+      "instances": 1,
+      "own_area_um2": 31486.686,
+      "total_own_area_um2": 31486.686
+    },
+    {
+      "module": "$paramod$cc00ed428867bcabc91588dbd423e401546cfd63\\rv_fifo",
+      "instances": 1,
+      "own_area_um2": 30900.422000000002,
+      "total_own_area_um2": 30900.422000000002
+    },
+    {
+      "module": "$paramod$723ac5d3b83f221bafd48e265dfe9a36ab0df459\\shared_reconfigurable_pe_slice",
+      "instances": 1,
+      "own_area_um2": 28252.658,
+      "total_own_area_um2": 28252.658
+    },
+    {
+      "module": "$paramod$7265c4f27d7ba11cfc755561ab636d821f55d580\\axi4_qsu_scratch_dma",
+      "instances": 1,
+      "own_area_um2": 28087.206000000002,
+      "total_own_area_um2": 28087.206000000002
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000101010100",
+      "instances": 8,
+      "own_area_um2": 3386.1800000000003,
+      "total_own_area_um2": 27089.440000000002
+    },
+    {
+      "module": "$paramod$6118602739f44d1031b283cc973b96ea3c81a5b5\\ordered_gaussian_retire",
+      "instances": 1,
+      "own_area_um2": 26423.11,
+      "total_own_area_um2": 26423.11
+    },
+    {
+      "module": "$paramod$06398b36af9385edfb873cce3a611a44c2ac119e\\blend_state_commit_4",
+      "instances": 1,
+      "own_area_um2": 19452.58,
+      "total_own_area_um2": 19452.58
+    },
+    {
+      "module": "$paramod$f9d43197868cd41a99b7642ee6c3a155500c231b\\rv_fifo",
+      "instances": 1,
+      "own_area_um2": 18418.904000000002,
+      "total_own_area_um2": 18418.904000000002
+    },
+    {
+      "module": "$paramod$b38e6b959347c37caa580b3e56fa3e6dcaa5f5fa\\axi4_pixel_state_multiwrite_buffer",
+      "instances": 1,
+      "own_area_um2": 16442.79,
+      "total_own_area_um2": 16442.79
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000110001001",
+      "instances": 4,
+      "own_area_um2": 3912.86,
+      "total_own_area_um2": 15651.44
+    },
+    {
+      "module": "$paramod$ff40acd9f20ce408bfb4208033cb674f4c2a575c\\blend_fixed_core",
+      "instances": 1,
+      "own_area_um2": 15352.722,
+      "total_own_area_um2": 15352.722
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000101111110",
+      "instances": 4,
+      "own_area_um2": 3801.1400000000003,
+      "total_own_area_um2": 15204.560000000001
+    },
+    {
+      "module": "$paramod$e5a86d6e6e1c3541ed62caf09a1f66c70ed051ec\\gaussian_tile_task_gen",
+      "instances": 4,
+      "own_area_um2": 3799.5440000000003,
+      "total_own_area_um2": 15198.176000000001
+    },
+    {
+      "module": "$paramod$6ba709ced1aa970b5a08244154f9648b04c2e3b2\\ordered_gaussian_attribute_issue",
+      "instances": 1,
+      "own_area_um2": 12237.33,
+      "total_own_area_um2": 12237.33
+    },
+    {
+      "module": "$paramod$5235aac4d5bab5901bf8d3e73729165c219d0edd\\gaussian_depth_prepass_shared_mac",
+      "instances": 1,
+      "own_area_um2": 12201.154,
+      "total_own_area_um2": 12201.154
+    },
+    {
+      "module": "$paramod$f26541e0e1e606f840502e3ee02f562cffa21e9f\\ordered_gaussian_retire",
+      "instances": 1,
+      "own_area_um2": 11845.778,
+      "total_own_area_um2": 11845.778
+    },
+    {
+      "module": "$paramod$1977c15c72977fac04410f1d7d8e4d9f9cf28221\\axi4_gaussian_attribute_read_engine",
+      "instances": 1,
+      "own_area_um2": 11275.74,
+      "total_own_area_um2": 11275.74
+    },
+    {
+      "module": "$paramod$95fdad1c13a51ee742b5052c0d11af8b251f4996\\bbox_tile_bounds_core",
+      "instances": 4,
+      "own_area_um2": 2747.248,
+      "total_own_area_um2": 10988.992
+    },
+    {
+      "module": "$paramod$26fda7cfa9be328c6f75725bb4ae61a01928aa3a\\gaussian_block_pixel_expander",
+      "instances": 1,
+      "own_area_um2": 10736.026,
+      "total_own_area_um2": 10736.026
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000100001000",
+      "instances": 4,
+      "own_area_um2": 2629.6760000000004,
+      "total_own_area_um2": 10518.704000000002
+    },
+    {
+      "module": "$paramod$468ff7e3812e2e2bfc16adca3291268f5eff43ec\\rv_fifo",
+      "instances": 1,
+      "own_area_um2": 10128.748000000001,
+      "total_own_area_um2": 10128.748000000001
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000011110111",
+      "instances": 4,
+      "own_area_um2": 2460.5,
+      "total_own_area_um2": 9842.0
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000011110010",
+      "instances": 4,
+      "own_area_um2": 2412.62,
+      "total_own_area_um2": 9650.48
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000011101011",
+      "instances": 4,
+      "own_area_um2": 2342.396,
+      "total_own_area_um2": 9369.584
+    },
+    {
+      "module": "$paramod$1ff98ebe0b64c5789c16c45dc9aa283315a1dbca\\ordered_gaussian_retire",
+      "instances": 1,
+      "own_area_um2": 8950.368,
+      "total_own_area_um2": 8950.368
+    },
+    {
+      "module": "$paramod$aeb0700fa98b02f9e5a230dfe4a26cab3fb4f4e1\\world_to_camera_shared_mac",
+      "instances": 1,
+      "own_area_um2": 8138.004000000001,
+      "total_own_area_um2": 8138.004000000001
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000011000111",
+      "instances": 4,
+      "own_area_um2": 1984.892,
+      "total_own_area_um2": 7939.568
+    },
+    {
+      "module": "$paramod$0ca5ad0db8c21eb9976b783495eec5d8c83aee8d\\axi4_camera_config_read_dma",
+      "instances": 1,
+      "own_area_um2": 7865.886,
+      "total_own_area_um2": 7865.886
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000010110000",
+      "instances": 4,
+      "own_area_um2": 1755.0680000000002,
+      "total_own_area_um2": 7020.272000000001
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000010101111",
+      "instances": 4,
+      "own_area_um2": 1745.4920000000002,
+      "total_own_area_um2": 6981.968000000001
+    },
+    {
+      "module": "$paramod\\apb_regfile\\ADDR_W=32'00000000000000000000000000001100",
+      "instances": 1,
+      "own_area_um2": 6115.34,
+      "total_own_area_um2": 6115.34
+    },
+    {
+      "module": "$paramod$1ba4ea5258463acb31ef1d85915944fe74a4d1b3\\gaussian_mode_advisor",
+      "instances": 1,
+      "own_area_um2": 5489.176,
+      "total_own_area_um2": 5489.176
+    },
+    {
+      "module": "$paramod$7265c4f27d7ba11cfc755561ab636d821f55d580\\axi4_pixel_state_quad_read_engine",
+      "instances": 1,
+      "own_area_um2": 5239.136,
+      "total_own_area_um2": 5239.136
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000001111001",
+      "instances": 4,
+      "own_area_um2": 1209.236,
+      "total_own_area_um2": 4836.944
+    },
+    {
+      "module": "$paramod\\rv_reg_slice\\DATA_W=32'00000000000000000000000100100100",
+      "instances": 1,
+      "own_area_um2": 2907.38,
+      "total_own_area_um2": 2907.38
+    },
+    {
+      "module": "$paramod$a0286bf9aa9054631708822f7a89b7684c6b80f6\\axi4_gaussian_mean_read_dma",
+      "instances": 1,
+      "own_area_um2": 2532.32,
+      "total_own_area_um2": 2532.32
+    },
+    {
+      "module": "$paramod$17dbd71dc5ec4ffabf984c44bd9708eff3aeaa8c\\gaussian_sh_color_core",
+      "instances": 4,
+      "own_area_um2": 503.538,
+      "total_own_area_um2": 2014.152
+    },
+    {
+      "module": "$paramod$062ecdb0fbd702dc0a262b7719e32f4981418b1b\\raw_gaussian_projection_lane",
+      "instances": 4,
+      "own_area_um2": 465.23400000000004,
+      "total_own_area_um2": 1860.9360000000001
+    },
+    {
+      "module": "$paramod$dfc5dd7246218a757bc99b58c069d14ddae8debe\\ordered_block_raster_frontend",
+      "instances": 1,
+      "own_area_um2": 1463.0,
+      "total_own_area_um2": 1463.0
+    },
+    {
+      "module": "$paramod$fbdc939c6a8da5a89f8de6e7ccdc2976fc6cd92d\\camera_projection_tile_lane",
+      "instances": 4,
+      "own_area_um2": 332.23400000000004,
+      "total_own_area_um2": 1328.9360000000001
+    },
+    {
+      "module": "$paramod$190d1c27d6a332f81432e19f10b4233c3abd2be2\\raster_pair_shell",
+      "instances": 1,
+      "own_area_um2": 1256.318,
+      "total_own_area_um2": 1256.318
+    },
+    {
+      "module": "$paramod$ed24a893048afd7015df5e3c1ac042986a9b2d59\\gaussian_frame_render_pipeline",
+      "instances": 1,
+      "own_area_um2": 961.856,
+      "total_own_area_um2": 961.856
+    },
+    {
+      "module": "opacity_radius_bound",
+      "instances": 4,
+      "own_area_um2": 92.036,
+      "total_own_area_um2": 368.144
+    },
+    {
+      "module": "$paramod$1ae5ee15b33565d20eb179f0945e75c413a4e068\\ordered_projection_sh_join",
+      "instances": 1,
+      "own_area_um2": 269.192,
+      "total_own_area_um2": 269.192
+    },
+    {
+      "module": "$paramod$c05cc01f070b2cad4147ff06e5740c74cd7ef5d8\\gaussian_projection_sh_array",
+      "instances": 1,
+      "own_area_um2": 254.828,
+      "total_own_area_um2": 254.828
+    },
+    {
+      "module": "$paramod$6679766913e7e99216fc03775bd55f731be5b1ae\\cfg_epoch_ctrl",
+      "instances": 1,
+      "own_area_um2": 186.99800000000002,
+      "total_own_area_um2": 186.99800000000002
+    },
+    {
+      "module": "$paramod$2ed4c223cde6b9e445355d33682dbe757918b63d\\ordered_sh_lane_scheduler",
+      "instances": 1,
+      "own_area_um2": 127.68,
+      "total_own_area_um2": 127.68
+    },
+    {
+      "module": "$paramod$f2f7cead89698ea614f039020c45d882fd8c505b\\ordered_sh_lane_scheduler",
+      "instances": 1,
+      "own_area_um2": 127.68,
+      "total_own_area_um2": 127.68
+    },
+    {
+      "module": "$paramod$d3373ddc24716d8b61533b4a2f01c7a9cdbabb71\\ordered_projection_lane_scheduler",
+      "instances": 1,
+      "own_area_um2": 70.49000000000001,
+      "total_own_area_um2": 70.49000000000001
+    },
+    {
+      "module": "$paramod$5aae828e0b4a2bb1f724182bbc72ef4697d59cf6\\block_termination_table",
+      "instances": 1,
+      "own_area_um2": 43.358000000000004,
+      "total_own_area_um2": 43.358000000000004
+    },
+    {
+      "module": "$paramod\\group_sort_service_gate\\PHYSICAL_LANES=32'00000000000000000000000000000100",
+      "instances": 1,
+      "own_area_um2": 28.462000000000003,
+      "total_own_area_um2": 28.462000000000003
+    },
+    {
+      "module": "$paramod$7c185b5d7735e3fb692f4fe4e8d82fbf48f7c508\\gaussian_sorted_render_pipeline",
+      "instances": 1,
+      "own_area_um2": 26.6,
+      "total_own_area_um2": 26.6
+    },
+    {
+      "module": "$paramod$7aeecfb9ea61da0690292b2f373202e8960a4da4\\gaussian_projection_sh_fork",
+      "instances": 1,
+      "own_area_um2": 21.28,
+      "total_own_area_um2": 21.28
+    },
+    {
+      "module": "$paramod$d4785d14e0dbf41520f29fccf87f2e556e2e6e2c\\gaussian_resource_mode_table",
+      "instances": 1,
+      "own_area_um2": 13.566,
+      "total_own_area_um2": 13.566
+    },
+    {
+      "module": "$paramod$5695025f2029435b8c9bb53f85d82db1e9749e7c\\gaussian_resource_mode_table",
+      "instances": 1,
+      "own_area_um2": 11.438,
+      "total_own_area_um2": 11.438
+    },
+    {
+      "module": "$paramod$32116f48bdf20fce9ef75f6470fae54d6590e9b6\\raster_termination_filter",
+      "instances": 1,
+      "own_area_um2": 10.108,
+      "total_own_area_um2": 10.108
+    },
+    {
+      "module": "$paramod$b08b0921c086bfed60e7bacc05ab36bb42942232\\gaussian_resource_mode_table",
+      "instances": 1,
+      "own_area_um2": 9.842,
+      "total_own_area_um2": 9.842
+    },
+    {
+      "module": "$paramod$b6424f389d9aaaa008b7ffb813e801f6bf91e381\\gaussian_ordered_render_frontend",
+      "instances": 1,
+      "own_area_um2": 7.182,
+      "total_own_area_um2": 7.182
+    },
+    {
+      "module": "$paramod$1b2e1d3bb5fc6dfd4615ce59daf45a717cdbfc0e\\projection_epoch_lane_ctrl",
+      "instances": 1,
+      "own_area_um2": 2.394,
+      "total_own_area_um2": 2.394
+    },
+    {
+      "module": "$paramod$b9a618910a654dfd430b286b3a2df86d41734eee\\raw_gaussian_projection_array",
+      "instances": 1,
+      "own_area_um2": 1.33,
+      "total_own_area_um2": 1.33
+    },
+    {
+      "module": "$paramod$052b0469b94d369207ae43b633891c8de19ffa22\\ordered_gaussian_block_decoder",
+      "instances": 1,
+      "own_area_um2": 0,
+      "total_own_area_um2": 0
+    },
+    {
+      "module": "$paramod$02769a9fa60e2fd150fde7726004a9a2db939982\\gaussian_sh_color_array",
+      "instances": 1,
+      "own_area_um2": 0,
+      "total_own_area_um2": 0
+    },
+    {
+      "module": "$paramod$50e85a5fbe78d1895e5041c9545e1ed4a3686f67\\raster_alpha_lane_array",
+      "instances": 1,
+      "own_area_um2": 0,
+      "total_own_area_um2": 0
+    }
+  ],
+  "unknown_cells": {},
+  "netlist_sha256": "9D1755BBE80619D1E83CAEA71E393350A2E8404C83B89531BF4EF9370E4DC715",
+  "liberty_sha256": "2EFD0B32EB580E4E60E72FC0575BB3BC69AAC907C91D908442E4AE6D7FE55895",
+  "mapped_stat_sha256": "8464046D2209D13344EBEEEC92BE53806DD5C101A9C0639D930DD8FFE0EC5E21",
+  "storage_included": "All retained state/control from original RTL mapped to standard cells; no SRAM macro",
+  "final_asic_area_pass": false
+}

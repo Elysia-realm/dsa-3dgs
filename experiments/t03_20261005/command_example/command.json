@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "camera_descriptor_tag": "0x47534301",
+  "camera_descriptor_bytes": 224,
+  "camera_descriptor_binary": "camera_descriptor_v1.bin",
+  "apb_writes": [
+    {
+      "name": "GAUSSIAN_BASE_LO",
+      "offset": 16,
+      "value": 4096
+    },
+    {
+      "name": "GAUSSIAN_BASE_HI",
+      "offset": 20,
+      "value": 0
+    },
+    {
+      "name": "CAMERA_BASE_LO",
+      "offset": 24,
+      "value": 8192
+    },
+    {
+      "name": "CAMERA_BASE_HI",
+      "offset": 28,
+      "value": 0
+    },
+    {
+      "name": "OUTPUT_BASE_LO",
+      "offset": 32,
+      "value": 1048576
+    },
+    {
+      "name": "OUTPUT_BASE_HI",
+      "offset": 36,
+      "value": 0
+    },
+    {
+      "name": "IMAGE_SIZE",
+      "offset": 40,
+      "value": 1376288
+    },
+    {
+      "name": "GAUSSIAN_COUNT",
+      "offset": 56,
+      "value": 4
+    },
+    {
+      "name": "ATTRIBUTE_BASE_LO",
+      "offset": 60,
+      "value": 16384
+    },
+    {
+      "name": "ATTRIBUTE_BASE_HI",
+      "offset": 64,
+      "value": 0
+    },
+    {
+      "name": "CONTROL.START",
+      "offset": 0,
+      "value": 1
+    }
+  ]
+}

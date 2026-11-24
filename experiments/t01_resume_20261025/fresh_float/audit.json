@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "scripts/diagnose_t06_low_resolution.py": "44E0E90B1EE19071CB42CDCA1F962F3C501AB8A4928FBE54AECFB27960587FBC",
+    "scripts/build_full_frame_rtl_batch.py": "3896E387F40BBD6D95655878FF2FE5DDE294EAD02A024845941176A5537609E5",
+    "model/io/scene.py": "EEB71E1602156E6254EBBCAA8BBA186E067577D593A85A1CBF6D0CC2BB2071F6",
+    "scripts/check_t01_float_provenance.py": "CCF987BBB383837EE9D30F8BAC332C142C29477D7057CC1C0CE0B96EC777C005"
+  },
+  "results": [
+    {
+      "scene": "bonsai",
+      "camera": 146,
+      "gaussians": 1244819,
+      "full_scene": true,
+      "width": 128,
+      "height": 84,
+      "input_sha256": {
+        "manifest.json": "C6A0EECD8D0418257BD756EE1CC1700EC894EC2E8C9488C906627B791AA252F3",
+        "expected_sorted.txt": "FCDFF0AB44008D6B03E915B9E76C7CCCC9BAE1745DB2D847AEC1084B9FA759FA",
+        "camera.memh": "9943E12B5871932500E7C0B95D52CDD8E78829459A518A2E013C1A9260AC8649",
+        "mean.memh": "F29B71996B32E0497E05E9CC2345A4EEE708A88ADF409F8576EB3173A851EFC5",
+        "attribute.memh": "A6DD88FB236D20CA17998B9B6BD93A44993C5782956538E68EB1D1B75A9CBF74"
+      },
+      "raw_ply": {
+        "path": "data/bonsai/point_cloud/iteration_30000/point_cloud.ply",
+        "sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273"
+      },
+      "float_sha256": "D8C4AE0DEB2E2D20ACB4073D095FF1CDC4E2A0C7E08647243DE0E73948D912BC",
+      "historical_float_sha256": "7B0B2347D35DE18A8E1D9A2DAF0A47D3826ADF740F3F2DD17B06E1F791ED40C0",
+      "historical_path": "/mnt/d/3DGS/experiments/t06_20261018/float_full/bonsai/float_floor_0.30078125_jac_clamp.png",
+      "identical_png_file": false,
+      "float_rgb_sha256": "0dc87c9510acf69b7eb098bbc1dabdc4dddb07c6127ce22219b8a0834bc016d1",
+      "rtl_rgb_sha256": "A85FC90E1E2D1EF1A72657B000290D1E35AD17C292E1E90915F52522E3C127F5",
+      "reference_matches_previously_used": true,
+      "mae": 0.2156187996031746,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 190.17636700699998,
+        "log_sha256": "56D1CA167EE6A6150FF7D50607636D154FB3811C5E28F5146F39ADB6AF3510EF"
+      }
+    },
+    {
+      "scene": "counter",
+      "camera": 120,
+      "gaussians": 1222956,
+      "full_scene": true,
+      "width": 128,
+      "height": 84,
+      "input_sha256": {
+        "manifest.json": "6D0E3BA2494572E9BD1ADADA70EAC33AC11D3F3ABEEDF274237449C592BE4C7E",
+        "expected_sorted.txt": "C24BC0E673BF402B2DD11FA362FA0810B242F885D17C711DC04D4B1887007D30",
+        "camera.memh": "16F1DDB6C8236206070FD29875B8B62EF2136A5AD60413F021FC5AB3DB3B01C7",
+        "mean.memh": "01798E6CA573789C0658EB980F2AB132BCA5E89C8D9E3D3DC30D51AC242D0914",
+        "attribute.memh": "6C8B1C82D6D2C36CB62A62C822515C9E9DC6861D2E8242FA713D0F1F16563209"
+      },
+      "raw_ply": {
+        "path": "data/counter/point_cloud/iteration_30000/point_cloud.ply",
+        "sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4"
+      },
+      "float_sha256": "735E16B9C70591EC558DEB836CE16C704A4EA6EEB91A72D934828CEC5689518C",
+      "historical_float_sha256": "8F184963E6B5A5B731599DE4D9A6B2D2C82CD2A49AE41D8A74E70D636227CED1",
+      "historical_path": "/mnt/d/3DGS/experiments/t06_20261018/float_full/counter/float_floor_0.30078125_jac_clamp.png",
+      "identical_png_file": false,
+      "float_rgb_sha256": "59e88df1ec8de6ba00e1d1f1109dd152012d67bb1edb67c37c43f7491ae6486c",
+      "rtl_rgb_sha256": "6464DD8CB3D63D2579E1273A276AC8FA0CBCA1DE3C7B3EAAE4808B9893E62CFD",
+      "reference_matches_previously_used": true,
+      "mae": 0.2535962301587302,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 192.09884909699997,
+        "log_sha256": "73ABB3A81544C52032137CBEA3DDB7CB9243EB3D7F6AE6FEE6565F37F0ACC4F3"
+      }
+    },
+    {
+      "scene": "room",
+      "camera": 155,
+      "gaussians": 1593376,
+      "full_scene": true,
+      "width": 128,
+      "height": 84,
+      "input_sha256": {
+        "manifest.json": "4525C366B8C40E7AAA8E7DEA75931A5449C27C551F6049C083AA65D352038EA4",
+        "expected_sorted.txt": "4021E854AA0576EB6EC029E168ADB1907B6DA9A108B9CBFD76813EDD4D0A20D9",
+        "camera.memh": "F6BD7B0F5DA2C21FBAE24EBB1F279439B72FB19D75BAA2D4447EED963AC3EB82",
+        "mean.memh": "439F9BB4A364792D91FF685155CF6267D2E2669E3FCA22BF91811048650C4C4B",
+        "attribute.memh": "8BB9588B12CA9B15CC10F110CC2CF0ABD5A522ABB38B8426EC1C95720063C2ED"
+      },
+      "raw_ply": {
+        "path": "data/room/point_cloud/iteration_30000/point_cloud.ply",
+        "sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201"
+      },
+      "float_sha256": "CCD2817A019388E0123A71AD4E837D1C3C868F8EBC84BB0D506A3CD9CC1E3FA4",
+      "historical_float_sha256": "31CB7E318EE1B6CD2A9670FE0AAC37EF7431D0AFF04107E72537A85A497947C3",
+      "historical_path": "/mnt/d/3DGS/experiments/t06_20261018/float_full/room/float_floor_0.30078125_jac_clamp.png",
+      "identical_png_file": false,
+      "float_rgb_sha256": "240f5b0d0a4a3c6d0f71a7750b86fc9f2a3656f102605fe0ca2a7f9abbbafdfa",
+      "rtl_rgb_sha256": "538065A64B9DDF46B9274894ED2DE741EDC44C996677A699FAC4A1D2CE9326E2",
+      "reference_matches_previously_used": true,
+      "mae": 0.21788194444444445,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 259.426567808,
+        "log_sha256": "9112A95D827238CEFA303E811EB876E061829C8E7417F13D410753CBA8038B9D"
+      }
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 1026508,
+      "full_scene": true,
+      "width": 128,
+      "height": 71,
+      "input_sha256": {
+        "manifest.json": "35CA7E44D9178A87CC39684479070295860D311B0BF67E9BC75027A501CE01B2",
+        "expected_sorted.txt": "D04476E5BA793EF887591270933B0FA7EF68FD264E4A852A56D2247B122EB66D",
+        "camera.memh": "6AD2DFDBD456F5C739994B77F5BBB4781A54D87848966F0E3E13CB6945017BB0",
+        "mean.memh": "A6B66E5E5FD3CD6303CF49E147A59BF0EFB108E91D8CEE62DBD34FA48004D259",
+        "attribute.memh": "DF0132F96A9EC91E73A2F35E39C95599253809932D09F5BD3FA0E3EC8ABAE113"
+      },
+      "raw_ply": {
+        "path": "data/train/point_cloud/iteration_30000/point_cloud.ply",
+        "sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D"
+      },
+      "float_sha256": "2FE8F73A9ADE023A7ED00CA03915EE449F1026D56F403451F12268C4FBD01CCF",
+      "historical_float_sha256": "9955B24C68DDDE63F61BE9FC56470FA9AB07374842CC82A7DB9F17FCCF6B0DDD",
+      "historical_path": "/mnt/d/3DGS/experiments/t06_full_f_20261019/float_refs/train/float_floor_0.30078125_jac_clamp.png",
+      "identical_png_file": false,
+      "float_rgb_sha256": "9ad4ffddc19dc7398f845499490743820e4d3a9d01e4e8c4223e1b42341ae2e2",
+      "rtl_rgb_sha256": "27CE914FD557CAF4DB47F31FD4786F8EEC296A02DAAE780ABB5B005C13428939",
+      "reference_matches_previously_used": true,
+      "mae": 0.38391285211267606,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 160.91310547699993,
+        "log_sha256": "80BEF9D4E9BDED4A19BC433EF718D3D68524EB585C0205098B74DAB64D7BBE5A"
+      }
+    },
+    {
+      "scene": "truck",
+      "camera": 125,
+      "gaussians": 2541226,
+      "full_scene": true,
+      "width": 128,
+      "height": 71,
+      "input_sha256": {
+        "manifest.json": "348746C02EAC9339F4EAD2FC9BA3DE67DECA7160B176077B6C153225943BEFFD",
+        "expected_sorted.txt": "C5A616DD2F39485ED0AC30098A462E00EFF193F82BCD4360A53EE7AFBA28F345",
+        "camera.memh": "0201F3DB88C49A09F26857711C140299BC4D545D34C1E2E734630605A4EB3E28",
+        "mean.memh": "5A4908F3F185CAE1DBABD9BED6120C91B006AE8D50ABADCC1BED7C7B6FD0DE69",
+        "attribute.memh": "0BD9373DF6CE86F7FCBA0F80681B8A30EAD21ACDBFE6499EA2187CA9D6F92FBF"
+      },
+      "raw_ply": {
+        "path": "data/truck/point_cloud/iteration_30000/point_cloud.ply",
+        "sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C"
+      },
+      "float_sha256": "482240239541AF127172382E7DBD69023D28E7722F39F1FE587F3D3BDBA48743",
+      "historical_float_sha256": "2B6881C8A474A5F5B281524FF9B89C9CAD72A5BA7311AEDD81D49BA360DB03C2",
+      "historical_path": "/mnt/d/3DGS/experiments/t06_full_f_20261019/float_refs/truck/float_floor_0.30078125_jac_clamp.png",
+      "identical_png_file": false,
+      "float_rgb_sha256": "9e4f93b0fd91c96812b889c62d36cb78b6591790afcc95e687a507f5448ce450",
+      "rtl_rgb_sha256": "F7E62ECAEFFB52BA1CD4FA64497D9A47DBB38ABD3920A3DA9A1F8ADA45E45281",
+      "reference_matches_previously_used": true,
+      "mae": 0.27501467136150237,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 320.83760275300006,
+        "log_sha256": "E084F76E7F43D9F3AAF003CDCE35BD13BE4F1885459FB3E7A2DD86810FF06F10"
+      }
+    }
+  ],
+  "scope": "Fresh WSL float diagnostic from raw PLY and exact accepted camera/order inputs; independent arithmetic, shared source quantization/ordering; not GT or an independent sorting proof. No RTL output replaced."
+}

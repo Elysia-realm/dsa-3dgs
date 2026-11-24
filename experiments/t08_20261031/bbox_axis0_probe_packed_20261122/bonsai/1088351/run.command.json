@@ -1,0 +1,12 @@
+[
+  "/home/gs3d/work/t08_20261031/bbox_axis0_probe_packed_20261122/simulation",
+  "+AUTO_QSU",
+  "+ATTR_FORMAT=1",
+  "+FRAME_MODE=0",
+  "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/bonsai/1088351/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/bonsai/1088351/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/bonsai/1088351/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/bonsai/1088351/FRAME.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/bonsai/1088351/RGB.memh",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/bbox_axis0_probe_packed_20261122/bonsai/1088351/SORTED_TRACE.memh"
+]

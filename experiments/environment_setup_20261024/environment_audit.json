@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-24",
+  "status": "LINUX_TOOLCHAIN_READY_WINDOWS_EXECUTION_POLICY_BLOCKED",
+  "checks": {
+    "wsl2_ubuntu24": true,
+    "linux_dependencies": true,
+    "python_venv": true,
+    "cudd_tests_30_of_30": true,
+    "iverilog_smoke": true,
+    "verilator_smoke": true,
+    "opensta_liberty_timing_activity_smoke": true,
+    "all_seven_libraries_read": true,
+    "nangate_three_corner_compatibility": true,
+    "cacti_sram_diagnostic_and_invalid_config_rejection": true,
+    "ramulator_lpddr4_example": true
+  },
+  "sta_smoke": {
+    "annotated_pins": 11,
+    "slack_ns": {
+      "max": 4.16,
+      "min": -0.25
+    },
+    "fixture_has_hold_violations": true,
+    "meaning": "STA engine/constraint/report diagnostic only; fixture has no hold delay insertion. Not accelerator timing signoff."
+  },
+  "ramulator": {
+    "dram_cycles": 82,
+    "incoming_requests": 5,
+    "read_requests": 3,
+    "write_requests": 2,
+    "read_bytes": 192,
+    "write_bytes": 128
+  },
+  "cacti": {
+    "status": "PASS_SRAM_TOOL_DIAGNOSTIC_ONLY",
+    "configuration": "64KiB, 128-bit bus, one RW port, 45nm generic model, 300K, no ECC",
+    "metrics": {
+      "access_ns": 0.504959,
+      "cycle_ns": 0.795423,
+      "read_nJ": 0.0332256,
+      "write_nJ": 0.0287556,
+      "leakage_mW": 29.3685
+    },
+    "upstream_default_example_limitation": "DDR3 IO area inf: fields ron_value/rtt_value/tflight_value are used but not parsed upstream. Local parser patch and explicit config close this diagnostic failure. Original LPDDR2 attempt also exposed MemCAD DDR3/DDR4-only assertion and is preserved as failed.",
+    "ancillary_io": "DDR3 diagnostic at 400MHz with ron=34 ohm, rtt=10000 ohm, tflight=1ns; not project LPDDR4 validation",
+    "project_macro_model": false
+  },
+  "resources": {
+    "memory": "total        used        free      shared  buff/cache   available\nMem:            19Gi       723Mi        18Gi       4.1Mi       870Mi        18Gi\nSwap:          8.0Gi          0B       8.0Gi",
+    "cpus": "10",
+    "kernel": "6.18.54.1-microsoft-standard-WSL2"
+  },
+  "backup": {
+    "path": "D:\\WSL-backups\\Ubuntu-24.04-3dgs-20261024.tar",
+    "sha256": "7D3415FB8BC6F2B38EBB8FD766B449E2957B206FAEB5603926C15993E8BC140D",
+    "bytes": 3176304640,
+    "verified_payloads": 12,
+    "boot_restore_test_executed": false
+  },
+  "windows": {
+    "python_package_installed": true,
+    "execution_verified": false,
+    "blocker": "Windows application control blocks MSYS2 cygpath and Python execution; no policy changes or bypass attempted"
+  },
+  "not_executed": [
+    "production-top STA",
+    "current production RTL remapping",
+    "cache/SRAM timing boundary model",
+    "AXI-Ramulator closed-loop integration",
+    "real-scene/native-resolution/GT/30FPS acceptance",
+    "production activity-power/whole-chip PPA"
+  ],
+  "historical_failures_preserved": [
+    "WSL GitHub clone transport failure; official HTTPS archives used",
+    "Windows application-control block",
+    "Ramulator clang++ absent, then GCC missing transitive cstdint; explicit compiler/header flags resolve",
+    "initial VCD scope annotated 0; Icarus/Verilator traces now separated, 11 activities annotated",
+    "upstream CACTI missing IO configuration parsing; local parser repair and explicit DDR3 diagnostic config resolve; LPDDR2 MemCAD assertion attempt retained"
+  ],
+  "production_rtl_changed": false,
+  "t01_signed_off": false
+}

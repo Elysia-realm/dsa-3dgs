@@ -1,0 +1,52 @@
+{
+  "scene": "counter",
+  "gaussians": 1222956,
+  "full_model": true,
+  "ply_sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4",
+  "covariance_fractional_bits": 20,
+  "covariance_integer_min": -6015575,
+  "covariance_integer_max": 6847294,
+  "world_covariance_overflow_records": 0,
+  "covariance_signed24_fit_records": 1222956,
+  "sh_integer_min": -9757,
+  "sh_integer_max": 31603,
+  "sh_signed16_fit_records": 1222956,
+  "lossless_degree_histogram": [
+    28021,
+    2897,
+    1416,
+    1190622
+  ],
+  "analytic_tail_bound_sensitivity": {
+    "1": [
+      28022,
+      2897,
+      1415,
+      1190622
+    ],
+    "4": [
+      28151,
+      2773,
+      1417,
+      1190615
+    ]
+  },
+  "nonzero_error_budget_selected": false,
+  "candidate_beats_histogram": [
+    0,
+    0,
+    0,
+    28021,
+    2897,
+    0,
+    1416,
+    0,
+    1190622,
+    0
+  ],
+  "uncompressed_attribute_bytes": 176105664,
+  "candidate_useful_payload_bytes": 154065968,
+  "estimated_attribute_payload_reduction_percent": 12.515040969948588,
+  "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+  "signed_off": false
+}

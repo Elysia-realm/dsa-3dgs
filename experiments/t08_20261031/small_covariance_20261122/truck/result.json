@@ -1,0 +1,25 @@
+{
+  "scene": "truck",
+  "camera": 125,
+  "counts": {
+    "records": 2541226,
+    "selected": 86286,
+    "risk_q20": 23,
+    "risk_q24": 0,
+    "recovered": 23,
+    "new_risks": 0
+  },
+  "examples_q20": [
+    47098,
+    365190,
+    387997,
+    511322,
+    905790,
+    909940,
+    1063207,
+    1063448
+  ],
+  "known_case": null,
+  "ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+  "camera_sha256": "C6FCEB905EE172D0A51ABE51AC5304D464544A4F76FA9305BC14715934283A5A"
+}

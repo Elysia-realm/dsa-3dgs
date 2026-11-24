@@ -1,0 +1,52 @@
+{
+  "scene": "train",
+  "gaussians": 1026508,
+  "full_model": true,
+  "ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+  "covariance_fractional_bits": 20,
+  "covariance_integer_min": -131642830,
+  "covariance_integer_max": 141216237,
+  "world_covariance_overflow_records": 0,
+  "covariance_signed24_fit_records": 1026452,
+  "sh_integer_min": -10468,
+  "sh_integer_max": 45951,
+  "sh_signed16_fit_records": 1026472,
+  "lossless_degree_histogram": [
+    42321,
+    5300,
+    2359,
+    976528
+  ],
+  "analytic_tail_bound_sensitivity": {
+    "1": [
+      42321,
+      5300,
+      2359,
+      976528
+    ],
+    "4": [
+      42455,
+      5167,
+      2358,
+      976528
+    ]
+  },
+  "nonzero_error_budget_selected": false,
+  "candidate_beats_histogram": [
+    0,
+    0,
+    0,
+    42321,
+    5298,
+    0,
+    2359,
+    0,
+    976438,
+    92
+  ],
+  "uncompressed_attribute_bytes": 147817152,
+  "candidate_useful_payload_bytes": 127594256,
+  "estimated_attribute_payload_reduction_percent": 13.681021266057137,
+  "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+  "signed_off": false
+}

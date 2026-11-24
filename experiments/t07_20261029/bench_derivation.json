@@ -1,0 +1,13 @@
+{
+  "original": "/mnt/d/3DGS/verification/rtl/tb_t06_rgb_workload.sv",
+  "original_sha256": "AF021CC5090EAA2C1947D1E5C30A999533A04597335D82B0D9A8936100309002",
+  "target": "/mnt/d/3DGS/verification/rtl/tb_t07_workload.sv",
+  "target_sha256": "8ACDB745766A012947333BDAA5DDF67FCA14EC230ED280E068CFB002EBE9E6EB",
+  "changes": [
+    "module name",
+    "explicit candidate parameter",
+    "actual path and numerical-bound counters/assertions",
+    "reject legacy testbench state injection on candidate"
+  ],
+  "dma_input_output_and_memory_model_changed": false
+}

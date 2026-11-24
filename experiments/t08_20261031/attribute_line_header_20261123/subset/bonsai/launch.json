@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/attribute_line_header_20261123/simulation",
+    "+AUTO_QSU",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_release_20261022/subset/bonsai/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/inputs/bonsai/v2.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_release_20261022/subset/bonsai/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/subset/bonsai/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/subset/bonsai/rgb.memh",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/subset/bonsai/sorted.txt",
+    "+FRAME_MODE=0",
+    "+MAX_TIMEOUT=10000000",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT",
+    "+LPDDR_TIMED",
+    "+MODEL_CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+    "+MODEL_STATS=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/subset/bonsai/model.stats",
+    "+LABEL=bonsai_subset"
+  ],
+  "elf_sha256": "31EAD93BA9D299D4A23248010147A95FAA6B919510E0F9D03685A20B07BE08F2",
+  "inputs": {
+    "MEAN": "BB3BC53BD5C51BA4F5F3A1473CD5BBD8D18F55BBE2CDDEA6FEDE50991789DD7B",
+    "ATTR": "187117E9B2CEDFD102B3173B8705AB7E3A9A19C7A9A6DAD819BED81C3380A867",
+    "CAMERA": "3DFF9310BA15D02E10843BCF94BE1230AA8D8ACF7CFCB21CBE7B7161A91C2633"
+  },
+  "ref_sha256": "EC1E15DD7EBA61E227C3710C53E24B11752349221AB0803B44D9C34D32940E9E"
+}

@@ -1,0 +1,18 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+  "--binary",
+  "--build",
+  "-j",
+  "2",
+  "--timing",
+  "--assert",
+  "-Wno-fatal",
+  "--top-module",
+  "tb_t07_pixel_termination",
+  "--Mdir",
+  "/home/gs3d/work/t07_20261029/units",
+  "-o",
+  "simulation",
+  "rtl/raster/raster_pixel_termination_filter.sv",
+  "verification/rtl/tb_t07_pixel_termination.sv"
+]

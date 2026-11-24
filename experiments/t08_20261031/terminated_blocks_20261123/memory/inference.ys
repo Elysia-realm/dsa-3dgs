@@ -1,0 +1,8 @@
+read_verilog -sv "/mnt/d/3DGS/rtl/raster/terminated_block_counter.sv"
+hierarchy -check -top terminated_block_counter
+proc
+opt
+memory -nomap
+opt_clean
+check -assert
+write_json "/mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/memory/inferred.json"

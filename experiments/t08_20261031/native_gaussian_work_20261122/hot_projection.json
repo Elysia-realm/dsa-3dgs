@@ -1,0 +1,587 @@
+{
+  "status": "RAW_GEOMETRY_DIAGNOSTIC",
+  "results": [
+    {
+      "scene": "bonsai",
+      "gid": 1126217,
+      "depth": 0.5528523726729158,
+      "mean_pixels": [
+        -3185.5894431102797,
+        -571.6030011764121
+      ],
+      "opacity": 0.304179847240448,
+      "raw_scale": [
+        0.243288055062294,
+        0.13148468732833862,
+        0.0034082781057804823
+      ],
+      "covariance_px2": [
+        [
+          406130.26078084117,
+          903851.0579762612
+        ],
+        [
+          903851.0579762612,
+          2084245.9845089517
+        ]
+      ],
+      "float_square_bbox": [
+        0,
+        0,
+        2001,
+        2078
+      ],
+      "rtl_bbox": [
+        0,
+        0,
+        2001,
+        2078
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 4158078,
+      "float_alpha_pass_pixels_in_rtl_bbox": 0,
+      "peak_float_alpha_in_rtl_bbox": 1.4271176692192078e-65
+    },
+    {
+      "scene": "bonsai",
+      "gid": 1088351,
+      "depth": 1.4465991320897906,
+      "mean_pixels": [
+        3055.532925481025,
+        2992.3953852338573
+      ],
+      "opacity": 0.034797586500644684,
+      "raw_scale": [
+        0.4021291136741638,
+        6.898859794546297e-08,
+        0.1365913301706314
+      ],
+      "covariance_px2": [
+        [
+          39284.9339807164,
+          75994.85356250696
+        ],
+        [
+          75994.85356250696,
+          546103.3427552563
+        ]
+      ],
+      "float_square_bbox": [
+        1280,
+        1217,
+        3118,
+        2078
+      ],
+      "rtl_bbox": [
+        1280,
+        1217,
+        3118,
+        2078
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 1582518,
+      "float_alpha_pass_pixels_in_rtl_bbox": 238309,
+      "peak_float_alpha_in_rtl_bbox": 0.01615679268519875
+    },
+    {
+      "scene": "bonsai",
+      "gid": 1056513,
+      "depth": 2.2062790984534733,
+      "mean_pixels": [
+        3838.940908860909,
+        -439.29860354308903
+      ],
+      "opacity": 0.03880707547068596,
+      "raw_scale": [
+        0.2769905924797058,
+        2.40934023167938e-05,
+        0.4305606484413147
+      ],
+      "covariance_px2": [
+        [
+          433685.1815203606,
+          -6210.088040870562
+        ],
+        [
+          -6210.088040870562,
+          175875.98752758768
+        ]
+      ],
+      "float_square_bbox": [
+        2345,
+        0,
+        3118,
+        1054
+      ],
+      "rtl_bbox": [
+        2345,
+        0,
+        3118,
+        1054
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 814742,
+      "float_alpha_pass_pixels_in_rtl_bbox": 107271,
+      "peak_float_alpha_in_rtl_bbox": 0.012607927386374462
+    },
+    {
+      "scene": "counter",
+      "gid": 1074640,
+      "depth": 1.8339006259707071,
+      "mean_pixels": [
+        17.90869651775597,
+        1703.3478441395864
+      ],
+      "opacity": 0.03127337619662285,
+      "raw_scale": [
+        0.21224398910999298,
+        0.07024430483579636,
+        6.176798024171148e-07
+      ],
+      "covariance_px2": [
+        [
+          19834.73921349754,
+          36562.321862743614
+        ],
+        [
+          36562.321862743614,
+          124386.41364552532
+        ]
+      ],
+      "float_square_bbox": [
+        0,
+        800,
+        921,
+        2076
+      ],
+      "rtl_bbox": [
+        0,
+        800,
+        921,
+        2076
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 1175196,
+      "float_alpha_pass_pixels_in_rtl_bbox": 157467,
+      "peak_float_alpha_in_rtl_bbox": 0.03127330538916231
+    },
+    {
+      "scene": "counter",
+      "gid": 703556,
+      "depth": 2.3458484245518663,
+      "mean_pixels": [
+        2116.9441372490282,
+        1926.684555939432
+      ],
+      "opacity": 0.021484944969415665,
+      "raw_scale": [
+        0.09210900962352753,
+        0.1658087521791458,
+        1.7834008758654818e-05
+      ],
+      "covariance_px2": [
+        [
+          3941.81670390199,
+          12380.73949110321
+        ],
+        [
+          12380.73949110321,
+          38936.28184804599
+        ]
+      ],
+      "float_square_bbox": [
+        1662,
+        1472,
+        2571,
+        2076
+      ],
+      "rtl_bbox": [
+        1662,
+        1472,
+        2571,
+        2076
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 549036,
+      "float_alpha_pass_pixels_in_rtl_bbox": 3579,
+      "peak_float_alpha_in_rtl_bbox": 0.021481906771049126
+    },
+    {
+      "scene": "counter",
+      "gid": 1110229,
+      "depth": 2.4616267074076186,
+      "mean_pixels": [
+        -1046.8960697220036,
+        2140.299636779693
+      ],
+      "opacity": 0.0409933403134346,
+      "raw_scale": [
+        0.42132049798965454,
+        0.3304799795150757,
+        2.993389216499054e-07
+      ],
+      "covariance_px2": [
+        [
+          274878.2999190166,
+          -38755.47264764295
+        ],
+        [
+          -38755.47264764295,
+          156276.55471542128
+        ]
+      ],
+      "float_square_bbox": [
+        0,
+        879,
+        215,
+        2076
+      ],
+      "rtl_bbox": [
+        0,
+        879,
+        215,
+        2076
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 257355,
+      "float_alpha_pass_pixels_in_rtl_bbox": 27826,
+      "peak_float_alpha_in_rtl_bbox": 0.005583497981644273
+    },
+    {
+      "scene": "room",
+      "gid": 1018886,
+      "depth": 0.7566050572889793,
+      "mean_pixels": [
+        -11054.998825088518,
+        16011.259762420279
+      ],
+      "opacity": 0.9998890161514282,
+      "raw_scale": [
+        0.16198961436748505,
+        2.0725913047790527,
+        0.04856479912996292
+      ],
+      "covariance_px2": [
+        [
+          3708551.8369865,
+          12552816.703875251
+        ],
+        [
+          12552816.703875251,
+          43713180.22772414
+        ]
+      ],
+      "float_square_bbox": [
+        0,
+        0,
+        3114,
+        2075
+      ],
+      "rtl_bbox": [
+        0,
+        0,
+        3114,
+        2075
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 6461550,
+      "float_alpha_pass_pixels_in_rtl_bbox": 0,
+      "peak_float_alpha_in_rtl_bbox": 0.0
+    },
+    {
+      "scene": "room",
+      "gid": 431602,
+      "depth": 2.3772629088469897,
+      "mean_pixels": [
+        2516.3368138808346,
+        2051.9364604377606
+      ],
+      "opacity": 0.027835223823785782,
+      "raw_scale": [
+        0.39378809928894043,
+        0.0062972442246973515,
+        0.21864810585975647
+      ],
+      "covariance_px2": [
+        [
+          295395.7162848312,
+          11216.322352449626
+        ],
+        [
+          11216.322352449626,
+          78881.18631796478
+        ]
+      ],
+      "float_square_bbox": [
+        1408,
+        943,
+        3114,
+        2075
+      ],
+      "rtl_bbox": [
+        1408,
+        943,
+        3114,
+        2075
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 1931192,
+      "float_alpha_pass_pixels_in_rtl_bbox": 836073,
+      "peak_float_alpha_in_rtl_bbox": 0.027835217445360997
+    },
+    {
+      "scene": "train",
+      "gid": 699463,
+      "depth": 0.3739885218355221,
+      "mean_pixels": [
+        1277.847998279917,
+        483.75327492239535
+      ],
+      "opacity": 0.05914043262600899,
+      "raw_scale": [
+        0.06306913495063782,
+        1.726599407447793e-06,
+        0.05100502818822861
+      ],
+      "covariance_px2": [
+        [
+          29257.2847836751,
+          -5565.524043996751
+        ],
+        [
+          -5565.524043996751,
+          35834.073631561994
+        ]
+      ],
+      "float_square_bbox": [
+        768,
+        0,
+        1787,
+        993
+      ],
+      "rtl_bbox": [
+        768,
+        0,
+        1787,
+        993
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 1011867,
+      "float_alpha_pass_pixels_in_rtl_bbox": 544596,
+      "peak_float_alpha_in_rtl_bbox": 0.059140344669295825
+    },
+    {
+      "scene": "train",
+      "gid": 694650,
+      "depth": 2.012523716099062,
+      "mean_pixels": [
+        863.2736730937164,
+        359.8629804587525
+      ],
+      "opacity": 0.05742984265089035,
+      "raw_scale": [
+        0.198893204331398,
+        0.0054115550592541695,
+        0.14567609131336212
+      ],
+      "covariance_px2": [
+        [
+          11412.140414813291,
+          4410.793366482848
+        ],
+        [
+          4410.793366482848,
+          1795.445534263922
+        ]
+      ],
+      "float_square_bbox": [
+        548,
+        44,
+        1179,
+        675
+      ],
+      "rtl_bbox": [
+        548,
+        44,
+        1179,
+        675
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 398161,
+      "float_alpha_pass_pixels_in_rtl_bbox": 17174,
+      "peak_float_alpha_in_rtl_bbox": 0.05742197580040029
+    },
+    {
+      "scene": "truck",
+      "gid": 1554579,
+      "depth": 0.30503738950865156,
+      "mean_pixels": [
+        4756.705877718259,
+        966.6202812984579
+      ],
+      "opacity": 0.01395499613136053,
+      "raw_scale": [
+        0.0190502367913723,
+        0.018728723749518394,
+        0.3181966245174408
+      ],
+      "covariance_px2": [
+        [
+          2180797.8353149532,
+          1437393.8515682842
+        ],
+        [
+          1437393.8515682842,
+          955495.6054691453
+        ]
+      ],
+      "float_square_bbox": [
+        1427,
+        0,
+        1957,
+        1091
+      ],
+      "rtl_bbox": [
+        1427,
+        0,
+        1957,
+        1091
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 578230,
+      "float_alpha_pass_pixels_in_rtl_bbox": 0,
+      "peak_float_alpha_in_rtl_bbox": 4.041763630702797e-24
+    },
+    {
+      "scene": "truck",
+      "gid": 478569,
+      "depth": 0.36289592216306943,
+      "mean_pixels": [
+        1090.8741820390878,
+        754.9490000868848
+      ],
+      "opacity": 0.023141207173466682,
+      "raw_scale": [
+        0.0007836642907932401,
+        0.03218463435769081,
+        0.038728877902030945
+      ],
+      "covariance_px2": [
+        [
+          5576.036260853065,
+          -3981.091716888937
+        ],
+        [
+          -3981.091716888937,
+          7719.8288982052045
+        ]
+      ],
+      "float_square_bbox": [
+        873,
+        537,
+        1308,
+        972
+      ],
+      "rtl_bbox": [
+        873,
+        537,
+        1308,
+        972
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 189225,
+      "float_alpha_pass_pixels_in_rtl_bbox": 58283,
+      "peak_float_alpha_in_rtl_bbox": 0.023141127276309334
+    },
+    {
+      "scene": "truck",
+      "gid": 50287,
+      "depth": 1.5940606366683667,
+      "mean_pixels": [
+        118.85286181517426,
+        1212.0105312697265
+      ],
+      "opacity": 0.04663313925266266,
+      "raw_scale": [
+        0.18766085803508759,
+        0.6586316227912903,
+        0.0009356823284178972
+      ],
+      "covariance_px2": [
+        [
+          120427.66365979274,
+          27283.662566169485
+        ],
+        [
+          27283.662566169485,
+          31089.906689271498
+        ]
+      ],
+      "float_square_bbox": [
+        0,
+        347,
+        984,
+        1091
+      ],
+      "rtl_bbox": [
+        0,
+        347,
+        984,
+        1091
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 732096,
+      "float_alpha_pass_pixels_in_rtl_bbox": 103243,
+      "peak_float_alpha_in_rtl_bbox": 0.0367045072721367
+    },
+    {
+      "scene": "truck",
+      "gid": 918506,
+      "depth": 1.591818812475097,
+      "mean_pixels": [
+        263.09759260283545,
+        1403.7868152393985
+      ],
+      "opacity": 0.998212456703186,
+      "raw_scale": [
+        0.16240333020687103,
+        0.0037424685433506966,
+        0.21926641464233398
+      ],
+      "covariance_px2": [
+        [
+          21551.73768307774,
+          -8439.11477002339
+        ],
+        [
+          -8439.11477002339,
+          15526.469820063581
+        ]
+      ],
+      "float_square_bbox": [
+        0,
+        883,
+        784,
+        1091
+      ],
+      "rtl_bbox": [
+        0,
+        883,
+        784,
+        1091
+      ],
+      "bbox_max_edge_difference": 0,
+      "rtl_bbox_pixels": 163072,
+      "float_alpha_pass_pixels_in_rtl_bbox": 39582,
+      "peak_float_alpha_in_rtl_bbox": 0.04189550296972213
+    }
+  ],
+  "source_sha256": {
+    "scripts/check_t08_hot_projection.py": "A94921F6A9D19A0B7D94612029D37CE6C5C7CFA8F071E9CD37E42B9D6752C329",
+    "model/reference/math3d.py": "A4CAA0601B4FC1A8BE3A0CC45E665A2A6992902CE1BDE5694033B1E5EEA5B5C0",
+    "model/io/scene.py": "EEB71E1602156E6254EBBCAA8BBA186E067577D593A85A1CBF6D0CC2BB2071F6",
+    "scripts/build_full_frame_rtl_batch.py": "3896E387F40BBD6D95655878FF2FE5DDE294EAD02A024845941176A5537609E5"
+  },
+  "scope": "Window leaders only. Float integer-pixel alpha support over each full observed bbox before termination. Numerical diagnostic; RTL culling requires separate fixed-point proof.",
+  "signed_off": false
+}

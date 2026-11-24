@@ -1,0 +1,262 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "rows": [
+        {
+          "format": 3,
+          "timed": 0,
+          "cycles": 38638,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 0,
+          "cycles": 38637,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 64976,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1782,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 3,
+          "timed": 1,
+          "cycles": 54422,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": 16333,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 1,
+          "cycles": 55249,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 64976,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1782,
+          "total_line_requests": 16579,
+          "terminal_differences": 0
+        }
+      ],
+      "reference_order_sha256": "ECCCCB0D343D202E0916CCF1224DA344DB7F69993CA255F93EA57146FB8D2DF8",
+      "comparison_sha256": "1AD4A5C8DA6DCD626F49E10BE3C981A23164C7415DD77026ED22B986C003D6A4"
+    },
+    {
+      "scene": "counter",
+      "rows": [
+        {
+          "format": 3,
+          "timed": 0,
+          "cycles": 42926,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 0,
+          "cycles": 42898,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 65456,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1791,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 3,
+          "timed": 1,
+          "cycles": 60815,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": 18257,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 1,
+          "cycles": 61750,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 65456,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1791,
+          "total_line_requests": 18512,
+          "terminal_differences": 0
+        }
+      ],
+      "reference_order_sha256": "E481D845B5EC5EFD87ABD5E40CBBF7BDA8F78CB576AB35939EF267AB848C6408",
+      "comparison_sha256": "3AAC8580DF0A0FAF0503B3E28FC3411957169613F4E0B1B2CB5782FBB75B9A0F"
+    },
+    {
+      "scene": "room",
+      "rows": [
+        {
+          "format": 3,
+          "timed": 0,
+          "cycles": 39875,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 0,
+          "cycles": 39809,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 64592,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1777,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 3,
+          "timed": 1,
+          "cycles": 56284,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": 15944,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 1,
+          "cycles": 57667,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 64592,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1777,
+          "total_line_requests": 16185,
+          "terminal_differences": 0
+        }
+      ],
+      "reference_order_sha256": "5298DD71EFCE85B109935A24E088AF15B363E9205C1592A76E4D89F39782E81F",
+      "comparison_sha256": "FCA7753E4C00FAA5B68D637DF718D4D60410A5CB8203FBB09AA394B7E9C5665E"
+    },
+    {
+      "scene": "train",
+      "rows": [
+        {
+          "format": 3,
+          "timed": 0,
+          "cycles": 34391,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 0,
+          "cycles": 34394,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 63808,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1765,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 3,
+          "timed": 1,
+          "cycles": 48120,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": 14822,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 1,
+          "cycles": 49682,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 63808,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1765,
+          "total_line_requests": 15051,
+          "terminal_differences": 0
+        }
+      ],
+      "reference_order_sha256": "CB831C04F91DEFE4F271EBE4B531B9F856CAF17C3E85A85E76CA3DDF2C22D7EB",
+      "comparison_sha256": "86999F47D37487B8D13C10050C6057C53FF69F2744CB607CC4B5E44C3B5EA644"
+    },
+    {
+      "scene": "truck",
+      "rows": [
+        {
+          "format": 3,
+          "timed": 0,
+          "cycles": 31302,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 0,
+          "cycles": 31300,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 64592,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1774,
+          "total_line_requests": null,
+          "terminal_differences": 0
+        },
+        {
+          "format": 3,
+          "timed": 1,
+          "cycles": 44335,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 73728,
+          "attribute_bursts": 528,
+          "attribute_line_requests": 1536,
+          "total_line_requests": 13872,
+          "terminal_differences": 0
+        },
+        {
+          "format": 2,
+          "timed": 1,
+          "cycles": 47339,
+          "logical_attribute_records": 512,
+          "attribute_bytes": 64592,
+          "attribute_bursts": 1036,
+          "attribute_line_requests": 1774,
+          "total_line_requests": 14110,
+          "terminal_differences": 0
+        }
+      ],
+      "reference_order_sha256": "2E654086C89F45236BCC3272A3791AA795C680350FB8B251D712A86488E8F43E",
+      "comparison_sha256": "48B0430F6DF0304D30B3DA85B93E7F1806EFDC1DF35C91CC811F49AAEF4B0787"
+    }
+  ],
+  "report_sha256": "A8526E8699374E014F2C4A72C2473A54A0F25CBEDE6DC8E1FB12D4BA73C3CB75",
+  "scope": "Width128 real 512-record inputs; exact address-level reconstruction of attribute bursts and LPDDR 64-byte lines. Full workloads pending.",
+  "signed_off": false
+}

@@ -1,0 +1,19 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_release_repeat_20261022_H\\t06_perf.exe",
+  "+AUTO_QSU",
+  "+AUTO_MODE",
+  "+AUTO_REPEAT_FRAMES=2",
+  "+FRAME_MODE=3",
+  "+MEAN=D:/3DGS/experiments/t06_precount_mem_20261022/real/subset/counter/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_precount_mem_20261022/real/subset/counter/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_precount_mem_20261022/real/subset/counter/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_release_20261022/repeat/counter/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_release_20261022/repeat/counter/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_release_20261022/repeat/counter/sorted.txt",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8",
+  "+MAX_TIMEOUT=10000000"
+]

@@ -1,0 +1,11 @@
+{
+  "scene": "truck",
+  "records": 2541226,
+  "requests": 1664518,
+  "v1_actual_bytes": 209131696,
+  "q24_projected_bytes": 209158000,
+  "raw_bytes": 239690592,
+  "extra_escapes": 1581,
+  "source_ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+  "q24_saved_vs_raw_percent": 12.73833559558316
+}

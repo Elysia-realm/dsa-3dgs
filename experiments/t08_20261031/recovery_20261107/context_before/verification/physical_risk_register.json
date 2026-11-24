@@ -1,0 +1,76 @@
+{
+  "updated_at": "2026-11-01",
+  "source_baseline": "experiments/t01_resume_20261025/open_design_issues.json",
+  "latest_work_package": "T08",
+  "scope": "Living follow-up register; frozen T01/T07 evidence remains immutable. Partial improvements do not close hard targets.",
+  "final_targets_verified": false,
+  "issues": [
+    {
+      "id": "T01-R1",
+      "status": "OPEN",
+      "owner": "T11, front-loaded alongside T08",
+      "problem": "Top-level core_rst_ni has excessive load; electrical and recovery/removal closure pending",
+      "partial_progress": "T07 local termination structure reduces reset-bearing flip-flops from 1629 to 276; new local hold/reset electrical violations remain. No new full-chip timing pass.",
+      "evidence": "experiments/t07_20261029/mapping/audit.json",
+      "next_action": "Freeze external reset/soft-reset release and outstanding-AXI contract; assess legal reset distribution and required reset state, then map and check all affected branches",
+      "closure": "Required reset/electrical/recovery/removal checks pass under justified constraints; complete nonempty recovery and same-source real regressions; no blanket reset false path"
+    },
+    {
+      "id": "T01-R2",
+      "status": "OPEN",
+      "owner": "T11 with T08 resource-budget feedback",
+      "problem": "Full-chip register implementation exceeds area budget; final SRAM ports/latencies/storage and arithmetic budgets pending",
+      "partial_progress": "Local termination mapping area falls by 60.59%/60.75% in the two TT libraries, with 79453 to 25144 mapped register bits. Shape predicate adds about 0.005798/0.008440 mm2 locally. These are not whole-chip or SRAM macro results.",
+      "evidence": "experiments/t07_20261029/mapping/audit.json; experiments/t07_20261029/shape_mapping/report.json",
+      "next_action": "Inventory all arrays, tags, padding, instances and arithmetic pipelines. T07 tag/mask arrays are 256x32 and 256x64, each 2R1W; use matching ports or a validated equivalent, not a 1R1W sample. Implement valid latency models and assess divider/sqrt/SH service-rate versus area before adding parallel resources",
+      "closure": "Frozen implementation accounts for standard cells and CACTI SRAM without double counting, meets 4 mm2 and 300 KB, and passes affected capacity/latency/ordering tests"
+    },
+    {
+      "id": "T01-R3",
+      "status": "OPEN",
+      "owner": "T08 and T11; mandatory post-T08 performance gate",
+      "problem": "Attribute/QSU traffic and shared service throughput remain limiting; independent legacy-ideal ports are not a calibrated common DDR system",
+      "partial_progress": "T07 combined full-model width128 cycle saving is 3.43%-7.01%; pixel termination alone contributes about 0.06%-0.19% while reducing millions of alpha/R operations. No 30FPS or target-resolution rendering pass.",
+      "evidence": "experiments/t07_20261029/full_C_report.json; experiments/t07_20261029/full_S_report.json",
+      "next_action": "At T08 entry run five target-resolution representative complete-model diagnostics, separate model calibration from hardware gains, then implement compressed/conditional attribute supply and calibrated shared-DDR arbitration",
+      "closure": "Actual workload/service/bandwidth budgets and end-to-end cycles support formal frame rate at verified frequency; if not, repair the measured bottleneck before T09 final calibration"
+    },
+    {
+      "id": "T01-R4",
+      "status": "OPEN",
+      "owner": "T12 after T11 convergence",
+      "problem": "All-corner timing/electrical closure, verified frequency and activity-based power pending",
+      "partial_progress": "T07 local reports preserve negative hold and electrical violations; ICsprout55 new filter TT setup margin is only about 0.04 ns. No activity power measured.",
+      "next_action": "Use frozen SS/TT/FF libraries and justified SRAM/interface budgets; repair valid paths after electrical/model issues, collect representative frame activities and account for core/SRAM power separately from DDR",
+      "closure": "200MHz, 4mm2, 300KB, 1W and all required timing/electrical checks pass; FPS/energy use verified frequency and matched activity/cycle scope"
+    },
+    {
+      "id": "T01-R5",
+      "status": "OPEN",
+      "owner": "T10, with diagnostics front-loaded at T08 entry",
+      "problem": "Formal target/native-resolution, 13-scene, at least 5-view-per-scene GT and frame-rate acceptance pending",
+      "partial_progress": "Five complete input models at width128 pass exact RTL-DMA RGB/internal-reference checks. Independent 1080p RGB DMA module tests are not full-model 1080p renders.",
+      "next_action": "Freeze matched cameras/GT and full models before measuring formal quality; keep Kitchen/Garden temporary development deferral distinct from final acceptance",
+      "closure": "All formal views meet T00 D04/D06/D07; no low-resolution or subset extrapolation"
+    },
+    {
+      "id": "T08-R7",
+      "status": "OPEN",
+      "owner": "T11 state locality/writeback front-loaded alongside T08; mandatory throughput gate",
+      "problem": "Bonsai and Counter native-resolution frames remain incomplete at 2 billion cycles. Partial pixel-state reads+writes already exceed 11.39 GB each; attribute compression alone cannot eliminate this traffic.",
+      "evidence": "experiments/t08_20261031/recovery_20261101/checkpoint.json",
+      "partial_progress": "Failure logs and saved ordered prefixes verified; progress continued until timeout. Room/Train/Truck diagnostics still pending at this checkpoint. Current T08 codec/precompute modules are independently tested but not in the production path.",
+      "next_action": "Measure tag/block replacement, repeated state transfers and working-set reuse; evaluate one bounded dirty-state/locality or termination-coverage change with full storage/port/area cost. Do not allocate a full native per-pixel bitmap beyond the 300 KB budget. Audit 32-bit observation/transaction wrap before extending native timeouts.",
+      "closure": "Same-condition native complete-frame evidence shows correct ordering/state/flush and resource-feasible throughput; required 30 FPS and shared-DDR constraints remain binding. Partial progress or raising timeout does not close this issue."
+    },
+    {
+      "id": "T07-R6",
+      "status": "OPEN_VERIFICATION",
+      "owner": "T11 reset and state-lifecycle contract",
+      "problem": "System-wide epoch recycling, empty-frame gaps and backing-state initialization are not established by the local filter wrap test",
+      "partial_progress": "New filter clears valid state on observed epoch changes, including tested wrap transitions; five nonempty repeated-frame scenes pass. This does not prove safe reuse of a tag with no observed transition or external-memory reinitialization after soft reset.",
+      "next_action": "Specify generation/tag reuse and reset coordination for every on-chip and off-chip state holder; test empty gaps, wrap/reuse, soft reset and outstanding responses before making system-wide lifecycle claims",
+      "closure": "No stale RGB/T or termination state can become visible after any supported reset/tag-reuse sequence; interface semantics and initialization responsibility documented and verified"
+    }
+  ]
+}

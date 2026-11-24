@@ -1,0 +1,5 @@
+read_liberty -ignore_miss_func -ignore_miss_dir -ignore_miss_data_latch "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+read_verilog "/mnt/d/3DGS/experiments/t08_20261031/dual_dma_cost_20261122/icsprout55/mapped.v"
+hierarchy -check -top axi4_t08_attribute_read_engine
+check -assert
+write_verilog -noattr "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/icsprout55/cells.v"

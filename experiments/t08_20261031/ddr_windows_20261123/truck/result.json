@@ -1,0 +1,117 @@
+{
+  "scene": "truck",
+  "camera": 125,
+  "gaussians": 2541226,
+  "width": 1957,
+  "height": 1091,
+  "results": [
+    {
+      "window": 0,
+      "first_tick": 22,
+      "end_tick_exclusive": 8214,
+      "axi_bursts": 3845,
+      "port_bursts": {
+        "camera": 1,
+        "mean": 240,
+        "qsu_write": 3604
+      },
+      "addressed_axi_bytes": 119328,
+      "axi_read_bytes": 61664,
+      "axi_write_bytes": 57664,
+      "line_requests": 4568,
+      "partial_line_requests": 3605,
+      "dram_cycles": 25508,
+      "controller_reported_transfer_bytes": 292352,
+      "saturated_useful_GBps": 5.613674141445821,
+      "rtl_issue_demand_GBps_at_200mhz": 2.9132812500000003,
+      "stats_sha256": "CC9B98CCB4484BE5FC409D25B036E7F3EC29EF186CAFDF4AC4A597D8311A4347",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.23653973800003314,
+        "log_sha256": "FB4923B402C8D79BAEF5384F1069241BA939B6CBC30000EE815C7D7266603D10"
+      }
+    },
+    {
+      "window": 1,
+      "first_tick": 5400175,
+      "end_tick_exclusive": 5408367,
+      "axi_bursts": 7736,
+      "port_bursts": {
+        "qsu_write": 7281,
+        "qsu_read": 455
+      },
+      "addressed_axi_bytes": 232976,
+      "axi_read_bytes": 116480,
+      "axi_write_bytes": 116496,
+      "line_requests": 9101,
+      "partial_line_requests": 7281,
+      "dram_cycles": 43580,
+      "controller_reported_transfer_bytes": 582464,
+      "saturated_useful_GBps": 6.415126204681046,
+      "rtl_issue_demand_GBps_at_200mhz": 5.6878906250000005,
+      "stats_sha256": "12A0EF29E4D6BF4A7EC3FBF09EFFA632871B96810F30F2A04BBE7E9CDBDF9872",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.23558750400002282,
+        "log_sha256": "7CD998C3DB984F7CBFBAB0D14BE2658E732DDACD606B7C611C546CA19BEA6E86"
+      }
+    },
+    {
+      "window": 2,
+      "first_tick": 9051212,
+      "end_tick_exclusive": 9059404,
+      "axi_bursts": 5821,
+      "port_bursts": {
+        "state_read": 2909,
+        "output_write": 2912
+      },
+      "addressed_axi_bytes": 93136,
+      "axi_read_bytes": 46544,
+      "axi_write_bytes": 46592,
+      "line_requests": 5821,
+      "partial_line_requests": 5821,
+      "dram_cycles": 31146,
+      "controller_reported_transfer_bytes": 367232,
+      "saturated_useful_GBps": 3.5883644769793874,
+      "rtl_issue_demand_GBps_at_200mhz": 2.273828125,
+      "stats_sha256": "38F6F3AA232643B7E3528095BE09AECDA1162B5D218EDF2984B8E2154F8B1411",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.24253867500010529,
+        "log_sha256": "1EA33A77AB2AFB5F5FF75E35B29C76D5962E1241A70DB88E8DD8C96E756535FB"
+      }
+    },
+    {
+      "window": 3,
+      "first_tick": 13255646,
+      "end_tick_exclusive": 13263838,
+      "axi_bursts": 2951,
+      "port_bursts": {
+        "state_read": 1474,
+        "output_write": 1477
+      },
+      "addressed_axi_bytes": 47216,
+      "axi_read_bytes": 23584,
+      "axi_write_bytes": 23632,
+      "line_requests": 2951,
+      "partial_line_requests": 2951,
+      "dram_cycles": 15861,
+      "controller_reported_transfer_bytes": 186368,
+      "saturated_useful_GBps": 3.5722337809721956,
+      "rtl_issue_demand_GBps_at_200mhz": 1.152734375,
+      "stats_sha256": "5E86D845AC6D571D0FF5E0FA4A70CBD909F3188D6EA8F095293D5110DF76E7C0",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.21716593100006776,
+        "log_sha256": "283D88CA03718D5C44CB4C04D5FD416CF7CD99EC81B87735D1DED72A7677A891"
+      }
+    }
+  ],
+  "raw_trace_sha256": "509F9D84285F86AF4320C2A537839397D397E762E9E1A8CF350C7D41D52F19A6",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 426.4893474539999,
+    "log_sha256": "C3463EADC33C4797351A5B3C225633C6065E55EF9809F942B875753176E2BA9D"
+  },
+  "signed_off": false
+}

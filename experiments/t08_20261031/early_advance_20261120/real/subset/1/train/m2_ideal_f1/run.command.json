@@ -1,0 +1,19 @@
+[
+  "/home/gs3d/work/t08_20261031/early_advance_20261120/subset/1/simulation",
+  "+AUTO_QSU",
+  "+MEAN=/mnt/d/3DGS/experiments/t06_release_20261022/subset/train/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/integration_20261107/inputs/train/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t06_release_20261022/subset/train/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/real/subset/1/train/m2_ideal_f1/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/real/subset/1/train/m2_ideal_f1/rgb.memh",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/real/subset/1/train/m2_ideal_f1/sorted.txt",
+  "+FRAME_MODE=2",
+  "+MAX_TIMEOUT=10000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+ATTR_FORMAT=1",
+  "+MUTATE_FORMAT"
+]

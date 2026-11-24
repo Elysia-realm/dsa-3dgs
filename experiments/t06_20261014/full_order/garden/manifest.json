@@ -1,0 +1,12 @@
+{
+  "scene": "garden",
+  "camera_index": 92,
+  "gaussians": 5834784,
+  "full_scene": true,
+  "scope": "all PLY records; exact quantized/saturated depth oracle at QSU input, not production top/visibility/RGB validation",
+  "prepass_numeric_overflows": 0,
+  "input_order": "original PLY; CPU never pivots or constructs subsets",
+  "source_ply_sha256": "16701d5e0630dfaca74f8794ed7ce2aa23fa922f87dc09a7e37484e8d3f82d5a",
+  "input_sha256": "e4d4700544eb7890ed85b760a66fb627cdd59e31a8405489543ab066cd9fe09e",
+  "expected_sha256": "21de146afb2a0d3836dd1756528afeed7b4dd42ed5319a9a1a49c708da7fc9cc"
+}

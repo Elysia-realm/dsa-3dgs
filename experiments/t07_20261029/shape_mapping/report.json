@@ -1,0 +1,35 @@
+{
+  "status": "PASS_AREA_MAPPING",
+  "results": [
+    {
+      "pdk": "nangate45",
+      "area_mm2": 0.0057977359999999995,
+      "cells": 4968,
+      "library_sha256": "2EFD0B32EB580E4E60E72FC0575BB3BC69AAC907C91D908442E4AE6D7FE55895",
+      "source_sha256": "9D0D5F0B84775B45E5E9AE303854A6825281214FABE308744EA8B7B25ACAAEEB",
+      "netlist_sha256": "C15CC1AA186F4D4AB062B84338FC609E94E246110393969430CE0E1E387599A5",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 497.069106897,
+        "log_sha256": "6100BF6F07F8812F661E1E0A77A4D200768EBB2E0BC671842C0584C6C957E82C"
+      },
+      "whole_chip_ppa_pass": false,
+      "scope": "One combinational predicate instance, area-only; ABC timing is not integrated top-level STA."
+    },
+    {
+      "pdk": "icsprout55",
+      "area_mm2": 0.008439760000000001,
+      "cells": 4703,
+      "library_sha256": "15AF0DCECEEEB02E174174E7123C7D551551369BF5AD1E8417D3CE8DCBC24FCD",
+      "source_sha256": "9D0D5F0B84775B45E5E9AE303854A6825281214FABE308744EA8B7B25ACAAEEB",
+      "netlist_sha256": "AB0A689C66C570DE22CC36844AD0EEFFDB7064F3993840A70356472CBB327ADC",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 448.2754143689999,
+        "log_sha256": "B8FC9B2A34A01A55F3556116B1E398325D4CEBD6204378E2DE5504AF56B64335"
+      },
+      "whole_chip_ppa_pass": false,
+      "scope": "One combinational predicate instance, area-only; ABC timing is not integrated top-level STA."
+    }
+  ]
+}

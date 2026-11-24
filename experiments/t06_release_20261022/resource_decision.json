@@ -1,0 +1,78 @@
+{
+  "decision": "ACCEPT_H_FUNCTIONAL_PROFILE_PPA_PENDING",
+  "additional_histogram_bits": 386912,
+  "histogram_stack": {
+    "rows": 218,
+    "width": 1712,
+    "read_ports": 1,
+    "write_ports": 1
+  },
+  "major_storage_inventory": [
+    {
+      "name": "image_state_cache_tag_epoch_RGB_T_valid",
+      "bits": 425984,
+      "KiB": 52
+    },
+    {
+      "name": "qsu_descriptor_stack",
+      "bits": 53846,
+      "KiB": 6.572998046875
+    },
+    {
+      "name": "qsu_child_histogram_stack_and_working_set",
+      "bits": 386912,
+      "KiB": 47.23046875
+    },
+    {
+      "name": "qsu_dual_atomic_leaf",
+      "bits": 2912,
+      "KiB": 0.35546875
+    },
+    {
+      "name": "bsu_two_ingress_and_ten_pipeline_payload_banks",
+      "bits": 18624,
+      "KiB": 2.2734375
+    },
+    {
+      "name": "pixel_termination_mask",
+      "bits": 28928,
+      "KiB": 3.53125
+    },
+    {
+      "name": "block_termination_table",
+      "bits": 50176,
+      "KiB": 6.125
+    },
+    {
+      "name": "qsu_write_address_payload_FIFO",
+      "bits": 3072,
+      "KiB": 0.375
+    },
+    {
+      "name": "final_RGB_chunk_bytes",
+      "bits": 1920,
+      "KiB": 0.234375
+    }
+  ],
+  "major_storage_subtotal_KiB": 118.697998046875,
+  "whole_chip_storage_complete": false,
+  "whole_chip_PPA_pass": false,
+  "unmeasured": [
+    "projection/SH pipeline and context/register inventory",
+    "all FIFOs/MSHR/control registers and ROM implementation accounting",
+    "physical SRAM macro area/port/latency",
+    "whole-chip mapped frequency/area/activity power"
+  ],
+  "compute_cost": "P dot3 adds two P-only 32x32 multipliers beyond the one common selected G/P/R multiplier. BSU K16 retains 80 CAS, 79 dedicated and one shared. No full-chip PPA inferred.",
+  "acceptance": "Five complete-model R/H cycles improve 10.08%-11.55% without RGB/order regression; retain bounded H, stop parameter exploration. T11/T12 must price all storage and logic and revisit if hard limits fail. Major-array subtotal is NOT a whole-chip 300KB pass.",
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "95b7abdbdd59b3a79d456144aca9941fd6542ca708108b45f884d94c9bebd7b9",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/raster/image_state_cache_backend_4.sv": "9f537ed2f91b618dcfafff1c845b04338385f8b8373addda081caeb31c0d3a73",
+    "rtl/raster/pixel_termination_mask.sv": "b335459d7c6251c6c870d0ebffd0d4e7728fa1430fdbde5f87a2f3ea2b775f11",
+    "rtl/raster/block_termination_bank.sv": "198c9b83ff95271a9c6b3532e775e03ad47cf9d3cfb2d024717ad8e32d77ce17",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259a001e202e3703c6005fe6712ced73dbf13bdcadcf0f9042e582527858c",
+    "rtl/dma/axi4_qsu_scratch_dma.sv": "2a66ab15eaa84c1b2187290aeef5168483bbd407bba1fef82ad13e5bba60e403",
+    "rtl/dma/axi4_final_rgb_frame_dma.sv": "dfc8e53c8b4d517cce725b72a2016bd5eac9b7f7cbbbed12f098d6d43ae04dd2"
+  }
+}

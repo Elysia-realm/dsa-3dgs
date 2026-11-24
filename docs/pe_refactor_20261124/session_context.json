@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-24",
+  "purpose": "本对话 PE RTL 重构的持久上下文、约束与决策索引；不替代项目合同或签核证据。",
+  "status": "等待用户提供首个 RTL 案例及具体移植需求；仅完成上下文准备，未改 RTL、未运行仿真。",
+  "user_requirements": [
+    "在继续剩余毕设任务前，围绕加速器基本处理单元 PE 重构。",
+    "学习用户逐次提供的现有 RTL 案例，按用户需求移植，不自行扩大重构范围。",
+    "及时记录重要结论；上下文恢复或继续工作时先读本文件和决策记录。",
+    "严格遵守项目规范，以功能保持或改善、性能不退化为候选接纳门槛。"
+  ],
+  "sources": [
+    "AGENTS.md",
+    "docs/毕业设计任务清单与剩余实施计划_2026-11-24.md",
+    "verification/implementation_status.json",
+    "docs/开发日志_2026-11-23_T08属性首突发与共享DDR对照.md",
+    "docs/T08当前批次验收结果与用户交接_2026-11-24.md"
+  ],
+  "baseline_boundaries": {
+    "last_signed_profile": "verification/t07_release_profile.json",
+    "last_signed_profile_name": "t07_shape_pixel_v1",
+    "t08_signed_off": false,
+    "audited_development_candidate": "八拍属性首突发、Q24、整块终止、共享 LPDDR4；当前批次审计完成不代表正式发布。",
+    "source_manifest_frozen_for_this_refactor": false,
+    "required_before_rtl_edit": "核对实际编译源、实验副本、生产入口和配置；建立可恢复的源码快照及哈希，明确本轮同条件比较基线，不混用 T07/T08/工作区证据。",
+    "open_items": ["T08 D04/D06/D08", "T10 正式 GT 与完整覆盖", "T11 存储/复位/DDR", "T12 最终 PPA"],
+    "workspace_version_control_observation": "本次 git status 返回当前目录不是 Git 仓库；后续不能依赖未经确认的 Git 回退能力。"
+  },
+  "workflow": [
+    "接收案例后记录来源、原始代码或路径/哈希、用户要求及适用范围。",
+    "分析算术语义、位宽/符号/舍入/饱和、流水延迟/启动间隔、握手背压、复位及共享 G/P/R 语义，区分可复用设计和项目不适用假设。",
+    "先明确目标模块、接口映射、影响范围与验收判据，再按已给需求实施单一主要因素的有界改动。",
+    "保留基线与候选，执行模块边界验证和受影响的生产真实端到端回归，证明新路径实际启用。",
+    "同源码口径、输入、配置、AXI/DDR 条件和计时边界比较周期、服务率、DMA 与资源/时序成本，逐场记录，不用平均收益掩盖退化。",
+    "存在功能或性能退化则修正或回退本轮候选；证据不足保持未验收，不将候选提升为正式基线。"
+  ],
+  "validation_constraints": {
+    "primary_environment": "WSL2 / Ubuntu-24.04，独立 Linux 构建；保留 Windows 系统保护。",
+    "active_scenes": ["Bonsai", "Counter", "Room", "Train", "Truck"],
+    "temporarily_deferred_scenes": ["Kitchen", "Garden"],
+    "final_contract_unchanged": "T00/T10 正式 13 场景、每场至少 5 视角及原定画质/30FPS/PPA 合同保持。",
+    "required_checks": ["同版本五场景受影响能力", "独立数学/语义参考", "RGB DMA 与 PNG 字节一致", "排序及同像素依赖", "DONE/IRQ 与最终事务排空", "共享物理地址边界", "必要协议边界、非空连续帧、复位和错误恢复"],
+    "performance_reporting": "分列主机耗时、RTL 周期、假定频率 FPS 和有效时序支持的性能；busy 不等于计算时间，重叠计数不相加，缺测不填零。",
+    "evidence": "保留命令、工具版本、配置、源码/输入/可执行文件/输出哈希、日志、性能与成本差异和接受/回退决定。"
+  },
+  "recording_policy": "收到新要求、完成案例学习、作出架构决定、完成实现/测试或发现失败后及时更新；已确认事实、待验证假设、用户决定与未解决项分别记录；保留被替代决定及原因。",
+  "decisions_file": "docs/pe_refactor_20261124/decisions.json",
+  "next_action": "接收用户首个 RTL 案例及移植需求后学习和映射；当前不自动启动主清单第 5 节诊断或后续主任务。"
+}

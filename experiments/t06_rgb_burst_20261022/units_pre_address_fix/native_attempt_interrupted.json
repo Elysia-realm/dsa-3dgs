@@ -1,0 +1,7 @@
+{
+  "status": "INTERRUPTED_NOT_PASS",
+  "reason": "Review found synthetic unit state/output address ranges overlap at larger resolutions. Although input values were generated procedurally, these runs must not demonstrate disjoint physical mapping. Preserve artifacts and repeat with asserted nonoverlap.",
+  "stopped_owned_processes": [26596, 24676],
+  "production_matrix_affected": false,
+  "old_unit_pass_scope": "synthetic byte/protocol check only; superseded for acceptance by disjoint-region rerun"
+}

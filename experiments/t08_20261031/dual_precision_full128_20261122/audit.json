@@ -1,0 +1,454 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "camera": 146,
+      "gaussians": 1244819,
+      "full_model": true,
+      "width": 128,
+      "height": 84,
+      "rows": [
+        {
+          "format": 0,
+          "command_cycles": 33847278,
+          "requests": 1051092,
+          "attr_bytes": 151357248,
+          "ar": 1083904,
+          "precomputed": 0,
+          "internal_mae": 0.2156187996031746,
+          "host_wall_s": 1119.7447855220003,
+          "host_user_cpu_s": 1160.5
+        },
+        {
+          "format": 1,
+          "command_cycles": 32908642,
+          "requests": 1051092,
+          "attr_bytes": 129425728,
+          "ar": 2125516,
+          "precomputed": 1051091,
+          "internal_mae": 0.2156187996031746,
+          "host_wall_s": 1089.2079585680003,
+          "host_user_cpu_s": 1126.35
+        },
+        {
+          "format": 2,
+          "command_cycles": 32908823,
+          "requests": 1051092,
+          "attr_bytes": 129430208,
+          "ar": 2125522,
+          "precomputed": 1050851,
+          "internal_mae": 0.21459573412698413,
+          "host_wall_s": 1099.2517094029997,
+          "host_user_cpu_s": 1134.57
+        },
+        {
+          "format": 3,
+          "command_cycles": 33846989,
+          "requests": 1051092,
+          "attr_bytes": 151357248,
+          "ar": 1083904,
+          "precomputed": 0,
+          "internal_mae": 0.21459573412698413,
+          "host_wall_s": 1151.5509567899999,
+          "host_user_cpu_s": 1172.84
+        }
+      ],
+      "ply_sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273",
+      "mean_camera_ref_sha256": {
+        "manifest.json": "C6A0EECD8D0418257BD756EE1CC1700EC894EC2E8C9488C906627B791AA252F3",
+        "expected_sorted.txt": "FCDFF0AB44008D6B03E915B9E76C7CCCC9BAE1745DB2D847AEC1084B9FA759FA",
+        "camera.memh": "9943E12B5871932500E7C0B95D52CDD8E78829459A518A2E013C1A9260AC8649",
+        "mean.memh": "F29B71996B32E0497E05E9CC2345A4EEE708A88ADF409F8576EB3173A851EFC5",
+        "attribute.memh": "A6DD88FB236D20CA17998B9B6BD93A44993C5782956538E68EB1D1B75A9CBF74"
+      },
+      "comparison_sha256": "95ACB0DE31FF26339C6C8E2B8BF56AF8E5F6F3113602CC12C0A1776E5CDD42D7",
+      "pixels_changed": 788,
+      "pixels_worse": 372,
+      "pixels_improved": 397,
+      "absolute_error_delta_sum": -33,
+      "worst_delta": {
+        "x": 54,
+        "y": 16,
+        "q20": [
+          25,
+          24,
+          24
+        ],
+        "q24": [
+          24,
+          23,
+          23
+        ],
+        "reference": [
+          25,
+          25,
+          24
+        ]
+      },
+      "q24_compact_cycle_delta_vs_v1": 181,
+      "q24_compact_speedup_percent_vs_q24_raw": 2.771785697097018,
+      "q24_byte_reduction_percent": 14.486944160084093
+    },
+    {
+      "scene": "counter",
+      "camera": 120,
+      "gaussians": 1222956,
+      "full_model": true,
+      "width": 128,
+      "height": 84,
+      "rows": [
+        {
+          "format": 0,
+          "command_cycles": 37552584,
+          "requests": 1110964,
+          "attr_bytes": 159978816,
+          "ar": 1145676,
+          "precomputed": 0,
+          "internal_mae": 0.2535962301587302,
+          "host_wall_s": 1233.5477127129998,
+          "host_user_cpu_s": 1284.23
+        },
+        {
+          "format": 1,
+          "command_cycles": 37054255,
+          "requests": 1110964,
+          "attr_bytes": 140086880,
+          "ar": 2247459,
+          "precomputed": 1110964,
+          "internal_mae": 0.2535962301587302,
+          "host_wall_s": 1211.072748179,
+          "host_user_cpu_s": 1253.71
+        },
+        {
+          "format": 2,
+          "command_cycles": 37054191,
+          "requests": 1110964,
+          "attr_bytes": 140088384,
+          "ar": 2247459,
+          "precomputed": 1110870,
+          "internal_mae": 0.25179811507936506,
+          "host_wall_s": 1227.320471771,
+          "host_user_cpu_s": 1269.68
+        },
+        {
+          "format": 3,
+          "command_cycles": 37552446,
+          "requests": 1110964,
+          "attr_bytes": 159978816,
+          "ar": 1145676,
+          "precomputed": 0,
+          "internal_mae": 0.25179811507936506,
+          "host_wall_s": 1265.358774168,
+          "host_user_cpu_s": 1291.77
+        }
+      ],
+      "ply_sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4",
+      "mean_camera_ref_sha256": {
+        "manifest.json": "6D0E3BA2494572E9BD1ADADA70EAC33AC11D3F3ABEEDF274237449C592BE4C7E",
+        "expected_sorted.txt": "C24BC0E673BF402B2DD11FA362FA0810B242F885D17C711DC04D4B1887007D30",
+        "camera.memh": "16F1DDB6C8236206070FD29875B8B62EF2136A5AD60413F021FC5AB3DB3B01C7",
+        "mean.memh": "01798E6CA573789C0658EB980F2AB132BCA5E89C8D9E3D3DC30D51AC242D0914",
+        "attribute.memh": "6C8B1C82D6D2C36CB62A62C822515C9E9DC6861D2E8242FA713D0F1F16563209"
+      },
+      "comparison_sha256": "685BD886537852958DCCF2D6316655BA743EFDB7C6A4358A6C73E2A65D7CF993",
+      "pixels_changed": 1744,
+      "pixels_worse": 812,
+      "pixels_improved": 865,
+      "absolute_error_delta_sum": -58,
+      "worst_delta": {
+        "x": 68,
+        "y": 26,
+        "q20": [
+          197,
+          157,
+          123
+        ],
+        "q24": [
+          196,
+          156,
+          122
+        ],
+        "reference": [
+          197,
+          157,
+          123
+        ]
+      },
+      "q24_compact_cycle_delta_vs_v1": -64,
+      "q24_compact_speedup_percent_vs_q24_raw": 1.3268243565279336,
+      "q24_byte_reduction_percent": 12.433166151198416
+    },
+    {
+      "scene": "room",
+      "camera": 155,
+      "gaussians": 1593376,
+      "full_model": true,
+      "width": 128,
+      "height": 84,
+      "rows": [
+        {
+          "format": 0,
+          "command_cycles": 45221337,
+          "requests": 1380856,
+          "attr_bytes": 198843264,
+          "ar": 1423976,
+          "precomputed": 0,
+          "internal_mae": 0.21788194444444445,
+          "host_wall_s": 1499.4374796329994,
+          "host_user_cpu_s": 1561.06
+        },
+        {
+          "format": 1,
+          "command_cycles": 43835498,
+          "requests": 1380856,
+          "attr_bytes": 168735856,
+          "ar": 2792111,
+          "precomputed": 1380855,
+          "internal_mae": 0.21788194444444445,
+          "host_wall_s": 1453.164391057,
+          "host_user_cpu_s": 1507.52
+        },
+        {
+          "format": 2,
+          "command_cycles": 43835398,
+          "requests": 1380856,
+          "attr_bytes": 168739088,
+          "ar": 2792111,
+          "precomputed": 1380655,
+          "internal_mae": 0.2183159722222222,
+          "host_wall_s": 1457.227385999,
+          "host_user_cpu_s": 1507.11
+        },
+        {
+          "format": 3,
+          "command_cycles": 45221067,
+          "requests": 1380856,
+          "attr_bytes": 198843264,
+          "ar": 1423976,
+          "precomputed": 0,
+          "internal_mae": 0.2183159722222222,
+          "host_wall_s": 1524.597333011,
+          "host_user_cpu_s": 1561.46
+        }
+      ],
+      "ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+      "mean_camera_ref_sha256": {
+        "manifest.json": "4525C366B8C40E7AAA8E7DEA75931A5449C27C551F6049C083AA65D352038EA4",
+        "expected_sorted.txt": "4021E854AA0576EB6EC029E168ADB1907B6DA9A108B9CBFD76813EDD4D0A20D9",
+        "camera.memh": "F6BD7B0F5DA2C21FBAE24EBB1F279439B72FB19D75BAA2D4447EED963AC3EB82",
+        "mean.memh": "439F9BB4A364792D91FF685155CF6267D2E2669E3FCA22BF91811048650C4C4B",
+        "attribute.memh": "8BB9588B12CA9B15CC10F110CC2CF0ABD5A522ABB38B8426EC1C95720063C2ED"
+      },
+      "comparison_sha256": "ABB8E98503A025EB35E866DD9EA003DA8CB0277EF1C37732E8A1E10EC66AC453",
+      "pixels_changed": 654,
+      "pixels_worse": 331,
+      "pixels_improved": 308,
+      "absolute_error_delta_sum": 14,
+      "worst_delta": {
+        "x": 55,
+        "y": 2,
+        "q20": [
+          111,
+          75,
+          19
+        ],
+        "q24": [
+          110,
+          75,
+          18
+        ],
+        "reference": [
+          111,
+          75,
+          19
+        ]
+      },
+      "q24_compact_cycle_delta_vs_v1": -100,
+      "q24_compact_speedup_percent_vs_q24_raw": 3.064211200500866,
+      "q24_byte_reduction_percent": 15.139650896094725
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 1026508,
+      "full_model": true,
+      "width": 128,
+      "height": 71,
+      "rows": [
+        {
+          "format": 0,
+          "command_cycles": 31740233,
+          "requests": 926607,
+          "attr_bytes": 133431408,
+          "ar": 955548,
+          "precomputed": 0,
+          "internal_mae": 0.38391285211267606,
+          "host_wall_s": 998.6899269329997,
+          "host_user_cpu_s": 1041.2
+        },
+        {
+          "format": 1,
+          "command_cycles": 31216223,
+          "requests": 926607,
+          "attr_bytes": 115036080,
+          "ar": 1874065,
+          "precomputed": 926557,
+          "internal_mae": 0.38391285211267606,
+          "host_wall_s": 984.160118322,
+          "host_user_cpu_s": 1023.87
+        },
+        {
+          "format": 2,
+          "command_cycles": 31217013,
+          "requests": 926607,
+          "attr_bytes": 115054528,
+          "ar": 1874072,
+          "precomputed": 925436,
+          "internal_mae": 0.3867737676056338,
+          "host_wall_s": 1000.7303632009998,
+          "host_user_cpu_s": 1041.81
+        },
+        {
+          "format": 3,
+          "command_cycles": 31739995,
+          "requests": 926607,
+          "attr_bytes": 133431408,
+          "ar": 955548,
+          "precomputed": 0,
+          "internal_mae": 0.3867737676056338,
+          "host_wall_s": 1042.6150672369995,
+          "host_user_cpu_s": 1088.09
+        }
+      ],
+      "ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+      "mean_camera_ref_sha256": {
+        "manifest.json": "35CA7E44D9178A87CC39684479070295860D311B0BF67E9BC75027A501CE01B2",
+        "expected_sorted.txt": "D04476E5BA793EF887591270933B0FA7EF68FD264E4A852A56D2247B122EB66D",
+        "camera.memh": "6AD2DFDBD456F5C739994B77F5BBB4781A54D87848966F0E3E13CB6945017BB0",
+        "mean.memh": "A6B66E5E5FD3CD6303CF49E147A59BF0EFB108E91D8CEE62DBD34FA48004D259",
+        "attribute.memh": "DF0132F96A9EC91E73A2F35E39C95599253809932D09F5BD3FA0E3EC8ABAE113"
+      },
+      "comparison_sha256": "1DD5C47354BA04372A0BB7D1906E64B86D7BA98A5B70F9C5744650DC5FEB9283",
+      "pixels_changed": 1431,
+      "pixels_worse": 716,
+      "pixels_improved": 660,
+      "absolute_error_delta_sum": 78,
+      "worst_delta": {
+        "x": 110,
+        "y": 67,
+        "q20": [
+          106,
+          100,
+          93
+        ],
+        "q24": [
+          104,
+          98,
+          91
+        ],
+        "reference": [
+          106,
+          100,
+          93
+        ]
+      },
+      "q24_compact_cycle_delta_vs_v1": 790,
+      "q24_compact_speedup_percent_vs_q24_raw": 1.6477066237723048,
+      "q24_byte_reduction_percent": 13.772529478216999
+    },
+    {
+      "scene": "truck",
+      "camera": 125,
+      "gaussians": 2541226,
+      "full_model": true,
+      "width": 128,
+      "height": 71,
+      "rows": [
+        {
+          "format": 0,
+          "command_cycles": 54291663,
+          "requests": 1664518,
+          "attr_bytes": 239690592,
+          "ar": 1716613,
+          "precomputed": 0,
+          "internal_mae": 0.27501467136150237,
+          "host_wall_s": 1663.631766212,
+          "host_user_cpu_s": 1733.13
+        },
+        {
+          "format": 1,
+          "command_cycles": 53253347,
+          "requests": 1664518,
+          "attr_bytes": 209131696,
+          "ar": 3367150,
+          "precomputed": 1664450,
+          "internal_mae": 0.27501467136150237,
+          "host_wall_s": 1637.0763875429984,
+          "host_user_cpu_s": 1702.06
+        },
+        {
+          "format": 2,
+          "command_cycles": 53255436,
+          "requests": 1664518,
+          "attr_bytes": 209158000,
+          "ar": 3367165,
+          "precomputed": 1662869,
+          "internal_mae": 0.27662852112676056,
+          "host_wall_s": 1697.649631882,
+          "host_user_cpu_s": 1761.72
+        },
+        {
+          "format": 3,
+          "command_cycles": 54292061,
+          "requests": 1664518,
+          "attr_bytes": 239690592,
+          "ar": 1716613,
+          "precomputed": 0,
+          "internal_mae": 0.27662852112676056,
+          "host_wall_s": 1769.4817603789998,
+          "host_user_cpu_s": 1836.75
+        }
+      ],
+      "ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+      "mean_camera_ref_sha256": {
+        "manifest.json": "348746C02EAC9339F4EAD2FC9BA3DE67DECA7160B176077B6C153225943BEFFD",
+        "expected_sorted.txt": "C5A616DD2F39485ED0AC30098A462E00EFF193F82BCD4360A53EE7AFBA28F345",
+        "camera.memh": "0201F3DB88C49A09F26857711C140299BC4D545D34C1E2E734630605A4EB3E28",
+        "mean.memh": "5A4908F3F185CAE1DBABD9BED6120C91B006AE8D50ABADCC1BED7C7B6FD0DE69",
+        "attribute.memh": "0BD9373DF6CE86F7FCBA0F80681B8A30EAD21ACDBFE6499EA2187CA9D6F92FBF"
+      },
+      "comparison_sha256": "104627B7CF3D355965B2969DD9B14D73B3D4753D37D15D113B8915020134EBFC",
+      "pixels_changed": 849,
+      "pixels_worse": 432,
+      "pixels_improved": 384,
+      "absolute_error_delta_sum": 44,
+      "worst_delta": {
+        "x": 27,
+        "y": 30,
+        "q20": [
+          123,
+          129,
+          144
+        ],
+        "q24": [
+          124,
+          130,
+          145
+        ],
+        "reference": [
+          122,
+          128,
+          144
+        ]
+      },
+      "q24_compact_cycle_delta_vs_v1": 2089,
+      "q24_compact_speedup_percent_vs_q24_raw": 1.9093491403835317,
+      "q24_byte_reduction_percent": 12.73833559558316
+    }
+  ],
+  "report_sha256": "560C72E4BA9E86675023C7FAB8806CCB80FF6151790E788ED285964FEA3DBA77",
+  "script_sha256": "D98D828AA89FB9C7F332626A7F4DAF5260D40BC4A02B824A5B4CAAB5B38CF22B",
+  "scope": "Width128, G/legacy-ideal, all records. Generic bench label ignored; launch MEAN/CAMERA hashes bind each scene to its reference.",
+  "decision": "Retain Q24 command as opt-in for precision recovery and attribute DMA savings. Formal quality, timing, DDR and throughput remain open.",
+  "signed_off": false
+}

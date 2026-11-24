@@ -1,0 +1,38 @@
+{
+  "status": "RETAIN_FOR_DEVELOPMENT",
+  "results": [
+    {
+      "scene": "train",
+      "cycles": 654430335,
+      "cycle_savings_percent": 35.16370680102626,
+      "r_grants": 123659292,
+      "saved_r": 69268200,
+      "traffic_savings_percent": 33.60505898698586,
+      "fps_200mhz": 0.3056093052287987,
+      "r_service_multiple_at_200mhz_30fps": 18.5488938,
+      "cycle_multiple_at_200mhz_30fps": 98.16455025,
+      "required_GBps_at_30fps": 129.71567664,
+      "fraction_state_io": 0.9030251639136035,
+      "native_audit_sha256": "92360F508FA2B2E57B477AE1C3D7A4E471329DF7AFDFBCA7B089129CD607324C"
+    },
+    {
+      "scene": "truck",
+      "cycles": 719309339,
+      "cycle_savings_percent": 27.778755982120277,
+      "r_grants": 129074145,
+      "saved_r": 61437188,
+      "traffic_savings_percent": 29.054588821476813,
+      "fps_200mhz": 0.2780444923432309,
+      "r_service_multiple_at_200mhz_30fps": 19.36112175,
+      "cycle_multiple_at_200mhz_30fps": 107.89640085,
+      "required_GBps_at_30fps": 140.98457328,
+      "fraction_state_io": 0.8494021274382084,
+      "native_audit_sha256": "D857BCC1C5B0042F098BFB3AFE64CECC90D41A6F428328EF90727EA5685CF002"
+    }
+  ],
+  "report_sha256": "105DDAFDF2CBC534B1B2EC54FED0507A9DDA05D0A03338BC37C7A61CC45D61E1",
+  "full128_audit_sha256": "0D77711C0A44C78F51E665CFDFB05BF18C847947884E4AF54F88AD965545BFE0",
+  "memory_report_sha256": "4BDD4068F8CCE653C9E4AC46E7BBB6959DD24BDA65ECA967F8B77A37187F96BF",
+  "scope": "5 complete width128 cases + 2 complete native pairs. Keep the table for continued validation with the root-precount/Q24 configuration; array port/timing feasibility, per-view GT, physical DDR and 30 FPS remain open.",
+  "signed_off": false
+}

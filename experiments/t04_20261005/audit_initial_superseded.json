@@ -1,0 +1,48 @@
+{
+  "task": "T04",
+  "date": "2026-10-05",
+  "status": "SUPERSEDED_INSUFFICIENT_REAL_RGB_EVIDENCE",
+  "superseded_by": "experiments/t04_20261005/audit.json",
+  "reason": "Initial signoff omitted real RGB path and missed state-writer BVALID leakage; retained only as historical evidence.",
+  "production_top": "gs_accel_system_top",
+  "format": {
+    "version": 1,
+    "name": "rgb888-row-aligned16-v1",
+    "byte_order": "R,G,B",
+    "row_stride": "align16(width*3)",
+    "padding": 0,
+    "default_background_rgb8": [0, 0, 0],
+    "scratch_offset": "align16(width*3)*height",
+    "scratch_bytes_per_pixel": 16
+  },
+  "dma": {
+    "state_read_beat_bytes": 16,
+    "maximum_rgb_write_burst_beats": 15,
+    "crosses_4k_boundary": false,
+    "done_waits_for_final_b_response": true,
+    "error_status_bits": {"config": 22, "read": 23, "write": 24}
+  },
+  "verification": {
+    "standalone_dma": {
+      "status": "PASS",
+      "coverage": ["83-pixel row", "two rows", "old epoch", "background composite", "RGB byte order", "row padding", "read/write backpressure", "4 KiB burst split", "final B ordering", "configuration error", "read response error", "write response error"]
+    },
+    "t03_t04_system_integration": {
+      "status": "PASS",
+      "testbench": "verification/rtl/tb_gs_accel_system_camera_dma.sv",
+      "coverage": ["camera descriptor", "empty untouched frame", "continuation suppresses intermediate output", "final continuation emits one RGB frame", "DONE follows B"]
+    },
+    "iverilog_regression": {"status": "PASS", "configured_tests": 80, "failed": 0},
+    "verilator_production_lint": {"status": "PASS", "failed": 0},
+    "host_decode_tests": {"status": "PASS", "passed": 3, "failed": 0}
+  },
+  "source_sha256": {
+    "rtl/dma/axi4_final_rgb_frame_dma.sv": "30140BDFF8B8EB7850627459D355F5A7040E96EBED486CF6B67A6F8C64BD67B7",
+    "rtl/gs_accel_system_top.sv": "C4D2476D7DFC1731B550692B6178DC633247E4782D39C08C64DE16649E869991",
+    "verification/rtl/tb_axi4_final_rgb_frame_dma.sv": "BFB2CCDCEE27EB773A8918C358E30422D3D3ECF1863F328FD7A177E89FA1C060",
+    "verification/rtl/tb_gs_accel_system_camera_dma.sv": "6D525E70CAC1A315AC3E151491571BE66A2FB68AC32BC74551E08FE740383AC0",
+    "scripts/read_rgb888_frame.py": "0C4C8D73D11B8AFF73E91E53BCA457D9AF885A754B6F7C05D93D0512FC8052FF"
+  },
+  "real_scene_scope": "No real-scene completion claim is made by T04; full scene/image quality evidence remains T10.",
+  "stop_decision": "The required single production format is complete. Multi-format, runtime background, video output, and further burst tuning are frozen because they are not T04 acceptance requirements."
+}

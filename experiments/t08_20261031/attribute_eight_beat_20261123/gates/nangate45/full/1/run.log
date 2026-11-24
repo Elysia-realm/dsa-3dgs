@@ -1,0 +1,26 @@
+T08_DMA_DATA records=6144 beats=50620 bursts=10548
+PASS T08 attribute DMA data_records=6144 control_cases=18
+/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/tb_t08_attribute_dma.sv:127: $finish called at 1301106000 (1ps)
+	Command being timed: "/usr/bin/vvp /home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp +N=6144 +INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/1/input.memh +EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+	User time (seconds): 6917.94
+	System time (seconds): 0.17
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:55:17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 192100
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 47122
+	Voluntary context switches: 516
+	Involuntary context switches: 12826
+	Swaps: 0
+	File system inputs: 7608
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

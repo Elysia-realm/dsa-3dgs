@@ -1,0 +1,135 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "results": [
+    {
+      "scene": "bonsai",
+      "camera": 146,
+      "counts": {
+        "records": 1244819,
+        "selected": 95971,
+        "risk_q20": 6800,
+        "risk_q24": 0,
+        "recovered": 6800,
+        "new_risks": 0
+      },
+      "examples_q20": [
+        15,
+        186,
+        314,
+        366,
+        717,
+        993,
+        1151,
+        1184
+      ],
+      "known_case": [
+        true,
+        false
+      ],
+      "ply_sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273",
+      "camera_sha256": "9D644EE390CB16361D71E505A0F83E073E40965CC9D8AE9C0B38396B471DA2DE"
+    },
+    {
+      "scene": "counter",
+      "camera": 120,
+      "counts": {
+        "records": 1222956,
+        "selected": 52252,
+        "risk_q20": 3564,
+        "risk_q24": 0,
+        "recovered": 3564,
+        "new_risks": 0
+      },
+      "examples_q20": [
+        2041,
+        2655,
+        2873,
+        3693,
+        5764,
+        6411,
+        6872,
+        8916
+      ],
+      "known_case": null,
+      "ply_sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4",
+      "camera_sha256": "E559FC0B5BC70D95F63F922A0A356C82115BAFADCC742727B3C474B805321A09"
+    },
+    {
+      "scene": "room",
+      "camera": 155,
+      "counts": {
+        "records": 1593376,
+        "selected": 16322,
+        "risk_q20": 332,
+        "risk_q24": 0,
+        "recovered": 332,
+        "new_risks": 0
+      },
+      "examples_q20": [
+        5498,
+        15071,
+        25392,
+        42815,
+        65349,
+        68020,
+        95763,
+        111533
+      ],
+      "known_case": null,
+      "ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+      "camera_sha256": "130773694CE985B0CB642D37ED0E4229D5B3DFF9A310DDCB2BC22088DFE91B10"
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "counts": {
+        "records": 1026508,
+        "selected": 67216,
+        "risk_q20": 67,
+        "risk_q24": 0,
+        "recovered": 67,
+        "new_risks": 0
+      },
+      "examples_q20": [
+        55925,
+        220475,
+        251965,
+        286204,
+        324729,
+        329134,
+        335265,
+        379753
+      ],
+      "known_case": null,
+      "ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+      "camera_sha256": "5D6A862B5FA9CF095A5E6610130C65192892296E199E341823EB0A19BCC29447"
+    },
+    {
+      "scene": "truck",
+      "camera": 125,
+      "counts": {
+        "records": 2541226,
+        "selected": 86286,
+        "risk_q20": 23,
+        "risk_q24": 0,
+        "recovered": 23,
+        "new_risks": 0
+      },
+      "examples_q20": [
+        47098,
+        365190,
+        387997,
+        511322,
+        905790,
+        909940,
+        1063207,
+        1063448
+      ],
+      "known_case": null,
+      "ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+      "camera_sha256": "C6FCEB905EE172D0A51ABE51AC5304D464544A4F76FA9305BC14715934283A5A"
+    }
+  ],
+  "signed_off": false,
+  "scope": "All records scanned; selected max Q20 scale code <=4096, valid depth, projected center on screen, opacity code >=16. Integer world/view rounding; floating Jacobian, Q8 screen rounding. Counts estimate nonpositive or out-of-range conic risk; no measured pixel error or FPS implied."
+}

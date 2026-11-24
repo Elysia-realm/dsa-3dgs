@@ -1,0 +1,13 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_depth_group_sort_chain",
+  "-o",
+  "/home/gs3d/work/t01_resume_20261025/legacy_units/tb_depth_group_sort_chain.vvp",
+  "/mnt/d/3DGS/rtl/sort/depth_group_buffer.sv",
+  "/mnt/d/3DGS/rtl/sort/stable_group_sorter.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_depth_group_sort_chain.sv"
+]

@@ -1,0 +1,17 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-I",
+  "rtl/raster",
+  "-D",
+  "TB_USE_SHARED_PE=0",
+  "-s",
+  "tb_real_dma_workload",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_real_dma_workload_bypass.vvp",
+  "-f",
+  "verification/rtl/system_top_sources.f",
+  "verification/rtl/tb_real_dma_workload.sv"
+]

@@ -1,0 +1,8 @@
+{
+  "status": "PASS_POINTER_BOUNDS_INDUCTION",
+  "original_rtl_sha256": "95B7ABDBDD59B3A79D456144ACA9941FD6542CA708108B45F884D94C9BEBD7B9",
+  "proof_source_sha256": "5DB005C27949B48A22E6282FC939D204C3C7F06805CD26DFB3062ED868B96770",
+  "proof_script_sha256": "E4A2961CBD43C0EE23D0EA09035BF3CA7EAD71A3C2D7888C7EE102A9FF6571B4",
+  "log_sha256": "4289B36546F0A03D413E7F4FDE8D171A00F4513B78D57EFA43565318742C9C93",
+  "scope": "Original sp_q update logic with state_q, counts and local-exit predicates replaced by explicit arbitrary anyseq values; stronger than reachable control sequences. No unsupported cells ignored. Proves pointer bounds and consumed histogram read address only; no data/order equivalence claimed."
+}

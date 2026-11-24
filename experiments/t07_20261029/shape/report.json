@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "vectors": 20000,
+  "rejected": 1764,
+  "independent_pixels_checked": 6940,
+  "source_sha256": {
+    "rtl/raster/gaussian_shape_block_reject.sv": "9D0D5F0B84775B45E5E9AE303854A6825281214FABE308744EA8B7B25ACAAEEB",
+    "verification/rtl/tb_t07_shape_vectors.sv": "92B036B1C50DBE44500219270EC1018F4F423B0A98CB28E6D72DC53C9D4B4D6A",
+    "model/fixed/alpha.py": "C3A3ADFD3A54D608040F1BCD90C5465651AF4E7F67104CCC4FA8676B321C2392",
+    "verification/test_shape_block_reject.py": "3A0637CAC2A22A2AF40E296E9EBC2CC3001EEB6BF947E478FCE2814ABBC2798B",
+    "scripts/check_t07_shape.py": "41052467671FC830FFAF22218CDE76C7FE5B3C04ED3912DE0FE54A58F1C9BD4A"
+  },
+  "vectors_sha256": "3194F062CF3DA198B8619DA6309D56B25B68A6CF2DCC8E045C39623DE16CE232",
+  "scope": "Production encoder FACTOR_W=24 implies factor shift -32 or -22..2; coordinate shift 0..31. Includes empty/clipped blocks and opacity-bin boundaries; independent axis0=0 provides conservative lower bound."
+}

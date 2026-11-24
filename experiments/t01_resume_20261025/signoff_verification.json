@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "task": "T01",
+  "signed_off": true,
+  "accepted_files": 819,
+  "accepted_index_sha256": "6289CC61201A0AE34F786ECE0CC52ADE2965ACC64A3E5C8CFE10128A190E309B",
+  "final_ppa_pass": false,
+  "open_design_issues": 5,
+  "next_task": "T07",
+  "verifier_sha256": "4D25AFAF5ECFB21ADC43849FFC45F64AA4BCCCA5956AFC63036C79CEF7DF5D78",
+  "scope": "Integrity and state consistency at handoff; not additional hardware validation"
+}

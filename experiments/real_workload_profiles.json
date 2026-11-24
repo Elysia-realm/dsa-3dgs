@@ -1,0 +1,3233 @@
+{
+  "metadata": {
+    "date": "2026-08-04",
+    "camera_selection": "middle camera by JSON order",
+    "resolution": "aspect-preserving, longest dimension 1920",
+    "block_size": 8,
+    "depth_group_size": 256,
+    "profile_window_gaussians": 4096,
+    "limitations": [
+      "candidate bbox blocks only; no exact per-pixel alpha or early-termination trace",
+      "one representative camera per scene",
+      "R1 area credits and service rates remain uncalibrated"
+    ]
+  },
+  "scenes": {
+    "bicycle": {
+      "camera_index": 97,
+      "resolution": [
+        1920,
+        1276
+      ],
+      "input_gaussians": 6131954,
+      "depth_visible_gaussians": 4235357,
+      "projected_gaussians": 1400649,
+      "depth_visible_ratio": 0.6907026699808902,
+      "projection_survival_ratio": 0.3307038816326463,
+      "candidate_blocks": 74022546,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 9.0,
+        "0.9": 49.0,
+        "0.99": 225.0,
+        "1": 38400.0
+      },
+      "profile_windows": 1035,
+      "local_best_mode_histogram": {
+        "balanced": 14,
+        "projection_priority": 48,
+        "sort_priority": 0,
+        "raster_priority": 973
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 37104661,
+        "projection_priority": 74063733,
+        "sort_priority": 74208858,
+        "raster_priority": 18776497
+      },
+      "dynamic": {
+        "cycles": 18619295,
+        "switches": 73,
+        "mode_histogram": {
+          "balanced": 14,
+          "projection_priority": 48,
+          "sort_priority": 0,
+          "raster_priority": 973
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 70,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 70,
+            "window_end": 71,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 71,
+            "window_end": 85,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 85,
+            "window_end": 86,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 86,
+            "window_end": 88,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 88,
+            "window_end": 89,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 89,
+            "window_end": 91,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 91,
+            "window_end": 92,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 92,
+            "window_end": 94,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 94,
+            "window_end": 96,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 96,
+            "window_end": 104,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 104,
+            "window_end": 106,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 106,
+            "window_end": 107,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 107,
+            "window_end": 108,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 108,
+            "window_end": 111,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 111,
+            "window_end": 112,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 112,
+            "window_end": 118,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 118,
+            "window_end": 120,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 120,
+            "window_end": 122,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 122,
+            "window_end": 124,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 124,
+            "window_end": 127,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 127,
+            "window_end": 129,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 129,
+            "window_end": 132,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 132,
+            "window_end": 133,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 133,
+            "window_end": 135,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 135,
+            "window_end": 138,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 138,
+            "window_end": 140,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 140,
+            "window_end": 141,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 141,
+            "window_end": 142,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 142,
+            "window_end": 143,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 143,
+            "window_end": 144,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 144,
+            "window_end": 146,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 146,
+            "window_end": 147,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 147,
+            "window_end": 148,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 148,
+            "window_end": 149,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 149,
+            "window_end": 150,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 150,
+            "window_end": 152,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 152,
+            "window_end": 154,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 154,
+            "window_end": 155,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 155,
+            "window_end": 156,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 156,
+            "window_end": 157,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 157,
+            "window_end": 158,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 158,
+            "window_end": 159,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 159,
+            "window_end": 160,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 160,
+            "window_end": 162,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 162,
+            "window_end": 164,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 164,
+            "window_end": 167,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 167,
+            "window_end": 168,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 168,
+            "window_end": 169,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 169,
+            "window_end": 170,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 170,
+            "window_end": 171,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 171,
+            "window_end": 174,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 174,
+            "window_end": 178,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 178,
+            "window_end": 179,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 179,
+            "window_end": 180,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 180,
+            "window_end": 184,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 184,
+            "window_end": 185,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 185,
+            "window_end": 186,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 186,
+            "window_end": 187,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 187,
+            "window_end": 189,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 189,
+            "window_end": 190,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 190,
+            "window_end": 193,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 193,
+            "window_end": 194,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 194,
+            "window_end": 195,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 195,
+            "window_end": 196,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 196,
+            "window_end": 197,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 197,
+            "window_end": 198,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 198,
+            "window_end": 201,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 201,
+            "window_end": 209,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 209,
+            "window_end": 210,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 210,
+            "window_end": 214,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 214,
+            "window_end": 217,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 217,
+            "window_end": 1034,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 1034,
+            "window_end": 1035,
+            "mode": "projection_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.991627724809372
+    },
+    "bonsai": {
+      "camera_index": 146,
+      "resolution": [
+        1920,
+        1280
+      ],
+      "input_gaussians": 1244819,
+      "depth_visible_gaussians": 957998,
+      "projected_gaussians": 476902,
+      "depth_visible_ratio": 0.7695881891262907,
+      "projection_survival_ratio": 0.497811060148351,
+      "candidate_blocks": 51525547,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 9.0,
+        "0.9": 56.0,
+        "0.99": 576.0,
+        "1": 38400.0
+      },
+      "profile_windows": 234,
+      "local_best_mode_histogram": {
+        "balanced": 15,
+        "projection_priority": 1,
+        "sort_priority": 0,
+        "raster_priority": 218
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 25767294,
+        "projection_priority": 51525547,
+        "sort_priority": 51534479,
+        "raster_priority": 12951869
+      },
+      "dynamic": {
+        "cycles": 12926724,
+        "switches": 17,
+        "mode_histogram": {
+          "balanced": 15,
+          "projection_priority": 1,
+          "sort_priority": 0,
+          "raster_priority": 218
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 104,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 104,
+            "window_end": 105,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 105,
+            "window_end": 106,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 106,
+            "window_end": 109,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 109,
+            "window_end": 110,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 110,
+            "window_end": 111,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 111,
+            "window_end": 113,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 113,
+            "window_end": 115,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 115,
+            "window_end": 116,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 116,
+            "window_end": 119,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 119,
+            "window_end": 120,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 120,
+            "window_end": 123,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 123,
+            "window_end": 125,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 125,
+            "window_end": 127,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 127,
+            "window_end": 131,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 131,
+            "window_end": 134,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 134,
+            "window_end": 137,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 137,
+            "window_end": 234,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9980585813522357
+    },
+    "counter": {
+      "camera_index": 120,
+      "resolution": [
+        1920,
+        1280
+      ],
+      "input_gaussians": 1222956,
+      "depth_visible_gaussians": 1021883,
+      "projected_gaussians": 610949,
+      "depth_visible_ratio": 0.8355844363983659,
+      "projection_survival_ratio": 0.5978659004993723,
+      "candidate_blocks": 43152189,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 16.0,
+        "0.9": 72.0,
+        "0.99": 400.0,
+        "1": 38400.0
+      },
+      "profile_windows": 250,
+      "local_best_mode_histogram": {
+        "balanced": 9,
+        "projection_priority": 9,
+        "sort_priority": 0,
+        "raster_priority": 232
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 21593938,
+        "projection_priority": 43159917,
+        "sort_priority": 43187766,
+        "raster_priority": 10858187
+      },
+      "dynamic": {
+        "cycles": 10820552,
+        "switches": 10,
+        "mode_histogram": {
+          "balanced": 9,
+          "projection_priority": 9,
+          "sort_priority": 0,
+          "raster_priority": 232
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 15,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 15,
+            "window_end": 16,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 16,
+            "window_end": 17,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 17,
+            "window_end": 18,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 18,
+            "window_end": 22,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 22,
+            "window_end": 23,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 23,
+            "window_end": 27,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 27,
+            "window_end": 30,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 30,
+            "window_end": 31,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 31,
+            "window_end": 35,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 35,
+            "window_end": 250,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9965339517545608
+    },
+    "drjohnson": {
+      "camera_index": 131,
+      "resolution": [
+        1920,
+        1263
+      ],
+      "input_gaussians": 3405153,
+      "depth_visible_gaussians": 1571781,
+      "projected_gaussians": 838397,
+      "depth_visible_ratio": 0.4615889506286502,
+      "projection_survival_ratio": 0.5334057352773701,
+      "candidate_blocks": 50266237,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 16.0,
+        "0.9": 100.0,
+        "0.99": 441.0,
+        "1": 37920.0
+      },
+      "profile_windows": 384,
+      "local_best_mode_histogram": {
+        "balanced": 38,
+        "projection_priority": 36,
+        "sort_priority": 0,
+        "raster_priority": 310
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 25204302,
+        "projection_priority": 50285146,
+        "sort_priority": 50408433,
+        "raster_priority": 12840487
+      },
+      "dynamic": {
+        "cycles": 12681545,
+        "switches": 69,
+        "mode_histogram": {
+          "balanced": 37,
+          "projection_priority": 36,
+          "sort_priority": 0,
+          "raster_priority": 311
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 32,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 32,
+            "window_end": 33,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 33,
+            "window_end": 37,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 37,
+            "window_end": 38,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 38,
+            "window_end": 39,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 39,
+            "window_end": 40,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 40,
+            "window_end": 41,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 41,
+            "window_end": 43,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 43,
+            "window_end": 45,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 45,
+            "window_end": 46,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 46,
+            "window_end": 48,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 48,
+            "window_end": 50,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 50,
+            "window_end": 52,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 52,
+            "window_end": 55,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 55,
+            "window_end": 57,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 57,
+            "window_end": 58,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 58,
+            "window_end": 59,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 59,
+            "window_end": 60,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 60,
+            "window_end": 61,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 61,
+            "window_end": 63,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 63,
+            "window_end": 64,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 64,
+            "window_end": 65,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 65,
+            "window_end": 67,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 67,
+            "window_end": 68,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 68,
+            "window_end": 69,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 69,
+            "window_end": 70,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 70,
+            "window_end": 72,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 72,
+            "window_end": 73,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 73,
+            "window_end": 74,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 74,
+            "window_end": 75,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 75,
+            "window_end": 76,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 76,
+            "window_end": 77,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 77,
+            "window_end": 78,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 78,
+            "window_end": 79,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 79,
+            "window_end": 80,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 80,
+            "window_end": 81,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 81,
+            "window_end": 82,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 82,
+            "window_end": 83,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 83,
+            "window_end": 84,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 84,
+            "window_end": 85,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 85,
+            "window_end": 87,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 87,
+            "window_end": 88,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 88,
+            "window_end": 92,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 92,
+            "window_end": 93,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 93,
+            "window_end": 94,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 94,
+            "window_end": 97,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 97,
+            "window_end": 98,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 98,
+            "window_end": 99,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 99,
+            "window_end": 100,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 100,
+            "window_end": 101,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 101,
+            "window_end": 103,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 103,
+            "window_end": 104,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 104,
+            "window_end": 105,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 105,
+            "window_end": 106,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 106,
+            "window_end": 107,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 107,
+            "window_end": 109,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 109,
+            "window_end": 110,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 110,
+            "window_end": 111,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 111,
+            "window_end": 112,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 112,
+            "window_end": 115,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 115,
+            "window_end": 116,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 116,
+            "window_end": 117,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 117,
+            "window_end": 118,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 118,
+            "window_end": 120,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 120,
+            "window_end": 123,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 123,
+            "window_end": 124,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 124,
+            "window_end": 128,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 128,
+            "window_end": 129,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 129,
+            "window_end": 132,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 132,
+            "window_end": 384,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9876218090482082
+    },
+    "flowers": {
+      "camera_index": 86,
+      "resolution": [
+        1920,
+        1265
+      ],
+      "input_gaussians": 3636448,
+      "depth_visible_gaussians": 2442794,
+      "projected_gaussians": 1105275,
+      "depth_visible_ratio": 0.6717527653358442,
+      "projection_survival_ratio": 0.4524634496400433,
+      "candidate_blocks": 39893808,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 4.0,
+        "0.9": 20.0,
+        "0.99": 169.0,
+        "1": 38160.0
+      },
+      "profile_windows": 597,
+      "local_best_mode_histogram": {
+        "balanced": 7,
+        "projection_priority": 0,
+        "sort_priority": 0,
+        "raster_priority": 590
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 19947052,
+        "projection_priority": 39893808,
+        "sort_priority": 39893808,
+        "raster_priority": 10069409
+      },
+      "dynamic": {
+        "cycles": 10063603,
+        "switches": 14,
+        "mode_histogram": {
+          "balanced": 7,
+          "projection_priority": 0,
+          "sort_priority": 0,
+          "raster_priority": 590
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 312,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 312,
+            "window_end": 313,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 313,
+            "window_end": 319,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 319,
+            "window_end": 320,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 320,
+            "window_end": 388,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 388,
+            "window_end": 389,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 389,
+            "window_end": 390,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 390,
+            "window_end": 391,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 391,
+            "window_end": 393,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 393,
+            "window_end": 394,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 394,
+            "window_end": 397,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 397,
+            "window_end": 398,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 398,
+            "window_end": 399,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 399,
+            "window_end": 400,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 400,
+            "window_end": 597,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9994234021083065
+    },
+    "garden": {
+      "camera_index": 92,
+      "resolution": [
+        1920,
+        1244
+      ],
+      "input_gaussians": 5834784,
+      "depth_visible_gaussians": 3982387,
+      "projected_gaussians": 1617313,
+      "depth_visible_ratio": 0.6825251800238021,
+      "projection_survival_ratio": 0.4061164824011328,
+      "candidate_blocks": 38643861,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 4.0,
+        "0.9": 25.0,
+        "0.99": 156.0,
+        "1": 37440.0
+      },
+      "profile_windows": 973,
+      "local_best_mode_histogram": {
+        "balanced": 28,
+        "projection_priority": 127,
+        "sort_priority": 0,
+        "raster_priority": 818
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 19580852,
+        "projection_priority": 38768158,
+        "sort_priority": 39161334,
+        "raster_priority": 10317242
+      },
+      "dynamic": {
+        "cycles": 9898029,
+        "switches": 54,
+        "mode_histogram": {
+          "balanced": 28,
+          "projection_priority": 127,
+          "sort_priority": 0,
+          "raster_priority": 818
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 31,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 31,
+            "window_end": 32,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 32,
+            "window_end": 35,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 35,
+            "window_end": 36,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 36,
+            "window_end": 37,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 37,
+            "window_end": 39,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 39,
+            "window_end": 42,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 42,
+            "window_end": 44,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 44,
+            "window_end": 45,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 45,
+            "window_end": 46,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 46,
+            "window_end": 47,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 47,
+            "window_end": 48,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 48,
+            "window_end": 49,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 49,
+            "window_end": 50,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 50,
+            "window_end": 51,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 51,
+            "window_end": 52,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 52,
+            "window_end": 53,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 53,
+            "window_end": 58,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 58,
+            "window_end": 59,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 59,
+            "window_end": 61,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 61,
+            "window_end": 62,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 62,
+            "window_end": 63,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 63,
+            "window_end": 65,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 65,
+            "window_end": 75,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 75,
+            "window_end": 76,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 76,
+            "window_end": 78,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 78,
+            "window_end": 80,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 80,
+            "window_end": 100,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 100,
+            "window_end": 101,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 101,
+            "window_end": 121,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 121,
+            "window_end": 122,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 122,
+            "window_end": 124,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 124,
+            "window_end": 125,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 125,
+            "window_end": 127,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 127,
+            "window_end": 128,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 128,
+            "window_end": 135,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 135,
+            "window_end": 137,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 137,
+            "window_end": 164,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 164,
+            "window_end": 165,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 165,
+            "window_end": 171,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 171,
+            "window_end": 172,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 172,
+            "window_end": 174,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 174,
+            "window_end": 175,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 175,
+            "window_end": 877,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 877,
+            "window_end": 879,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 879,
+            "window_end": 880,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 880,
+            "window_end": 884,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 884,
+            "window_end": 887,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 887,
+            "window_end": 890,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 890,
+            "window_end": 891,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 891,
+            "window_end": 895,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 895,
+            "window_end": 952,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 952,
+            "window_end": 953,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 953,
+            "window_end": 959,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 959,
+            "window_end": 973,
+            "mode": "projection_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9593677263749363
+    },
+    "kitchen": {
+      "camera_index": 139,
+      "resolution": [
+        1920,
+        1281
+      ],
+      "input_gaussians": 1852335,
+      "depth_visible_gaussians": 1537267,
+      "projected_gaussians": 1141225,
+      "depth_visible_ratio": 0.8299076570922647,
+      "projection_survival_ratio": 0.7423726652559379,
+      "candidate_blocks": 44119792,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 9.0,
+        "0.9": 42.0,
+        "0.99": 256.0,
+        "1": 38640.0
+      },
+      "profile_windows": 376,
+      "local_best_mode_histogram": {
+        "balanced": 0,
+        "projection_priority": 0,
+        "sort_priority": 0,
+        "raster_priority": 376
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 22059988,
+        "projection_priority": 44119792,
+        "sort_priority": 44119792,
+        "raster_priority": 11030094
+      },
+      "dynamic": {
+        "cycles": 11030094,
+        "switches": 0,
+        "mode_histogram": {
+          "balanced": 0,
+          "projection_priority": 0,
+          "sort_priority": 0,
+          "raster_priority": 376
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 376,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 1.0
+    },
+    "playroom": {
+      "camera_index": 112,
+      "resolution": [
+        1920,
+        1264
+      ],
+      "input_gaussians": 2546116,
+      "depth_visible_gaussians": 1758545,
+      "projected_gaussians": 204830,
+      "depth_visible_ratio": 0.6906774868073567,
+      "projection_survival_ratio": 0.11647697386191426,
+      "candidate_blocks": 74102720,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 36.0,
+        "0.9": 225.0,
+        "0.99": 2652.0,
+        "1": 37920.0
+      },
+      "profile_windows": 430,
+      "local_best_mode_histogram": {
+        "balanced": 48,
+        "projection_priority": 144,
+        "sort_priority": 0,
+        "raster_priority": 238
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 37333498,
+        "projection_priority": 74215243,
+        "sort_priority": 74666918,
+        "raster_priority": 19283550
+      },
+      "dynamic": {
+        "cycles": 18777744,
+        "switches": 120,
+        "mode_histogram": {
+          "balanced": 48,
+          "projection_priority": 144,
+          "sort_priority": 0,
+          "raster_priority": 238
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 53,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 53,
+            "window_end": 54,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 54,
+            "window_end": 63,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 63,
+            "window_end": 64,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 64,
+            "window_end": 65,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 65,
+            "window_end": 66,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 66,
+            "window_end": 82,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 82,
+            "window_end": 83,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 83,
+            "window_end": 85,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 85,
+            "window_end": 86,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 86,
+            "window_end": 89,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 89,
+            "window_end": 91,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 91,
+            "window_end": 92,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 92,
+            "window_end": 93,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 93,
+            "window_end": 96,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 96,
+            "window_end": 97,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 97,
+            "window_end": 99,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 99,
+            "window_end": 100,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 100,
+            "window_end": 101,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 101,
+            "window_end": 102,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 102,
+            "window_end": 103,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 103,
+            "window_end": 104,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 104,
+            "window_end": 105,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 105,
+            "window_end": 106,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 106,
+            "window_end": 107,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 107,
+            "window_end": 112,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 112,
+            "window_end": 114,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 114,
+            "window_end": 115,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 115,
+            "window_end": 116,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 116,
+            "window_end": 119,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 119,
+            "window_end": 124,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 124,
+            "window_end": 126,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 126,
+            "window_end": 127,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 127,
+            "window_end": 130,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 130,
+            "window_end": 131,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 131,
+            "window_end": 132,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 132,
+            "window_end": 133,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 133,
+            "window_end": 134,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 134,
+            "window_end": 135,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 135,
+            "window_end": 136,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 136,
+            "window_end": 137,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 137,
+            "window_end": 138,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 138,
+            "window_end": 142,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 142,
+            "window_end": 144,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 144,
+            "window_end": 152,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 152,
+            "window_end": 153,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 153,
+            "window_end": 154,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 154,
+            "window_end": 156,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 156,
+            "window_end": 157,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 157,
+            "window_end": 158,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 158,
+            "window_end": 159,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 159,
+            "window_end": 161,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 161,
+            "window_end": 162,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 162,
+            "window_end": 163,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 163,
+            "window_end": 165,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 165,
+            "window_end": 169,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 169,
+            "window_end": 174,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 174,
+            "window_end": 175,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 175,
+            "window_end": 183,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 183,
+            "window_end": 184,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 184,
+            "window_end": 186,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 186,
+            "window_end": 187,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 187,
+            "window_end": 193,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 193,
+            "window_end": 194,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 194,
+            "window_end": 201,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 201,
+            "window_end": 202,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 202,
+            "window_end": 204,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 204,
+            "window_end": 205,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 205,
+            "window_end": 206,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 206,
+            "window_end": 209,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 209,
+            "window_end": 214,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 214,
+            "window_end": 215,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 215,
+            "window_end": 216,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 216,
+            "window_end": 217,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 217,
+            "window_end": 218,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 218,
+            "window_end": 223,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 223,
+            "window_end": 224,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 224,
+            "window_end": 225,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 225,
+            "window_end": 230,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 230,
+            "window_end": 231,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 231,
+            "window_end": 238,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 238,
+            "window_end": 240,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 240,
+            "window_end": 243,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 243,
+            "window_end": 244,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 244,
+            "window_end": 249,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 249,
+            "window_end": 250,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 250,
+            "window_end": 252,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 252,
+            "window_end": 253,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 253,
+            "window_end": 259,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 259,
+            "window_end": 260,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 260,
+            "window_end": 262,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 262,
+            "window_end": 263,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 263,
+            "window_end": 265,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 265,
+            "window_end": 279,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 279,
+            "window_end": 280,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 280,
+            "window_end": 283,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 283,
+            "window_end": 284,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 284,
+            "window_end": 287,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 287,
+            "window_end": 288,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 288,
+            "window_end": 290,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 290,
+            "window_end": 291,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 291,
+            "window_end": 292,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 292,
+            "window_end": 293,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 293,
+            "window_end": 294,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 294,
+            "window_end": 295,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 295,
+            "window_end": 299,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 299,
+            "window_end": 300,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 300,
+            "window_end": 302,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 302,
+            "window_end": 307,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 307,
+            "window_end": 308,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 308,
+            "window_end": 309,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 309,
+            "window_end": 310,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 310,
+            "window_end": 312,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 312,
+            "window_end": 313,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 313,
+            "window_end": 314,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 314,
+            "window_end": 315,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 315,
+            "window_end": 316,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 316,
+            "window_end": 319,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 319,
+            "window_end": 320,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 320,
+            "window_end": 321,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 321,
+            "window_end": 430,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9737700786421587
+    },
+    "room": {
+      "camera_index": 155,
+      "resolution": [
+        1920,
+        1279
+      ],
+      "input_gaussians": 1593376,
+      "depth_visible_gaussians": 1222700,
+      "projected_gaussians": 440036,
+      "depth_visible_ratio": 0.7673643885686743,
+      "projection_survival_ratio": 0.359888770753251,
+      "candidate_blocks": 33903465,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 16.0,
+        "0.9": 100.0,
+        "0.99": 816.0,
+        "1": 38400.0
+      },
+      "profile_windows": 299,
+      "local_best_mode_histogram": {
+        "balanced": 22,
+        "projection_priority": 51,
+        "sort_priority": 0,
+        "raster_priority": 226
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 17052569,
+        "projection_priority": 33943109,
+        "sort_priority": 34105025,
+        "raster_priority": 8759178
+      },
+      "dynamic": {
+        "cycles": 8571680,
+        "switches": 44,
+        "mode_histogram": {
+          "balanced": 22,
+          "projection_priority": 51,
+          "sort_priority": 0,
+          "raster_priority": 226
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 20,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 20,
+            "window_end": 21,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 21,
+            "window_end": 27,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 27,
+            "window_end": 30,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 30,
+            "window_end": 31,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 31,
+            "window_end": 33,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 33,
+            "window_end": 34,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 34,
+            "window_end": 35,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 35,
+            "window_end": 36,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 36,
+            "window_end": 40,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 40,
+            "window_end": 42,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 42,
+            "window_end": 45,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 45,
+            "window_end": 46,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 46,
+            "window_end": 54,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 54,
+            "window_end": 55,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 55,
+            "window_end": 60,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 60,
+            "window_end": 61,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 61,
+            "window_end": 62,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 62,
+            "window_end": 64,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 64,
+            "window_end": 68,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 68,
+            "window_end": 69,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 69,
+            "window_end": 75,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 75,
+            "window_end": 77,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 77,
+            "window_end": 78,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 78,
+            "window_end": 79,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 79,
+            "window_end": 80,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 80,
+            "window_end": 81,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 81,
+            "window_end": 82,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 82,
+            "window_end": 86,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 86,
+            "window_end": 89,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 89,
+            "window_end": 90,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 90,
+            "window_end": 91,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 91,
+            "window_end": 94,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 94,
+            "window_end": 95,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 95,
+            "window_end": 96,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 96,
+            "window_end": 97,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 97,
+            "window_end": 98,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 98,
+            "window_end": 99,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 99,
+            "window_end": 102,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 102,
+            "window_end": 103,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 103,
+            "window_end": 104,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 104,
+            "window_end": 105,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 105,
+            "window_end": 107,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 107,
+            "window_end": 109,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 109,
+            "window_end": 299,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9785941100865857
+    },
+    "stump": {
+      "camera_index": 62,
+      "resolution": [
+        1920,
+        1273
+      ],
+      "input_gaussians": 4961797,
+      "depth_visible_gaussians": 3329718,
+      "projected_gaussians": 859271,
+      "depth_visible_ratio": 0.6710709849677445,
+      "projection_survival_ratio": 0.2580611931701123,
+      "candidate_blocks": 48820613,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 6.0,
+        "0.9": 25.0,
+        "0.99": 169.0,
+        "1": 38400.0
+      },
+      "profile_windows": 813,
+      "local_best_mode_histogram": {
+        "balanced": 45,
+        "projection_priority": 150,
+        "sort_priority": 0,
+        "raster_priority": 618
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 24702611,
+        "projection_priority": 48925675,
+        "sort_priority": 49404956,
+        "raster_priority": 13033082
+      },
+      "dynamic": {
+        "cycles": 12516434,
+        "switches": 83,
+        "mode_histogram": {
+          "balanced": 44,
+          "projection_priority": 150,
+          "sort_priority": 0,
+          "raster_priority": 619
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 18,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 18,
+            "window_end": 19,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 19,
+            "window_end": 26,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 26,
+            "window_end": 27,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 27,
+            "window_end": 38,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 38,
+            "window_end": 39,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 39,
+            "window_end": 40,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 40,
+            "window_end": 41,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 41,
+            "window_end": 45,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 45,
+            "window_end": 46,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 46,
+            "window_end": 47,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 47,
+            "window_end": 49,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 49,
+            "window_end": 50,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 50,
+            "window_end": 54,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 54,
+            "window_end": 55,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 55,
+            "window_end": 59,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 59,
+            "window_end": 60,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 60,
+            "window_end": 64,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 64,
+            "window_end": 65,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 65,
+            "window_end": 67,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 67,
+            "window_end": 68,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 68,
+            "window_end": 69,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 69,
+            "window_end": 71,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 71,
+            "window_end": 72,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 72,
+            "window_end": 73,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 73,
+            "window_end": 76,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 76,
+            "window_end": 77,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 77,
+            "window_end": 79,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 79,
+            "window_end": 80,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 80,
+            "window_end": 84,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 84,
+            "window_end": 86,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 86,
+            "window_end": 92,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 92,
+            "window_end": 93,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 93,
+            "window_end": 94,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 94,
+            "window_end": 96,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 96,
+            "window_end": 98,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 98,
+            "window_end": 99,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 99,
+            "window_end": 100,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 100,
+            "window_end": 102,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 102,
+            "window_end": 103,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 103,
+            "window_end": 104,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 104,
+            "window_end": 105,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 105,
+            "window_end": 106,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 106,
+            "window_end": 108,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 108,
+            "window_end": 109,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 109,
+            "window_end": 123,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 123,
+            "window_end": 125,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 125,
+            "window_end": 126,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 126,
+            "window_end": 132,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 132,
+            "window_end": 134,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 134,
+            "window_end": 135,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 135,
+            "window_end": 138,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 138,
+            "window_end": 214,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 214,
+            "window_end": 217,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 217,
+            "window_end": 223,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 223,
+            "window_end": 224,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 224,
+            "window_end": 225,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 225,
+            "window_end": 226,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 226,
+            "window_end": 247,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 247,
+            "window_end": 257,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 257,
+            "window_end": 258,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 258,
+            "window_end": 260,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 260,
+            "window_end": 261,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 261,
+            "window_end": 265,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 265,
+            "window_end": 289,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 289,
+            "window_end": 290,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 290,
+            "window_end": 306,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 306,
+            "window_end": 307,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 307,
+            "window_end": 308,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 308,
+            "window_end": 309,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 309,
+            "window_end": 312,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 312,
+            "window_end": 313,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 313,
+            "window_end": 321,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 321,
+            "window_end": 327,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 327,
+            "window_end": 329,
+            "mode": "projection_priority"
+          },
+          {
+            "window_start": 329,
+            "window_end": 330,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 330,
+            "window_end": 333,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 333,
+            "window_end": 334,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 334,
+            "window_end": 335,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 335,
+            "window_end": 372,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 372,
+            "window_end": 373,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 373,
+            "window_end": 473,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 473,
+            "window_end": 474,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 474,
+            "window_end": 813,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9603587240531442
+    },
+    "train": {
+      "camera_index": 150,
+      "resolution": [
+        1920,
+        1068
+      ],
+      "input_gaussians": 1026508,
+      "depth_visible_gaussians": 844660,
+      "projected_gaussians": 490753,
+      "depth_visible_ratio": 0.822847946630713,
+      "projection_survival_ratio": 0.5810065588520825,
+      "candidate_blocks": 38375693,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 9.0,
+        "0.9": 72.0,
+        "0.99": 756.0,
+        "1": 32160.0
+      },
+      "profile_windows": 207,
+      "local_best_mode_histogram": {
+        "balanced": 0,
+        "projection_priority": 0,
+        "sort_priority": 0,
+        "raster_priority": 207
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 19187898,
+        "projection_priority": 38375693,
+        "sort_priority": 38375693,
+        "raster_priority": 9594003
+      },
+      "dynamic": {
+        "cycles": 9594003,
+        "switches": 0,
+        "mode_histogram": {
+          "balanced": 0,
+          "projection_priority": 0,
+          "sort_priority": 0,
+          "raster_priority": 207
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 207,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 1.0
+    },
+    "treehill": {
+      "camera_index": 70,
+      "resolution": [
+        1920,
+        1260
+      ],
+      "input_gaussians": 3783761,
+      "depth_visible_gaussians": 2344575,
+      "projected_gaussians": 729623,
+      "depth_visible_ratio": 0.6196414096979169,
+      "projection_survival_ratio": 0.3111962722455029,
+      "candidate_blocks": 51372858,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 9.0,
+        "0.9": 49.0,
+        "0.99": 400.0,
+        "1": 37920.0
+      },
+      "profile_windows": 573,
+      "local_best_mode_histogram": {
+        "balanced": 10,
+        "projection_priority": 0,
+        "sort_priority": 0,
+        "raster_priority": 563
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 25687267,
+        "projection_priority": 51372858,
+        "sort_priority": 51374289,
+        "raster_priority": 12910162
+      },
+      "dynamic": {
+        "cycles": 12896718,
+        "switches": 14,
+        "mode_histogram": {
+          "balanced": 10,
+          "projection_priority": 0,
+          "sort_priority": 0,
+          "raster_priority": 563
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 42,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 42,
+            "window_end": 43,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 43,
+            "window_end": 45,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 45,
+            "window_end": 46,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 46,
+            "window_end": 49,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 49,
+            "window_end": 50,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 50,
+            "window_end": 53,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 53,
+            "window_end": 54,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 54,
+            "window_end": 376,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 376,
+            "window_end": 377,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 377,
+            "window_end": 552,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 552,
+            "window_end": 556,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 556,
+            "window_end": 568,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 568,
+            "window_end": 569,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 569,
+            "window_end": 573,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9989586497830159
+    },
+    "truck": {
+      "camera_index": 125,
+      "resolution": [
+        1920,
+        1070
+      ],
+      "input_gaussians": 2541226,
+      "depth_visible_gaussians": 1492343,
+      "projected_gaussians": 963394,
+      "depth_visible_ratio": 0.5872531604823813,
+      "projection_survival_ratio": 0.6455580251993007,
+      "candidate_blocks": 43004434,
+      "blocks_per_projected_gaussian": {
+        "0": 1.0,
+        "0.5": 6.0,
+        "0.9": 36.0,
+        "0.99": 324.0,
+        "1": 32160.0
+      },
+      "profile_windows": 365,
+      "local_best_mode_histogram": {
+        "balanced": 13,
+        "projection_priority": 0,
+        "sort_priority": 0,
+        "raster_priority": 352
+      },
+      "best_fixed_mode": "raster_priority",
+      "fixed_mode_cycles": {
+        "balanced": 21503222,
+        "projection_priority": 43004434,
+        "sort_priority": 43006249,
+        "raster_priority": 10810906
+      },
+      "dynamic": {
+        "cycles": 10797449,
+        "switches": 10,
+        "mode_histogram": {
+          "balanced": 13,
+          "projection_priority": 0,
+          "sort_priority": 0,
+          "raster_priority": 352
+        },
+        "runs": [
+          {
+            "window_start": 0,
+            "window_end": 241,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 241,
+            "window_end": 243,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 243,
+            "window_end": 247,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 247,
+            "window_end": 248,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 248,
+            "window_end": 250,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 250,
+            "window_end": 252,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 252,
+            "window_end": 256,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 256,
+            "window_end": 262,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 262,
+            "window_end": 359,
+            "mode": "raster_priority"
+          },
+          {
+            "window_start": 359,
+            "window_end": 361,
+            "mode": "balanced"
+          },
+          {
+            "window_start": 361,
+            "window_end": 365,
+            "mode": "raster_priority"
+          }
+        ]
+      },
+      "dynamic_vs_best_fixed_ratio": 0.9987552384601254
+    }
+  }
+}

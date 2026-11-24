@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "cycles": 70572,
+  "state_equal": true,
+  "sorted_stream_equal": true,
+  "rgb_equal": true,
+  "rgb_sha256": "a94535d882d4911bd32c02b5a0f911c561effbd861ba9e33b40e2f6139b239a3",
+  "reference": "D:\\3DGS\\experiments\\t05_20261009\\real\\bonsai\\bsu8_m0_ideal"
+}

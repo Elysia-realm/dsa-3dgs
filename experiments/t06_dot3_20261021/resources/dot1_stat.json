@@ -1,0 +1,63 @@
+{
+   "creator": "Yosys 0.66+183 (git sha1 b285b72e3, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 13.2.1)",
+   "invocation": "stat -json ",
+   "modules": {
+      "\\shared_reconfigurable_pe_slice": {
+         "num_wires":         211,
+         "num_wire_bits":     2909,
+         "num_pub_wires":     97,
+         "num_pub_wire_bits": 2480,
+         "num_ports":         59,
+         "num_port_bits":     1296,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         156,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$add": 4,
+            "$adff": 3,
+            "$adffe": 5,
+            "$eq": 10,
+            "$logic_and": 33,
+            "$logic_not": 13,
+            "$logic_or": 14,
+            "$lt": 3,
+            "$mul": 3,
+            "$mux": 43,
+            "$pmux": 12,
+            "$reduce_bool": 7,
+            "$sub": 6
+         }
+      }
+   },
+      "design": {
+         "num_wires":         211,
+         "num_wire_bits":     2909,
+         "num_pub_wires":     97,
+         "num_pub_wire_bits": 2480,
+         "num_ports":         59,
+         "num_port_bits":     1296,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         156,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$add": 4,
+            "$adff": 3,
+            "$adffe": 5,
+            "$eq": 10,
+            "$logic_and": 33,
+            "$logic_not": 13,
+            "$logic_or": 14,
+            "$lt": 3,
+            "$mul": 3,
+            "$mux": 43,
+            "$pmux": 12,
+            "$reduce_bool": 7,
+            "$sub": 6
+         }
+      }
+}
+

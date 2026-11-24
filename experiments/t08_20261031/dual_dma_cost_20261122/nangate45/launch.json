@@ -1,0 +1,9 @@
+{
+  "sources": {
+    "experiments/t08_20261031/dual_precision_native_20261122/build/axi4_t08_attribute_read_engine.sv": "F3A40C5D8E7286E02868C0ED90FCE484D502E79F3D8155F827F52021EEBD3BED",
+    "experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv": "B0DF1334951CF77615AC7D8FBE72175077CC27C09E650D75821F5B9DCBB5A8A6"
+  },
+  "liberty_sha256": "2EFD0B32EB580E4E60E72FC0575BB3BC69AAC907C91D908442E4AE6D7FE55895",
+  "command_script": "read_verilog -sv -DSYNTHESIS \"/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/axi4_t08_attribute_read_engine.sv\" \"/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv\"\nchparam -set EARLY_ADVANCE 1 -set ENABLE_Q24 1 axi4_t08_attribute_read_engine\nsynth -top axi4_t08_attribute_read_engine -flatten -noabc\nread_liberty -lib \"/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib\"\ndfflibmap -liberty \"/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib\"\nabc -liberty \"/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib\" -constr \"/mnt/d/3DGS/experiments/t08_20261031/dual_dma_cost_20261122/nangate45/abc.constr\" -D 5000\nclean\ndelete t:$scopeinfo\ncheck -assert\ntee -o \"/mnt/d/3DGS/experiments/t08_20261031/dual_dma_cost_20261122/nangate45/stat.json\" stat -json -liberty \"/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib\"\nwrite_verilog -noattr -noexpr -nodec \"/mnt/d/3DGS/experiments/t08_20261031/dual_dma_cost_20261122/nangate45/mapped.v\"\n",
+  "old_report_sha256": "7A1FC25AD8BDF7788ADA385973CF58C80D0045F0903371693F59C109DBF468F5"
+}

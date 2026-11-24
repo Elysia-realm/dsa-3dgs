@@ -1,0 +1,89 @@
+{
+  "status": "AUDITED_ZERO_DELAY_GATE_FUNCTION",
+  "results": [
+    {
+      "pdk": "nangate45",
+      "sample": false,
+      "variant": 0,
+      "records": 6144,
+      "beats": 49172,
+      "control_cases": 14,
+      "log_sha256": "51B37B3B62CB15B84227CF62BBF7F385A2E5A374862889221BC3FDFA8A7B8467",
+      "netlist_sha256": "A88EBED662136208E84E92B60B6097559FE24934F9C590E9D72F95B702DA2733"
+    },
+    {
+      "pdk": "nangate45",
+      "sample": false,
+      "variant": 1,
+      "records": 6144,
+      "beats": 49172,
+      "control_cases": 14,
+      "log_sha256": "46CAEA39D8B8073DE62007CE7584D1E5A669C7CF292F005AAFBEF80B12951DD1",
+      "netlist_sha256": "A88EBED662136208E84E92B60B6097559FE24934F9C590E9D72F95B702DA2733"
+    },
+    {
+      "pdk": "nangate45",
+      "sample": true,
+      "variant": 0,
+      "records": 159,
+      "beats": 1132,
+      "control_cases": 14,
+      "log_sha256": "7C1A584E7B2D141E0D41F21FABBBF32E5DC4598112A34A71DDA3F8062745B27B",
+      "netlist_sha256": "A88EBED662136208E84E92B60B6097559FE24934F9C590E9D72F95B702DA2733"
+    },
+    {
+      "pdk": "nangate45",
+      "sample": true,
+      "variant": 1,
+      "records": 159,
+      "beats": 1132,
+      "control_cases": 14,
+      "log_sha256": "C956554B71AD7C06F922F2B6AA4DA0B8174894393CA9FF8C2490203CA95F1365",
+      "netlist_sha256": "A88EBED662136208E84E92B60B6097559FE24934F9C590E9D72F95B702DA2733"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": false,
+      "variant": 0,
+      "records": 6144,
+      "beats": 49172,
+      "control_cases": 14,
+      "log_sha256": "D1D0EB341CC7021667AA5C92563176770D97B3D5E8C3CB649E810A72110B1AC1",
+      "netlist_sha256": "968F59928E92DE21C3D9FC6E7B8C83912A23197FC9127C924D31AE5508ABDD23"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": false,
+      "variant": 1,
+      "records": 6144,
+      "beats": 49172,
+      "control_cases": 14,
+      "log_sha256": "813966F192377EC684D7429CDCFB0D5A8FF1AC0ED208A422581B25426F14A4D6",
+      "netlist_sha256": "968F59928E92DE21C3D9FC6E7B8C83912A23197FC9127C924D31AE5508ABDD23"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": true,
+      "variant": 0,
+      "records": 159,
+      "beats": 1132,
+      "control_cases": 14,
+      "log_sha256": "211FEAE84E216C30C9A4D92CAAF794C42A6B11E9058C019F42CF2D17B26B3C74",
+      "netlist_sha256": "968F59928E92DE21C3D9FC6E7B8C83912A23197FC9127C924D31AE5508ABDD23"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": true,
+      "variant": 1,
+      "records": 159,
+      "beats": 1132,
+      "control_cases": 14,
+      "log_sha256": "684F256D73534986017F61A9259A3C981078045BDB51D9CEAE873799EA430CA0",
+      "netlist_sha256": "968F59928E92DE21C3D9FC6E7B8C83912A23197FC9127C924D31AE5508ABDD23"
+    }
+  ],
+  "report_sha256": "3FB7D6AE43E5836560D98F0998871E01EE46CD7FFC633AC0E95116D9796C2555",
+  "script_sha256": "82695601095328E0585D7ABA00012E88436EE0D6B5F3A924A49E72AE5587747B",
+  "signed_off": false,
+  "scope": "Post-synthesis dual-format attribute DMA and decoder only; no SDF or renderer timing."
+}

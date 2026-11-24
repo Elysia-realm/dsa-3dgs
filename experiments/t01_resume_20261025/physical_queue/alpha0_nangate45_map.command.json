@@ -1,0 +1,9 @@
+[
+  "/home/gs3d/eda/venvs/gsverify/bin/python",
+  "asic/scripts/run_t01_wsl_synthesis.py",
+  "map",
+  "--alpha",
+  "0",
+  "--pdk",
+  "nangate45"
+]

@@ -1,0 +1,52 @@
+{
+  "scene": "bonsai",
+  "gaussians": 1244819,
+  "full_model": true,
+  "ply_sha256": "A16AF6D8815498FFBF9EB5D5EE93F5BCC9DCA34C4E3EB6F7A796EF9E97C0D273",
+  "covariance_fractional_bits": 20,
+  "covariance_integer_min": -3763244,
+  "covariance_integer_max": 7883401,
+  "world_covariance_overflow_records": 0,
+  "covariance_signed24_fit_records": 1244819,
+  "sh_integer_min": -9981,
+  "sh_integer_max": 33871,
+  "sh_signed16_fit_records": 1244818,
+  "lossless_degree_histogram": [
+    64233,
+    7093,
+    3073,
+    1170420
+  ],
+  "analytic_tail_bound_sensitivity": {
+    "1": [
+      64235,
+      7091,
+      3073,
+      1170420
+    ],
+    "4": [
+      64471,
+      6864,
+      3064,
+      1170420
+    ]
+  },
+  "nonzero_error_budget_selected": false,
+  "candidate_beats_histogram": [
+    0,
+    0,
+    0,
+    64233,
+    7093,
+    0,
+    3073,
+    0,
+    1170419,
+    1
+  ],
+  "uncompressed_attribute_bytes": 179253936,
+  "candidate_useful_payload_bytes": 153645920,
+  "estimated_attribute_payload_reduction_percent": 14.285887702906564,
+  "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+  "signed_off": false
+}

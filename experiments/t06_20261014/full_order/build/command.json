@@ -1,0 +1,5 @@
+[
+  "D:\\Tools\\msys64\\usr\\bin\\bash.exe",
+  "-lc",
+  "cd /d/3DGS && verilator --binary --build -j 2 -CFLAGS -D_GLIBCXX_USE_CXX11_ABI=0 --sv --timing -Wno-fatal -DSYNTHESIS -DT06_MAX_COUNT=6000000 --top-module tb_t06_qsu_bsu --Mdir tmp/verilator_t06_full_order rtl/sort/autonomous_qsu.sv rtl/sort/bitonic_group_sorter_pipelined_shared.sv rtl/control/shared_reconfigurable_pe_slice.sv verification/rtl/tb_t06_qsu_bsu.sv -o t06_full_order.exe"
+]

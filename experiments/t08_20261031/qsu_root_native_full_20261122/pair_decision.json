@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "scene": "train",
+      "cycles_off": 1010400469,
+      "cycles_on": 1009358035,
+      "saved_cycles": 1042434,
+      "saved_percent": 0.1031703796645803,
+      "total_bytes_saved": 14825712,
+      "terminal_pixels": 1321496,
+      "complete_interior_blocks": 16951,
+      "covered_complete_blocks": 16851,
+      "t07_full_pulses": 767,
+      "dirty_state_share": 93.561361478297,
+      "comparison_sha256": "C5E20CB5885C8982E34543A7F89E6DD04B071F5B6F1B52F1E45BB0A31DF6749F",
+      "state_sha256": "32E19D4930CE4674C74282D82ADA01354C198D551A7828107831262173417383"
+    },
+    {
+      "scene": "truck",
+      "cycles_off": 997852852,
+      "cycles_on": 995980267,
+      "saved_cycles": 1872585,
+      "saved_percent": 0.1876614368788716,
+      "total_bytes_saved": 26632288,
+      "terminal_pixels": 1350707,
+      "complete_interior_blocks": 18064,
+      "covered_complete_blocks": 17594,
+      "t07_full_pulses": 1111,
+      "dirty_state_share": 89.31577200849287,
+      "comparison_sha256": "FC021A50607F5C1A9354588B49555337385E47AB992CC883EDFBAFF22508D2B9",
+      "state_sha256": "594501D77A13601B05D374761C17AB57B09D89ED7EA1A11DB51060FA4EADB725"
+    }
+  ],
+  "report_sha256": "39867A2D09E4C8795368137491CD06FF07330EF9E0E320B7319CE8C83155F985",
+  "signed_off": false,
+  "decision": "Retain exact-match root precount as candidate only; prioritize avoiding state work after entire blocks terminate. Counts derived from final state do not measure time of termination or future skip opportunities."
+}

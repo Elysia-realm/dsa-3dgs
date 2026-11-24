@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_axi4_pixel_state_write_engine",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_axi4_pixel_state_write_engine.vvp",
+  "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_engine.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_write_engine.sv"
+]

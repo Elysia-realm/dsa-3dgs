@@ -1,0 +1,16 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_memory_oracle\\t06_oracle.exe",
+  "+MEAN=D:/3DGS/experiments/t06_20261018/full_render/garden/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_20261018/full_render/garden/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_20261018/full_render/garden/camera.memh",
+  "+ORACLE=D:/3DGS/experiments/t06_20261018/full_render/garden/expected_sorted.txt",
+  "+FRAME=D:/3DGS/experiments/t06_20261018/full_render/garden/oracle/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_20261018/full_render/garden/oracle/rgb.memh",
+  "+FRAME_MODE=0",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+MAX_TIMEOUT=3000000"
+]

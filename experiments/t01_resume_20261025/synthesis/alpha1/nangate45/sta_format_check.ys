@@ -1,0 +1,11 @@
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+read_verilog "/mnt/d/3DGS/experiments/t01_resume_20261025/synthesis/alpha1/nangate45/gs_accel_system_top_mapped.v"
+hierarchy -check -top gs_accel_system_top
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t01_resume_20261025/sta_format/9D1755BBE80619D1/original.il"
+design -reset
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+read_verilog "/mnt/d/3DGS/experiments/t01_resume_20261025/synthesis/alpha1/nangate45/gs_accel_system_top_mapped.sta.v"
+hierarchy -check -top gs_accel_system_top
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t01_resume_20261025/sta_format/9D1755BBE80619D1/adapted.il"

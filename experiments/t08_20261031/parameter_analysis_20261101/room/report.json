@@ -1,0 +1,52 @@
+{
+  "scene": "room",
+  "gaussians": 1593376,
+  "full_model": true,
+  "ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+  "covariance_fractional_bits": 20,
+  "covariance_integer_min": -1780795,
+  "covariance_integer_max": 9144142,
+  "world_covariance_overflow_records": 0,
+  "covariance_signed24_fit_records": 1593375,
+  "sh_integer_min": -10087,
+  "sh_integer_max": 27176,
+  "sh_signed16_fit_records": 1593376,
+  "lossless_degree_histogram": [
+    98067,
+    5191,
+    2429,
+    1487689
+  ],
+  "analytic_tail_bound_sensitivity": {
+    "1": [
+      98067,
+      5191,
+      2429,
+      1487689
+    ],
+    "4": [
+      98067,
+      5196,
+      2433,
+      1487680
+    ]
+  },
+  "nonzero_error_budget_selected": false,
+  "candidate_beats_histogram": [
+    0,
+    0,
+    0,
+    98067,
+    5191,
+    0,
+    2429,
+    0,
+    1487688,
+    1
+  ],
+  "uncompressed_attribute_bytes": 229446144,
+  "candidate_useful_payload_bytes": 195696832,
+  "estimated_attribute_payload_reduction_percent": 14.709034290853019,
+  "scope": "Sizing only: no compressed DMA, decoder or image pass; raw escape for covariance overflow/out-of-range; no lossy SH choice",
+  "signed_off": false
+}

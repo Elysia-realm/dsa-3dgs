@@ -1,0 +1,7 @@
+[
+  "/usr/bin/vvp",
+  "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/nangate45/dma.vvp",
+  "+N=159",
+  "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_dma_gates_20261122/nangate45/probe/0/input.memh",
+  "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dual_dma_gates_20261122/nangate45/probe/0/expected.memh"
+]

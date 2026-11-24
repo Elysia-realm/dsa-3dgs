@@ -1,0 +1,16 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-D",
+  "TB_XYZ_STREAMING=1",
+  "-s",
+  "tb_world_to_camera_shared_mac",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_xyz_turnover_stream.vvp",
+  "rtl/common/rv_reg_slice.sv",
+  "rtl/projection/world_to_camera_core.sv",
+  "rtl/projection/world_to_camera_shared_mac.sv",
+  "rtl/control/shared_reconfigurable_pe_slice.sv",
+  "verification/rtl/tb_world_to_camera_shared_mac.sv"
+]

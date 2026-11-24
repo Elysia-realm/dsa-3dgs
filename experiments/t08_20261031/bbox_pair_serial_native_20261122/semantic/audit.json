@@ -1,0 +1,302 @@
+{
+  "status": "ORDER_AND_DMA_VERIFIED_FLOAT_DIAGNOSTIC",
+  "results": [
+    {
+      "scene": "bonsai",
+      "records": 67,
+      "pixels": 6479204,
+      "active_pixels": 9831,
+      "internal_float_mae": 0.0006506457686263106,
+      "active_float_mae": 0.42881361679042485,
+      "max_error": 127,
+      "off_cycles": 15865185,
+      "on_cycles": 11642039,
+      "skips": 1,
+      "saved_percent": 26.618952126937067,
+      "float_image_sha256": "539A91CD72D01D761C0C241CABDA0C2A8813D0CE9598754B914B9EA08407A9AB",
+      "peak_pixel": {
+        "x": 1597,
+        "y": 793,
+        "rtl": [
+          0,
+          0,
+          0
+        ],
+        "reference": [
+          127,
+          110,
+          103
+        ],
+        "pixels_above_32": 12,
+        "pixels_above_64": 3,
+        "reference_terms": [
+          {
+            "dense_gid": 39,
+            "ply_gid": 770601,
+            "alpha": 0.9880015212641677,
+            "transmittance_before": 1.0,
+            "contribution_rgb8": [
+              126.5174789428711,
+              110.47098541259766,
+              102.81122589111328
+            ],
+            "center": [
+              1597.0953369140625,
+              792.9400634765625
+            ],
+            "bbox": [
+              1593,
+              788,
+              1602,
+              797
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene": "counter",
+      "records": 67,
+      "pixels": 6466740,
+      "active_pixels": 26599,
+      "internal_float_mae": 0.0012297283226685059,
+      "active_float_mae": 0.2989711392658872,
+      "max_error": 11,
+      "off_cycles": 11460680,
+      "on_cycles": 11460779,
+      "skips": 0,
+      "saved_percent": -0.0008638230890367637,
+      "float_image_sha256": "2F6A7605D1FA67D1ABBB791DB7FDA4892A388E6E6619609486AD2D9A8E4B3551",
+      "peak_pixel": {
+        "x": 812,
+        "y": 1605,
+        "rtl": [
+          65,
+          64,
+          35
+        ],
+        "reference": [
+          76,
+          75,
+          41
+        ],
+        "pixels_above_32": 0,
+        "pixels_above_64": 0,
+        "reference_terms": [
+          {
+            "dense_gid": 0,
+            "ply_gid": 0,
+            "alpha": 0.35193197608339705,
+            "transmittance_before": 1.0,
+            "contribution_rgb8": [
+              75.53921508789062,
+              74.66677856445312,
+              41.190303802490234
+            ],
+            "center": [
+              812.157958984375,
+              1607.3614501953125
+            ],
+            "bbox": [
+              740,
+              1535,
+              885,
+              1680
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene": "room",
+      "records": 66,
+      "pixels": 6461550,
+      "active_pixels": 492785,
+      "internal_float_mae": 0.0021385993556757537,
+      "active_float_mae": 0.02804197909162549,
+      "max_error": 9,
+      "off_cycles": 17952470,
+      "on_cycles": 11389762,
+      "skips": 1,
+      "saved_percent": 36.556017082886086,
+      "float_image_sha256": "A8C350642DD9244620C7A9A45C18AB1CE0A50F1B7A403371D325BE9248DF7F53",
+      "peak_pixel": {
+        "x": 2531,
+        "y": 555,
+        "rtl": [
+          44,
+          41,
+          31
+        ],
+        "reference": [
+          53,
+          48,
+          37
+        ],
+        "pixels_above_32": 0,
+        "pixels_above_64": 0,
+        "reference_terms": [
+          {
+            "dense_gid": 6,
+            "ply_gid": 151750,
+            "alpha": 0.24979156533099864,
+            "transmittance_before": 1.0,
+            "contribution_rgb8": [
+              52.50261688232422,
+              48.49238967895508,
+              37.418094635009766
+            ],
+            "center": [
+              2534.552978515625,
+              556.6353149414062
+            ],
+            "bbox": [
+              2508,
+              530,
+              2561,
+              583
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene": "train",
+      "records": 66,
+      "pixels": 2135310,
+      "active_pixels": 32009,
+      "internal_float_mae": 0.0024580349769666543,
+      "active_float_mae": 0.16397471544461453,
+      "max_error": 12,
+      "off_cycles": 4796853,
+      "on_cycles": 4797062,
+      "skips": 0,
+      "saved_percent": -0.004357023240020297,
+      "float_image_sha256": "6B41A999CDD0BAFF9DDD16995C702E33D7C94086680B910E3F8BE5F4B8D1793D",
+      "peak_pixel": {
+        "x": 1023,
+        "y": 265,
+        "rtl": [
+          20,
+          34,
+          40
+        ],
+        "reference": [
+          26,
+          44,
+          52
+        ],
+        "pixels_above_32": 0,
+        "pixels_above_64": 0,
+        "reference_terms": [
+          {
+            "dense_gid": 44,
+            "ply_gid": 699463,
+            "alpha": 0.006981047245600445,
+            "transmittance_before": 1.0,
+            "contribution_rgb8": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "center": [
+              1277.84814453125,
+              483.75323486328125
+            ],
+            "bbox": [
+              816,
+              22,
+              1739,
+              945
+            ]
+          },
+          {
+            "dense_gid": 3,
+            "ply_gid": 48881,
+            "alpha": 0.2704310945433162,
+            "transmittance_before": 0.9930189527543996,
+            "contribution_rgb8": [
+              25.706701278686523,
+              43.61936569213867,
+              51.78224182128906
+            ],
+            "center": [
+              1023.5745239257812,
+              267.0396423339844
+            ],
+            "bbox": [
+              1013,
+              257,
+              1034,
+              278
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "scene": "truck",
+      "records": 68,
+      "pixels": 2135087,
+      "active_pixels": 141022,
+      "internal_float_mae": 0.005078481579439151,
+      "active_float_mae": 0.07688871239948376,
+      "max_error": 17,
+      "off_cycles": 4422665,
+      "on_cycles": 3835381,
+      "skips": 1,
+      "saved_percent": 13.278961892885855,
+      "float_image_sha256": "C4D12BDFB90B752C9FAC4010BFC347C65BF707AD982900E6DF07CF0186DA73F3",
+      "peak_pixel": {
+        "x": 418,
+        "y": 501,
+        "rtl": [
+          64,
+          64,
+          64
+        ],
+        "reference": [
+          81,
+          81,
+          81
+        ],
+        "pixels_above_32": 0,
+        "pixels_above_64": 0,
+        "reference_terms": [
+          {
+            "dense_gid": 31,
+            "ply_gid": 1129433,
+            "alpha": 0.31640538837352505,
+            "transmittance_before": 1.0,
+            "contribution_rgb8": [
+              80.6833724975586,
+              80.6833724975586,
+              80.6833724975586
+            ],
+            "center": [
+              415.17523193359375,
+              500.2975769042969
+            ],
+            "bbox": [
+              406,
+              491,
+              425,
+              510
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "report_sha256": "8E238AB194EC8FC870B892AC8EED6C68CB65FE4ED44FD840D7D5BF1A24CDA4A6",
+  "source_sha256": {
+    "scripts/audit_t08_bbox_native_pair.py": "692096D7EB57D2F9470F0ABAF2401736A3291313D7A9E4E2C6D758D282E04D0F",
+    "model/reference/math3d.py": "A4CAA0601B4FC1A8BE3A0CC45E665A2A6992902CE1BDE5694033B1E5EEA5B5C0",
+    "model/reference/model.py": "B02941ADA615D6B4AE3EEE616E7F58FD7C5B96E3393CD2239912BCDD628E2290",
+    "scripts/build_full_frame_batch_index.py": "B3F3E3334727756576C18319D713C3122D8426749D143D13DB2EBB55B8EC8DDF",
+    "scripts/build_full_frame_rtl_batch.py": "3896E387F40BBD6D95655878FF2FE5DDE294EAD02A024845941176A5537609E5",
+    "model/io/scene.py": "EEB71E1602156E6254EBBCAA8BBA186E067577D593A85A1CBF6D0CC2BB2071F6"
+  },
+  "signed_off": false,
+  "scope": "Raw PLY/native camera float reference on selected subsets, GID order checked by independent integer oracle. D06 matched GT pending."
+}

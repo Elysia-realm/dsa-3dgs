@@ -1,0 +1,17 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_pipe1_n6000000\\t06_real.exe",
+  "+AUTO_QSU",
+  "+MEAN=D:/3DGS/experiments/t06_20261017/subset/kitchen/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_20261017/subset/kitchen/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_20261017/subset/kitchen/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_20261017/subset/kitchen/m3_limited/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_20261017/subset/kitchen/m3_limited/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_20261017/subset/kitchen/m3_limited/sorted.txt",
+  "+FRAME_MODE=3",
+  "+MAX_TIMEOUT=2000000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

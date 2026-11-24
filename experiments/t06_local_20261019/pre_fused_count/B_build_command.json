@@ -1,0 +1,1 @@
+["D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe", "-g2012", "-DSYNTHESIS", "-s", "tb_t06_qsu_bsu", "-o", "D:\\3DGS\\experiments\\t06_local_20261019\\units\\B.vvp", "rtl/sort/autonomous_qsu.sv", "rtl/sort/bitonic_group_sorter_pipelined_shared.sv", "rtl/control/shared_reconfigurable_pe_slice.sv", "verification/rtl/tb_t06_qsu_bsu.sv"]

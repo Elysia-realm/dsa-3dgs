@@ -1,0 +1,202 @@
+{
+  "full_render/bonsai/manifest.json": {
+    "from": "experiments/t06_20261017/full_render/bonsai/manifest.json",
+    "sha256": "c6a0eecd8d0418257bd756ee1cc1700ec894ec2e8c9488c906627b791aa252f3"
+  },
+  "full_render/bonsai/mean.memh": {
+    "from": "experiments/t06_20261017/full_render/bonsai/mean.memh",
+    "sha256": "f29b71996b32e0497e05e9cc2345a4eee708a88adf409f8576eb3173a851efc5"
+  },
+  "full_render/bonsai/attribute.memh": {
+    "from": "experiments/t06_20261017/full_render/bonsai/attribute.memh",
+    "sha256": "a6dd88fb236d20ca17998b9b6bd93a44993c5782956538e68eb1d1b75a9cbf74"
+  },
+  "full_render/bonsai/camera.memh": {
+    "from": "experiments/t06_20261017/full_render/bonsai/camera.memh",
+    "sha256": "9943e12b5871932500e7c0b95d52cdd8e78829459a518a2e013c1a9260ac8649"
+  },
+  "full_render/bonsai/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/full_render/bonsai/expected_sorted.txt",
+    "sha256": "fcdff0ab44008d6b03e915b9e76c7cccc9bae1745db2d847aec1084b9fa759fa"
+  },
+  "full_render/counter/manifest.json": {
+    "from": "experiments/t06_20261017/full_render/counter/manifest.json",
+    "sha256": "6d0e3ba2494572e9bd1adada70eac33ac11d3f3abeedf274237449c592be4c7e"
+  },
+  "full_render/counter/mean.memh": {
+    "from": "experiments/t06_20261017/full_render/counter/mean.memh",
+    "sha256": "01798e6ca573789c0658eb980f2ab132bca5e89c8d9e3d3dc30d51ac242d0914"
+  },
+  "full_render/counter/attribute.memh": {
+    "from": "experiments/t06_20261017/full_render/counter/attribute.memh",
+    "sha256": "6c8b1c82d6d2c36cb62a62c822515c9e9dc6861d2e8242fa713d0f1f16563209"
+  },
+  "full_render/counter/camera.memh": {
+    "from": "experiments/t06_20261017/full_render/counter/camera.memh",
+    "sha256": "16f1ddb6c8236206070fd29875b8b62ef2136a5ad60413f021fc5ab3db3b01c7"
+  },
+  "full_render/counter/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/full_render/counter/expected_sorted.txt",
+    "sha256": "c24bc0e673bf402b2dd11fa362fa0810b242f885d17c711dc04d4b1887007d30"
+  },
+  "full_render/room/manifest.json": {
+    "from": "experiments/t06_20261017/full_render/room/manifest.json",
+    "sha256": "4525c366b8c40e7aaa8e7dea75931a5449c27c551f6049c083aa65d352038ea4"
+  },
+  "full_render/room/mean.memh": {
+    "from": "experiments/t06_20261017/full_render/room/mean.memh",
+    "sha256": "439f9bb4a364792d91ff685155cf6267d2e2669e3fca22bf91811048650c4c4b"
+  },
+  "full_render/room/attribute.memh": {
+    "from": "experiments/t06_20261017/full_render/room/attribute.memh",
+    "sha256": "8bb9588b12ca9b15cc10f110cc2cf0abd5a522abb38b8426ec1c95720063c2ed"
+  },
+  "full_render/room/camera.memh": {
+    "from": "experiments/t06_20261017/full_render/room/camera.memh",
+    "sha256": "f6bd7b0f5da2c21fbae24ebb1f279439b72fb19d75baa2d4447eed963ac3eb82"
+  },
+  "full_render/room/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/full_render/room/expected_sorted.txt",
+    "sha256": "4021e854aa0576eb6ec029e168adb1907b6da9a108b9cbfd76813edd4d0a20d9"
+  },
+  "full_render/kitchen/manifest.json": {
+    "from": "experiments/t06_20261017/full_render/kitchen/manifest.json",
+    "sha256": "209ad87054d46b71be45332cf595b2737a983fb53e8a173f9ec6fb9033bb3c67"
+  },
+  "full_render/kitchen/mean.memh": {
+    "from": "experiments/t06_20261017/full_render/kitchen/mean.memh",
+    "sha256": "d3074fa5c091705a336965f2a666b232bb2d0e6e6c152374603572bf6200d5a1"
+  },
+  "full_render/kitchen/attribute.memh": {
+    "from": "experiments/t06_20261017/full_render/kitchen/attribute.memh",
+    "sha256": "c7660d2408c055dc303a63ebe03ccea054653d12e106a337b894af226f89037d"
+  },
+  "full_render/kitchen/camera.memh": {
+    "from": "experiments/t06_20261017/full_render/kitchen/camera.memh",
+    "sha256": "39b22da38f87a25db2da7a8fbb6cc65150af7f25e135a9a0ed9aedf0fbbf15b3"
+  },
+  "full_render/kitchen/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/full_render/kitchen/expected_sorted.txt",
+    "sha256": "909f2d22fb0711827a756ce00b6a3abb9abcea7dcdff48ec7a88eb11ea65f197"
+  },
+  "full_render/garden/manifest.json": {
+    "from": "experiments/t06_20261017/full_render/garden/manifest.json",
+    "sha256": "dbfc65d14865d7b4e2476116e2224f6b21dd645fb6ad16508771db94339e1336"
+  },
+  "full_render/garden/mean.memh": {
+    "from": "experiments/t06_20261017/full_render/garden/mean.memh",
+    "sha256": "a9a7603a916a54533a741a5d9e76cf3cc957dcc520213482fca73d1b4605d6ac"
+  },
+  "full_render/garden/attribute.memh": {
+    "from": "experiments/t06_20261017/full_render/garden/attribute.memh",
+    "sha256": "b471889985df683dc2e4e2dbd8c335e44f8d8bb5afda1763c29e28d1607d22fe"
+  },
+  "full_render/garden/camera.memh": {
+    "from": "experiments/t06_20261017/full_render/garden/camera.memh",
+    "sha256": "0bf57afc680fd6e0b5001df93147c727af3105ab0744aa499bd9c37f95fa35c9"
+  },
+  "full_render/garden/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/full_render/garden/expected_sorted.txt",
+    "sha256": "5e65cb333f9281551ae12fe06626e5816e453512b405e5c848d22aad4a144281"
+  },
+  "subset/bonsai/manifest.json": {
+    "from": "experiments/t06_20261017/subset/bonsai/manifest.json",
+    "sha256": "503316ad22ec1e49e9cfed41b74f82401e6c7ab48536d2b1e19e221d1648ca8b"
+  },
+  "subset/bonsai/mean.memh": {
+    "from": "experiments/t06_20261017/subset/bonsai/mean.memh",
+    "sha256": "bb3bc53bd5c51ba4f5f3a1473cd5bbd8d18f55bbe2cddea6fede50991789dd7b"
+  },
+  "subset/bonsai/attribute.memh": {
+    "from": "experiments/t06_20261017/subset/bonsai/attribute.memh",
+    "sha256": "3427d9a33a622e2eda461bb929cfb2f146b7d46534c70ce23ad94fe3aa5ee1f7"
+  },
+  "subset/bonsai/camera.memh": {
+    "from": "experiments/t06_20261017/subset/bonsai/camera.memh",
+    "sha256": "3dff9310ba15d02e10843bcf94be1230aa8d8acf7cfcb21cbe7b7161a91c2633"
+  },
+  "subset/bonsai/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/subset/bonsai/expected_sorted.txt",
+    "sha256": "eccccb0d343d202e0916ccf1224da344db7f69993ca255f93ea57146fb8d2df8"
+  },
+  "subset/counter/manifest.json": {
+    "from": "experiments/t06_20261017/subset/counter/manifest.json",
+    "sha256": "b84aad53ef7789625c1048984ec3f05627c0cd18bc9c5e0730f45fa3287cc44c"
+  },
+  "subset/counter/mean.memh": {
+    "from": "experiments/t06_20261017/subset/counter/mean.memh",
+    "sha256": "dcebf57f9c81060bb139af0d93deb92615f05faf6e5e88e957e502c5dd2cd529"
+  },
+  "subset/counter/attribute.memh": {
+    "from": "experiments/t06_20261017/subset/counter/attribute.memh",
+    "sha256": "0e76b32725883a6c401029bb4607e67a52c2bda1b245a06c9dec4102a9ad76e6"
+  },
+  "subset/counter/camera.memh": {
+    "from": "experiments/t06_20261017/subset/counter/camera.memh",
+    "sha256": "179a189d13abf43715d43d4471e5336f0bbeef17ee0e350215d1a43162db98b2"
+  },
+  "subset/counter/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/subset/counter/expected_sorted.txt",
+    "sha256": "e481d845b5ec5efd87abd5e40cbbf7bda8f78cb576ab35939ef267ab848c6408"
+  },
+  "subset/room/manifest.json": {
+    "from": "experiments/t06_20261017/subset/room/manifest.json",
+    "sha256": "df3b319fb08517419b75b82a9a171c4541a7a9efd872545ca925eaeaa6055b3e"
+  },
+  "subset/room/mean.memh": {
+    "from": "experiments/t06_20261017/subset/room/mean.memh",
+    "sha256": "1fa1b01611a89f6c0e237569976d47e2934238a0c9651fbd862b30d91355d9fa"
+  },
+  "subset/room/attribute.memh": {
+    "from": "experiments/t06_20261017/subset/room/attribute.memh",
+    "sha256": "941c52e54a757b08a23ed0af561246c96bc66f551976753cf5dbea44e1f1e2be"
+  },
+  "subset/room/camera.memh": {
+    "from": "experiments/t06_20261017/subset/room/camera.memh",
+    "sha256": "215908ed19d7f1785acf3e464e230c769f3e1608eb1b4876835a6be1b6ed2bb0"
+  },
+  "subset/room/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/subset/room/expected_sorted.txt",
+    "sha256": "5298dd71efce85b109935a24e088af15b363e9205c1592a76e4d89f39782e81f"
+  },
+  "subset/kitchen/manifest.json": {
+    "from": "experiments/t06_20261017/subset/kitchen/manifest.json",
+    "sha256": "96940266a428e552197ac935da1b323f15d781f54478622369326f561eb6405f"
+  },
+  "subset/kitchen/mean.memh": {
+    "from": "experiments/t06_20261017/subset/kitchen/mean.memh",
+    "sha256": "d2861b0f16195edf22109eaa8a35cec3dfa243525f1d233f8e96ceb6e80239a8"
+  },
+  "subset/kitchen/attribute.memh": {
+    "from": "experiments/t06_20261017/subset/kitchen/attribute.memh",
+    "sha256": "af66cee6f0bf173c66ed0d52a88e486a7e59bc9d53377067717db98b7e1ff028"
+  },
+  "subset/kitchen/camera.memh": {
+    "from": "experiments/t06_20261017/subset/kitchen/camera.memh",
+    "sha256": "ee225c090643f96610bd50d06eeaea456030b201108233ddeb487134f53baa8f"
+  },
+  "subset/kitchen/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/subset/kitchen/expected_sorted.txt",
+    "sha256": "87e1ddacdcbc456e21356897ebd2cc91e7e484ec8f8f9cd60cfaf1df95af4e92"
+  },
+  "subset/garden/manifest.json": {
+    "from": "experiments/t06_20261017/subset/garden/manifest.json",
+    "sha256": "41c360950d1828e863c05e1ce6b91aeeba96f0bb67b328629524ebcd38375122"
+  },
+  "subset/garden/mean.memh": {
+    "from": "experiments/t06_20261017/subset/garden/mean.memh",
+    "sha256": "fb43a097212f119badeeb15c676aed451db2fab2bf9b883becd2b32e42e62878"
+  },
+  "subset/garden/attribute.memh": {
+    "from": "experiments/t06_20261017/subset/garden/attribute.memh",
+    "sha256": "00a8f561fd665e83808614a1ab9a06efcfba3abfe493a51f1a172db003f85127"
+  },
+  "subset/garden/camera.memh": {
+    "from": "experiments/t06_20261017/subset/garden/camera.memh",
+    "sha256": "6e6d6c11537bc1c374db036c1c4331bf9f00a29c1caa56d5cf53840f35cb4222"
+  },
+  "subset/garden/expected_sorted.txt": {
+    "from": "experiments/t06_20261017/subset/garden/expected_sorted.txt",
+    "sha256": "2bdda31f380abfff292a573c9668f407f6cbe1272b537d4e9703dfa2511f7617"
+  }
+}

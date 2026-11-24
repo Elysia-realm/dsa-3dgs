@@ -1,0 +1,16 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t05_bsu8_local_r\\t05.exe",
+  "+BATCH_ROOT=D:/3DGS/experiments/t05_20261009/real/garden",
+  "+BATCH_LAST=63",
+  "+FRAME=D:/3DGS/experiments/t05_20261009/real/garden/bsu8_local_r_m1_ideal/state.memh",
+  "+RGB=D:/3DGS/experiments/t05_20261009/real/garden/bsu8_local_r_m1_ideal/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t05_20261009/real/garden/bsu8_local_r_m1_ideal/sorted.txt",
+  "+LABEL=garden_bsu8_local_r",
+  "+FRAME_MODE=1",
+  "+MAX_TIMEOUT=2000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

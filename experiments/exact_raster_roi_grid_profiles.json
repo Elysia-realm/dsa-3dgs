@@ -1,0 +1,2254 @@
+{
+  "metadata": {
+    "date": "2026-08-04",
+    "method": "full-scene projection followed by exact per-pixel alpha/blend traces in a 3x3 ROI grid",
+    "max_dimension": 960,
+    "roi_size": 64,
+    "alpha_threshold": 0.00392156862745098,
+    "transmittance_threshold": 0.0001,
+    "selection": {
+      "garden": "largest candidate-model dynamic gain",
+      "train": "no-switch control workload",
+      "bonsai": "low-gain indoor control workload"
+    }
+  },
+  "scenes": {
+    "garden": {
+      "camera_index": 184,
+      "resolution": [
+        960,
+        622
+      ],
+      "roi_count": 9,
+      "alpha_evaluation_ratio": {
+        "min": 0.3806785210933095,
+        "median": 0.6554931088314884,
+        "max": 0.8497944906614227
+      },
+      "active_block_ratio": {
+        "min": 0.28637077885499124,
+        "median": 0.7127410158301448,
+        "max": 0.9533048879014341
+      },
+      "rois": [
+        {
+          "anchor": [
+            0.25,
+            0.25
+          ],
+          "roi": [
+            208,
+            123,
+            272,
+            187
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 14305,
+            "candidate_blocks": 80485,
+            "skipped_terminated_blocks": 24409,
+            "active_block_visits": 56076,
+            "candidate_pixels": 2840752,
+            "alpha_evaluations": 1841452,
+            "alpha_pruned": 1446923,
+            "blend_updates": 394529,
+            "skipped_terminated_pixels": 999300,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 14305,
+            "candidate_blocks": 80485,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 80485,
+            "candidate_pixels": 2840752,
+            "alpha_evaluations": 2840752,
+            "alpha_pruned": 2197810,
+            "blend_updates": 642942,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.6482269483573364,
+          "active_block_ratio": 0.696726098030689,
+          "blend_ratio": 0.6136307785150138,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 29253,
+            "projection_priority": 58505,
+            "sort_priority": 56076,
+            "raster_priority": 34176
+          },
+          "dynamic": {
+            "cycles": 22373,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 3,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 4,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.764810446791782,
+          "window_best_mode_histogram": {
+            "balanced": 3,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 8.694246207596734e-05,
+            "p50": 9.275684715248644e-05,
+            "p90": 9.931389649864286e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.25
+          ],
+          "roi": [
+            448,
+            123,
+            512,
+            187
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 26000,
+            "candidate_blocks": 106632,
+            "skipped_terminated_blocks": 30631,
+            "active_block_visits": 76001,
+            "candidate_pixels": 3046508,
+            "alpha_evaluations": 1996965,
+            "alpha_pruned": 1557067,
+            "blend_updates": 439898,
+            "skipped_terminated_pixels": 1049543,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 26000,
+            "candidate_blocks": 106632,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 106632,
+            "candidate_pixels": 3046508,
+            "alpha_evaluations": 3046508,
+            "alpha_pruned": 2345147,
+            "blend_updates": 701361,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.6554931088314884,
+          "active_block_ratio": 0.7127410158301448,
+          "blend_ratio": 0.6272062461414307,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 44749,
+            "projection_priority": 89497,
+            "sort_priority": 76001,
+            "raster_priority": 64128
+          },
+          "dynamic": {
+            "cycles": 37360,
+            "switches": 4,
+            "mode_histogram": {
+              "balanced": 4,
+              "projection_priority": 0,
+              "sort_priority": 2,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 2,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 2,
+                "window_end": 3,
+                "mode": "sort_priority"
+              },
+              {
+                "window_start": 3,
+                "window_end": 6,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 6,
+                "window_end": 7,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8348789917093119,
+          "window_best_mode_histogram": {
+            "balanced": 4,
+            "projection_priority": 0,
+            "sort_priority": 2,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 7.926582475192845e-05,
+            "p50": 8.679126767674461e-05,
+            "p90": 9.887934720609337e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.25
+          ],
+          "roi": [
+            687,
+            123,
+            751,
+            187
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 13857,
+            "candidate_blocks": 79216,
+            "skipped_terminated_blocks": 3699,
+            "active_block_visits": 75517,
+            "candidate_pixels": 2523243,
+            "alpha_evaluations": 2144238,
+            "alpha_pruned": 1689783,
+            "blend_updates": 454455,
+            "skipped_terminated_pixels": 379005,
+            "terminated_pixels": 3726
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 13857,
+            "candidate_blocks": 79216,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 79216,
+            "candidate_pixels": 2523243,
+            "alpha_evaluations": 2523243,
+            "alpha_pruned": 1995024,
+            "blend_updates": 528219,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.8497944906614227,
+          "active_block_ratio": 0.9533048879014341,
+          "blend_ratio": 0.8603533761564806,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 37760,
+            "projection_priority": 75517,
+            "sort_priority": 75517,
+            "raster_priority": 34176
+          },
+          "dynamic": {
+            "cycles": 28977,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 3,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 4,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.847875702247191,
+          "window_best_mode_histogram": {
+            "balanced": 3,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 8.325366798089817e-05,
+            "p50": 8.489939500577748e-05,
+            "p90": 9.986408258555457e-05,
+            "terminated_fraction": 0.90966796875
+          }
+        },
+        {
+          "anchor": [
+            0.25,
+            0.5
+          ],
+          "roi": [
+            208,
+            278,
+            272,
+            342
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 33211,
+            "candidate_blocks": 128181,
+            "skipped_terminated_blocks": 43569,
+            "active_block_visits": 84612,
+            "candidate_pixels": 3500589,
+            "alpha_evaluations": 2125053,
+            "alpha_pruned": 1676981,
+            "blend_updates": 448072,
+            "skipped_terminated_pixels": 1375536,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 33211,
+            "candidate_blocks": 128181,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 128181,
+            "candidate_pixels": 3500589,
+            "alpha_evaluations": 3500589,
+            "alpha_pruned": 2700065,
+            "blend_updates": 800524,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.6070558411741567,
+          "active_block_ratio": 0.6600978304116835,
+          "blend_ratio": 0.5597233811853236,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 52571,
+            "projection_priority": 105141,
+            "sort_priority": 85039,
+            "raster_priority": 80592
+          },
+          "dynamic": {
+            "cycles": 45300,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 8,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 9,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8616918072701679,
+          "window_best_mode_histogram": {
+            "balanced": 8,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 8.139257261063904e-05,
+            "p50": 8.860444359015673e-05,
+            "p90": 9.893537207972258e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "roi": [
+            448,
+            278,
+            512,
+            342
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 39307,
+            "candidate_blocks": 168645,
+            "skipped_terminated_blocks": 120350,
+            "active_block_visits": 48295,
+            "candidate_pixels": 4863106,
+            "alpha_evaluations": 1851280,
+            "alpha_pruned": 1438615,
+            "blend_updates": 412665,
+            "skipped_terminated_pixels": 3011826,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 39307,
+            "candidate_blocks": 168645,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 168645,
+            "candidate_pixels": 4863106,
+            "alpha_evaluations": 4863106,
+            "alpha_pruned": 3701028,
+            "blend_updates": 1162078,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.3806785210933095,
+          "active_block_ratio": 0.28637077885499124,
+          "blend_ratio": 0.35510955374768305,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 63072,
+            "projection_priority": 126143,
+            "sort_priority": 77439,
+            "raster_priority": 99840
+          },
+          "dynamic": {
+            "cycles": 46765,
+            "switches": 2,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 8,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 2,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 2,
+                "window_end": 10,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.7414542110603755,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 8,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 7.469308911822736e-05,
+            "p50": 8.258731395471841e-05,
+            "p90": 9.829146438278258e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.5
+          ],
+          "roi": [
+            687,
+            278,
+            751,
+            342
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 17798,
+            "candidate_blocks": 93998,
+            "skipped_terminated_blocks": 16927,
+            "active_block_visits": 77071,
+            "candidate_pixels": 2676251,
+            "alpha_evaluations": 2038040,
+            "alpha_pruned": 1589583,
+            "blend_updates": 448457,
+            "skipped_terminated_pixels": 638211,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 17798,
+            "candidate_blocks": 93998,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 93998,
+            "candidate_pixels": 2676251,
+            "alpha_evaluations": 2676251,
+            "alpha_pruned": 2070027,
+            "blend_updates": 606224,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.76152797327306,
+          "active_block_ratio": 0.819921700461712,
+          "blend_ratio": 0.7397546121565626,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 39021,
+            "projection_priority": 78041,
+            "sort_priority": 77071,
+            "raster_priority": 44160
+          },
+          "dynamic": {
+            "cycles": 30283,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 4,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 5,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.7760692960200918,
+          "window_best_mode_histogram": {
+            "balanced": 4,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 7.574942719656974e-05,
+            "p50": 8.404550317209214e-05,
+            "p90": 9.84776925179176e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.25,
+            0.75
+          ],
+          "roi": [
+            208,
+            434,
+            272,
+            498
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 12871,
+            "candidate_blocks": 76671,
+            "skipped_terminated_blocks": 16929,
+            "active_block_visits": 59742,
+            "candidate_pixels": 2739280,
+            "alpha_evaluations": 2003997,
+            "alpha_pruned": 1589657,
+            "blend_updates": 414340,
+            "skipped_terminated_pixels": 735283,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 12871,
+            "candidate_blocks": 76671,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 76671,
+            "candidate_pixels": 2739280,
+            "alpha_evaluations": 2739280,
+            "alpha_pruned": 2121164,
+            "blend_updates": 618116,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.7315780058993604,
+          "active_block_ratio": 0.7791994365535861,
+          "blend_ratio": 0.6703272524898239,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 31670,
+            "projection_priority": 63338,
+            "sort_priority": 60325,
+            "raster_priority": 31712
+          },
+          "dynamic": {
+            "cycles": 21858,
+            "switches": 2,
+            "mode_histogram": {
+              "balanced": 2,
+              "projection_priority": 0,
+              "sort_priority": 1,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 3,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 3,
+                "window_end": 4,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.6901799810546259,
+          "window_best_mode_histogram": {
+            "balanced": 2,
+            "projection_priority": 0,
+            "sort_priority": 1,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 7.198122330009937e-05,
+            "p50": 8.006248390302062e-05,
+            "p90": 9.784012218005955e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.75
+          ],
+          "roi": [
+            448,
+            434,
+            512,
+            498
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 12595,
+            "candidate_blocks": 105423,
+            "skipped_terminated_blocks": 35749,
+            "active_block_visits": 69674,
+            "candidate_pixels": 4155919,
+            "alpha_evaluations": 2356993,
+            "alpha_pruned": 1952809,
+            "blend_updates": 404184,
+            "skipped_terminated_pixels": 1798926,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 12595,
+            "candidate_blocks": 105423,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 105423,
+            "candidate_pixels": 4155919,
+            "alpha_evaluations": 4155919,
+            "alpha_pruned": 3387082,
+            "blend_updates": 768837,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.5671412267659692,
+          "active_block_ratio": 0.6608994242243154,
+          "blend_ratio": 0.5257083100839319,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 35318,
+            "projection_priority": 70635,
+            "sort_priority": 69963,
+            "raster_priority": 31696
+          },
+          "dynamic": {
+            "cycles": 24282,
+            "switches": 2,
+            "mode_histogram": {
+              "balanced": 2,
+              "projection_priority": 0,
+              "sort_priority": 1,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 3,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 3,
+                "window_end": 4,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.7660903584048461,
+          "window_best_mode_histogram": {
+            "balanced": 2,
+            "projection_priority": 0,
+            "sort_priority": 1,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 7.626963633811101e-05,
+            "p50": 8.501281263306737e-05,
+            "p90": 9.854959353106096e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.75
+          ],
+          "roi": [
+            687,
+            434,
+            751,
+            498
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 7851,
+            "candidate_blocks": 59669,
+            "skipped_terminated_blocks": 6284,
+            "active_block_visits": 53385,
+            "candidate_pixels": 2164483,
+            "alpha_evaluations": 1815144,
+            "alpha_pruned": 1408045,
+            "blend_updates": 407099,
+            "skipped_terminated_pixels": 349339,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 7851,
+            "candidate_blocks": 59669,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 59669,
+            "candidate_pixels": 2164483,
+            "alpha_evaluations": 2164483,
+            "alpha_pruned": 1648428,
+            "blend_updates": 516055,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.8386039529993998,
+          "active_block_ratio": 0.8946856826828001,
+          "blend_ratio": 0.7888674656771081,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 26693,
+            "projection_priority": 53385,
+            "sort_priority": 53385,
+            "raster_priority": 20361
+          },
+          "dynamic": {
+            "cycles": 16329,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              },
+              {
+                "window_start": 1,
+                "window_end": 2,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8019743627523206,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 7.264882151503116e-05,
+            "p50": 8.083757711574435e-05,
+            "p90": 9.810753545025364e-05,
+            "terminated_fraction": 1.0
+          }
+        }
+      ]
+    },
+    "train": {
+      "camera_index": 150,
+      "resolution": [
+        960,
+        534
+      ],
+      "roi_count": 9,
+      "alpha_evaluation_ratio": {
+        "min": 0.046650147116632824,
+        "median": 0.08671273007734266,
+        "max": 0.13087429961436706
+      },
+      "active_block_ratio": {
+        "min": 0.026924974535268653,
+        "median": 0.07030998797203797,
+        "max": 0.12572687224669604
+      },
+      "rois": [
+        {
+          "anchor": [
+            0.25,
+            0.25
+          ],
+          "roi": [
+            208,
+            101,
+            272,
+            165
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 1441,
+            "candidate_blocks": 56750,
+            "skipped_terminated_blocks": 49615,
+            "active_block_visits": 7135,
+            "candidate_pixels": 3059386,
+            "alpha_evaluations": 400395,
+            "alpha_pruned": 254805,
+            "blend_updates": 145590,
+            "skipped_terminated_pixels": 2658991,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 1441,
+            "candidate_blocks": 56750,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 56750,
+            "candidate_pixels": 3059386,
+            "alpha_evaluations": 3059386,
+            "alpha_pruned": 2119973,
+            "blend_updates": 939413,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.13087429961436706,
+          "active_block_ratio": 0.12572687224669604,
+          "blend_ratio": 0.15497975863651026,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 3568,
+            "projection_priority": 7135,
+            "sort_priority": 7135,
+            "raster_priority": 4224
+          },
+          "dynamic": {
+            "cycles": 3568,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 9.322025289293379e-05,
+            "p50": 9.445987234357744e-05,
+            "p90": 9.903560567181557e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.25
+          ],
+          "roi": [
+            448,
+            101,
+            512,
+            165
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 20502,
+            "candidate_blocks": 135005,
+            "skipped_terminated_blocks": 125700,
+            "active_block_visits": 9305,
+            "candidate_pixels": 5188942,
+            "alpha_evaluations": 527508,
+            "alpha_pruned": 343366,
+            "blend_updates": 184142,
+            "skipped_terminated_pixels": 4661434,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 20502,
+            "candidate_blocks": 135005,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 135005,
+            "candidate_pixels": 5188942,
+            "alpha_evaluations": 5188942,
+            "alpha_pruned": 3972768,
+            "blend_updates": 1216174,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.10166003011789301,
+          "active_block_ratio": 0.06892337320839968,
+          "blend_ratio": 0.15141090008502073,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 24971,
+            "projection_priority": 49935,
+            "sort_priority": 25711,
+            "raster_priority": 49942
+          },
+          "dynamic": {
+            "cycles": 21410,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 5,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 6,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8573945777101437,
+          "window_best_mode_histogram": {
+            "balanced": 2,
+            "projection_priority": 0,
+            "sort_priority": 4,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 1.7394342648913153e-05,
+            "p50": 5.251957645668881e-06,
+            "p90": 9.404979937244207e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.25
+          ],
+          "roi": [
+            687,
+            101,
+            751,
+            165
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 10578,
+            "candidate_blocks": 169950,
+            "skipped_terminated_blocks": 159240,
+            "active_block_visits": 10710,
+            "candidate_pixels": 6996190,
+            "alpha_evaluations": 540699,
+            "alpha_pruned": 365154,
+            "blend_updates": 175545,
+            "skipped_terminated_pixels": 6455491,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 10578,
+            "candidate_blocks": 169950,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 169950,
+            "candidate_pixels": 6996190,
+            "alpha_evaluations": 6996190,
+            "alpha_pruned": 5574064,
+            "blend_updates": 1422126,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.07728477928701193,
+          "active_block_ratio": 0.06301853486319506,
+          "blend_ratio": 0.12343842950624628,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 15339,
+            "projection_priority": 30678,
+            "sort_priority": 17302,
+            "raster_priority": 29952
+          },
+          "dynamic": {
+            "cycles": 11959,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 2,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 3,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.7796466523241411,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 2,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 9.163251888821833e-06,
+            "p50": 4.8689589675632305e-06,
+            "p90": 5.847813554282766e-06,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.25,
+            0.5
+          ],
+          "roi": [
+            208,
+            234,
+            272,
+            298
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 4457,
+            "candidate_blocks": 83971,
+            "skipped_terminated_blocks": 78067,
+            "active_block_visits": 5904,
+            "candidate_pixels": 4023586,
+            "alpha_evaluations": 335872,
+            "alpha_pruned": 182315,
+            "blend_updates": 153557,
+            "skipped_terminated_pixels": 3687714,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 4457,
+            "candidate_blocks": 83971,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 83971,
+            "candidate_pixels": 4023586,
+            "alpha_evaluations": 4023586,
+            "alpha_pruned": 2880744,
+            "blend_updates": 1142842,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.08347578503354967,
+          "active_block_ratio": 0.07030998797203797,
+          "blend_ratio": 0.13436415532505805,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 5352,
+            "projection_priority": 10704,
+            "sort_priority": 6265,
+            "raster_priority": 10704
+          },
+          "dynamic": {
+            "cycles": 5352,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 2,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 2,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 2,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 5.477923696162179e-05,
+            "p50": 5.036606307839975e-05,
+            "p90": 7.512187585234642e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "roi": [
+            448,
+            234,
+            512,
+            298
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 46699,
+            "candidate_blocks": 251328,
+            "skipped_terminated_blocks": 244561,
+            "active_block_visits": 6767,
+            "candidate_pixels": 8247198,
+            "alpha_evaluations": 384733,
+            "alpha_pruned": 232843,
+            "blend_updates": 151890,
+            "skipped_terminated_pixels": 7862465,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 46699,
+            "candidate_blocks": 251328,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 251328,
+            "candidate_pixels": 8247198,
+            "alpha_evaluations": 8247198,
+            "alpha_pruned": 6379574,
+            "blend_updates": 1867624,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.046650147116632824,
+          "active_block_ratio": 0.026924974535268653,
+          "blend_ratio": 0.08132793324566401,
+          "best_fixed_mode": "sort_priority",
+          "fixed_mode_cycles": {
+            "balanced": 57024,
+            "projection_priority": 114048,
+            "sort_priority": 49370,
+            "raster_priority": 114048
+          },
+          "dynamic": {
+            "cycles": 47607,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 11,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 12,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9642900546890825,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 11,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 4.6155946620274335e-05,
+            "p50": 3.9934377127792686e-05,
+            "p90": 7.89525656728074e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.5
+          ],
+          "roi": [
+            687,
+            234,
+            751,
+            298
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 12708,
+            "candidate_blocks": 174195,
+            "skipped_terminated_blocks": 166194,
+            "active_block_visits": 8001,
+            "candidate_pixels": 7182808,
+            "alpha_evaluations": 404608,
+            "alpha_pruned": 267896,
+            "blend_updates": 136712,
+            "skipped_terminated_pixels": 6778200,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 12708,
+            "candidate_blocks": 174195,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 174195,
+            "candidate_pixels": 7182808,
+            "alpha_evaluations": 7182808,
+            "alpha_pruned": 5695618,
+            "blend_updates": 1487190,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.05633005921918002,
+          "active_block_ratio": 0.04593128390596745,
+          "blend_ratio": 0.09192638465831535,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 15336,
+            "projection_priority": 30672,
+            "sort_priority": 16613,
+            "raster_priority": 30672
+          },
+          "dynamic": {
+            "cycles": 13568,
+            "switches": 2,
+            "mode_histogram": {
+              "balanced": 2,
+              "projection_priority": 0,
+              "sort_priority": 2,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 3,
+                "mode": "sort_priority"
+              },
+              {
+                "window_start": 3,
+                "window_end": 4,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8847157016171101,
+          "window_best_mode_histogram": {
+            "balanced": 2,
+            "projection_priority": 0,
+            "sort_priority": 2,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 7.842761988285929e-05,
+            "p50": 7.833921699784696e-05,
+            "p90": 8.817588968668133e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.25,
+            0.75
+          ],
+          "roi": [
+            208,
+            368,
+            272,
+            432
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 1197,
+            "candidate_blocks": 47102,
+            "skipped_terminated_blocks": 41854,
+            "active_block_visits": 5248,
+            "candidate_pixels": 2872163,
+            "alpha_evaluations": 335872,
+            "alpha_pruned": 218586,
+            "blend_updates": 117286,
+            "skipped_terminated_pixels": 2536291,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 1197,
+            "candidate_blocks": 47102,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 47102,
+            "candidate_pixels": 2872163,
+            "alpha_evaluations": 2872163,
+            "alpha_pruned": 2096122,
+            "blend_updates": 776041,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.11694043826899797,
+          "active_block_ratio": 0.11141777419217867,
+          "blend_ratio": 0.15113376741692772,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 2624,
+            "projection_priority": 5248,
+            "sort_priority": 5248,
+            "raster_priority": 4224
+          },
+          "dynamic": {
+            "cycles": 2624,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 4.1059414797928184e-05,
+            "p50": 4.122776226722635e-05,
+            "p90": 4.385395732242614e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.75
+          ],
+          "roi": [
+            448,
+            368,
+            512,
+            432
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 5006,
+            "candidate_blocks": 70966,
+            "skipped_terminated_blocks": 65550,
+            "active_block_visits": 5416,
+            "candidate_pixels": 3791920,
+            "alpha_evaluations": 346304,
+            "alpha_pruned": 233203,
+            "blend_updates": 113101,
+            "skipped_terminated_pixels": 3445616,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 5006,
+            "candidate_blocks": 70966,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 70966,
+            "candidate_pixels": 3791920,
+            "alpha_evaluations": 3791920,
+            "alpha_pruned": 2932637,
+            "blend_updates": 859283,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.09132682124095445,
+          "active_block_ratio": 0.07631823690217851,
+          "blend_ratio": 0.13162252715345235,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 5872,
+            "projection_priority": 11744,
+            "sort_priority": 6326,
+            "raster_priority": 11744
+          },
+          "dynamic": {
+            "cycles": 5872,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 2,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 2,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 2,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 2.4641993149998598e-05,
+            "p50": 2.3670756490901113e-05,
+            "p90": 2.9541290132328868e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.75
+          ],
+          "roi": [
+            687,
+            368,
+            751,
+            432
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 5096,
+            "candidate_blocks": 90393,
+            "skipped_terminated_blocks": 83584,
+            "active_block_visits": 6809,
+            "candidate_pixels": 4449808,
+            "alpha_evaluations": 385855,
+            "alpha_pruned": 248630,
+            "blend_updates": 137225,
+            "skipped_terminated_pixels": 4063953,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 5096,
+            "candidate_blocks": 90393,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 90393,
+            "candidate_pixels": 4449808,
+            "alpha_evaluations": 4449808,
+            "alpha_pruned": 3546621,
+            "blend_updates": 903187,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.08671273007734266,
+          "active_block_ratio": 0.07532662927439071,
+          "blend_ratio": 0.1519342063160785,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 5872,
+            "projection_priority": 11744,
+            "sort_priority": 7809,
+            "raster_priority": 11744
+          },
+          "dynamic": {
+            "cycles": 5872,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 2,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 2,
+                "mode": "balanced"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 2,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 6.521329487441108e-05,
+            "p50": 7.370177627308294e-05,
+            "p90": 9.86556478892453e-05,
+            "terminated_fraction": 1.0
+          }
+        }
+      ]
+    },
+    "bonsai": {
+      "camera_index": 291,
+      "resolution": [
+        960,
+        640
+      ],
+      "roi_count": 9,
+      "alpha_evaluation_ratio": {
+        "min": 0.09977775538016823,
+        "median": 0.16149471946801766,
+        "max": 0.22498938383617506
+      },
+      "active_block_ratio": {
+        "min": 0.07643462899671581,
+        "median": 0.13149066950565455,
+        "max": 0.21965894705488123
+      },
+      "rois": [
+        {
+          "anchor": [
+            0.25,
+            0.25
+          ],
+          "roi": [
+            208,
+            128,
+            272,
+            192
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 1419,
+            "candidate_blocks": 70137,
+            "skipped_terminated_blocks": 55378,
+            "active_block_visits": 14759,
+            "candidate_pixels": 4353311,
+            "alpha_evaluations": 943487,
+            "alpha_pruned": 644929,
+            "blend_updates": 298558,
+            "skipped_terminated_pixels": 3409824,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 1419,
+            "candidate_blocks": 70137,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 70137,
+            "candidate_pixels": 4353311,
+            "alpha_evaluations": 4353311,
+            "alpha_pruned": 3033634,
+            "blend_updates": 1319677,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.21672860036877678,
+          "active_block_ratio": 0.21043101358769267,
+          "blend_ratio": 0.22623566221128352,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 7380,
+            "projection_priority": 14759,
+            "sort_priority": 14759,
+            "raster_priority": 4224
+          },
+          "dynamic": {
+            "cycles": 4224,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 0,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 3.888221181114204e-05,
+            "p50": 3.539969111443497e-05,
+            "p90": 3.986879892181605e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.25
+          ],
+          "roi": [
+            448,
+            128,
+            512,
+            192
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 11866,
+            "candidate_blocks": 110851,
+            "skipped_terminated_blocks": 97264,
+            "active_block_visits": 13587,
+            "candidate_pixels": 5375216,
+            "alpha_evaluations": 868069,
+            "alpha_pruned": 597907,
+            "blend_updates": 270162,
+            "skipped_terminated_pixels": 4507147,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 11866,
+            "candidate_blocks": 110851,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 110851,
+            "candidate_pixels": 5375216,
+            "alpha_evaluations": 5375216,
+            "alpha_pruned": 3831717,
+            "blend_updates": 1543499,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.16149471946801766,
+          "active_block_ratio": 0.12256993622069264,
+          "blend_ratio": 0.1750321833703812,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 16778,
+            "projection_priority": 33555,
+            "sort_priority": 21357,
+            "raster_priority": 29952
+          },
+          "dynamic": {
+            "cycles": 14576,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 2,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 3,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8687567052092026,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 2,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 9.278816287405789e-05,
+            "p50": 9.441329166293144e-05,
+            "p90": 9.889445937005803e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.25
+          ],
+          "roi": [
+            687,
+            128,
+            751,
+            192
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 1511,
+            "candidate_blocks": 74836,
+            "skipped_terminated_blocks": 58955,
+            "active_block_visits": 15881,
+            "candidate_pixels": 4120105,
+            "alpha_evaluations": 898017,
+            "alpha_pruned": 601269,
+            "blend_updates": 296748,
+            "skipped_terminated_pixels": 3222088,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 1511,
+            "candidate_blocks": 74836,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 74836,
+            "candidate_pixels": 4120105,
+            "alpha_evaluations": 4120105,
+            "alpha_pruned": 2887890,
+            "blend_updates": 1232215,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.21795973646302702,
+          "active_block_ratio": 0.2122107007322679,
+          "blend_ratio": 0.24082485605190654,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 7941,
+            "projection_priority": 15881,
+            "sort_priority": 15881,
+            "raster_priority": 4224
+          },
+          "dynamic": {
+            "cycles": 4224,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 0,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 9.241946099791676e-05,
+            "p50": 9.601781493984163e-05,
+            "p90": 9.951466927304864e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.25,
+            0.5
+          ],
+          "roi": [
+            208,
+            288,
+            272,
+            352
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 1382,
+            "candidate_blocks": 67145,
+            "skipped_terminated_blocks": 52396,
+            "active_block_visits": 14749,
+            "candidate_pixels": 4175237,
+            "alpha_evaluations": 939384,
+            "alpha_pruned": 639080,
+            "blend_updates": 300304,
+            "skipped_terminated_pixels": 3235853,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 1382,
+            "candidate_blocks": 67145,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 67145,
+            "candidate_pixels": 4175237,
+            "alpha_evaluations": 4175237,
+            "alpha_pruned": 2851106,
+            "blend_updates": 1324131,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.22498938383617506,
+          "active_block_ratio": 0.21965894705488123,
+          "blend_ratio": 0.22679327045435838,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 7375,
+            "projection_priority": 14749,
+            "sort_priority": 14749,
+            "raster_priority": 4224
+          },
+          "dynamic": {
+            "cycles": 4224,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 0,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 4.698156408267096e-05,
+            "p50": 3.07645823340863e-05,
+            "p90": 9.926499478751794e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "roi": [
+            448,
+            288,
+            512,
+            352
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 15081,
+            "candidate_blocks": 164729,
+            "skipped_terminated_blocks": 152138,
+            "active_block_visits": 12591,
+            "candidate_pixels": 8066337,
+            "alpha_evaluations": 804841,
+            "alpha_pruned": 542850,
+            "blend_updates": 261991,
+            "skipped_terminated_pixels": 7261496,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 15081,
+            "candidate_blocks": 164729,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 164729,
+            "candidate_pixels": 8066337,
+            "alpha_evaluations": 8066337,
+            "alpha_pruned": 5977075,
+            "blend_updates": 2089262,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.09977775538016823,
+          "active_block_ratio": 0.07643462899671581,
+          "blend_ratio": 0.12539882503965516,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 21272,
+            "projection_priority": 42543,
+            "sort_priority": 23576,
+            "raster_priority": 39936
+          },
+          "dynamic": {
+            "cycles": 17293,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 3,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 4,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8129465964648364,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 3,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 9.20670063351281e-05,
+            "p50": 9.336971561424434e-05,
+            "p90": 9.88299580058083e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.5
+          ],
+          "roi": [
+            687,
+            288,
+            751,
+            352
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 13859,
+            "candidate_blocks": 135258,
+            "skipped_terminated_blocks": 121176,
+            "active_block_visits": 14082,
+            "candidate_pixels": 5833270,
+            "alpha_evaluations": 800078,
+            "alpha_pruned": 534163,
+            "blend_updates": 265915,
+            "skipped_terminated_pixels": 5033192,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 13859,
+            "candidate_blocks": 135258,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 135258,
+            "candidate_pixels": 5833270,
+            "alpha_evaluations": 5833270,
+            "alpha_pruned": 4226921,
+            "blend_updates": 1606349,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.13715771771236374,
+          "active_block_ratio": 0.10411214124118352,
+          "blend_ratio": 0.16553999162074992,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 19137,
+            "projection_priority": 38274,
+            "sort_priority": 23845,
+            "raster_priority": 34176
+          },
+          "dynamic": {
+            "cycles": 16816,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 3,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 4,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8787166222500914,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 3,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 9.055309055838734e-05,
+            "p50": 9.033079550135881e-05,
+            "p90": 9.718281216919422e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.25,
+            0.75
+          ],
+          "roi": [
+            208,
+            447,
+            272,
+            511
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 1051,
+            "candidate_blocks": 68640,
+            "skipped_terminated_blocks": 54235,
+            "active_block_visits": 14405,
+            "candidate_pixels": 3867123,
+            "alpha_evaluations": 813942,
+            "alpha_pruned": 534516,
+            "blend_updates": 279426,
+            "skipped_terminated_pixels": 3053181,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 1051,
+            "candidate_blocks": 68640,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 68640,
+            "candidate_pixels": 3867123,
+            "alpha_evaluations": 3867123,
+            "alpha_pruned": 2590172,
+            "blend_updates": 1276951,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.21047740141702243,
+          "active_block_ratio": 0.2098630536130536,
+          "blend_ratio": 0.2188228052603428,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 7203,
+            "projection_priority": 14405,
+            "sort_priority": 14405,
+            "raster_priority": 4224
+          },
+          "dynamic": {
+            "cycles": 4224,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 1
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "raster_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0,
+          "window_best_mode_histogram": {
+            "balanced": 0,
+            "projection_priority": 0,
+            "sort_priority": 0,
+            "raster_priority": 1
+          },
+          "final_transmittance": {
+            "mean": 9.270045848097652e-05,
+            "p50": 9.317453077528626e-05,
+            "p90": 9.865731408353895e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.5,
+            0.75
+          ],
+          "roi": [
+            448,
+            447,
+            512,
+            511
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 7947,
+            "candidate_blocks": 99566,
+            "skipped_terminated_blocks": 86474,
+            "active_block_visits": 13092,
+            "candidate_pixels": 4774207,
+            "alpha_evaluations": 738316,
+            "alpha_pruned": 483452,
+            "blend_updates": 254864,
+            "skipped_terminated_pixels": 4035891,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 7947,
+            "candidate_blocks": 99566,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 99566,
+            "candidate_pixels": 4774207,
+            "alpha_evaluations": 4774207,
+            "alpha_pruned": 3237290,
+            "blend_updates": 1536917,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.15464683454236483,
+          "active_block_ratio": 0.13149066950565455,
+          "blend_ratio": 0.1658280831040323,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 11538,
+            "projection_priority": 23076,
+            "sort_priority": 16943,
+            "raster_priority": 19968
+          },
+          "dynamic": {
+            "cycles": 10409,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 1,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 2,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9021494193101057,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 1,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 8.387048728764057e-05,
+            "p50": 8.229953527916223e-05,
+            "p90": 9.756568761076778e-05,
+            "terminated_fraction": 1.0
+          }
+        },
+        {
+          "anchor": [
+            0.75,
+            0.75
+          ],
+          "roi": [
+            687,
+            447,
+            751,
+            511
+          ],
+          "early_termination": {
+            "projected_roi_gaussians": 9362,
+            "candidate_blocks": 120174,
+            "skipped_terminated_blocks": 104755,
+            "active_block_visits": 15419,
+            "candidate_pixels": 5019498,
+            "alpha_evaluations": 778332,
+            "alpha_pruned": 511340,
+            "blend_updates": 266992,
+            "skipped_terminated_pixels": 4241166,
+            "terminated_pixels": 4096
+          },
+          "termination_disabled": {
+            "projected_roi_gaussians": 9362,
+            "candidate_blocks": 120174,
+            "skipped_terminated_blocks": 0,
+            "active_block_visits": 120174,
+            "candidate_pixels": 5019498,
+            "alpha_evaluations": 5019498,
+            "alpha_pruned": 3427432,
+            "blend_updates": 1592066,
+            "skipped_terminated_pixels": 0,
+            "terminated_pixels": 0
+          },
+          "alpha_evaluation_ratio": 0.1550617213115734,
+          "active_block_ratio": 0.12830562351257344,
+          "blend_ratio": 0.16770159026070527,
+          "best_fixed_mode": "balanced",
+          "fixed_mode_cycles": {
+            "balanced": 14814,
+            "projection_priority": 29627,
+            "sort_priority": 20685,
+            "raster_priority": 24192
+          },
+          "dynamic": {
+            "cycles": 12988,
+            "switches": 1,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 2,
+              "raster_priority": 0
+            },
+            "runs": [
+              {
+                "window_start": 0,
+                "window_end": 1,
+                "mode": "balanced"
+              },
+              {
+                "window_start": 1,
+                "window_end": 3,
+                "mode": "sort_priority"
+              }
+            ]
+          },
+          "dynamic_vs_best_fixed_ratio": 0.8767382206021331,
+          "window_best_mode_histogram": {
+            "balanced": 1,
+            "projection_priority": 0,
+            "sort_priority": 2,
+            "raster_priority": 0
+          },
+          "final_transmittance": {
+            "mean": 8.75104233273305e-05,
+            "p50": 9.026480984175578e-05,
+            "p90": 9.889076318359002e-05,
+            "terminated_fraction": 1.0
+          }
+        }
+      ]
+    }
+  }
+}

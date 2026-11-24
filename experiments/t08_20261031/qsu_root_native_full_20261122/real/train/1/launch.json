@@ -1,0 +1,85 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/qsu_root_native_full_20261122/1/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/train/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/inputs/train/v2.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/inputs/native/train/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/qsu_root_native_full_20261122/real/train/1/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/qsu_root_native_full_20261122/real/train/1/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/qsu_root_native_full_20261122/real/train/1/sorted.txt",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT",
+    "+LABEL=train_camera150"
+  ],
+  "inputs": {
+    "MEAN": "A6B66E5E5FD3CD6303CF49E147A59BF0EFB108E91D8CEE62DBD34FA48004D259",
+    "ATTR": "3D2B8260575CE1F57A0ABF5C452EC80811E7FD40FAF066698BF1972522A69E82",
+    "CAMERA": "5D6A862B5FA9CF095A5E6610130C65192892296E199E341823EB0A19BCC29447"
+  },
+  "elf_sha256": "3483DAB5AE1B0FF5916A677B54DF8DB96CC9E5720618432A3CE5EABF93C91F13",
+  "meta": {
+    "scene": "train",
+    "camera_index": 150,
+    "gaussians": 1026508,
+    "full_scene": true,
+    "width": 1959,
+    "height": 1090,
+    "camera_source": "/mnt/d/3DGS/data/train/cameras.json",
+    "camera_source_sha256": "F54E605C11AA577E3CD83702CE69385577DA07EB9AE150F0F195116018506563",
+    "ply": "/mnt/d/3DGS/data/train/point_cloud/iteration_30000/point_cloud.ply",
+    "ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+    "inputs": {
+      "CAMERA": "/mnt/d/3DGS/experiments/t08_20261031/inputs/native/train/camera.memh",
+      "MEAN": "/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/train/mean.memh",
+      "ATTR": "/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/train/attribute.memh"
+    },
+    "input_sha256": {
+      "CAMERA": "5D6A862B5FA9CF095A5E6610130C65192892296E199E341823EB0A19BCC29447",
+      "MEAN": "A6B66E5E5FD3CD6303CF49E147A59BF0EFB108E91D8CEE62DBD34FA48004D259",
+      "ATTR": "DF0132F96A9EC91E73A2F35E39C95599253809932D09F5BD3FA0E3EC8ABAE113"
+    },
+    "changed_camera_word_indices": [
+      15,
+      16,
+      17,
+      18,
+      25,
+      26
+    ],
+    "software_preprocessing": "PLY/fixed-format encoding only; original unsorted complete model; no CPU pivots or batches",
+    "status": "INPUT_PREPARED_NOT_SIMULATED",
+    "signed_off": false,
+    "budget": {
+      "cycles_at_assumed_200MHz_30FPS": 6666666.666666667,
+      "assumed_frequency_verified": false,
+      "model_parameter_bytes_uncompressed": 164241280,
+      "attribute_record_bytes": 144,
+      "sh_payload_bits_per_record": 864,
+      "low_resolution_reference_sha256": "283AC09A64A3B83DFA395E635557BE110B4BEDC18E9FEAC73BB68835CF304CF6",
+      "invariant_frontend_read_bytes": 288303200,
+      "invariant_qsu_write_bytes": 123621728,
+      "invariant_traffic_assumption": "same means/extrinsics/near/far => same depth-visible set and deterministic QSU; confirm in native RTL results",
+      "final_rgb_state_read_bytes": 34164960,
+      "final_rgb_write_bytes": 6417920,
+      "shared_total_bytes_necessary_floor": 452507808,
+      "shared_GBps_necessary_floor_at_30FPS": 13.57523424,
+      "shared_128bit_beats_necessary_floor": 28281738,
+      "shared_128bit_beats_per_cycle_required": 4.2422607,
+      "attribute_beats_per_cycle_required": 1.25091945,
+      "qsu_read_beats_per_cycle_required": 1.2979447499999999,
+      "termination_table_entries": 256,
+      "image_blocks": 33565,
+      "native_render_state_traffic": null,
+      "native_frame_cycles": null,
+      "calibrated_shared_DDR": false
+    }
+  }
+}

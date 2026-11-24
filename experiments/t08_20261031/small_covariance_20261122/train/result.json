@@ -1,0 +1,25 @@
+{
+  "scene": "train",
+  "camera": 150,
+  "counts": {
+    "records": 1026508,
+    "selected": 67216,
+    "risk_q20": 67,
+    "risk_q24": 0,
+    "recovered": 67,
+    "new_risks": 0
+  },
+  "examples_q20": [
+    55925,
+    220475,
+    251965,
+    286204,
+    324729,
+    329134,
+    335265,
+    379753
+  ],
+  "known_case": null,
+  "ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+  "camera_sha256": "5D6A862B5FA9CF095A5E6610130C65192892296E199E341823EB0A19BCC29447"
+}

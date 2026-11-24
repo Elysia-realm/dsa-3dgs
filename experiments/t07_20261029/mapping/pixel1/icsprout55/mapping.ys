@@ -1,0 +1,11 @@
+read_verilog -sv -DSYNTHESIS "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv" "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv" "/mnt/d/3DGS/rtl/raster/block_termination_table.sv" "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv" "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv" "/mnt/d/3DGS/rtl/raster/raster_pixel_termination_filter.sv" "/mnt/d/3DGS/verification/rtl/t07_termination_cost_top.sv"
+chparam -set PIXEL_SKIP 1 t07_termination_cost_top
+synth -top t07_termination_cost_top -flatten -noabc
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+dfflibmap -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+abc -script "/mnt/d/3DGS/experiments/t07_20261029/mapping/pixel1/icsprout55/abc.script" -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -constr "/mnt/d/3DGS/experiments/t07_20261029/mapping/pixel1/icsprout55/abc.constr" -D 5000
+clean
+delete t:$scopeinfo
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t07_20261029/mapping/pixel1/icsprout55/stat.json" stat -json -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+write_verilog -noattr -noexpr -nodec "/mnt/d/3DGS/experiments/t07_20261029/mapping/pixel1/icsprout55/mapped.v"

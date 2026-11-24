@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/dual_precision_native_20261122/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/truck/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/v2_compact_native_20261122/real/truck/compact.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/truck/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/real/truck/f2/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/real/truck/f2/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/real/truck/f2/sorted.txt",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT"
+  ],
+  "inputs": {
+    "MEAN": "8EB95937EE7703ADECF041D056C0B6BB95BC644B9BDCEC8C6DD4528F5A8DD4E7",
+    "ATTR": "4DC0796C2FC2E61F2647EE3352BC1B8A6D861CA59F931C38E054F5C99EEA2BE4",
+    "CAMERA": "39344ECF8F55D265A62C2C1F634F9313668F358F1910C1414644F117C0F1F3CA"
+  },
+  "elf_sha256": "994B64DD357BA555BC77F9A968E840808CA4A01660AC245D91B9C5FAFF882AD3"
+}

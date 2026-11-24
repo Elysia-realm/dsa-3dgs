@@ -1,0 +1,6 @@
+read_verilog -formal -sv -DSYNTHESIS -DT01_FORMAL_BOUNDS /mnt/d/3DGS/experiments/t01_resume_20261025/hist_padding_proof/autonomous_qsu_bounds.sv
+chparam -set PRECOUNT_CHILDREN 1 -set LOCAL_RECORDS 0 autonomous_qsu
+prep -top autonomous_qsu
+async2sync
+opt_clean
+sat -seq 2 -tempinduct -maxsteps 4 -set-init-undef -set rst_ni 1 -set-at 1 rst_ni 0 -prove-asserts -ignore_unknown_cells -verify

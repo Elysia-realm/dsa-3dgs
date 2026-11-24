@@ -1,0 +1,17 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_precount_full_20261022\\t06_perf.exe",
+  "+MEAN=D:/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/H/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/H/rgb.memh",
+  "+FRAME_MODE=0",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+MAX_TIMEOUT=2000000000",
+  "+AUTO_QSU",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/H/sorted.txt"
+]

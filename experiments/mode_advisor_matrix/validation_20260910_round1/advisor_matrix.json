@@ -1,0 +1,90 @@
+{
+  "report_version": 1,
+  "generated_at": "2026-09-10T19:44:10.379828+08:00",
+  "simulator": "Icarus Verilog 12",
+  "window_cycles": 64,
+  "observed_windows_per_class": 3,
+  "hysteresis_windows": 2,
+  "minimum_residence_windows": 1,
+  "score_margin": 4,
+  "mode_encoding": {
+    "G": 0,
+    "P": 1,
+    "R": 2,
+    "E": 3
+  },
+  "rows": [
+    {
+      "class": "G",
+      "active": 1,
+      "winner": 0,
+      "recommended": 0,
+      "valid": 1,
+      "window": 3,
+      "group": 64,
+      "sort": 64,
+      "projection": 16,
+      "raster": 8,
+      "block": 8,
+      "skip": 0
+    },
+    {
+      "class": "P",
+      "active": 0,
+      "winner": 1,
+      "recommended": 1,
+      "valid": 1,
+      "window": 3,
+      "group": 8,
+      "sort": 8,
+      "projection": 64,
+      "raster": 8,
+      "block": 8,
+      "skip": 0
+    },
+    {
+      "class": "R",
+      "active": 0,
+      "winner": 2,
+      "recommended": 2,
+      "valid": 1,
+      "window": 3,
+      "group": 8,
+      "sort": 8,
+      "projection": 16,
+      "raster": 64,
+      "block": 64,
+      "skip": 0
+    },
+    {
+      "class": "E",
+      "active": 0,
+      "winner": 3,
+      "recommended": 3,
+      "valid": 1,
+      "window": 3,
+      "group": 8,
+      "sort": 8,
+      "projection": 16,
+      "raster": 32,
+      "block": 64,
+      "skip": 56
+    },
+    {
+      "class": "BALANCED",
+      "active": 0,
+      "winner": 0,
+      "recommended": 0,
+      "valid": 0,
+      "window": 3,
+      "group": 32,
+      "sort": 32,
+      "projection": 64,
+      "raster": 32,
+      "block": 32,
+      "skip": 0
+    }
+  ],
+  "result": "PASS",
+  "interpretation": "Synthetic event-boundary calibration only. System-top tests separately prove that the same counters are sourced from the real Gaussian pipeline and readable through APB."
+}

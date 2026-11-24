@@ -1,0 +1,15 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t05_parallel_production16\\t05_parallel.exe",
+  "+BATCH_ROOT=D:/3DGS/experiments/t05_parallel_20261011/release/bonsai/g16",
+  "+BATCH_LAST=7",
+  "+FRAME=D:/3DGS/experiments/t05_parallel_20261011/release/bonsai/g16/production16_m3_limited/state.memh",
+  "+RGB=D:/3DGS/experiments/t05_parallel_20261011/release/bonsai/g16/production16_m3_limited/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t05_parallel_20261011/release/bonsai/g16/production16_m3_limited/sorted.txt",
+  "+FRAME_MODE=3",
+  "+MAX_TIMEOUT=3000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

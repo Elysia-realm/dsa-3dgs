@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "k": 8,
+      "lanes": 1,
+      "pipeline": 0,
+      "status": "PASS",
+      "first_output_cycle": 56,
+      "steady_max_interval": 64,
+      "steady_mean_interval": 64.0,
+      "collect_emit": 0,
+      "multi_stage": 0
+    },
+    {
+      "k": 8,
+      "lanes": 1,
+      "pipeline": 1,
+      "status": "PASS",
+      "first_output_cycle": 15,
+      "steady_max_interval": 8,
+      "steady_mean_interval": 8.0,
+      "collect_emit": 1168,
+      "multi_stage": 32
+    },
+    {
+      "k": 8,
+      "lanes": 2,
+      "pipeline": 0,
+      "status": "PASS",
+      "first_output_cycle": 32,
+      "steady_max_interval": 40,
+      "steady_mean_interval": 40.0,
+      "collect_emit": 0,
+      "multi_stage": 0
+    },
+    {
+      "k": 8,
+      "lanes": 2,
+      "pipeline": 1,
+      "status": "PASS",
+      "first_output_cycle": 15,
+      "steady_max_interval": 8,
+      "steady_mean_interval": 8.0,
+      "collect_emit": 1167,
+      "multi_stage": 32
+    },
+    {
+      "k": 8,
+      "lanes": 4,
+      "pipeline": 0,
+      "status": "PASS",
+      "first_output_cycle": 20,
+      "steady_max_interval": 28,
+      "steady_mean_interval": 28.0,
+      "collect_emit": 0,
+      "multi_stage": 0
+    },
+    {
+      "k": 8,
+      "lanes": 4,
+      "pipeline": 1,
+      "status": "PASS",
+      "first_output_cycle": 15,
+      "steady_max_interval": 8,
+      "steady_mean_interval": 8.0,
+      "collect_emit": 1167,
+      "multi_stage": 32
+    },
+    {
+      "k": 16,
+      "lanes": 1,
+      "pipeline": 0,
+      "status": "PASS",
+      "first_output_cycle": 176,
+      "steady_max_interval": 192,
+      "steady_mean_interval": 192.0,
+      "collect_emit": 0,
+      "multi_stage": 0
+    },
+    {
+      "k": 16,
+      "lanes": 1,
+      "pipeline": 1,
+      "status": "PASS",
+      "first_output_cycle": 27,
+      "steady_max_interval": 16,
+      "steady_mean_interval": 16.0,
+      "collect_emit": 2272,
+      "multi_stage": 32
+    },
+    {
+      "k": 16,
+      "lanes": 2,
+      "pipeline": 0,
+      "status": "PASS",
+      "first_output_cycle": 96,
+      "steady_max_interval": 112,
+      "steady_mean_interval": 112.0,
+      "collect_emit": 0,
+      "multi_stage": 0
+    },
+    {
+      "k": 16,
+      "lanes": 2,
+      "pipeline": 1,
+      "status": "PASS",
+      "first_output_cycle": 27,
+      "steady_max_interval": 16,
+      "steady_mean_interval": 16.0,
+      "collect_emit": 2274,
+      "multi_stage": 32
+    },
+    {
+      "k": 16,
+      "lanes": 4,
+      "pipeline": 0,
+      "status": "PASS",
+      "first_output_cycle": 56,
+      "steady_max_interval": 72,
+      "steady_mean_interval": 72.0,
+      "collect_emit": 0,
+      "multi_stage": 0
+    },
+    {
+      "k": 16,
+      "lanes": 4,
+      "pipeline": 1,
+      "status": "PASS",
+      "first_output_cycle": 27,
+      "steady_max_interval": 16,
+      "steady_mean_interval": 16.0,
+      "collect_emit": 2274,
+      "multi_stage": 32
+    }
+  ]
+}

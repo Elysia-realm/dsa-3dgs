@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "bytes": 65536,
+      "raw_bytes": 73728,
+      "bursts": 526,
+      "all_lines": 16205,
+      "cycles": 54422,
+      "line_cycles": 55249,
+      "split_cycles": 55249,
+      "raw_cycles": 54422,
+      "difference_from_raw_percent": 0.0,
+      "result_sha256": "C2F18DA66F269E8BC9F583C647F73047062C8CD07F3EDE313C74965BD99E00F2"
+    },
+    {
+      "scene": "counter",
+      "bytes": 65536,
+      "raw_bytes": 73728,
+      "bursts": 526,
+      "all_lines": 18129,
+      "cycles": 60714,
+      "line_cycles": 61571,
+      "split_cycles": 61750,
+      "raw_cycles": 60815,
+      "difference_from_raw_percent": -0.16607744799802537,
+      "result_sha256": "DEB67E1948A1067BE0834DFA904DA852A0876246E2FE8FA14C85832B6CF56F0D"
+    },
+    {
+      "scene": "room",
+      "bytes": 65552,
+      "raw_bytes": 73728,
+      "bursts": 527,
+      "all_lines": 15817,
+      "cycles": 56029,
+      "line_cycles": 57591,
+      "split_cycles": 57667,
+      "raw_cycles": 56284,
+      "difference_from_raw_percent": -0.453059484045204,
+      "result_sha256": "C34AD98D0BB3BE24E14905089D30C365CB40A20241A9FDCEBDFB43CD48718E9B"
+    },
+    {
+      "scene": "train",
+      "bytes": 65552,
+      "raw_bytes": 73728,
+      "bursts": 527,
+      "all_lines": 14695,
+      "cycles": 48120,
+      "line_cycles": 49298,
+      "split_cycles": 49682,
+      "raw_cycles": 48120,
+      "difference_from_raw_percent": 0.0,
+      "result_sha256": "E6AC0556D19802FA73CA1D3FCE2B5EF316401DB20D158E8B8F1E613DF922724F"
+    },
+    {
+      "scene": "truck",
+      "bytes": 65456,
+      "raw_bytes": 73728,
+      "bursts": 527,
+      "all_lines": 13743,
+      "cycles": 44613,
+      "line_cycles": 47192,
+      "split_cycles": 47339,
+      "raw_cycles": 44335,
+      "difference_from_raw_percent": 0.6270440960866042,
+      "result_sha256": "72E3B09F75EF57F6A225D4689058DDD787FF18542E67F3DFB2C545A93A246DEC"
+    }
+  ],
+  "report_sha256": "F507B2F6282B3BF087CC56A3FBA11181D7B731D26A66FCC03FA731FD3486143D",
+  "signed_off": false
+}

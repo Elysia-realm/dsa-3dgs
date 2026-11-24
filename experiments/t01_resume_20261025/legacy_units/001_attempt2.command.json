@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_cfg_epoch_ctrl",
+  "-o",
+  "/home/gs3d/work/t01_resume_20261025/legacy_units/tb_cfg_epoch_ctrl.vvp",
+  "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_cfg_epoch_ctrl.sv"
+]

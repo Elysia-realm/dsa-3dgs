@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-24",
+  "user": "gs3d",
+  "source_archives": [
+    {
+      "name": "cudd",
+      "repo": "cuddorg/cudd",
+      "requested_ref": "refs/tags/3.0.0",
+      "url": "https://codeload.github.com/cuddorg/cudd/tar.gz/refs/tags/3.0.0",
+      "path": "tmp\\toolchains\\linux_sources_20261024\\cudd.tar.gz",
+      "bytes": 1170598,
+      "sha256": "ce2c41c000f4374868ee4d713283a35d3d975a96f1c6f3bcfbee96e79eeb4560",
+      "pax": {
+        "comment": "f54f533303640afd5dbe47a05ebeabb3066f2a25"
+      }
+    },
+    {
+      "name": "OpenSTA",
+      "repo": "parallaxsw/OpenSTA",
+      "requested_ref": "refs/heads/master",
+      "url": "https://codeload.github.com/parallaxsw/OpenSTA/tar.gz/refs/heads/master",
+      "path": "tmp\\toolchains\\linux_sources_20261024\\OpenSTA.tar.gz",
+      "bytes": 13513595,
+      "sha256": "ba0f3370ea3b39e6e05d8bae19c1f7807fdeb9b1de5d2518ea54916c6568e4e5",
+      "pax": {
+        "comment": "2b5a1181a7293e62c0ba513004238c8c3a048ab3"
+      }
+    },
+    {
+      "name": "cacti",
+      "repo": "HewlettPackard/cacti",
+      "requested_ref": "1ffd8dfb10303d306ecd8d215320aea07651e878",
+      "url": "https://codeload.github.com/HewlettPackard/cacti/tar.gz/1ffd8dfb10303d306ecd8d215320aea07651e878",
+      "path": "tmp\\toolchains\\linux_sources_20261024\\cacti.tar.gz",
+      "bytes": 195137,
+      "sha256": "bfed924722bb8ebfa0b224741d3955034e1ced7bd1371fbb5472c81c509df9a3",
+      "pax": {
+        "comment": "1ffd8dfb10303d306ecd8d215320aea07651e878"
+      }
+    },
+    {
+      "name": "ramulator",
+      "repo": "CMU-SAFARI/ramulator",
+      "requested_ref": "refs/heads/master",
+      "url": "https://codeload.github.com/CMU-SAFARI/ramulator/tar.gz/refs/heads/master",
+      "path": "tmp\\toolchains\\linux_sources_20261024\\ramulator.tar.gz",
+      "bytes": 251005850,
+      "sha256": "4a426704796de5a2bf9e07374a60e653ba5c0ef5681aeb1dc45f1a1feaff9e3b",
+      "pax": {
+        "comment": "214f635845214adf030367939655d172ef0fed5f"
+      }
+    }
+  ],
+  "binaries": [
+    {
+      "path": "/home/gs3d/eda/opt/opensta/bin/sta",
+      "sha256": "f27c74b173f0454b0014b552db4e95e6ef4b5debbd5c452f42a51ec56fc2a05b",
+      "bytes": 9231472
+    },
+    {
+      "path": "/home/gs3d/eda/opt/cudd-3.0.0/lib/libcudd.a",
+      "sha256": "bebd2a0f13b79f1efdafdad3fdb87407091e80efc877a686ada8fff93533a0b4",
+      "bytes": 4948484
+    },
+    {
+      "path": "/home/gs3d/eda/src-20261024/cacti/cacti",
+      "sha256": "ac7429383c4f229e9832e31a839b79a90ba992630cfe78a374d4b8cae501f858",
+      "bytes": 2606856
+    },
+    {
+      "path": "/home/gs3d/eda/src-20261024/cacti/cacti.upstream",
+      "sha256": "7a2a9277d7fcd2fef1f610375cd22ce1858a17737c79415bb813f2cc7d8bcf5a",
+      "bytes": 2606360
+    },
+    {
+      "path": "/home/gs3d/eda/src-20261024/ramulator/ramulator",
+      "sha256": "da0899a428b874ecd1394e5d29b623f9fb99171b8cd430ae7d17e8b47c5f8943",
+      "bytes": 36434312
+    },
+    {
+      "path": "/home/gs3d/eda/src-20261024/cacti/io.cc",
+      "sha256": "7ff1aa9331e69ba4a7d6a4b10b52d1abbdd2c838abb2ef3d4c5f1895493ac669",
+      "bytes": 135017
+    },
+    {
+      "path": "/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+      "sha256": "afce8ba8758d574662f3115171edb9c2221d0941561cd416e7ed200f017f4734",
+      "bytes": 1114
+    },
+    {
+      "path": "/home/gs3d/eda/src-20261024/ramulator/dram.trace",
+      "sha256": "337779fc60843cf03defcb15548ed19a91d11d99e3552e9ca45062f75bea7913",
+      "bytes": 65
+    },
+    {
+      "path": "/home/gs3d/eda/env.sh",
+      "sha256": "8161a3a8cf39505ebc1eeac6ee16a21ee3d5c3f73c0bc875c91cadc670a4fe45",
+      "bytes": 314
+    },
+    {
+      "path": "/home/gs3d/eda/bin/gs-python",
+      "sha256": "dc70cf4cba98e1daf02fd1498f9355f24dc85d36f0eece061acdaf6711e68541",
+      "bytes": 73
+    },
+    {
+      "path": "/home/gs3d/eda/bin/ramulator",
+      "sha256": "45b3c50b5e89da9b498403e9dcaff9648fa0f73ebcf06b9dc55e96dafaba76b9",
+      "bytes": 80
+    },
+    {
+      "path": "/home/gs3d/eda/bin/cacti",
+      "sha256": "9e73f358d0336064ba44ae6c27942c05d6501fd61c9e745f5cfad409bd1b8e20",
+      "bytes": 286
+    }
+  ],
+  "versions": {
+    "os": {
+      "command": [
+        "cat",
+        "/etc/os-release"
+      ],
+      "exit_code": 0,
+      "stdout": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+      "stderr": ""
+    },
+    "kernel": {
+      "command": [
+        "uname",
+        "-r"
+      ],
+      "exit_code": 0,
+      "stdout": "6.18.54.1-microsoft-standard-WSL2\n",
+      "stderr": ""
+    },
+    "gcc": {
+      "command": [
+        "g++",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    },
+    "cmake": {
+      "command": [
+        "cmake",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "cmake version 3.28.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n",
+      "stderr": ""
+    },
+    "iverilog": {
+      "command": [
+        "iverilog",
+        "-V"
+      ],
+      "exit_code": 0,
+      "stdout": "Icarus Verilog version 12.0 (stable) ()\n\nCopyright (c) 2000-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nIcarus Verilog Preprocessor version 12.0 (stable) ()\n\nCopyright (c) 1999-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nIcarus Verilog Parser/Elaborator version 12.0 (stable) ()\n\nCopyright (c) 1998-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\n FLAGS DLL vvp.tgt\nvvp.tgt: Icarus Verilog VVP Code Generator 12.0 (stable) ()\n\nCopyright (c) 2001-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\n",
+      "stderr": ""
+    },
+    "verilator": {
+      "command": [
+        "verilator",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Verilator 5.020 2024-01-01 rev (Debian 5.020-1)\n",
+      "stderr": ""
+    },
+    "opensta": {
+      "command": [
+        "/home/gs3d/eda/opt/opensta/bin/sta",
+        "-version"
+      ],
+      "exit_code": 0,
+      "stdout": "3.1.0\n",
+      "stderr": ""
+    },
+    "python": {
+      "command": [
+        "/home/gs3d/eda/venvs/gsverify/bin/python",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Python 3.12.3\n",
+      "stderr": ""
+    }
+  },
+  "cacti_patch": {
+    "upstream_commit": "1ffd8dfb10303d306ecd8d215320aea07651e878",
+    "file": "io.cc",
+    "before_sha256": "78584c149e83d1da9a33a55392c2233fea3144696050f1ddc3b2b65bab7831be",
+    "after_sha256": "7ff1aa9331e69ba4a7d6a4b10b52d1abbdd2c838abb2ef3d4c5f1895493ac669",
+    "scope": "Parse/validate three missing external IO configuration fields; no SRAM algorithm changes"
+  },
+  "ramulator_compile_flags": "CXX=g++ CXXFLAGS=\"-O3 -std=c++11 -g -Wall -include cstdint\"",
+  "production_rtl_changed": false,
+  "project_signed_off": false
+}

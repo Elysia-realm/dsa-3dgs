@@ -1,0 +1,16 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t05_parallel_20261011\\real\\build\\fold16.vvp",
+  "+BATCH_ROOT=D:/3DGS/experiments/t05_parallel_20261011/real/bonsai/g16",
+  "+BATCH_LAST=7",
+  "+FRAME=D:/3DGS/experiments/t05_parallel_20261011/real/bonsai/g16/fold16_m1_limited/state.memh",
+  "+RGB=D:/3DGS/experiments/t05_parallel_20261011/real/bonsai/g16/fold16_m1_limited/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t05_parallel_20261011/real/bonsai/g16/fold16_m1_limited/sorted.txt",
+  "+FRAME_MODE=1",
+  "+MAX_TIMEOUT=3000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

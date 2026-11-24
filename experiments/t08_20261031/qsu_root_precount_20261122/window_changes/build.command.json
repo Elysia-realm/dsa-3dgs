@@ -1,0 +1,23 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+  "--binary",
+  "--build",
+  "-j",
+  "2",
+  "--timing",
+  "--assert",
+  "-Wno-fatal",
+  "-DSYNTHESIS",
+  "-DTB_QSU_PRECOUNT=1",
+  "-DT06_MAX_COUNT=512",
+  "--top-module",
+  "tb_t08_qsu_window_changes",
+  "--Mdir",
+  "/home/gs3d/work/t08_20261031/qsu_root_precount_20261122/window_changes",
+  "-o",
+  "simulation",
+  "/mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv",
+  "/mnt/d/3DGS/rtl/sort/bitonic_group_sorter_pipelined_shared.sv",
+  "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+  "/mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/window_changes/tb_t08_qsu_window_changes.sv"
+]

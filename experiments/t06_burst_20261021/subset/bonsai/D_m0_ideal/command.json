@@ -1,0 +1,17 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_burst_20261021_D\\t06_perf.exe",
+  "+AUTO_QSU",
+  "+MEAN=D:/3DGS/experiments/t06_burst_20261021/subset/bonsai/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_burst_20261021/subset/bonsai/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_burst_20261021/subset/bonsai/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_burst_20261021/subset/bonsai/D_m0_ideal/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_burst_20261021/subset/bonsai/D_m0_ideal/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_burst_20261021/subset/bonsai/D_m0_ideal/sorted.txt",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=10000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

@@ -1,0 +1,945 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "b1_1x1_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 1,
+          "height": 1,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 8,
+          "reads": 1,
+          "AR": 1,
+          "writes": 1,
+          "AW": 1
+        }
+      ],
+      "log": "b1_1x1_p0_f0.log"
+    },
+    {
+      "name": "b1_1x1_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 1,
+          "height": 1,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 16,
+          "reads": 1,
+          "AR": 1,
+          "writes": 1,
+          "AW": 1
+        }
+      ],
+      "log": "b1_1x1_p1_f0.log"
+    },
+    {
+      "name": "b1_5x3_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 5,
+          "height": 3,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 44,
+          "reads": 15,
+          "AR": 15,
+          "writes": 3,
+          "AW": 3
+        }
+      ],
+      "log": "b1_5x3_p0_f0.log"
+    },
+    {
+      "name": "b1_5x3_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 5,
+          "height": 3,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 93,
+          "reads": 15,
+          "AR": 15,
+          "writes": 3,
+          "AW": 3
+        }
+      ],
+      "log": "b1_5x3_p1_f0.log"
+    },
+    {
+      "name": "b1_79x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 79,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 356,
+          "reads": 158,
+          "AR": 158,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b1_79x2_p0_f0.log"
+    },
+    {
+      "name": "b1_79x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 79,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 769,
+          "reads": 158,
+          "AR": 158,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b1_79x2_p1_f0.log"
+    },
+    {
+      "name": "b1_80x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 80,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 360,
+          "reads": 160,
+          "AR": 160,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b1_80x2_p0_f0.log"
+    },
+    {
+      "name": "b1_80x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 80,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 778,
+          "reads": 160,
+          "AR": 160,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b1_80x2_p1_f0.log"
+    },
+    {
+      "name": "b1_81x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 81,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 372,
+          "reads": 162,
+          "AR": 162,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_81x2_p0_f0.log"
+    },
+    {
+      "name": "b1_81x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 81,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 807,
+          "reads": 162,
+          "AR": 162,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_81x2_p1_f0.log"
+    },
+    {
+      "name": "b1_83x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 380,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p0_f0.log"
+    },
+    {
+      "name": "b1_83x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 823,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p1_f0.log"
+    },
+    {
+      "name": "b1_128x84_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 128,
+          "height": 84,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 24042,
+          "reads": 10752,
+          "AR": 10752,
+          "writes": 2016,
+          "AW": 176
+        }
+      ],
+      "log": "b1_128x84_p0_f0.log"
+    },
+    {
+      "name": "b1_128x84_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 128,
+          "height": 84,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 52121,
+          "reads": 10752,
+          "AR": 10752,
+          "writes": 2016,
+          "AW": 176
+        }
+      ],
+      "log": "b1_128x84_p1_f0.log"
+    },
+    {
+      "name": "b1_83x2_p1_f1",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 1,
+          "cycles": 823,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 822,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p1_f1.log"
+    },
+    {
+      "name": "b1_83x2_p1_f2",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 2,
+          "cycles": 823,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 822,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p1_f2.log"
+    },
+    {
+      "name": "b1_83x2_p1_f4",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 4,
+          "cycles": 9,
+          "reads": 2,
+          "AR": 1,
+          "writes": 0,
+          "AW": 0
+        },
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 825,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p1_f4.log"
+    },
+    {
+      "name": "b1_83x2_p1_f5",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 5,
+          "cycles": 823,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 822,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p1_f5.log"
+    },
+    {
+      "name": "b1_83x2_p1_f6",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 6,
+          "cycles": 823,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 822,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p1_f6.log"
+    },
+    {
+      "name": "b1_83x2_p1_f7",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 7,
+          "cycles": 2,
+          "reads": 0,
+          "AR": 0,
+          "writes": 0,
+          "AW": 0
+        },
+        {
+          "burst": 1,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 824,
+          "reads": 166,
+          "AR": 166,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b1_83x2_p1_f7.log"
+    },
+    {
+      "name": "b16_1x1_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 1,
+          "height": 1,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 8,
+          "reads": 1,
+          "AR": 1,
+          "writes": 1,
+          "AW": 1
+        }
+      ],
+      "log": "b16_1x1_p0_f0.log"
+    },
+    {
+      "name": "b16_1x1_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 1,
+          "height": 1,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 16,
+          "reads": 1,
+          "AR": 1,
+          "writes": 1,
+          "AW": 1
+        }
+      ],
+      "log": "b16_1x1_p1_f0.log"
+    },
+    {
+      "name": "b16_5x3_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 5,
+          "height": 3,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 33,
+          "reads": 15,
+          "AR": 4,
+          "writes": 3,
+          "AW": 3
+        }
+      ],
+      "log": "b16_5x3_p0_f0.log"
+    },
+    {
+      "name": "b16_5x3_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 5,
+          "height": 3,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 76,
+          "reads": 15,
+          "AR": 4,
+          "writes": 3,
+          "AW": 3
+        }
+      ],
+      "log": "b16_5x3_p1_f0.log"
+    },
+    {
+      "name": "b16_79x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 79,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 209,
+          "reads": 158,
+          "AR": 11,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b16_79x2_p0_f0.log"
+    },
+    {
+      "name": "b16_79x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 79,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 353,
+          "reads": 158,
+          "AR": 11,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b16_79x2_p1_f0.log"
+    },
+    {
+      "name": "b16_80x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 80,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 211,
+          "reads": 160,
+          "AR": 11,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b16_80x2_p0_f0.log"
+    },
+    {
+      "name": "b16_80x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 80,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 358,
+          "reads": 160,
+          "AR": 11,
+          "writes": 30,
+          "AW": 3
+        }
+      ],
+      "log": "b16_80x2_p1_f0.log"
+    },
+    {
+      "name": "b16_81x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 81,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 223,
+          "reads": 162,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_81x2_p0_f0.log"
+    },
+    {
+      "name": "b16_81x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 81,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 381,
+          "reads": 162,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_81x2_p1_f0.log"
+    },
+    {
+      "name": "b16_83x2_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 227,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p0_f0.log"
+    },
+    {
+      "name": "b16_83x2_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 389,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f0.log"
+    },
+    {
+      "name": "b16_128x84_p0_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 128,
+          "height": 84,
+          "profile": 0,
+          "fault": 0,
+          "cycles": 14004,
+          "reads": 10752,
+          "AR": 714,
+          "writes": 2016,
+          "AW": 176
+        }
+      ],
+      "log": "b16_128x84_p0_f0.log"
+    },
+    {
+      "name": "b16_128x84_p1_f0",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 128,
+          "height": 84,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 23453,
+          "reads": 10752,
+          "AR": 714,
+          "writes": 2016,
+          "AW": 176
+        }
+      ],
+      "log": "b16_128x84_p1_f0.log"
+    },
+    {
+      "name": "b16_83x2_p1_f1",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 1,
+          "cycles": 389,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 388,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f1.log"
+    },
+    {
+      "name": "b16_83x2_p1_f2",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 2,
+          "cycles": 389,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 388,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f2.log"
+    },
+    {
+      "name": "b16_83x2_p1_f3",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 3,
+          "cycles": 11,
+          "reads": 2,
+          "AR": 2,
+          "writes": 0,
+          "AW": 0
+        },
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 390,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f3.log"
+    },
+    {
+      "name": "b16_83x2_p1_f4",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 4,
+          "cycles": 9,
+          "reads": 2,
+          "AR": 1,
+          "writes": 0,
+          "AW": 0
+        },
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 393,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f4.log"
+    },
+    {
+      "name": "b16_83x2_p1_f5",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 5,
+          "cycles": 389,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 388,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f5.log"
+    },
+    {
+      "name": "b16_83x2_p1_f6",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 6,
+          "cycles": 389,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        },
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 388,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f6.log"
+    },
+    {
+      "name": "b16_83x2_p1_f7",
+      "status": "PASS",
+      "frames": [
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 7,
+          "cycles": 2,
+          "reads": 0,
+          "AR": 0,
+          "writes": 0,
+          "AW": 0
+        },
+        {
+          "burst": 16,
+          "width": 83,
+          "height": 2,
+          "profile": 1,
+          "fault": 0,
+          "cycles": 364,
+          "reads": 166,
+          "AR": 13,
+          "writes": 32,
+          "AW": 5
+        }
+      ],
+      "log": "b16_83x2_p1_f7.log"
+    }
+  ],
+  "source_sha256": {
+    "rtl/dma/axi4_final_rgb_frame_dma.sv": "dfc8e53c8b4d517cce725b72a2016bd5eac9b7f7cbbbed12f098d6d43ae04dd2",
+    "verification/rtl/tb_t06_rgb_burst.sv": "00309ab79c68ad7997f5897815a2c3cdaa0963224e62a1dc555f6cf5c0bfe864"
+  },
+  "scope": "RGB output stage only; synthetic state values; not whole-renderer real-data or 30FPS signoff"
+}

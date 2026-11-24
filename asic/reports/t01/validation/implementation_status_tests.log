@@ -1,0 +1,11 @@
+test_automatic_strategy_status_matches_real_report (verification.test_implementation_status.ImplementationStatusTests.test_automatic_strategy_status_matches_real_report) ... ok
+test_camera_descriptor_gap_is_machine_readable (verification.test_implementation_status.ImplementationStatusTests.test_camera_descriptor_gap_is_machine_readable) ... ok
+test_final_quality_and_ppa_are_not_marked_complete (verification.test_implementation_status.ImplementationStatusTests.test_final_quality_and_ppa_are_not_marked_complete) ... ok
+test_only_system_top_is_the_production_filelist_top (verification.test_implementation_status.ImplementationStatusTests.test_only_system_top_is_the_production_filelist_top) ... ok
+test_shared_pe_production_scope_is_precisely_declared (verification.test_implementation_status.ImplementationStatusTests.test_shared_pe_production_scope_is_precisely_declared) ... ok
+test_t00_contract_is_signed_and_executable (verification.test_implementation_status.ImplementationStatusTests.test_t00_contract_is_signed_and_executable) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK

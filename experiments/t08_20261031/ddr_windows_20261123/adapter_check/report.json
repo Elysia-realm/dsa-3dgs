@@ -1,0 +1,32 @@
+{
+  "scope": "Adapter-only 5 bursts, one spans two lines; not RTL traffic",
+  "result": {
+    "window": 0,
+    "first_tick": 1,
+    "end_tick_exclusive": 8193,
+    "axi_bursts": 5,
+    "port_bursts": {
+      "camera": 1,
+      "output_write": 1,
+      "state_read": 1,
+      "qsu_write": 1,
+      "attribute": 1
+    },
+    "addressed_axi_bytes": 240,
+    "axi_read_bytes": 144,
+    "axi_write_bytes": 96,
+    "line_requests": 6,
+    "partial_line_requests": 3,
+    "dram_cycles": 94,
+    "controller_reported_transfer_bytes": 384,
+    "saturated_useful_GBps": 3.0638297872340425,
+    "rtl_issue_demand_GBps_at_200mhz": 0.005859375,
+    "stats_sha256": "417FE84A3355C3ECDF361FE8476FD6C7EF2686ABABC1345CEEAFB561CFC5D6E6",
+    "execution": {
+      "exit_code": 0,
+      "wall_seconds": 0.2306652170000234,
+      "log_sha256": "96C0C60B3C668477B310BFF8361FD1241C2CFB25515C1CEFA016D7A110829C74"
+    }
+  },
+  "signed_off": false
+}

@@ -1,0 +1,25 @@
+{
+  "pdk": "icsprout55",
+  "sample": false,
+  "variant": 0,
+  "records": 6144,
+  "physical_beats": 49565,
+  "controls": 18,
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 11347.600801261999,
+    "log_sha256": "4A0E8D3F5FB090AD0B340D670ACB306AC7550F1D018AD5CC88F80B2873F532CD"
+  },
+  "config": {
+    "command": [
+      "/usr/bin/vvp",
+      "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/simulation.vvp",
+      "+N=6144",
+      "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/0/input.memh",
+      "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+    ],
+    "input_sha256": "7EDDBA85DAFBC93CEB20C1FAFE26738C53374A7822EEEDE7CE7367926E582C4A",
+    "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+    "vvp_sha256": "0C9BD06899676D9CD9944C5823AA5A4C7F1438C82E228133029CD647C7EF2BFC"
+  }
+}

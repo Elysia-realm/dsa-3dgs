@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "projected": 161,
+    "alpha_eval": 257602,
+    "pass": 119357,
+    "updates": 119357,
+    "terminated": 2752
+  },
+  "rgb_min": [
+    84,
+    76,
+    64
+  ],
+  "rgb_max": [
+    118,
+    110,
+    94
+  ],
+  "t_min": 2,
+  "t_max": 7,
+  "vs_float": {
+    "psnr": 50.970892084435455,
+    "ssim": 0.9925997024030209,
+    "lpips": null
+  },
+  "vs_rtl": {
+    "psnr": 18.215567809732825,
+    "ssim": 0.8784878310573115,
+    "lpips": null
+  }
+}

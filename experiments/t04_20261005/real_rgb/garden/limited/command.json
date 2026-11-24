@@ -1,0 +1,15 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t04_rgb\\tb_t04_rgb.exe",
+  "+BATCH_ROOT=D:/3DGS/experiments/t04_20261005/real_rgb/garden",
+  "+BATCH_LAST=63",
+  "+FRAME=D:/3DGS/experiments/t04_20261005/real_rgb/garden/limited/state.memh",
+  "+RGB=D:/3DGS/experiments/t04_20261005/real_rgb/garden/limited/frame_rgb.memh",
+  "+LABEL=garden_limited",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=20000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8"
+]

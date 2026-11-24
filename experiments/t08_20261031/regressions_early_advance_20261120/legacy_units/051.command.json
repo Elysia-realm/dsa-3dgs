@@ -1,0 +1,14 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_gaussian_resource_control",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_gaussian_resource_control.vvp",
+  "/mnt/d/3DGS/rtl/control/sat_counter_bank.sv",
+  "/mnt/d/3DGS/rtl/control/gaussian_resource_mode_table.sv",
+  "/mnt/d/3DGS/rtl/control/gaussian_pipeline_event_counters.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_gaussian_resource_control.sv"
+]

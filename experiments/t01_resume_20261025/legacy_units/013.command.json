@@ -1,0 +1,17 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_raster_termination_filter",
+  "-o",
+  "/home/gs3d/work/t01_resume_20261025/legacy_units/tb_raster_termination_filter.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+  "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+  "/mnt/d/3DGS/rtl/raster/block_termination_bank.sv",
+  "/mnt/d/3DGS/rtl/raster/block_termination_table.sv",
+  "/mnt/d/3DGS/rtl/raster/raster_termination_filter.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_raster_termination_filter.sv"
+]

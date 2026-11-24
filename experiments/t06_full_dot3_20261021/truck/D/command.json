@@ -1,0 +1,17 @@
+[
+  "D:\\3DGS\\tmp\\verilator_t06_D_full_20261021\\t06_perf.exe",
+  "+MEAN=D:/3DGS/experiments/t06_full_dot3_20261021/truck/mean.memh",
+  "+ATTR=D:/3DGS/experiments/t06_full_dot3_20261021/truck/attribute.memh",
+  "+CAMERA=D:/3DGS/experiments/t06_full_dot3_20261021/truck/camera.memh",
+  "+FRAME=D:/3DGS/experiments/t06_full_dot3_20261021/truck/D/state.memh",
+  "+RGB=D:/3DGS/experiments/t06_full_dot3_20261021/truck/D/rgb.memh",
+  "+FRAME_MODE=0",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+MAX_TIMEOUT=2000000000",
+  "+AUTO_QSU",
+  "+SORTED_TRACE=D:/3DGS/experiments/t06_full_dot3_20261021/truck/D/sorted.txt"
+]

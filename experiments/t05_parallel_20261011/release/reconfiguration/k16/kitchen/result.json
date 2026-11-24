@@ -1,0 +1,16 @@
+{
+  "k": 16,
+  "scene": "kitchen",
+  "status": "PASS",
+  "frames": 2,
+  "changes": 2,
+  "GP": 2,
+  "PR": 318,
+  "GR": 0,
+  "transitions": [
+    "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+    "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+    "REAL_AUTO observe_mode=3 observe_cycles=42465 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=563 total_windows=1124 selected_mode=0 selected_cycles=42440 image_mismatches=0",
+    "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+  ]
+}

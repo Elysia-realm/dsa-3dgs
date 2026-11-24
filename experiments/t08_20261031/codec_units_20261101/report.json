@@ -1,0 +1,59 @@
+{
+  "status": "PASS_MODULE_ONLY",
+  "vectors": 3590,
+  "malformed_vectors": 6,
+  "real_subsets": [
+    {
+      "scene": "bonsai",
+      "records": 512,
+      "precomputed_records": 512,
+      "encoded_payload_bytes": 64976,
+      "legacy_bytes": 73728
+    },
+    {
+      "scene": "counter",
+      "records": 512,
+      "precomputed_records": 512,
+      "encoded_payload_bytes": 65456,
+      "legacy_bytes": 73728
+    },
+    {
+      "scene": "room",
+      "records": 512,
+      "precomputed_records": 512,
+      "encoded_payload_bytes": 64576,
+      "legacy_bytes": 73728
+    },
+    {
+      "scene": "train",
+      "records": 512,
+      "precomputed_records": 512,
+      "encoded_payload_bytes": 63792,
+      "legacy_bytes": 73728
+    },
+    {
+      "scene": "truck",
+      "records": 512,
+      "precomputed_records": 512,
+      "encoded_payload_bytes": 64576,
+      "legacy_bytes": 73728
+    }
+  ],
+  "source_sha256": {
+    "rtl/dma/t08_attribute_decoder.sv": "71689CEDE0C0871E4EAFC7C29B54057F5FE338D6EDC23154290E0AB0EF4E6F88",
+    "verification/rtl/tb_t08_attribute_decoder.sv": "14A4DB87788C191DA3468862B4DCAA8BC5E4E2685BD6A504E326624266F4936B",
+    "model/io/t08_attribute_codec.py": "900D4D34A19812F7DCDB20E7C997149B8666FD3A1807EB6C22CC983F49F41D98",
+    "model/io/t08_precompute.py": "351F7A6874A73042D065E32893D229FE8CDBD135DA299FA7D3F19A3A5B47293B",
+    "scripts/check_t08_codec.py": "AF53EBD8B6A1F0C225D1AEF3AF5AD81E8CD5B7E6DCAD9E77CA4C36BE57EC0B0C"
+  },
+  "input_sha256": {
+    "/mnt/d/3DGS/experiments/t06_release_20261022/subset/bonsai/attribute.memh": "3427D9A33A622E2EDA461BB929CFB2F146B7D46534C70CE23AD94FE3AA5EE1F7",
+    "/mnt/d/3DGS/experiments/t06_release_20261022/subset/counter/attribute.memh": "0E76B32725883A6C401029BB4607E67A52C2BDA1B245A06C9DEC4102A9AD76E6",
+    "/mnt/d/3DGS/experiments/t06_release_20261022/subset/room/attribute.memh": "941C52E54A757B08A23ED0AF561246C96BC66F551976753CF5DBEA44E1F1E2BE",
+    "/mnt/d/3DGS/experiments/t06_release_20261022/subset/train/attribute.memh": "79C8B48B051590E95F10FF31685AF1327F88E9D6CC3E3053FA6E9576B457401B",
+    "/mnt/d/3DGS/experiments/t06_release_20261022/subset/truck/attribute.memh": "FD693D0FCC68D18582C175D762CB1CF0EDC2A4EFC69D0BB9E84F73C637ADBA2D"
+  },
+  "binary_sha256": "CEBBE81A6B50CE1F830259E629EF8709D136D54D78027BE686A298FE07674A08",
+  "signed_off": false,
+  "scope": "No compressed DMA/top/render integration yet; real attribute records only, not real end-to-end frames"
+}

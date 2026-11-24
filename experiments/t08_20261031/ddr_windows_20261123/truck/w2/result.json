@@ -1,0 +1,25 @@
+{
+  "window": 2,
+  "first_tick": 9051212,
+  "end_tick_exclusive": 9059404,
+  "axi_bursts": 5821,
+  "port_bursts": {
+    "state_read": 2909,
+    "output_write": 2912
+  },
+  "addressed_axi_bytes": 93136,
+  "axi_read_bytes": 46544,
+  "axi_write_bytes": 46592,
+  "line_requests": 5821,
+  "partial_line_requests": 5821,
+  "dram_cycles": 31146,
+  "controller_reported_transfer_bytes": 367232,
+  "saturated_useful_GBps": 3.5883644769793874,
+  "rtl_issue_demand_GBps_at_200mhz": 2.273828125,
+  "stats_sha256": "38F6F3AA232643B7E3528095BE09AECDA1162B5D218EDF2984B8E2154F8B1411",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.24253867500010529,
+    "log_sha256": "1EA33A77AB2AFB5F5FF75E35B29C76D5962E1241A70DB88E8DD8C96E756535FB"
+  }
+}

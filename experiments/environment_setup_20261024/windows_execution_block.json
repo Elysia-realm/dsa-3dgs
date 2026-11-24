@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24",
+  "observation_source": "Native PowerShell exec_command output during environment setup, not an exported Windows event log",
+  "python_path": "D:\\Tools\\msys64\\ucrt64\\bin\\python3.exe",
+  "python_exit_code": -1058471934,
+  "cygpath_path": "D:\\Tools\\msys64\\usr\\bin\\cygpath.exe",
+  "cygpath_error": "应用程序控制策略已阻止此文件。",
+  "msys_python_package_install_exit_code": 0,
+  "msys_python_execution_verified": false,
+  "policy_changed": false,
+  "linux_toolchain_verified_separately": true
+}

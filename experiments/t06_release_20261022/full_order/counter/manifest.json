@@ -1,0 +1,13 @@
+{
+  "scene": "counter",
+  "gaussians": 1222956,
+  "camera_index": 120,
+  "full_scene": true,
+  "input_sha256": "01798e6ca573789c0658eb980f2ab132bca5e89c8d9e3d3dc30d51ac242d0914",
+  "camera_sha256": "16f1ddb6c8236206070fd29875b8b62ef2136a5ad60413f021fc5ab3db3b01c7",
+  "vectors_sha256": {
+    "input.memh": "91b4d0406a28907ad36186f677b9c2133327272f197fa92c4fccdbc33637194c",
+    "expected.memh": "40efb61513268f071ea729dc03c808e7b6e0848d13d9f3ce1b95f9e0fa4e21a3"
+  },
+  "scope": "all model records, no depth visibility cull; module QSU+BSU capacity/order evidence only"
+}

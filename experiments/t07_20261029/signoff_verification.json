@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "task": "T07",
+  "signed_off": true,
+  "current_handoff_checked": true,
+  "accepted_files": 2678,
+  "index_sha256": "E96DF752703862AF85CCDA73F4C4B085D18C7F8FBBEEA558AA4B4C1C6237C775",
+  "snapshot_files": 447,
+  "final_ppa_pass": false,
+  "formal_GT_30FPS_pass": false,
+  "next_task": "T08",
+  "verifier_sha256": "3B314A9BED936CBF7ECA39456E995D70632C79C5BB3FB61CE81D79CBE1664196"
+}

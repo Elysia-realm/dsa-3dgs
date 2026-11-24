@@ -1,0 +1,6 @@
+read_rtlil "D:/3DGS/asic/reports/t01/runs/generic/shared_baseline/generic.il"
+techmap
+opt -fast
+check
+tee -o "D:/3DGS/asic/reports/t01/runs/generic/shared_baseline/premap_stat.json" stat -json -top gs_accel_system_top -hierarchy
+write_rtlil "D:/3DGS/asic/reports/t01/runs/generic/shared_baseline/premap.il"

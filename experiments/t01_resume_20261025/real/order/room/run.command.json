@@ -1,0 +1,6 @@
+[
+  "/home/gs3d/work/t01_resume_20261025/build/order/simulation",
+  "+N=1593376",
+  "+INPUT=/mnt/d/3DGS/experiments/t06_release_20261022/full_order/room/input.memh",
+  "+EXPECTED=/mnt/d/3DGS/experiments/t06_release_20261022/full_order/room/expected.memh"
+]

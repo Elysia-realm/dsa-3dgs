@@ -1,0 +1,115 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "records": 1244819,
+      "issued": 1051092,
+      "raw": {
+        "format": 3,
+        "bytes": 151357248,
+        "bursts": 1083904,
+        "lines": 3153276,
+        "all_port_lines": 14547589,
+        "cycles": 54163738
+      },
+      "compact": {
+        "format": 2,
+        "bytes": 129430208,
+        "bursts": 2125522,
+        "lines": 3599138,
+        "all_port_lines": 14993450,
+        "cycles": 63088876
+      },
+      "extra_attr_lines": 445862,
+      "extra_other_lines": -1,
+      "duplicate_header_payload_lines": 788641,
+      "cycle_increase_percent": 16.478068777306333,
+      "comparison_sha256": "D61C54DD77A8EB23DC0B1AFC831181A0C828EECF102E99DF8457398C83265465",
+      "signed_off": false
+    },
+    {
+      "scene": "counter",
+      "records": 1222956,
+      "issued": 1110964,
+      "raw": {
+        "format": 3,
+        "bytes": 159978816,
+        "bursts": 1145676,
+        "lines": 3332892,
+        "all_port_lines": 16101083,
+        "cycles": 57379210
+      },
+      "compact": {
+        "format": 2,
+        "bytes": 140088384,
+        "bursts": 2247459,
+        "lines": 3855943,
+        "all_port_lines": 16624134,
+        "cycles": 67617497
+      },
+      "extra_attr_lines": 523051,
+      "extra_other_lines": 0,
+      "duplicate_header_payload_lines": 833480,
+      "cycle_increase_percent": 17.84319965367247,
+      "comparison_sha256": "7637E4489CC3B7BC44725D95DAEAC50E9FA15257011CD3F85E8D09C8C3F0B426",
+      "signed_off": false
+    },
+    {
+      "scene": "room",
+      "records": 1593376,
+      "issued": 1380856,
+      "raw": {
+        "format": 3,
+        "bytes": 198843264,
+        "bursts": 1423976,
+        "lines": 4142568,
+        "all_port_lines": 20046118,
+        "cycles": 72583054
+      },
+      "compact": {
+        "format": 2,
+        "bytes": 168739088,
+        "bursts": 2792111,
+        "lines": 4707995,
+        "all_port_lines": 20611549,
+        "cycles": 83860003
+      },
+      "extra_attr_lines": 565427,
+      "extra_other_lines": 4,
+      "duplicate_header_payload_lines": 1035729,
+      "cycle_increase_percent": 15.53661409727951,
+      "comparison_sha256": "FC181E853231E0F338924E811F437E4247311CE1FF2677949A3C7655DFB32B4B",
+      "signed_off": false
+    },
+    {
+      "scene": "train",
+      "records": 1026508,
+      "issued": 926607,
+      "raw": {
+        "format": 3,
+        "bytes": 133431408,
+        "bursts": 955548,
+        "lines": 2779821,
+        "all_port_lines": 13796111,
+        "cycles": 47492334
+      },
+      "compact": {
+        "format": 2,
+        "bytes": 115054528,
+        "bursts": 1874072,
+        "lines": 3187675,
+        "all_port_lines": 14203965,
+        "cycles": 55647358
+      },
+      "extra_attr_lines": 407854,
+      "extra_other_lines": 0,
+      "duplicate_header_payload_lines": 694975,
+      "cycle_increase_percent": 17.1712428367913,
+      "comparison_sha256": "AF399E5579635DDAD55AE1C8B0A4D0614728D53B2522A0BBDA1DBB9ED1A1834C",
+      "signed_off": false
+    }
+  ],
+  "complete": false,
+  "script_sha256": "3AA914BD04696330D1B9955185288578BEC8FD6F6D194A4EAC5D86B0E9E4DB24",
+  "signed_off": false
+}

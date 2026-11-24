@@ -1,0 +1,11 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-s",
+  "tb_axi4_final_rgb_frame_dma",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_20261107/legacy_units/tb_axi4_final_rgb_frame_dma.vvp",
+  "rtl/dma/axi4_final_rgb_frame_dma.sv",
+  "verification/rtl/tb_axi4_final_rgb_frame_dma.sv"
+]

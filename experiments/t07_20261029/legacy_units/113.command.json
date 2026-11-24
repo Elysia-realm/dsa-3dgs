@@ -1,0 +1,15 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-I",
+  "rtl/raster",
+  "-s",
+  "tb_gs_accel_system_camera_dma",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_gs_accel_system_camera_dma.vvp",
+  "-f",
+  "verification/rtl/system_top_sources.f",
+  "verification/rtl/tb_gs_accel_system_camera_dma.sv"
+]

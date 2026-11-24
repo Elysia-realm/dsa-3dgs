@@ -1,0 +1,19 @@
+{
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 5.531730208999761,
+    "log_sha256": "CB1759F1FC62C239C72869F50F3F612C561BDC62CEA54BA9F259CA44027913FB"
+  },
+  "elf_sha256": "998C644ED98DC3C7B557B1C5A9B4796B15FB81318DFDF6CEEB7C8A7F4274AD8F",
+  "bus": {
+    "beats": 30444,
+    "overlap_cycles": 2978,
+    "excess_beats": 3359,
+    "peak_queue": 137,
+    "final_queue": 0
+  },
+  "rgb_sha256": "52C617B11A1CFC097D84DA5D8346C5FBDAF3CBE16565BB27DE34307A93E2C39E",
+  "sorted_sha256": "89246887ABCADD782FB78C3C04F5E04D5088D3238A394C9DCB44F3389D9315D5",
+  "scope": "512-record Bonsai smoke of passive bus accounting",
+  "signed_off": false
+}

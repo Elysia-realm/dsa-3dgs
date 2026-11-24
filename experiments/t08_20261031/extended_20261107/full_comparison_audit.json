@@ -1,0 +1,53 @@
+{
+  "status": "PASS_EVIDENCE_AUDIT",
+  "comparisons": [
+    {
+      "scene": "bonsai",
+      "uncompressed_cycles": 33864969,
+      "compressed_cycles": 33992977,
+      "cycle_increase_percent": 0.3779953260846014,
+      "attribute_byte_reduction_percent": 14.489904044766988,
+      "uncompressed_attribute_bursts": 1083904,
+      "compressed_attribute_bursts": 2125516
+    },
+    {
+      "scene": "counter",
+      "uncompressed_cycles": 37564746,
+      "compressed_cycles": 37820425,
+      "cycle_increase_percent": 0.6806355086228955,
+      "attribute_byte_reduction_percent": 12.434106275670898,
+      "uncompressed_attribute_bursts": 1145676,
+      "compressed_attribute_bursts": 2247459
+    },
+    {
+      "scene": "room",
+      "uncompressed_cycles": 45249260,
+      "compressed_cycles": 45578588,
+      "cycle_increase_percent": 0.7278085873669626,
+      "attribute_byte_reduction_percent": 15.141276296892814,
+      "uncompressed_attribute_bursts": 1423976,
+      "compressed_attribute_bursts": 2792111
+    },
+    {
+      "scene": "train",
+      "uncompressed_cycles": 31752138,
+      "compressed_cycles": 31960299,
+      "cycle_increase_percent": 0.6555810509516036,
+      "attribute_byte_reduction_percent": 13.786355308489284,
+      "uncompressed_attribute_bursts": 955548,
+      "compressed_attribute_bursts": 1874065
+    },
+    {
+      "scene": "truck",
+      "uncompressed_cycles": 54317127,
+      "compressed_cycles": 54865309,
+      "cycle_increase_percent": 1.009224954037058,
+      "attribute_byte_reduction_percent": 12.749309743454596,
+      "uncompressed_attribute_bursts": 1716613,
+      "compressed_attribute_bursts": 3367150
+    }
+  ],
+  "report_sha256": "6C9C8B3DE3ED05B6A628594C0E8BB68043903C1758C59808E9744316E23CE570",
+  "scope": "Five complete models, width128, G/legacy-ideal; source/output integrity checked. No native GT/PPA/30FPS signoff.",
+  "signed_off": false
+}

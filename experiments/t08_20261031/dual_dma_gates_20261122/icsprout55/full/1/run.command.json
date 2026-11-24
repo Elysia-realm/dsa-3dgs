@@ -1,0 +1,7 @@
+[
+  "/usr/bin/vvp",
+  "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/icsprout55/dma.vvp",
+  "+N=6144",
+  "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/1/input.memh",
+  "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+]

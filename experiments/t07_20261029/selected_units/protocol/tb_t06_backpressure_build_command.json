@@ -1,0 +1,14 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Irtl/raster",
+  "-s",
+  "tb_t06_backpressure",
+  "-o",
+  "/mnt/d/3DGS/experiments/t07_20261029/selected_units/protocol/tb_t06_backpressure.vvp",
+  "rtl/sort/autonomous_qsu.sv",
+  "rtl/sort/bitonic_group_sorter_pipelined_shared.sv",
+  "rtl/control/shared_reconfigurable_pe_slice.sv",
+  "verification/rtl/tb_t06_backpressure.sv"
+]

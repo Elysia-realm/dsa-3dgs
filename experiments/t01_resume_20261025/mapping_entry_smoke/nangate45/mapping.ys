@@ -1,0 +1,10 @@
+read_verilog -sv -DSYNTHESIS "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv"
+chparam -set DATA_W 96 -set RESULT_W 65 -set P_DOT3 1 shared_reconfigurable_pe_slice
+synth -top shared_reconfigurable_pe_slice -noabc
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+dfflibmap -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+abc -script "/mnt/d/3DGS/experiments/t01_resume_20261025/mapping_entry_smoke/nangate45/abc.script" -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib" -constr "/mnt/d/3DGS/experiments/t01_resume_20261025/mapping_entry_smoke/nangate45/abc.constr" -D 5000
+clean
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t01_resume_20261025/mapping_entry_smoke/nangate45/stat.json" stat -json -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr -nodec "/mnt/d/3DGS/experiments/t01_resume_20261025/mapping_entry_smoke/nangate45/shared_pe.v"

@@ -1,0 +1,11 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-s",
+  "tb_t06_memory_layout",
+  "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+  "-Ptb_t06_memory_layout.MAX_PIXELS=6500000",
+  "-o",
+  "/home/gs3d/work/t08_20261031/entry_checks/original_model_capacity_native_pixels.vvp",
+  "verification/rtl/tb_t06_memory_layout.sv"
+]

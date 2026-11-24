@@ -1,0 +1,70 @@
+{
+  "report_version": 1,
+  "date": "2026-08-09",
+  "simulator": "Icarus Verilog 12",
+  "workload_class": "multi-scene trained-attribute RTL micro-workload",
+  "profiles": {
+    "ideal": {
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready_period": 1,
+      "ready_low": 0,
+      "write_response_latency": 2
+    },
+    "limited": {
+      "read_latency": 8,
+      "read_gap": 2,
+      "ready_period": 4,
+      "ready_low": 1,
+      "write_response_latency": 8
+    }
+  },
+  "write_buffer_depth": 2,
+  "state_entries": 128,
+  "results": [
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 32,
+      "resolution": [
+        64,
+        36
+      ],
+      "profile": "ideal",
+      "cycles": 7329,
+      "commits": 795,
+      "state_misses": 768,
+      "read_stall": 0,
+      "output_stall": 6,
+      "state_reads": 768,
+      "state_writes": 795,
+      "consecutive_same_pixel_commits": 0
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 32,
+      "resolution": [
+        64,
+        36
+      ],
+      "profile": "limited",
+      "cycles": 13906,
+      "commits": 795,
+      "state_misses": 768,
+      "read_stall": 0,
+      "output_stall": 85,
+      "state_reads": 768,
+      "state_writes": 795,
+      "consecutive_same_pixel_commits": 0
+    }
+  ],
+  "equivalence": {
+    "train": {
+      "ideal_equals_limited": true,
+      "sha256": "F771C1FE4FEAE4858AD191C6F20CAFD2A8BD9C0C1EAA8FBE6BB4907E606E2634"
+    }
+  },
+  "interpretation": "AXI timing profiles must produce bit-identical frame state; cycle and stall changes quantify memory sensitivity.",
+  "data_policy": "Local D:/3DGS only; no network upload."
+}

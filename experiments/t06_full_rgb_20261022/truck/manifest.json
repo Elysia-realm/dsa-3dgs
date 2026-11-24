@@ -1,0 +1,17 @@
+{
+  "scene": "truck",
+  "camera_index": 125,
+  "gaussians": 2541226,
+  "visible": 1664518,
+  "full_scene": true,
+  "width": 128,
+  "height": 71,
+  "software_preprocessing": "complete original PLY order, fixed-point encoding; no CPU pivots/batches for production",
+  "source_ply_sha256": "65ecf4058135a030cddd2198326f67172a4101344b0b54a3fa370cf45ea9688c",
+  "input_sha256": {
+    "attribute.memh": "0bd9373df6ce86f7fcba0f80681b8a30ead21acdbfe6499ea2187ca9d6f92fbf",
+    "camera.memh": "0201f3db88c49a09f26857711c140299bc4d545d34c1e2e734630605a4eb3e28",
+    "mean.memh": "5a4908f3f185cae1dbabd9bed6120c91b006ae8d50abadcc1bed7c7b6fd0de69"
+  },
+  "oracle_sha256": "c5a616dd2f39485ed0ac30098a462e00eff193f82bcd4360a53ee7afba28f345"
+}

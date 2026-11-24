@@ -1,0 +1,13 @@
+{
+  "scene": "truck",
+  "gaussians": 2541226,
+  "camera_index": 125,
+  "full_scene": true,
+  "input_sha256": "5a4908f3f185cae1dbabd9bed6120c91b006ae8d50abadcc1bed7c7b6fd0de69",
+  "camera_sha256": "0201f3db88c49a09f26857711c140299bc4d545d34c1e2e734630605a4eb3e28",
+  "vectors_sha256": {
+    "input.memh": "4f87cf8fceb0b2b024d280c347572878411942c48fe24cf246ddf094da540b64",
+    "expected.memh": "2718459be5d64a0e9300110d2d13856f66eb2cf78ad852a63fb39175be4079a5"
+  },
+  "scope": "all model records, no depth visibility cull; module QSU+BSU capacity/order evidence only"
+}

@@ -1,0 +1,11 @@
+{
+  "scene": "train",
+  "records": 1026508,
+  "requests": 926607,
+  "v1_actual_bytes": 115036080,
+  "q24_projected_bytes": 115054528,
+  "raw_bytes": 133431408,
+  "extra_escapes": 1121,
+  "source_ply_sha256": "70E055D46F53636C83547A59C4998A0A27F64E42FCEBA45C6B78DFC77F52958D",
+  "q24_saved_vs_raw_percent": 13.772529478216999
+}

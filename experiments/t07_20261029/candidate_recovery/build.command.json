@@ -1,0 +1,13 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Irtl/raster",
+  "-s",
+  "tb_t07_system_recovery",
+  "-o",
+  "/home/gs3d/work/t07_20261029/candidate_recovery/simulation.vvp",
+  "-f",
+  "verification/rtl/system_top_sources.f",
+  "/mnt/d/3DGS/experiments/t07_20261029/candidate_recovery/tb_t07_system_recovery.sv"
+]

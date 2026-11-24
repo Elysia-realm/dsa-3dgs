@@ -1,0 +1,11 @@
+read_verilog -sv "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/t08_rounding_cost.sv"
+chparam -set ENABLE_Q24 0 t08_rounding_cost
+synth -top t08_rounding_cost -flatten -noabc
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+dfflibmap -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+abc -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -constr "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/icsprout55/0/abc.constr" -D 5000
+clean
+delete t:$scopeinfo
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/icsprout55/0/stat.json" stat -json -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+write_verilog -noattr -noexpr -nodec "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/icsprout55/0/mapped.v"

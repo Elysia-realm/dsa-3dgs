@@ -1,0 +1,35 @@
+{
+  "commit": "954b16e2fcd52994e9d3c8b5af35b5f91d261889",
+  "files": [
+    {
+      "path": "tmp\\toolchains\\freepdk45_google_954b16e2\\LICENSE",
+      "url": "https://foss-eda-tools.googlesource.com/third_party/freepdk45/+/954b16e2fcd52994e9d3c8b5af35b5f91d261889/LICENSE?format=TEXT",
+      "bytes": 10174,
+      "sha256": "aaf7f1dc99abcd9215d6f3a2d0af7245777adc510e8c29b8bbfc8e064b1d349c"
+    },
+    {
+      "path": "tmp\\toolchains\\freepdk45_google_954b16e2\\Front_End\\Liberty\\NLDM\\NangateOpenCellLibrary_typical.lib",
+      "url": "https://foss-eda-tools.googlesource.com/third_party/freepdk45/+/954b16e2fcd52994e9d3c8b5af35b5f91d261889/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib?format=TEXT",
+      "bytes": 6691483,
+      "sha256": "2efd0b32eb580e4e60e72fc0575bb3bc69aac907c91d908442e4ae6d7fe55895"
+    },
+    {
+      "path": "tmp\\toolchains\\freepdk45_google_954b16e2\\Front_End\\Liberty\\NLDM\\NangateOpenCellLibrary_slow.lib",
+      "url": "https://foss-eda-tools.googlesource.com/third_party/freepdk45/+/954b16e2fcd52994e9d3c8b5af35b5f91d261889/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib?format=TEXT",
+      "bytes": 6631134,
+      "sha256": "372787d4970a6bde9fcd26e5499920c289ac5c7c780e21c3d518a64c002008be"
+    },
+    {
+      "path": "tmp\\toolchains\\freepdk45_google_954b16e2\\Front_End\\Liberty\\NLDM\\NangateOpenCellLibrary_fast.lib",
+      "url": "https://foss-eda-tools.googlesource.com/third_party/freepdk45/+/954b16e2fcd52994e9d3c8b5af35b5f91d261889/Front_End/Liberty/NLDM/NangateOpenCellLibrary_fast.lib?format=TEXT",
+      "bytes": 6749159,
+      "sha256": "31a231d64224b86d60e88c572e280f12e5d26361115e0b22bfc7e744fe8349ac"
+    },
+    {
+      "path": "tmp\\toolchains\\freepdk45_google_954b16e2\\Front_End\\Verilog\\NangateOpenCellLibrary.v",
+      "url": "https://foss-eda-tools.googlesource.com/third_party/freepdk45/+/954b16e2fcd52994e9d3c8b5af35b5f91d261889/Front_End/Verilog/NangateOpenCellLibrary.v?format=TEXT",
+      "bytes": 220307,
+      "sha256": "7b80af03f2ed72d40f014b836b13526aff3f64105415587c74f2260588b74363"
+    }
+  ]
+}

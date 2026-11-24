@@ -1,0 +1,10 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-s",
+  "tb_t08_attribute_dma",
+  "-o",
+  "/home/gs3d/work/t08_20261031/early_advance_20261120/gate_functional/nangate45/dma_0.vvp",
+  "/mnt/d/3DGS/verification/rtl/tb_t08_attribute_dma.sv",
+  "/home/gs3d/work/t08_20261031/early_advance_20261120/gate_functional/nangate45/with_cell_logic_0.v"
+]

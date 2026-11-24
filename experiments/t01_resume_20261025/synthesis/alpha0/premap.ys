@@ -1,0 +1,8 @@
+read_rtlil "/home/gs3d/work/t01_resume_20261025/synthesis/alpha0/memory_padding_defined.il"
+opt -fast
+techmap
+opt -fast
+write_rtlil "/home/gs3d/work/t01_resume_20261025/synthesis/alpha0/premap_unchecked.il"
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t01_resume_20261025/synthesis/alpha0/premap_stat.json" stat -json -top gs_accel_system_top
+write_rtlil "/home/gs3d/work/t01_resume_20261025/synthesis/alpha0/premap.il"

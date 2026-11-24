@@ -1,0 +1,10 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/rtl/dma/axi4_qsu_scratch_dma.sv"
+hierarchy -check -top axi4_qsu_scratch_dma
+proc
+opt
+memory_dff
+memory_collect
+opt_clean
+check -assert
+tee -o "D:/3DGS/experiments/t06_20261014/synthesis_v2/axi4_qsu_scratch_dma.json" stat -json
+write_rtlil "D:/3DGS/experiments/t06_20261014/synthesis_v2/axi4_qsu_scratch_dma.il"

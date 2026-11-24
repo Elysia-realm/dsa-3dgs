@@ -1,0 +1,13 @@
+[
+  "/home/gs3d/eda/venvs/gsverify/bin/python",
+  "/mnt/d/3DGS/scripts/diagnose_t06_low_resolution.py",
+  "--scenes",
+  "room",
+  "--floors",
+  "0.30078125",
+  "--clamp",
+  "--input-root",
+  "/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022",
+  "--output-root",
+  "/mnt/d/3DGS/experiments/t01_resume_20261025/fresh_float"
+]

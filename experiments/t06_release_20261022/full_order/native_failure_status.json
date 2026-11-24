@@ -1,0 +1,4 @@
+{
+  "status": "FAILED",
+  "error": "OSError(22, '应用程序控制策略已阻止此文件。', None, 4551, None)"
+}

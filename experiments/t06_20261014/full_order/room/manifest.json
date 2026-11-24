@@ -1,0 +1,12 @@
+{
+  "scene": "room",
+  "camera_index": 155,
+  "gaussians": 1593376,
+  "full_scene": true,
+  "scope": "all PLY records; exact quantized/saturated depth oracle at QSU input, not production top/visibility/RGB validation",
+  "prepass_numeric_overflows": 0,
+  "input_order": "original PLY; CPU never pivots or constructs subsets",
+  "source_ply_sha256": "7db92776b7ee8818866c00de62e1102dde344b5e83abf107e20accd88e2d9201",
+  "input_sha256": "0040df1b18896a86e5642c4f2c597afbe9487db11da7884fc47ef6add99c490d",
+  "expected_sha256": "9ff4ce9a7ebaad64f2eb0a3b9827edfb852341373d0f42d37d9f28e56e3533a0"
+}

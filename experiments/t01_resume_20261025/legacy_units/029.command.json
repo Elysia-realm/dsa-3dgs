@@ -1,0 +1,14 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_covariance3d_chain",
+  "-o",
+  "/home/gs3d/work/t01_resume_20261025/legacy_units/tb_covariance3d_chain.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/projection/quaternion_scale_covariance_core.sv",
+  "/mnt/d/3DGS/rtl/projection/covariance_view_rotate_core.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_covariance3d_chain.sv"
+]

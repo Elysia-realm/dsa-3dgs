@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_ONLY",
+  "scenes": [
+    "bonsai",
+    "counter",
+    "room",
+    "train",
+    "truck"
+  ],
+  "signed_off": false
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "scene": "bonsai",
+      "status": "PASS",
+      "source_ply": "D:\\3DGS\\data\\bonsai\\point_cloud\\iteration_30000\\point_cloud.ply",
+      "source_ply_sha256": "a16af6d8815498ffbf9eb5d5ee93f5bcc9dca34c4e3eb6f7a796ef9e97c0d273",
+      "checked_gaussians": 512,
+      "scope": "repacked with current project fixed-format encoder; not software-3DGS/GT quality signoff"
+    },
+    {
+      "scene": "counter",
+      "status": "PASS",
+      "source_ply": "D:\\3DGS\\data\\counter\\point_cloud\\iteration_30000\\point_cloud.ply",
+      "source_ply_sha256": "d676d3d9c4730933030e8cc02017bdf5c73c0ac58fafee05b8130f6369be39e4",
+      "checked_gaussians": 512,
+      "scope": "repacked with current project fixed-format encoder; not software-3DGS/GT quality signoff"
+    },
+    {
+      "scene": "room",
+      "status": "PASS",
+      "source_ply": "D:\\3DGS\\data\\room\\point_cloud\\iteration_30000\\point_cloud.ply",
+      "source_ply_sha256": "7db92776b7ee8818866c00de62e1102dde344b5e83abf107e20accd88e2d9201",
+      "checked_gaussians": 512,
+      "scope": "repacked with current project fixed-format encoder; not software-3DGS/GT quality signoff"
+    },
+    {
+      "scene": "kitchen",
+      "status": "PASS",
+      "source_ply": "D:\\3DGS\\data\\kitchen\\point_cloud\\iteration_30000\\point_cloud.ply",
+      "source_ply_sha256": "0a2a60c5b9e42c77f4e047d65622a0d7fa85cc4c716f2342cae8c897e8d75588",
+      "checked_gaussians": 512,
+      "scope": "repacked with current project fixed-format encoder; not software-3DGS/GT quality signoff"
+    },
+    {
+      "scene": "garden",
+      "status": "PASS",
+      "source_ply": "D:\\3DGS\\data\\garden\\point_cloud\\iteration_30000\\point_cloud.ply",
+      "source_ply_sha256": "16701d5e0630dfaca74f8794ed7ce2aa23fa922f87dc09a7e37484e8d3f82d5a",
+      "checked_gaussians": 512,
+      "scope": "repacked with current project fixed-format encoder; not software-3DGS/GT quality signoff"
+    }
+  ]
+}

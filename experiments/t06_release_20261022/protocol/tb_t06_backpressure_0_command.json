@@ -1,0 +1,7 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t06_release_20261022\\protocol\\tb_t06_backpressure.vvp",
+  "+N=512",
+  "+INPUT=experiments/t06_20261014/units_v2/random_512/input.memh",
+  "+EXPECTED=experiments/t06_20261014/units_v2/random_512/expected.memh"
+]

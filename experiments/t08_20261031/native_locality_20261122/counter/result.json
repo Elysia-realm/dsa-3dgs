@@ -1,0 +1,45 @@
+{
+  "status": "CAPTURED_TWO_WINDOWS",
+  "scene": "counter",
+  "windows": [
+    {
+      "window": 0,
+      "start_requests": 4096,
+      "end_requests": 57464,
+      "cycles": 3159851,
+      "state_updates": 65536,
+      "fills": 65537,
+      "queries": 65539,
+      "hits": 0,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 61441,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 65536,
+      "modeled_write_reduction_percent": 0.0
+    },
+    {
+      "window": 1,
+      "start_requests": 65536,
+      "end_requests": 124727,
+      "cycles": 2574479,
+      "state_updates": 65536,
+      "fills": 39021,
+      "queries": 65538,
+      "hits": 26517,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 34925,
+      "modeled_terminal_flush": 4096,
+      "modeled_write_beats": 39021,
+      "modeled_write_reduction_percent": 40.45867919921875
+    }
+  ],
+  "trace_sha256": "ACC573F86A659DEC6753C02391B2BF373DE8EE4797B91EEB7DFCA248BB20BE96",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 550.528059343,
+    "log_sha256": "DC47F6DB6DCE2672F170C104107FAC0CDE4CF6CAA7875F3BD64AF7B071ADE1F6"
+  },
+  "launch_sha256": "7C73B53F494FB7C1057DCA4E720D3C07E0B09E31FFCEC5405CD30AFA0A4AFAB9",
+  "complete_frame": false,
+  "signed_off": false
+}

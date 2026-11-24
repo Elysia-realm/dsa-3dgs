@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/shared_ddr_render_20261123/simulation",
+    "+AUTO_QSU",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_release_20261022/subset/counter/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t06_release_20261022/subset/counter/attribute.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_release_20261022/subset/counter/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/subset/counter/f3_t0/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/subset/counter/f3_t0/rgb.memh",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/subset/counter/f3_t0/sorted.txt",
+    "+FRAME_MODE=0",
+    "+MAX_TIMEOUT=10000000",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+ATTR_FORMAT=3",
+    "+MUTATE_FORMAT",
+    "+LABEL=counter_subset"
+  ],
+  "elf_sha256": "2B4E84C1E2AFF5250C28BFEE421EEEB3C8F0F5BD2BAB5CE8D6E43C7DF116E294",
+  "input_sha256": {
+    "MEAN": "DCEBF57F9C81060BB139AF0D93DEB92615F05FAF6E5E88E957E502C5DD2CD529",
+    "ATTR": "0E76B32725883A6C401029BB4607E67A52C2BDA1B245A06C9DEC4102A9AD76E6",
+    "CAMERA": "179A189D13ABF43715D43D4471E5336F0BBEEF17EE0E350215D1A43162DB98B2"
+  }
+}

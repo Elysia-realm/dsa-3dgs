@@ -1,0 +1,17 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+  "--binary",
+  "--build",
+  "-j",
+  "2",
+  "--timing",
+  "-Wno-fatal",
+  "--top-module",
+  "tb_t07_shape_vectors",
+  "--Mdir",
+  "/home/gs3d/work/t07_20261029/shape",
+  "-o",
+  "simulation",
+  "rtl/raster/gaussian_shape_block_reject.sv",
+  "verification/rtl/tb_t07_shape_vectors.sv"
+]

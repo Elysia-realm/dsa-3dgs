@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_shared_reconfigurable_pe_slice",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_shared_reconfigurable_pe_slice.vvp",
+  "/mnt/d/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_shared_reconfigurable_pe_slice.sv"
+]

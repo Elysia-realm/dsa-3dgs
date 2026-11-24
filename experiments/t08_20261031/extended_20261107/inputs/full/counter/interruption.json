@@ -1,0 +1,6 @@
+{
+  "bytes": 240864624,
+  "sha256": "DA2662B6F2A2FBB0160CB7AAD9423E069FC1F9A74C222B5DCE7224185172793C",
+  "archive": "/mnt/d/3DGS/experiments/t08_20261031/extended_20261107/inputs/full/counter/interrupted_before_resume.partial",
+  "reason": "No live prior encoder; preserve original bytes and validate regenerated prefix before accepting output"
+}

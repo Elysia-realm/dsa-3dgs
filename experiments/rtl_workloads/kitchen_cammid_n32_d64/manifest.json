@@ -1,0 +1,95 @@
+{
+  "format_version": 1,
+  "source": "local D:/3DGS/data only; no network upload",
+  "scene": "kitchen",
+  "camera_index": 139,
+  "original_gaussian_indices": [
+    40106,
+    178607,
+    188690,
+    275546,
+    312151,
+    326754,
+    401876,
+    445729,
+    476832,
+    544521,
+    574164,
+    599158,
+    652935,
+    715174,
+    715556,
+    819352,
+    836956,
+    949588,
+    954404,
+    971772,
+    1027130,
+    1087945,
+    1127518,
+    1185478,
+    1201132,
+    1262323,
+    1331731,
+    1399745,
+    1539844,
+    1548446,
+    1553069,
+    1671752
+  ],
+  "gaussian_count": 32,
+  "width": 64,
+  "height": 43,
+  "mean_record_bytes": 16,
+  "attribute_record_bytes": 144,
+  "gaussian_base": 4096,
+  "attribute_base": 16384,
+  "output_base": 1048576,
+  "fixed_formats": {
+    "mean": "signed Q10.16 / 27-bit",
+    "quaternion": "signed Q2.20 / 22-bit",
+    "scale": "unsigned Q4.20 / 24-bit",
+    "opacity_rgb": "Q1.12 / 13-bit",
+    "sh": "signed Q5.12 / 18-bit channel-major"
+  },
+  "camera_fixed": {
+    "rotation_q20": [
+      -234012,
+      686839,
+      -756969,
+      -317473,
+      689305,
+      723589,
+      971577,
+      390668,
+      54118
+    ],
+    "translation_q16": [
+      12001,
+      -150328,
+      245033
+    ],
+    "position_q16": [
+      -269875,
+      -332,
+      99753
+    ],
+    "fx_fy_cx_cy_q16": [
+      4351279,
+      4363703,
+      2064384,
+      1376256
+    ],
+    "near_far_q16": [
+      13107,
+      65536000
+    ],
+    "regularizer_q8": 77
+  },
+  "depth_pivots_q16": [
+    253928,
+    300345,
+    348999
+  ],
+  "selection": "deterministic scene-wide priority sample of visible fixed-point-representable trained Gaussians; frame-local GID remap"
+}

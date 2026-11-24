@@ -1,0 +1,19 @@
+[
+  "/home/gs3d/work/t08_20261031/early_advance_20261120/subset/0/simulation",
+  "+AUTO_QSU",
+  "+MEAN=/mnt/d/3DGS/experiments/t06_release_20261022/subset/bonsai/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/integration_20261107/inputs/bonsai/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t06_release_20261022/subset/bonsai/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/real/subset/0/bonsai/m2_limited_f1/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/real/subset/0/bonsai/m2_limited_f1/rgb.memh",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261120/real/subset/0/bonsai/m2_limited_f1/sorted.txt",
+  "+FRAME_MODE=2",
+  "+MAX_TIMEOUT=10000000",
+  "+READ_LATENCY=8",
+  "+READ_GAP=2",
+  "+READY_PERIOD=4",
+  "+READY_LOW=1",
+  "+WRITE_RESPONSE_LATENCY=8",
+  "+ATTR_FORMAT=1",
+  "+MUTATE_FORMAT"
+]

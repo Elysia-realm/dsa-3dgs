@@ -1,0 +1,11 @@
+{
+  "status": "FAILED_VALIDATION_CHECK_CLOSED",
+  "scene": "bonsai",
+  "failed_check": "Regenerated PNG file SHA256 equals historical PNG SHA256",
+  "generation_process_exit_code": 0,
+  "cause": "PNG encoded bytes differ; decoded RGB bytes are identical",
+  "diagnostic": "initial_difference.json",
+  "original_checker": "check_before_png_container_fix.py",
+  "correction": "Keep both PNG hashes; require exact RGB mode, shape and pixel equality, plus unchanged RTL-to-float MAE. Regenerate all five references with explicit input/source manifests.",
+  "scope": "Reference-container comparison only; no RTL source or output bytes modified"
+}

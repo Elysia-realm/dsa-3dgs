@@ -1,0 +1,13 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_ordered_sh_lane_scheduler",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_20261107/legacy_units/tb_ordered_sh_lane_scheduler.vvp",
+  "/mnt/d/3DGS/rtl/sort/ordered_gaussian_retire.sv",
+  "/mnt/d/3DGS/rtl/sh/ordered_sh_lane_scheduler.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_ordered_sh_lane_scheduler.sv"
+]

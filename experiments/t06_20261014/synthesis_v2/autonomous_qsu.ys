@@ -1,0 +1,10 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/rtl/sort/autonomous_qsu.sv"
+hierarchy -check -top autonomous_qsu
+proc
+opt
+memory_dff
+memory_collect
+opt_clean
+check -assert
+tee -o "D:/3DGS/experiments/t06_20261014/synthesis_v2/autonomous_qsu.json" stat -json
+write_rtlil "D:/3DGS/experiments/t06_20261014/synthesis_v2/autonomous_qsu.il"

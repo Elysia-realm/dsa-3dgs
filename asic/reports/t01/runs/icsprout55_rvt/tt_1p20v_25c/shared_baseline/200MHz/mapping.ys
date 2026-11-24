@@ -1,0 +1,12 @@
+read_rtlil "D:/3DGS/asic/reports/t01/runs/generic/shared_baseline/premap.il"
+memory_map
+techmap
+opt -fast
+read_liberty -lib "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+dfflibmap -liberty "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+abc -script "D:/3DGS/asic/reports/t01/runs/icsprout55_rvt/tt_1p20v_25c/shared_baseline/200MHz/abc_fast.script" -liberty "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -constr "D:/3DGS/asic/reports/t01/runs/icsprout55_rvt/tt_1p20v_25c/shared_baseline/200MHz/abc.constr" -D 5000
+clean
+check
+tee -o "D:/3DGS/asic/reports/t01/runs/icsprout55_rvt/tt_1p20v_25c/shared_baseline/200MHz/mapped_stat.json" stat -json -liberty "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -top gs_accel_system_top -hierarchy
+stat -liberty "D:/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -top gs_accel_system_top -hierarchy
+write_verilog -noattr -noexpr -nodec "D:/3DGS/asic/reports/t01/runs/icsprout55_rvt/tt_1p20v_25c/shared_baseline/200MHz/gs_accel_system_top_mapped.v"

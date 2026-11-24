@@ -1,0 +1,34 @@
+[
+  {
+    "pdk": "FreePDK45/Nangate45",
+    "corner": "TT",
+    "path": "tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib",
+    "expected_sha256": "8D540A4D4CF6D09D27C87AD067857A9C0C2EEB023AB7A56E058CD3113DB4E9B1",
+    "actual_sha256": "8D540A4D4CF6D09D27C87AD067857A9C0C2EEB023AB7A56E058CD3113DB4E9B1",
+    "match": true
+  },
+  {
+    "pdk": "ICsprout55 RVT H7CR",
+    "corner": "TT",
+    "path": "tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib",
+    "expected_sha256": "15AF0DCECEEEB02E174174E7123C7D551551369BF5AD1E8417D3CE8DCBC24FCD",
+    "actual_sha256": "15AF0DCECEEEB02E174174E7123C7D551551369BF5AD1E8417D3CE8DCBC24FCD",
+    "match": true
+  },
+  {
+    "pdk": "ICsprout55 RVT H7CR",
+    "corner": "SS",
+    "path": "tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_ss_rcworst_1p08_125_nldm.lib",
+    "expected_sha256": "C85544C38BFD6D8A00E63F301C9248D2989DB0BC8EB1958F5A04A27FC42F0017",
+    "actual_sha256": "C85544C38BFD6D8A00E63F301C9248D2989DB0BC8EB1958F5A04A27FC42F0017",
+    "match": true
+  },
+  {
+    "pdk": "ICsprout55 RVT H7CR",
+    "corner": "FF",
+    "path": "tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_ff_rcbest_1p32_m40_nldm.lib",
+    "expected_sha256": "39727DD356A88B0028A712D7E165788EB7189B5D496205B4F8094709F638541D",
+    "actual_sha256": "39727DD356A88B0028A712D7E165788EB7189B5D496205B4F8094709F638541D",
+    "match": true
+  }
+]

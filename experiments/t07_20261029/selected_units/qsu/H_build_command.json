@@ -1,0 +1,1 @@
+["/usr/bin/iverilog", "-g2012", "-DSYNTHESIS", "-DTB_QSU_PRECOUNT=1", "-s", "tb_t06_qsu_bsu", "-o", "/mnt/d/3DGS/experiments/t07_20261029/selected_units/qsu/H.vvp", "rtl/sort/autonomous_qsu.sv", "rtl/sort/bitonic_group_sorter_pipelined_shared.sv", "rtl/control/shared_reconfigurable_pe_slice.sv", "verification/rtl/tb_t06_qsu_bsu.sv"]

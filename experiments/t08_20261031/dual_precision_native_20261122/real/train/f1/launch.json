@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/dual_precision_native_20261122/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/train/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/train/attribute.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/train/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/real/train/f1/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/real/train/f1/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/real/train/f1/sorted.txt",
+    "+ATTR_FORMAT=1",
+    "+MUTATE_FORMAT"
+  ],
+  "inputs": {
+    "MEAN": "BF7DF6549B97538A1233D7DDCF6EB7A212FD737F8ABE525F2569D2F38C7F52E2",
+    "ATTR": "0AF80CD5DF3B06276B4B6035A7C9027B4EC733BE42EB8DD5FFFB0C6FACCFDB84",
+    "CAMERA": "4BEFBF5889305E3A55C87EBAEEF0911C6F9B5B316DB60B3F052219D3F95F0083"
+  },
+  "elf_sha256": "994B64DD357BA555BC77F9A968E840808CA4A01660AC245D91B9C5FAFF882AD3"
+}

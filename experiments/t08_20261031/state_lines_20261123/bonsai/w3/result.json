@@ -1,0 +1,35 @@
+{
+  "scene": "bonsai",
+  "window": 3,
+  "axi_bytes": 122352,
+  "axi_bursts": 7647,
+  "direct_line_requests": 7647,
+  "modeled_counts": {
+    "1": 10734,
+    "4": 2749,
+    "16": 2394
+  },
+  "verified_rtl_line_requests": 2394,
+  "direct_dram_cycles": 38005,
+  "buffered_dram_cycles": 11792,
+  "direct_useful_GBps": 3.863239047493751,
+  "buffered_useful_GBps": 12.45101763907734,
+  "bench": {
+    "execution": {
+      "exit_code": 0,
+      "wall_seconds": 0.22612645199999903,
+      "log_sha256": "E0D3718AD8903F77105337E77123D2A2DF494C640AE5B0B48F44492A675A8FD7"
+    },
+    "reads": 1256,
+    "writes": 1138,
+    "bench_cycles": 60818,
+    "stimulus_sha256": "32CCFB41CA39960D0B2B857EBCBFBDAABB46FDC0F6AF2BF4533A3E6AFA261FE2",
+    "trace_sha256": "EE9969F76DFF5E6297E80D4C83CB146AFA088A1F718DD492E9FB8274078F6D53"
+  },
+  "model_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.2679935180000008,
+    "log_sha256": "A5E6481A11811054BBBB47E376C48A4EDEFB548D0F84EB5FB8C791E207A341E4"
+  },
+  "model_stats_sha256": "4474794CEBDE807735B9753E548A2D76275B6398540FC242EAEA08DDCDE52E26"
+}

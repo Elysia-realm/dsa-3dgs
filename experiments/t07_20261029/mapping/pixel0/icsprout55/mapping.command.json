@@ -1,0 +1,5 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys",
+  "-s",
+  "/mnt/d/3DGS/experiments/t07_20261029/mapping/pixel0/icsprout55/mapping.ys"
+]

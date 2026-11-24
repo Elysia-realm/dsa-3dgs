@@ -1,0 +1,125 @@
+{
+  "report_version": 1,
+  "date": "2026-08-13",
+  "simulator": "Icarus Verilog 12",
+  "workload_class": "multi-scene trained-attribute RTL micro-workload",
+  "profiles": {
+    "ideal": {
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready_period": 1,
+      "ready_low": 0,
+      "write_response_latency": 2
+    },
+    "limited": {
+      "read_latency": 8,
+      "read_gap": 2,
+      "ready_period": 4,
+      "ready_low": 1,
+      "write_response_latency": 8
+    }
+  },
+  "write_buffer_depth": 2,
+  "writeback_enabled": false,
+  "writeback_depth": 32,
+  "multiwrite_enabled": true,
+  "multiwrite_depth": 8,
+  "physical_lanes": 4,
+  "frame_mode": 0,
+  "state_entries": 512,
+  "results": [
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 32,
+      "resolution": [
+        64,
+        36
+      ],
+      "profile": "ideal",
+      "cycles": 6413,
+      "commits": 795,
+      "state_misses": 583,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 583,
+      "state_writes": 795,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 1,
+      "frame_mode": 0,
+      "physical_lanes": 4,
+      "stage_cycles": {
+        "collect": 66,
+        "drain": 6339,
+        "group_busy": 1071,
+        "sort_busy": 2622,
+        "attribute_wait": 0,
+        "projection_busy": 6039,
+        "sh_busy": 3262,
+        "raster_busy": 6100,
+        "projection_raster_overlap": 5832,
+        "sorted_backpressure": 2562,
+        "block_backpressure": 5743,
+        "retire_wait": 420,
+        "state_cache_busy": 3710
+      }
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 32,
+      "resolution": [
+        64,
+        36
+      ],
+      "profile": "limited",
+      "cycles": 11371,
+      "commits": 795,
+      "state_misses": 583,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 583,
+      "state_writes": 795,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 3,
+      "frame_mode": 0,
+      "physical_lanes": 4,
+      "stage_cycles": {
+        "collect": 135,
+        "drain": 11222,
+        "group_busy": 1847,
+        "sort_busy": 4730,
+        "attribute_wait": 0,
+        "projection_busy": 10648,
+        "sh_busy": 5854,
+        "raster_busy": 10959,
+        "projection_raster_overlap": 10441,
+        "sorted_backpressure": 4670,
+        "block_backpressure": 10328,
+        "retire_wait": 823,
+        "state_cache_busy": 8569
+      }
+    }
+  ],
+  "equivalence": {
+    "train": {
+      "ideal_equals_limited": true,
+      "all_profiles_equal": true,
+      "sha256": "F771C1FE4FEAE4858AD191C6F20CAFD2A8BD9C0C1EAA8FBE6BB4907E606E2634"
+    }
+  },
+  "interpretation": "AXI timing profiles must produce bit-identical frame state; cycle and stall changes quantify memory sensitivity.",
+  "data_policy": "Local D:/3DGS only; no network upload."
+}

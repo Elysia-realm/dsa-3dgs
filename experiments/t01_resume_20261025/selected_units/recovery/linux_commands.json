@@ -1,0 +1,142 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-Irtl/raster",
+      "-s",
+      "tb_t06_precount_recovery",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "-f",
+      "verification/rtl/system_top_sources.f",
+      "verification/rtl/tb_t06_precount_recovery.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.7155272370000034,
+    "child_cpu_seconds": 0.30319199999999924,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.2194434150000006,
+    "child_cpu_seconds": 2.161902999999999,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.440664991999995,
+    "child_cpu_seconds": 1.3646299999999982,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=2"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.5865119800000116,
+    "child_cpu_seconds": 1.510354000000003,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=3"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.6345462580000003,
+    "child_cpu_seconds": 1.571358,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=4"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.406006901000012,
+    "child_cpu_seconds": 1.3352489999999975,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=5"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.5106418980000171,
+    "child_cpu_seconds": 1.412861000000003,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=6"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.5478601629999957,
+    "child_cpu_seconds": 1.4704349999999984,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=7"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.7130212050000182,
+    "child_cpu_seconds": 1.6520430000000026,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=8"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.704105114000015,
+    "child_cpu_seconds": 1.637440999999999,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/recovery/recovery.vvp",
+      "+FAULT=9"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.1013149969999745,
+    "child_cpu_seconds": 2.0131450000000015,
+    "binary_sha256": "25B67BF5AA74C3A59F998F61CC78952853496B144FE9CC537F567D230C682ADF",
+    "vector_sha256": {}
+  }
+]

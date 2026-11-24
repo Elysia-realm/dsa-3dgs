@@ -1,0 +1,15 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-I",
+  "rtl/raster",
+  "-s",
+  "tb_gs_accel_system_axi_mean",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_20261107/legacy_units/tb_gs_accel_system_axi_mean.vvp",
+  "-f",
+  "verification/rtl/system_top_sources.f",
+  "verification/rtl/tb_gs_accel_system_axi_mean.sv"
+]

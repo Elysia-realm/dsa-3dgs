@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/dual_format_sequences_20261122/simulation",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/f3.memh",
+    "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/mean.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/camera.memh",
+    "+NEXT_ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/f0.memh",
+    "+NEXT_FORMAT=0",
+    "+ATTR_FORMAT=3",
+    "+SEQ_KIND=2",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/control_2_3_0/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/control_2_3_0/frame.rgb",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/control_2_3_0/sorted.txt",
+    "+FRAME_MODE=0",
+    "+MAX_TIMEOUT=50000000",
+    "+READ_LATENCY=8",
+    "+READ_GAP=2",
+    "+READY_PERIOD=4",
+    "+READY_LOW=1",
+    "+WRITE_RESPONSE_LATENCY=8"
+  ],
+  "inputs": {
+    "/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/f3.memh": "70FF21E2688BFFF6990673A411C15D8C87D39D3E4E65AA4944D494B00BDAEE94",
+    "/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/f0.memh": "70FF21E2688BFFF6990673A411C15D8C87D39D3E4E65AA4944D494B00BDAEE94",
+    "/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/mean.memh": "7495E551FFFDD340A9527B555534B0EE2D973855DC6FB1DE067F4D748C9DB432",
+    "/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/one_record/camera.memh": "452849BBB2A6D3C0ABB454AC6B08CFED022125AD08504320CFBAF8EE15A34AD2"
+  },
+  "elf_sha256": "D22133806534D462C671C516CEC69EECD57FBBF94A4B8C65AC599852C139F4BF"
+}

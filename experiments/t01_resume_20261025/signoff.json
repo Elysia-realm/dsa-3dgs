@@ -1,0 +1,29 @@
+{
+  "task": "T01",
+  "date": "2026-10-28",
+  "status": "COMPLETE",
+  "signed_off": true,
+  "scope": "WSL integration and first source-bound dual-process TT mapping/top-level STA diagnostics under register storage. Not final timing/electrical closure, SRAM/DDR, native/GT/30FPS or power acceptance.",
+  "source_manifest_sha256": "78CD9F9A9F445C94BB33B839679F19FA79DC44C52435583108E671C7DF754814",
+  "production_profile_sha256": "D0EED2A8C22EA204056D851570F2A056E0AF1D1C7FB5ED7B5BFACD807EFC483F",
+  "report": "docs/T01恢复轮验收与物理风险交接_2026-10-28.md",
+  "report_sha256": "56A103979BA8AA3962F299A0D34AC47E92252BA1F4C541C43419F6419FD35A2B",
+  "final_audit_sha256": "3FFD0AF7BA602C56D82A8530F865EA06E951D12944C9E4DD4FA57A928DF535B7",
+  "independent_reference_audit_sha256": "1A6CC2EDB91502AC4D47D6CAF323846A372AAA7FE3A960EE3752D330B9CD7CDD",
+  "source_snapshot_manifest_sha256": "0308A94AA15A34403F86B061BA694AB3668B9968C1DCF60AD86361DF89958D9F",
+  "closure_snapshot_manifest_sha256": "4FE80947F768D54D83C157867C889C893E9B6E8B82733A165EF6CE7577034387",
+  "consistency_test_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.896643800999982,
+    "log_sha256": "A91A6368A275BBA458918DF5A073DF395BFC4D264E1E2BBB4E4709D3ECC44CA4"
+  },
+  "review": "Acceptance plan clauses 1-6 reviewed against the report; all required initial-feedback evidence present. Negative slack/electrical extrapolation explicitly retained as open design issues.",
+  "unresolved_design_issues": "experiments/t01_resume_20261025/open_design_issues.json",
+  "followup_plan": "docs/T01问题闭环与后续开发计划_2026-10-28.md",
+  "next_task": "T07",
+  "timing_200MHz_pass": false,
+  "electrical_closure": false,
+  "final_area_storage_power_pass": false,
+  "formal_GT_30FPS_pass": false,
+  "stage_report_signed_off_false_is_historical_generator_state": true
+}

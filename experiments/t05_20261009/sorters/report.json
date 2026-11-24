@@ -1,0 +1,209 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "k": 8,
+      "kind": 0,
+      "groups": 660,
+      "outputs": 3242,
+      "status": "PASS",
+      "commands": [
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+          "-g2012",
+          "-DSYNTHESIS",
+          "-DT05_K=8",
+          "-DT05_KIND=0",
+          "-s",
+          "tb_t05_sorters",
+          "-o",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k8_kind0.vvp",
+          "rtl/sort/bitonic_group_sorter_shared.sv",
+          "rtl/sort/stable_group_sorter_shared_compare.sv",
+          "rtl/sort/stable_group_sorter_parallel_shared.sv",
+          "rtl/control/shared_reconfigurable_pe_slice.sv",
+          "verification/rtl/tb_t05_sorters.sv"
+        ],
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k8_kind0.vvp",
+          "+INPUT=D:/3DGS/experiments/t05_20261009/sorters/k8_input.memh",
+          "+EXPECTED=D:/3DGS/experiments/t05_20261009/sorters/k8_expected.memh",
+          "+GROUPS=660",
+          "+OUTPUTS=3242"
+        ]
+      ],
+      "input_sha256": "6b6c10d05d7e17200b1b0d6951aca017ed96b109886f39686988b5a44cd9d31b"
+    },
+    {
+      "k": 8,
+      "kind": 1,
+      "groups": 660,
+      "outputs": 3242,
+      "status": "PASS",
+      "commands": [
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+          "-g2012",
+          "-DSYNTHESIS",
+          "-DT05_K=8",
+          "-DT05_KIND=1",
+          "-s",
+          "tb_t05_sorters",
+          "-o",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k8_kind1.vvp",
+          "rtl/sort/bitonic_group_sorter_shared.sv",
+          "rtl/sort/stable_group_sorter_shared_compare.sv",
+          "rtl/sort/stable_group_sorter_parallel_shared.sv",
+          "rtl/control/shared_reconfigurable_pe_slice.sv",
+          "verification/rtl/tb_t05_sorters.sv"
+        ],
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k8_kind1.vvp",
+          "+INPUT=D:/3DGS/experiments/t05_20261009/sorters/k8_input.memh",
+          "+EXPECTED=D:/3DGS/experiments/t05_20261009/sorters/k8_expected.memh",
+          "+GROUPS=660",
+          "+OUTPUTS=3242"
+        ]
+      ],
+      "input_sha256": "6b6c10d05d7e17200b1b0d6951aca017ed96b109886f39686988b5a44cd9d31b"
+    },
+    {
+      "k": 8,
+      "kind": 2,
+      "groups": 660,
+      "outputs": 3242,
+      "status": "PASS",
+      "commands": [
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+          "-g2012",
+          "-DSYNTHESIS",
+          "-DT05_K=8",
+          "-DT05_KIND=2",
+          "-s",
+          "tb_t05_sorters",
+          "-o",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k8_kind2.vvp",
+          "rtl/sort/bitonic_group_sorter_shared.sv",
+          "rtl/sort/stable_group_sorter_shared_compare.sv",
+          "rtl/sort/stable_group_sorter_parallel_shared.sv",
+          "rtl/control/shared_reconfigurable_pe_slice.sv",
+          "verification/rtl/tb_t05_sorters.sv"
+        ],
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k8_kind2.vvp",
+          "+INPUT=D:/3DGS/experiments/t05_20261009/sorters/k8_input.memh",
+          "+EXPECTED=D:/3DGS/experiments/t05_20261009/sorters/k8_expected.memh",
+          "+GROUPS=660",
+          "+OUTPUTS=3242"
+        ]
+      ],
+      "input_sha256": "6b6c10d05d7e17200b1b0d6951aca017ed96b109886f39686988b5a44cd9d31b"
+    },
+    {
+      "k": 16,
+      "kind": 0,
+      "groups": 660,
+      "outputs": 6572,
+      "status": "PASS",
+      "commands": [
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+          "-g2012",
+          "-DSYNTHESIS",
+          "-DT05_K=16",
+          "-DT05_KIND=0",
+          "-s",
+          "tb_t05_sorters",
+          "-o",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k16_kind0.vvp",
+          "rtl/sort/bitonic_group_sorter_shared.sv",
+          "rtl/sort/stable_group_sorter_shared_compare.sv",
+          "rtl/sort/stable_group_sorter_parallel_shared.sv",
+          "rtl/control/shared_reconfigurable_pe_slice.sv",
+          "verification/rtl/tb_t05_sorters.sv"
+        ],
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k16_kind0.vvp",
+          "+INPUT=D:/3DGS/experiments/t05_20261009/sorters/k16_input.memh",
+          "+EXPECTED=D:/3DGS/experiments/t05_20261009/sorters/k16_expected.memh",
+          "+GROUPS=660",
+          "+OUTPUTS=6572"
+        ]
+      ],
+      "input_sha256": "7794a6446c142fb806276536e5b65104e84584431c9785a1a1881051d7739d5c"
+    },
+    {
+      "k": 16,
+      "kind": 1,
+      "groups": 660,
+      "outputs": 6572,
+      "status": "PASS",
+      "commands": [
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+          "-g2012",
+          "-DSYNTHESIS",
+          "-DT05_K=16",
+          "-DT05_KIND=1",
+          "-s",
+          "tb_t05_sorters",
+          "-o",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k16_kind1.vvp",
+          "rtl/sort/bitonic_group_sorter_shared.sv",
+          "rtl/sort/stable_group_sorter_shared_compare.sv",
+          "rtl/sort/stable_group_sorter_parallel_shared.sv",
+          "rtl/control/shared_reconfigurable_pe_slice.sv",
+          "verification/rtl/tb_t05_sorters.sv"
+        ],
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k16_kind1.vvp",
+          "+INPUT=D:/3DGS/experiments/t05_20261009/sorters/k16_input.memh",
+          "+EXPECTED=D:/3DGS/experiments/t05_20261009/sorters/k16_expected.memh",
+          "+GROUPS=660",
+          "+OUTPUTS=6572"
+        ]
+      ],
+      "input_sha256": "7794a6446c142fb806276536e5b65104e84584431c9785a1a1881051d7739d5c"
+    },
+    {
+      "k": 16,
+      "kind": 2,
+      "groups": 660,
+      "outputs": 6572,
+      "status": "PASS",
+      "commands": [
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+          "-g2012",
+          "-DSYNTHESIS",
+          "-DT05_K=16",
+          "-DT05_KIND=2",
+          "-s",
+          "tb_t05_sorters",
+          "-o",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k16_kind2.vvp",
+          "rtl/sort/bitonic_group_sorter_shared.sv",
+          "rtl/sort/stable_group_sorter_shared_compare.sv",
+          "rtl/sort/stable_group_sorter_parallel_shared.sv",
+          "rtl/control/shared_reconfigurable_pe_slice.sv",
+          "verification/rtl/tb_t05_sorters.sv"
+        ],
+        [
+          "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+          "D:\\3DGS\\experiments\\t05_20261009\\sorters\\k16_kind2.vvp",
+          "+INPUT=D:/3DGS/experiments/t05_20261009/sorters/k16_input.memh",
+          "+EXPECTED=D:/3DGS/experiments/t05_20261009/sorters/k16_expected.memh",
+          "+GROUPS=660",
+          "+OUTPUTS=6572"
+        ]
+      ],
+      "input_sha256": "7794a6446c142fb806276536e5b65104e84584431c9785a1a1881051d7739d5c"
+    }
+  ]
+}

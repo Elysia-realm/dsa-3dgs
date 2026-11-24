@@ -1,0 +1,233 @@
+{
+  "results": [
+    {
+      "pdk": "nangate45",
+      "sample": true,
+      "variant": 0,
+      "records": 159,
+      "physical_beats": 1157,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 196.5192532459996,
+        "log_sha256": "FB56D760B2FEEFDB6F6E860C7B3F7159628AAAC01DFF000364022014B35B6953"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp",
+          "+N=159",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/sample/0/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/sample/0/expected.memh"
+        ],
+        "input_sha256": "6ED779F4DFA315507A441124391CF27656299F35F94878305C14B0B2C413EE7D",
+        "expected_sha256": "251ECC82E4F5BB89B4D06DBCC138CF868D621F48D71758E738F4BA7683D74F4E",
+        "vvp_sha256": "C86E8752B191A013A2C02AC73A5521EACA70DF6CBCA9B739C1BA25F1E99627FC"
+      }
+    },
+    {
+      "pdk": "nangate45",
+      "sample": true,
+      "variant": 1,
+      "records": 159,
+      "physical_beats": 1235,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 198.51505592399963,
+        "log_sha256": "BBF8F46646BB6FBB312BB4F125B1824D6C0F0FF5A856C711305D3D0A21A93686"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp",
+          "+N=159",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/sample/1/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/sample/1/expected.memh"
+        ],
+        "input_sha256": "D64959091337CB72C406E2B8DC1EFD1A5B33F29B0BAC0EEE95DADCC145FBA284",
+        "expected_sha256": "251ECC82E4F5BB89B4D06DBCC138CF868D621F48D71758E738F4BA7683D74F4E",
+        "vvp_sha256": "C86E8752B191A013A2C02AC73A5521EACA70DF6CBCA9B739C1BA25F1E99627FC"
+      }
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": true,
+      "variant": 0,
+      "records": 159,
+      "physical_beats": 1157,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 307.6442477149999,
+        "log_sha256": "EBC672FD608B27DC3DD1B5B1764EAD27ECA3116CB49C836616BEBDB3EC5E09F5"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/simulation.vvp",
+          "+N=159",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/sample/0/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/sample/0/expected.memh"
+        ],
+        "input_sha256": "6ED779F4DFA315507A441124391CF27656299F35F94878305C14B0B2C413EE7D",
+        "expected_sha256": "251ECC82E4F5BB89B4D06DBCC138CF868D621F48D71758E738F4BA7683D74F4E",
+        "vvp_sha256": "0C9BD06899676D9CD9944C5823AA5A4C7F1438C82E228133029CD647C7EF2BFC"
+      }
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": true,
+      "variant": 1,
+      "records": 159,
+      "physical_beats": 1235,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 310.3529763890001,
+        "log_sha256": "A3F0E5FE5C299E9411235B3DEB54FC409C8CBB30787303D27FF2AC632D01848F"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/simulation.vvp",
+          "+N=159",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/sample/1/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/sample/1/expected.memh"
+        ],
+        "input_sha256": "D64959091337CB72C406E2B8DC1EFD1A5B33F29B0BAC0EEE95DADCC145FBA284",
+        "expected_sha256": "251ECC82E4F5BB89B4D06DBCC138CF868D621F48D71758E738F4BA7683D74F4E",
+        "vvp_sha256": "0C9BD06899676D9CD9944C5823AA5A4C7F1438C82E228133029CD647C7EF2BFC"
+      }
+    },
+    {
+      "pdk": "nangate45",
+      "sample": false,
+      "variant": 0,
+      "records": 6144,
+      "physical_beats": 49565,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 6777.56736555,
+        "log_sha256": "130F8BC97BE5467DDE504D5967572F06AD5A4668F38645630ACAB6008E15330A"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp",
+          "+N=6144",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/0/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+        ],
+        "input_sha256": "7EDDBA85DAFBC93CEB20C1FAFE26738C53374A7822EEEDE7CE7367926E582C4A",
+        "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+        "vvp_sha256": "C86E8752B191A013A2C02AC73A5521EACA70DF6CBCA9B739C1BA25F1E99627FC"
+      }
+    },
+    {
+      "pdk": "nangate45",
+      "sample": false,
+      "variant": 1,
+      "records": 6144,
+      "physical_beats": 50620,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 6743.696847018001,
+        "log_sha256": "56E50DBD32B090793AB6F8C83902F6826F453AB2B6430202BB23BAC2C2111C52"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp",
+          "+N=6144",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/1/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+        ],
+        "input_sha256": "E02C4600A81A125083EFDBFAFEB9C3425313EA295A699988669B3BC6FFC5DE27",
+        "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+        "vvp_sha256": "C86E8752B191A013A2C02AC73A5521EACA70DF6CBCA9B739C1BA25F1E99627FC"
+      }
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": false,
+      "variant": 0,
+      "records": 6144,
+      "physical_beats": 49565,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 11347.600801261999,
+        "log_sha256": "4A0E8D3F5FB090AD0B340D670ACB306AC7550F1D018AD5CC88F80B2873F532CD"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/simulation.vvp",
+          "+N=6144",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/0/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+        ],
+        "input_sha256": "7EDDBA85DAFBC93CEB20C1FAFE26738C53374A7822EEEDE7CE7367926E582C4A",
+        "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+        "vvp_sha256": "0C9BD06899676D9CD9944C5823AA5A4C7F1438C82E228133029CD647C7EF2BFC"
+      }
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": false,
+      "variant": 1,
+      "records": 6144,
+      "physical_beats": 50620,
+      "controls": 18,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 11249.767610994999,
+        "log_sha256": "8BDA6D2FF117EDA151F94DA613C542DD629F46A5400EB87BC7FEDCDEFCC00CD0"
+      },
+      "config": {
+        "command": [
+          "/usr/bin/vvp",
+          "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/simulation.vvp",
+          "+N=6144",
+          "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/1/input.memh",
+          "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+        ],
+        "input_sha256": "E02C4600A81A125083EFDBFAFEB9C3425313EA295A699988669B3BC6FFC5DE27",
+        "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+        "vvp_sha256": "0C9BD06899676D9CD9944C5823AA5A4C7F1438C82E228133029CD647C7EF2BFC"
+      }
+    }
+  ],
+  "builds": {
+    "nangate45": {
+      "exe": "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/simulation.vvp",
+      "inputs": {
+        "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib": "2EFD0B32EB580E4E60E72FC0575BB3BC69AAC907C91D908442E4AE6D7FE55895",
+        "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/nangate45/mapped.v": "D462759B248666F021B1BB095206C45A43C381EBF1EB52C9EE6F82A3176ECA59",
+        "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/nangate45/tb_t08_attribute_dma.sv": "3DBEABBE8AA10CB093D7F6C0693E781FE5BA5DACE5E3DB5E7527D223782AC0A4",
+        "/usr/bin/iverilog": "A6071E4B4A68FEAFCA0C8EE0E6AA275EEE9A43A108C62801CFD1ECA6EAB6D8A3",
+        "/usr/bin/vvp": "A10BD7D4A0850308AC8C2C98115B6A3084F9BE978307610F2A521190C28F4023"
+      },
+      "vvp_sha256": "C86E8752B191A013A2C02AC73A5521EACA70DF6CBCA9B739C1BA25F1E99627FC",
+      "cells_sha256": "2E2D7ED1DDEDDC3523CB5DDE591A50238DAD451BF514F7D0F2DD5311A56C646A"
+    },
+    "icsprout55": {
+      "exe": "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/simulation.vvp",
+      "inputs": {
+        "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib": "15AF0DCECEEEB02E174174E7123C7D551551369BF5AD1E8417D3CE8DCBC24FCD",
+        "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/mapping/icsprout55/mapped.v": "F06D3C0123BC1551530C3EF07BE11A7473100C5D58FCA93D4CF8BC5DC564A9E8",
+        "/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/tb_t08_attribute_dma.sv": "3DBEABBE8AA10CB093D7F6C0693E781FE5BA5DACE5E3DB5E7527D223782AC0A4",
+        "/usr/bin/iverilog": "A6071E4B4A68FEAFCA0C8EE0E6AA275EEE9A43A108C62801CFD1ECA6EAB6D8A3",
+        "/usr/bin/vvp": "A10BD7D4A0850308AC8C2C98115B6A3084F9BE978307610F2A521190C28F4023"
+      },
+      "vvp_sha256": "0C9BD06899676D9CD9944C5823AA5A4C7F1438C82E228133029CD647C7EF2BFC",
+      "cells_sha256": "09642DA3560DB5A23E73A93F858790FBB939C5961DD9F058A047959186241A7E"
+    }
+  },
+  "script_sha256": "4CDCD7348F8754316B0D9BC029CA73B5C064F6A7E21C4F4946E4A161239E06E0",
+  "scope": "Zero-delay mapped attribute DMA/decoder; Q24 eight-beat enabled, early advance enabled, two TT libraries.",
+  "signed_off": false
+}

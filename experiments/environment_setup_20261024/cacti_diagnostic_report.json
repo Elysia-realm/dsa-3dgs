@@ -1,0 +1,14 @@
+{
+  "status": "PASS_SRAM_TOOL_DIAGNOSTIC_ONLY",
+  "configuration": "64KiB, 128-bit bus, one RW port, 45nm generic model, 300K, no ECC",
+  "metrics": {
+    "access_ns": 0.504959,
+    "cycle_ns": 0.795423,
+    "read_nJ": 0.0332256,
+    "write_nJ": 0.0287556,
+    "leakage_mW": 29.3685
+  },
+  "upstream_default_example_limitation": "DDR3 IO area inf: fields ron_value/rtt_value/tflight_value are used but not parsed upstream. Local parser patch and explicit config close this diagnostic failure. Original LPDDR2 attempt also exposed MemCAD DDR3/DDR4-only assertion and is preserved as failed.",
+  "ancillary_io": "DDR3 diagnostic at 400MHz with ron=34 ohm, rtt=10000 ohm, tflight=1ns; not project LPDDR4 validation",
+  "project_macro_model": false
+}

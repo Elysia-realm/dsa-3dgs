@@ -1,0 +1,449 @@
+{
+  "scene": "truck",
+  "camera_index": 125,
+  "status": "PASS",
+  "gaussians": 512,
+  "full_scene": false,
+  "width": 128,
+  "height": 71,
+  "mode": "G",
+  "axi": "legacy_ideal",
+  "alpha_off_cycles": 39805,
+  "production_alpha_on_cycles": 32953,
+  "saved_cycles": 6852,
+  "saved_percent": 17.213917849516392,
+  "rgb_sha256": "2D9FE04E404EB8CBBB52F9A3C07F5162012B44017ACB4DF9D197C737A982DE36",
+  "counters": {
+    "REAL_RGB_BURST": {
+      "configured": 16
+    },
+    "REAL_ADDRESS_LAYOUT": {
+      "camera": 2000,
+      "mean": 1000000,
+      "attr": 10000000,
+      "scratch": 60000000,
+      "output": 70000000,
+      "max_count": 512,
+      "max_pixels": 16384,
+      "disjoint": 1
+    },
+    "REAL_END_TO_END": {
+      "command_cycles": 39805,
+      "camera_setup_cycles": 33,
+      "post_batch_cycles": 39772,
+      "command_count": 1,
+      "window": 4,
+      "mshr": 4,
+      "response_bypass": 1,
+      "commit_bypass": 1
+    },
+    "REAL_DMA_COUNTS": {
+      "camera_beats": 14,
+      "mean_beats": 512,
+      "attribute_beats": 4608,
+      "qsu_read_beats": 2655,
+      "qsu_write_beats": 2143,
+      "camera_bursts": 1,
+      "mean_bursts": 32,
+      "attribute_bursts": 528,
+      "qsu_read_bursts": 279,
+      "qsu_write_bursts": 2143,
+      "state_read_bursts": 6228,
+      "output_write_bursts": 15279
+    },
+    "REAL_LOCAL_QSU": {
+      "records": 0
+    },
+    "REAL_RGB": {
+      "reads": 9088,
+      "write_beats": 1704,
+      "bursts": 146,
+      "bytes": 27264,
+      "epoch": 1,
+      "error": 0
+    },
+    "REAL_SORT_WORK": {
+      "caps": 1048601,
+      "sequence": 1,
+      "shared": 134,
+      "local": 10586,
+      "swaps": 782,
+      "phases": 1340,
+      "groups": 134,
+      "fallback": 136,
+      "phase_grants": 1,
+      "phase_stalls": 0,
+      "shifts": 0,
+      "collect": 0,
+      "fast": 0,
+      "reverse": 0
+    },
+    "REAL_QSU": {
+      "enabled": 1,
+      "input": 512,
+      "partitions": 21,
+      "leaves": 134,
+      "reads": 2655,
+      "writes": 2143,
+      "stalls": 20247,
+      "peak": 23,
+      "axi_reads": 2655,
+      "axi_writes": 2143
+    },
+    "REAL_WORKLOAD": {
+      "gaussians": 512,
+      "resolution": 128,
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready": 1,
+      "write_response_latency": 2
+    },
+    "REAL_CONTINUATION": {
+      "enabled": 0,
+      "batches": 1,
+      "first_count": 512,
+      "second_count": 0,
+      "epoch": 1,
+      "state_in": 0
+    },
+    "REAL_PERF": {
+      "cycles": 39772,
+      "commits": 15133,
+      "state_misses": 5624,
+      "read_stall": 1270,
+      "output_stall": 0,
+      "state_reads": 5624,
+      "state_writes": 15133
+    },
+    "REAL_ALPHA_SKIP": {
+      "enabled": 0,
+      "skipped": 0
+    },
+    "REAL_SHARED_PE": {
+      "enabled": 1,
+      "main_projection": 1,
+      "G": 134,
+      "P": 2048,
+      "R": 15133,
+      "G_stall": 0,
+      "P_stall": 566,
+      "R_stall": 1369,
+      "utilization": 17315,
+      "competing": 89,
+      "main_mac": 1536
+    },
+    "REAL_WRITEBACK": {
+      "enabled": 0,
+      "depth": 32,
+      "coalesced": 0,
+      "forwarded_reads": 0
+    },
+    "REAL_MULTIWRITE": {
+      "enabled": 1,
+      "depth": 8,
+      "peak_outstanding": 4
+    },
+    "REAL_WRITE_LOCALITY": {
+      "consecutive_same_pixel_commits": 0
+    },
+    "REAL_STAGE": {
+      "mode": 0,
+      "lanes": 4,
+      "collect": 1088,
+      "drain": 25801,
+      "group_busy": 23851,
+      "sort_busy": 23743,
+      "attr_wait": 145,
+      "projection_busy": 24110,
+      "sh_busy": 23852,
+      "raster_busy": 23830,
+      "overlap": 23809,
+      "sorted_bp": 23213,
+      "block_bp": 22533,
+      "retire_wait": 557,
+      "state_cache_busy": 22338,
+      "window_wait": 8657,
+      "window_same": 0,
+      "window_diff": 8657,
+      "group_active": 4,
+      "group_service_stall": 0
+    },
+    "REAL_RECONFIG": {
+      "projection_mask": 3,
+      "sh_mask": 3,
+      "raster_mask": 3,
+      "projection_issue": 512,
+      "sh_issue": 512,
+      "raster_issue": 15133,
+      "projection_inactive_issue": 0,
+      "sh_inactive_issue": 0,
+      "raster_inactive_issue": 0
+    },
+    "REAL_SHAPE": {
+      "enabled": 0,
+      "rejected_blocks": 0
+    },
+    "REAL_BACKEND": {
+      "mshr_count": 4,
+      "blend_full": 23706,
+      "mshr_zero": 26120,
+      "mshr_one": 2841,
+      "mshr_two": 10844,
+      "mshr_full_query_block": 0,
+      "cache_rsp_block": 0,
+      "miss_issue_block": 1270,
+      "ar_stall": 0,
+      "r_stall": 0,
+      "reader_rsp_block": 0
+    },
+    "REAL_WINDOW_OPP": {
+      "third_candidate": 8657,
+      "third_mshr_two": 460,
+      "third_mshr_one": 1313,
+      "third_distinct": 8656,
+      "third_distinct_mshr_two": 460,
+      "third_raw": 1,
+      "head_need_query": 0,
+      "head_wait_rsp": 7479,
+      "head_need_blend": 0,
+      "head_wait_blend": 1178,
+      "head_done_blocked": 0
+    },
+    "REAL_BLEND_BYPASS": {
+      "enabled": 1,
+      "fires": 15133
+    },
+    "REAL_COMMIT_BYPASS": {
+      "enabled": 1,
+      "fires": 9729
+    },
+    "REAL_OPERAND_ISOLATION": {
+      "enabled": 0,
+      "broadcast_exposures": 64628,
+      "isolated_exposures": 64628,
+      "avoided_exposures": 0
+    }
+  },
+  "production_counters": {
+    "REAL_RGB_BURST": {
+      "configured": 16
+    },
+    "REAL_ADDRESS_LAYOUT": {
+      "camera": 2000,
+      "mean": 1000000,
+      "attr": 10000000,
+      "scratch": 60000000,
+      "output": 70000000,
+      "max_count": 512,
+      "max_pixels": 16384,
+      "disjoint": 1
+    },
+    "REAL_END_TO_END": {
+      "command_cycles": 32953,
+      "camera_setup_cycles": 33,
+      "post_batch_cycles": 32920,
+      "command_count": 1,
+      "window": 4,
+      "mshr": 4,
+      "response_bypass": 1,
+      "commit_bypass": 1
+    },
+    "REAL_DMA_COUNTS": {
+      "camera_beats": 14,
+      "mean_beats": 512,
+      "attribute_beats": 4608,
+      "qsu_read_beats": 2655,
+      "qsu_write_beats": 2143,
+      "camera_bursts": 1,
+      "mean_bursts": 32,
+      "attribute_bursts": 528,
+      "qsu_read_bursts": 279,
+      "qsu_write_bursts": 2143,
+      "state_read_bursts": 3180,
+      "output_write_bursts": 4169
+    },
+    "REAL_LOCAL_QSU": {
+      "records": 0
+    },
+    "REAL_RGB": {
+      "reads": 9088,
+      "write_beats": 1704,
+      "bursts": 146,
+      "bytes": 27264,
+      "epoch": 1,
+      "error": 0
+    },
+    "REAL_SORT_WORK": {
+      "caps": 1048601,
+      "sequence": 1,
+      "shared": 134,
+      "local": 10586,
+      "swaps": 782,
+      "phases": 1340,
+      "groups": 134,
+      "fallback": 136,
+      "phase_grants": 1,
+      "phase_stalls": 0,
+      "shifts": 0,
+      "collect": 0,
+      "fast": 0,
+      "reverse": 0
+    },
+    "REAL_QSU": {
+      "enabled": 1,
+      "input": 512,
+      "partitions": 21,
+      "leaves": 134,
+      "reads": 2655,
+      "writes": 2143,
+      "stalls": 14292,
+      "peak": 23,
+      "axi_reads": 2655,
+      "axi_writes": 2143
+    },
+    "REAL_WORKLOAD": {
+      "gaussians": 512,
+      "resolution": 128,
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready": 1,
+      "write_response_latency": 2
+    },
+    "REAL_CONTINUATION": {
+      "enabled": 0,
+      "batches": 1,
+      "first_count": 512,
+      "second_count": 0,
+      "epoch": 1,
+      "state_in": 0
+    },
+    "REAL_PERF": {
+      "cycles": 32920,
+      "commits": 4023,
+      "state_misses": 2576,
+      "read_stall": 981,
+      "output_stall": 0,
+      "state_reads": 2576,
+      "state_writes": 4023
+    },
+    "REAL_ALPHA_SKIP": {
+      "enabled": 1,
+      "skipped": 11110
+    },
+    "REAL_SHARED_PE": {
+      "enabled": 1,
+      "main_projection": 1,
+      "G": 134,
+      "P": 2048,
+      "R": 4023,
+      "G_stall": 0,
+      "P_stall": 374,
+      "R_stall": 596,
+      "utilization": 6205,
+      "competing": 75,
+      "main_mac": 1536
+    },
+    "REAL_WRITEBACK": {
+      "enabled": 0,
+      "depth": 32,
+      "coalesced": 0,
+      "forwarded_reads": 0
+    },
+    "REAL_MULTIWRITE": {
+      "enabled": 1,
+      "depth": 8,
+      "peak_outstanding": 4
+    },
+    "REAL_WRITE_LOCALITY": {
+      "consecutive_same_pixel_commits": 0
+    },
+    "REAL_STAGE": {
+      "mode": 0,
+      "lanes": 4,
+      "collect": 1088,
+      "drain": 18949,
+      "group_busy": 17901,
+      "sort_busy": 16981,
+      "attr_wait": 242,
+      "projection_busy": 17266,
+      "sh_busy": 17023,
+      "raster_busy": 16941,
+      "overlap": 16928,
+      "sorted_bp": 16451,
+      "block_bp": 15664,
+      "retire_wait": 1074,
+      "state_cache_busy": 9144,
+      "window_wait": 1375,
+      "window_same": 0,
+      "window_diff": 1375,
+      "group_active": 4,
+      "group_service_stall": 0
+    },
+    "REAL_RECONFIG": {
+      "projection_mask": 3,
+      "sh_mask": 3,
+      "raster_mask": 3,
+      "projection_issue": 512,
+      "sh_issue": 512,
+      "raster_issue": 15133,
+      "projection_inactive_issue": 0,
+      "sh_inactive_issue": 0,
+      "raster_inactive_issue": 0
+    },
+    "REAL_SHAPE": {
+      "enabled": 0,
+      "rejected_blocks": 0
+    },
+    "REAL_BACKEND": {
+      "mshr_count": 4,
+      "blend_full": 3764,
+      "mshr_zero": 25419,
+      "mshr_one": 2823,
+      "mshr_two": 4711,
+      "mshr_full_query_block": 0,
+      "cache_rsp_block": 0,
+      "miss_issue_block": 981,
+      "ar_stall": 0,
+      "r_stall": 0,
+      "reader_rsp_block": 0
+    },
+    "REAL_WINDOW_OPP": {
+      "third_candidate": 1375,
+      "third_mshr_two": 97,
+      "third_mshr_one": 195,
+      "third_distinct": 1375,
+      "third_distinct_mshr_two": 97,
+      "third_raw": 0,
+      "head_need_query": 0,
+      "head_wait_rsp": 1221,
+      "head_need_blend": 0,
+      "head_wait_blend": 154,
+      "head_done_blocked": 0
+    },
+    "REAL_BLEND_BYPASS": {
+      "enabled": 1,
+      "fires": 4023
+    },
+    "REAL_COMMIT_BYPASS": {
+      "enabled": 1,
+      "fires": 3395
+    },
+    "REAL_OPERAND_ISOLATION": {
+      "enabled": 0,
+      "broadcast_exposures": 64628,
+      "isolated_exposures": 64628,
+      "avoided_exposures": 0
+    }
+  },
+  "input_sha256": {
+    "attribute.memh": "fd693d0fcc68d18582c175d762cb1cf0edc2a4efc69d0bb9e84f73c637adba2d",
+    "camera.memh": "47325ee98979bc65c533c886f4d2c8f1fde0606e62b0b3ca4453c4c129c672e2",
+    "mean.memh": "e5ed3bbe008eedcda53a41598af52c5eb9a1d81b8ef84adeb9e58f68502fdc13"
+  },
+  "binary_sha256": "408C060673F7FA3288838903A1B6B04EBAFBF4010D0518637F53FF8FAF7893AA",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 2.5466328319998865,
+    "log_sha256": "DF2542E1CE83D1D2BD6B3ECD90D2EE8C897A635785003C9023253CEE2B9C70E7"
+  }
+}

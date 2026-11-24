@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "precount_children": 0,
+      "status": "PASS",
+      "seconds": 14.875,
+      "memories": {},
+      "statistics": {
+        "num_wires": 2739,
+        "num_wire_bits": 88047,
+        "num_pub_wires": 1262,
+        "num_pub_wire_bits": 65441,
+        "num_ports": 45,
+        "num_port_bits": 818,
+        "num_memories": 0,
+        "num_memory_bits": 0,
+        "num_processes": 0,
+        "num_cells": 2703,
+        "num_submodules": 0,
+        "num_cells_by_type": {
+          "$add": 36,
+          "$adff": 13,
+          "$adffe": 58,
+          "$and": 2,
+          "$dffe": 1124,
+          "$eq": 531,
+          "$ge": 8,
+          "$gt": 4,
+          "$le": 1,
+          "$logic_and": 29,
+          "$logic_not": 21,
+          "$logic_or": 18,
+          "$lt": 4,
+          "$mux": 390,
+          "$ne": 57,
+          "$neg": 2,
+          "$not": 9,
+          "$or": 9,
+          "$pmux": 68,
+          "$reduce_and": 283,
+          "$reduce_bool": 16,
+          "$reduce_or": 2,
+          "$shift": 3,
+          "$shiftx": 2,
+          "$shl": 8,
+          "$shr": 1,
+          "$sub": 3,
+          "$xor": 1
+        }
+      }
+    },
+    {
+      "precount_children": 1,
+      "status": "PASS",
+      "seconds": 30.20400000002701,
+      "memories": {
+        "saved_hist": {
+          "WIDTH": 1712,
+          "SIZE": 218,
+          "RD_PORTS": 1,
+          "WR_PORTS": 1
+        }
+      },
+      "statistics": {
+        "num_wires": 5144,
+        "num_wire_bits": 179137,
+        "num_pub_wires": 1462,
+        "num_pub_wire_bits": 79393,
+        "num_ports": 45,
+        "num_port_bits": 818,
+        "num_memories": 0,
+        "num_memory_bits": 0,
+        "num_processes": 0,
+        "num_cells": 5158,
+        "num_submodules": 0,
+        "num_cells_by_type": {
+          "$add": 44,
+          "$adff": 13,
+          "$adffe": 59,
+          "$and": 2,
+          "$dffe": 1316,
+          "$eq": 1035,
+          "$ge": 8,
+          "$gt": 5,
+          "$le": 1,
+          "$logic_and": 33,
+          "$logic_not": 30,
+          "$logic_or": 18,
+          "$lt": 6,
+          "$mem_v2": 1,
+          "$mux": 1573,
+          "$ne": 124,
+          "$neg": 2,
+          "$not": 9,
+          "$or": 9,
+          "$pmux": 289,
+          "$reduce_and": 477,
+          "$reduce_bool": 19,
+          "$reduce_or": 26,
+          "$sdffce": 32,
+          "$shift": 3,
+          "$shiftx": 2,
+          "$shl": 8,
+          "$shr": 2,
+          "$sub": 3,
+          "$xor": 9
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "95b7abdbdd59b3a79d456144aca9941fd6542ca708108b45f884d94c9bebd7b9"
+  },
+  "scope": "generic RTL process/memory validation only; no standard-cell area, SRAM mapping, STA, power or 30FPS signoff"
+}

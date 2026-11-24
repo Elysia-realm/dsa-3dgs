@@ -1,0 +1,17 @@
+{
+  "scene": "train",
+  "camera_index": 150,
+  "gaussians": 1026508,
+  "visible": 926607,
+  "full_scene": true,
+  "width": 128,
+  "height": 71,
+  "software_preprocessing": "complete original PLY order, fixed-point encoding; no CPU pivots/batches for production",
+  "source_ply_sha256": "70e055d46f53636c83547a59c4998a0a27f64e42fceba45c6b78dfc77f52958d",
+  "input_sha256": {
+    "attribute.memh": "df0132f96a9ec91e73a2f35e39c95599253809932d09f5bd3fa0e3ec8abae113",
+    "camera.memh": "6ad2dfdbd456f5c739994b77f5bbb4781a54d87848966f0e3e13cb6945017bb0",
+    "mean.memh": "a6b66e5e5fd3cd6303cf49e147a59bf0efb108e91d8cee62dbd34fa48004d259"
+  },
+  "oracle_sha256": "d04476e5ba793ef887591270933b0fa7ef68fd264e4a852a56d2247b122eb66d"
+}

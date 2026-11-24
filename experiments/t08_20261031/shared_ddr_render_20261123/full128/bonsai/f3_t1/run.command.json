@@ -1,0 +1,23 @@
+[
+  "/home/gs3d/work/t08_20261031/shared_ddr_render_20261123/simulation",
+  "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/bonsai/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/bonsai/f3_t1/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/bonsai/f3_t1/rgb.memh",
+  "+FRAME_MODE=0",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+MAX_TIMEOUT=2000000000",
+  "+AUTO_QSU",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/bonsai/f3_t1/sorted.txt",
+  "+ATTR_FORMAT=3",
+  "+MUTATE_FORMAT",
+  "+LABEL=bonsai_camera146",
+  "+LPDDR_TIMED",
+  "+MODEL_CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+  "+MODEL_STATS=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/full128/bonsai/f3_t1/model.stats"
+]

@@ -1,0 +1,30 @@
+{
+  "scene": "train",
+  "camera": 150,
+  "record_count": 1026508,
+  "pixels": 2135310,
+  "verified_skips": 5550901,
+  "terminal_word_changes": 1063424,
+  "terminal_t_changes": 594429,
+  "last_write_metadata_changes": 1063424,
+  "cycles_before": 1009358035,
+  "cycles_after": 654430335,
+  "cycle_savings_percent": 35.16370680102626,
+  "r_grants_saved": 69268200,
+  "state_read_beats_saved": 67511265,
+  "state_write_beats_saved": 69268200,
+  "total_bytes_before": 6512327328,
+  "total_bytes_after": 4323855888,
+  "traffic_savings_percent": 33.60505898698586,
+  "assumed_200mhz_fps": 0.3056093052287987,
+  "required_data_gbps_at_30fps": 129.71567664,
+  "sampled_mae_rgb8": 0.411522633744856,
+  "sampled_max": 3,
+  "evidence_sha256": {
+    "experiments/t08_20261031/terminated_blocks_20261123/native/train/result.json": "A9381C89B7951DE452B6CCE8CAA04CF80162876E201841E11149A1E0090390B5",
+    "experiments/t08_20261031/qsu_root_native_full_20261122/real/train/1/result.json": "90CF8D0CBA21E3D81885E1A3B3955C6078A27BF0D37AE6B58138DA1200E8085F",
+    "experiments/t08_20261031/qsu_root_native_full_20261122/reference/train/samples.json": "1B82C169BDAA7C5BCFD681C860F3E1BE085EB6CCD68487D01ED2E8DA734EE8CA",
+    "scripts/audit_t08_terminated_native.py": "52168E8915F3F2AEC1F437080C5B8D2813F1D6F9CAF8173EE10555F4A906D296"
+  },
+  "signed_off": false
+}

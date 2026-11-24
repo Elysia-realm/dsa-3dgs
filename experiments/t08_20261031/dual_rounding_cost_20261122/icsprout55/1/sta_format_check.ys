@@ -1,0 +1,11 @@
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+read_verilog "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/icsprout55/1/mapped.v"
+hierarchy -check -top t08_rounding_cost
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t08_20261031/dual_rounding_cost_20261122/sta_format/84277D88B89F179A/original.il"
+design -reset
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+read_verilog "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/icsprout55/1/mapped.sta.v"
+hierarchy -check -top t08_rounding_cost
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t08_20261031/dual_rounding_cost_20261122/sta_format/84277D88B89F179A/adapted.il"

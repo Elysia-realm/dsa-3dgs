@@ -1,0 +1,10 @@
+[
+  "C:\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "-m",
+  "unittest",
+  "verification.test_t06_release_gate",
+  "verification.test_implementation_status",
+  "verification.test_t06_evidence.T06EvidenceTests.test_signoff_never_claimed_for_partial_evidence",
+  "verification.test_t06_image_release.T06CorrectedReleaseTests.test_no_signoff_without_current_visual_review",
+  "-v"
+]

@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "top": "tb_t06_precount_abort",
+      "args": [
+        "+ABORT_KIND=0",
+        "+N=256",
+        "+ABORT_READ=3"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_abort.vvp",
+        "+ABORT_KIND=0",
+        "+N=256",
+        "+ABORT_READ=3",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+      ]
+    },
+    {
+      "top": "tb_t06_precount_abort",
+      "args": [
+        "+ABORT_KIND=1",
+        "+N=256",
+        "+ABORT_READ=3"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_abort.vvp",
+        "+ABORT_KIND=1",
+        "+N=256",
+        "+ABORT_READ=3",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+      ]
+    },
+    {
+      "top": "tb_t06_precount_abort",
+      "args": [
+        "+ABORT_KIND=2",
+        "+N=256",
+        "+ABORT_READ=3"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_abort.vvp",
+        "+ABORT_KIND=2",
+        "+N=256",
+        "+ABORT_READ=3",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+      ]
+    },
+    {
+      "top": "tb_t06_precount_abort",
+      "args": [
+        "+ABORT_KIND=3",
+        "+N=256",
+        "+ABORT_READ=3"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_abort.vvp",
+        "+ABORT_KIND=3",
+        "+N=256",
+        "+ABORT_READ=3",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+      ]
+    },
+    {
+      "top": "tb_t06_precount_abort",
+      "args": [
+        "+ABORT_KIND=4",
+        "+N=256",
+        "+ABORT_READ=3"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_abort.vvp",
+        "+ABORT_KIND=4",
+        "+N=256",
+        "+ABORT_READ=3",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+      ]
+    },
+    {
+      "top": "tb_t06_precount_abort",
+      "args": [
+        "+ABORT_KIND=5",
+        "+N=256",
+        "+ABORT_READ=3"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_abort.vvp",
+        "+ABORT_KIND=5",
+        "+N=256",
+        "+ABORT_READ=3",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+      ]
+    },
+    {
+      "top": "tb_t06_precount_backpressure",
+      "args": [
+        "+N=256"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_backpressure.vvp",
+        "+N=256",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_256/expected.memh"
+      ]
+    },
+    {
+      "top": "tb_t06_precount_backpressure",
+      "args": [
+        "+N=4097"
+      ],
+      "status": "PASS",
+      "command": [
+        "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+        "/mnt/d/3DGS/experiments/t07_20261029/selected_units/faults/tb_t06_precount_backpressure.vvp",
+        "+N=4097",
+        "+INPUT=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_4097/input.memh",
+        "+EXPECTED=/mnt/d/3DGS/experiments/t06_precount_mem_20261022/units/random_4097/expected.memh"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "95b7abdbdd59b3a79d456144aca9941fd6542ca708108b45f884d94c9bebd7b9",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259a001e202e3703c6005fe6712ced73dbf13bdcadcf0f9042e582527858c",
+    "verification/rtl/tb_t06_precount_abort.sv": "934cf744f28455e31aebb4ff7c8501c80b3bd7548f9060094df7258ac2f5f525",
+    "verification/rtl/tb_t06_precount_backpressure.sv": "5269c5f17d83de261fa93a876952c89ca367bcddb1af28d8eb59463b2843aff9"
+  }
+}

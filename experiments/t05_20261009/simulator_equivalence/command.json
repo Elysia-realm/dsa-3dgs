@@ -1,0 +1,17 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t05_20261009\\real\\build\\bsu8.vvp",
+  "+BATCH_ROOT=D:/3DGS/experiments/t05_20261009/real/bonsai",
+  "+BATCH_LAST=63",
+  "+FRAME=D:/3DGS/experiments/t05_20261009/simulator_equivalence/state.memh",
+  "+RGB=D:/3DGS/experiments/t05_20261009/simulator_equivalence/rgb.memh",
+  "+SORTED_TRACE=D:/3DGS/experiments/t05_20261009/simulator_equivalence/sorted.txt",
+  "+LABEL=bonsai_bsu8",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=2000000",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

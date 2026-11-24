@@ -1,0 +1,6 @@
+[
+  "/home/gs3d/work/t08_20261031/dma_20261107/simulation",
+  "+N=6144",
+  "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/input.memh",
+  "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+]

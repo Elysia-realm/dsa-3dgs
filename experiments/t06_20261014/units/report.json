@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "random_0",
+      "n": 0,
+      "status": "PASS",
+      "result": "PASS T06 n=0 cycles=8 partitions=0 leaves=0 reads=0 writes=0 peak=0 overlap=0 parallel=0\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 120000 (1ps)"
+    },
+    {
+      "name": "random_1",
+      "n": 1,
+      "status": "PASS",
+      "result": "PASS T06 n=1 cycles=30 partitions=0 leaves=1 reads=1 writes=1 peak=0 overlap=0 parallel=0\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 340000 (1ps)"
+    },
+    {
+      "name": "random_15",
+      "n": 15,
+      "status": "PASS",
+      "result": "PASS T06 n=15 cycles=111 partitions=0 leaves=1 reads=15 writes=15 peak=0 overlap=0 parallel=0\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 1150000 (1ps)"
+    },
+    {
+      "name": "random_16",
+      "n": 16,
+      "status": "PASS",
+      "result": "PASS T06 n=16 cycles=114 partitions=0 leaves=1 reads=16 writes=16 peak=0 overlap=0 parallel=0\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 1180000 (1ps)"
+    },
+    {
+      "name": "random_17",
+      "n": 17,
+      "status": "PASS",
+      "result": "PASS T06 n=17 cycles=155 partitions=1 leaves=5 reads=51 writes=34 peak=5 overlap=2 parallel=4\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 1590000 (1ps)"
+    },
+    {
+      "name": "random_31",
+      "n": 31,
+      "status": "PASS",
+      "result": "PASS T06 n=31 cycles=236 partitions=1 leaves=8 reads=93 writes=62 peak=8 overlap=6 parallel=6\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 2400000 (1ps)"
+    },
+    {
+      "name": "random_64",
+      "n": 64,
+      "status": "PASS",
+      "result": "PASS T06 n=64 cycles=422 partitions=1 leaves=8 reads=192 writes=128 peak=8 overlap=28 parallel=4\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 4260000 (1ps)"
+    },
+    {
+      "name": "random_127",
+      "n": 127,
+      "status": "PASS",
+      "result": "PASS T06 n=127 cycles=1022 partitions=4 leaves=28 reads=507 writes=317 peak=15 overlap=39 parallel=28\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 10260000 (1ps)"
+    },
+    {
+      "name": "random_512",
+      "n": 512,
+      "status": "PASS",
+      "result": "PASS T06 n=512 cycles=4094 partitions=9 leaves=64 reads=2560 writes=1536 peak=15 overlap=176 parallel=22\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 40980000 (1ps)"
+    },
+    {
+      "name": "random_4097",
+      "n": 4097,
+      "status": "PASS",
+      "result": "PASS T06 n=4097 cycles=41944 partitions=74 leaves=519 reads=28715 writes=16406 peak=22 overlap=1535 parallel=199\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 419480000 (1ps)"
+    },
+    {
+      "name": "same_depth",
+      "n": 1025,
+      "status": "PASS",
+      "result": "PASS T06 n=1025 cycles=10849 partitions=40 leaves=260 reads=6313 writes=3669 peak=21 overlap=233 parallel=283\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 108530000 (1ps)"
+    },
+    {
+      "name": "same_depth_gid",
+      "n": 1025,
+      "status": "PASS",
+      "result": "PASS T06 n=1025 cycles=11761 partitions=37 leaves=257 reads=7171 writes=4098 peak=19 overlap=112 parallel=82\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 117650000 (1ps)"
+    },
+    {
+      "name": "identical_key",
+      "n": 1025,
+      "status": "PASS",
+      "result": "PASS T06 n=1025 cycles=2889 partitions=0 leaves=65 reads=1025 writes=1025 peak=0 overlap=754 parallel=60\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 28930000 (1ps)"
+    },
+    {
+      "name": "skew",
+      "n": 2050,
+      "status": "PASS",
+      "result": "PASS T06 n=2050 cycles=28106 partitions=74 leaves=514 reads=18438 writes=10244 peak=23 overlap=214 parallel=162\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 281100000 (1ps)"
+    },
+    {
+      "name": "ascending",
+      "n": 513,
+      "status": "PASS",
+      "result": "PASS T06 n=513 cycles=3859 partitions=5 leaves=33 reads=2563 writes=1538 peak=12 overlap=266 parallel=17\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 38630000 (1ps)"
+    },
+    {
+      "name": "descending",
+      "n": 513,
+      "status": "PASS",
+      "result": "PASS T06 n=513 cycles=3859 partitions=5 leaves=33 reads=2563 writes=1538 peak=12 overlap=266 parallel=17\nverification/rtl/tb_t06_qsu_bsu.sv:93: $finish called at 38630000 (1ps)"
+    }
+  ],
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "eb2e65c70ce2ba75017772eda40958c3c821db619670eb80331ad74360d03555",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "d22343fb0fa103285fb1740a6e184e541c68694b6478f65ee3909fa250a38463",
+    "verification/rtl/tb_t06_qsu_bsu.sv": "18b483619de65a459c6a406cdb9171349de10ae641fd09198823e215f7329ec2"
+  }
+}

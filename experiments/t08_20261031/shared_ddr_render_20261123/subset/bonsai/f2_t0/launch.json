@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/shared_ddr_render_20261123/simulation",
+    "+AUTO_QSU",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_release_20261022/subset/bonsai/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/inputs/bonsai/v2.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_release_20261022/subset/bonsai/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/subset/bonsai/f2_t0/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/subset/bonsai/f2_t0/rgb.memh",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/subset/bonsai/f2_t0/sorted.txt",
+    "+FRAME_MODE=0",
+    "+MAX_TIMEOUT=10000000",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT",
+    "+LABEL=bonsai_subset"
+  ],
+  "elf_sha256": "2B4E84C1E2AFF5250C28BFEE421EEEB3C8F0F5BD2BAB5CE8D6E43C7DF116E294",
+  "input_sha256": {
+    "MEAN": "BB3BC53BD5C51BA4F5F3A1473CD5BBD8D18F55BBE2CDDEA6FEDE50991789DD7B",
+    "ATTR": "187117E9B2CEDFD102B3173B8705AB7E3A9A19C7A9A6DAD819BED81C3380A867",
+    "CAMERA": "3DFF9310BA15D02E10843BCF94BE1230AA8D8ACF7CFCB21CBE7B7161A91C2633"
+  }
+}

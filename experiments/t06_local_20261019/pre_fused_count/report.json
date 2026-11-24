@@ -1,0 +1,544 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "random_0",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 0,
+          "cycles": 8,
+          "partitions": 0,
+          "leaves": 0,
+          "reads": 0,
+          "writes": 0,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        },
+        "L": {
+          "n": 0,
+          "cycles": 8,
+          "partitions": 0,
+          "leaves": 0,
+          "reads": 0,
+          "writes": 0,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        }
+      }
+    },
+    {
+      "name": "random_1",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 1,
+          "cycles": 31,
+          "partitions": 0,
+          "leaves": 1,
+          "reads": 1,
+          "writes": 1,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        },
+        "L": {
+          "n": 1,
+          "cycles": 31,
+          "partitions": 0,
+          "leaves": 1,
+          "reads": 1,
+          "writes": 1,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        }
+      }
+    },
+    {
+      "name": "random_15",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 15,
+          "cycles": 119,
+          "partitions": 0,
+          "leaves": 1,
+          "reads": 15,
+          "writes": 15,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        },
+        "L": {
+          "n": 15,
+          "cycles": 119,
+          "partitions": 0,
+          "leaves": 1,
+          "reads": 15,
+          "writes": 15,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        }
+      }
+    },
+    {
+      "name": "random_16",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 16,
+          "cycles": 120,
+          "partitions": 0,
+          "leaves": 1,
+          "reads": 16,
+          "writes": 16,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        },
+        "L": {
+          "n": 16,
+          "cycles": 120,
+          "partitions": 0,
+          "leaves": 1,
+          "reads": 16,
+          "writes": 16,
+          "peak": 0,
+          "overlap": 0,
+          "parallel": 0
+        }
+      }
+    },
+    {
+      "name": "random_17",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 17,
+          "cycles": 169,
+          "partitions": 1,
+          "leaves": 7,
+          "reads": 51,
+          "writes": 34,
+          "peak": 7,
+          "overlap": 4,
+          "parallel": 13
+        },
+        "L": {
+          "n": 17,
+          "cycles": 154,
+          "partitions": 1,
+          "leaves": 7,
+          "reads": 17,
+          "writes": 17,
+          "peak": 7,
+          "overlap": 5,
+          "parallel": 26
+        }
+      }
+    },
+    {
+      "name": "random_31",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 31,
+          "cycles": 236,
+          "partitions": 1,
+          "leaves": 7,
+          "reads": 93,
+          "writes": 62,
+          "peak": 7,
+          "overlap": 7,
+          "parallel": 17
+        },
+        "L": {
+          "n": 31,
+          "cycles": 236,
+          "partitions": 1,
+          "leaves": 7,
+          "reads": 31,
+          "writes": 31,
+          "peak": 7,
+          "overlap": 10,
+          "parallel": 21
+        }
+      }
+    },
+    {
+      "name": "random_64",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 64,
+          "cycles": 426,
+          "partitions": 1,
+          "leaves": 8,
+          "reads": 192,
+          "writes": 128,
+          "peak": 8,
+          "overlap": 23,
+          "parallel": 7
+        },
+        "L": {
+          "n": 64,
+          "cycles": 441,
+          "partitions": 1,
+          "leaves": 8,
+          "reads": 64,
+          "writes": 64,
+          "peak": 8,
+          "overlap": 22,
+          "parallel": 15
+        }
+      }
+    },
+    {
+      "name": "random_127",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 127,
+          "cycles": 1123,
+          "partitions": 5,
+          "leaves": 35,
+          "reads": 535,
+          "writes": 331,
+          "peak": 15,
+          "overlap": 22,
+          "parallel": 55
+        },
+        "L": {
+          "n": 127,
+          "cycles": 1035,
+          "partitions": 5,
+          "leaves": 35,
+          "reads": 127,
+          "writes": 127,
+          "peak": 15,
+          "overlap": 17,
+          "parallel": 92
+        }
+      }
+    },
+    {
+      "name": "random_255",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 255,
+          "cycles": 2354,
+          "partitions": 9,
+          "leaves": 63,
+          "reads": 1275,
+          "writes": 765,
+          "peak": 15,
+          "overlap": 71,
+          "parallel": 92
+        },
+        "L": {
+          "n": 255,
+          "cycles": 2230,
+          "partitions": 9,
+          "leaves": 63,
+          "reads": 255,
+          "writes": 255,
+          "peak": 15,
+          "overlap": 90,
+          "parallel": 170
+        }
+      }
+    },
+    {
+      "name": "random_256",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 256,
+          "cycles": 2358,
+          "partitions": 9,
+          "leaves": 63,
+          "reads": 1280,
+          "writes": 768,
+          "peak": 14,
+          "overlap": 53,
+          "parallel": 92
+        },
+        "L": {
+          "n": 256,
+          "cycles": 2234,
+          "partitions": 9,
+          "leaves": 63,
+          "reads": 256,
+          "writes": 256,
+          "peak": 14,
+          "overlap": 82,
+          "parallel": 166
+        }
+      }
+    },
+    {
+      "name": "random_257",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 257,
+          "cycles": 2379,
+          "partitions": 9,
+          "leaves": 64,
+          "reads": 1285,
+          "writes": 771,
+          "peak": 15,
+          "overlap": 71,
+          "parallel": 101
+        },
+        "L": {
+          "n": 257,
+          "cycles": 2356,
+          "partitions": 9,
+          "leaves": 64,
+          "reads": 771,
+          "writes": 514,
+          "peak": 15,
+          "overlap": 65,
+          "parallel": 164
+        }
+      }
+    },
+    {
+      "name": "random_512",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 512,
+          "cycles": 4103,
+          "partitions": 9,
+          "leaves": 64,
+          "reads": 2560,
+          "writes": 1536,
+          "peak": 15,
+          "overlap": 205,
+          "parallel": 58
+        },
+        "L": {
+          "n": 512,
+          "cycles": 4275,
+          "partitions": 9,
+          "leaves": 64,
+          "reads": 1536,
+          "writes": 1024,
+          "peak": 15,
+          "overlap": 219,
+          "parallel": 95
+        }
+      }
+    },
+    {
+      "name": "random_4097",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 4097,
+          "cycles": 42152,
+          "partitions": 76,
+          "leaves": 531,
+          "reads": 28781,
+          "writes": 16439,
+          "peak": 24,
+          "overlap": 1578,
+          "parallel": 525
+        },
+        "L": {
+          "n": 4097,
+          "cycles": 43242,
+          "partitions": 76,
+          "leaves": 531,
+          "reads": 20485,
+          "writes": 12291,
+          "peak": 24,
+          "overlap": 1659,
+          "parallel": 835
+        }
+      }
+    },
+    {
+      "name": "same_depth",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 1025,
+          "cycles": 10411,
+          "partitions": 35,
+          "leaves": 230,
+          "reads": 6161,
+          "writes": 3593,
+          "peak": 20,
+          "overlap": 237,
+          "parallel": 348
+        },
+        "L": {
+          "n": 1025,
+          "cycles": 10016,
+          "partitions": 35,
+          "leaves": 230,
+          "reads": 3075,
+          "writes": 2050,
+          "peak": 20,
+          "overlap": 299,
+          "parallel": 587
+        }
+      }
+    },
+    {
+      "name": "same_depth_gid",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 1025,
+          "cycles": 11762,
+          "partitions": 37,
+          "leaves": 257,
+          "reads": 7171,
+          "writes": 4098,
+          "peak": 19,
+          "overlap": 112,
+          "parallel": 81
+        },
+        "L": {
+          "n": 1025,
+          "cycles": 11114,
+          "partitions": 37,
+          "leaves": 257,
+          "reads": 3075,
+          "writes": 2050,
+          "peak": 19,
+          "overlap": 392,
+          "parallel": 573
+        }
+      }
+    },
+    {
+      "name": "identical_key",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 1025,
+          "cycles": 2941,
+          "partitions": 0,
+          "leaves": 65,
+          "reads": 1025,
+          "writes": 1025,
+          "peak": 0,
+          "overlap": 754,
+          "parallel": 61
+        },
+        "L": {
+          "n": 1025,
+          "cycles": 2941,
+          "partitions": 0,
+          "leaves": 65,
+          "reads": 1025,
+          "writes": 1025,
+          "peak": 0,
+          "overlap": 754,
+          "parallel": 61
+        }
+      }
+    },
+    {
+      "name": "skew",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 2050,
+          "cycles": 28107,
+          "partitions": 74,
+          "leaves": 514,
+          "reads": 18438,
+          "writes": 10244,
+          "peak": 23,
+          "overlap": 208,
+          "parallel": 163
+        },
+        "L": {
+          "n": 2050,
+          "cycles": 26773,
+          "partitions": 74,
+          "leaves": 514,
+          "reads": 10246,
+          "writes": 6148,
+          "peak": 23,
+          "overlap": 789,
+          "parallel": 1145
+        }
+      }
+    },
+    {
+      "name": "ascending",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 513,
+          "cycles": 3873,
+          "partitions": 5,
+          "leaves": 33,
+          "reads": 2563,
+          "writes": 1538,
+          "peak": 12,
+          "overlap": 249,
+          "parallel": 25
+        },
+        "L": {
+          "n": 513,
+          "cycles": 4155,
+          "partitions": 5,
+          "leaves": 33,
+          "reads": 1539,
+          "writes": 1026,
+          "peak": 12,
+          "overlap": 257,
+          "parallel": 25
+        }
+      }
+    },
+    {
+      "name": "descending",
+      "status": "PASS",
+      "metrics": {
+        "B": {
+          "n": 513,
+          "cycles": 3873,
+          "partitions": 5,
+          "leaves": 33,
+          "reads": 2563,
+          "writes": 1538,
+          "peak": 12,
+          "overlap": 249,
+          "parallel": 25
+        },
+        "L": {
+          "n": 513,
+          "cycles": 4155,
+          "partitions": 5,
+          "leaves": 33,
+          "reads": 1539,
+          "writes": 1026,
+          "peak": 12,
+          "overlap": 257,
+          "parallel": 25
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "633c138ce6acfe248abdd3440e6830bae4cf9b3c79a2662f785fefbccf3f0cfa",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "d22343fb0fa103285fb1740a6e184e541c68694b6478f65ee3909fa250a38463",
+    "verification/rtl/tb_t06_qsu_bsu.sv": "12cff38647b430a85844f31742c02ad19427b00889cbf117ced26208e61c656f",
+    "verification/rtl/tb_t06_qsu_local.sv": "12c55a3f6844f81ec37b650353826023ef8727ccb167d9d8dd4fa154d37c43c6"
+  }
+}

@@ -1,0 +1,13 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_blend_fixed_core",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_blend_fixed_core.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/raster/blend_fixed_core.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_blend_fixed_core.sv"
+]

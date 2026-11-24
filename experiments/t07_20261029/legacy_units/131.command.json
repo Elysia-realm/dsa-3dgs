@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_image_state_cache_backend_4",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_image_state_cache_backend_4.vvp",
+  "/mnt/d/3DGS/rtl/raster/image_state_cache_backend_4.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_image_state_cache_backend_4.sv"
+]

@@ -1,0 +1,9 @@
+[
+  "/home/gs3d/eda/venvs/gsverify/bin/python",
+  "-m",
+  "unittest",
+  "verification.test_shape_block_reject.ShapeBlockRejectTest.test_opacity_bin_thresholds_are_sub_alpha_threshold",
+  "verification.test_shape_block_reject.ShapeBlockRejectTest.test_random_rejections_have_no_passing_pixel",
+  "verification.test_alpha_zero_skip.AlphaZeroSkipTests.test_zeroed_alpha_blend_is_identity_on_valid_pixel_states",
+  "-v"
+]

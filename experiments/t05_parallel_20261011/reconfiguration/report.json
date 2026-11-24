@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "k": 8,
+      "scene": "bonsai",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 0,
+      "PR": 126,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=38117 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=291 total_windows=581 selected_mode=0 selected_cycles=38104 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 8,
+      "scene": "counter",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 0,
+      "PR": 103,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=36057 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=162 total_windows=324 selected_mode=0 selected_cycles=36036 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 8,
+      "scene": "room",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 0,
+      "PR": 162,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=36497 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=190 total_windows=379 selected_mode=0 selected_cycles=36492 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 8,
+      "scene": "kitchen",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 0,
+      "PR": 70,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=38961 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=344 total_windows=687 selected_mode=0 selected_cycles=38940 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 8,
+      "scene": "garden",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 0,
+      "PR": 147,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=36669 recommendation_valid=1 recommended_mode=0 window_winner=1 observe_windows=251 total_windows=501 selected_mode=0 selected_cycles=36664 image_mismatches=0",
+        "REAL_RGB reads=5248 write_beats=984 bursts=84 bytes=7872 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 16,
+      "scene": "bonsai",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 2,
+      "PR": 487,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=41349 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=493 total_windows=988 selected_mode=0 selected_cycles=41364 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 16,
+      "scene": "counter",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 2,
+      "PR": 371,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=38949 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=343 total_windows=686 selected_mode=0 selected_cycles=38940 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 16,
+      "scene": "room",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 2,
+      "PR": 587,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=39821 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=397 total_windows=798 selected_mode=0 selected_cycles=39860 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 16,
+      "scene": "kitchen",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 2,
+      "PR": 318,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=42465 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=563 total_windows=1124 selected_mode=0 selected_cycles=42440 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "k": 16,
+      "scene": "garden",
+      "status": "PASS",
+      "frames": 2,
+      "changes": 2,
+      "GP": 2,
+      "PR": 469,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=40273 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=476 total_windows=952 selected_mode=0 selected_cycles=40280 image_mismatches=0",
+        "REAL_RGB reads=5248 write_beats=984 bursts=84 bytes=7872 epoch=2 error=00000000"
+      ]
+    }
+  ]
+}

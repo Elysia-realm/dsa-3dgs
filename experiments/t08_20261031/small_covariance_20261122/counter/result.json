@@ -1,0 +1,25 @@
+{
+  "scene": "counter",
+  "camera": 120,
+  "counts": {
+    "records": 1222956,
+    "selected": 52252,
+    "risk_q20": 3564,
+    "risk_q24": 0,
+    "recovered": 3564,
+    "new_risks": 0
+  },
+  "examples_q20": [
+    2041,
+    2655,
+    2873,
+    3693,
+    5764,
+    6411,
+    6872,
+    8916
+  ],
+  "known_case": null,
+  "ply_sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4",
+  "camera_sha256": "E559FC0B5BC70D95F63F922A0A356C82115BAFADCC742727B3C474B805321A09"
+}

@@ -1,0 +1,17 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_gaussian_sh_color_core",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_20261107/legacy_units/tb_gaussian_sh_color_core.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/common/fixed_sqrt_pipe.sv",
+  "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+  "/mnt/d/3DGS/rtl/sh/view_direction_normalizer.sv",
+  "/mnt/d/3DGS/rtl/sh/sh_degree3_color_core.sv",
+  "/mnt/d/3DGS/rtl/sh/gaussian_sh_color_core.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_gaussian_sh_color_core.sv"
+]

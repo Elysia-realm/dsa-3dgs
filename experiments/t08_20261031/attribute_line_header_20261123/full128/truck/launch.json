@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/attribute_line_header_20261123/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/inputs/truck/v2.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/full128/truck/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/full128/truck/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/full128/truck/sorted.txt",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT",
+    "+LABEL=truck_camera125",
+    "+LPDDR_TIMED",
+    "+MODEL_CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+    "+MODEL_STATS=/mnt/d/3DGS/experiments/t08_20261031/attribute_line_header_20261123/full128/truck/model.stats"
+  ],
+  "elf_sha256": "31EAD93BA9D299D4A23248010147A95FAA6B919510E0F9D03685A20B07BE08F2",
+  "inputs": {
+    "MEAN": "5A4908F3F185CAE1DBABD9BED6120C91B006AE8D50ABADCC1BED7C7B6FD0DE69",
+    "ATTR": "C4E079DB155D310A9DCB6CF0E47DF3166620009C19CBA6C7EACF0C982D575C9A",
+    "CAMERA": "0201F3DB88C49A09F26857711C140299BC4D545D34C1E2E734630605A4EB3E28"
+  },
+  "ref_sha256": "AE9C5892D05D9ABDF144F55AF71B59AAE0C1A8EB31A7771D30356A1E0F70413C"
+}

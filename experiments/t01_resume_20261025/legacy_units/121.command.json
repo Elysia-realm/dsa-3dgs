@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_axi4_pixel_state_read_engine",
+  "-o",
+  "/home/gs3d/work/t01_resume_20261025/legacy_units/tb_axi4_pixel_state_read_engine.vvp",
+  "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_read_engine.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_read_engine.sv"
+]

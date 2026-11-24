@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "scripts/run_t06_image_release.py": "3f4da883ff78292145fef6849283cdd1b4bd35a7680cb74f58b8d8bfd4a0564c",
+    "model/io/scene.py": "eeb71e1602156e6254ebbcaa8bba186e067577d593a85a1cbf6d0cc2bb2071f6",
+    "model/reference/math3d.py": "a4caa0601b4fc1a8be3a0cc45e665a2a6992902ce1bde5694033b1e5eea5b5c0",
+    "verification/test_t06_projection_reference.py": "09602a3d6b214fa76cdf8a64138a69388322268dcf1c1621a69c45b62aa47555",
+    "verification/test_scene_io.py": "7e5b2293e43a4256b6fff0e757c05c946e82bc61d4e35d46f33111db665e8e9b",
+    "verification/test_t05_parallel_evidence.py": "f884d07c10886de639d687577866b0e853bc072d0b74e3d45ecc23c1ef295127"
+  },
+  "protocol_report": "protocol/report.json",
+  "encoding_report": "input_encoding_report.json",
+  "python_log_sha256": "20392d914d993cb73928e38988ffdc93c89f4263a1718d2bf86e0b7b8f0903a1"
+}

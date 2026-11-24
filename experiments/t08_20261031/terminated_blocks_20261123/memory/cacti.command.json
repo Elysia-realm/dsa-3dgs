@@ -1,0 +1,5 @@
+[
+  "/home/gs3d/eda/bin/cacti",
+  "-infile",
+  "/mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/memory/sram_bytewide.cfg"
+]

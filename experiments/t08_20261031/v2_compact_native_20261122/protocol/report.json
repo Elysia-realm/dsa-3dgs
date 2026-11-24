@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "version": 1,
+      "records": 6144,
+      "controls": 12,
+      "beats": 49172,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.6616915980000044,
+        "log_sha256": "FBE02D49B5D509B611DEF75DD8ABA2461D66FF775F52A9756442C72D0E5D2893"
+      },
+      "elf_sha256": "4C656AFB4C394B855D985DB99D701253C675E9ACB9D7A2CFBA6E6AC660BDE848",
+      "sha256": {
+        "rtl/dma/t08_attribute_decoder.sv": "71689CEDE0C0871E4EAFC7C29B54057F5FE338D6EDC23154290E0AB0EF4E6F88",
+        "rtl/dma/axi4_t08_attribute_read_engine.sv": "45CB90708BD2D47CA67481911E65EE682AC2CE327C5F72E414EBF2424A9C842D",
+        "experiments/t08_20261031/v2_compact_native_20261122/protocol/v1/tb_t08_attribute_dma.sv": "5200410FA40411EB34540AC106FE68F8D7C9F57DAE3932A2E79F2CA92367F79A",
+        "experiments/t08_20261031/v2_compact_native_20261122/protocol/v1/input.memh": "9F4FBDE39047BBF836366B3139D48C6052A9C02549B376EFF841027F05D5284D",
+        "experiments/t08_20261031/dma_20261107/expected.memh": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+        "scripts/check_t08_q24_versions.py": "2EFE63EB16A95375B2FA487222FCB46FEBB3CFF1637CB8228EB8E065C8065DE1"
+      }
+    },
+    {
+      "version": 2,
+      "records": 6144,
+      "controls": 12,
+      "beats": 49172,
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 0.6730563290000049,
+        "log_sha256": "4EAD1A8CC28B699CE751C539894A595E66FDC0A7E1B020F02207915154A73E17"
+      },
+      "elf_sha256": "CE493E920E7A7AA7D1939C3158D16195C2ACC6896527FA48B30D639298B8B6BF",
+      "sha256": {
+        "experiments/t08_20261031/v2_compact_native_20261122/build/t08_attribute_decoder.sv": "A00BCE23EB11D37D6283642700F9AB67801A61E59D5C7B5757DC50C4CADDFA0F",
+        "experiments/t08_20261031/v2_compact_native_20261122/build/axi4_t08_attribute_read_engine.sv": "62471D05CAEF43BF7DF3B4E989EA22DF58151C82599164381F26AB4FD31C26DA",
+        "experiments/t08_20261031/v2_compact_native_20261122/protocol/v2/tb_t08_attribute_dma.sv": "A4C35E8A84609BB770D0CDA9122F2DBE4D33B3EFFAB58BF9EEE2A0AF0522CC01",
+        "experiments/t08_20261031/v2_compact_native_20261122/protocol/v2/input.memh": "D1B118228C3AE49EEC7CCE73B0F3F650243F183EAB9FB15D413673E2C75F7171",
+        "experiments/t08_20261031/dma_20261107/expected.memh": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+        "scripts/check_t08_q24_versions.py": "2EFE63EB16A95375B2FA487222FCB46FEBB3CFF1637CB8228EB8E065C8065DE1"
+      }
+    }
+  ],
+  "signed_off": false,
+  "scope": "Independent v1 and v2 builds. Transport bit patterns only; numerical Q24 equivalence checked by native frames."
+}

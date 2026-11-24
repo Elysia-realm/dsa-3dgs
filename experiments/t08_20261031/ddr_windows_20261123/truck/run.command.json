@@ -1,0 +1,21 @@
+[
+  "/home/gs3d/work/t08_20261031/ddr_windows_20261123/simulation",
+  "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/inputs/truck/v2.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/inputs/native/truck/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/truck/unused_state",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/truck/unused_rgb",
+  "+FRAME_MODE=0",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+MAX_TIMEOUT=2000000000",
+  "+AUTO_QSU",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/truck/sorted_prefix.txt",
+  "+ATTR_FORMAT=2",
+  "+MUTATE_FORMAT",
+  "+LABEL=truck_camera125",
+  "+DDR_TRACE=/mnt/d/3DGS/experiments/t08_20261031/ddr_windows_20261123/truck/bursts.txt"
+]

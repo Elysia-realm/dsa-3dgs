@@ -1,0 +1,2173 @@
+{
+  "report_version": 1,
+  "generated_at": "2026-09-11T22:49:19.691047+08:00",
+  "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+  "executable_sha256": "3C0582C47ABD2660A4AA4BD0B989D3F64A7086689397458850DED9D737B31523",
+  "mode_names": {
+    "0": "G",
+    "1": "P",
+    "2": "R",
+    "3": "E"
+  },
+  "workloads": [
+    {
+      "workload": "bicycle_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\bicycle_cammid_n32_d64",
+      "scene": "bicycle",
+      "camera_index": 97,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1423,
+            "commits": 526,
+            "state_misses": 488,
+            "read_stall": 30,
+            "output_stall": 0,
+            "state_reads": 488,
+            "state_writes": 526
+          },
+          "frame_sha256": "D9C9E39627602236B3946AAD64E81F04ABD9DFF78077E6E881B85D00C0796C68",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1429,
+            "commits": 526,
+            "state_misses": 488,
+            "read_stall": 30,
+            "output_stall": 0,
+            "state_reads": 488,
+            "state_writes": 526
+          },
+          "frame_sha256": "D9C9E39627602236B3946AAD64E81F04ABD9DFF78077E6E881B85D00C0796C68",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1429,
+            "commits": 526,
+            "state_misses": 488,
+            "read_stall": 30,
+            "output_stall": 0,
+            "state_reads": 488,
+            "state_writes": 526
+          },
+          "frame_sha256": "D9C9E39627602236B3946AAD64E81F04ABD9DFF78077E6E881B85D00C0796C68",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1459,
+            "commits": 526,
+            "state_misses": 488,
+            "read_stall": 33,
+            "output_stall": 0,
+            "state_reads": 488,
+            "state_writes": 526
+          },
+          "frame_sha256": "D9C9E39627602236B3946AAD64E81F04ABD9DFF78077E6E881B85D00C0796C68",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bicycle_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "D9C9E39627602236B3946AAD64E81F04ABD9DFF78077E6E881B85D00C0796C68",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1423,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:20.679125+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\bicycle_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1459,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 5,
+          "total_windows": 11,
+          "selected_mode": 2,
+          "selected_cycles": 1430,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 29,
+          "cycle_reduction_percent": 1.987663
+        },
+        "selected_frame_perf": {
+          "cycles": 1430,
+          "commits": 526,
+          "state_misses": 488,
+          "read_stall": 34,
+          "output_stall": 0,
+          "state_reads": 488,
+          "state_writes": 526
+        },
+        "window_count": 11,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 2,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 4,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 6,
+            "3": 0
+          }
+        },
+        "first_queued_window": null,
+        "frame_sha256": "3F0D5B5E90C1B5C8A30187AE1AB22A37CBB97942B541F9677CB1751A67C3A033",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1430,
+      "selected_fixed_cycles": 1429,
+      "auto_runtime_overhead_cycles": 1,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.421644,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": null
+    },
+    {
+      "workload": "bonsai_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\bonsai_cammid_n32_d64",
+      "scene": "bonsai",
+      "camera_index": 146,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1721,
+            "commits": 769,
+            "state_misses": 529,
+            "read_stall": 44,
+            "output_stall": 0,
+            "state_reads": 529,
+            "state_writes": 769
+          },
+          "frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1727,
+            "commits": 769,
+            "state_misses": 529,
+            "read_stall": 44,
+            "output_stall": 0,
+            "state_reads": 529,
+            "state_writes": 769
+          },
+          "frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1727,
+            "commits": 769,
+            "state_misses": 529,
+            "read_stall": 44,
+            "output_stall": 0,
+            "state_reads": 529,
+            "state_writes": 769
+          },
+          "frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1751,
+            "commits": 769,
+            "state_misses": 529,
+            "read_stall": 44,
+            "output_stall": 0,
+            "state_reads": 529,
+            "state_writes": 769
+          },
+          "frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\bonsai_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1721,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:21.771005+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\bonsai_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1751,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 6,
+          "total_windows": 13,
+          "selected_mode": 2,
+          "selected_cycles": 1734,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 17,
+          "cycle_reduction_percent": 0.970874
+        },
+        "selected_frame_perf": {
+          "cycles": 1734,
+          "commits": 769,
+          "state_misses": 529,
+          "read_stall": 53,
+          "output_stall": 0,
+          "state_reads": 529,
+          "state_writes": 769
+        },
+        "window_count": 13,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 8,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 12,
+          "skip": 0
+        },
+        "frame_sha256": "6A80A3629DDCA01F4BCD1DEA3A8AFA32929CEFE0E23732875AB47B44F157CF03",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1734,
+      "selected_fixed_cycles": 1727,
+      "auto_runtime_overhead_cycles": 7,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.348635,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "counter_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\counter_cammid_n32_d64",
+      "scene": "counter",
+      "camera_index": 120,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1797,
+            "commits": 786,
+            "state_misses": 534,
+            "read_stall": 86,
+            "output_stall": 0,
+            "state_reads": 534,
+            "state_writes": 786
+          },
+          "frame_sha256": "DFD051CE14CB6AF1A87E55339B790FED5AC74FFE3F0A72F9DB9A333FDC2E1900",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1803,
+            "commits": 786,
+            "state_misses": 534,
+            "read_stall": 86,
+            "output_stall": 0,
+            "state_reads": 534,
+            "state_writes": 786
+          },
+          "frame_sha256": "DFD051CE14CB6AF1A87E55339B790FED5AC74FFE3F0A72F9DB9A333FDC2E1900",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1803,
+            "commits": 786,
+            "state_misses": 534,
+            "read_stall": 86,
+            "output_stall": 0,
+            "state_reads": 534,
+            "state_writes": 786
+          },
+          "frame_sha256": "DFD051CE14CB6AF1A87E55339B790FED5AC74FFE3F0A72F9DB9A333FDC2E1900",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1826,
+            "commits": 786,
+            "state_misses": 534,
+            "read_stall": 86,
+            "output_stall": 0,
+            "state_reads": 534,
+            "state_writes": 786
+          },
+          "frame_sha256": "DFD051CE14CB6AF1A87E55339B790FED5AC74FFE3F0A72F9DB9A333FDC2E1900",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\counter_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "DFD051CE14CB6AF1A87E55339B790FED5AC74FFE3F0A72F9DB9A333FDC2E1900",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1797,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:22.862825+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\counter_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1826,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 7,
+          "total_windows": 14,
+          "selected_mode": 2,
+          "selected_cycles": 1807,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 19,
+          "cycle_reduction_percent": 1.040526
+        },
+        "selected_frame_perf": {
+          "cycles": 1807,
+          "commits": 786,
+          "state_misses": 534,
+          "read_stall": 89,
+          "output_stall": 0,
+          "state_reads": 534,
+          "state_writes": 786
+        },
+        "window_count": 14,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 4,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 9,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 14,
+          "skip": 0
+        },
+        "frame_sha256": "AA3BAFEC09F3F0DB685CD41619180A7E98546EFDE43BC032CC0936E4C5B0965D",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1807,
+      "selected_fixed_cycles": 1803,
+      "auto_runtime_overhead_cycles": 4,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.33389,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "drjohnson_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\drjohnson_cammid_n32_d64",
+      "scene": "drjohnson",
+      "camera_index": 131,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1701,
+            "commits": 661,
+            "state_misses": 596,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 596,
+            "state_writes": 661
+          },
+          "frame_sha256": "D67B1F8DD048A889F14E7CCCCF8BE669F2EFF35483184480496FE9E05FCB2684",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1707,
+            "commits": 661,
+            "state_misses": 596,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 596,
+            "state_writes": 661
+          },
+          "frame_sha256": "D67B1F8DD048A889F14E7CCCCF8BE669F2EFF35483184480496FE9E05FCB2684",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1707,
+            "commits": 661,
+            "state_misses": 596,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 596,
+            "state_writes": 661
+          },
+          "frame_sha256": "D67B1F8DD048A889F14E7CCCCF8BE669F2EFF35483184480496FE9E05FCB2684",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1735,
+            "commits": 661,
+            "state_misses": 596,
+            "read_stall": 57,
+            "output_stall": 0,
+            "state_reads": 596,
+            "state_writes": 661
+          },
+          "frame_sha256": "D67B1F8DD048A889F14E7CCCCF8BE669F2EFF35483184480496FE9E05FCB2684",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\drjohnson_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "D67B1F8DD048A889F14E7CCCCF8BE669F2EFF35483184480496FE9E05FCB2684",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1701,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:23.904713+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\drjohnson_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1735,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 6,
+          "total_windows": 13,
+          "selected_mode": 2,
+          "selected_cycles": 1709,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 26,
+          "cycle_reduction_percent": 1.498559
+        },
+        "selected_frame_perf": {
+          "cycles": 1709,
+          "commits": 661,
+          "state_misses": 596,
+          "read_stall": 54,
+          "output_stall": 0,
+          "state_reads": 596,
+          "state_writes": 661
+        },
+        "window_count": 13,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 8,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 15,
+          "skip": 0
+        },
+        "frame_sha256": "4CF0DC308B0406177B42FAE59FEB4CD941C88E3D95C819A002A124F1D9F23DC0",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1709,
+      "selected_fixed_cycles": 1707,
+      "auto_runtime_overhead_cycles": 2,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.352734,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "flowers_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\flowers_cammid_n32_d64",
+      "scene": "flowers",
+      "camera_index": 86,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1586,
+            "commits": 643,
+            "state_misses": 524,
+            "read_stall": 60,
+            "output_stall": 0,
+            "state_reads": 524,
+            "state_writes": 643
+          },
+          "frame_sha256": "6B00F910428552B68B8E30CAD6C08F81BEFA71D52FD3A408445D42D32C8008E5",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1592,
+            "commits": 643,
+            "state_misses": 524,
+            "read_stall": 60,
+            "output_stall": 0,
+            "state_reads": 524,
+            "state_writes": 643
+          },
+          "frame_sha256": "6B00F910428552B68B8E30CAD6C08F81BEFA71D52FD3A408445D42D32C8008E5",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1592,
+            "commits": 643,
+            "state_misses": 524,
+            "read_stall": 60,
+            "output_stall": 0,
+            "state_reads": 524,
+            "state_writes": 643
+          },
+          "frame_sha256": "6B00F910428552B68B8E30CAD6C08F81BEFA71D52FD3A408445D42D32C8008E5",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1618,
+            "commits": 643,
+            "state_misses": 524,
+            "read_stall": 60,
+            "output_stall": 0,
+            "state_reads": 524,
+            "state_writes": 643
+          },
+          "frame_sha256": "6B00F910428552B68B8E30CAD6C08F81BEFA71D52FD3A408445D42D32C8008E5",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\flowers_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "6B00F910428552B68B8E30CAD6C08F81BEFA71D52FD3A408445D42D32C8008E5",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1586,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:24.976735+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\flowers_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1618,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 6,
+          "total_windows": 12,
+          "selected_mode": 2,
+          "selected_cycles": 1583,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 35,
+          "cycle_reduction_percent": 2.163164
+        },
+        "selected_frame_perf": {
+          "cycles": 1583,
+          "commits": 643,
+          "state_misses": 524,
+          "read_stall": 59,
+          "output_stall": 0,
+          "state_reads": 524,
+          "state_writes": 643
+        },
+        "window_count": 12,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 4,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 7,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 14,
+          "skip": 0
+        },
+        "frame_sha256": "DD8760B3B1FC17BFB13C4AE769AB63F2064296F908E8FECBEAFD3B25C99794EB",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1583,
+      "selected_fixed_cycles": 1592,
+      "auto_runtime_overhead_cycles": -9,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.37831,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "garden_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\garden_cammid_n32_d64",
+      "scene": "garden",
+      "camera_index": 92,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1239,
+            "commits": 450,
+            "state_misses": 388,
+            "read_stall": 26,
+            "output_stall": 0,
+            "state_reads": 388,
+            "state_writes": 450
+          },
+          "frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1245,
+            "commits": 450,
+            "state_misses": 388,
+            "read_stall": 26,
+            "output_stall": 0,
+            "state_reads": 388,
+            "state_writes": 450
+          },
+          "frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1245,
+            "commits": 450,
+            "state_misses": 388,
+            "read_stall": 26,
+            "output_stall": 0,
+            "state_reads": 388,
+            "state_writes": 450
+          },
+          "frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1278,
+            "commits": 450,
+            "state_misses": 388,
+            "read_stall": 30,
+            "output_stall": 0,
+            "state_reads": 388,
+            "state_writes": 450
+          },
+          "frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\garden_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1239,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:25.856676+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\garden_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1278,
+          "recommendation_valid": 0,
+          "recommended_mode": 0,
+          "window_winner": 2,
+          "observe_windows": 4,
+          "total_windows": 9,
+          "selected_mode": 3,
+          "selected_cycles": 1285,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": -7,
+          "cycle_reduction_percent": -0.547731
+        },
+        "selected_frame_perf": {
+          "cycles": 1285,
+          "commits": 450,
+          "state_misses": 388,
+          "read_stall": 43,
+          "output_stall": 0,
+          "state_reads": 388,
+          "state_writes": 450
+        },
+        "window_count": 9,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 1,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 2,
+            "3": 0
+          },
+          "all": {
+            "0": 6,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          }
+        },
+        "first_queued_window": null,
+        "frame_sha256": "66483DC51F3A673F1B62874EE8354E3E74E75B5C5EB0569C6B638947555B960A",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": null,
+      "auto_selected_mode": "E",
+      "auto_selected_runtime_cycles": 1285,
+      "selected_fixed_cycles": 1278,
+      "auto_runtime_overhead_cycles": 7,
+      "auto_gap_cycles": 39,
+      "auto_gap_percent": 3.1477,
+      "auto_matches_best": false,
+      "auto_within_one_percent": false,
+      "first_queued_window": null
+    },
+    {
+      "workload": "kitchen_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\kitchen_cammid_n32_d64",
+      "scene": "kitchen",
+      "camera_index": 139,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1792,
+            "commits": 782,
+            "state_misses": 571,
+            "read_stall": 57,
+            "output_stall": 0,
+            "state_reads": 571,
+            "state_writes": 782
+          },
+          "frame_sha256": "DC716FAFD060747F7E0838044070A11F4DC7704356F63B163923E23B6D581CA0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1798,
+            "commits": 782,
+            "state_misses": 571,
+            "read_stall": 57,
+            "output_stall": 0,
+            "state_reads": 571,
+            "state_writes": 782
+          },
+          "frame_sha256": "DC716FAFD060747F7E0838044070A11F4DC7704356F63B163923E23B6D581CA0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1797,
+            "commits": 782,
+            "state_misses": 571,
+            "read_stall": 57,
+            "output_stall": 0,
+            "state_reads": 571,
+            "state_writes": 782
+          },
+          "frame_sha256": "DC716FAFD060747F7E0838044070A11F4DC7704356F63B163923E23B6D581CA0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1820,
+            "commits": 782,
+            "state_misses": 571,
+            "read_stall": 57,
+            "output_stall": 0,
+            "state_reads": 571,
+            "state_writes": 782
+          },
+          "frame_sha256": "DC716FAFD060747F7E0838044070A11F4DC7704356F63B163923E23B6D581CA0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\kitchen_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "DC716FAFD060747F7E0838044070A11F4DC7704356F63B163923E23B6D581CA0",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1792,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:26.961637+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\kitchen_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1820,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 7,
+          "total_windows": 14,
+          "selected_mode": 2,
+          "selected_cycles": 1788,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 32,
+          "cycle_reduction_percent": 1.758242
+        },
+        "selected_frame_perf": {
+          "cycles": 1788,
+          "commits": 782,
+          "state_misses": 571,
+          "read_stall": 48,
+          "output_stall": 0,
+          "state_reads": 571,
+          "state_writes": 782
+        },
+        "window_count": 14,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 4,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 9,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 13,
+          "skip": 0
+        },
+        "frame_sha256": "491FE9A27D0EEF9CFE78E5F762D154A9176C7A1B737B6E628AC2C19210484B48",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1788,
+      "selected_fixed_cycles": 1797,
+      "auto_runtime_overhead_cycles": -9,
+      "auto_gap_cycles": 5,
+      "auto_gap_percent": 0.279018,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "playroom_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\playroom_cammid_n32_d64",
+      "scene": "playroom",
+      "camera_index": 112,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1644,
+            "commits": 628,
+            "state_misses": 537,
+            "read_stall": 56,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 628
+          },
+          "frame_sha256": "713323AA74582A2EAB9C9A98C03613802BDAA6D41400E6C08154F534E8536F4F",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1650,
+            "commits": 628,
+            "state_misses": 537,
+            "read_stall": 56,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 628
+          },
+          "frame_sha256": "713323AA74582A2EAB9C9A98C03613802BDAA6D41400E6C08154F534E8536F4F",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1650,
+            "commits": 628,
+            "state_misses": 537,
+            "read_stall": 56,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 628
+          },
+          "frame_sha256": "713323AA74582A2EAB9C9A98C03613802BDAA6D41400E6C08154F534E8536F4F",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1679,
+            "commits": 628,
+            "state_misses": 537,
+            "read_stall": 56,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 628
+          },
+          "frame_sha256": "713323AA74582A2EAB9C9A98C03613802BDAA6D41400E6C08154F534E8536F4F",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\playroom_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "713323AA74582A2EAB9C9A98C03613802BDAA6D41400E6C08154F534E8536F4F",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1644,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:27.990820+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\playroom_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1679,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 6,
+          "total_windows": 12,
+          "selected_mode": 2,
+          "selected_cycles": 1650,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 29,
+          "cycle_reduction_percent": 1.727219
+        },
+        "selected_frame_perf": {
+          "cycles": 1650,
+          "commits": 628,
+          "state_misses": 537,
+          "read_stall": 56,
+          "output_stall": 0,
+          "state_reads": 537,
+          "state_writes": 628
+        },
+        "window_count": 12,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 4,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 7,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 11,
+          "skip": 0
+        },
+        "frame_sha256": "63EDC7469E0D1457A096432AD817A87E3E1E08F9C7509D48CB96EC0E2B089B4F",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1650,
+      "selected_fixed_cycles": 1650,
+      "auto_runtime_overhead_cycles": 0,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.364964,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "room_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\room_cammid_n32_d64",
+      "scene": "room",
+      "camera_index": 155,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1685,
+            "commits": 654,
+            "state_misses": 568,
+            "read_stall": 49,
+            "output_stall": 0,
+            "state_reads": 568,
+            "state_writes": 654
+          },
+          "frame_sha256": "57568483C6B23CB65B2A6190415C4CFA32E8BC70C5DDF04344850B3CC09A4164",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1691,
+            "commits": 654,
+            "state_misses": 568,
+            "read_stall": 49,
+            "output_stall": 0,
+            "state_reads": 568,
+            "state_writes": 654
+          },
+          "frame_sha256": "57568483C6B23CB65B2A6190415C4CFA32E8BC70C5DDF04344850B3CC09A4164",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1691,
+            "commits": 654,
+            "state_misses": 568,
+            "read_stall": 49,
+            "output_stall": 0,
+            "state_reads": 568,
+            "state_writes": 654
+          },
+          "frame_sha256": "57568483C6B23CB65B2A6190415C4CFA32E8BC70C5DDF04344850B3CC09A4164",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1753,
+            "commits": 654,
+            "state_misses": 568,
+            "read_stall": 54,
+            "output_stall": 0,
+            "state_reads": 568,
+            "state_writes": 654
+          },
+          "frame_sha256": "57568483C6B23CB65B2A6190415C4CFA32E8BC70C5DDF04344850B3CC09A4164",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\room_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "57568483C6B23CB65B2A6190415C4CFA32E8BC70C5DDF04344850B3CC09A4164",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1685,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:29.093825+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\room_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1753,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 6,
+          "total_windows": 13,
+          "selected_mode": 2,
+          "selected_cycles": 1691,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 62,
+          "cycle_reduction_percent": 3.536794
+        },
+        "selected_frame_perf": {
+          "cycles": 1691,
+          "commits": 654,
+          "state_misses": 568,
+          "read_stall": 59,
+          "output_stall": 0,
+          "state_reads": 568,
+          "state_writes": 654
+        },
+        "window_count": 13,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 8,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 8,
+          "skip": 0
+        },
+        "frame_sha256": "2DF05E493B09582E4703878EA7974DCD4C5B5F2BBCF1B34DE879394D431CB5DE",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1691,
+      "selected_fixed_cycles": 1691,
+      "auto_runtime_overhead_cycles": 0,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.356083,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "stump_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\stump_cammid_n32_d64",
+      "scene": "stump",
+      "camera_index": 62,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1360,
+            "commits": 472,
+            "state_misses": 442,
+            "read_stall": 22,
+            "output_stall": 0,
+            "state_reads": 442,
+            "state_writes": 472
+          },
+          "frame_sha256": "A77763480A98AECB9192F07585D8B22ED313F57B3FC476FEA4CA61B6F68368C0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1366,
+            "commits": 472,
+            "state_misses": 442,
+            "read_stall": 22,
+            "output_stall": 0,
+            "state_reads": 442,
+            "state_writes": 472
+          },
+          "frame_sha256": "A77763480A98AECB9192F07585D8B22ED313F57B3FC476FEA4CA61B6F68368C0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1366,
+            "commits": 472,
+            "state_misses": 442,
+            "read_stall": 22,
+            "output_stall": 0,
+            "state_reads": 442,
+            "state_writes": 472
+          },
+          "frame_sha256": "A77763480A98AECB9192F07585D8B22ED313F57B3FC476FEA4CA61B6F68368C0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1396,
+            "commits": 472,
+            "state_misses": 442,
+            "read_stall": 22,
+            "output_stall": 0,
+            "state_reads": 442,
+            "state_writes": 472
+          },
+          "frame_sha256": "A77763480A98AECB9192F07585D8B22ED313F57B3FC476FEA4CA61B6F68368C0",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\stump_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "A77763480A98AECB9192F07585D8B22ED313F57B3FC476FEA4CA61B6F68368C0",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1360,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:30.008037+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\stump_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1396,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 5,
+          "total_windows": 10,
+          "selected_mode": 2,
+          "selected_cycles": 1366,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 30,
+          "cycle_reduction_percent": 2.148997
+        },
+        "selected_frame_perf": {
+          "cycles": 1366,
+          "commits": 472,
+          "state_misses": 442,
+          "read_stall": 22,
+          "output_stall": 0,
+          "state_reads": 442,
+          "state_writes": 472
+        },
+        "window_count": 10,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 2,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          }
+        },
+        "first_queued_window": null,
+        "frame_sha256": "F2BF7DFE45E3416542CCEDF9351BED00C59BF5A8EE6C2789414E9358E8102408",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1366,
+      "selected_fixed_cycles": 1366,
+      "auto_runtime_overhead_cycles": 0,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.441176,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": null
+    },
+    {
+      "workload": "train_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\train_cammid_n32_d64",
+      "scene": "train",
+      "camera_index": 150,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1804,
+            "commits": 795,
+            "state_misses": 537,
+            "read_stall": 77,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 795
+          },
+          "frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1810,
+            "commits": 795,
+            "state_misses": 537,
+            "read_stall": 77,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 795
+          },
+          "frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1810,
+            "commits": 795,
+            "state_misses": 537,
+            "read_stall": 77,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 795
+          },
+          "frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1833,
+            "commits": 795,
+            "state_misses": 537,
+            "read_stall": 77,
+            "output_stall": 0,
+            "state_reads": 537,
+            "state_writes": 795
+          },
+          "frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\train_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1804,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:31.127802+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\train_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1833,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 7,
+          "total_windows": 14,
+          "selected_mode": 2,
+          "selected_cycles": 1807,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 26,
+          "cycle_reduction_percent": 1.41844
+        },
+        "selected_frame_perf": {
+          "cycles": 1807,
+          "commits": 795,
+          "state_misses": 537,
+          "read_stall": 79,
+          "output_stall": 0,
+          "state_reads": 537,
+          "state_writes": 795
+        },
+        "window_count": 14,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 4,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 9,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 9,
+          "skip": 0
+        },
+        "frame_sha256": "625C54F7FCB8DBAD46A65D8EDD0EA0CD0C23D42C46E0B251BB10B63226AB07C6",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1807,
+      "selected_fixed_cycles": 1810,
+      "auto_runtime_overhead_cycles": -3,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.332594,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "treehill_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\treehill_cammid_n32_d64",
+      "scene": "treehill",
+      "camera_index": 70,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1676,
+            "commits": 734,
+            "state_misses": 502,
+            "read_stall": 60,
+            "output_stall": 0,
+            "state_reads": 502,
+            "state_writes": 734
+          },
+          "frame_sha256": "30A71DC0283D428CC44D9F187F071791EE7E683EE88ED772FAA5270D7194DB6E",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1682,
+            "commits": 734,
+            "state_misses": 502,
+            "read_stall": 60,
+            "output_stall": 0,
+            "state_reads": 502,
+            "state_writes": 734
+          },
+          "frame_sha256": "30A71DC0283D428CC44D9F187F071791EE7E683EE88ED772FAA5270D7194DB6E",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1682,
+            "commits": 734,
+            "state_misses": 502,
+            "read_stall": 60,
+            "output_stall": 0,
+            "state_reads": 502,
+            "state_writes": 734
+          },
+          "frame_sha256": "30A71DC0283D428CC44D9F187F071791EE7E683EE88ED772FAA5270D7194DB6E",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1716,
+            "commits": 734,
+            "state_misses": 502,
+            "read_stall": 66,
+            "output_stall": 0,
+            "state_reads": 502,
+            "state_writes": 734
+          },
+          "frame_sha256": "30A71DC0283D428CC44D9F187F071791EE7E683EE88ED772FAA5270D7194DB6E",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\treehill_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "30A71DC0283D428CC44D9F187F071791EE7E683EE88ED772FAA5270D7194DB6E",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1676,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:32.169565+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\treehill_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1716,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 6,
+          "total_windows": 13,
+          "selected_mode": 2,
+          "selected_cycles": 1689,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 27,
+          "cycle_reduction_percent": 1.573427
+        },
+        "selected_frame_perf": {
+          "cycles": 1689,
+          "commits": 734,
+          "state_misses": 502,
+          "read_stall": 65,
+          "output_stall": 0,
+          "state_reads": 502,
+          "state_writes": 734
+        },
+        "window_count": 13,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 1,
+            "1": 0,
+            "2": 6,
+            "3": 0
+          },
+          "all": {
+            "0": 4,
+            "1": 0,
+            "2": 9,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 13,
+          "skip": 0
+        },
+        "frame_sha256": "0BC0B922B597905E51E5D32447614C4DB28354B892331A2026AD1707D040381F",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1689,
+      "selected_fixed_cycles": 1682,
+      "auto_runtime_overhead_cycles": 7,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.357995,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    },
+    {
+      "workload": "truck_cammid_n32_d64",
+      "path": "D:\\3DGS\\experiments\\rtl_workloads\\truck_cammid_n32_d64",
+      "scene": "truck",
+      "camera_index": 125,
+      "gaussian_count": 32,
+      "fixed_modes": {
+        "G": {
+          "mode": 0,
+          "mode_name": "G",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1739,
+            "commits": 751,
+            "state_misses": 518,
+            "read_stall": 75,
+            "output_stall": 0,
+            "state_reads": 518,
+            "state_writes": 751
+          },
+          "frame_sha256": "9DAE644581D7158A480F896C1D21CA4113012C1A51FC9BEAB8B7335628F094C7",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_G.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_G_frame_state.memh"
+        },
+        "P": {
+          "mode": 1,
+          "mode_name": "P",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1745,
+            "commits": 751,
+            "state_misses": 518,
+            "read_stall": 75,
+            "output_stall": 0,
+            "state_reads": 518,
+            "state_writes": 751
+          },
+          "frame_sha256": "9DAE644581D7158A480F896C1D21CA4113012C1A51FC9BEAB8B7335628F094C7",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_P.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_P_frame_state.memh"
+        },
+        "R": {
+          "mode": 2,
+          "mode_name": "R",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1745,
+            "commits": 751,
+            "state_misses": 518,
+            "read_stall": 75,
+            "output_stall": 0,
+            "state_reads": 518,
+            "state_writes": 751
+          },
+          "frame_sha256": "9DAE644581D7158A480F896C1D21CA4113012C1A51FC9BEAB8B7335628F094C7",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_R.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_R_frame_state.memh"
+        },
+        "E": {
+          "mode": 3,
+          "mode_name": "E",
+          "attribute_layout": "dense_frame_local_gid",
+          "perf": {
+            "cycles": 1761,
+            "commits": 751,
+            "state_misses": 518,
+            "read_stall": 71,
+            "output_stall": 0,
+            "state_reads": 518,
+            "state_writes": 751
+          },
+          "frame_sha256": "9DAE644581D7158A480F896C1D21CA4113012C1A51FC9BEAB8B7335628F094C7",
+          "log": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_E.log",
+          "frame": "D:\\3DGS\\experiments\\real_mode_calibration\\validation_20260911_13scenes_n32\\truck_cammid_n32_d64\\fixed_E_frame_state.memh"
+        }
+      },
+      "fixed_hash_equal": true,
+      "fixed_frame_sha256": "9DAE644581D7158A480F896C1D21CA4113012C1A51FC9BEAB8B7335628F094C7",
+      "best_fixed_mode": "G",
+      "best_fixed_cycles": 1739,
+      "auto": {
+        "report_version": 2,
+        "generated_at": "2026-09-11T22:49:33.305958+08:00",
+        "batch": "D:\\3DGS\\experiments\\rtl_workloads\\truck_cammid_n32_d64",
+        "attribute_layout": "dense_frame_local_gid",
+        "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+        "initial_mode": 3,
+        "auto": {
+          "observe_mode": 3,
+          "observe_cycles": 1761,
+          "recommendation_valid": 1,
+          "recommended_mode": 2,
+          "window_winner": 2,
+          "observe_windows": 6,
+          "total_windows": 13,
+          "selected_mode": 2,
+          "selected_cycles": 1751,
+          "image_mismatches": 0
+        },
+        "mode_names": {
+          "0": "G",
+          "1": "P",
+          "2": "R",
+          "3": "E"
+        },
+        "selected_vs_observe": {
+          "cycle_savings": 10,
+          "cycle_reduction_percent": 0.567859
+        },
+        "selected_frame_perf": {
+          "cycles": 1751,
+          "commits": 751,
+          "state_misses": 518,
+          "read_stall": 84,
+          "output_stall": 0,
+          "state_reads": 518,
+          "state_writes": 751
+        },
+        "window_count": 13,
+        "winner_histogram": {
+          "observe_frame": {
+            "0": 3,
+            "1": 0,
+            "2": 3,
+            "3": 0
+          },
+          "selected_frame": {
+            "0": 2,
+            "1": 0,
+            "2": 5,
+            "3": 0
+          },
+          "all": {
+            "0": 5,
+            "1": 0,
+            "2": 8,
+            "3": 0
+          }
+        },
+        "first_queued_window": {
+          "index": 6,
+          "active": 3,
+          "winner": 2,
+          "queued_valid": 1,
+          "queued_mode": 2,
+          "group": 0,
+          "sort": 0,
+          "projection": 256,
+          "raster": 256,
+          "block": 13,
+          "skip": 0
+        },
+        "frame_sha256": "CB537C755814830B16E40583A239335EB2264CA5F00204E760FEAB62A850DA12",
+        "result": "PASS",
+        "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+      },
+      "auto_recommended_mode": "R",
+      "auto_selected_mode": "R",
+      "auto_selected_runtime_cycles": 1751,
+      "selected_fixed_cycles": 1745,
+      "auto_runtime_overhead_cycles": 6,
+      "auto_gap_cycles": 6,
+      "auto_gap_percent": 0.345026,
+      "auto_matches_best": false,
+      "auto_within_one_percent": true,
+      "first_queued_window": 6
+    }
+  ],
+  "aggregate": {
+    "workload_count": 13,
+    "best_fixed_mode_histogram": {
+      "G": 13,
+      "P": 0,
+      "R": 0,
+      "E": 0
+    },
+    "auto_recommendation_histogram": {
+      "G": 0,
+      "P": 0,
+      "R": 12,
+      "E": 0
+    },
+    "no_recommendation_count": 1,
+    "auto_matches_best_count": 0,
+    "auto_within_one_percent_count": 12,
+    "mean_auto_gap_percent": 0.573828,
+    "max_auto_gap_percent": 3.1477,
+    "all_fixed_frame_hashes_equal_per_workload": true,
+    "all_auto_rgb_t_equal": true
+  },
+  "result": "PASS",
+  "interpretation": "Each workload is rendered in fixed G/P/R/E modes and in a two-frame automatic probe. Fixed-mode frame states must be byte-identical; automatic RGB/T equality is checked inside RTL."
+}

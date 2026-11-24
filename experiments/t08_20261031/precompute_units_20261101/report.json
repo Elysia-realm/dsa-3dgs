@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "vectors": 2048,
+  "legal_normalized_vectors": 1536,
+  "arbitrary_bitpattern_vectors": 512,
+  "overflow_vectors": 155,
+  "signed_off": false,
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51E3DDCC0F2187942FC27B77905E33979ACC95DC012DC30A3ED7F2B0B0D65F9D",
+    "rtl/projection/quaternion_scale_covariance_core.sv": "9B74478E80A556B75F7F6B91EE724F306BD74B3DB39C2374ECD50A3B1E1AE24C",
+    "verification/rtl/tb_t08_covariance_precompute.sv": "6A796490208D23D99FCE7E9E2B65DF656A99D77122F3B2519165D0F0D8FA252B",
+    "model/io/t08_precompute.py": "351F7A6874A73042D065E32893D229FE8CDBD135DA299FA7D3F19A3A5B47293B",
+    "scripts/check_t08_precompute.py": "211F4A822428C2C4892D75BDE4631034AEBE2316E4B6D79811304E8314B862E0"
+  },
+  "input_sha256": "914EB2ADD6F24578737A7804A06B8E55575841802687419AACDCCA9FC3191677",
+  "expected_sha256": "4910C3F2B25E1D5FC90E81FAE3D99172FAAF2637F0E688AF1895A047236F6112",
+  "binary_sha256": "7616345654C9638D82CBA3EDFE39BCD24B360CE882B7545DD3649772D030AC0F",
+  "scope": "Existing world covariance Q20.20 offline arithmetic parity, identities, tags and output backpressure; not integrated compressed rendering"
+}

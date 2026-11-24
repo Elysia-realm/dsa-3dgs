@@ -1,0 +1,8 @@
+[
+  "/home/gs3d/work/t08_20261031/state_lines_timed_20261123/simulation",
+  "+CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+  "+STATS=/mnt/d/3DGS/experiments/t08_20261031/state_lines_timed_20261123/truck/w3/model.stats",
+  "+DECK=/mnt/d/3DGS/experiments/t08_20261031/state_lines_20261123/truck/w3/stimulus.txt",
+  "+TRACE=/mnt/d/3DGS/experiments/t08_20261031/state_lines_timed_20261123/truck/w3/buffer.trace",
+  "+SCHEDULE=/mnt/d/3DGS/experiments/t08_20261031/state_lines_timed_20261123/truck/w3/schedule.txt"
+]

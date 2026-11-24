@@ -1,0 +1,71 @@
+{
+  "format_version": 1,
+  "source": "local D:/3DGS/data only; no network upload",
+  "scene": "train",
+  "camera_index": 150,
+  "original_gaussian_indices": [
+    40106,
+    275546,
+    312151,
+    445729,
+    544521,
+    715556,
+    836956,
+    954404
+  ],
+  "gaussian_count": 8,
+  "width": 32,
+  "height": 18,
+  "mean_record_bytes": 16,
+  "attribute_record_bytes": 144,
+  "gaussian_base": 4096,
+  "attribute_base": 16384,
+  "output_base": 1048576,
+  "fixed_formats": {
+    "mean": "signed Q10.16 / 27-bit",
+    "quaternion": "signed Q2.20 / 22-bit",
+    "scale": "unsigned Q4.20 / 24-bit",
+    "opacity_rgb": "Q1.12 / 13-bit",
+    "sh": "signed Q5.12 / 18-bit channel-major"
+  },
+  "camera_fixed": {
+    "rotation_q20": [
+      -764838,
+      -23913,
+      -716912,
+      59385,
+      1042285,
+      -98121,
+      714848,
+      -112172,
+      -758895
+    ],
+    "translation_q16": [
+      164827,
+      -7046,
+      221751
+    ],
+    "position_q16": [
+      -30549,
+      34485,
+      272523
+    ],
+    "fx_fy_cx_cy_q16": [
+      1241364,
+      1246794,
+      1015808,
+      557056
+    ],
+    "near_far_q16": [
+      13107,
+      65536000
+    ],
+    "regularizer_q8": 77
+  },
+  "depth_pivots_q16": [
+    255654,
+    262080,
+    303061
+  ],
+  "selection": "deterministic scene-wide priority sample of visible fixed-point-representable trained Gaussians; frame-local GID remap"
+}

@@ -1,0 +1,27 @@
+{
+  "pdk": "nangate45",
+  "dual_precision": 1,
+  "area_mm2": 0.016105502,
+  "cells": 10838,
+  "setup_ns": 0.64,
+  "min_ns": -0.27,
+  "mapping": {
+    "exit_code": 0,
+    "wall_seconds": 6.432369056999988,
+    "log_sha256": "4DE5C47414B367F6701960A563A97378B123C012E05D32B708CAFEAD6B3D966D"
+  },
+  "sta": {
+    "exit_code": 0,
+    "wall_seconds": 1.3652400009999894,
+    "log_sha256": "1ED0F432EAD917BC4E8CF0C1134FC79122ACEC311E8953DDBAA9C419555A37EB"
+  },
+  "hashes": {
+    "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/nangate45/1/mapped.v": "EA4993EE0E09DB39B872B06DC2A9AC9AF5E1B287EEBAA078DBA368BEDC55DD61",
+    "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/nangate45/1/mapped.sta.v": "FA32AFBFD2DD4BD6AEEAD794DACCC5D1131A7D3CC58720A1259E72EFF0B79D16",
+    "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib": "2EFD0B32EB580E4E60E72FC0575BB3BC69AAC907C91D908442E4AE6D7FE55895",
+    "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys": "7C3E3396B38C129DD7485BE5A0A0F0DA8E495A94C8FD486059E3BEA043A588D6",
+    "/home/gs3d/eda/opt/opensta/bin/sta": "F27C74B173F0454B0014B552DB4E95E6EF4B5DEBBD5C452F42A51EC56FC2A05B",
+    "/mnt/d/3DGS/asic/scripts/run_t01_wsl_sta.tcl": "BF610F042834898AD7855A0088EC480867BAB0B13608CA6139E060776DC55B96",
+    "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/nangate45/1/applied.sdc": "496346F9A0EFCBD137051E066A4C7DB1415689B6EBE79C2E8CF701C0665F0603"
+  }
+}

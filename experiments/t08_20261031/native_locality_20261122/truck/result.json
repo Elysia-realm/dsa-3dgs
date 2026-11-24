@@ -1,0 +1,45 @@
+{
+  "status": "CAPTURED_TWO_WINDOWS",
+  "scene": "truck",
+  "windows": [
+    {
+      "window": 0,
+      "start_requests": 4096,
+      "end_requests": 8527,
+      "cycles": 1289667,
+      "state_updates": 65536,
+      "fills": 65537,
+      "queries": 65539,
+      "hits": 0,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 61441,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 65536,
+      "modeled_write_reduction_percent": 0.0
+    },
+    {
+      "window": 1,
+      "start_requests": 65536,
+      "end_requests": 66597,
+      "cycles": 439591,
+      "state_updates": 65536,
+      "fills": 65537,
+      "queries": 65539,
+      "hits": 0,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 61441,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 65536,
+      "modeled_write_reduction_percent": 0.0
+    }
+  ],
+  "trace_sha256": "9CD0DEDDFC674C79587C89F68FCFB123534FB351BF2B9147963ACD01AC9D8521",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 1140.2350425690001,
+    "log_sha256": "A3FA81D016B753B93FB2C3B8C798F9E61C226CC90157A912B4C8954222FC39FE"
+  },
+  "launch_sha256": "007A63249201C2AD9FCEBBFA713F36F297DB819ED71063A00DB5093F04759F40",
+  "complete_frame": false,
+  "signed_off": false
+}

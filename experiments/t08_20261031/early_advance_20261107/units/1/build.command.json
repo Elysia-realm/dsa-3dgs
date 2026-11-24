@@ -1,0 +1,20 @@
+[
+  "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+  "--binary",
+  "--build",
+  "-j",
+  "2",
+  "--timing",
+  "--assert",
+  "-Wno-fatal",
+  "--top-module",
+  "tb_t08_attribute_dma",
+  "-GEARLY=1",
+  "--Mdir",
+  "/home/gs3d/work/t08_20261031/early_advance_20261107/units/1",
+  "-o",
+  "simulation",
+  "rtl/dma/t08_attribute_decoder.sv",
+  "rtl/dma/axi4_t08_attribute_read_engine.sv",
+  "/mnt/d/3DGS/experiments/t08_20261031/early_advance_20261107/units/tb_t08_attribute_dma.sv"
+]

@@ -1,0 +1,1 @@
+{"status":"REJECTED_REGISTER_EXPANSION","reason":"Yosys replaced saved_counts/mins/maxs with registers under resettable process; stopped owned PIDs 24804/26960 after functional matrix completed. Preserve logs and source_snapshot. Refactor to a non-resettable single-read/single-write descriptor-row memory; not a PPA pass."}

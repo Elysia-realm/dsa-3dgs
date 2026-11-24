@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "k": 8,
+      "pipeline": 0,
+      "groups": 660,
+      "outputs": 3242,
+      "status": "PASS"
+    },
+    {
+      "k": 8,
+      "pipeline": 1,
+      "groups": 660,
+      "outputs": 3242,
+      "status": "PASS"
+    },
+    {
+      "k": 16,
+      "pipeline": 0,
+      "groups": 660,
+      "outputs": 6572,
+      "status": "PASS"
+    },
+    {
+      "k": 16,
+      "pipeline": 1,
+      "groups": 660,
+      "outputs": 6572,
+      "status": "PASS"
+    }
+  ]
+}

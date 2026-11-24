@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/simulation",
+    "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/counter/mean.memh",
+    "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_full128_20261122/inputs/counter/v2.memh",
+    "+CAMERA=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/counter/camera.memh",
+    "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/full128/counter/state.memh",
+    "+RGB=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/full128/counter/rgb.memh",
+    "+FRAME_MODE=0",
+    "+READ_LATENCY=0",
+    "+READ_GAP=0",
+    "+READY_PERIOD=1",
+    "+READY_LOW=0",
+    "+WRITE_RESPONSE_LATENCY=2",
+    "+MAX_TIMEOUT=2000000000",
+    "+AUTO_QSU",
+    "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/full128/counter/sorted.txt",
+    "+ATTR_FORMAT=2",
+    "+MUTATE_FORMAT",
+    "+LABEL=counter_camera120",
+    "+LPDDR_TIMED",
+    "+MODEL_CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+    "+MODEL_STATS=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/full128/counter/model.stats"
+  ],
+  "elf_sha256": "EA77884184909E356D95B01161FDA820A959B3B14D05612BAE9B29B8F73D6046",
+  "inputs": {
+    "MEAN": "01798E6CA573789C0658EB980F2AB132BCA5E89C8D9E3D3DC30D51AC242D0914",
+    "ATTR": "EE863C91AFB8E9E4A7A9CD76E06B814FB2E27DA0E706F9FB002F4FCF05622EBB",
+    "CAMERA": "16F1DDB6C8236206070FD29875B8B62EF2136A5AD60413F021FC5AB3DB3B01C7"
+  },
+  "ref_sha256": "2E4C7F9AE6EBD146BB54E9A26C879D36B4C641842395B3F4EB7BDFA38D21B5E3"
+}

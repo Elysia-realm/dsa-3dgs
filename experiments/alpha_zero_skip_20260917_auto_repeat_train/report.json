@@ -1,0 +1,56 @@
+{
+  "source_current": true,
+  "functional_pass": true,
+  "ppa_signed_off": false,
+  "matrix_report": "experiments/alpha_zero_skip_20260917_n32_13scene/report.json",
+  "workload": "experiments/rtl_workloads/train_cammid_n32_d64",
+  "selected_saved_cycles": 632,
+  "rows": [
+    {
+      "variant": "shared_projection",
+      "binary_sha256": "E3FB5A9BBBFB53ADB763EF4A58DF903275F88F743BA18251F02A68D1C449C878",
+      "auto": {
+        "observe_mode": 3,
+        "observe_cycles": 1934,
+        "recommendation_valid": 1,
+        "recommended_mode": 2,
+        "window_winner": 2,
+        "observe_windows": 7,
+        "total_windows": 15,
+        "selected_mode": 2,
+        "selected_cycles": 1921,
+        "image_mismatches": 0
+      },
+      "alpha_skip": {
+        "enabled": 0,
+        "skipped": 0
+      },
+      "epoch": 2,
+      "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+      "raw_frame_sha256": "625C54F7FCB8DBAD46A65D8EDD0EA0CD0C23D42C46E0B251BB10B63226AB07C6"
+    },
+    {
+      "variant": "alpha_zero_skip",
+      "binary_sha256": "3F6EB5120EEECD4A585FA71E19C8A43B88537EDF711AFA082A1B06EF9D7BC634",
+      "auto": {
+        "observe_mode": 3,
+        "observe_cycles": 1344,
+        "recommendation_valid": 1,
+        "recommended_mode": 2,
+        "window_winner": 2,
+        "observe_windows": 5,
+        "total_windows": 10,
+        "selected_mode": 2,
+        "selected_cycles": 1289,
+        "image_mismatches": 0
+      },
+      "alpha_skip": {
+        "enabled": 1,
+        "skipped": 1122
+      },
+      "epoch": 2,
+      "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+      "raw_frame_sha256": "9B1D0FD4D564FC53CD47DA1DBDF8C38A642F3956198B13E8647EBA90B271D667"
+    }
+  ]
+}

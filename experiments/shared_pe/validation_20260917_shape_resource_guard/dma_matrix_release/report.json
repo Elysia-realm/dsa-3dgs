@@ -1,0 +1,5393 @@
+{
+  "report_version": 1,
+  "generated_at": "2026-09-17T00:17:27.940630+08:00",
+  "defines": {
+    "TB_MAX_COUNT": 64,
+    "TB_MAX_PIXELS": 4096,
+    "TB_STATE_ENTRIES": 512,
+    "TB_STATE_WINDOW_ENTRIES": 4,
+    "TB_STATE_MSHR_COUNT": 4,
+    "TB_RESPONSE_BLEND_BYPASS": 1,
+    "TB_BLEND_COMMIT_BYPASS": 1,
+    "TB_OPERAND_ISOLATION": 1,
+    "TB_LANES": 4,
+    "TB_USE_MULTIWRITE": 1
+  },
+  "variants": {
+    "bypass": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "shared_projection": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "monotonic_sort": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "stable_run_sort": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "profiles": {
+    "ideal": [
+      0,
+      0,
+      1,
+      0,
+      2
+    ],
+    "limited": [
+      8,
+      2,
+      4,
+      1,
+      8
+    ]
+  },
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51E3DDCC0F2187942FC27B77905E33979ACC95DC012DC30A3ED7F2B0B0D65F9D",
+    "rtl/common/rv_fifo.sv": "37052AC69A39FA74B87D679CBDE3D0C495F53FD0DB817BBEDF08232F2F212FE3",
+    "rtl/common/fixed_sqrt_pipe.sv": "CEF4F762C893C60D9631F0FF95ED725F8C029BE57FAE6C96F6BD4D4A4A85AD38",
+    "rtl/control/apb_regfile.sv": "A7699615250CD63AA7F6D345B4E8456B74B98DCD6313FF3FE6A311FCA3CF2EDD",
+    "rtl/control/cfg_epoch_ctrl.sv": "3B025133C261842D1152C0751162AB8A35EAFB729199A14288C29B35C48BC478",
+    "rtl/control/gaussian_resource_mode_table.sv": "E41EFEFDDDBCE58FA8A4B664DCA1B32F40C84E513E32BD5F85DF16ADD18C1CDF",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "D22343FB0FA103285FB1740A6E184E541C68694B6478F65EE3909FA250A38463",
+    "rtl/control/gaussian_mode_advisor.sv": "0F6F0ECADF1D3B30F0660647FFBCAB669D52AAD31560586E900EDFBE4EA6C010",
+    "rtl/sort/gaussian_depth_prepass_core.sv": "A7846C33C4B874A4BF1199844F196FD171686A594351B8FFF7ADF6D64455446D",
+    "rtl/sort/gaussian_depth_prepass_shared_mac.sv": "478F4B0394A56A731453CBD19AC79B56A7DF21FCB23B26F1E8AF665AC69C9E79",
+    "rtl/sort/depth_group_buffer.sv": "DF02AF9A8DE0D0CF1B33860E21AA227EB5A481CBEF287134510F1AEF5C02EEF3",
+    "rtl/sort/group_sort_service_gate.sv": "AB713873605963C6D49DF50BF140758C55A011F17CBEC57D824EF84AE96E2121",
+    "rtl/sort/stable_group_sorter.sv": "3B9803F888FCA1FF993E9E571D264F0A47E852504773677F9CE615F76B781A34",
+    "rtl/sort/stable_group_sorter_shared_compare.sv": "60FBB3DCFBDAA4E03A82F7678C9BFBEEC751E16BCDC9C74BDE161E6BC8218A4F",
+    "rtl/sort/stable_group_sorter_parallel_shared.sv": "3496F7568A33EDA000CE251D60E468DE3D46A975645FEA5303AD1D879A748B39",
+    "rtl/sort/ordered_gaussian_retire.sv": "9683FCF1E86D5307B52F5A6E28E9B87A776ACC469A2CA40A79287881055AB5E8",
+    "rtl/sort/ordered_gaussian_attribute_issue.sv": "23DDBE25550AA07C20A5C8AFF20CFA3F25CCA86014966D36329891F75BB0FEDA",
+    "rtl/memory/sram_1r1w_wrapper.sv": "CF025559489BF407E4FA3D78266617FA75E968D4EA0A41869D4E0570B5681368",
+    "rtl/memory/gaussian_attribute_store.sv": "CFBC41FDC9AB7B9FFA42FC20F87202CB8D478834457E9FE9A194CB7A46AC16BF",
+    "rtl/memory/gaussian_attribute_sram_backend.sv": "D00471C0A97351AAAFC017ABBCED84CD7F8E1155FB1DE2B7D863203779E08488",
+    "rtl/projection/fixed_div_pipe2.sv": "BD713A156F06B2EF3C20B107FDB74B643FB29CAE1C2C8F6D5ED7FB4F2B0A7313",
+    "rtl/projection/world_to_camera_core.sv": "3F4DEF3883094B33E8B98B1CF10DB3A613CD9FC25B9B2C1371F5C137A47BE98B",
+    "rtl/projection/world_to_camera_shared_mac.sv": "272EADF764AF7340DDA9A1FC35ABCED3C609CC26BC98595CCF841E22B6DD91D8",
+    "rtl/projection/quaternion_scale_covariance_core.sv": "9B74478E80A556B75F7F6B91EE724F306BD74B3DB39C2374ECD50A3B1E1AE24C",
+    "rtl/projection/covariance_view_rotate_core.sv": "AFF7F1583C5155D8E6367114737BB4902ECBF45B92E81D3332FC2C01103ECC58",
+    "rtl/projection/perspective_project_core.sv": "6C505458E1072B5A537AC63A61D7B3D84D23FF7D2C57F4BBDCEEFCAC37918DA6",
+    "rtl/projection/screen_covariance_core.sv": "FD7A4D4A37909381FF1DDC5E1209B344ADF75BD9589CF65AD6EBA671A0A718E0",
+    "rtl/projection/opacity_radius_bound.sv": "C6E8FF978633ABCE9CE4FF273FAB02F15A969934FA5F10C600E5D58C7EDA6BEA",
+    "rtl/projection/bbox_tile_bounds_core.sv": "26D7724BA35206AB12B7E6281438AC1811268ADADDDAE938D375BA720364B705",
+    "rtl/projection/covariance2d_cholesky_encoder.sv": "072E892B9154CB06086082D33800804A0466F4768A85DBAFB7E345A60E719D7E",
+    "rtl/projection/gaussian_tile_task_gen.sv": "13020703BCB3F76643A6B07650250FF7C890FF0FCADCE93606F289C8A4BE6045",
+    "rtl/projection/camera_projection_tile_lane.sv": "F2A858D89BD6E6C3DCA05C0E66622F035DF91E634DFFD53C68FDB8CBF7D6D63F",
+    "rtl/projection/raw_gaussian_projection_lane.sv": "DDB9BD988F95C8BBEA72FB5A90360FFCF39B1DAAF2CEF479C77B03639D6ADD23",
+    "rtl/projection/projection_lane_scheduler.sv": "016995E892AB14F26C34312610121159F3D1A545B2FFC54C90376B4586899353",
+    "rtl/projection/ordered_projection_lane_scheduler.sv": "832A8A7B43A778D2406A83E11A28EB0080E7EE806EA57CDBCB1293E6A6612F79",
+    "rtl/projection/projection_epoch_lane_ctrl.sv": "0FE07BA1422A51FD45551D580B81E6052AF0B3C6106545E0A522A3F00AAEB5C3",
+    "rtl/projection/raw_gaussian_projection_array.sv": "3372D7E341DCECD2D79864D70015344F7BC4E6C2E6026043CEF76F373E2BD65A",
+    "rtl/projection/gaussian_projection_sh_fork.sv": "59AE750BD12700329D2E2213E846B3CD21958AF5F982FB3D6E7EA82BFD44E5CF",
+    "rtl/projection/ordered_projection_sh_join.sv": "33D1793D87C92D21D7AD8D073FD1370FB1A04B36FFFA07F5769DB99D108DC22A",
+    "rtl/projection/ordered_gaussian_block_decoder.sv": "298BDA95C04D5D3B08C09313B464FB1B8904501F16E7F7601F3E1D7F2B9B5BB9",
+    "rtl/sh/view_direction_normalizer.sv": "2D89DE90049D7334D4106CFF915E5F337A40E0CCF9F2381F067D914289BAFA0F",
+    "rtl/sh/sh_degree3_color_core.sv": "603693E078E814723E4AD335A54F23B449190B7ABE194C02F8698CB49B146727",
+    "rtl/sh/gaussian_sh_color_core.sv": "BCBAFCD5001ED4E5C198B22B072986289FCFD4CAE755697785A65AD6591512B9",
+    "rtl/sh/ordered_sh_lane_scheduler.sv": "91546F88A2B8CB9C4567E63E7CDD732F7107BFCD83F71BC6C02665DDD2B62E7B",
+    "rtl/sh/gaussian_sh_color_array.sv": "4C6CF6C5E42E5BC65C53DBF0782D0C3C3CBD0D9AF80B3E5C1D1FB1899E8C53A3",
+    "rtl/projection/gaussian_projection_sh_array.sv": "3B88E654C9F02181A45DCA512C09426E642C39C19C0DB482DCBF5A64D426345E",
+    "rtl/raster/block_termination_bank.sv": "198C9B83FF95271A9C6B3532E775E03AD47CF9D3CFB2D024717AD8E32D77CE17",
+    "rtl/raster/block_termination_table.sv": "2A3FB3DE426F88A95CAC299487790853AED36D2D8A09F19A833DB6929ED26657",
+    "rtl/raster/raster_termination_filter.sv": "62FB81133898E2B283E9080529513BF7492DBC20B417BBE51276952D3F0D1FB0",
+    "rtl/raster/pixel_termination_mask.sv": "B335459D7C6251C6C870D0EBFFD0D4E7728FA1430FDBDE5F87A2F3EA2B775F11",
+    "rtl/raster/alpha_block_float_core.sv": "67967F29AED3C058944B48AB84438FD1C89AEE5D89D3EF8A323563FF5C55D0D6",
+    "rtl/raster/raster_alpha_lane_array.sv": "1175BA27EF1C14D658047347E6BC2D27AEDE05D1EAFED74AD38C764C29D9B2D7",
+    "rtl/raster/blend_fixed_core.sv": "1B5FB769B02127F324E22F6A55809B3C9F8FD9969F0394851B9FB64F81C51C61",
+    "rtl/raster/image_state_store.sv": "3996BBEF886A33CC052375F7B57F14B8298A8CDA34338C4A03A9003EC7881F2F",
+    "rtl/raster/image_state_cache_backend.sv": "2CBF13001BA9448CCC6508292D679F9060102596F264CA509F6538F827944111",
+    "rtl/raster/image_state_cache_backend_single.sv": "0D49259710526CB1AC53F6857BCCDDA450DA3EF95AA114DD8324A23EE786116C",
+    "rtl/raster/image_state_cache_backend_4.sv": "9F537ED2F91B618DCFAFFF1C845B04338385F8B8373ADDDA081CAEB31C0D3A73",
+    "rtl/raster/blend_state_commit.sv": "CEB943E8ACB2B60F69BF1F478DAF0B1722286095C71E8E6859DFC1E5E6A7B0A6",
+    "rtl/raster/blend_state_commit_4.sv": "4C95A773B3520D4FDD1DE6AE7064999C263982050AF7332A41725BC6C446A264",
+    "rtl/raster/raster_pair_shell.sv": "470552C2C40C87927E47A59700B03E5D3C15CD31D320C943DE89A157A1BA77BE",
+    "rtl/raster/gaussian_shape_block_reject.sv": "9D0D5F0B84775B45E5E9AE303854A6825281214FABE308744EA8B7B25ACAAEEB",
+    "rtl/raster/gaussian_block_pixel_expander.sv": "2008B253631C2A9366B9FD4215E148AF32D6C90E48BC2E8F2AFB02F4BDA7FFD9",
+    "rtl/raster/ordered_block_raster_frontend.sv": "5F4477EBBE8C638004F531F2C3E8D5D7C551B6CE27664019BB6A0F090E553A74",
+    "rtl/gaussian_ordered_render_frontend.sv": "20437AE16D32E582A7E88C30D793FE25F4977FFF6BCDE78CF0EF98ABACE6B326",
+    "rtl/gaussian_sorted_render_pipeline.sv": "73A646613D951A7D4D0141315EFBCBA3A4926B127A9C66386BF05CA6FF63DDBE",
+    "rtl/gaussian_frame_render_pipeline.sv": "5EFDA8B5F5EA34BD3F40C18B412EDF021E3CEB4EFBCB09FF2DB58457A9935C64",
+    "rtl/dma/axi4_gaussian_mean_read_dma.sv": "2E33E3B36997A50ACC333DDF53C640426603308871B8F5F3533A827A52843FA0",
+    "rtl/dma/axi4_gaussian_attribute_read_engine.sv": "F44A257AF62B88DA7A8BEF41D9982C98290FD581FA90E01F06ABD924C5407B6E",
+    "rtl/dma/axi4_pixel_state_write_engine.sv": "2B93E1DE78B0057D59525212DBC9A25981A974083163B1BBDB5BC74742CA4AC0",
+    "rtl/dma/axi4_pixel_state_write_buffer.sv": "FFB99CFE58388889B6BEF0A9FC654D4947B1C46ED20404C1EA85783D17CE890C",
+    "rtl/dma/axi4_pixel_state_writeback_buffer.sv": "16914CCE012E96D180D9DC8000ABD3FBEA4EA8CBE1C5F5873C470D924AA5EC0C",
+    "rtl/dma/axi4_pixel_state_multiwrite_buffer.sv": "BEFB30B551D12EB80818F8D4CDB87BF273EE1E7DC5FBC309EC02E7EFD1266E54",
+    "rtl/dma/axi4_pixel_state_read_engine.sv": "8CD900774702F8B08F75880DFC89096BF49B5FA62534774EEE7614A20B89B1ED",
+    "rtl/dma/axi4_pixel_state_dual_read_engine.sv": "F6C3970D9842DB8926CBC75256F4934D51FFD86ED46824DCF70AD6D5AC1FFBF3",
+    "rtl/dma/axi4_pixel_state_quad_read_engine.sv": "D9AC3C53E3E770BBF29D84FDF013CC079D1736C7C99BC519052291D8D5D405A1",
+    "rtl/gs_accel_system_top.sv": "437A555A844C8849D17BC5A0D8B839D806459E3C4C4763C4940A6F4656068186"
+  },
+  "testbench_sha256": "7B118D1ADA5E1C8F4D1A2F20ED3ECD1ECF9BF8165F4D071245F1B0A491D6E997",
+  "workloads": [
+    {
+      "name": "bonsai_cammid_n32_d64",
+      "scene": "bonsai",
+      "records": [
+        {
+          "variant": "bypass",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1758,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1837,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 2,
+            "P_stall": 28,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 30,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 4.493742889647327
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1810,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 30,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 414,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 30,
+            "local": 104,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 2.9579067121729237
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1810,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 30,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 414,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 30,
+            "local": 84,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 8,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 2.9579067121729237
+        },
+        {
+          "variant": "bypass",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3159,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3211,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 8,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 1.646090534979424
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3183,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 30,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 414,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 30,
+            "local": 104,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.7597340930674265
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3183,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 30,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 414,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 30,
+            "local": 84,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 8,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.7597340930674265
+        },
+        {
+          "variant": "bypass",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1764,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1837,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 21,
+            "P_stall": 5,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 26,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 4.138321995464852
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1824,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 27,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 30,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 74,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 23,
+            "phase_stalls": 3,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 3.401360544217687
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1824,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 27,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 30,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 54,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 23,
+            "phase_stalls": 3,
+            "shifts": 0,
+            "collect": 8,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 3.401360544217687
+        },
+        {
+          "variant": "bypass",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3167,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3211,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 14,
+            "P_stall": 4,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 18,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 1.3893274392169246
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3199,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 49,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 74,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 1.010419955794127
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3199,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 49,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 54,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 8,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 1.010419955794127
+        },
+        {
+          "variant": "bypass",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1764,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1837,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 12,
+            "P_stall": 15,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 27,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 4.138321995464852
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1824,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 18,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 26,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 74,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 20,
+            "phase_stalls": 6,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 3.401360544217687
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1824,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 18,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 26,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 54,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 20,
+            "phase_stalls": 6,
+            "shifts": 0,
+            "collect": 8,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 3.401360544217687
+        },
+        {
+          "variant": "bypass",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3167,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3211,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 2,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 10,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 1.3893274392169246
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3199,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 49,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 74,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 1.010419955794127
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3199,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 49,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 60,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 444,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 60,
+            "local": 54,
+            "swaps": 47,
+            "phases": 30,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 26,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 8,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 1.010419955794127
+        },
+        {
+          "variant": "bypass",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1787,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1847,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 6,
+            "P_stall": 11,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 17,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 3.357582540570789
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1847,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 6,
+            "P_stall": 11,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 17,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 83,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 47,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 3.357582540570789
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1847,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 51,
+            "output_stall": 0,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 6,
+            "P_stall": 11,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 17,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 83,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 47,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 3.357582540570789
+        },
+        {
+          "variant": "bypass",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3183,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3211,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 2,
+            "P_stall": 5,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 7,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.8796732642161483
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3211,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 2,
+            "P_stall": 5,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 7,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 83,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 47,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.8796732642161483
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3211,
+            "commits": 769,
+            "state_misses": 576,
+            "read_stall": 48,
+            "output_stall": 55,
+            "state_reads": 576,
+            "state_writes": 769
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 83,
+            "P": 384,
+            "R": 0,
+            "G_stall": 2,
+            "P_stall": 5,
+            "R_stall": 0,
+            "utilization": 467,
+            "competing": 7,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 83,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 47,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "32402285661233108AADE804D7AC66E4CA3468DC22AB2D2EB0CF21B3189BEA0A",
+          "raw_frame_sha256": "83DDD70447B85B3A5FC345668607FFD5B134461AE78BEA727C990F33BF881DBB",
+          "gap_percent": 0.8796732642161483
+        }
+      ]
+    },
+    {
+      "name": "train_cammid_n32_d64",
+      "scene": "train",
+      "records": [
+        {
+          "variant": "bypass",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1842,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1926,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 4,
+            "P_stall": 22,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 26,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 4.5602605863192185
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1892,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 28,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 412,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 28,
+            "local": 98,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 2.7144408251900107
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1892,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 28,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 412,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 28,
+            "local": 80,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 2.7144408251900107
+        },
+        {
+          "variant": "bypass",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3297,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 75,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3353,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 75,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 8,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 1.6985138004246285
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3317,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 76,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 28,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 412,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 28,
+            "local": 98,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.6066120715802245
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3317,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 76,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 28,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 412,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 28,
+            "local": 80,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.6066120715802245
+        },
+        {
+          "variant": "bypass",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1848,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1926,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 20,
+            "P_stall": 4,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 24,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 4.220779220779221
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1904,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 18,
+            "P_stall": 2,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 20,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 70,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 22,
+            "phase_stalls": 2,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 3.0303030303030303
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1904,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 18,
+            "P_stall": 2,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 20,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 52,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 22,
+            "phase_stalls": 2,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 3.0303030303030303
+        },
+        {
+          "variant": "bypass",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3301,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 75,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3353,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 75,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 6,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 9,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 1.5752802181157226
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3329,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 76,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 70,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.8482278097546199
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3329,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 76,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 52,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.8482278097546199
+        },
+        {
+          "variant": "bypass",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1848,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1926,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 16,
+            "P_stall": 13,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 29,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 4.220779220779221
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1904,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 17,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 25,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 70,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 19,
+            "phase_stalls": 5,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 3.0303030303030303
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1904,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 17,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 25,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 52,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 19,
+            "phase_stalls": 5,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 3.0303030303030303
+        },
+        {
+          "variant": "bypass",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3301,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 75,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3353,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 75,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 2,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 10,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 1.5752802181157226
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3329,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 76,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 70,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.8482278097546199
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3329,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 76,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 56,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 440,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 56,
+            "local": 52,
+            "swaps": 46,
+            "phases": 28,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.8482278097546199
+        },
+        {
+          "variant": "bypass",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1869,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1934,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 8,
+            "P_stall": 12,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 20,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 3.4777956126270735
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1934,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 8,
+            "P_stall": 12,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 20,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 81,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 46,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 3.4777956126270735
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1934,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 80,
+            "output_stall": 0,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 8,
+            "P_stall": 12,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 20,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 81,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 46,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 3.4777956126270735
+        },
+        {
+          "variant": "bypass",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3317,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 77,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3353,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 78,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 3,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 1.0853180584865842
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3353,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 78,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 3,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 81,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 46,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 1.0853180584865842
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 3353,
+            "commits": 795,
+            "state_misses": 583,
+            "read_stall": 78,
+            "output_stall": 43,
+            "state_reads": 583,
+            "state_writes": 795
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 81,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 465,
+            "competing": 3,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 81,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 46,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "EC0C1FF4F7348F1D8BDB2985F4805A7F8CEE81ACAEBE17977560CE19A7479D81",
+          "raw_frame_sha256": "88D3210F8875B5159640CD649A9E62F153F087CB8538EE385339F013F818AE82",
+          "gap_percent": 1.0853180584865842
+        }
+      ]
+    },
+    {
+      "name": "garden_cammid_n32_d64",
+      "scene": "garden",
+      "records": [
+        {
+          "variant": "bypass",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1237,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1315,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 26,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 26,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 6.305578011317704
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1288,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 31,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 415,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 31,
+            "local": 106,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.12287793047696
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "G",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1288,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 31,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 415,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 31,
+            "local": 88,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.12287793047696
+        },
+        {
+          "variant": "bypass",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2227,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 27,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2275,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 27,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 8,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 2.1553659631791646
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2247,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 26,
+            "output_stall": 4,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 31,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 415,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 31,
+            "local": 106,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.898069151324652
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "G",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2247,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 26,
+            "output_stall": 4,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 31,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 415,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 31,
+            "local": 88,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.898069151324652
+        },
+        {
+          "variant": "bypass",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1243,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1315,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 33,
+            "P_stall": 6,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 39,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 5.792437650844731
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1301,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 27,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 30,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 75,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 3,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.666130329847144
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "P",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1301,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 27,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 30,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 57,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 24,
+            "phase_stalls": 3,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.666130329847144
+        },
+        {
+          "variant": "bypass",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2231,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 27,
+            "output_stall": 4,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2275,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 27,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 6,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 9,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.9722097714029583
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2263,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 28,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 75,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.4343343792021515
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "P",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2263,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 28,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 57,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.4343343792021515
+        },
+        {
+          "variant": "bypass",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1243,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1315,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 11,
+            "P_stall": 17,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 28,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 5.792437650844731
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1301,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 27,
+            "P_stall": 12,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 39,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 75,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 18,
+            "phase_stalls": 9,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.666130329847144
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "R",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1301,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 25,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 27,
+            "P_stall": 12,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 39,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 57,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 18,
+            "phase_stalls": 9,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.666130329847144
+        },
+        {
+          "variant": "bypass",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2231,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 27,
+            "output_stall": 4,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2275,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 27,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 2,
+            "P_stall": 8,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 10,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.9722097714029583
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2263,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 28,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 75,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 28,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.4343343792021515
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "R",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2263,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 28,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 62,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 446,
+            "competing": 0,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 62,
+            "local": 57,
+            "swaps": 55,
+            "phases": 31,
+            "groups": 4,
+            "fallback": 0,
+            "phase_grants": 27,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 10,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.4343343792021515
+        },
+        {
+          "variant": "bypass",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1267,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 28,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1328,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 29,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 9,
+            "P_stall": 15,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 24,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.814522494080505
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1328,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 29,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 9,
+            "P_stall": 15,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 24,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 76,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 55,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.814522494080505
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "E",
+          "profile": "ideal",
+          "perf": {
+            "cycles": 1328,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 29,
+            "output_stall": 0,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 9,
+            "P_stall": 15,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 24,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 76,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 55,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 4.814522494080505
+        },
+        {
+          "variant": "bypass",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2251,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 31,
+            "output_stall": 5,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 0,
+            "main_projection": 0,
+            "G": 0,
+            "P": 0,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 0,
+            "R_stall": 0,
+            "utilization": 0,
+            "competing": 0,
+            "main_mac": 0
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 0.0
+        },
+        {
+          "variant": "shared_projection",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2279,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 30,
+            "output_stall": 4,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 3,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 0,
+            "sequence": 1,
+            "shared": 0,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 0,
+            "fallback": 0,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 0,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.2438916037316747
+        },
+        {
+          "variant": "monotonic_sort",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2279,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 30,
+            "output_stall": 4,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 3,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 76,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 55,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.2438916037316747
+        },
+        {
+          "variant": "stable_run_sort",
+          "mode": "E",
+          "profile": "limited",
+          "perf": {
+            "cycles": 2279,
+            "commits": 450,
+            "state_misses": 389,
+            "read_stall": 30,
+            "output_stall": 4,
+            "state_reads": 389,
+            "state_writes": 450
+          },
+          "shared_pe": {
+            "enabled": 1,
+            "main_projection": 1,
+            "G": 76,
+            "P": 384,
+            "R": 0,
+            "G_stall": 0,
+            "P_stall": 3,
+            "R_stall": 0,
+            "utilization": 460,
+            "competing": 3,
+            "main_mac": 288
+          },
+          "sort_work": {
+            "caps": 7,
+            "sequence": 1,
+            "shared": 76,
+            "local": 0,
+            "swaps": 0,
+            "phases": 0,
+            "groups": 4,
+            "fallback": 4,
+            "phase_grants": 0,
+            "phase_stalls": 0,
+            "shifts": 55,
+            "collect": 0,
+            "fast": 0,
+            "reverse": 0
+          },
+          "shape": {
+            "enabled": 0,
+            "rejected_blocks": 0
+          },
+          "frame_sha256": "2959E7EEA9B32AE180F7FCFF78848496B86C34CD61D45AF58F9BE6349438BA32",
+          "raw_frame_sha256": "15763E0421BDC1B72CE9CC4B2F56F7453B78BCB1C8F15C90938A352D792D9AB4",
+          "gap_percent": 1.2438916037316747
+        }
+      ]
+    }
+  ],
+  "functional_pass": true,
+  "performance_pass": false,
+  "production_contention_observed": true,
+  "aggregate": {
+    "runs": 96,
+    "full_shared_runs": 24,
+    "contended_runs": 24,
+    "mean_gap_percent": 3.078960331301211,
+    "max_gap_percent": 6.305578011317704
+  },
+  "monotonic_sort_candidate": {
+    "functional_pass": true,
+    "default_enabled": false,
+    "synthesis_or_ppa_signoff": false,
+    "variant": "monotonic_sort",
+    "runs": 24,
+    "contended_runs": 12,
+    "improved_vs_serial_runs": 18,
+    "non_regressing_vs_serial_runs": 24,
+    "performance_vs_bypass_pass": false,
+    "mean_gap_vs_bypass_percent": 2.320832352323437,
+    "max_gap_vs_bypass_percent": 4.814522494080505,
+    "comparisons": [
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "G",
+        "profile": "ideal",
+        "serial_cycles": 1837,
+        "parallel_cycles": 1810,
+        "saved_cycles": 27
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "G",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3183,
+        "saved_cycles": 28
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "P",
+        "profile": "ideal",
+        "serial_cycles": 1837,
+        "parallel_cycles": 1824,
+        "saved_cycles": 13
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "P",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3199,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "R",
+        "profile": "ideal",
+        "serial_cycles": 1837,
+        "parallel_cycles": 1824,
+        "saved_cycles": 13
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "R",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3199,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "E",
+        "profile": "ideal",
+        "serial_cycles": 1847,
+        "parallel_cycles": 1847,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "E",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3211,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "G",
+        "profile": "ideal",
+        "serial_cycles": 1926,
+        "parallel_cycles": 1892,
+        "saved_cycles": 34
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "G",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3317,
+        "saved_cycles": 36
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "P",
+        "profile": "ideal",
+        "serial_cycles": 1926,
+        "parallel_cycles": 1904,
+        "saved_cycles": 22
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "P",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3329,
+        "saved_cycles": 24
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "R",
+        "profile": "ideal",
+        "serial_cycles": 1926,
+        "parallel_cycles": 1904,
+        "saved_cycles": 22
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "R",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3329,
+        "saved_cycles": 24
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "E",
+        "profile": "ideal",
+        "serial_cycles": 1934,
+        "parallel_cycles": 1934,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "E",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3353,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "G",
+        "profile": "ideal",
+        "serial_cycles": 1315,
+        "parallel_cycles": 1288,
+        "saved_cycles": 27
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "G",
+        "profile": "limited",
+        "serial_cycles": 2275,
+        "parallel_cycles": 2247,
+        "saved_cycles": 28
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "P",
+        "profile": "ideal",
+        "serial_cycles": 1315,
+        "parallel_cycles": 1301,
+        "saved_cycles": 14
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "P",
+        "profile": "limited",
+        "serial_cycles": 2275,
+        "parallel_cycles": 2263,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "R",
+        "profile": "ideal",
+        "serial_cycles": 1315,
+        "parallel_cycles": 1301,
+        "saved_cycles": 14
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "R",
+        "profile": "limited",
+        "serial_cycles": 2275,
+        "parallel_cycles": 2263,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "E",
+        "profile": "ideal",
+        "serial_cycles": 1328,
+        "parallel_cycles": 1328,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "E",
+        "profile": "limited",
+        "serial_cycles": 2279,
+        "parallel_cycles": 2279,
+        "saved_cycles": 0
+      }
+    ]
+  },
+  "stable_run_sort_candidate": {
+    "functional_pass": true,
+    "default_enabled": false,
+    "synthesis_or_ppa_signoff": false,
+    "variant": "stable_run_sort",
+    "runs": 24,
+    "contended_runs": 12,
+    "improved_vs_serial_runs": 18,
+    "non_regressing_vs_serial_runs": 24,
+    "performance_vs_bypass_pass": false,
+    "mean_gap_vs_bypass_percent": 2.320832352323437,
+    "max_gap_vs_bypass_percent": 4.814522494080505,
+    "comparisons": [
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "G",
+        "profile": "ideal",
+        "serial_cycles": 1837,
+        "parallel_cycles": 1810,
+        "saved_cycles": 27
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "G",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3183,
+        "saved_cycles": 28
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "P",
+        "profile": "ideal",
+        "serial_cycles": 1837,
+        "parallel_cycles": 1824,
+        "saved_cycles": 13
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "P",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3199,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "R",
+        "profile": "ideal",
+        "serial_cycles": 1837,
+        "parallel_cycles": 1824,
+        "saved_cycles": 13
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "R",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3199,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "E",
+        "profile": "ideal",
+        "serial_cycles": 1847,
+        "parallel_cycles": 1847,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "bonsai_cammid_n32_d64",
+        "mode": "E",
+        "profile": "limited",
+        "serial_cycles": 3211,
+        "parallel_cycles": 3211,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "G",
+        "profile": "ideal",
+        "serial_cycles": 1926,
+        "parallel_cycles": 1892,
+        "saved_cycles": 34
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "G",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3317,
+        "saved_cycles": 36
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "P",
+        "profile": "ideal",
+        "serial_cycles": 1926,
+        "parallel_cycles": 1904,
+        "saved_cycles": 22
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "P",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3329,
+        "saved_cycles": 24
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "R",
+        "profile": "ideal",
+        "serial_cycles": 1926,
+        "parallel_cycles": 1904,
+        "saved_cycles": 22
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "R",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3329,
+        "saved_cycles": 24
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "E",
+        "profile": "ideal",
+        "serial_cycles": 1934,
+        "parallel_cycles": 1934,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "train_cammid_n32_d64",
+        "mode": "E",
+        "profile": "limited",
+        "serial_cycles": 3353,
+        "parallel_cycles": 3353,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "G",
+        "profile": "ideal",
+        "serial_cycles": 1315,
+        "parallel_cycles": 1288,
+        "saved_cycles": 27
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "G",
+        "profile": "limited",
+        "serial_cycles": 2275,
+        "parallel_cycles": 2247,
+        "saved_cycles": 28
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "P",
+        "profile": "ideal",
+        "serial_cycles": 1315,
+        "parallel_cycles": 1301,
+        "saved_cycles": 14
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "P",
+        "profile": "limited",
+        "serial_cycles": 2275,
+        "parallel_cycles": 2263,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "R",
+        "profile": "ideal",
+        "serial_cycles": 1315,
+        "parallel_cycles": 1301,
+        "saved_cycles": 14
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "R",
+        "profile": "limited",
+        "serial_cycles": 2275,
+        "parallel_cycles": 2263,
+        "saved_cycles": 12
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "E",
+        "profile": "ideal",
+        "serial_cycles": 1328,
+        "parallel_cycles": 1328,
+        "saved_cycles": 0
+      },
+      {
+        "workload": "garden_cammid_n32_d64",
+        "mode": "E",
+        "profile": "limited",
+        "serial_cycles": 2279,
+        "parallel_cycles": 2279,
+        "saved_cycles": 0
+      }
+    ]
+  }
+}

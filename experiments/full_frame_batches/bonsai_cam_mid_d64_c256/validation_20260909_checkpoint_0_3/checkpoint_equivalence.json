@@ -1,0 +1,11 @@
+{
+  "first_batch": 0,
+  "split_batch": 1,
+  "last_batch": 3,
+  "continuous_frame": "D:\\3DGS\\experiments\\full_frame_batches\\bonsai_cam_mid_d64_c256\\validation_20260909_checkpoint_0_3\\continuous\\frame_state.memh",
+  "resumed_frame": "D:\\3DGS\\experiments\\full_frame_batches\\bonsai_cam_mid_d64_c256\\validation_20260909_checkpoint_0_3\\resumed\\frame_state.memh",
+  "continuous_sha256": "43773B8EB1EC0005870C2D428F2AEBE0466FA052A2603F03D9C06B32D26EC6BC",
+  "resumed_sha256": "43773B8EB1EC0005870C2D428F2AEBE0466FA052A2603F03D9C06B32D26EC6BC",
+  "byte_equal": true,
+  "completed": "2026-09-09T19:27:44.5017522+08:00"
+}

@@ -1,0 +1,56 @@
+{
+  "task": "T04",
+  "date": "2026-10-05",
+  "status": "COMPLETE",
+  "revalidated": true,
+  "superseded_initial_audit": "experiments/t04_20261005/audit_initial_superseded.json",
+  "real_rgb_report": "experiments/t04_20261005/real_rgb/real_rgb_report.json",
+  "fixes": ["Gate RGB BVALID away from drained pixel-state writers", "Include core_frame_done in BUSY until completion_pending takes over"],
+  "production_top": "gs_accel_system_top",
+  "format": {
+    "version": 1,
+    "name": "rgb888-row-aligned16-v1",
+    "byte_order": "R,G,B",
+    "row_stride": "align16(width*3)",
+    "padding": 0,
+    "default_background_rgb8": [0, 0, 0],
+    "scratch_offset": "align16(width*3)*height",
+    "scratch_bytes_per_pixel": 16
+  },
+  "dma": {
+    "state_read_beat_bytes": 16,
+    "maximum_rgb_write_burst_beats": 15,
+    "crosses_4k_boundary": false,
+    "done_waits_for_final_b_response": true,
+    "error_status_bits": {"config": 22, "read": 23, "write": 24}
+  },
+  "verification": {
+    "standalone_dma": {
+      "status": "PASS",
+      "coverage": ["83-pixel row", "two rows", "old epoch", "background composite", "RGB byte order", "row padding", "read/write backpressure", "4 KiB burst split", "final B ordering", "configuration error", "read response error", "write response error"]
+    },
+    "t03_t04_system_integration": {
+      "status": "PASS",
+      "testbench": "verification/rtl/tb_gs_accel_system_camera_dma.sv",
+      "coverage": ["camera descriptor", "empty untouched frame", "continuation suppresses intermediate output", "final continuation emits one RGB frame", "DONE follows B", "final error status and writer error both zero"]
+    },
+    "iverilog_regression": {"status": "PASS", "configured_tests": 80, "failed": 0, "log": "experiments/t04_20261005/revalidation_logs/iverilog.log"},
+    "verilator_production_lint": {"status": "PASS", "failed": 0, "log": "experiments/t04_20261005/revalidation_logs/verilator_lint.log"},
+    "real_rgb": {"status": "PASS", "scenes": 5, "runs": 10, "failed": 0, "byte_mismatches": 0},
+    "archived_evidence_integrity": {"status": "PASS", "tests": 3, "current_source_hashes": 79, "png_equals_dma_capture": true},
+    "host_decode_tests": {"status": "PASS", "passed": 3, "failed": 0},
+    "targeted_python_revalidation": {"status": "PASS", "passed": 17, "failed": 0, "log": "experiments/t04_20261005/revalidation_logs/python_tests.log"}
+  },
+  "source_sha256": {
+    "rtl/dma/axi4_final_rgb_frame_dma.sv": "30140BDFF8B8EB7850627459D355F5A7040E96EBED486CF6B67A6F8C64BD67B7",
+    "rtl/gs_accel_system_top.sv": "1F21A9633E8ED0F633AD6637B2695AEA81F0B4E422680BB0DCAC677FEF25BD02",
+    "verification/rtl/tb_axi4_final_rgb_frame_dma.sv": "BFB2CCDCEE27EB773A8918C358E30422D3D3ECF1863F328FD7A177E89FA1C060",
+    "verification/rtl/tb_gs_accel_system_camera_dma.sv": "BE59FD4E8BD455562BF73E19A77493078E70D7D8350E924643BDAE2BF7F5C10B",
+    "verification/rtl/tb_real_dma_workload.sv": "0C5D93C73240FD8FE74FFB128713B69F3F5E6622EE0D190C68601F182EF4D3A0",
+    "scripts/t04_real_rgb_validation.py": "B5417910EC7E20C3ED373F63D3707505AE66065AB9BDCCCC4C74D4273BB0CD73",
+    "verification/rtl/build_t04_real_rgb.cmd": "791529FEFE7C7E3AFA3E800D81DC3CDCB40A764D8D2D0005131AFE17AE715AB2",
+    "scripts/read_rgb888_frame.py": "0C4C8D73D11B8AFF73E91E53BCA457D9AF885A754B6F7C05D93D0512FC8052FF"
+  },
+  "real_scene_scope": "Five real scene subsets, 8192 Gaussians and 64 CPU-sorted batches each; capacity 128, four lanes, G mode. RGB output validation only. Full-scene and GT quality remain T10; autonomous sorting remains T06.",
+  "stop_decision": "The required single production format is complete. Multi-format, runtime background, video output, and further burst tuning are frozen because they are not T04 acceptance requirements."
+}

@@ -1,0 +1,58 @@
+REAL_RGB_BURST configured=16
+REAL_ADDRESS_LAYOUT camera=0000000000002000 mean=0000000001000000 attr=0000000010000000 scratch=0000000060000000 output=0000000070000000 max_count=2600000 max_pixels=6500000 disjoint=1
+REAL_END_TO_END command_cycles=48120 camera_setup_cycles=44 post_batch_cycles=48076 command_count=1 window=4 mshr=4 response_bypass=1 commit_bypass=1
+REAL_DMA_COUNTS camera_beats=14 mean_beats=512 attribute_beats=4097 qsu_read_beats=2394 qsu_write_beats=2394 camera_bursts=1 mean_bursts=32 attribute_bursts=527 qsu_read_bursts=207 qsu_write_bursts=2394 state_read_bursts=3256 output_write_bursts=4772
+REAL_LOCAL_QSU records=0
+REAL_RGB reads=9088 write_beats=1704 bursts=146 bytes=27264 epoch=1 error=00000000
+REAL_SORT_WORK caps=1048601 sequence=1 shared=81 local=6399 swaps=1114 phases=810 groups=81 fallback=77 phase_grants=2 phase_stalls=0 shifts=0 collect=0 fast=0 reverse=0
+REAL_QSU enabled=1 input=512 partitions=13 leaves=81 reads=2394 writes=2394 stalls=19256 peak=23 axi_reads=2394 axi_writes=2394
+REAL_WORKLOAD label=train_subset gaussians=512 resolution=128x71 read_latency=0 read_gap=0 ready=1/1 write_response_latency=2
+REAL_CONTINUATION enabled=0 batches=1 first_count=512 second_count=0 epoch=1 state_in=0
+REAL_PERF cycles=48076 commits=4626 state_misses=2652 read_stall=758 output_stall=0 state_reads=2652 state_writes=4626
+REAL_ALPHA_SKIP enabled=1 skipped=12489
+REAL_SHARED_PE enabled=1 main_projection=1 G=81 P=2048 R=4626 G_stall=0 P_stall=268 R_stall=442 utilization=6755 competing=28 main_mac=1536
+REAL_WRITEBACK enabled=0 depth=32 coalesced=0 forwarded_reads=0
+REAL_MULTIWRITE enabled=1 depth=8 peak_outstanding=4
+REAL_WRITE_LOCALITY consecutive_same_pixel_commits=0
+REAL_STAGE mode=0 lanes=4 collect=1773 drain=27794 group_busy=25100 sort_busy=24349 attr_wait=390 projection_busy=25677 sh_busy=24559 raster_busy=25487 overlap=25439 sorted_bp=23810 block_bp=24127 retire_wait=4223 state_cache_busy=19333 window_wait=8227 window_same=0 window_diff=8227 group_active=4 group_service_stall=0
+REAL_RECONFIG projection_mask=3 sh_mask=3 raster_mask=3 projection_issue=512 sh_issue=512 raster_issue=17115 projection_inactive_issue=0 sh_inactive_issue=0 raster_inactive_issue=0
+REAL_SHAPE enabled=1 rejected_blocks=170
+REAL_BACKEND mshr_count=4 blend_full=12395 mshr_zero=30484 mshr_one=4502 mshr_two=13134 mshr_full_query_block=0 cache_rsp_block=0 miss_issue_block=758 ar_stall=0 r_stall=0 reader_rsp_block=0
+REAL_WINDOW_OPP third_candidate=8227 third_mshr_two=3612 third_mshr_one=1115 third_distinct=8227 third_distinct_mshr_two=3612 third_raw=0 head_need_query=0 head_wait_rsp=8150 head_need_blend=0 head_wait_blend=77 head_done_blocked=0
+REAL_BLEND_BYPASS enabled=1 fires=4626
+REAL_COMMIT_BYPASS enabled=1 fires=3465
+REAL_OPERAND_ISOLATION enabled=0 broadcast_exposures=72556 isolated_exposures=72556 avoided_exposures=0
+REAL_T07_TERMINATION enabled=1 accepted=17115 alpha_issued=17115 skipped=0 updates=0 full_blocks=0
+REAL_T08 format=2 requests=512 expected_beats=4097 precomputed=511 world_precomputed=511
+BBOX_SKIPS 0
+REAL_SHARED_BUS beats=27481 overlap_cycles=3546 excess_beats=4014 peak_queue=133 final_queue=0
+REAL_COARSE_BLOCK updates=0 skipped=0
+REAL_LPDDR lines=14695 dram_tail_cycles=0 qsu_b=2394 out_b=4772
+PASS: tb_t08_native_eight_shared
+- /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1259: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.051 devel
+- Verilator: $finish at 481us; walltime 1.889 s; speed 254.933 us/s
+- Verilator: cpu 1.805 s on 1 threads; allocated 746 MB
+	Command being timed: "/home/gs3d/work/t08_20261031/eight_beat_native_shared_20261123/simulation +AUTO_QSU +MEAN=/mnt/d/3DGS/experiments/t06_release_20261022/subset/train/mean.memh +ATTR=/mnt/d/3DGS/experiments/t08_20261031/shared_ddr_render_20261123/inputs/train/v2.memh +CAMERA=/mnt/d/3DGS/experiments/t06_release_20261022/subset/train/camera.memh +FRAME=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/pilot/train/f2/state.memh +RGB=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/pilot/train/f2/rgb.memh +SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/pilot/train/f2/sorted.txt +FRAME_MODE=0 +MAX_TIMEOUT=10000000 +READ_LATENCY=0 +READ_GAP=0 +READY_PERIOD=1 +READY_LOW=0 +WRITE_RESPONSE_LATENCY=2 +ATTR_FORMAT=2 +MUTATE_FORMAT +LPDDR_TIMED +MODEL_CFG=/home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg +MODEL_STATS=/mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/pilot/train/f2/model.stats +LABEL=train_subset"
+	User time (seconds): 2.56
+	System time (seconds): 0.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 760488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 188420
+	Voluntary context switches: 688
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 331
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

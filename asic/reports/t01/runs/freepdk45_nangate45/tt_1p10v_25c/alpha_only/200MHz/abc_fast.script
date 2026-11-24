@@ -1,0 +1,8 @@
+strash
+dc2
+map
+cleanup
+buffer
+upsize -D 5000
+dnsize -D 5000
+stime -p

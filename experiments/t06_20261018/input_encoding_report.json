@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "dataset": "full_render",
+      "scene": "bonsai",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": true,
+      "gaussians": 1244819,
+      "status": "PASS"
+    },
+    {
+      "dataset": "full_render",
+      "scene": "counter",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": true,
+      "gaussians": 1222956,
+      "status": "PASS"
+    },
+    {
+      "dataset": "full_render",
+      "scene": "room",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": true,
+      "gaussians": 1593376,
+      "status": "PASS"
+    },
+    {
+      "dataset": "full_render",
+      "scene": "kitchen",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": true,
+      "gaussians": 1852335,
+      "status": "PASS"
+    },
+    {
+      "dataset": "full_render",
+      "scene": "garden",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": true,
+      "gaussians": 5834784,
+      "status": "PASS"
+    },
+    {
+      "dataset": "subset",
+      "scene": "bonsai",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": false,
+      "gaussians": 512,
+      "status": "PASS"
+    },
+    {
+      "dataset": "subset",
+      "scene": "counter",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": false,
+      "gaussians": 512,
+      "status": "PASS"
+    },
+    {
+      "dataset": "subset",
+      "scene": "room",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": false,
+      "gaussians": 512,
+      "status": "PASS"
+    },
+    {
+      "dataset": "subset",
+      "scene": "kitchen",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": false,
+      "gaussians": 512,
+      "status": "PASS"
+    },
+    {
+      "dataset": "subset",
+      "scene": "garden",
+      "records_checked": 16,
+      "SH_fields_checked": 768,
+      "full_scene": false,
+      "gaussians": 512,
+      "status": "PASS"
+    }
+  ],
+  "rule": "literal official channel-major f_rest field indexing; independent of shared loader reshape"
+}

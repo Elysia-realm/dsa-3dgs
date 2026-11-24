@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "first_batch": 0,
+  "last_batch": 3,
+  "state_in": null,
+  "frame": "D:\\3DGS\\experiments\\full_frame_batches\\bonsai_cam_mid_d64_c256\\validation_20260909_checkpoint_0_3\\continuous\\frame_state.memh",
+  "frame_sha256": "43773B8EB1EC0005870C2D428F2AEBE0466FA052A2603F03D9C06B32D26EC6BC",
+  "wall_seconds": 80.25,
+  "completed": "2026-09-09T19:26:24.3095796+08:00"
+}

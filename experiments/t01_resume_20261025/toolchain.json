@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys",
+      "bytes": 540,
+      "sha256": "7C3E3396B38C129DD7485BE5A0A0F0DA8E495A94C8FD486059E3BEA043A588D6"
+    },
+    {
+      "path": "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/libexec/yosys",
+      "bytes": 24160784,
+      "sha256": "016B379DFF63B8E45EBE6FCA7D3CF6F043B4EB40FACA057730E96DCBB3C83812"
+    },
+    {
+      "path": "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys-abc",
+      "bytes": 392,
+      "sha256": "9A47B87ED0F705246D61B289669C5540A42F31203DA2C7971E35BAED9FDFB4CF"
+    },
+    {
+      "path": "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/libexec/yosys-abc",
+      "bytes": 20821040,
+      "sha256": "1E40855071C0DCF473D861AEA13E56F883B03BEB3D4C85647A43B97121CFBBAB"
+    },
+    {
+      "path": "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator",
+      "bytes": 32093,
+      "sha256": "FB2CC573B1055CF096C90E1EFC9966FE56BDB4B265C83590CF2A49F7A0DEFCDF"
+    },
+    {
+      "path": "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/libexec/verilator_bin",
+      "bytes": 17272832,
+      "sha256": "4A42CFDA11A34B3DAAF80DF0196E162E68FFAADFED1BF406D8B91C138046F898"
+    },
+    {
+      "path": "/home/gs3d/eda/opt/opensta/bin/sta",
+      "bytes": 9231472,
+      "sha256": "F27C74B173F0454B0014B552DB4E95E6EF4B5DEBBD5C452F42A51EC56FC2A05B"
+    }
+  ],
+  "versions": {
+    "yosys": "Yosys 0.66+183 (git sha1 b285b72e3, Release, Clang /usr/bin/clang++ 18.1.8)\n",
+    "abc": "======== ABC command line \"version\"\nUC Berkeley, ABC 1.01 (compiled Jul  3 2026 04:33:00)\n",
+    "verilator": "Verilator 5.051 devel rev v5.050-25-g5750c888a (mod)\n",
+    "iverilog": "Icarus Verilog version 12.0 (stable) ()\n\nCopyright (c) 2000-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nIcarus Verilog Preprocessor version 12.0 (stable) ()\n\nCopyright (c) 1999-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nIcarus Verilog Parser/Elaborator version 12.0 (stable) ()\n\nCopyright (c) 1998-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\n FLAGS DLL vvp.tgt\nvvp.tgt: Icarus Verilog VVP Code Generator 12.0 (stable) ()\n\nCopyright (c) 2001-2021 Stephen Williams (steve@icarus.com)\n\n  This program is free software; you can redistribute it and/or modify\n  it under the terms of the GNU General Public License as published by\n  the Free Software Foundation; either version 2 of the License, or\n  (at your option) any later version.\n\n  This program is distributed in the hope that it will be useful,\n  but WITHOUT ANY WARRANTY; without even the implied warranty of\n  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n  GNU General Public License for more details.\n\n  You should have received a copy of the GNU General Public License along\n  with this program; if not, write to the Free Software Foundation, Inc.,\n  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\n",
+    "g++": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "python": "Python 3.12.3\n",
+    "kernel": "6.18.54.1-microsoft-standard-WSL2\n"
+  },
+  "oss_archive": {
+    "url": "https://github.com/YosysHQ/oss-cad-suite-build/releases/download/2026-07-06/oss-cad-suite-linux-x64-20260706.tgz",
+    "path": "D:\\3DGS\\tmp\\toolchains\\oss-cad-suite-linux-x64-20260706.tgz",
+    "bytes": 718745118,
+    "sha256": "213a50813e809637f37dd86bb03cad7a58e726f841e7685d3a3062ef2492c315"
+  }
+}

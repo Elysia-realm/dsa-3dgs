@@ -1,0 +1,103 @@
+{
+  "results": [
+    {
+      "scene": "bonsai",
+      "full_model": true,
+      "width": 128,
+      "height": 84,
+      "camera": 146,
+      "original_records": 1244819,
+      "cycles_raw": 54163738,
+      "cycles_compact": 63088876,
+      "slowdown_percent": 16.478068777306333,
+      "independent_reference_mae": 0.21459573412698413,
+      "rgb_sha256": "5059134652F4E9948CD5A83D90FF1AFF52360E730BFBF88D597A416572FB4896",
+      "extra_attr_lines": 445862,
+      "other_line_delta": -1,
+      "tail_dram_cycles": [
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "counter",
+      "full_model": true,
+      "width": 128,
+      "height": 84,
+      "camera": 120,
+      "original_records": 1222956,
+      "cycles_raw": 57379210,
+      "cycles_compact": 67617497,
+      "slowdown_percent": 17.84319965367247,
+      "independent_reference_mae": 0.25179811507936506,
+      "rgb_sha256": "5529D48A51805C10F19381F4758A2D71B08E876378BBDDE5FEF5064E783B42A3",
+      "extra_attr_lines": 523051,
+      "other_line_delta": 0,
+      "tail_dram_cycles": [
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "room",
+      "full_model": true,
+      "width": 128,
+      "height": 84,
+      "camera": 155,
+      "original_records": 1593376,
+      "cycles_raw": 72583054,
+      "cycles_compact": 83860003,
+      "slowdown_percent": 15.53661409727951,
+      "independent_reference_mae": 0.2183159722222222,
+      "rgb_sha256": "B3C446CE2B8D92F93E9891651B50647371990C6CC0ABB0C052FD8CB72A9700B7",
+      "extra_attr_lines": 565427,
+      "other_line_delta": 4,
+      "tail_dram_cycles": [
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "train",
+      "full_model": true,
+      "width": 128,
+      "height": 71,
+      "camera": 150,
+      "original_records": 1026508,
+      "cycles_raw": 47492334,
+      "cycles_compact": 55647358,
+      "slowdown_percent": 17.1712428367913,
+      "independent_reference_mae": 0.3867737676056338,
+      "rgb_sha256": "96EDE83EF81E34B6645E964DA85523A5AE77E1C62F2C319EDEE16FAD5AFFC14C",
+      "extra_attr_lines": 407854,
+      "other_line_delta": 0,
+      "tail_dram_cycles": [
+        0,
+        0
+      ]
+    },
+    {
+      "scene": "truck",
+      "full_model": true,
+      "width": 128,
+      "height": 71,
+      "camera": 125,
+      "original_records": 2541226,
+      "cycles_raw": 85446717,
+      "cycles_compact": 100514438,
+      "slowdown_percent": 17.63405491635215,
+      "independent_reference_mae": 0.27662852112676056,
+      "rgb_sha256": "92196E7A200F0EED4C395AF1AE5DB81B5386E18A28F25F62DEA556E8C9CB1D9F",
+      "extra_attr_lines": 770453,
+      "other_line_delta": 2,
+      "tail_dram_cycles": [
+        0,
+        0
+      ]
+    }
+  ],
+  "report_sha256": "85208C011129B9BE88B0655E50581A9E956F165A34F56EC1C5F2E2CF00AA0A47",
+  "audit_sha256": "354B72A162A3F8EF446A3BB7F56AED0637CC10B2B597D8F118EA07DE3A3283C2",
+  "scope": "Five complete models, width128, shared LPDDR4-2400 timing model, G, Q24. Split header delivered byte savings but 15.54%-17.84% more frame cycles. Preserve this version as comparison baseline and test line-bounded header reads. Formal timing, GT and native 30 FPS open.",
+  "signed_off": false
+}

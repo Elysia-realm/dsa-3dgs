@@ -1,0 +1,8 @@
+{
+  "status": "TESTS_FINISHED_REVIEW_REQUIRED",
+  "pid": 7344,
+  "signed_off": false,
+  "full_scenes_passed": 5,
+  "full_rgb_matches": 5,
+  "next": "Inspect corrected full PNGs, run final source-bound evidence checks and archive before any signoff"
+}

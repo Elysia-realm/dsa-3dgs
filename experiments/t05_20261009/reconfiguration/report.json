@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "scene": "bonsai",
+      "status": "PASS",
+      "frames": 2,
+      "mode_changes": 2,
+      "GP": 0,
+      "PR": 3,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=35233 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=111 total_windows=218 selected_mode=0 selected_cycles=35176 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "scene": "counter",
+      "status": "PASS",
+      "frames": 2,
+      "mode_changes": 2,
+      "GP": 0,
+      "PR": 0,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=34433 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=61 total_windows=118 selected_mode=0 selected_cycles=34376 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "scene": "room",
+      "status": "PASS",
+      "frames": 2,
+      "mode_changes": 2,
+      "GP": 0,
+      "PR": 0,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=34829 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=86 total_windows=168 selected_mode=0 selected_cycles=34772 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "scene": "kitchen",
+      "status": "PASS",
+      "frames": 2,
+      "mode_changes": 2,
+      "GP": 0,
+      "PR": 0,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=34813 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=85 total_windows=166 selected_mode=0 selected_cycles=34756 image_mismatches=0",
+        "REAL_RGB reads=5376 write_beats=1008 bursts=86 bytes=8064 epoch=2 error=00000000"
+      ]
+    },
+    {
+      "scene": "garden",
+      "status": "PASS",
+      "frames": 2,
+      "mode_changes": 2,
+      "GP": 0,
+      "PR": 3,
+      "GR": 0,
+      "transitions": [
+        "T05_MODE_CHANGE epoch=1 old=0 new=3 G_lanes=1 weights=1,1,1 PE_busy=0",
+        "T05_MODE_CHANGE epoch=2 old=3 new=0 G_lanes=4 weights=4,2,1 PE_busy=0",
+        "REAL_AUTO observe_mode=3 observe_cycles=34441 recommendation_valid=1 recommended_mode=0 window_winner=2 observe_windows=111 total_windows=219 selected_mode=0 selected_cycles=34384 image_mismatches=0",
+        "REAL_RGB reads=5248 write_beats=984 bursts=84 bytes=7872 epoch=2 error=00000000"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "flatten_purge",
+    "status": "FAIL",
+    "result": "(['/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys', '-s', '/mnt/d/3DGS/experiments/t07_20261029/production_structure/probe/flatten_purge/probe.ys'], '/mnt/d/3DGS/experiments/t07_20261029/production_structure/probe/flatten_purge/probe.log', 'er.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [10] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [9] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [8] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [7] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [6] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [5] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [4] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [3] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [2] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [1] is used but has no driver.\\nWarning: Wire alpha_block_float_core.\\\\exp_lut_q12$func$rtl/raster/alpha_block_float_core.sv:129$7.$result [0] is used but has no driver.\\nFound and reported 13 problems.\\nERROR: Found 13 problems in \\'check -assert\\'.\\nCommand exited with non-zero status 1\\n\\tCommand being timed: \"/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys -s /mnt/d/3DGS/experiments/t07_20261029/production_structure/probe/flatten_purge/probe.ys\"\\n\\tUser time (seconds): 0.05\\n\\tSystem time (seconds): 0.02\\n\\tPercent of CPU this job got: 53%\\n\\tElapsed (wall clock) time (h:mm:ss or m:ss): 0:00.13\\n\\tAverage shared text size (kbytes): 0\\n\\tAverage unshared data size (kbytes): 0\\n\\tAverage stack size (kbytes): 0\\n\\tAverage total size (kbytes): 0\\n\\tMaximum resident set size (kbytes): 21188\\n\\tAverage resident set size (kbytes): 0\\n\\tMajor (requiring I/O) page faults: 13\\n\\tMinor (reclaiming a frame) page faults: 2493\\n\\tVoluntary context switches: 314\\n\\tInvoluntary context switches: 2\\n\\tSwaps: 0\\n\\tFile system inputs: 0\\n\\tFile system outputs: 0\\n\\tSocket messages sent: 0\\n\\tSocket messages received: 0\\n\\tSignals delivered: 0\\n\\tPage size (bytes): 4096\\n\\tExit status: 1\\n')"
+  },
+  {
+    "name": "t01_order",
+    "status": "PASS",
+    "result": {
+      "exit_code": 0,
+      "wall_seconds": 0.4364461739999994,
+      "log_sha256": "A6C7C6D74047BA15D5D8B92F480BA8CBF207E47E976BAE290B6650CBC0BA0F62"
+    }
+  }
+]

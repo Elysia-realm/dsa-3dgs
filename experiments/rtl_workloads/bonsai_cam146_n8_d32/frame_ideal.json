@@ -1,0 +1,18 @@
+{
+  "state": "experiments\\rtl_workloads\\bonsai_cam146_n8_d32\\frame_state_ideal.memh",
+  "width": 32,
+  "height": 21,
+  "nonzero_pixels": 39,
+  "rgb_min": [
+    0,
+    0,
+    0
+  ],
+  "rgb_max": [
+    177,
+    184,
+    184
+  ],
+  "transmittance_min": 0,
+  "transmittance_max": 65535
+}

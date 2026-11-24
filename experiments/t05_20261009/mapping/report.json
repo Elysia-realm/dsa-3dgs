@@ -1,0 +1,486 @@
+{
+  "status": "PASS",
+  "scope": "module boundary, external shared PE excluded equally; no STA/power/full-chip signoff",
+  "results": [
+    {
+      "name": "bsu8",
+      "pdk": "nangate45",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 28811,
+      "area_um2": 32023.474,
+      "sequential_area_um2": 4107.04,
+      "abc_max_module_delay_ps": 1897.19,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "fa64b503cc224ce60f550a64b50df16d0a5b32a338458c165198e61402376bc0"
+    },
+    {
+      "name": "bsu8",
+      "pdk": "icsprout55",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 25714,
+      "area_um2": 42681.24,
+      "sequential_area_um2": 5730.76,
+      "abc_max_module_delay_ps": 4108.17,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "2df6bc38bf38ab02ea9f773154167e2b1bcbfb541ee74abb740fe871028143cf"
+    },
+    {
+      "name": "linear8",
+      "pdk": "nangate45",
+      "top": "stable_group_sorter_shared_compare",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 5343,
+      "area_um2": 7883.442,
+      "sequential_area_um2": 3286.696,
+      "abc_max_module_delay_ps": 554.09,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "a5d390affcdaecfe141df5e9ef5907196287a42cb215577f36d8f3e2871b261a"
+    },
+    {
+      "name": "linear8",
+      "pdk": "icsprout55",
+      "top": "stable_group_sorter_shared_compare",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 5019,
+      "area_um2": 10787.56,
+      "sequential_area_um2": 4537.12,
+      "abc_max_module_delay_ps": 1203.3,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "40afa22b154c26e5c8625175b2dab756236aebed738c60b47174ed4dc299c994"
+    },
+    {
+      "name": "odd8",
+      "pdk": "nangate45",
+      "top": "stable_group_sorter_parallel_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4,
+        "ENABLE_SERIAL_FALLBACK": 0,
+        "ENABLE_MONOTONIC_FASTPATH": 0,
+        "ENABLE_STABLE_RUN_FASTPATH": 0,
+        "ENABLE_BATCH_FORWARDING": 0,
+        "ENABLE_PHASE_FORWARDING": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 24174,
+      "area_um2": 28894.782,
+      "sequential_area_um2": 4840.136,
+      "abc_max_module_delay_ps": 1316.44,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "2658df8e03320377efe5d3b5c908c02a0c4816de11e52e4a895b1534299ef44b"
+    },
+    {
+      "name": "odd8",
+      "pdk": "icsprout55",
+      "top": "stable_group_sorter_parallel_shared",
+      "parameters": {
+        "CAPACITY": 8,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4,
+        "ENABLE_SERIAL_FALLBACK": 0,
+        "ENABLE_MONOTONIC_FASTPATH": 0,
+        "ENABLE_STABLE_RUN_FASTPATH": 0,
+        "ENABLE_BATCH_FORWARDING": 0,
+        "ENABLE_PHASE_FORWARDING": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 23138,
+      "area_um2": 40396.72,
+      "sequential_area_um2": 6826.68,
+      "abc_max_module_delay_ps": 3153.49,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "0f7adcdb854af94fd245377ec7d1853c9f8164c2b6875a8dca2b5a253a98de75"
+    },
+    {
+      "name": "bsu16",
+      "pdk": "nangate45",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 54724,
+      "area_um2": 61217.24,
+      "sequential_area_um2": 7105.392,
+      "abc_max_module_delay_ps": 2019.86,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "65bb10dcab0797d2045a671412f5d98cef6a4591573899414a1f06b94a02c601"
+    },
+    {
+      "name": "bsu16",
+      "pdk": "icsprout55",
+      "top": "bitonic_group_sorter_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 51271,
+      "area_um2": 84132.72,
+      "sequential_area_um2": 9818.76,
+      "abc_max_module_delay_ps": 4249.37,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "ebcb426243e7ae2ade7776cca3d58a5452908d421f818aeb6786fb805757ee47"
+    },
+    {
+      "name": "linear16",
+      "pdk": "nangate45",
+      "top": "stable_group_sorter_shared_compare",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 9459,
+      "area_um2": 14409.752,
+      "sequential_area_um2": 6057.352,
+      "abc_max_module_delay_ps": 686.4,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "848adb18c223e10861b09f3b31bb59a60103a68e22c57396248af6940cbcd31f"
+    },
+    {
+      "name": "linear16",
+      "pdk": "icsprout55",
+      "top": "stable_group_sorter_shared_compare",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 9758,
+      "area_um2": 20094.2,
+      "sequential_area_um2": 8313.76,
+      "abc_max_module_delay_ps": 1568.23,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "af733179e9741d10fd2d033897598f5bcc4201410fd686f5fc2210cfde37f1b1"
+    },
+    {
+      "name": "odd16",
+      "pdk": "nangate45",
+      "top": "stable_group_sorter_parallel_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4,
+        "ENABLE_SERIAL_FALLBACK": 0,
+        "ENABLE_MONOTONIC_FASTPATH": 0,
+        "ENABLE_STABLE_RUN_FASTPATH": 0,
+        "ENABLE_BATCH_FORWARDING": 0,
+        "ENABLE_PHASE_FORWARDING": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 45831,
+      "area_um2": 54254.956,
+      "sequential_area_um2": 7637.392,
+      "abc_max_module_delay_ps": 1285.35,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "e9eb9090b1f457d176848b0f785034bbef5d65d6f10cfd1f01867cf0f3a1a7f9"
+    },
+    {
+      "name": "odd16",
+      "pdk": "icsprout55",
+      "top": "stable_group_sorter_parallel_shared",
+      "parameters": {
+        "CAPACITY": 16,
+        "DEPTH_W": 27,
+        "GID_W": 32,
+        "SEQ_W": 16,
+        "PAYLOAD_W": 1,
+        "COMPARE_LANES": 4,
+        "ENABLE_SERIAL_FALLBACK": 0,
+        "ENABLE_MONOTONIC_FASTPATH": 0,
+        "ENABLE_STABLE_RUN_FASTPATH": 0,
+        "ENABLE_BATCH_FORWARDING": 0,
+        "ENABLE_PHASE_FORWARDING": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 43248,
+      "area_um2": 74681.6,
+      "sequential_area_um2": 10642.52,
+      "abc_max_module_delay_ps": 3065.86,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "fcd16780e79b65c4c16a86ebdcc4286b6dad5bacc6ebe43d7ca1f818dc410738"
+    },
+    {
+      "name": "blend_local",
+      "pdk": "nangate45",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 128,
+        "USE_SHARED_RASTER_PE": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 7716,
+      "area_um2": 8473.696,
+      "sequential_area_um2": 984.2,
+      "abc_max_module_delay_ps": 2600.49,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "abcb3354de5425c1fda97f8d8bcff25f1508301422aeb6b00efe2f34497d5b82"
+    },
+    {
+      "name": "blend_local",
+      "pdk": "icsprout55",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 128,
+        "USE_SHARED_RASTER_PE": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 7912,
+      "area_um2": 12813.36,
+      "sequential_area_um2": 1450.4,
+      "abc_max_module_delay_ps": 4993.11,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "b9b2a03e78b7161c58f969a8b360b2db460194610581ce62b9b52a1e8db9c989"
+    },
+    {
+      "name": "blend_shared",
+      "pdk": "nangate45",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 128,
+        "USE_SHARED_RASTER_PE": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 9588,
+      "area_um2": 13455.078,
+      "sequential_area_um2": 4314.52,
+      "abc_max_module_delay_ps": 1823.75,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "dc16c5b15ac3594f98e58b1c9f4a49b309c92045a761bbebd4bbb0c30d4c11bf"
+    },
+    {
+      "name": "blend_shared",
+      "pdk": "icsprout55",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 128,
+        "USE_SHARED_RASTER_PE": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 11004,
+      "area_um2": 19993.96,
+      "sequential_area_um2": 5884.48,
+      "abc_max_module_delay_ps": 3988.27,
+      "unmapped_cells": [],
+      "seconds": 0,
+      "netlist_sha256": "eb7cd6244998a137e287851b1c93365f9f5b6f78422c28bad08277c9587fd186"
+    },
+    {
+      "name": "blend_local_prod",
+      "pdk": "nangate45",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 204,
+        "USE_SHARED_RASTER_PE": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 7802,
+      "area_um2": 8998.248,
+      "sequential_area_um2": 1388.52,
+      "abc_max_module_delay_ps": 2589.4,
+      "unmapped_cells": [],
+      "seconds": 1.328999999910593,
+      "netlist_sha256": "68a2c32f6779c4cee71d5c7cf5f52041f9b3a1de486aab8c611c7b7cfda20e54"
+    },
+    {
+      "name": "blend_local_prod",
+      "pdk": "icsprout55",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 204,
+        "USE_SHARED_RASTER_PE": 0
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 8142,
+      "area_um2": 13758.92,
+      "sequential_area_um2": 2046.24,
+      "abc_max_module_delay_ps": 4990.97,
+      "unmapped_cells": [],
+      "seconds": 3.7969999997876585,
+      "netlist_sha256": "3924bcd0236b10b0b1a839f795e2421fa35984ca996aba250f6c050a55b2b910"
+    },
+    {
+      "name": "blend_shared_prod",
+      "pdk": "nangate45",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 204,
+        "USE_SHARED_RASTER_PE": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 10813,
+      "area_um2": 16079.168,
+      "sequential_area_um2": 5689.208,
+      "abc_max_module_delay_ps": 1798.6,
+      "unmapped_cells": [],
+      "seconds": 1.3909999998286366,
+      "netlist_sha256": "27d3b19922ccdb6a55888d2fc427e4d4cb93b0d4fe78df5e2550a0df6fa888de"
+    },
+    {
+      "name": "blend_shared_prod",
+      "pdk": "icsprout55",
+      "top": "blend_fixed_core",
+      "parameters": {
+        "META_W": 204,
+        "USE_SHARED_RASTER_PE": 1
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 12382,
+      "area_um2": 23206.12,
+      "sequential_area_um2": 7757.12,
+      "abc_max_module_delay_ps": 4082.98,
+      "unmapped_cells": [],
+      "seconds": 4.0,
+      "netlist_sha256": "b3fa0c17881c7c87f8a090d295fc2c39e14c4889806c1c19f2dcc5b42d3d02c9"
+    },
+    {
+      "name": "shared_pe",
+      "pdk": "nangate45",
+      "top": "shared_reconfigurable_pe_slice",
+      "parameters": {
+        "DATA_W": 32,
+        "GID_W": 32,
+        "SEQ_W": 16
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 9851,
+      "area_um2": 10492.104,
+      "sequential_area_um2": 430.92,
+      "abc_max_module_delay_ps": 3112.59,
+      "unmapped_cells": [],
+      "seconds": 1.5940000000409782,
+      "netlist_sha256": "34912d7512f20c26ab86994c1f404a874465041100f0683cf19ccdc0b33d4d6a"
+    },
+    {
+      "name": "shared_pe",
+      "pdk": "icsprout55",
+      "top": "shared_reconfigurable_pe_slice",
+      "parameters": {
+        "DATA_W": 32,
+        "GID_W": 32,
+        "SEQ_W": 16
+      },
+      "corner": "TT",
+      "requested_clock_mhz": 200,
+      "cell_count": 10224,
+      "area_um2": 16109.24,
+      "sequential_area_um2": 635.32,
+      "abc_max_module_delay_ps": 5008.37,
+      "unmapped_cells": [],
+      "seconds": 4.030999999959022,
+      "netlist_sha256": "c5ae474f367cfcbcee5ca0da5ae1379af37209da411e3d4e5528f211ca9bfc0a"
+    }
+  ],
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51e3ddcc0f2187942fc27b77905e33979acc95dc012dc30a3ed7f2b0b0d65f9d",
+    "rtl/sort/bitonic_group_sorter_shared.sv": "414924df082c2cea1683326e2ce7fa78d43683f2896bdca25c7eaf004cc8f4a0",
+    "rtl/sort/stable_group_sorter_shared_compare.sv": "091e250df622498b019775ae57aa539ced551160c58863f2ce94a8b3fe1d1199",
+    "rtl/sort/stable_group_sorter_parallel_shared.sv": "3496f7568a33eda000ce251d60e468de3d46a975645fea5303ad1d879a748b39",
+    "rtl/raster/blend_fixed_core.sv": "59b41b5c382fbc77124f6cdd4c3c258da1f0374b8304f1d73689c161a6b87ebd",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "d22343fb0fa103285fb1740a6e184e541c68694b6478f65ee3909fa250a38463"
+  },
+  "libraries": {
+    "nangate45": {
+      "path": "D:\\3DGS\\tmp\\toolchains\\freepdk45\\NangateOpenCellLibrary_typical.lib",
+      "sha256": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1"
+    },
+    "icsprout55": {
+      "path": "D:\\3DGS\\tmp\\toolchains\\icsprout55\\rvt-v1.10.102\\liberty\\ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib",
+      "sha256": "15af0dceceeeb02e174174e7123c7d551551369bf5ad1e8417d3ce8dcbc24fcd"
+    }
+  }
+}

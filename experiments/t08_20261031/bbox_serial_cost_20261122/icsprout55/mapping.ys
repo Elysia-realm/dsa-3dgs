@@ -1,0 +1,10 @@
+read_verilog -sv -DSYNTHESIS "/mnt/d/3DGS/rtl/projection/gaussian_bbox_axis0_serial.sv" "/mnt/d/3DGS/verification/rtl/t08_bbox_serial_cost_top.sv"
+synth -top t08_bbox_serial_cost_top -flatten -noabc
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+dfflibmap -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+abc -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib" -constr "/mnt/d/3DGS/experiments/t08_20261031/bbox_serial_cost_20261122/icsprout55/abc.constr" -D 5000
+clean
+delete t:$scopeinfo
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t08_20261031/bbox_serial_cost_20261122/icsprout55/stat.json" stat -json -liberty "/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib"
+write_verilog -noattr -noexpr -nodec "/mnt/d/3DGS/experiments/t08_20261031/bbox_serial_cost_20261122/icsprout55/mapped.v"

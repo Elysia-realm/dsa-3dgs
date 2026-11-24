@@ -1,0 +1,6 @@
+[
+  "D:\\Tools\\msys64\\ucrt64\\bin\\g++.exe",
+  "-std=c++17",
+  "-fsyntax-only",
+  "scripts/build_full_frame_rtl_batch_stdlib.cpp"
+]

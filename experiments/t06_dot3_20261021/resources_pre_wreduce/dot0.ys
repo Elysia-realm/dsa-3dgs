@@ -1,0 +1,8 @@
+read_verilog -sv -DSYNTHESIS "D:/3DGS/rtl/control/shared_reconfigurable_pe_slice.sv"
+chparam -set DATA_W 32 -set RESULT_W 65 -set P_DOT3 0 shared_reconfigurable_pe_slice
+hierarchy -check -top shared_reconfigurable_pe_slice
+proc
+opt
+check -assert
+tee -o "D:/3DGS/experiments/t06_dot3_20261021/resources/dot0_stat.json" stat -json
+write_json "D:/3DGS/experiments/t06_dot3_20261021/resources/dot0.json"

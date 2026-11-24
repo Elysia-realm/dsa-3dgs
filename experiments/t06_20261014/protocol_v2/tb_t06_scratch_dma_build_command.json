@@ -1,0 +1,12 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Irtl/raster",
+  "-s",
+  "tb_t06_scratch_dma",
+  "-o",
+  "D:\\3DGS\\experiments\\t06_20261014\\protocol_v2\\tb_t06_scratch_dma.vvp",
+  "rtl/dma/axi4_qsu_scratch_dma.sv",
+  "verification/rtl/tb_t06_scratch_dma.sv"
+]

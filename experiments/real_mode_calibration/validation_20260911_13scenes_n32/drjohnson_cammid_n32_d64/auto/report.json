@@ -1,0 +1,76 @@
+{
+  "report_version": 2,
+  "generated_at": "2026-09-11T22:49:23.904713+08:00",
+  "batch": "D:\\3DGS\\experiments\\rtl_workloads\\drjohnson_cammid_n32_d64",
+  "attribute_layout": "dense_frame_local_gid",
+  "executable": "D:\\3DGS\\tmp\\verilator_bonsai1024_range_obj\\tb_bonsai1024_range.exe",
+  "initial_mode": 3,
+  "auto": {
+    "observe_mode": 3,
+    "observe_cycles": 1735,
+    "recommendation_valid": 1,
+    "recommended_mode": 2,
+    "window_winner": 2,
+    "observe_windows": 6,
+    "total_windows": 13,
+    "selected_mode": 2,
+    "selected_cycles": 1709,
+    "image_mismatches": 0
+  },
+  "mode_names": {
+    "0": "G",
+    "1": "P",
+    "2": "R",
+    "3": "E"
+  },
+  "selected_vs_observe": {
+    "cycle_savings": 26,
+    "cycle_reduction_percent": 1.498559
+  },
+  "selected_frame_perf": {
+    "cycles": 1709,
+    "commits": 661,
+    "state_misses": 596,
+    "read_stall": 54,
+    "output_stall": 0,
+    "state_reads": 596,
+    "state_writes": 661
+  },
+  "window_count": 13,
+  "winner_histogram": {
+    "observe_frame": {
+      "0": 3,
+      "1": 0,
+      "2": 3,
+      "3": 0
+    },
+    "selected_frame": {
+      "0": 2,
+      "1": 0,
+      "2": 5,
+      "3": 0
+    },
+    "all": {
+      "0": 5,
+      "1": 0,
+      "2": 8,
+      "3": 0
+    }
+  },
+  "first_queued_window": {
+    "index": 6,
+    "active": 3,
+    "winner": 2,
+    "queued_valid": 1,
+    "queued_mode": 2,
+    "group": 0,
+    "sort": 0,
+    "projection": 256,
+    "raster": 256,
+    "block": 15,
+    "skip": 0
+  },
+  "frame_sha256": "4CF0DC308B0406177B42FAE59FEB4CD941C88E3D95C819A002A124F1D9F23DC0",
+  "result": "PASS",
+  "interpretation": "The first real frame observes the workload; the recommendation, when valid, is applied only at the next new epoch. RGB/T equality is checked inside the RTL testbench across both frames."
+}

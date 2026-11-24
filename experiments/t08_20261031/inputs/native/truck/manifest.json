@@ -1,0 +1,57 @@
+{
+  "scene": "truck",
+  "camera_index": 125,
+  "gaussians": 2541226,
+  "full_scene": true,
+  "width": 1957,
+  "height": 1091,
+  "camera_source": "/mnt/d/3DGS/data/truck/cameras.json",
+  "camera_source_sha256": "802E9EB9EE7DEB034309BAECCA6D7DE2A02B0CB70897A06BDB9AE36BA5BFD5C6",
+  "ply": "/mnt/d/3DGS/data/truck/point_cloud/iteration_30000/point_cloud.ply",
+  "ply_sha256": "65ECF4058135A030CDDD2198326F67172A4101344B0B54A3FA370CF45EA9688C",
+  "inputs": {
+    "CAMERA": "/mnt/d/3DGS/experiments/t08_20261031/inputs/native/truck/camera.memh",
+    "MEAN": "/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/mean.memh",
+    "ATTR": "/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/attribute.memh"
+  },
+  "input_sha256": {
+    "CAMERA": "C6FCEB905EE172D0A51ABE51AC5304D464544A4F76FA9305BC14715934283A5A",
+    "MEAN": "5A4908F3F185CAE1DBABD9BED6120C91B006AE8D50ABADCC1BED7C7B6FD0DE69",
+    "ATTR": "0BD9373DF6CE86F7FCBA0F80681B8A30EAD21ACDBFE6499EA2187CA9D6F92FBF"
+  },
+  "changed_camera_word_indices": [
+    15,
+    16,
+    17,
+    18,
+    25,
+    26
+  ],
+  "software_preprocessing": "PLY/fixed-format encoding only; original unsorted complete model; no CPU pivots or batches",
+  "status": "INPUT_PREPARED_NOT_SIMULATED",
+  "signed_off": false,
+  "budget": {
+    "cycles_at_assumed_200MHz_30FPS": 6666666.666666667,
+    "assumed_frequency_verified": false,
+    "model_parameter_bytes_uncompressed": 406596160,
+    "attribute_record_bytes": 144,
+    "sh_payload_bits_per_record": 864,
+    "low_resolution_reference_sha256": "363EE0CD548BB1346B7E06A7548A7AE0276259EBA5698C2E4AE97B59E7C91CA5",
+    "invariant_frontend_read_bytes": 515656208,
+    "invariant_qsu_write_bytes": 208673488,
+    "invariant_traffic_assumption": "same means/extrinsics/near/far => same depth-visible set and deterministic QSU; confirm in native RTL results",
+    "final_rgb_state_read_bytes": 34161392,
+    "final_rgb_write_bytes": 6406352,
+    "shared_total_bytes_necessary_floor": 764897440,
+    "shared_GBps_necessary_floor_at_30FPS": 22.9469232,
+    "shared_128bit_beats_necessary_floor": 47806090,
+    "shared_128bit_beats_per_cycle_required": 7.170913499999999,
+    "attribute_beats_per_cycle_required": 2.2470993,
+    "qsu_read_beats_per_cycle_required": 2.20599165,
+    "termination_table_entries": 256,
+    "image_blocks": 33565,
+    "native_render_state_traffic": null,
+    "native_frame_cycles": null,
+    "calibrated_shared_DDR": false
+  }
+}

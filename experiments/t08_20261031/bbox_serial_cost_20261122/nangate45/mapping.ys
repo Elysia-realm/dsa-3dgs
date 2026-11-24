@@ -1,0 +1,10 @@
+read_verilog -sv -DSYNTHESIS "/mnt/d/3DGS/rtl/projection/gaussian_bbox_axis0_serial.sv" "/mnt/d/3DGS/verification/rtl/t08_bbox_serial_cost_top.sv"
+synth -top t08_bbox_serial_cost_top -flatten -noabc
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+dfflibmap -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+abc -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib" -constr "/mnt/d/3DGS/experiments/t08_20261031/bbox_serial_cost_20261122/nangate45/abc.constr" -D 5000
+clean
+delete t:$scopeinfo
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t08_20261031/bbox_serial_cost_20261122/nangate45/stat.json" stat -json -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr -nodec "/mnt/d/3DGS/experiments/t08_20261031/bbox_serial_cost_20261122/nangate45/mapped.v"

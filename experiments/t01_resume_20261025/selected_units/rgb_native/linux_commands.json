@@ -1,0 +1,70 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-DTB_RGB_BURST=1",
+      "-s",
+      "tb_t06_rgb_burst",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/rgb_native/b1.vvp",
+      "rtl/dma/axi4_final_rgb_frame_dma.sv",
+      "verification/rtl/tb_t06_rgb_burst.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.028333804999988388,
+    "child_cpu_seconds": 0.011277999999997235,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/rgb_native/b1.vvp",
+      "+WIDTH=1920",
+      "+HEIGHT=1080",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 98.65919642,
+    "child_cpu_seconds": 99.976287,
+    "binary_sha256": "FC5F22651B736926DDD30092AD36B009B3A9C552EFC0F2A5FF8AA2160E6E0FC4",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-DTB_RGB_BURST=16",
+      "-s",
+      "tb_t06_rgb_burst",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/rgb_native/b16.vvp",
+      "rtl/dma/axi4_final_rgb_frame_dma.sv",
+      "verification/rtl/tb_t06_rgb_burst.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.0314922700000011,
+    "child_cpu_seconds": 0.010074000000003025,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/rgb_native/b16.vvp",
+      "+WIDTH=1920",
+      "+HEIGHT=1080",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 89.25311390000002,
+    "child_cpu_seconds": 90.48594,
+    "binary_sha256": "2F0EE1A087812542FBAE0470AE365714AF7F8AA82198DE515546FD6054622ECD",
+    "vector_sha256": {}
+  }
+]

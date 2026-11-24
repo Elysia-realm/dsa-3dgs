@@ -1,0 +1,24 @@
+{
+  "reviewed_scenes": [
+    "bonsai",
+    "counter",
+    "room",
+    "kitchen",
+    "garden"
+  ],
+  "current_rgb_hashes": {
+    "bonsai": "a85fc90e1e2d1ef1a72657b000290d1e35ad17c292e1e90915f52522e3c127f5",
+    "counter": "6464dd8cb3d63d2579e1273a276ac8fa0cbca1de3c7b3eaae4808b9893e62cfd",
+    "room": "538065a64b9ddf46b9274894ed2de741edc44c996677a699fac4a1d2ce9326e2",
+    "kitchen": "a7a1b38b0a8d256bad7fbc808e28ae65b5b35c6384813bfc0996352c00b79e9b",
+    "garden": "fa75aad78e8dca62243a38030d3fba5872ea4ff114398b8263ab083d409a91d2"
+  },
+  "scope": "Actual 128-wide RTL DMA PNGs viewed; recognizable structure, no prior flat-image artifact; not native-resolution/GT quality acceptance.",
+  "observations": {
+    "bonsai": "Pink bonsai, dark tablecloth and room background discernible.",
+    "counter": "Countertop, flowers, cups and objects discernible.",
+    "room": "Sofa, dining table, chairs and room geometry discernible.",
+    "kitchen": "Yellow toy vehicle, table covering and background objects discernible.",
+    "garden": "Round garden table, chairs, plants and paving discernible."
+  }
+}

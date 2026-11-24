@@ -1,0 +1,1 @@
+["D:\\IcarusVerilog\\iverilog\\bin\\iverilog.exe", "-g2012", "-DSYNTHESIS", "-DTB_RGB_BURST=1", "-s", "tb_t06_rgb_burst", "-o", "D:\\3DGS\\experiments\\t06_rgb_burst_20261022\\units\\b1.vvp", "rtl/dma/axi4_final_rgb_frame_dma.sv", "verification/rtl/tb_t06_rgb_burst.sv"]

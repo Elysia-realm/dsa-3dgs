@@ -1,0 +1,26 @@
+{
+  "status": "PASS_TAR_STRUCTURE_AND_CRITICAL_PAYLOAD_HASHES",
+  "archive": "D:\\WSL-backups\\Ubuntu-24.04-3dgs-20261024.tar",
+  "members": 69564,
+  "verified_payloads": [
+    "home/gs3d/eda/env.sh",
+    "home/gs3d/eda/opt/cudd-3.0.0/lib/libcudd.a",
+    "home/gs3d/eda/opt/opensta/bin/sta",
+    "home/gs3d/eda/bin/gs-python",
+    "home/gs3d/eda/bin/cacti",
+    "home/gs3d/eda/bin/ramulator",
+    "home/gs3d/eda/src-20261024/ramulator/dram.trace",
+    "home/gs3d/eda/src-20261024/ramulator/ramulator",
+    "home/gs3d/eda/src-20261024/ramulator/configs/LPDDR4-config.cfg",
+    "home/gs3d/eda/src-20261024/cacti/io.cc",
+    "home/gs3d/eda/src-20261024/cacti/cacti",
+    "home/gs3d/eda/src-20261024/cacti/cacti.upstream"
+  ],
+  "required_files_found": [
+    "etc/os-release",
+    "etc/passwd",
+    "home/gs3d/.bashrc",
+    "home/gs3d/eda/venvs/gsverify/pyvenv.cfg"
+  ],
+  "boot_restore_test_executed": false
+}

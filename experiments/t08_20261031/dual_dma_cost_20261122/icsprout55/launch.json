@@ -1,0 +1,9 @@
+{
+  "sources": {
+    "experiments/t08_20261031/dual_precision_native_20261122/build/axi4_t08_attribute_read_engine.sv": "F3A40C5D8E7286E02868C0ED90FCE484D502E79F3D8155F827F52021EEBD3BED",
+    "experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv": "B0DF1334951CF77615AC7D8FBE72175077CC27C09E650D75821F5B9DCBB5A8A6"
+  },
+  "liberty_sha256": "15AF0DCECEEEB02E174174E7123C7D551551369BF5AD1E8417D3CE8DCBC24FCD",
+  "command_script": "read_verilog -sv -DSYNTHESIS \"/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/axi4_t08_attribute_read_engine.sv\" \"/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv\"\nchparam -set EARLY_ADVANCE 1 -set ENABLE_Q24 1 axi4_t08_attribute_read_engine\nsynth -top axi4_t08_attribute_read_engine -flatten -noabc\nread_liberty -lib \"/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib\"\ndfflibmap -liberty \"/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib\"\nabc -liberty \"/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib\" -constr \"/mnt/d/3DGS/experiments/t08_20261031/dual_dma_cost_20261122/icsprout55/abc.constr\" -D 5000\nclean\ndelete t:$scopeinfo\ncheck -assert\ntee -o \"/mnt/d/3DGS/experiments/t08_20261031/dual_dma_cost_20261122/icsprout55/stat.json\" stat -json -liberty \"/mnt/d/3DGS/tmp/toolchains/icsprout55/rvt-v1.10.102/liberty/ics55_LLSC_H7CR_typ_tt_1p2_25_nldm.lib\"\nwrite_verilog -noattr -noexpr -nodec \"/mnt/d/3DGS/experiments/t08_20261031/dual_dma_cost_20261122/icsprout55/mapped.v\"\n",
+  "old_report_sha256": "006FFC9BED204AB26438E1EB62D2C0F1F25FDB6584A5FA787B2675406BCF1477"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "dot3": false,
+      "status": "PASS",
+      "multipliers": [
+        {
+          "A": 32,
+          "B": 32,
+          "Y": 64
+        }
+      ],
+      "seconds": 0.0779999999795109,
+      "netlist_sha256": "251df0af7e30564a6d475da8a1e69ee4c0979311ceb73a9ca48f9b0076eac1ec"
+    },
+    {
+      "dot3": true,
+      "status": "PASS",
+      "multipliers": [
+        {
+          "A": 32,
+          "B": 32,
+          "Y": 64
+        },
+        {
+          "A": 32,
+          "B": 32,
+          "Y": 64
+        },
+        {
+          "A": 32,
+          "B": 32,
+          "Y": 64
+        }
+      ],
+      "seconds": 0.0940000000409782,
+      "netlist_sha256": "1c357479db509040aa4203837646398fc5d854111f3b2024a9a922feb7b3231f"
+    }
+  ],
+  "source_sha256": {
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259a001e202e3703c6005fe6712ced73dbf13bdcadcf0f9042e582527858c"
+  },
+  "scope": "generic IR: scalar 1x32-bit multiplier; dot3 3x32-bit multipliers. Two are P-only, primary remains G/P/R shared. Not standard-cell area, STA, SRAM/power or 30FPS signoff"
+}

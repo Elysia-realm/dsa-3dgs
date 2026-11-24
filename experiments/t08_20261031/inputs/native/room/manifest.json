@@ -1,0 +1,57 @@
+{
+  "scene": "room",
+  "camera_index": 155,
+  "gaussians": 1593376,
+  "full_scene": true,
+  "width": 3114,
+  "height": 2075,
+  "camera_source": "/mnt/d/3DGS/data/room/cameras.json",
+  "camera_source_sha256": "84FCCCBD3AE4EA6754BCB7838149A418B3A62275549A67A3E7A7AFC5D2F83F45",
+  "ply": "/mnt/d/3DGS/data/room/point_cloud/iteration_30000/point_cloud.ply",
+  "ply_sha256": "7DB92776B7EE8818866C00DE62E1102DDE344B5E83ABF107E20ACCD88E2D9201",
+  "inputs": {
+    "CAMERA": "/mnt/d/3DGS/experiments/t08_20261031/inputs/native/room/camera.memh",
+    "MEAN": "/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/room/mean.memh",
+    "ATTR": "/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/room/attribute.memh"
+  },
+  "input_sha256": {
+    "CAMERA": "130773694CE985B0CB642D37ED0E4229D5B3DFF9A310DDCB2BC22088DFE91B10",
+    "MEAN": "439F9BB4A364792D91FF685155CF6267D2E2669E3FCA22BF91811048650C4C4B",
+    "ATTR": "8BB9588B12CA9B15CC10F110CC2CF0ABD5A522ABB38B8426EC1C95720063C2ED"
+  },
+  "changed_camera_word_indices": [
+    15,
+    16,
+    17,
+    18,
+    25,
+    26
+  ],
+  "software_preprocessing": "PLY/fixed-format encoding only; original unsorted complete model; no CPU pivots or batches",
+  "status": "INPUT_PREPARED_NOT_SIMULATED",
+  "signed_off": false,
+  "budget": {
+    "cycles_at_assumed_200MHz_30FPS": 6666666.666666667,
+    "assumed_frequency_verified": false,
+    "model_parameter_bytes_uncompressed": 254940160,
+    "attribute_record_bytes": 144,
+    "sh_payload_bits_per_record": 864,
+    "low_resolution_reference_sha256": "F15ED9CFAF36E77DF79B52887363B1C44B42B769F9E9E2354A58EA4649F1A231",
+    "invariant_frontend_read_bytes": 419151376,
+    "invariant_qsu_write_bytes": 172720176,
+    "invariant_traffic_assumption": "same means/extrinsics/near/far => same depth-visible set and deterministic QSU; confirm in native RTL results",
+    "final_rgb_state_read_bytes": 103384800,
+    "final_rgb_write_bytes": 19388800,
+    "shared_total_bytes_necessary_floor": 714645152,
+    "shared_GBps_necessary_floor_at_30FPS": 21.43935456,
+    "shared_128bit_beats_necessary_floor": 44665322,
+    "shared_128bit_beats_per_cycle_required": 6.699798299999999,
+    "attribute_beats_per_cycle_required": 1.8641556,
+    "qsu_read_beats_per_cycle_required": 1.8263800499999998,
+    "termination_table_entries": 256,
+    "image_blocks": 101400,
+    "native_render_state_traffic": null,
+    "native_frame_cycles": null,
+    "calibrated_shared_DDR": false
+  }
+}

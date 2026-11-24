@@ -1,0 +1,140 @@
+{
+  "scene": "room",
+  "regularizer": 0.30078125,
+  "jacobian_fov_clamp": true,
+  "dominant_contributors": [
+    {
+      "gid": 1294521,
+      "weight_sum": 85.56733919469649,
+      "camera_z": 8.404181158315623,
+      "projected_center": [
+        12.489820150060766,
+        57.90394428130686
+      ],
+      "max_sigma_pixels": 10.180647430566864,
+      "outside_fov": false
+    },
+    {
+      "gid": 818796,
+      "weight_sum": 52.88035990646079,
+      "camera_z": 5.419777666029404,
+      "projected_center": [
+        -16.00005934649127,
+        31.94445286585561
+      ],
+      "max_sigma_pixels": 16.98062506430137,
+      "outside_fov": true
+    },
+    {
+      "gid": 471055,
+      "weight_sum": 31.264214203565025,
+      "camera_z": 5.682370914539206,
+      "projected_center": [
+        26.087886539602785,
+        49.90906911192074
+      ],
+      "max_sigma_pixels": 12.884877485483996,
+      "outside_fov": false
+    },
+    {
+      "gid": 1576846,
+      "weight_sum": 23.737580797962156,
+      "camera_z": 4.649406419266597,
+      "projected_center": [
+        15.680652449074564,
+        43.04720176980347
+      ],
+      "max_sigma_pixels": 14.061384504454661,
+      "outside_fov": false
+    },
+    {
+      "gid": 721398,
+      "weight_sum": 21.752329539710928,
+      "camera_z": 5.399369603270316,
+      "projected_center": [
+        17.73432298255571,
+        65.83770588013776
+      ],
+      "max_sigma_pixels": 8.520364699183434,
+      "outside_fov": false
+    },
+    {
+      "gid": 1162103,
+      "weight_sum": 21.72163766207434,
+      "camera_z": 10.084373366786167,
+      "projected_center": [
+        115.98212242071295,
+        1.5325096136192045
+      ],
+      "max_sigma_pixels": 5.5460306245432855,
+      "outside_fov": false
+    },
+    {
+      "gid": 1511379,
+      "weight_sum": 19.22235527261945,
+      "camera_z": 4.693396866714465,
+      "projected_center": [
+        2.301794552247479,
+        4.532124470715949
+      ],
+      "max_sigma_pixels": 2.8558684332804476,
+      "outside_fov": false
+    },
+    {
+      "gid": 431602,
+      "weight_sum": 18.380172590974098,
+      "camera_z": 2.3772607659484493,
+      "projected_center": [
+        102.9534256482334,
+        82.73402364247477
+      ],
+      "max_sigma_pixels": 22.36847328580181,
+      "outside_fov": false
+    },
+    {
+      "gid": 1254151,
+      "weight_sum": 18.042654470107404,
+      "camera_z": 5.168543673295062,
+      "projected_center": [
+        6.399716104048096,
+        -7.344627974901115
+      ],
+      "max_sigma_pixels": 7.745570598626224,
+      "outside_fov": true
+    },
+    {
+      "gid": 1389198,
+      "weight_sum": 18.02889681511435,
+      "camera_z": 7.950852853507968,
+      "projected_center": [
+        13.689846900262012,
+        50.19174333262213
+      ],
+      "max_sigma_pixels": 13.997257988749233,
+      "outside_fov": false
+    }
+  ],
+  "width": 128,
+  "height": 84,
+  "processed_depth_sorted_prefix": 1380856,
+  "total_depth_visible": 1380856,
+  "all_pixels_terminated": false,
+  "contributing_gaussians": 274239,
+  "mean_rgb": [
+    89.44614955357143,
+    77.11318824404762,
+    47.130859375
+  ],
+  "std_rgb": [
+    72.75827534637807,
+    62.201272142374414,
+    47.58176398025597
+  ],
+  "unique_rgb": 6797,
+  "rtl_rmse_rgb8": null,
+  "rtl_max_abs_rgb8": null,
+  "rtl_mae_rgb8": null,
+  "rtl_active_mae_rgb8": null,
+  "seconds": 201.67199999999139,
+  "scope": "float diagnostic using existing project SH interpretation; not bit-exact RTL oracle or GT; floor ablation is not a production fix"
+}

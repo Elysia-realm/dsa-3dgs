@@ -1,0 +1,11 @@
+{
+  "scene": "counter",
+  "records": 1222956,
+  "requests": 1110964,
+  "v1_actual_bytes": 140086880,
+  "q24_projected_bytes": 140088384,
+  "raw_bytes": 159978816,
+  "extra_escapes": 94,
+  "source_ply_sha256": "D676D3D9C4730933030E8CC02017BDF5C73C0AC58FAFEE05B8130F6369BE39E4",
+  "q24_saved_vs_raw_percent": 12.433166151198416
+}

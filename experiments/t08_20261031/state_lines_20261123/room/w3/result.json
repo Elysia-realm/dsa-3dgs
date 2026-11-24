@@ -1,0 +1,35 @@
+{
+  "scene": "room",
+  "window": 3,
+  "axi_bytes": 131072,
+  "axi_bursts": 8192,
+  "direct_line_requests": 8192,
+  "modeled_counts": {
+    "1": 11520,
+    "4": 2755,
+    "16": 2059
+  },
+  "verified_rtl_line_requests": 2059,
+  "direct_dram_cycles": 40328,
+  "buffered_dram_cycles": 10702,
+  "direct_useful_GBps": 3.900178536004761,
+  "buffered_useful_GBps": 14.696916464212297,
+  "bench": {
+    "execution": {
+      "exit_code": 0,
+      "wall_seconds": 0.31496391700000004,
+      "log_sha256": "28CDC9DE88CB4D2AE81E0D5D245A3EC39AD9750E5A28C7F2876EEE5296572758"
+    },
+    "reads": 1030,
+    "writes": 1029,
+    "bench_cycles": 62214,
+    "stimulus_sha256": "FE952C483382193B1FA840EEDAB884029CE14AF5D1B5561219865D5637CA4EEB",
+    "trace_sha256": "16F456B08D049B449DC0C72E5E226144BF38DFCFEE9FAC58498B6D30602974C7"
+  },
+  "model_execution": {
+    "exit_code": 0,
+    "wall_seconds": 0.3225124389999987,
+    "log_sha256": "890CA0A01453860656F43DCE3DDAAA6F87E7836626E75E3290D17407FB466225"
+  },
+  "model_stats_sha256": "7C254465043BFE1AA6DEAA3532078D2F661D38685A5B35B50D1EAFEB0481A82E"
+}

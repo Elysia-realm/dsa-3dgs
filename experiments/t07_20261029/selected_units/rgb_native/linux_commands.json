@@ -1,0 +1,70 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-DTB_RGB_BURST=1",
+      "-s",
+      "tb_t06_rgb_burst",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb_native/b1.vvp",
+      "rtl/dma/axi4_final_rgb_frame_dma.sv",
+      "verification/rtl/tb_t06_rgb_burst.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.031848823000018456,
+    "child_cpu_seconds": 0.012364000000005149,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb_native/b1.vvp",
+      "+WIDTH=1920",
+      "+HEIGHT=1080",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 111.12501176499973,
+    "child_cpu_seconds": 114.57796899999998,
+    "binary_sha256": "5C9D4109ADAD7362243D1CCB3DD906E50899D4938F88C42415EA3AA78BD3D84F",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-DTB_RGB_BURST=16",
+      "-s",
+      "tb_t06_rgb_burst",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb_native/b16.vvp",
+      "rtl/dma/axi4_final_rgb_frame_dma.sv",
+      "verification/rtl/tb_t06_rgb_burst.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.033921142000053806,
+    "child_cpu_seconds": 0.011141000000009171,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/rgb_native/b16.vvp",
+      "+WIDTH=1920",
+      "+HEIGHT=1080",
+      "+PROFILE=0",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 84.85626279899998,
+    "child_cpu_seconds": 87.52526800000001,
+    "binary_sha256": "29446A9143A8112C24BB82ECA0691510477D9775F5D6C356A22F96B267DFDD40",
+    "vector_sha256": {}
+  }
+]

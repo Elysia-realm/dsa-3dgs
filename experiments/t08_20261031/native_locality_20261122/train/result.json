@@ -1,0 +1,45 @@
+{
+  "status": "CAPTURED_TWO_WINDOWS",
+  "scene": "train",
+  "windows": [
+    {
+      "window": 0,
+      "start_requests": 4096,
+      "end_requests": 4443,
+      "cycles": 292871,
+      "state_updates": 65536,
+      "fills": 65537,
+      "queries": 65539,
+      "hits": 0,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 61441,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 65536,
+      "modeled_write_reduction_percent": 0.0
+    },
+    {
+      "window": 1,
+      "start_requests": 65536,
+      "end_requests": 66235,
+      "cycles": 491508,
+      "state_updates": 65536,
+      "fills": 63717,
+      "queries": 65539,
+      "hits": 1820,
+      "same_index_fill_update": 0,
+      "modeled_evictions": 59741,
+      "modeled_terminal_flush": 4095,
+      "modeled_write_beats": 63836,
+      "modeled_write_reduction_percent": 2.593994140625
+    }
+  ],
+  "trace_sha256": "87E8A8F9645E71B8465B0B413368DED69422853D243A67442EA147EC7D582681",
+  "execution": {
+    "exit_code": 0,
+    "wall_seconds": 3439.241272175,
+    "log_sha256": "2DA042EB1FC2AFEEA125C9B677802C094AFA9DF3318DFF3FFB149261F3FFF616"
+  },
+  "launch_sha256": "50F9DD32E265C35910343A12D15F3F5A97A3E66884B54EBAEB6940153629AB2F",
+  "complete_frame": false,
+  "signed_off": false
+}

@@ -1,0 +1,9 @@
+read_rtlil "D:/3DGS/experiments/t05_20261009/mapping/linear8/generic.il"
+delete t:$scopeinfo
+read_liberty -lib "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib"
+dfflibmap -liberty "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib"
+abc -script "D:/3DGS/experiments/t05_20261009/mapping/linear8/nangate45/abc.script" -liberty "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib" -constr "D:/3DGS/experiments/t05_20261009/mapping/linear8/nangate45/abc.constr" -D 5000
+clean
+check -assert
+tee -o "D:/3DGS/experiments/t05_20261009/mapping/linear8/nangate45/stats.json" stat -json -liberty "D:/3DGS/tmp/toolchains/freepdk45/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr "D:/3DGS/experiments/t05_20261009/mapping/linear8/nangate45/mapped.v"

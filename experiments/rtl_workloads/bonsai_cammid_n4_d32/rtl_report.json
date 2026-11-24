@@ -1,0 +1,37 @@
+{
+  "report_version": 1,
+  "date": "2026-08-09",
+  "simulator": "Icarus Verilog 12",
+  "testbench": "verification/rtl/tb_real_dma_workload.sv",
+  "status": "PASS",
+  "workload_class": "small trained-attribute RTL micro-workload",
+  "scene": "bonsai",
+  "camera_index": 146,
+  "gaussian_count": 4,
+  "resolution": [32, 21],
+  "metrics": {
+    "busy_cycles": 1049,
+    "pixel_commits": 68,
+    "state_cache_misses": 68,
+    "state_read_stall_cycles": 201,
+    "output_commit_stall_cycles": 0,
+    "state_axi_reads": 68,
+    "state_axi_writes": 68,
+    "mean_axi_beats": 4,
+    "attribute_axi_beats": 36
+  },
+  "checks": {
+    "frame_completed": true,
+    "frame_error": false,
+    "mean_beat_count_matches": true,
+    "attribute_beat_count_matches": true,
+    "state_miss_read_count_matches": true,
+    "nonzero_pixel_output": true
+  },
+  "limitations": [
+    "Not a full-scene or full-resolution performance result.",
+    "The selector is scene-wide deterministic priority sampling, not depth/screen-stratified sampling.",
+    "PSNR, SSIM and LPIPS require a complete rendered frame and are not reported here."
+  ],
+  "data_policy": "Generated and verified locally under D:/3DGS; no network upload."
+}

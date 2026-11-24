@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "first_batch": 0,
+  "last_batch": 31,
+  "state_in": null,
+  "frame": "D:\\3DGS\\experiments\\full_frame_batches\\bonsai_cam_mid_d64_c256\\rtl_batches_0000_0031\\frame_state.memh",
+  "frame_sha256": "7CC48BC482B86918DC94D5F8A1B7DCB6BC225EC09914AD6BC8BCD35B561D5D31",
+  "wall_seconds": 164.172,
+  "completed": "2026-08-16T13:51:36.1460964+08:00"
+}

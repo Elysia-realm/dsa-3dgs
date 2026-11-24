@@ -1,0 +1,1265 @@
+%Warning-TIMESCALEMOD: rtl/common/rv_reg_slice.sv:2:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    2 | module rv_reg_slice #(
+      |        ^~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/TIMESCALEMOD?v=5.051
+                       ... Use "/* verilator lint_off TIMESCALEMOD */" and lint_on around source to disable this message.
+%Warning-TIMESCALEMOD: rtl/common/rv_fifo.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module rv_fifo #(
+      |        ^~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/common/fixed_sqrt_pipe.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module fixed_sqrt_pipe #(
+      |        ^~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/control/apb_regfile.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module apb_regfile #(
+      |        ^~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/control/cfg_epoch_ctrl.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module cfg_epoch_ctrl #(
+      |        ^~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/control/gaussian_resource_mode_table.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gaussian_resource_mode_table #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/control/shared_reconfigurable_pe_slice.sv:16:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+   16 | module shared_reconfigurable_pe_slice #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/control/gaussian_mode_advisor.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gaussian_mode_advisor #(
+      |        ^~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/gaussian_depth_prepass_core.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module gaussian_depth_prepass_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/gaussian_depth_prepass_shared_mac.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module gaussian_depth_prepass_shared_mac #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/depth_group_buffer.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module depth_group_buffer #(
+      |        ^~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module autonomous_qsu #(
+      |        ^~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_qsu_scratch_dma.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module axi4_qsu_scratch_dma #(
+      |        ^~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/group_sort_service_gate.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module group_sort_service_gate #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/stable_group_sorter.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module stable_group_sorter #(
+      |        ^~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/bitonic_group_sorter_shared.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module bitonic_group_sorter_shared #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/bitonic_group_sorter_pipelined_shared.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module bitonic_group_sorter_pipelined_shared #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/stable_group_sorter_shared_compare.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module stable_group_sorter_shared_compare #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/stable_group_sorter_parallel_shared.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module stable_group_sorter_parallel_shared #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/ordered_gaussian_retire.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module ordered_gaussian_retire #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sort/ordered_gaussian_attribute_issue.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module ordered_gaussian_attribute_issue #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/memory/sram_1r1w_wrapper.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module sram_1r1w_wrapper #(
+      |        ^~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/memory/gaussian_attribute_store.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module gaussian_attribute_store #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/memory/gaussian_attribute_sram_backend.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module gaussian_attribute_sram_backend #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/fixed_div_pipe2.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module fixed_div_pipe2 #(
+      |        ^~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/world_to_camera_core.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module world_to_camera_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/world_to_camera_shared_mac.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module world_to_camera_shared_mac #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/quaternion_scale_covariance_core.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module quaternion_scale_covariance_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/covariance_view_rotate_core.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module covariance_view_rotate_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/perspective_project_core.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module perspective_project_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/screen_covariance_core.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module screen_covariance_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/opacity_radius_bound.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module opacity_radius_bound (
+      |        ^~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/bbox_tile_bounds_core.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module bbox_tile_bounds_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/covariance2d_cholesky_encoder.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module covariance2d_cholesky_encoder #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/gaussian_tile_task_gen.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gaussian_tile_task_gen #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/camera_projection_tile_lane.sv:7:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    7 | module camera_projection_tile_lane #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/raw_gaussian_projection_lane.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module raw_gaussian_projection_lane #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/projection_lane_scheduler.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module projection_lane_scheduler #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/ordered_projection_lane_scheduler.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module ordered_projection_lane_scheduler #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/projection_epoch_lane_ctrl.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module projection_epoch_lane_ctrl #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/raw_gaussian_projection_array.sv:7:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    7 | module raw_gaussian_projection_array #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/gaussian_projection_sh_fork.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gaussian_projection_sh_fork #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/ordered_projection_sh_join.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module ordered_projection_sh_join #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/ordered_gaussian_block_decoder.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module ordered_gaussian_block_decoder #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sh/view_direction_normalizer.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module view_direction_normalizer #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sh/sh_degree3_color_core.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module sh_degree3_color_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sh/gaussian_sh_color_core.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module gaussian_sh_color_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sh/ordered_sh_lane_scheduler.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module ordered_sh_lane_scheduler #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/sh/gaussian_sh_color_array.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gaussian_sh_color_array #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/gaussian_projection_sh_array.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module gaussian_projection_sh_array #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/block_termination_bank.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module block_termination_bank #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/block_termination_table.sv:9:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    9 | module block_termination_table #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/raster_termination_filter.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module raster_termination_filter #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/pixel_termination_mask.sv:8:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    8 | module pixel_termination_mask #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/alpha_block_float_core.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module alpha_block_float_core #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/raster_alpha_lane_array.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module raster_alpha_lane_array #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/blend_fixed_core.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module blend_fixed_core #(
+      |        ^~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/image_state_store.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module image_state_store #(
+      |        ^~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/image_state_cache_backend.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module image_state_cache_backend #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/image_state_cache_backend_single.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module image_state_cache_backend_single #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/image_state_cache_backend_4.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module image_state_cache_backend_4 #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/blend_state_commit.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module blend_state_commit #(
+      |        ^~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/blend_state_commit_4.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module blend_state_commit_4 #(
+      |        ^~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/raster_pixel_termination_filter.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module raster_pixel_termination_filter #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/raster_pair_shell.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module raster_pair_shell #(
+      |        ^~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/gaussian_shape_block_reject.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gaussian_shape_block_reject #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/raster/gaussian_block_pixel_expander.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gaussian_block_pixel_expander #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/build/ordered_block_raster_frontend.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module ordered_block_raster_frontend #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/build/gaussian_ordered_render_frontend.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module gaussian_ordered_render_frontend #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/build/gaussian_sorted_render_pipeline.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module gaussian_sorted_render_pipeline #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/build/gaussian_frame_render_pipeline.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module gaussian_frame_render_pipeline #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_camera_config_read_dma.sv:13:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+   13 | module axi4_camera_config_read_dma #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_gaussian_mean_read_dma.sv:10:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+   10 | module axi4_gaussian_mean_read_dma #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_gaussian_attribute_read_engine.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module axi4_gaussian_attribute_read_engine #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_pixel_state_write_engine.sv:6:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    6 | module axi4_pixel_state_write_engine #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_pixel_state_write_buffer.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module axi4_pixel_state_write_buffer #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_pixel_state_writeback_buffer.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module axi4_pixel_state_writeback_buffer #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_pixel_state_multiwrite_buffer.sv:10:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+   10 | module axi4_pixel_state_multiwrite_buffer #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_pixel_state_read_engine.sv:2:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    2 | module axi4_pixel_state_read_engine #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_pixel_state_dual_read_engine.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module axi4_pixel_state_dual_read_engine #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_pixel_state_quad_read_engine.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module axi4_pixel_state_quad_read_engine #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/dma/axi4_final_rgb_frame_dma.sv:8:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    8 | module axi4_final_rgb_frame_dma #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/gs_accel_system_top.sv:4:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    4 | module gs_accel_system_top #(
+      |        ^~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/t08_attribute_decoder.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module t08_attribute_decoder (
+      |        ^~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/build/axi4_t08_attribute_read_engine.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module axi4_t08_attribute_read_engine #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: rtl/projection/gaussian_bbox_axis0_serial.sv:5:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    5 | module gaussian_bbox_axis0_serial #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-TIMESCALEMOD: /mnt/d/3DGS/rtl/raster/terminated_block_counter.sv:3:8: Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)
+    3 | module terminated_block_counter #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~
+                       /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:2:8: ... Location of module with timescale
+    2 | module tb_t08_native_eight_shared;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-WIDTHEXPAND: rtl/sort/ordered_gaussian_retire.sv:29:33: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'count_q' generates 5 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.u_order.u_retire'
+   29 |     assign issue_ready_o=count_q<DEPTH;assign issue_accept=issue_valid_i&&issue_ready_o;
+      |                                 ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.051
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/sort/ordered_gaussian_retire.sv:53:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'write_ptr_q' generates 4 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.u_order.u_retire'
+   53 |           write_ptr_q<=write_ptr_q==DEPTH-1?'0:write_ptr_q+1'b1;end
+      |                                   ^~
+%Warning-WIDTHEXPAND: rtl/sort/ordered_gaussian_retire.sv:60:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'read_ptr_q' generates 4 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.u_order.u_retire'
+   60 |             read_ptr_q<=read_ptr_q==DEPTH-1?'0:read_ptr_q+1'b1;
+      |                                   ^~
+%Warning-WIDTHEXPAND: rtl/projection/gaussian_bbox_axis0_serial.sv:64:56: Operator GTE expects 33 bits on the RHS, but RHS's VARREF 'threshold' generates 13 bits.
+                                                                        : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane.u_camera_lane.g_serial_bbox.u_serial'
+   64 |             SCALE:if(scale_q==0||(scale_q<0&&distance_q>=threshold))phase<=DONE;
+      |                                                        ^~
+%Warning-WIDTHEXPAND: rtl/projection/gaussian_bbox_axis0_serial.sv:74:64: Operator SUB expects 29 bits on the LHS, but LHS's SIGNED generates 25 bits.
+                                                                        : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane.u_camera_lane.g_serial_bbox.u_serial'
+   74 |             DELTA:displacement_q<=$signed({1'b0,endpoint,8'd0})-29'($signed(center));
+      |                                                                ^
+%Warning-WIDTHEXPAND: rtl/projection/gaussian_bbox_axis0_serial.sv:104:30: Operator GTE expects 33 bits on the RHS, but RHS's VARREF 'threshold' generates 13 bits.
+                                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane.u_camera_lane.g_serial_bbox.u_serial'
+  104 |                 if(distance_q>=threshold)proven_q<=1;
+      |                              ^~
+%Warning-WIDTHTRUNC: rtl/sh/ordered_sh_lane_scheduler.sv:33:52: Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'LANES' generates 32 bits.
+                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.u_order'
+   33 |       else if(cfg_active_lanes_i>LANES)active_count=LANES;else active_count=cfg_active_lanes_i;
+      |                                                    ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=5.051
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: rtl/sh/ordered_sh_lane_scheduler.sv:33:33: Operator GT expects 32 bits on the LHS, but LHS's VARREF 'cfg_active_lanes_i' generates 3 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.u_order'
+   33 |       else if(cfg_active_lanes_i>LANES)active_count=LANES;else active_count=cfg_active_lanes_i;
+      |                                 ^
+%Warning-WIDTHEXPAND: rtl/sh/ordered_sh_lane_scheduler.sv:51:35: Operator GTE expects 3 bits on the LHS, but LHS's VARREF 'dispatch_index_q' generates 2 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.u_order'
+   51 |       end else if(dispatch_index_q>=active_count)dispatch_index_q<='0;
+      |                                   ^~
+%Warning-WIDTHEXPAND: rtl/raster/alpha_block_float_core.sv:77:34: Operator SUB expects 32 bits on the RHS, but RHS's VARREF 'shift' generates 7 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.g_lane[3].u_alpha'
+   77 |                 right_shift = 12 - shift;
+      |                                  ^
+%Warning-WIDTHTRUNC: rtl/raster/alpha_block_float_core.sv:116:27: Operator ASSIGNW expects 22 bits on the Assign RHS, but Assign RHS's SHIFTR generates 31 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.g_lane[3].u_alpha'
+  116 |     assign magnitude_wide = (quadratic_q20 + 31'd256) >> 9;
+      |                           ^
+%Warning-WIDTHEXPAND: rtl/raster/alpha_block_float_core.sv:120:9: Operator COND expects 24 bits on the Conditional True, but Conditional True's CONST '8'h0' generates 8 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.g_lane[3].u_alpha'
+  120 |         ? 8'd0 : 8'd255 - ((lut_scale_product + 24'd32768) >> 16);
+      |         ^
+%Warning-WIDTHEXPAND: rtl/raster/alpha_block_float_core.sv:120:25: Operator SUB expects 24 bits on the LHS, but LHS's CONST '8'hff' generates 8 bits.
+                                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.g_lane[3].u_alpha'
+  120 |         ? 8'd0 : 8'd255 - ((lut_scale_product + 24'd32768) >> 16);
+      |                         ^
+%Warning-WIDTHTRUNC: rtl/raster/alpha_block_float_core.sv:119:22: Operator ASSIGNW expects 8 bits on the Assign RHS, but Assign RHS's COND generates 24 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.g_lane[3].u_alpha'
+  119 |     assign lut_index = magnitude_q12 >= 16'hffff
+      |                      ^
+%Warning-WIDTHTRUNC: rtl/raster/alpha_block_float_core.sv:139:30: Operator ASSIGNW expects 14 bits on the Assign RHS, but Assign RHS's SHIFTR generates 26 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.g_lane[3].u_alpha'
+  139 |     assign rounded_alpha_q12 = (alpha_product_q24 + 26'd2048) >> 12;
+      |                              ^
+%Warning-WIDTHEXPAND: rtl/raster/alpha_block_float_core.sv:140:52: Operator GT expects 14 bits on the RHS, but RHS's VARREF 'ALPHA_MAX_Q12' generates 13 bits.
+                                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_raster.u_alpha_array.g_lane[3].u_alpha'
+  140 |     assign saturated_alpha_q12 = rounded_alpha_q12 > ALPHA_MAX_Q12
+      |                                                    ^
+%Warning-WIDTHEXPAND: rtl/sh/view_direction_normalizer.sv:40:38: Operator COND expects 32 bits on the Conditional False, but Conditional False's VARREF 's_dz_q16_i' generates 28 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_sh.g_lane[3].u_core.u_normalize'
+   40 |     assign effective_z=zero_direction?$signed(1<<<16):s_dz_q16_i;
+      |                                      ^
+%Warning-WIDTHTRUNC: rtl/sh/view_direction_normalizer.sv:40:23: Operator ASSIGNW expects 28 bits on the Assign RHS, but Assign RHS's COND generates 32 bits.
+                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_sh.g_lane[3].u_core.u_normalize'
+   40 |     assign effective_z=zero_direction?$signed(1<<<16):s_dz_q16_i;
+      |                       ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/camera_projection_tile_lane.sv:183:27: Operator ASSIGNW expects 12 bits on the Assign RHS, but Assign RHS's SHIFTR generates 16 bits.
+                                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane.u_camera_lane'
+  183 |     assign encoded_tile_x0=encoded_x0>>3;
+      |                           ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/camera_projection_tile_lane.sv:184:27: Operator ASSIGNW expects 12 bits on the Assign RHS, but Assign RHS's SHIFTR generates 16 bits.
+                                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane.u_camera_lane'
+  184 |     assign encoded_tile_y0=encoded_y0>>3;
+      |                           ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/camera_projection_tile_lane.sv:185:27: Operator ASSIGNW expects 12 bits on the Assign RHS, but Assign RHS's COND generates 16 bits.
+                                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane.u_camera_lane'
+  185 |     assign encoded_tile_x1=encoded_keep?((encoded_x1-1'b1)>>3):'0;
+      |                           ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/camera_projection_tile_lane.sv:186:27: Operator ASSIGNW expects 12 bits on the Assign RHS, but Assign RHS's COND generates 16 bits.
+                                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane.u_camera_lane'
+  186 |     assign encoded_tile_y1=encoded_keep?((encoded_y1-1'b1)>>3):'0;
+      |                           ^
+%Warning-WIDTHEXPAND: rtl/common/rv_fifo.sv:14:33: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'occupancy_o' generates 5 bits.
+                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_join.u_sh_fifo'
+   14 |     assign s_ready_o=occupancy_o<DEPTH;assign m_valid_o=occupancy_o!=0;
+      |                                 ^
+%Warning-WIDTHEXPAND: rtl/common/rv_fifo.sv:19:56: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'write_q' generates 4 bits.
+                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_join.u_sh_fifo'
+   19 |         if(push)begin mem[write_q]<=s_data_i;if(write_q==DEPTH-1)write_q<='0;else write_q<=write_q+1'b1;end
+      |                                                        ^~
+%Warning-WIDTHEXPAND: rtl/common/rv_fifo.sv:20:31: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'read_q' generates 4 bits.
+                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_join.u_sh_fifo'
+   20 |         if(pop)begin if(read_q==DEPTH-1)read_q<='0;else read_q<=read_q+1'b1;end
+      |                               ^~
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/raw_gaussian_projection_lane.sv:84:26: Operator ASSIGNW expects 93 bits on the Assign RHS, but Assign RHS's SHIFTR generates 342 bits.
+                                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_lane[3].u_lane'
+   84 |     assign world_cov_meta=world_result_meta>>(ENABLE_COMPRESSED_ATTRIBUTES?249:0);
+      |                          ^
+%Warning-WIDTHTRUNC: rtl/projection/ordered_projection_lane_scheduler.sv:39:52: Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'LANES' generates 32 bits.
+                                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.u_scheduler'
+   39 |       else if(cfg_active_lanes_i>LANES)active_count=LANES;else active_count=cfg_active_lanes_i;
+      |                                                    ^
+%Warning-WIDTHEXPAND: rtl/projection/ordered_projection_lane_scheduler.sv:39:33: Operator GT expects 32 bits on the LHS, but LHS's VARREF 'cfg_active_lanes_i' generates 3 bits.
+                                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.u_scheduler'
+   39 |       else if(cfg_active_lanes_i>LANES)active_count=LANES;else active_count=cfg_active_lanes_i;
+      |                                 ^
+%Warning-WIDTHEXPAND: rtl/projection/ordered_projection_lane_scheduler.sv:64:35: Operator GTE expects 3 bits on the LHS, but LHS's VARREF 'dispatch_index_q' generates 2 bits.
+                                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.u_scheduler'
+   64 |       end else if(dispatch_index_q>=active_count)dispatch_index_q<='0;
+      |                                   ^~
+%Warning-WIDTHTRUNC: rtl/projection/projection_epoch_lane_ctrl.sv:35:28: Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'HALF' generates 32 bits.
+                                                                       : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.u_mode'
+   35 |         2'd0:active_lanes_o=HALF;
+      |                            ^
+%Warning-WIDTHTRUNC: rtl/projection/projection_epoch_lane_ctrl.sv:36:28: Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'LANES' generates 32 bits.
+                                                                       : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.u_mode'
+   36 |         2'd1:active_lanes_o=LANES;
+      |                            ^
+%Warning-WIDTHTRUNC: rtl/projection/projection_epoch_lane_ctrl.sv:37:28: Operator ASSIGN expects 3 bits on the Assign RHS, but Assign RHS's VARREF 'HALF' generates 32 bits.
+                                                                       : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.u_mode'
+   37 |         2'd2:active_lanes_o=HALF;
+      |                            ^
+%Warning-WIDTHEXPAND: rtl/projection/world_to_camera_shared_mac.sv:86:50: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'issued_q' generates 4 bits.
+                                                                        : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_shared_mean.u_mean'
+   86 |     assign pe_req_valid_o=(state_q==RUN&&issued_q<REQUESTS&&acc_valid_q[issue_axis_q])||first_launch;
+      |                                                  ^
+%Warning-WIDTHEXPAND: rtl/projection/world_to_camera_shared_mac.sv:130:28: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'received_q' generates 4 bits.
+                                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection.g_shared_mean.u_mean'
+  130 |               if(received_q==REQUESTS-1)state_q<=OUT;
+      |                            ^~
+%Warning-WIDTHEXPAND: rtl/common/rv_fifo.sv:14:33: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'occupancy_o' generates 3 bits.
+                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_fork.u_sh_fifo'
+   14 |     assign s_ready_o=occupancy_o<DEPTH;assign m_valid_o=occupancy_o!=0;
+      |                                 ^
+%Warning-WIDTHEXPAND: rtl/common/rv_fifo.sv:19:56: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'write_q' generates 2 bits.
+                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_fork.u_sh_fifo'
+   19 |         if(push)begin mem[write_q]<=s_data_i;if(write_q==DEPTH-1)write_q<='0;else write_q<=write_q+1'b1;end
+      |                                                        ^~
+%Warning-WIDTHEXPAND: rtl/common/rv_fifo.sv:20:31: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'read_q' generates 2 bits.
+                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_fork.u_sh_fifo'
+   20 |         if(pop)begin if(read_q==DEPTH-1)read_q<='0;else read_q<=read_q+1'b1;end
+      |                               ^~
+%Warning-WIDTHEXPAND: rtl/raster/gaussian_block_pixel_expander.sv:41:19: Operator ASSIGN expects 64 bits on the Assign RHS, but Assign RHS's SIGNED generates 18 bits.
+                                                                       : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_expand'
+   41 |         pixel_wide=$signed({1'b0,pixel});pixel_q8=pixel_wide<<<8;
+      |                   ^
+%Warning-WIDTHEXPAND: rtl/raster/gaussian_block_pixel_expander.sv:44:43: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's VARREF 'coordinate_shift' generates 6 bits.
+                                                                       : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.u_expand'
+   44 |         if(coordinate_shift>=0)begin shift=coordinate_shift;
+      |                                           ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/raw_gaussian_projection_array.sv:146:46: Operator ASSIGNW expects 334 bits on the Assign RHS, but Assign RHS's SHIFTR generates 584 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front.u_projection'
+  146 |         lane_sx,lane_sy,lane_sz,lane_opacity}=lane_s_data[lane]>>(1+(ENABLE_COMPRESSED_ATTRIBUTES?249:0));
+      |                                              ^
+%Warning-WIDTHEXPAND: rtl/raster/gaussian_shape_block_reject.sv:26:19: Operator ASSIGN expects 64 bits on the Assign RHS, but Assign RHS's SIGNED generates 18 bits.
+                                                                     : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.gen_shape_reject.u_shape_reject'
+   26 |         pixel_wide=$signed({1'b0,pixel});pixel_q8=pixel_wide<<<8;
+      |                   ^
+%Warning-WIDTHEXPAND: rtl/raster/gaussian_shape_block_reject.sv:28:43: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's VARREF 'coordinate_shift' generates 6 bits.
+                                                                     : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.gen_shape_reject.u_shape_reject'
+   28 |         if(coordinate_shift>=0)begin shift=coordinate_shift;
+      |                                           ^
+%Warning-WIDTHEXPAND: rtl/raster/gaussian_shape_block_reject.sv:49:38: Operator SUB expects 32 bits on the RHS, but RHS's VARREF 'shift' generates 7 bits.
+                                                                     : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster.gen_shape_reject.u_shape_reject'
+   49 |         end else begin right_shift=12-shift;
+      |                                      ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/build/ordered_block_raster_frontend.sv:66:49: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'block_x_i' generates 12 bits.
+                                                                                                                                  : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_raster'
+   66 |     assign block_linear=block_y_i*blocks_per_row+block_x_i;
+      |                                                 ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/build/gaussian_projection_sh_array.sv:94:68: Operator ASSIGNW expects 334 bits on the Assign RHS, but Assign RHS's SHIFTR generates 583 bits.
+                                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render.u_front'
+   94 |       projection_sx,projection_sy,projection_sz,projection_opacity}=fork_projection_out>>(ENABLE_COMPRESSED_ATTRIBUTES?249:0);
+      |                                                                    ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/build/gaussian_ordered_render_frontend.sv:149:8: Output port connection 'r_pe_lhs_o' expects 32 bits on the pin connection, but pin connection's VARREF 'r_pe_lhs_o' generates 96 bits.
+                                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render'
+  149 |       .r_pe_lhs_o(r_pe_lhs_o),.r_pe_rhs_o(r_pe_rhs_o),
+      |        ^~~~~~~~~~
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/build/gaussian_ordered_render_frontend.sv:149:32: Output port connection 'r_pe_rhs_o' expects 32 bits on the pin connection, but pin connection's VARREF 'r_pe_rhs_o' generates 96 bits.
+                                                                                                                                     : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_render.u_render'
+  149 |       .r_pe_lhs_o(r_pe_lhs_o),.r_pe_rhs_o(r_pe_rhs_o),
+      |                                ^~~~~~~~~~
+%Warning-WIDTHEXPAND: rtl/sort/bitonic_group_sorter_pipelined_shared.sv:127:45: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'collect_count' generates 5 bits.
+                                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_shared_sort.g_bitonic_pipeline.u_sort'
+  127 |                   (!s_empty_i&&collect_count==CAPACITY)||
+      |                                             ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:126:62: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'sp_q' generates 8 bits.
+                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  126 |             if(rst_ni&&state_q==PUSH&&counts[push_q]!=0&&sp_q<STACK_DEPTH&&!mem_error_i)
+      |                                                              ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:148:48: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                                                                                   : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  148 |     assign m_depth_o=leaf_mem[leaf_read_bank_q][leaf_emit_pos_q][SEQ_W+GID_W+:DEPTH_W];
+      |                                                ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:149:46: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                                                                                   : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  149 |     assign m_gid_o=leaf_mem[leaf_read_bank_q][leaf_emit_pos_q][SEQ_W+:GID_W];
+      |                                              ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:150:46: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                                                                                   : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  150 |     assign m_seq_o=leaf_mem[leaf_read_bank_q][leaf_emit_pos_q][0+:SEQ_W];
+      |                                              ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:182:20: Operator GT expects 32 bits on the LHS, but LHS's VARREF 'sp_q' generates 8 bits.
+                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  182 |             if(sp_q>perf_peak_stack_o)perf_peak_stack_o<=32'(sp_q);
+      |                    ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:306:32: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'sp_q' generates 8 bits.
+                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  306 |                         if(sp_q==STACK_DEPTH)begin error_o<=1;state_q<=FAIL_DRAIN;end
+      |                                ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:313:49: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'sp_q' generates 8 bits.
+                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  313 |                     if(!(counts[push_q]!=0&&sp_q==STACK_DEPTH))begin
+      |                                                 ^~
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:337:48: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                                                                                   : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  337 |                     leaf_mem[leaf_write_bank_q][leaf_pos_q]<=stream_data[KEY_W-1:0];
+      |                                                ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/qsu_root_precount_20261122/build/autonomous_qsu.sv:338:34: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'leaf_pos_q' generates 5 bits.
+                                                                                                                    : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.g_auto_qsu.u_qsu'
+  338 |                     if(leaf_pos_q==CAPACITY-1||stream_last)begin
+      |                                  ^~
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:44:25: Operator ASSIGN expects 2 bits on the Assign RHS, but Assign RHS's SUB generates 32 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   44 |         else write_group=GROUPS-1;
+      |                         ^
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:49:45: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   49 |     assign m_depth_o=depth_mem[read_group_q][read_index_q];
+      |                                             ^
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:50:41: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   50 |     assign m_gid_o=gid_mem[read_group_q][read_index_q];
+      |                                         ^
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:51:41: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   51 |     assign m_seq_o=seq_mem[read_group_q][read_index_q];
+      |                                         ^
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:52:49: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   52 |     assign m_payload_o=payload_mem[read_group_q][read_index_q];
+      |                                                 ^
+%Warning-WIDTHEXPAND: rtl/sort/depth_group_buffer.sv:58:35: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'read_group_q' generates 2 bits.
+                                                          : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   58 |     assign last_group=read_group_q==GROUPS-1;
+      |                                   ^~
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:77:37: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   77 |               depth_mem[write_group][count_q[write_group]]<=s_depth_i;
+      |                                     ^
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:78:35: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   78 |               gid_mem[write_group][count_q[write_group]]<=s_gid_i;
+      |                                   ^
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:79:35: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   79 |               seq_mem[write_group][count_q[write_group]]<=s_seq_i;
+      |                                   ^
+%Warning-WIDTHTRUNC: rtl/sort/depth_group_buffer.sv:80:39: Bit extraction of array[15:0] requires 4 bit index, not 5 bits.
+                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   80 |               payload_mem[write_group][count_q[write_group]]<=s_payload_i;
+      |                                       ^
+%Warning-WIDTHEXPAND: rtl/sort/depth_group_buffer.sv:76:36: Operator LT expects 32 bits on the LHS, but LHS's ARRAYSEL generates 5 bits.
+                                                          : ... note: In instance 'tb_t08_native_eight_shared.dut.u_frame.u_group'
+   76 |             if(count_q[write_group]<CAPACITY)begin
+      |                                    ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/build/axi4_t08_attribute_read_engine.sv:39:24: Operator ASSIGNW expects 9 bits on the Assign RHS, but Assign RHS's SHIFTR generates 13 bits.
+                                                                                                                                     : ... note: In instance 'tb_t08_native_eight_shared.dut.g_t08_attr.u_attr_dma'
+   39 |   assign boundary_beats=(13'd4096-{1'b0,address_q[11:0]})>>4;
+      |                        ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/build/axi4_t08_attribute_read_engine.sv:42:33: Operator LT expects 9 bits on the RHS, but RHS's VARREF 'remaining_q' generates 4 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared.dut.g_t08_attr.u_attr_dma'
+   42 |                  (boundary_beats<remaining_q?boundary_beats[3:0]:remaining_q);
+      |                                 ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:67:50: Operator COND expects 29 bits on the Conditional True, but Conditional True's VARREF 'background' generates 13 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   67 |         background_part=(transmittance==16'hffff)?background:(product+29'd32768)>>16;
+      |                                                  ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_final_rgb_frame_dma.sv:67:24: Operator ASSIGN expects 13 bits on the Assign RHS, but Assign RHS's COND generates 29 bits.
+                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   67 |         background_part=(transmittance==16'hffff)?background:(product+29'd32768)>>16;
+      |                        ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_final_rgb_frame_dma.sv:77:61: Operator ASSIGN expects 8 bits on the Assign RHS, but Assign RHS's SHIFTR generates 21 bits.
+                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   77 |         else begin scaled=value*8'd255+21'd2048;quantize_q12=scaled>>12;end
+      |                                                             ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:84:38: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'row_pixel_q' generates 16 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   84 |     assign global_pixel=row_q*width_i+row_pixel_q+read_pixel_q;
+      |                                      ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:84:50: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'read_pixel_q' generates 7 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   84 |     assign global_pixel=row_q*width_i+row_pixel_q+read_pixel_q;
+      |                                                  ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_final_rgb_frame_dma.sv:88:22: Operator ASSIGNW expects 9 bits on the Assign RHS, but Assign RHS's SHIFTR generates 13 bits.
+                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   88 |     assign page_beats=(13'd4096-{1'b0,write_addr[11:0]})>>SIZE_CODE;
+      |                      ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_final_rgb_frame_dma.sv:89:27: Operator ASSIGNW expects 9 bits on the Assign RHS, but Assign RHS's SHIFTR generates 13 bits.
+                                                              : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   89 |     assign read_page_beats=(13'd4096-{1'b0,read_addr[11:0]})>>SIZE_CODE;
+      |                           ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:91:38: Operator SUB expects 9 bits on the LHS, but LHS's VARREF 'chunk_pixels_q' generates 7 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   91 |       read_burst_beats=chunk_pixels_q-read_pixel_q;
+      |                                      ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:91:38: Operator SUB expects 9 bits on the RHS, but RHS's VARREF 'read_pixel_q' generates 7 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   91 |       read_burst_beats=chunk_pixels_q-read_pixel_q;
+      |                                      ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:92:26: Operator GT expects 32 bits on the LHS, but LHS's VARREF 'read_burst_beats' generates 9 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+   92 |       if(read_burst_beats>READ_BURST_BEATS)read_burst_beats=9'(READ_BURST_BEATS);
+      |                          ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:101:41: Operator SUB expects 8 bits on the LHS, but LHS's VARREF 'segment_beats_q' generates 4 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  101 |     assign m_axi_awlen_o=segment_beats_q-1'b1;assign m_axi_awsize_o=SIZE_CODE[2:0];
+      |                                         ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:110:59: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'segment_start_q' generates 4 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  110 |         m_axi_wdata_o[lane*8+:8]=byte_mem[(segment_start_q+write_beat_q)*BEAT_BYTES+lane];
+      |                                                           ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:110:59: Operator ADD expects 32 bits on the RHS, but RHS's VARREF 'write_beat_q' generates 4 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  110 |         m_axi_wdata_o[lane*8+:8]=byte_mem[(segment_start_q+write_beat_q)*BEAT_BYTES+lane];
+      |                                                           ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_final_rgb_frame_dma.sv:139:32: Operator ASSIGNDLY expects 7 bits on the Assign RHS, but Assign RHS's SUB generates 16 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  139 |             else chunk_pixels_q<=width_i-row_pixel_q;
+      |                                ^~
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:137:23: Operator SUB expects 32 bits on the LHS, but LHS's VARREF 'width_i' generates 16 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  137 |             if(width_i-row_pixel_q>CHUNK_PIXELS)
+      |                       ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:137:23: Operator SUB expects 32 bits on the RHS, but RHS's VARREF 'row_pixel_q' generates 16 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  137 |             if(width_i-row_pixel_q>CHUNK_PIXELS)
+      |                       ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_final_rgb_frame_dma.sv:142:31: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's SHIFTR generates 32 or 16 bits.
+                                                               : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  142 |             else chunk_beats_q<=(((width_i-row_pixel_q)*3)+15)>>4;
+      |                               ^~
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:140:23: Operator SUB expects 32 bits on the LHS, but LHS's VARREF 'width_i' generates 16 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  140 |             if(width_i-row_pixel_q>CHUNK_PIXELS)
+      |                       ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:140:23: Operator SUB expects 32 bits on the RHS, but RHS's VARREF 'row_pixel_q' generates 16 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  140 |             if(width_i-row_pixel_q>CHUNK_PIXELS)
+      |                       ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:164:42: Operator LT expects 9 bits on the RHS, but RHS's VARREF 'chunk_beats_q' generates 4 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  164 |               segment_beats_q<=page_beats<chunk_beats_q?page_beats[BEAT_COUNT_W-1:0]:chunk_beats_q;
+      |                                          ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:185:39: Operator ADD expects 16 bits on the RHS, but RHS's VARREF 'chunk_pixels_q' generates 7 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  185 |               row_pixel_q<=row_pixel_q+chunk_pixels_q;state_q<=S_CHUNK_INIT;
+      |                                       ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_final_rgb_frame_dma.sv:184:36: Operator ADD expects 16 bits on the RHS, but RHS's VARREF 'chunk_pixels_q' generates 7 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.g_final_rgb.u_final_rgb_dma'
+  184 |             end else if(row_pixel_q+chunk_pixels_q<width_i)begin
+      |                                    ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_pixel_state_multiwrite_buffer.sv:63:33: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'occupancy_o' generates 4 bits.
+                                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_output..g_multiwrite.u_output_dma'
+   63 |     assign s_ready_o=occupancy_o<DEPTH||b_fire;
+      |                                 ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_pixel_state_multiwrite_buffer.sv:88:32: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'response_q' generates 3 bits.
+                                                                         : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_output..g_multiwrite.u_output_dma'
+   88 |         lookup_index=response_q+lookup_offset;
+      |                                ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_pixel_state_multiwrite_buffer.sv:110:33: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'response_q' generates 3 bits.
+                                                                          : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_output..g_multiwrite.u_output_dma'
+  110 |           response_q<=response_q==DEPTH-1?'0:response_q+1'b1;
+      |                                 ^~
+%Warning-WIDTHEXPAND: rtl/dma/axi4_pixel_state_multiwrite_buffer.sv:118:27: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'write_q' generates 3 bits.
+                                                                          : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_output..g_multiwrite.u_output_dma'
+  118 |           write_q<=write_q==DEPTH-1?'0:write_q+1'b1;
+      |                           ^~
+%Warning-WIDTHEXPAND: rtl/dma/axi4_pixel_state_multiwrite_buffer.sv:123:27: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'issue_q' generates 3 bits.
+                                                                          : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_output..g_multiwrite.u_output_dma'
+  123 |           issue_q<=issue_q==DEPTH-1?'0:issue_q+1'b1;
+      |                           ^~
+%Warning-WIDTHTRUNC: rtl/dma/axi4_camera_config_read_dma.sv:66:21: Operator ASSIGN expects 9 bits on the Assign RHS, but Assign RHS's SHIFTR generates 13 bits.
+                                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_camera.u_camera_dma'
+   66 |       boundary_beats=bytes_to_boundary>>SIZE_CODE;
+      |                     ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_camera_config_read_dma.sv:68:24: Operator LT expects 9 bits on the RHS, but RHS's VARREF 'planned_beats' generates 5 bits.
+                                                                  : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_camera.u_camera_dma'
+   68 |       if(boundary_beats<planned_beats)planned_beats=boundary_beats[4:0];
+      |                        ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_camera_config_read_dma.sv:76:39: Operator SUB expects 8 bits on the LHS, but LHS's VARREF 'planned_beats' generates 5 bits.
+                                                                  : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_camera.u_camera_dma'
+   76 |     assign m_axi_arlen_o=planned_beats-1'b1;
+      |                                       ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_camera_config_read_dma.sv:130:67: Operator ASSIGNDLY expects 5 bits on the Assign RHS, but Assign RHS's VARREF 'BEATS' generates 32 bits.
+                                                                  : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_camera.u_camera_dma'
+  130 |             error_status_o<=0;next_addr_q<=base_addr_i;remaining_q<=BEATS;global_beat_q<=0;
+      |                                                                   ^~
+%Warning-WIDTHTRUNC: rtl/dma/axi4_gaussian_mean_read_dma.sv:72:24: Operator ASSIGN expects 9 bits on the Assign RHS, but Assign RHS's SHIFTR generates 13 bits.
+                                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_mean.u_mean_dma'
+   72 |         boundary_beats = bytes_to_boundary >> SIZE_CODE;
+      |                        ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_gaussian_mean_read_dma.sv:73:23: Operator ASSIGN expects 9 bits on the Assign RHS, but Assign RHS's VARREF 'MAX_BURST_BEATS' generates 32 bits.
+                                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_mean.u_mean_dma'
+   73 |         planned_beats = MAX_BURST_BEATS;
+      |                       ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_gaussian_mean_read_dma.sv:90:26: Operator ASSIGNW expects 8 bits on the Assign RHS, but Assign RHS's SUB generates 9 bits.
+                                                                 : ... note: In instance 'tb_t08_native_eight_shared.dut.g_axi_mean.u_mean_dma'
+   90 |     assign m_axi_arlen_o = planned_beats - 1'b1;
+      |                          ^
+%Warning-WIDTHTRUNC: rtl/dma/axi4_qsu_scratch_dma.sv:47:64: Operator ASSIGN expects 9 bits on the Assign RHS, but Assign RHS's SHIFTR generates 13 bits.
+                                                          : ... note: In instance 'tb_t08_native_eight_shared.dut.u_qsu_dma'
+   47 |         boundary_bytes=13'd4096-{1'b0,next_addr[11:0]};boundary=boundary_bytes>>4;
+      |                                                                ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_qsu_scratch_dma.sv:91:27: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'used' generates 5 bits.
+                                                           : ... note: In instance 'tb_t08_native_eight_shared.dut.u_qsu_dma'
+   91 |     assign wr_ready_o=used<WRITE_DEPTH||b_fire;
+      |                           ^
+%Warning-WIDTHEXPAND: rtl/dma/axi4_qsu_scratch_dma.sv:104:19: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'p' generates 4 bits.
+                                                            : ... note: In instance 'tb_t08_native_eight_shared.dut.u_qsu_dma'
+  104 |         next_ptr=p==WRITE_DEPTH-1?'0:p+1'b1;
+      |                   ^~
+%Warning-WIDTHEXPAND: rtl/control/gaussian_mode_advisor.sv:56:30: Operator EQ expects 32 bits on the LHS, but LHS's VARREF 'cycle_q' generates 8 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_mode_advisor'
+   56 |     assign window_end=cycle_q==WINDOW_CYCLES-1;
+      |                              ^~
+%Warning-WIDTHEXPAND: rtl/control/gaussian_mode_advisor.sv:58:36: Operator GTE expects 32 bits on the LHS, but LHS's VARREF 'residence_q' generates 3 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_mode_advisor'
+   58 |     assign residence_ok=residence_q>=MIN_RESIDENCE_WINDOWS;
+      |                                    ^~
+%Warning-WIDTHEXPAND: rtl/control/gaussian_mode_advisor.sv:87:47: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'residence_q' generates 3 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_mode_advisor'
+   87 |           if(!mode_commit_pulse_i&&residence_q<MIN_RESIDENCE_WINDOWS)residence_q<=residence_q+1'b1;
+      |                                               ^
+%Warning-WIDTHEXPAND: rtl/control/gaussian_mode_advisor.sv:90:27: Operator LT expects 32 bits on the LHS, but LHS's VARREF 'streak_q' generates 2 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_mode_advisor'
+   90 |           else if(streak_q<HYSTERESIS_WINDOWS)streak_q<=streak_q+1'b1;
+      |                           ^
+%Warning-WIDTHEXPAND: rtl/control/gaussian_mode_advisor.sv:92:43: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'streak_q' generates 2 bits.
+                                                                : ... note: In instance 'tb_t08_native_eight_shared.dut.u_mode_advisor'
+   92 |              winner==candidate_q&&streak_q+1>=HYSTERESIS_WINDOWS)begin
+      |                                           ^
+%Warning-WIDTHEXPAND: rtl/control/apb_regfile.sv:182:56: Operator SUB expects 32 bits on the RHS, but RHS's CONST '12'hd4' generates 12 bits.
+                                                       : ... note: In instance 'tb_t08_native_eight_shared.dut.u_apb'
+  182 |                 prdata_o=qsu_stats_i[32*((int'(paddr_i)-12'h0d4)>>2)+:32];
+      |                                                        ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:42:84: Operator COND expects 64 bits on the Conditional True, but Conditional True's VARREF 'first_count' generates 32 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+   42 |         t08_expected_beats<=t08_expected_beats+((t08_format==2&&first_count>useful)?first_count:useful);
+      |                                                                                    ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:42:84: Operator COND expects 64 bits on the Conditional False, but Conditional False's VARREF 'useful' generates 32 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+   42 |         t08_expected_beats<=t08_expected_beats+((t08_format==2&&first_count>useful)?first_count:useful);
+      |                                                                                    ^
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:12:54: Operator MODDIV expects 64 bits on the RHS, but RHS's VARREF 'ready_period' generates 32 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   12 |     m_axi_qsu_arready_i=(qsu_read_left==0)&&(qsu_tick%ready_period>=ready_low);
+      |                                                      ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:12:67: Operator GTE expects 64 bits on the RHS, but RHS's VARREF 'ready_low' generates 32 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   12 |     m_axi_qsu_arready_i=(qsu_read_left==0)&&(qsu_tick%ready_period>=ready_low);
+      |                                                                   ^~
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:13:59: Operator MODDIV expects 64 bits on the RHS, but RHS's VARREF 'ready_period' generates 32 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   13 |     m_axi_qsu_awready_i=qsu_aw_put-qsu_b_get<32&&(qsu_tick%ready_period>=ready_low);
+      |                                                           ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:13:72: Operator GTE expects 64 bits on the RHS, but RHS's VARREF 'ready_low' generates 32 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   13 |     m_axi_qsu_awready_i=qsu_aw_put-qsu_b_get<32&&(qsu_tick%ready_period>=ready_low);
+      |                                                                        ^~
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:14:61: Operator MODDIV expects 64 bits on the RHS, but RHS's VARREF 'ready_period' generates 32 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   14 |     m_axi_qsu_wready_i=qsu_w_put-qsu_b_get<32&&((qsu_tick+1)%ready_period>=ready_low);
+      |                                                             ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:14:74: Operator GTE expects 64 bits on the RHS, but RHS's VARREF 'ready_low' generates 32 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   14 |     m_axi_qsu_wready_i=qsu_w_put-qsu_b_get<32&&((qsu_tick+1)%ready_period>=ready_low);
+      |                                                                          ^~
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:26:40: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'm_axi_qsu_arlen_o' generates 8 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   26 |        (m_axi_qsu_araddr_o-QSU_BASE)/16+m_axi_qsu_arlen_o>=2*workload_count||
+      |                                        ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:27:51: Operator ADD expects 32 or 13 bits on the LHS, but LHS's VARREF 'm_axi_qsu_arlen_o' generates 8 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   27 |        m_axi_qsu_araddr_o[11:0]+(m_axi_qsu_arlen_o+1)*16>4096)$fatal(1,"QSU read range/burst error");
+      |                                                   ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHTRUNC: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:28:19: Operator ASSIGNDLY expects 32 bits on the Assign RHS, but Assign RHS's DIV generates 64 bits.
+                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+   28 |     qsu_read_index<=(m_axi_qsu_araddr_o-QSU_BASE)/16;
+      |                   ^~
+                     /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:29:37: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'm_axi_qsu_arlen_o' generates 8 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   29 |     qsu_read_left<=m_axi_qsu_arlen_o+1;qsu_read_delay<=read_latency;
+      |                                     ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHTRUNC: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:45:15: Bit extraction of array[5199999:0] requires 23 bit index, not 64 bits.
+                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+   45 |     qsu_memory[(qsu_aw_queue[qsu_committed%64]-QSU_BASE)/16]<=qsu_w_queue[qsu_committed%64];
+      |               ^
+                     /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: experiments/t08_20261031/eight_beat_native_shared_20261123/build/scratch.svh:46:43: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'write_response_latency' generates 32 bits.
+                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+   46 |     qsu_b_time[qsu_committed%64]<=qsu_tick+write_response_latency;
+      |                                           ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:179:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:348:47: Operator MODDIV expects 64 bits on the RHS, but RHS's VARREF 'ready_period' generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  348 |   wire axi_ready=(ready_period<=1)||(axi_cycle%ready_period>=ready_low);
+      |                                               ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:348:60: Operator GTE expects 64 bits on the RHS, but RHS's VARREF 'ready_low' generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  348 |   wire axi_ready=(ready_period<=1)||(axi_cycle%ready_period>=ready_low);
+      |                                                            ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:586:56: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'm_axi_camera_arlen_o' generates 8 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  586 |         camera_ptr<=0;camera_left<=m_axi_camera_arlen_o+1;
+      |                                                        ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:597:17: Operator ASSIGNDLY expects 32 bits on the Assign RHS, but Assign RHS's SHIFTR generates 64 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+  597 |         mean_ptr<=(m_axi_mean_araddr_o-MEAN_BASE)>>4;mean_left<=m_axi_mean_arlen_o+1;mean_delay<=read_latency;
+      |                 ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:597:83: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'm_axi_mean_arlen_o' generates 8 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  597 |         mean_ptr<=(m_axi_mean_araddr_o-MEAN_BASE)>>4;mean_left<=m_axi_mean_arlen_o+1;mean_delay<=read_latency;
+      |                                                                                   ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:608:27: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's SUB generates 64 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+  608 |           attr_record_byte=m_axi_attr_araddr_o-ATTR_BASE;
+      |                           ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:617:26: Operator ASSIGNDLY expects 32 bits on the Assign RHS, but Assign RHS's SHIFTR generates 64 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+  617 |         end else attr_ptr<=(m_axi_attr_araddr_o-ATTR_BASE)>>4;
+      |                          ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:618:38: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'm_axi_attr_arlen_o' generates 8 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  618 |         attr_left<=m_axi_attr_arlen_o+1;attr_delay<=read_latency;
+      |                                      ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:628:66: Operator ADD expects 32 or 13 bits on the LHS, but LHS's VARREF 'm_axi_state_arlen_o' generates 8 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  628 |            {1'b0,m_axi_state_araddr_o[11:0]}+(m_axi_state_arlen_o+1)*16>4096)$fatal(1,"invalid state/RGB read burst");
+      |                                                                  ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:629:74: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'm_axi_state_arlen_o' generates 8 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  629 |         state_pending_beats[m_axi_state_arid_o[1:0]]<=m_axi_state_arlen_o+1;
+      |                                                                          ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:637:47: Operator ASSIGNDLY expects 32 bits on the Assign RHS, but Assign RHS's SHIFTR generates 64 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+  637 |         state_pending[m_axi_state_arid_o[1:0]]<=(m_axi_state_araddr_o-backing_base)>>4;
+      |                                               ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:647:30: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's VARREF 'state_rsp_select' generates 2 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  647 |           state_rsp_candidate=state_rsp_select;
+      |                              ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:649:48: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'state_rsp_select' generates 2 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  649 |           state_rsp_candidate=(state_rsp_select+1)&3;
+      |                                                ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:651:48: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'state_rsp_select' generates 2 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  651 |           state_rsp_candidate=(state_rsp_select+2)&3;
+      |                                                ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:653:48: Operator ADD expects 32 bits on the LHS, but LHS's VARREF 'state_rsp_select' generates 2 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  653 |           state_rsp_candidate=(state_rsp_select+3)&3;
+      |                                                ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:663:27: Operator ASSIGNDLY expects 2 bits on the Assign RHS, but Assign RHS's ADD generates 32 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+  663 |           state_rsp_select<=state_rsp_candidate+1'b1;
+      |                           ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:692:45: Operator ADD expects 32 bits on the LHS, but LHS's REPLICATE generates 13 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  692 |              {1'b0,m_axi_out_awaddr_o[11:0]}+((int'(m_axi_out_awlen_o)+1)*16)>4096)
+      |                                             ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:705:39: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'write_response_latency' generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  705 |             b_due[b_put%64]<=axi_cycle+write_response_latency+1;
+      |                                       ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:713:33: Bit extraction of array[6499999:0] requires 23 bit index, not 64 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+  713 |         if(out_aw_seen)state_mem[(out_addr_q-backing_base)>>4]<=out_w_seen?out_data_q:m_axi_out_wdata_o;
+      |                                 ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:714:23: Bit extraction of array[6499999:0] requires 23 bit index, not 64 bits.
+                                                                                                                                      : ... note: In instance 'tb_t08_native_eight_shared'
+  714 |         else state_mem[(m_axi_out_awaddr_o-backing_base)>>4]<=out_w_seen?out_data_q:m_axi_out_wdata_o;
+      |                       ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:716:35: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'write_response_latency' generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  716 |         b_due[b_put%64]<=axi_cycle+write_response_latency+1;b_put<=b_put+1;
+      |                                   ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:778:19: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's SEL generates 16 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  778 |     workload_width=camera_mem[25][15:0];workload_height=camera_mem[26][15:0];workload_count=camera_mem[27][31:0];
+      |                   ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:778:56: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's SEL generates 16 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  778 |     workload_width=camera_mem[25][15:0];workload_height=camera_mem[26][15:0];workload_count=camera_mem[27][31:0];
+      |                                                        ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:789:25: Operator ASSIGN expects 35 bits on the Assign RHS, but Assign RHS's SEL generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  789 |     cfg_regularizer_q8_i=camera_mem[21][31:0];cfg_depth_pivot0_q16_i=camera_mem[22][26:0];
+      |                         ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:943:32: Operator OR expects 32 bits on the RHS, but RHS's SEL generates 2 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  943 |       apb_write(12'h008,32'h100|frame_mode[1:0]);
+      |                                ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:945:14: Operator TASKREF 'apb_write' expects 32 bits on the Function Argument, but Function Argument's SEL generates 2 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+  945 |     end else apb_write(12'h008,frame_mode[1:0]);
+      |              ^~~~~~~~~
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1035:28: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's VARREF 'perf_cycle_count_o' generates 64 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+ 1035 |         auto_observe_cycles=perf_cycle_count_o;auto_observe_mode=active_mode_o;
+      |                            ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1035:65: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's VARREF 'active_mode_o' generates 2 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1035 |         auto_observe_cycles=perf_cycle_count_o;auto_observe_mode=active_mode_o;
+      |                                                                 ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1048:29: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's VARREF 'active_mode_o' generates 2 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1048 |           auto_selected_mode=active_mode_o;
+      |                             ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1049:59: Operator NEQ expects 32 bits on the RHS, but RHS's VARREF 'auto_recommended_mode' generates 2 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1049 |           if(auto_recommendation_valid&&auto_selected_mode!=auto_recommended_mode)
+      |                                                           ^~
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1054:31: Operator ASSIGN expects 32 bits on the Assign RHS, but Assign RHS's VARREF 'perf_cycle_count_o' generates 64 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+ 1054 |           auto_selected_cycles=perf_cycle_count_o;auto_image_mismatches=0;
+      |                               ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1151:31: Operator LT expects 64 bits on the RHS, but RHS's VARREF 'reported_state_reads' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1151 |     if(perf_state_miss_count_o<reported_state_reads)$fatal(1,"AXI reads exceed cache misses %0d %0d",perf_state_miss_count_o,reported_state_reads);
+      |                               ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1153:31: Operator NEQ expects 64 bits on the RHS, but RHS's VARREF 'reported_state_reads' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1153 |        perf_state_miss_count_o!=reported_state_reads)
+      |                               ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1155:37: Operator LT expects 64 bits on the RHS, but RHS's VARREF 'reported_state_reads' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1155 |     if(1&&0&&perf_state_miss_count_o<reported_state_reads)
+      |                                     ^
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1158:39: Logical operator LOGOR expects 1 bit on the LHS, but LHS's VARREF 'projection_inactive_issue_count' generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+ 1158 |     if(projection_inactive_issue_count||sh_inactive_issue_count||raster_inactive_issue_count)
+      |                                       ^~
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1158:39: Logical operator LOGOR expects 1 bit on the RHS, but RHS's VARREF 'sh_inactive_issue_count' generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+ 1158 |     if(projection_inactive_issue_count||sh_inactive_issue_count||raster_inactive_issue_count)
+      |                                       ^~
+%Warning-WIDTHTRUNC: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1158:64: Logical operator LOGOR expects 1 bit on the RHS, but RHS's VARREF 'raster_inactive_issue_count' generates 32 bits.
+                                                                                                                                       : ... note: In instance 'tb_t08_native_eight_shared'
+ 1158 |     if(projection_inactive_issue_count||sh_inactive_issue_count||raster_inactive_issue_count)
+      |                                                                ^~
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1205:30: Operator SUB expects 64 bits on the RHS, but RHS's VARREF 'reported_state_reads' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1205 |       perf_state_miss_count_o-reported_state_reads);
+      |                              ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1254:49: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'state_reads' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1254 |             measure_qsu_reads+measure_qsu_writes+state_reads+rgb_read_count+state_writes+rgb_write_beats)
+      |                                                 ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1254:61: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'rgb_read_count' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1254 |             measure_qsu_reads+measure_qsu_writes+state_reads+rgb_read_count+state_writes+rgb_write_beats)
+      |                                                             ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1254:76: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'state_writes' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1254 |             measure_qsu_reads+measure_qsu_writes+state_reads+rgb_read_count+state_writes+rgb_write_beats)
+      |                                                                            ^
+%Warning-WIDTHEXPAND: /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1254:89: Operator ADD expects 64 bits on the RHS, but RHS's VARREF 'rgb_write_beats' generates 32 bits.
+                                                                                                                                        : ... note: In instance 'tb_t08_native_eight_shared'
+ 1254 |             measure_qsu_reads+measure_qsu_writes+state_reads+rgb_read_count+state_writes+rgb_write_beats)
+      |                                                                                         ^
+%Warning-WIDTHEXPAND: verification/rtl/t08_shared_lpddr.svh:23:45: Operator ADD expects 64 bits on the LHS, but LHS's CASTWRAP generates 32 bits.
+                                                                 : ... note: In instance 'tb_t08_native_eight_shared'
+   23 |     ddr_expected_lines+=64'((int'(addr[5:0])+beats*16+63)/64);
+      |                                             ^
+                      /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv:1289:1: ... note: In file included from 'tb_t08_native_eight_shared.sv'
+make: Entering directory '/home/gs3d/work/t08_20261031/eight_beat_native_shared_20261123'
+g++  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -Os  -c -o t08_shared_lpddr.o /mnt/d/3DGS/verification/rtl/t08_shared_lpddr.cpp
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -c -o verilated.o /home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/verilated.cpp
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -c -o verilated_dpi.o /home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/verilated_dpi.cpp
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -c -o verilated_timing.o /home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/verilated_timing.cpp
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -c -o verilated_threads.o /home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/verilated_threads.cpp
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -x c++-header Vtb_t08_native_eight_shared__pch.h -o Vtb_t08_native_eight_shared__pch.h.fast.gch
+g++   -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -x c++-header Vtb_t08_native_eight_shared__pch.h -o Vtb_t08_native_eight_shared__pch.h.slow.gch
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_t08_native_eight_shared__pch.h.fast -c Vtb_t08_native_eight_shared_vm_classes_0.cpp
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_t08_native_eight_shared__pch.h.fast -c Vtb_t08_native_eight_shared_vm_classes_1.cpp
+g++ -Os  -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_t08_native_eight_shared__pch.h.fast -c Vtb_t08_native_eight_shared__Dpi.cpp
+g++   -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_t08_native_eight_shared__pch.h.slow -c Vtb_t08_native_eight_shared_vm_classes_Slow_0.cpp
+g++   -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_t08_native_eight_shared__pch.h.slow -c Vtb_t08_native_eight_shared___024root__0__Slow.cpp
+g++   -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_t08_native_eight_shared__pch.h.slow -c Vtb_t08_native_eight_shared_vm_classes_Slow_1.cpp
+g++   -I.  -MMD -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include -I/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/share/verilator/include/vltstd -DVERILATOR=1 -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TIMING=1 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -DVM_TRACE_SAIF=0 -DVM_VPI=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-int-in-bool-context -Wno-shadow -Wno-sign-compare -Wno-subobject-linkage -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -DVL_TIME_CONTEXT   -fcoroutines -include Vtb_t08_native_eight_shared__pch.h.slow -c Vtb_t08_native_eight_shared__Syms__Slow.cpp
+g++    t08_shared_lpddr.o verilated.o verilated_dpi.o verilated_timing.o verilated_threads.o Vtb_t08_native_eight_shared__ALL.a   /home/gs3d/eda/src-20261024/ramulator/obj/ALDRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/Cache.o /home/gs3d/eda/src-20261024/ramulator/obj/Config.o /home/gs3d/eda/src-20261024/ramulator/obj/Controller.o /home/gs3d/eda/src-20261024/ramulator/obj/DDR3.o /home/gs3d/eda/src-20261024/ramulator/obj/DDR4.o /home/gs3d/eda/src-20261024/ramulator/obj/DSARP.o /home/gs3d/eda/src-20261024/ramulator/obj/GDDR5.o /home/gs3d/eda/src-20261024/ramulator/obj/HBM.o /home/gs3d/eda/src-20261024/ramulator/obj/LPDDR3.o /home/gs3d/eda/src-20261024/ramulator/obj/LPDDR4.o /home/gs3d/eda/src-20261024/ramulator/obj/MemoryFactory.o /home/gs3d/eda/src-20261024/ramulator/obj/PCM.o /home/gs3d/eda/src-20261024/ramulator/obj/Processor.o /home/gs3d/eda/src-20261024/ramulator/obj/Refresh.o /home/gs3d/eda/src-20261024/ramulator/obj/SALP.o /home/gs3d/eda/src-20261024/ramulator/obj/STTMRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/StatType.o /home/gs3d/eda/src-20261024/ramulator/obj/TLDRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/WideIO.o /home/gs3d/eda/src-20261024/ramulator/obj/WideIO2.o  -pthread -lpthread -latomic   -o simulation
+rm Vtb_t08_native_eight_shared__ALL.verilator_deplist.tmp
+make: Leaving directory '/home/gs3d/work/t08_20261031/eight_beat_native_shared_20261123'
+- V e r i l a t i o n   R e p o r t: Verilator 5.051 devel rev v5.050-25-g5750c888a (mod)
+- Verilator: Built from 28.044 MB sources in 89 modules, into 46.526 MB in 34 C++ files needing 0.234 MB
+- Verilator: Walltime 80.750 s (elab=0.341, cvt=5.023, bld=73.894); cpu 6.501 s on 2 threads; allocated 516.832 MB
+	Command being timed: "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/verilator --binary --build -j 2 --sv --timing -Wno-fatal -DSYNTHESIS -DTB_FINAL_RGB=1 -DTB_BITONIC_SORT=1 -DTB_BSU_PIPELINED=1 -DTB_USE_SHARED_RASTER_PE=1 -DTB_MAX_AXI_WRITES=64 -DTB_MAX_COUNT=2600000 -DTB_MAX_PIXELS=6500000 -DTB_GID_W=32 -DTB_SEQ_W=32 -DTB_GROUP_CAPACITY=16 -DTB_SORT_CAPACITY=16 -DTB_STATE_ENTRIES=4096 -DTB_LANES=4 -DTB_STATE_WINDOW_ENTRIES=4 -DTB_STATE_MSHR_COUNT=4 -DTB_RESPONSE_BLEND_BYPASS=1 -DTB_BLEND_COMMIT_BYPASS=1 -Irtl/raster -DTB_SHARED_P_DOT3=1 -DTB_RGB_READ_BURST=16 -DTB_QSU_PRECOUNT=1 --top-module tb_t08_native_eight_shared --Mdir /home/gs3d/work/t08_20261031/eight_beat_native_shared_20261123 -f /mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/build/sources.f /mnt/d/3DGS/experiments/t08_20261031/eight_beat_native_shared_20261123/build/tb_t08_native_eight_shared.sv -o simulation -DTB_ENABLE_SHAPE_BLOCK_REJECT=1 -DTB_ENABLE_ALPHA_ZERO_SKIP=1 -DTB_PIXEL_TERMINATION_SKIP=1 -CFLAGS -I/home/gs3d/eda/src-20261024/ramulator/src -DRAMULATOR -LDFLAGS /home/gs3d/eda/src-20261024/ramulator/obj/ALDRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/Cache.o /home/gs3d/eda/src-20261024/ramulator/obj/Config.o /home/gs3d/eda/src-20261024/ramulator/obj/Controller.o /home/gs3d/eda/src-20261024/ramulator/obj/DDR3.o /home/gs3d/eda/src-20261024/ramulator/obj/DDR4.o /home/gs3d/eda/src-20261024/ramulator/obj/DSARP.o /home/gs3d/eda/src-20261024/ramulator/obj/GDDR5.o /home/gs3d/eda/src-20261024/ramulator/obj/HBM.o /home/gs3d/eda/src-20261024/ramulator/obj/LPDDR3.o /home/gs3d/eda/src-20261024/ramulator/obj/LPDDR4.o /home/gs3d/eda/src-20261024/ramulator/obj/MemoryFactory.o /home/gs3d/eda/src-20261024/ramulator/obj/PCM.o /home/gs3d/eda/src-20261024/ramulator/obj/Processor.o /home/gs3d/eda/src-20261024/ramulator/obj/Refresh.o /home/gs3d/eda/src-20261024/ramulator/obj/SALP.o /home/gs3d/eda/src-20261024/ramulator/obj/STTMRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/StatType.o /home/gs3d/eda/src-20261024/ramulator/obj/TLDRAM.o /home/gs3d/eda/src-20261024/ramulator/obj/WideIO.o /home/gs3d/eda/src-20261024/ramulator/obj/WideIO2.o /mnt/d/3DGS/verification/rtl/t08_shared_lpddr.cpp"
+	User time (seconds): 149.83
+	System time (seconds): 2.94
+	Percent of CPU this job got: 187%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:21.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1110452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1377628
+	Voluntary context switches: 8744
+	Involuntary context switches: 398
+	Swaps: 0
+	File system inputs: 3228
+	File system outputs: 572296
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,56 @@
+{
+  "scene": "bonsai",
+  "gid": 770601,
+  "world_q20_codes": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      2.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "world_min_eigenvalue_codes": -0.7320508075688773,
+  "view_q20_codes": [
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      2.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -0.0
+    ]
+  ],
+  "view_min_eigenvalue_codes": -0.4142135623730951,
+  "regularized_screen_q8": [
+    [
+      77.0,
+      -132.0
+    ],
+    [
+      -132.0,
+      341.0
+    ]
+  ],
+  "determinant_q16": 8833,
+  "inverse00": 9.88293897882939,
+  "conic_positive_limit_exclusive": 8,
+  "probe_sha256": "189785C757CC47F77351BB38104D371D05AFED8A7C0F2005687834A55E522762",
+  "conclusion": "Both formats give the same encoder error. Quantized covariance projection reproduced; inverse00 exceeds the positive Q4.40 limit.",
+  "scope": "One real GID; evidence for this observed pixel, not a validated format change or full-scene incidence."
+}

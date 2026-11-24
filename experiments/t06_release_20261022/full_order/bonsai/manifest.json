@@ -1,0 +1,13 @@
+{
+  "scene": "bonsai",
+  "gaussians": 1244819,
+  "camera_index": 146,
+  "full_scene": true,
+  "input_sha256": "f29b71996b32e0497e05e9cc2345a4eee708a88adf409f8576eb3173a851efc5",
+  "camera_sha256": "9943e12b5871932500e7c0b95d52cdd8e78829459a518a2e013c1a9260ac8649",
+  "vectors_sha256": {
+    "input.memh": "34d09b10db90793738dacf3886f48ddda5ad94f0b6e9a491ca8a608c961f5b01",
+    "expected.memh": "a6bc7af998ebe41c885de2cc7bff1f3e755b804bec6554a7d22043ab59ac1091"
+  },
+  "scope": "all model records, no depth visibility cull; module QSU+BSU capacity/order evidence only"
+}

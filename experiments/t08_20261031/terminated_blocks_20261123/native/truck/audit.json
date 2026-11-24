@@ -1,0 +1,30 @@
+{
+  "scene": "truck",
+  "camera": 125,
+  "record_count": 2541226,
+  "pixels": 2135087,
+  "verified_skips": 4341916,
+  "terminal_word_changes": 1112636,
+  "terminal_t_changes": 650273,
+  "last_write_metadata_changes": 1112636,
+  "cycles_before": 995980267,
+  "cycles_after": 719309339,
+  "cycle_savings_percent": 27.778755982120277,
+  "r_grants_saved": 61437188,
+  "state_read_beats_saved": 58850390,
+  "state_write_beats_saved": 61437188,
+  "total_bytes_before": 6624087024,
+  "total_bytes_after": 4699485776,
+  "traffic_savings_percent": 29.054588821476813,
+  "assumed_200mhz_fps": 0.2780444923432309,
+  "required_data_gbps_at_30fps": 140.98457328,
+  "sampled_mae_rgb8": 0.2345679012345679,
+  "sampled_max": 1,
+  "evidence_sha256": {
+    "experiments/t08_20261031/terminated_blocks_20261123/native/truck/result.json": "091DFC24A1C182B72E608A4685EF76B84A4419889FE3ED75C9E15608DC575243",
+    "experiments/t08_20261031/qsu_root_native_full_20261122/real/truck/1/result.json": "A3113E9ABFF5823D3DB69E310EB69BFE83712060D401E8814E247EA9FDB156F5",
+    "experiments/t08_20261031/qsu_root_native_full_20261122/reference/truck/samples.json": "13767D0F6207D80269576EDC2D57F822823BFCEF026B587E31394B47850033BA",
+    "scripts/audit_t08_terminated_native.py": "52168E8915F3F2AEC1F437080C5B8D2813F1D6F9CAF8173EE10555F4A906D296"
+  },
+  "signed_off": false
+}

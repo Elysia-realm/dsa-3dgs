@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "date": "2026-08-03",
+    "status": "uncalibrated scheduling study; not an area-fair hardware claim",
+    "r0_barrier": "full group drain before a mode change",
+    "elastic_budget": "8 abstract equal-cost lanes; per-operation area and timing await RTL calibration"
+  },
+  "workloads": {
+    "sparse": {
+      "b0_total_cycles": 125,
+      "r0_fixed": {
+        "balanced": {
+          "total_cycles": 143,
+          "selected_modes": [
+            "balanced"
+          ],
+          "reconfigurations": 0
+        },
+        "projection_priority": {
+          "total_cycles": 141,
+          "selected_modes": [
+            "projection_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "sort_priority": {
+          "total_cycles": 139,
+          "selected_modes": [
+            "sort_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "raster_priority": {
+          "total_cycles": 161,
+          "selected_modes": [
+            "raster_priority"
+          ],
+          "reconfigurations": 0
+        }
+      },
+      "r0_best_static_mode": "sort_priority",
+      "r0_best_static_cycles": 139,
+      "r0_dynamic_cycles": 139,
+      "r0_dynamic_modes": [
+        "sort_priority"
+      ],
+      "r0_reconfigurations": 0,
+      "r0_reconfiguration_cycles": 0,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "dynamic_vs_b0_ratio": 1.112,
+      "task_graph_equal": true
+    },
+    "dense_overlap": {
+      "b0_total_cycles": 2692,
+      "r0_fixed": {
+        "balanced": {
+          "total_cycles": 2732,
+          "selected_modes": [
+            "balanced"
+          ],
+          "reconfigurations": 0
+        },
+        "projection_priority": {
+          "total_cycles": 2729,
+          "selected_modes": [
+            "projection_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "sort_priority": {
+          "total_cycles": 2717,
+          "selected_modes": [
+            "sort_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "raster_priority": {
+          "total_cycles": 2780,
+          "selected_modes": [
+            "raster_priority"
+          ],
+          "reconfigurations": 0
+        }
+      },
+      "r0_best_static_mode": "sort_priority",
+      "r0_best_static_cycles": 2717,
+      "r0_dynamic_cycles": 2717,
+      "r0_dynamic_modes": [
+        "sort_priority"
+      ],
+      "r0_reconfigurations": 0,
+      "r0_reconfiguration_cycles": 0,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "dynamic_vs_b0_ratio": 1.0092867756315007,
+      "task_graph_equal": true
+    },
+    "heavy_occlusion": {
+      "b0_total_cycles": 4486,
+      "r0_fixed": {
+        "balanced": {
+          "total_cycles": 4523,
+          "selected_modes": [
+            "balanced"
+          ],
+          "reconfigurations": 0
+        },
+        "projection_priority": {
+          "total_cycles": 4520,
+          "selected_modes": [
+            "projection_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "sort_priority": {
+          "total_cycles": 4508,
+          "selected_modes": [
+            "sort_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "raster_priority": {
+          "total_cycles": 4571,
+          "selected_modes": [
+            "raster_priority"
+          ],
+          "reconfigurations": 0
+        }
+      },
+      "r0_best_static_mode": "sort_priority",
+      "r0_best_static_cycles": 4508,
+      "r0_dynamic_cycles": 4508,
+      "r0_dynamic_modes": [
+        "sort_priority"
+      ],
+      "r0_reconfigurations": 0,
+      "r0_reconfiguration_cycles": 0,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "dynamic_vs_b0_ratio": 1.004904146232724,
+      "task_graph_equal": true
+    },
+    "single_block_hotspot": {
+      "b0_total_cycles": 386,
+      "r0_fixed": {
+        "balanced": {
+          "total_cycles": 402,
+          "selected_modes": [
+            "balanced"
+          ],
+          "reconfigurations": 0
+        },
+        "projection_priority": {
+          "total_cycles": 399,
+          "selected_modes": [
+            "projection_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "sort_priority": {
+          "total_cycles": 400,
+          "selected_modes": [
+            "sort_priority"
+          ],
+          "reconfigurations": 0
+        },
+        "raster_priority": {
+          "total_cycles": 422,
+          "selected_modes": [
+            "raster_priority"
+          ],
+          "reconfigurations": 0
+        }
+      },
+      "r0_best_static_mode": "projection_priority",
+      "r0_best_static_cycles": 399,
+      "r0_dynamic_cycles": 399,
+      "r0_dynamic_modes": [
+        "projection_priority"
+      ],
+      "r0_reconfigurations": 0,
+      "r0_reconfiguration_cycles": 0,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "dynamic_vs_b0_ratio": 1.0336787564766838,
+      "task_graph_equal": true
+    }
+  },
+  "switch_cost_ablation": {
+    "0": {
+      "total_cycles": 4508,
+      "modes": [
+        "sort_priority"
+      ],
+      "reconfigurations": 0,
+      "charged_cycles": 0
+    },
+    "4": {
+      "total_cycles": 4508,
+      "modes": [
+        "sort_priority"
+      ],
+      "reconfigurations": 0,
+      "charged_cycles": 0
+    },
+    "8": {
+      "total_cycles": 4508,
+      "modes": [
+        "sort_priority"
+      ],
+      "reconfigurations": 0,
+      "charged_cycles": 0
+    },
+    "12": {
+      "total_cycles": 4508,
+      "modes": [
+        "sort_priority"
+      ],
+      "reconfigurations": 0,
+      "charged_cycles": 0
+    },
+    "24": {
+      "total_cycles": 4508,
+      "modes": [
+        "sort_priority"
+      ],
+      "reconfigurations": 0,
+      "charged_cycles": 0
+    },
+    "48": {
+      "total_cycles": 4508,
+      "modes": [
+        "sort_priority"
+      ],
+      "reconfigurations": 0,
+      "charged_cycles": 0
+    }
+  }
+}

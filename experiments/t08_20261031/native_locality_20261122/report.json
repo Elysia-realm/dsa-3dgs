@@ -1,0 +1,232 @@
+{
+  "status": "TRACE_DIAGNOSTIC_COMPLETE",
+  "results": [
+    {
+      "status": "CAPTURED_TWO_WINDOWS",
+      "scene": "bonsai",
+      "windows": [
+        {
+          "window": 0,
+          "start_requests": 4096,
+          "end_requests": 39697,
+          "cycles": 13359914,
+          "state_updates": 65536,
+          "fills": 65537,
+          "queries": 65539,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        },
+        {
+          "window": 1,
+          "start_requests": 65536,
+          "end_requests": 65648,
+          "cycles": 176017,
+          "state_updates": 65536,
+          "fills": 65537,
+          "queries": 65539,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        }
+      ],
+      "trace_sha256": "D0384D038168F11792380D1C5256B627B5F84AEBE03B9A28C5C5BA0D07E35DCC",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 2157.410487265,
+        "log_sha256": "78DD68D4690BC9F713B7A63CA00D54721A6794EEC4CFEE2DE15F8A489B8C6010"
+      },
+      "launch_sha256": "9B5591D9911EB3B8EF94C361B596534055B6B6777C780456F3D41A166028530A",
+      "complete_frame": false,
+      "signed_off": false
+    },
+    {
+      "status": "CAPTURED_TWO_WINDOWS",
+      "scene": "counter",
+      "windows": [
+        {
+          "window": 0,
+          "start_requests": 4096,
+          "end_requests": 57464,
+          "cycles": 3159851,
+          "state_updates": 65536,
+          "fills": 65537,
+          "queries": 65539,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        },
+        {
+          "window": 1,
+          "start_requests": 65536,
+          "end_requests": 124727,
+          "cycles": 2574479,
+          "state_updates": 65536,
+          "fills": 39021,
+          "queries": 65538,
+          "hits": 26517,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 34925,
+          "modeled_terminal_flush": 4096,
+          "modeled_write_beats": 39021,
+          "modeled_write_reduction_percent": 40.45867919921875
+        }
+      ],
+      "trace_sha256": "ACC573F86A659DEC6753C02391B2BF373DE8EE4797B91EEB7DFCA248BB20BE96",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 550.528059343,
+        "log_sha256": "DC47F6DB6DCE2672F170C104107FAC0CDE4CF6CAA7875F3BD64AF7B071ADE1F6"
+      },
+      "launch_sha256": "7C73B53F494FB7C1057DCA4E720D3C07E0B09E31FFCEC5405CD30AFA0A4AFAB9",
+      "complete_frame": false,
+      "signed_off": false
+    },
+    {
+      "status": "CAPTURED_TWO_WINDOWS",
+      "scene": "room",
+      "windows": [
+        {
+          "window": 0,
+          "start_requests": 4096,
+          "end_requests": 267680,
+          "cycles": 13996478,
+          "state_updates": 65536,
+          "fills": 65537,
+          "queries": 65539,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        },
+        {
+          "window": 1,
+          "start_requests": 267680,
+          "end_requests": 267680,
+          "cycles": 151905,
+          "state_updates": 65536,
+          "fills": 65536,
+          "queries": 65536,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        }
+      ],
+      "trace_sha256": "2FE5614E2F6CAA0E1737E4E0DFC05A86E167E2743411F8F98530C0DB4EBAA017",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 729.742628253,
+        "log_sha256": "5960E305E257AB3D8003584DDF637E616C7A583DD35B63CE0A379187312957F1"
+      },
+      "launch_sha256": "4A0D9A2E2C00545B4AA6D72049B352421873B9B57C43C0EAC2A2914A40EB2663",
+      "complete_frame": false,
+      "signed_off": false
+    },
+    {
+      "status": "CAPTURED_TWO_WINDOWS",
+      "scene": "train",
+      "windows": [
+        {
+          "window": 0,
+          "start_requests": 4096,
+          "end_requests": 4443,
+          "cycles": 292871,
+          "state_updates": 65536,
+          "fills": 65537,
+          "queries": 65539,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        },
+        {
+          "window": 1,
+          "start_requests": 65536,
+          "end_requests": 66235,
+          "cycles": 491508,
+          "state_updates": 65536,
+          "fills": 63717,
+          "queries": 65539,
+          "hits": 1820,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 59741,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 63836,
+          "modeled_write_reduction_percent": 2.593994140625
+        }
+      ],
+      "trace_sha256": "87E8A8F9645E71B8465B0B413368DED69422853D243A67442EA147EC7D582681",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 3439.241272175,
+        "log_sha256": "2DA042EB1FC2AFEEA125C9B677802C094AFA9DF3318DFF3FFB149261F3FFF616"
+      },
+      "launch_sha256": "50F9DD32E265C35910343A12D15F3F5A97A3E66884B54EBAEB6940153629AB2F",
+      "complete_frame": false,
+      "signed_off": false
+    },
+    {
+      "status": "CAPTURED_TWO_WINDOWS",
+      "scene": "truck",
+      "windows": [
+        {
+          "window": 0,
+          "start_requests": 4096,
+          "end_requests": 8527,
+          "cycles": 1289667,
+          "state_updates": 65536,
+          "fills": 65537,
+          "queries": 65539,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        },
+        {
+          "window": 1,
+          "start_requests": 65536,
+          "end_requests": 66597,
+          "cycles": 439591,
+          "state_updates": 65536,
+          "fills": 65537,
+          "queries": 65539,
+          "hits": 0,
+          "same_index_fill_update": 0,
+          "modeled_evictions": 61441,
+          "modeled_terminal_flush": 4095,
+          "modeled_write_beats": 65536,
+          "modeled_write_reduction_percent": 0.0
+        }
+      ],
+      "trace_sha256": "9CD0DEDDFC674C79587C89F68FCFB123534FB351BF2B9147963ACD01AC9D8521",
+      "execution": {
+        "exit_code": 0,
+        "wall_seconds": 1140.2350425690001,
+        "log_sha256": "A3FA81D016B753B93FB2C3B8C798F9E61C226CC90157A912B4C8954222FC39FE"
+      },
+      "launch_sha256": "007A63249201C2AD9FCEBBFA713F36F297DB819ED71063A00DB5093F04759F40",
+      "complete_frame": false,
+      "signed_off": false
+    }
+  ],
+  "scope": "Two windows each initialized clean and flushed at end. Fixed fill/update schedule, no stalls or port cost modeled; cycle gains unmeasured.",
+  "signed_off": false
+}

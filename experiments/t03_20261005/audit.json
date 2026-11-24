@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "task": "T03",
+  "date": "2026-10-05",
+  "status": "COMPLETE_SIGNED_OFF",
+  "descriptor": {
+    "version": 1,
+    "tag": "0x47534301",
+    "bytes": 224,
+    "words_64bit": 28,
+    "axi_beats_128bit": 14
+  },
+  "acceptance": {
+    "camera_base_consumed_by_dma": true,
+    "start_command_snapshot": true,
+    "descriptor_and_axi_error_reporting": true,
+    "recovery_verified": true,
+    "continuation_exact_camera_match": true,
+    "nonempty_real_workload_verified": true,
+    "production_default_enabled": true
+  },
+  "validation": [
+    {
+      "name": "camera_dma_unit",
+      "status": "PASS",
+      "log": "experiments/t03_20261005/logs/t03_camera_unit_run.log"
+    },
+    {
+      "name": "system_camera_dma_integration",
+      "status": "PASS",
+      "log": "experiments/t03_20261005/logs/t03_camera_system_run.log"
+    },
+    {
+      "name": "nonempty_real_dma_workload",
+      "status": "PASS",
+      "log": "experiments/t03_20261005/logs/t03_real_run.log",
+      "gaussians": 4,
+      "resolution": [
+        32,
+        21
+      ],
+      "commits": 68
+    },
+    {
+      "name": "full_iverilog_regression",
+      "status": "PASS",
+      "log": "experiments/t03_20261005/logs/full_iverilog.log"
+    },
+    {
+      "name": "verilator_production_lint",
+      "status": "PASS",
+      "log": "experiments/t03_20261005/logs/verilator_lint.log"
+    },
+    {
+      "name": "targeted_python_contracts",
+      "status": "PASS",
+      "passed": 9,
+      "total": 9,
+      "log": "experiments/t03_20261005/logs/python_tests.log"
+    }
+  ],
+  "commands": [
+    "cmd /c verification\\rtl\\run_iverilog.cmd",
+    "cmd /c verification\\rtl\\run_verilator_lint.cmd",
+    "python -m unittest verification.test_t03_command verification.test_implementation_status verification.test_rtl_contract.RtlStructureTests.test_t03_camera_base_drives_versioned_dma_and_safe_continuation -v"
+  ],
+  "source_sha256": {
+    "rtl/dma/axi4_camera_config_read_dma.sv": "F469D7DE0D4230259760D9829760946C2E1626105D328EA696CC44DA49C9378A",
+    "rtl/gs_accel_system_top.sv": "F6BD96606D7A9A91F8C0959B69C7F042D8BBB2E4F73C72EFC8B3F54903B4CBC3",
+    "verification/rtl/system_top_sources.f": "DB79D74C0FFB175CD335CAAC439D41E470FA03A46BE6F65B403E892D2C2B417C",
+    "verification/rtl/tb_axi4_camera_config_read_dma.sv": "33CD5213FDC6B71633F62C04B0CB83AB0274BEAB88D14D60D5601DF6936F4286",
+    "verification/rtl/tb_gs_accel_system_camera_dma.sv": "1EB9F4BD121D89D3D9A210E9B68D3F05616A6C94B1B9D807E3029C8921A8D666",
+    "verification/rtl/tb_real_dma_workload.sv": "72A4309BD9588FD7D94F2B4EC1FA282EA50C6FBCC8A1BDBDE2BD588E78202360",
+    "model/io/dma_workload.py": "307190B7447F349AAB9CAF67DED6D44E0072ADE1A11339F727CE8320ABE186DD",
+    "scripts/build_full_frame_rtl_batch.py": "CC537E2B547B25E0BCE3AE4E16B9345C669DFC169E4FBE18F93B9CE3AB3823F3",
+    "scripts/build_full_frame_rtl_batch_stdlib.cpp": "EB8A9A97AE8543563B3FEC6471C213006F1E90C952E7753B105E58307328E69D",
+    "scripts/build_t03_command.py": "C5BF34A6B0752B3006E8478D9E0999306FECFB9A5F6C814E97E4005EEE89106E",
+    "verification/test_t03_command.py": "DAEA7C1AA67EBFB571220943603A950481F2ADE807BFC4DA5EC023219319CC40",
+    "verification/test_rtl_contract.py": "40B0C15FF0B715A485E1B1ECF8F12D243DCDC85F5F8F1DDEC2696DB53C218E04",
+    "verification/test_implementation_status.py": "C93B0D957EE6A84355086DC7772BCE5D53CE6FE51B91FF6527AE48FF705BA835",
+    "docs/命令与相机描述符规格_v1.md": "4905942A5CCD0A82F807DEEC19554536876CC1BF94E0EE21D2BB4BB20DCE92D2",
+    "docs/寄存器映射_v0.1.md": "A88D6E79AB78100C91055673BB6B7C9297AA7887AD8D91F01870C5DF83E9AECB",
+    "docs/APB帧命令状态与中断规格_v0.1.md": "842945B3977987B3365F3CF5588CE35F71146C865ECF2416FE37AE21F5A41EFF",
+    "docs/完整帧深度分组批次执行合同_v0.1.md": "C21E6263557FA4346179C7C5F9AAA95A533CBAEA02CF9BCD5946D5F9840D4FFF",
+    "docs/真实场景DMA到RTL负载桥规格_v0.1.md": "37856DA10CFD55F6C3A04943E57FB92B75FC3621648C90F68B495B7366150618",
+    "docs/开发日志_2026-10-05_T03命令与相机DMA签核.md": "DBEFB492748DFDC3950E9EBD26B6B1D260257AB2B1852627F672045E50AEEC24",
+    "experiments/t03_20261005/command_example/camera_descriptor_v1.bin": "4DC82483995C68E0C300036930D9B2A56AA4238EF9AF0DCD992DCFAB337E1D22",
+    "experiments/t03_20261005/command_example/command.json": "0BA6540E36924ABF73E7CE66D7D0601313EF13EE65C0727CB5FD65CDF7990731"
+  },
+  "known_boundaries": [
+    "Historical pre-v1 camera.memh files require regeneration for the production path",
+    "Final RGB frame DMA belongs to T04",
+    "Full-scene QSU plus BSU scheduling belongs to T05 and T06",
+    "T01 STA environment remains deferred by the user"
+  ],
+  "next_task": "T04",
+  "post_signoff_metadata_updates": [
+    {
+      "date": "2026-10-05",
+      "reason": "Added user-required five-scene minimum policy to shared status tests; no T03 RTL, protocol, or validation result changed",
+      "files": [
+        "verification/test_implementation_status.py"
+      ]
+    }
+  ]
+}

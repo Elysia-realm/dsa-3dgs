@@ -1,0 +1,11 @@
+read_verilog -sv "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/t08_rounding_cost.sv"
+chparam -set ENABLE_Q24 1 t08_rounding_cost
+synth -top t08_rounding_cost -flatten -noabc
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+dfflibmap -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+abc -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib" -constr "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/nangate45/1/abc.constr" -D 5000
+clean
+delete t:$scopeinfo
+check -assert
+tee -o "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/nangate45/1/stat.json" stat -json -liberty "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+write_verilog -noattr -noexpr -nodec "/mnt/d/3DGS/experiments/t08_20261031/dual_rounding_cost_20261122/nangate45/1/mapped.v"

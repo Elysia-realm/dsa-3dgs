@@ -1,0 +1,86 @@
+{
+  "status": "PASS_WINDOW_ACCOUNTING",
+  "windows": [
+    {
+      "scene": "bonsai",
+      "window": 0,
+      "updates": 65536,
+      "distinct_pixels": 65536,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 0
+    },
+    {
+      "scene": "bonsai",
+      "window": 1,
+      "updates": 65536,
+      "distinct_pixels": 65536,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 0
+    },
+    {
+      "scene": "counter",
+      "window": 0,
+      "updates": 65536,
+      "distinct_pixels": 65536,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 0
+    },
+    {
+      "scene": "counter",
+      "window": 1,
+      "updates": 65536,
+      "distinct_pixels": 37686,
+      "modeled_saved_writes": 26515,
+      "unlimited_saved_writes_ceiling": 27850
+    },
+    {
+      "scene": "room",
+      "window": 0,
+      "updates": 65536,
+      "distinct_pixels": 65536,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 0
+    },
+    {
+      "scene": "room",
+      "window": 1,
+      "updates": 65536,
+      "distinct_pixels": 65536,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 0
+    },
+    {
+      "scene": "train",
+      "window": 0,
+      "updates": 65536,
+      "distinct_pixels": 65536,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 0
+    },
+    {
+      "scene": "train",
+      "window": 1,
+      "updates": 65536,
+      "distinct_pixels": 59037,
+      "modeled_saved_writes": 1700,
+      "unlimited_saved_writes_ceiling": 6499
+    },
+    {
+      "scene": "truck",
+      "window": 0,
+      "updates": 65536,
+      "distinct_pixels": 65536,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 0
+    },
+    {
+      "scene": "truck",
+      "window": 1,
+      "updates": 65536,
+      "distinct_pixels": 65398,
+      "modeled_saved_writes": 0,
+      "unlimited_saved_writes_ceiling": 138
+    }
+  ],
+  "signed_off": false
+}

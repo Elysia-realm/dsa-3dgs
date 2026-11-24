@@ -1,0 +1,132 @@
+{
+  "functional_pass": true,
+  "sva_executed": false,
+  "ppa_signed_off": false,
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51E3DDCC0F2187942FC27B77905E33979ACC95DC012DC30A3ED7F2B0B0D65F9D",
+    "rtl/projection/world_to_camera_core.sv": "3F4DEF3883094B33E8B98B1CF10DB3A613CD9FC25B9B2C1371F5C137A47BE98B",
+    "rtl/projection/world_to_camera_shared_mac.sv": "D6102938FD24F28A9A28729296BC1FA732FA9CB7A6E3019ECD6DCDB535C69B9F",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "D22343FB0FA103285FB1740A6E184E541C68694B6478F65EE3909FA250A38463",
+    "verification/rtl/tb_world_to_camera_shared_mac.sv": "63447E5626AE92EB5989E362FA7AC88A572204D1125885BCED3E5C7354955526",
+    "rtl/sort/ordered_gaussian_attribute_issue.sv": "23DDBE25550AA07C20A5C8AFF20CFA3F25CCA86014966D36329891F75BB0FEDA",
+    "verification/rtl/tb_attribute_issue_turnover.sv": "878FA9BD15B385933D7B96898C8CC8BC35B549F583801045DCF949CF979129F1"
+  },
+  "records": [
+    {
+      "kind": "XYZ",
+      "turnover": 0,
+      "stress": 0,
+      "vectors": 128,
+      "P": 1152,
+      "G": 0,
+      "stalls": 0,
+      "cycles": 1536,
+      "turnovers": 0
+    },
+    {
+      "kind": "XYZ",
+      "turnover": 0,
+      "stress": 1,
+      "vectors": 128,
+      "P": 1152,
+      "G": 2452,
+      "stalls": 1115,
+      "cycles": 4883,
+      "turnovers": 0
+    },
+    {
+      "kind": "XYZ",
+      "turnover": 1,
+      "stress": 0,
+      "vectors": 128,
+      "P": 1152,
+      "G": 0,
+      "stalls": 0,
+      "cycles": 1409,
+      "turnovers": 127
+    },
+    {
+      "kind": "XYZ",
+      "turnover": 1,
+      "stress": 1,
+      "vectors": 128,
+      "P": 1152,
+      "G": 2367,
+      "stalls": 1118,
+      "cycles": 4732,
+      "turnovers": 127
+    },
+    {
+      "kind": "ATTR",
+      "turnover": 0,
+      "bypass": 0,
+      "stress": 0,
+      "requests": 128,
+      "outputs": 121,
+      "rejected": 7,
+      "cycles": 505,
+      "turnovers": 0,
+      "bypasses": 0
+    },
+    {
+      "kind": "ATTR",
+      "turnover": 0,
+      "bypass": 0,
+      "stress": 1,
+      "requests": 128,
+      "outputs": 121,
+      "rejected": 7,
+      "cycles": 1107,
+      "turnovers": 0,
+      "bypasses": 0
+    },
+    {
+      "kind": "ATTR",
+      "turnover": 1,
+      "bypass": 0,
+      "stress": 0,
+      "requests": 128,
+      "outputs": 121,
+      "rejected": 7,
+      "cycles": 385,
+      "turnovers": 120,
+      "bypasses": 0
+    },
+    {
+      "kind": "ATTR",
+      "turnover": 1,
+      "bypass": 0,
+      "stress": 1,
+      "requests": 128,
+      "outputs": 121,
+      "rejected": 7,
+      "cycles": 1019,
+      "turnovers": 89,
+      "bypasses": 0
+    },
+    {
+      "kind": "ATTR",
+      "turnover": 1,
+      "bypass": 1,
+      "stress": 0,
+      "requests": 128,
+      "outputs": 121,
+      "rejected": 7,
+      "cycles": 384,
+      "turnovers": 0,
+      "bypasses": 121
+    },
+    {
+      "kind": "ATTR",
+      "turnover": 1,
+      "bypass": 1,
+      "stress": 1,
+      "requests": 128,
+      "outputs": 121,
+      "rejected": 7,
+      "cycles": 953,
+      "turnovers": 43,
+      "bypasses": 63
+    }
+  ]
+}

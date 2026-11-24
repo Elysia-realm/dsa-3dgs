@@ -1,0 +1,8 @@
+{
+  "status": "TESTS_FINISHED_REVIEW_REQUIRED",
+  "pid": 15656,
+  "signed_off": false,
+  "subset_runs_passed": 40,
+  "full_scenes_passed": 5,
+  "next": "Inspect actual RTL images; run source-bound gate and final audit. No automatic signoff."
+}

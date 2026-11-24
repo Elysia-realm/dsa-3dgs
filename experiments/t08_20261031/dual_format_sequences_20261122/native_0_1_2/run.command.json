@@ -1,0 +1,21 @@
+[
+  "/home/gs3d/work/t08_20261031/dual_format_sequences_20261122/simulation",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/bonsai/attribute.memh",
+  "+MEAN=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/bonsai/mean.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t08_20261031/bbox_pair_serial_native_20261122/inputs/bonsai/camera.memh",
+  "+NEXT_ATTR=/mnt/d/3DGS/experiments/t08_20261031/v2_compact_native_20261122/real/bonsai/compact.memh",
+  "+NEXT_FORMAT=2",
+  "+ATTR_FORMAT=1",
+  "+SEQ_KIND=0",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/native_0_1_2/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/native_0_1_2/frame.rgb",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/dual_format_sequences_20261122/native_0_1_2/sorted.txt",
+  "+FRAME_MODE=0",
+  "+MAX_TIMEOUT=50000000",
+  "+AUTO_QSU",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2"
+]

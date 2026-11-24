@@ -1,0 +1,13 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_axi4_pixel_state_writeback_buffer",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_20261107/legacy_units/tb_axi4_pixel_state_writeback_buffer.vvp",
+  "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_write_engine.sv",
+  "/mnt/d/3DGS/rtl/dma/axi4_pixel_state_writeback_buffer.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_axi4_pixel_state_writeback_buffer.sv"
+]

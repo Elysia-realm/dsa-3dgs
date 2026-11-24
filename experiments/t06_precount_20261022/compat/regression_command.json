@@ -1,0 +1,5 @@
+[
+  "cmd.exe",
+  "/c",
+  "verification\\rtl\\run_iverilog.cmd"
+]

@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_pixel_termination_mask",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_pixel_termination_mask.vvp",
+  "/mnt/d/3DGS/rtl/raster/pixel_termination_mask.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_pixel_termination_mask.sv"
+]

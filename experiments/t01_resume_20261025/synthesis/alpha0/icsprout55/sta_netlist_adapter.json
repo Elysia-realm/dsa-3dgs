@@ -1,0 +1,27 @@
+{
+  "status": "PASS_BIT_CONNECTIVITY_EQUIVALENT",
+  "input_sha256": "1B2918275D960BFC03AA5E35919D3B0B35456E56C7A96EEC1EA5436B807297B5",
+  "output_sha256": "55B751AF627210F6FEFC0CB41EC853B8CF822A92FD7472734CECEE8685CE874F",
+  "library_sha256": "15AF0DCECEEEB02E174174E7123C7D551551369BF5AD1E8417D3CE8DCBC24FCD",
+  "adapter_sha256": "BC890B6F796915BC820158F8FDD6C1F75E3F3B578E12D17EA6C97092F470FB5C",
+  "top": "gs_accel_system_top",
+  "signed_declarations_removed": 2150,
+  "method": "streaming_complete_structural_width_proof",
+  "proof": {
+    "status": "PASS_STRUCTURAL_SIGNEDNESS_INDEPENDENCE",
+    "counts": {
+      "modules": 88,
+      "wires": 6518636,
+      "cells": 7661526,
+      "pin_connections": 26575388,
+      "assignments": 2760,
+      "open_connections": 0,
+      "safe_width_adjustments": 0
+    },
+    "input_sha256": "1B2918275D960BFC03AA5E35919D3B0B35456E56C7A96EEC1EA5436B807297B5",
+    "liberty_sha256": "15AF0DCECEEEB02E174174E7123C7D551551369BF5AD1E8417D3CE8DCBC24FCD",
+    "checker_sha256": "6F5D395C8430CCDFABB773CB6AC35F440D4E28268803071F93D93AB85CFC53A5",
+    "rule": "Only structural signal expressions allowed; every assignment and named cell port checked. No widening depends on a removed signed wire/input/output declaration. Explicit constants, slices and concatenations retain their signedness. All non-declaration text is preserved byte-for-byte by the adapter."
+  },
+  "scope": "All structural assignments and cell connections checked; no extension depends on removed signed declarations. Large-netlist reimport attempt preserved as resource-limited."
+}

@@ -1,0 +1,17 @@
+{
+  "rgb_equal": true,
+  "state_differences": [
+    {
+      "pixel": 3684,
+      "current": [
+        102553854916,
+        4
+      ],
+      "baseline": [
+        102553854916,
+        2
+      ]
+    }
+  ],
+  "only_terminal_T": true
+}

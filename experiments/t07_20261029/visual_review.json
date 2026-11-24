@@ -1,0 +1,28 @@
+{
+  "status": "REVIEWED",
+  "review_date": "2026-10-29",
+  "archived_at": "2026-10-31",
+  "scenes": [
+    {
+      "scene": "bonsai",
+      "png_sha256": "4DDAE4D798A0817534082DC36473331E9C799F7AE6B90EBA92F1377DC8BDA5BE"
+    },
+    {
+      "scene": "counter",
+      "png_sha256": "08F227A4ADD8CABF56106258564AC5DB03BA31B936EDAC0C8E2C8FD5FEB7EE2E"
+    },
+    {
+      "scene": "room",
+      "png_sha256": "919B5A1571AA19A8701F5D98534A643D7EFD70266AB03ECE643AFEFF7C9DA050"
+    },
+    {
+      "scene": "train",
+      "png_sha256": "2BC5B3CC98B35FDB780A21914EE7B88171D34963CF16A63F7A85F787A2B93A7D"
+    },
+    {
+      "scene": "truck",
+      "png_sha256": "337C60B55AB42B566F4F3BC45A6471E120A4FDC5009673F4DE9F656294480E3B"
+    }
+  ],
+  "finding": "All five actual RTL-DMA PNGs inspected; scene structure visible, no previous near-flat-color defect. Low-resolution detail loss acknowledged; no GT/native-resolution claim."
+}

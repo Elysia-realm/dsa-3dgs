@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXISTING_RESULT",
+  "kind": "oracle",
+  "scene": "room",
+  "command": [
+    "C:\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "D:\\3DGS\\scripts\\run_t06_oracle_render.py",
+    "run",
+    "--scenes",
+    "room",
+    "--workers",
+    "1"
+  ],
+  "started_at": "2026-10-16T23:03:43.957161+08:00",
+  "adopted_pids": [
+    6632,
+    18424
+  ],
+  "returncode": 0,
+  "finished_at": "2026-10-16T23:40:59.045860+08:00"
+}

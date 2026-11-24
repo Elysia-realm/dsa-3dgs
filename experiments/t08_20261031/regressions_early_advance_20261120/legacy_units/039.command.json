@@ -1,0 +1,13 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_projection_epoch_lane_ctrl",
+  "-o",
+  "/home/gs3d/work/t08_20261031/regressions_early_advance_20261120/legacy_units/tb_projection_epoch_lane_ctrl.vvp",
+  "/mnt/d/3DGS/rtl/control/cfg_epoch_ctrl.sv",
+  "/mnt/d/3DGS/rtl/projection/projection_epoch_lane_ctrl.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_projection_epoch_lane_ctrl.sv"
+]

@@ -1,0 +1,12 @@
+{
+  "scene": "bonsai",
+  "camera_index": 146,
+  "gaussians": 1244819,
+  "full_scene": true,
+  "scope": "all PLY records; exact quantized/saturated depth oracle at QSU input, not production top/visibility/RGB validation",
+  "prepass_numeric_overflows": 0,
+  "input_order": "original PLY; CPU never pivots or constructs subsets",
+  "source_ply_sha256": "a16af6d8815498ffbf9eb5d5ee93f5bcc9dca34c4e3eb6f7a796ef9e97c0d273",
+  "input_sha256": "34d09b10db90793738dacf3886f48ddda5ad94f0b6e9a491ca8a608c961f5b01",
+  "expected_sha256": "a6bc7af998ebe41c885de2cc7bff1f3e755b804bec6554a7d22043ab59ac1091"
+}

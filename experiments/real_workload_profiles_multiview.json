@@ -1,0 +1,1706 @@
+{
+  "metadata": {
+    "date": "2026-08-04",
+    "camera_selection": "first, middle and last camera by JSON order",
+    "resolution": "aspect-preserving, longest dimension 1920",
+    "views_per_scene": 3,
+    "switch_cost_cycles": 12,
+    "limitations": [
+      "candidate bbox blocks only; no exact per-pixel alpha or early-termination trace",
+      "provisional R1 area credits and service rates",
+      "three views per scene are representative samples, not all-camera evaluation"
+    ]
+  },
+  "scenes": {
+    "bicycle": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1276
+          ],
+          "input_gaussians": 6131954,
+          "depth_visible_gaussians": 3930596,
+          "projected_gaussians": 1810626,
+          "depth_visible_ratio": 0.6410021992989511,
+          "projection_survival_ratio": 0.46064922469773034,
+          "candidate_blocks": 84750863,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 4.0,
+            "0.9": 36.0,
+            "0.99": 225.0,
+            "1": 38400.0
+          },
+          "profile_windows": 960,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 42376628,
+            "projection_priority": 84750863,
+            "sort_priority": 84752780,
+            "raster_priority": 21371846
+          },
+          "dynamic": {
+            "cycles": 21357875,
+            "switches": 22,
+            "mode_histogram": {
+              "balanced": 19,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 941
+            },
+            "run_count": 23
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9993462895062972
+        },
+        {
+          "camera_index": 97,
+          "resolution": [
+            1920,
+            1276
+          ],
+          "input_gaussians": 6131954,
+          "depth_visible_gaussians": 4235357,
+          "projected_gaussians": 1400649,
+          "depth_visible_ratio": 0.6907026699808902,
+          "projection_survival_ratio": 0.3307038816326463,
+          "candidate_blocks": 74022546,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 49.0,
+            "0.99": 225.0,
+            "1": 38400.0
+          },
+          "profile_windows": 1035,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 37104661,
+            "projection_priority": 74063733,
+            "sort_priority": 74208858,
+            "raster_priority": 18776497
+          },
+          "dynamic": {
+            "cycles": 18619295,
+            "switches": 73,
+            "mode_histogram": {
+              "balanced": 14,
+              "projection_priority": 48,
+              "sort_priority": 0,
+              "raster_priority": 973
+            },
+            "run_count": 74
+          },
+          "dynamic_vs_best_fixed_ratio": 0.991627724809372
+        },
+        {
+          "camera_index": 193,
+          "resolution": [
+            1920,
+            1276
+          ],
+          "input_gaussians": 6131954,
+          "depth_visible_gaussians": 3289585,
+          "projected_gaussians": 1096876,
+          "depth_visible_ratio": 0.5364660269793283,
+          "projection_survival_ratio": 0.3334390204235489,
+          "candidate_blocks": 80196572,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 81.0,
+            "0.99": 400.0,
+            "1": 38400.0
+          },
+          "profile_windows": 804,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 40273110,
+            "projection_priority": 80252308,
+            "sort_priority": 80545895,
+            "raster_priority": 20622223
+          },
+          "dynamic": {
+            "cycles": 20279278,
+            "switches": 60,
+            "mode_histogram": {
+              "balanced": 49,
+              "projection_priority": 94,
+              "sort_priority": 0,
+              "raster_priority": 661
+            },
+            "run_count": 61
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9833701245496181
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9914265805074267,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 1
+    },
+    "bonsai": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1280
+          ],
+          "input_gaussians": 1244819,
+          "depth_visible_gaussians": 819371,
+          "projected_gaussians": 415936,
+          "depth_visible_ratio": 0.6582250110256993,
+          "projection_survival_ratio": 0.5076284125261938,
+          "candidate_blocks": 46504750,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 64.0,
+            "0.99": 676.0,
+            "1": 38400.0
+          },
+          "profile_windows": 201,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 23254372,
+            "projection_priority": 46504750,
+            "sort_priority": 46508651,
+            "raster_priority": 11662786
+          },
+          "dynamic": {
+            "cycles": 11650392,
+            "switches": 8,
+            "mode_histogram": {
+              "balanced": 9,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 192
+            },
+            "run_count": 9
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9989373036596916
+        },
+        {
+          "camera_index": 146,
+          "resolution": [
+            1920,
+            1280
+          ],
+          "input_gaussians": 1244819,
+          "depth_visible_gaussians": 957998,
+          "projected_gaussians": 476902,
+          "depth_visible_ratio": 0.7695881891262907,
+          "projection_survival_ratio": 0.497811060148351,
+          "candidate_blocks": 51525547,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 56.0,
+            "0.99": 576.0,
+            "1": 38400.0
+          },
+          "profile_windows": 234,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 25767294,
+            "projection_priority": 51525547,
+            "sort_priority": 51534479,
+            "raster_priority": 12951869
+          },
+          "dynamic": {
+            "cycles": 12926724,
+            "switches": 17,
+            "mode_histogram": {
+              "balanced": 15,
+              "projection_priority": 1,
+              "sort_priority": 0,
+              "raster_priority": 218
+            },
+            "run_count": 18
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9980585813522357
+        },
+        {
+          "camera_index": 291,
+          "resolution": [
+            1920,
+            1280
+          ],
+          "input_gaussians": 1244819,
+          "depth_visible_gaussians": 937644,
+          "projected_gaussians": 279928,
+          "depth_visible_ratio": 0.7532372176195897,
+          "projection_survival_ratio": 0.29854401030668354,
+          "candidate_blocks": 44026297,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 56.0,
+            "0.99": 1089.0,
+            "1": 38400.0
+          },
+          "profile_windows": 229,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 22031417,
+            "projection_priority": 44031489,
+            "sort_priority": 44062719,
+            "raster_priority": 11117001
+          },
+          "dynamic": {
+            "cycles": 11069044,
+            "switches": 42,
+            "mode_histogram": {
+              "balanced": 17,
+              "projection_priority": 8,
+              "sort_priority": 0,
+              "raster_priority": 204
+            },
+            "run_count": 43
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9956861567251816
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9975597350363404,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 0
+    },
+    "counter": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1280
+          ],
+          "input_gaussians": 1222956,
+          "depth_visible_gaussians": 1006211,
+          "projected_gaussians": 418118,
+          "depth_visible_ratio": 0.8227695845148967,
+          "projection_survival_ratio": 0.41553709907762887,
+          "candidate_blocks": 44599136,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 20.0,
+            "0.9": 169.0,
+            "0.99": 992.0,
+            "1": 38400.0
+          },
+          "profile_windows": 246,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 22299628,
+            "projection_priority": 44599136,
+            "sort_priority": 44599136,
+            "raster_priority": 11151217
+          },
+          "dynamic": {
+            "cycles": 11151217,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 246
+            },
+            "run_count": 1
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0
+        },
+        {
+          "camera_index": 120,
+          "resolution": [
+            1920,
+            1280
+          ],
+          "input_gaussians": 1222956,
+          "depth_visible_gaussians": 1021883,
+          "projected_gaussians": 610949,
+          "depth_visible_ratio": 0.8355844363983659,
+          "projection_survival_ratio": 0.5978659004993723,
+          "candidate_blocks": 43152189,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 16.0,
+            "0.9": 72.0,
+            "0.99": 400.0,
+            "1": 38400.0
+          },
+          "profile_windows": 250,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 21593938,
+            "projection_priority": 43159917,
+            "sort_priority": 43187766,
+            "raster_priority": 10858187
+          },
+          "dynamic": {
+            "cycles": 10820552,
+            "switches": 10,
+            "mode_histogram": {
+              "balanced": 9,
+              "projection_priority": 9,
+              "sort_priority": 0,
+              "raster_priority": 232
+            },
+            "run_count": 11
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9965339517545608
+        },
+        {
+          "camera_index": 239,
+          "resolution": [
+            1920,
+            1280
+          ],
+          "input_gaussians": 1222956,
+          "depth_visible_gaussians": 978216,
+          "projected_gaussians": 525529,
+          "depth_visible_ratio": 0.7998783275931431,
+          "projection_survival_ratio": 0.5372320632661907,
+          "candidate_blocks": 36513931,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 16.0,
+            "0.9": 100.0,
+            "0.99": 625.0,
+            "1": 38400.0
+          },
+          "profile_windows": 239,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 18270276,
+            "projection_priority": 36518580,
+            "sort_priority": 36540429,
+            "raster_priority": 9159901
+          },
+          "dynamic": {
+            "cycles": 9137316,
+            "switches": 9,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 7,
+              "sort_priority": 0,
+              "raster_priority": 231
+            },
+            "run_count": 10
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9975343619980173
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9980217088692552,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 0
+    },
+    "drjohnson": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1263
+          ],
+          "input_gaussians": 3405153,
+          "depth_visible_gaussians": 2431064,
+          "projected_gaussians": 229792,
+          "depth_visible_ratio": 0.7139367893307584,
+          "projection_survival_ratio": 0.09452322110812385,
+          "candidate_blocks": 45858170,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 42.0,
+            "0.9": 225.0,
+            "0.99": 1156.0,
+            "1": 37920.0
+          },
+          "profile_windows": 594,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 23273873,
+            "projection_priority": 45982187,
+            "sort_priority": 46547608,
+            "raster_priority": 12365304
+          },
+          "dynamic": {
+            "cycles": 11750888,
+            "switches": 129,
+            "mode_histogram": {
+              "balanced": 55,
+              "projection_priority": 175,
+              "sort_priority": 0,
+              "raster_priority": 364
+            },
+            "run_count": 130
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9503112903653642
+        },
+        {
+          "camera_index": 131,
+          "resolution": [
+            1920,
+            1263
+          ],
+          "input_gaussians": 3405153,
+          "depth_visible_gaussians": 1571781,
+          "projected_gaussians": 838397,
+          "depth_visible_ratio": 0.4615889506286502,
+          "projection_survival_ratio": 0.5334057352773701,
+          "candidate_blocks": 50266237,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 16.0,
+            "0.9": 100.0,
+            "0.99": 441.0,
+            "1": 37920.0
+          },
+          "profile_windows": 384,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 25204302,
+            "projection_priority": 50285146,
+            "sort_priority": 50408433,
+            "raster_priority": 12840487
+          },
+          "dynamic": {
+            "cycles": 12681545,
+            "switches": 69,
+            "mode_histogram": {
+              "balanced": 37,
+              "projection_priority": 36,
+              "sort_priority": 0,
+              "raster_priority": 311
+            },
+            "run_count": 70
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9876218090482082
+        },
+        {
+          "camera_index": 262,
+          "resolution": [
+            1920,
+            1263
+          ],
+          "input_gaussians": 3405153,
+          "depth_visible_gaussians": 2318988,
+          "projected_gaussians": 247420,
+          "depth_visible_ratio": 0.6810231434534659,
+          "projection_survival_ratio": 0.10669309198667695,
+          "candidate_blocks": 43869385,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 16.0,
+            "0.9": 196.0,
+            "0.99": 1234.6199999999953,
+            "1": 37920.0
+          },
+          "profile_windows": 567,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 22177484,
+            "projection_priority": 43971815,
+            "sort_priority": 44354800,
+            "raster_priority": 11589428
+          },
+          "dynamic": {
+            "cycles": 11170210,
+            "switches": 121,
+            "mode_histogram": {
+              "balanced": 38,
+              "projection_priority": 121,
+              "sort_priority": 0,
+              "raster_priority": 408
+            },
+            "run_count": 122
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9638275504192269
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9671309882906652,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 3
+    },
+    "flowers": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1265
+          ],
+          "input_gaussians": 3636448,
+          "depth_visible_gaussians": 2307983,
+          "projected_gaussians": 811929,
+          "depth_visible_ratio": 0.6346806004100705,
+          "projection_survival_ratio": 0.3517915859865519,
+          "candidate_blocks": 47423269,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 30.0,
+            "0.99": 252.0,
+            "1": 38160.0
+          },
+          "profile_windows": 564,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 23713543,
+            "projection_priority": 47423269,
+            "sort_priority": 47426805,
+            "raster_priority": 11963447
+          },
+          "dynamic": {
+            "cycles": 11944313,
+            "switches": 28,
+            "mode_histogram": {
+              "balanced": 16,
+              "projection_priority": 1,
+              "sort_priority": 0,
+              "raster_priority": 547
+            },
+            "run_count": 29
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9984006281801557
+        },
+        {
+          "camera_index": 86,
+          "resolution": [
+            1920,
+            1265
+          ],
+          "input_gaussians": 3636448,
+          "depth_visible_gaussians": 2442794,
+          "projected_gaussians": 1105275,
+          "depth_visible_ratio": 0.6717527653358442,
+          "projection_survival_ratio": 0.4524634496400433,
+          "candidate_blocks": 39893808,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 4.0,
+            "0.9": 20.0,
+            "0.99": 169.0,
+            "1": 38160.0
+          },
+          "profile_windows": 597,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 19947052,
+            "projection_priority": 39893808,
+            "sort_priority": 39893808,
+            "raster_priority": 10069409
+          },
+          "dynamic": {
+            "cycles": 10063603,
+            "switches": 14,
+            "mode_histogram": {
+              "balanced": 7,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 590
+            },
+            "run_count": 15
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9994234021083065
+        },
+        {
+          "camera_index": 172,
+          "resolution": [
+            1920,
+            1265
+          ],
+          "input_gaussians": 3636448,
+          "depth_visible_gaussians": 2233883,
+          "projected_gaussians": 601983,
+          "depth_visible_ratio": 0.6143035731571027,
+          "projection_survival_ratio": 0.2694783030266133,
+          "candidate_blocks": 38887065,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 36.0,
+            "0.99": 289.0,
+            "1": 38160.0
+          },
+          "profile_windows": 546,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 19456920,
+            "projection_priority": 38890026,
+            "sort_priority": 38913573,
+            "raster_priority": 9980393
+          },
+          "dynamic": {
+            "cycles": 9902790,
+            "switches": 47,
+            "mode_histogram": {
+              "balanced": 61,
+              "projection_priority": 6,
+              "sort_priority": 0,
+              "raster_priority": 479
+            },
+            "run_count": 48
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9922244544879144
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9966777479146296,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 0
+    },
+    "garden": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1244
+          ],
+          "input_gaussians": 5834784,
+          "depth_visible_gaussians": 4343680,
+          "projected_gaussians": 2255034,
+          "depth_visible_ratio": 0.7444457241262059,
+          "projection_survival_ratio": 0.519152884190364,
+          "candidate_blocks": 34173583,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 4.0,
+            "0.9": 20.0,
+            "0.99": 100.0,
+            "1": 37440.0
+          },
+          "profile_windows": 1061,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 17426375,
+            "projection_priority": 34325532,
+            "sort_priority": 34852316,
+            "raster_priority": 9333392
+          },
+          "dynamic": {
+            "cycles": 8782192,
+            "switches": 64,
+            "mode_histogram": {
+              "balanced": 25,
+              "projection_priority": 167,
+              "sort_priority": 0,
+              "raster_priority": 869
+            },
+            "run_count": 65
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9409432283568503
+        },
+        {
+          "camera_index": 92,
+          "resolution": [
+            1920,
+            1244
+          ],
+          "input_gaussians": 5834784,
+          "depth_visible_gaussians": 3982387,
+          "projected_gaussians": 1617313,
+          "depth_visible_ratio": 0.6825251800238021,
+          "projection_survival_ratio": 0.4061164824011328,
+          "candidate_blocks": 38643861,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 4.0,
+            "0.9": 25.0,
+            "0.99": 156.0,
+            "1": 37440.0
+          },
+          "profile_windows": 973,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 19580852,
+            "projection_priority": 38768158,
+            "sort_priority": 39161334,
+            "raster_priority": 10317242
+          },
+          "dynamic": {
+            "cycles": 9898029,
+            "switches": 54,
+            "mode_histogram": {
+              "balanced": 28,
+              "projection_priority": 127,
+              "sort_priority": 0,
+              "raster_priority": 818
+            },
+            "run_count": 55
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9593677263749363
+        },
+        {
+          "camera_index": 184,
+          "resolution": [
+            1920,
+            1244
+          ],
+          "input_gaussians": 5834784,
+          "depth_visible_gaussians": 4544541,
+          "projected_gaussians": 1801588,
+          "depth_visible_ratio": 0.7788704774675463,
+          "projection_survival_ratio": 0.3964290343073151,
+          "candidate_blocks": 33149489,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 4.0,
+            "0.9": 21.0,
+            "0.99": 110.0,
+            "1": 37440.0
+          },
+          "profile_windows": 1110,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 16999470,
+            "projection_priority": 33353074,
+            "sort_priority": 33998530,
+            "raster_priority": 9446066
+          },
+          "dynamic": {
+            "cycles": 8717611,
+            "switches": 79,
+            "mode_histogram": {
+              "balanced": 82,
+              "projection_priority": 208,
+              "sort_priority": 0,
+              "raster_priority": 820
+            },
+            "run_count": 80
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9228827111730957
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9409466750056763,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 3
+    },
+    "kitchen": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1281
+          ],
+          "input_gaussians": 1852335,
+          "depth_visible_gaussians": 1580314,
+          "projected_gaussians": 1112689,
+          "depth_visible_ratio": 0.8531469739544952,
+          "projection_survival_ratio": 0.7040936168381726,
+          "candidate_blocks": 36465872,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 42.0,
+            "0.99": 289.0,
+            "1": 38640.0
+          },
+          "profile_windows": 386,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 18239949,
+            "projection_priority": 36467007,
+            "sort_priority": 36479697,
+            "raster_priority": 9139570
+          },
+          "dynamic": {
+            "cycles": 9126549,
+            "switches": 2,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 4,
+              "sort_priority": 0,
+              "raster_priority": 381
+            },
+            "run_count": 3
+          },
+          "dynamic_vs_best_fixed_ratio": 0.998575315906547
+        },
+        {
+          "camera_index": 139,
+          "resolution": [
+            1920,
+            1281
+          ],
+          "input_gaussians": 1852335,
+          "depth_visible_gaussians": 1537267,
+          "projected_gaussians": 1141225,
+          "depth_visible_ratio": 0.8299076570922647,
+          "projection_survival_ratio": 0.7423726652559379,
+          "candidate_blocks": 44119792,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 42.0,
+            "0.99": 256.0,
+            "1": 38640.0
+          },
+          "profile_windows": 376,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 22059988,
+            "projection_priority": 44119792,
+            "sort_priority": 44119792,
+            "raster_priority": 11030094
+          },
+          "dynamic": {
+            "cycles": 11030094,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 376
+            },
+            "run_count": 1
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0
+        },
+        {
+          "camera_index": 278,
+          "resolution": [
+            1920,
+            1281
+          ],
+          "input_gaussians": 1852335,
+          "depth_visible_gaussians": 1670080,
+          "projected_gaussians": 1065277,
+          "depth_visible_ratio": 0.9016079704805017,
+          "projection_survival_ratio": 0.6378598630005748,
+          "candidate_blocks": 38008085,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 36.0,
+            "0.99": 210.0,
+            "1": 38640.0
+          },
+          "profile_windows": 408,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 19033170,
+            "projection_priority": 38017707,
+            "sort_priority": 38066147,
+            "raster_priority": 9594839
+          },
+          "dynamic": {
+            "cycles": 9542141,
+            "switches": 23,
+            "mode_histogram": {
+              "balanced": 6,
+              "projection_priority": 15,
+              "sort_priority": 0,
+              "raster_priority": 387
+            },
+            "run_count": 24
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9945076723017447
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9976916131303216,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 0
+    },
+    "playroom": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1264
+          ],
+          "input_gaussians": 2546116,
+          "depth_visible_gaussians": 1979804,
+          "projected_gaussians": 463572,
+          "depth_visible_ratio": 0.7775780836379803,
+          "projection_survival_ratio": 0.23415045125679107,
+          "candidate_blocks": 83912522,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 16.0,
+            "0.9": 100.0,
+            "0.99": 1225.0,
+            "1": 37920.0
+          },
+          "profile_windows": 484,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 41968360,
+            "projection_priority": 83913775,
+            "sort_priority": 83936487,
+            "raster_priority": 21092520
+          },
+          "dynamic": {
+            "cycles": 21051325,
+            "switches": 43,
+            "mode_histogram": {
+              "balanced": 20,
+              "projection_priority": 5,
+              "sort_priority": 0,
+              "raster_priority": 459
+            },
+            "run_count": 44
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9980469379666346
+        },
+        {
+          "camera_index": 112,
+          "resolution": [
+            1920,
+            1264
+          ],
+          "input_gaussians": 2546116,
+          "depth_visible_gaussians": 1758545,
+          "projected_gaussians": 204830,
+          "depth_visible_ratio": 0.6906774868073567,
+          "projection_survival_ratio": 0.11647697386191426,
+          "candidate_blocks": 74102720,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 36.0,
+            "0.9": 225.0,
+            "0.99": 2652.0,
+            "1": 37920.0
+          },
+          "profile_windows": 430,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 37333498,
+            "projection_priority": 74215243,
+            "sort_priority": 74666918,
+            "raster_priority": 19283550
+          },
+          "dynamic": {
+            "cycles": 18777744,
+            "switches": 120,
+            "mode_histogram": {
+              "balanced": 48,
+              "projection_priority": 144,
+              "sort_priority": 0,
+              "raster_priority": 238
+            },
+            "run_count": 121
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9737700786421587
+        },
+        {
+          "camera_index": 224,
+          "resolution": [
+            1920,
+            1264
+          ],
+          "input_gaussians": 2546116,
+          "depth_visible_gaussians": 773976,
+          "projected_gaussians": 118475,
+          "depth_visible_ratio": 0.30398300784410454,
+          "projection_survival_ratio": 0.1530732219086897,
+          "candidate_blocks": 79882493,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 36.0,
+            "0.9": 272.0,
+            "0.99": 37920.0,
+            "1": 37920.0
+          },
+          "profile_windows": 189,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 39971949,
+            "projection_priority": 79893490,
+            "sort_priority": 79943839,
+            "raster_priority": 20069534
+          },
+          "dynamic": {
+            "cycles": 20012094,
+            "switches": 33,
+            "mode_histogram": {
+              "balanced": 6,
+              "projection_priority": 16,
+              "sort_priority": 0,
+              "raster_priority": 167
+            },
+            "run_count": 34
+          },
+          "dynamic_vs_best_fixed_ratio": 0.99713795048754
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9895875267851988,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 1
+    },
+    "room": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1279
+          ],
+          "input_gaussians": 1593376,
+          "depth_visible_gaussians": 1238378,
+          "projected_gaussians": 392849,
+          "depth_visible_ratio": 0.7772038740385194,
+          "projection_survival_ratio": 0.31722866523791604,
+          "candidate_blocks": 46841355,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 16.0,
+            "0.9": 121.0,
+            "0.99": 918.0,
+            "1": 38400.0
+          },
+          "profile_windows": 303,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 23461384,
+            "projection_priority": 46853873,
+            "sort_priority": 46922638,
+            "raster_priority": 11851796
+          },
+          "dynamic": {
+            "cycles": 11764688,
+            "switches": 25,
+            "mode_histogram": {
+              "balanced": 19,
+              "projection_priority": 21,
+              "sort_priority": 0,
+              "raster_priority": 263
+            },
+            "run_count": 26
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9926502278641988
+        },
+        {
+          "camera_index": 155,
+          "resolution": [
+            1920,
+            1279
+          ],
+          "input_gaussians": 1593376,
+          "depth_visible_gaussians": 1222700,
+          "projected_gaussians": 440036,
+          "depth_visible_ratio": 0.7673643885686743,
+          "projection_survival_ratio": 0.359888770753251,
+          "candidate_blocks": 33903465,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 16.0,
+            "0.9": 100.0,
+            "0.99": 816.0,
+            "1": 38400.0
+          },
+          "profile_windows": 299,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 17052569,
+            "projection_priority": 33943109,
+            "sort_priority": 34105025,
+            "raster_priority": 8759178
+          },
+          "dynamic": {
+            "cycles": 8571680,
+            "switches": 44,
+            "mode_histogram": {
+              "balanced": 22,
+              "projection_priority": 51,
+              "sort_priority": 0,
+              "raster_priority": 226
+            },
+            "run_count": 45
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9785941100865857
+        },
+        {
+          "camera_index": 310,
+          "resolution": [
+            1920,
+            1279
+          ],
+          "input_gaussians": 1593376,
+          "depth_visible_gaussians": 1220162,
+          "projected_gaussians": 228526,
+          "depth_visible_ratio": 0.7657715441929589,
+          "projection_survival_ratio": 0.18729152358457318,
+          "candidate_blocks": 52056212,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 25.0,
+            "0.9": 196.0,
+            "0.99": 1849.0,
+            "1": 38400.0
+          },
+          "profile_windows": 298,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 26028700,
+            "projection_priority": 52056212,
+            "sort_priority": 52057256,
+            "raster_priority": 13060329
+          },
+          "dynamic": {
+            "cycles": 13051109,
+            "switches": 9,
+            "mode_histogram": {
+              "balanced": 9,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 289
+            },
+            "run_count": 10
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9992940453490873
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9901417682362811,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 1
+    },
+    "stump": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1273
+          ],
+          "input_gaussians": 4961797,
+          "depth_visible_gaussians": 3373926,
+          "projected_gaussians": 1307205,
+          "depth_visible_ratio": 0.679980660232573,
+          "projection_survival_ratio": 0.38744329306570446,
+          "candidate_blocks": 70799021,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 36.0,
+            "0.99": 240.0,
+            "1": 38400.0
+          },
+          "profile_windows": 824,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 35415734,
+            "projection_priority": 70799555,
+            "sort_priority": 70831076,
+            "raster_priority": 18074361
+          },
+          "dynamic": {
+            "cycles": 18005821,
+            "switches": 40,
+            "mode_histogram": {
+              "balanced": 51,
+              "projection_priority": 8,
+              "sort_priority": 0,
+              "raster_priority": 765
+            },
+            "run_count": 41
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9962078880686294
+        },
+        {
+          "camera_index": 62,
+          "resolution": [
+            1920,
+            1273
+          ],
+          "input_gaussians": 4961797,
+          "depth_visible_gaussians": 3329718,
+          "projected_gaussians": 859271,
+          "depth_visible_ratio": 0.6710709849677445,
+          "projection_survival_ratio": 0.2580611931701123,
+          "candidate_blocks": 48820613,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 25.0,
+            "0.99": 169.0,
+            "1": 38400.0
+          },
+          "profile_windows": 813,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 24702611,
+            "projection_priority": 48925675,
+            "sort_priority": 49404956,
+            "raster_priority": 13033082
+          },
+          "dynamic": {
+            "cycles": 12516434,
+            "switches": 83,
+            "mode_histogram": {
+              "balanced": 44,
+              "projection_priority": 150,
+              "sort_priority": 0,
+              "raster_priority": 619
+            },
+            "run_count": 84
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9603587240531442
+        },
+        {
+          "camera_index": 124,
+          "resolution": [
+            1920,
+            1273
+          ],
+          "input_gaussians": 4961797,
+          "depth_visible_gaussians": 2618546,
+          "projected_gaussians": 703858,
+          "depth_visible_ratio": 0.5277414614100496,
+          "projection_survival_ratio": 0.26879726382503877,
+          "candidate_blocks": 115588726,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 36.0,
+            "0.99": 256.0,
+            "1": 38400.0
+          },
+          "profile_windows": 640,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 58255124,
+            "projection_priority": 115804586,
+            "sort_priority": 116510069,
+            "raster_priority": 29893042
+          },
+          "dynamic": {
+            "cycles": 29166585,
+            "switches": 45,
+            "mode_histogram": {
+              "balanced": 20,
+              "projection_priority": 228,
+              "sort_priority": 0,
+              "raster_priority": 392
+            },
+            "run_count": 46
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9756981239982201
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9773114285062258,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 2
+    },
+    "train": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1068
+          ],
+          "input_gaussians": 1026508,
+          "depth_visible_gaussians": 853968,
+          "projected_gaussians": 756448,
+          "depth_visible_ratio": 0.8319155817587394,
+          "projection_survival_ratio": 0.8858036835103892,
+          "candidate_blocks": 39257139,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 49.0,
+            "0.99": 529.0,
+            "1": 32160.0
+          },
+          "profile_windows": 209,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 19628623,
+            "projection_priority": 39257139,
+            "sort_priority": 39257139,
+            "raster_priority": 9814368
+          },
+          "dynamic": {
+            "cycles": 9814368,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 209
+            },
+            "run_count": 1
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0
+        },
+        {
+          "camera_index": 150,
+          "resolution": [
+            1920,
+            1068
+          ],
+          "input_gaussians": 1026508,
+          "depth_visible_gaussians": 844660,
+          "projected_gaussians": 490753,
+          "depth_visible_ratio": 0.822847946630713,
+          "projection_survival_ratio": 0.5810065588520825,
+          "candidate_blocks": 38375693,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 72.0,
+            "0.99": 756.0,
+            "1": 32160.0
+          },
+          "profile_windows": 207,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 19187898,
+            "projection_priority": 38375693,
+            "sort_priority": 38375693,
+            "raster_priority": 9594003
+          },
+          "dynamic": {
+            "cycles": 9594003,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 207
+            },
+            "run_count": 1
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0
+        },
+        {
+          "camera_index": 300,
+          "resolution": [
+            1920,
+            1068
+          ],
+          "input_gaussians": 1026508,
+          "depth_visible_gaussians": 863826,
+          "projected_gaussians": 760968,
+          "depth_visible_ratio": 0.8415190139774849,
+          "projection_survival_ratio": 0.8809274089920887,
+          "candidate_blocks": 38042139,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 49.0,
+            "0.99": 484.0,
+            "1": 32160.0
+          },
+          "profile_windows": 211,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 19021122,
+            "projection_priority": 38042139,
+            "sort_priority": 38042139,
+            "raster_priority": 9510614
+          },
+          "dynamic": {
+            "cycles": 9510614,
+            "switches": 0,
+            "mode_histogram": {
+              "balanced": 0,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 211
+            },
+            "run_count": 1
+          },
+          "dynamic_vs_best_fixed_ratio": 1.0
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 1.0,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 0
+    },
+    "treehill": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1260
+          ],
+          "input_gaussians": 3783761,
+          "depth_visible_gaussians": 2537952,
+          "projected_gaussians": 989899,
+          "depth_visible_ratio": 0.6707484960070152,
+          "projection_survival_ratio": 0.39003850348627556,
+          "candidate_blocks": 67234794,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 42.0,
+            "0.99": 361.0,
+            "1": 37920.0
+          },
+          "profile_windows": 620,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 33617534,
+            "projection_priority": 67234794,
+            "sort_priority": 67234794,
+            "raster_priority": 16823620
+          },
+          "dynamic": {
+            "cycles": 16821600,
+            "switches": 2,
+            "mode_histogram": {
+              "balanced": 1,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 619
+            },
+            "run_count": 3
+          },
+          "dynamic_vs_best_fixed_ratio": 0.999879930716457
+        },
+        {
+          "camera_index": 70,
+          "resolution": [
+            1920,
+            1260
+          ],
+          "input_gaussians": 3783761,
+          "depth_visible_gaussians": 2344575,
+          "projected_gaussians": 729623,
+          "depth_visible_ratio": 0.6196414096979169,
+          "projection_survival_ratio": 0.3111962722455029,
+          "candidate_blocks": 51372858,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 49.0,
+            "0.99": 400.0,
+            "1": 37920.0
+          },
+          "profile_windows": 573,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 25687267,
+            "projection_priority": 51372858,
+            "sort_priority": 51374289,
+            "raster_priority": 12910162
+          },
+          "dynamic": {
+            "cycles": 12896718,
+            "switches": 14,
+            "mode_histogram": {
+              "balanced": 10,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 563
+            },
+            "run_count": 15
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9989586497830159
+        },
+        {
+          "camera_index": 140,
+          "resolution": [
+            1920,
+            1260
+          ],
+          "input_gaussians": 3783761,
+          "depth_visible_gaussians": 2294365,
+          "projected_gaussians": 565025,
+          "depth_visible_ratio": 0.6063715440800833,
+          "projection_survival_ratio": 0.24626639614882548,
+          "candidate_blocks": 51351597,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 9.0,
+            "0.9": 64.0,
+            "0.99": 456.0,
+            "1": 37920.0
+          },
+          "profile_windows": 561,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 25735528,
+            "projection_priority": 51372337,
+            "sort_priority": 51470810,
+            "raster_priority": 13036720
+          },
+          "dynamic": {
+            "cycles": 12926413,
+            "switches": 21,
+            "mode_histogram": {
+              "balanced": 10,
+              "projection_priority": 32,
+              "sort_priority": 0,
+              "raster_priority": 519
+            },
+            "run_count": 22
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9915387459422309
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9967854368171482,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 0
+    },
+    "truck": {
+      "views": [
+        {
+          "camera_index": 0,
+          "resolution": [
+            1920,
+            1070
+          ],
+          "input_gaussians": 2541226,
+          "depth_visible_gaussians": 1644204,
+          "projected_gaussians": 999189,
+          "depth_visible_ratio": 0.6470121114769013,
+          "projection_survival_ratio": 0.607703788580979,
+          "candidate_blocks": 43896159,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 36.0,
+            "0.99": 324.0,
+            "1": 32160.0
+          },
+          "profile_windows": 402,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 21951862,
+            "projection_priority": 43896159,
+            "sort_priority": 43903521,
+            "raster_priority": 11037024
+          },
+          "dynamic": {
+            "cycles": 11012419,
+            "switches": 8,
+            "mode_histogram": {
+              "balanced": 17,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 385
+            },
+            "run_count": 9
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9977706852861786
+        },
+        {
+          "camera_index": 125,
+          "resolution": [
+            1920,
+            1070
+          ],
+          "input_gaussians": 2541226,
+          "depth_visible_gaussians": 1492343,
+          "projected_gaussians": 963394,
+          "depth_visible_ratio": 0.5872531604823813,
+          "projection_survival_ratio": 0.6455580251993007,
+          "candidate_blocks": 43004434,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 36.0,
+            "0.99": 324.0,
+            "1": 32160.0
+          },
+          "profile_windows": 365,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 21503222,
+            "projection_priority": 43004434,
+            "sort_priority": 43006249,
+            "raster_priority": 10810906
+          },
+          "dynamic": {
+            "cycles": 10797449,
+            "switches": 10,
+            "mode_histogram": {
+              "balanced": 13,
+              "projection_priority": 0,
+              "sort_priority": 0,
+              "raster_priority": 352
+            },
+            "run_count": 11
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9987552384601254
+        },
+        {
+          "camera_index": 250,
+          "resolution": [
+            1920,
+            1070
+          ],
+          "input_gaussians": 2541226,
+          "depth_visible_gaussians": 1490566,
+          "projected_gaussians": 891598,
+          "depth_visible_ratio": 0.5865538917042404,
+          "projection_survival_ratio": 0.5981606986876127,
+          "candidate_blocks": 37566659,
+          "blocks_per_projected_gaussian": {
+            "0": 1.0,
+            "0.5": 6.0,
+            "0.9": 36.0,
+            "0.99": 289.0,
+            "1": 32160.0
+          },
+          "profile_windows": 364,
+          "best_fixed_mode": "raster_priority",
+          "fixed_mode_cycles": {
+            "balanced": 18790191,
+            "projection_priority": 37567408,
+            "sort_priority": 37580206,
+            "raster_priority": 9428223
+          },
+          "dynamic": {
+            "cycles": 9412102,
+            "switches": 9,
+            "mode_histogram": {
+              "balanced": 5,
+              "projection_priority": 3,
+              "sort_priority": 0,
+              "raster_priority": 356
+            },
+            "run_count": 10
+          },
+          "dynamic_vs_best_fixed_ratio": 0.9982901337823681
+        }
+      ],
+      "geomean_dynamic_vs_best_fixed_ratio": 0.9982719381740011,
+      "best_fixed_modes": {
+        "raster_priority": 3
+      },
+      "views_with_over_1pct_dynamic_gain": 0
+    }
+  },
+  "aggregate": {
+    "view_count": 39,
+    "geomean_dynamic_vs_best_fixed_ratio": 0.9876738063795004,
+    "mean_dynamic_vs_best_fixed_ratio": 0.987849532142664,
+    "minimum_ratio": 0.9228827111730957,
+    "maximum_ratio": 1.0,
+    "views_with_over_1pct_dynamic_gain": 11,
+    "views_with_over_2pct_dynamic_gain": 9,
+    "views_with_no_switch": 5,
+    "best_fixed_mode_histogram": {
+      "raster_priority": 39
+    }
+  }
+}

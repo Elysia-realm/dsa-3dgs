@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "date": "2026-08-03",
+    "status": "uncalibrated R1 scheduling study; area credits are provisional",
+    "resource_costs": {
+      "projection": 2,
+      "sort": 1,
+      "paired_raster": 2
+    },
+    "area_budget_credits": 12,
+    "warning": "results do not establish area-fair hardware speedup before RTL synthesis"
+  },
+  "workloads": {
+    "sparse": {
+      "b0_cycles": 125,
+      "r0_cycles": 139,
+      "r1_fixed_cycles": {
+        "balanced": 139,
+        "projection_priority": 153,
+        "sort_priority": 157,
+        "raster_priority": 156
+      },
+      "r1_best_static_mode": "balanced",
+      "r1_best_static_cycles": 139,
+      "r1_dynamic_cycles": 139,
+      "r1_modes": [
+        "balanced"
+      ],
+      "r1_reconfigurations": 0,
+      "r1_vs_b0_ratio": 1.112,
+      "r1_vs_r0_ratio": 1.0,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "task_graph_equal": true
+    },
+    "dense_overlap": {
+      "b0_cycles": 2692,
+      "r0_cycles": 2717,
+      "r1_fixed_cycles": {
+        "balanced": 3969,
+        "projection_priority": 7797,
+        "sort_priority": 7799,
+        "raster_priority": 2070
+      },
+      "r1_best_static_mode": "raster_priority",
+      "r1_best_static_cycles": 2070,
+      "r1_dynamic_cycles": 2070,
+      "r1_modes": [
+        "raster_priority"
+      ],
+      "r1_reconfigurations": 0,
+      "r1_vs_b0_ratio": 0.7689450222882616,
+      "r1_vs_r0_ratio": 0.7618697092381302,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "task_graph_equal": true
+    },
+    "heavy_occlusion": {
+      "b0_cycles": 4486,
+      "r0_cycles": 4508,
+      "r1_fixed_cycles": {
+        "balanced": 6649,
+        "projection_priority": 13146,
+        "sort_priority": 13153,
+        "raster_priority": 3420
+      },
+      "r1_best_static_mode": "raster_priority",
+      "r1_best_static_cycles": 3420,
+      "r1_dynamic_cycles": 3420,
+      "r1_modes": [
+        "raster_priority"
+      ],
+      "r1_reconfigurations": 0,
+      "r1_vs_b0_ratio": 0.7623718234507356,
+      "r1_vs_r0_ratio": 0.7586512866015972,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "task_graph_equal": true
+    },
+    "single_block_hotspot": {
+      "b0_cycles": 386,
+      "r0_cycles": 399,
+      "r1_fixed_cycles": {
+        "balanced": 387,
+        "projection_priority": 385,
+        "sort_priority": 394,
+        "raster_priority": 397
+      },
+      "r1_best_static_mode": "projection_priority",
+      "r1_best_static_cycles": 385,
+      "r1_dynamic_cycles": 385,
+      "r1_modes": [
+        "projection_priority"
+      ],
+      "r1_reconfigurations": 0,
+      "r1_vs_b0_ratio": 0.9974093264248705,
+      "r1_vs_r0_ratio": 0.9649122807017544,
+      "dynamic_vs_best_static_ratio": 1.0,
+      "task_graph_equal": true
+    }
+  },
+  "heterogeneous_scheduler_test": {
+    "fixed": {
+      "balanced": 1512,
+      "projection_priority": 2687,
+      "sort_priority": 2784,
+      "raster_priority": 979
+    },
+    "0": {
+      "total_cycles": 932,
+      "modes": [
+        "projection_priority",
+        "raster_priority"
+      ],
+      "reconfigurations": 1,
+      "charged_cycles": 0,
+      "epochs": [
+        {
+          "group_start": 0,
+          "group_end": 7,
+          "mode": "projection_priority",
+          "input_gaussians": 122,
+          "projected_gaussians": 0,
+          "block_tasks": 0
+        },
+        {
+          "group_start": 7,
+          "group_end": 9,
+          "mode": "raster_priority",
+          "input_gaussians": 38,
+          "projected_gaussians": 32,
+          "block_tasks": 1379
+        }
+      ]
+    },
+    "4": {
+      "total_cycles": 936,
+      "modes": [
+        "projection_priority",
+        "raster_priority"
+      ],
+      "reconfigurations": 1,
+      "charged_cycles": 4,
+      "epochs": [
+        {
+          "group_start": 0,
+          "group_end": 7,
+          "mode": "projection_priority",
+          "input_gaussians": 122,
+          "projected_gaussians": 0,
+          "block_tasks": 0
+        },
+        {
+          "group_start": 7,
+          "group_end": 9,
+          "mode": "raster_priority",
+          "input_gaussians": 38,
+          "projected_gaussians": 32,
+          "block_tasks": 1379
+        }
+      ]
+    },
+    "12": {
+      "total_cycles": 944,
+      "modes": [
+        "projection_priority",
+        "raster_priority"
+      ],
+      "reconfigurations": 1,
+      "charged_cycles": 12,
+      "epochs": [
+        {
+          "group_start": 0,
+          "group_end": 7,
+          "mode": "projection_priority",
+          "input_gaussians": 122,
+          "projected_gaussians": 0,
+          "block_tasks": 0
+        },
+        {
+          "group_start": 7,
+          "group_end": 9,
+          "mode": "raster_priority",
+          "input_gaussians": 38,
+          "projected_gaussians": 32,
+          "block_tasks": 1379
+        }
+      ]
+    },
+    "24": {
+      "total_cycles": 956,
+      "modes": [
+        "projection_priority",
+        "raster_priority"
+      ],
+      "reconfigurations": 1,
+      "charged_cycles": 24,
+      "epochs": [
+        {
+          "group_start": 0,
+          "group_end": 7,
+          "mode": "projection_priority",
+          "input_gaussians": 122,
+          "projected_gaussians": 0,
+          "block_tasks": 0
+        },
+        {
+          "group_start": 7,
+          "group_end": 9,
+          "mode": "raster_priority",
+          "input_gaussians": 38,
+          "projected_gaussians": 32,
+          "block_tasks": 1379
+        }
+      ]
+    },
+    "48": {
+      "total_cycles": 979,
+      "modes": [
+        "raster_priority"
+      ],
+      "reconfigurations": 0,
+      "charged_cycles": 0,
+      "epochs": [
+        {
+          "group_start": 0,
+          "group_end": 9,
+          "mode": "raster_priority",
+          "input_gaussians": 160,
+          "projected_gaussians": 32,
+          "block_tasks": 1379
+        }
+      ]
+    }
+  }
+}

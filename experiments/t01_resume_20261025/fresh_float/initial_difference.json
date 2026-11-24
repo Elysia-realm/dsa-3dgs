@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "/mnt/d/3DGS/experiments/t06_20261018/float_full/bonsai/float_floor_0.30078125_jac_clamp.png",
+      "sha256": "7b0b2347d35de18a8e1d9a2daf0a47d3826adf740f3f2dd17b06e1f791ed40c0",
+      "bytes": 20307,
+      "mode": "RGB",
+      "shape": [
+        84,
+        128,
+        3
+      ],
+      "pixels_sha256": "0dc87c9510acf69b7eb098bbc1dabdc4dddb07c6127ce22219b8a0834bc016d1",
+      "info": {}
+    },
+    {
+      "path": "/mnt/d/3DGS/experiments/t01_resume_20261025/fresh_float/bonsai/float_floor_0.30078125_jac_clamp.png",
+      "sha256": "d8c4ae0deb2e2d20acb4073d095ff1cdc4e2a0c7e08647243de0e73948d912bc",
+      "bytes": 20118,
+      "mode": "RGB",
+      "shape": [
+        84,
+        128,
+        3
+      ],
+      "pixels_sha256": "0dc87c9510acf69b7eb098bbc1dabdc4dddb07c6127ce22219b8a0834bc016d1",
+      "info": {}
+    }
+  ],
+  "changed_channels": 0,
+  "max_abs": 0.0,
+  "mae": 0.0
+}

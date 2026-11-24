@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/usr/bin/vvp",
+    "/home/gs3d/work/t08_20261031/dual_dma_gates_20261122/icsprout55/dma.vvp",
+    "+N=6144",
+    "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/dual_precision_native_20261122/protocol/enabled/0/input.memh",
+    "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/dma_20261107/expected.memh"
+  ],
+  "inputs_sha256": "7EDDBA85DAFBC93CEB20C1FAFE26738C53374A7822EEEDE7CE7367926E582C4A",
+  "expected_sha256": "5DEE855011FF81B7EAF82F69CE02D6CA7480B5EB047CE881A0D095844CB6C368",
+  "binary_sha256": "EABCE5650C09C684AF1F28C070B224E96894DBE616CFC7B02D764D023040AFA3"
+}

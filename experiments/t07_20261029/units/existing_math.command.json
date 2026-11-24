@@ -1,0 +1,8 @@
+[
+  "/home/gs3d/eda/venvs/gsverify/bin/python",
+  "-m",
+  "unittest",
+  "verification.test_shape_block_reject",
+  "verification.test_alpha_zero_skip",
+  "-v"
+]

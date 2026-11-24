@@ -1,0 +1,19 @@
+[
+  "/home/gs3d/work/t08_20261031/extended_20261107/full/simulation",
+  "+MEAN=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/mean.memh",
+  "+ATTR=/mnt/d/3DGS/experiments/t08_20261031/extended_20261107/inputs/full/truck/attribute.memh",
+  "+CAMERA=/mnt/d/3DGS/experiments/t06_full_precount_mem_20261022/truck/camera.memh",
+  "+FRAME=/mnt/d/3DGS/experiments/t08_20261031/extended_20261107/real/full/truck/f1/state.memh",
+  "+RGB=/mnt/d/3DGS/experiments/t08_20261031/extended_20261107/real/full/truck/f1/rgb.memh",
+  "+FRAME_MODE=0",
+  "+READ_LATENCY=0",
+  "+READ_GAP=0",
+  "+READY_PERIOD=1",
+  "+READY_LOW=0",
+  "+WRITE_RESPONSE_LATENCY=2",
+  "+MAX_TIMEOUT=2000000000",
+  "+AUTO_QSU",
+  "+SORTED_TRACE=/mnt/d/3DGS/experiments/t08_20261031/extended_20261107/real/full/truck/f1/sorted.txt",
+  "+ATTR_FORMAT=1",
+  "+MUTATE_FORMAT"
+]

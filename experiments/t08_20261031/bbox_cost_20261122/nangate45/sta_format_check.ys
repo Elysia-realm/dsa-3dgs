@@ -1,0 +1,11 @@
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+read_verilog "/mnt/d/3DGS/experiments/t08_20261031/bbox_cost_20261122/nangate45/mapped.v"
+hierarchy -check -top t08_bbox_cost_top
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t08_20261031/bbox_cost_20261122/sta_format/1A10053CB7F02F3E/original.il"
+design -reset
+read_liberty -lib "/mnt/d/3DGS/tmp/toolchains/freepdk45_google_954b16e2/Front_End/Liberty/NLDM/NangateOpenCellLibrary_typical.lib"
+read_verilog "/mnt/d/3DGS/experiments/t08_20261031/bbox_cost_20261122/nangate45/mapped.sta.v"
+hierarchy -check -top t08_bbox_cost_top
+opt_clean -purge
+write_rtlil "/home/gs3d/work/t08_20261031/bbox_cost_20261122/sta_format/1A10053CB7F02F3E/adapted.il"

@@ -1,0 +1,8 @@
+[
+  "D:\\IcarusVerilog\\iverilog\\bin\\vvp.exe",
+  "D:\\3DGS\\experiments\\t06_20261017\\protocol\\tb_t06_qsu_abort.vvp",
+  "+N=1025",
+  "+ABORT_READ=19",
+  "+INPUT=experiments/t06_20261014/units/identical_key/input.memh",
+  "+EXPECTED=experiments/t06_20261014/units/identical_key/expected.memh"
+]

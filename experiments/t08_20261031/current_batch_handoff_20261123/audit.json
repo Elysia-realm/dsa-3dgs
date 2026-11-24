@@ -1,0 +1,206 @@
+{
+  "gates": {
+    "results": [
+      {
+        "pdk": "nangate45",
+        "sample": false,
+        "variant": 0,
+        "records": 6144,
+        "physical_beats": 49565,
+        "control_cases": 18,
+        "log_sha256": "130F8BC97BE5467DDE504D5967572F06AD5A4668F38645630ACAB6008E15330A"
+      },
+      {
+        "pdk": "nangate45",
+        "sample": false,
+        "variant": 1,
+        "records": 6144,
+        "physical_beats": 50620,
+        "control_cases": 18,
+        "log_sha256": "56E50DBD32B090793AB6F8C83902F6826F453AB2B6430202BB23BAC2C2111C52"
+      },
+      {
+        "pdk": "nangate45",
+        "sample": true,
+        "variant": 0,
+        "records": 159,
+        "physical_beats": 1157,
+        "control_cases": 18,
+        "log_sha256": "FB56D760B2FEEFDB6F6E860C7B3F7159628AAAC01DFF000364022014B35B6953"
+      },
+      {
+        "pdk": "nangate45",
+        "sample": true,
+        "variant": 1,
+        "records": 159,
+        "physical_beats": 1235,
+        "control_cases": 18,
+        "log_sha256": "BBF8F46646BB6FBB312BB4F125B1824D6C0F0FF5A856C711305D3D0A21A93686"
+      },
+      {
+        "pdk": "icsprout55",
+        "sample": false,
+        "variant": 0,
+        "records": 6144,
+        "physical_beats": 49565,
+        "control_cases": 18,
+        "log_sha256": "4A0E8D3F5FB090AD0B340D670ACB306AC7550F1D018AD5CC88F80B2873F532CD"
+      },
+      {
+        "pdk": "icsprout55",
+        "sample": false,
+        "variant": 1,
+        "records": 6144,
+        "physical_beats": 50620,
+        "control_cases": 18,
+        "log_sha256": "8BDA6D2FF117EDA151F94DA613C542DD629F46A5400EB87BC7FEDCDEFCC00CD0"
+      },
+      {
+        "pdk": "icsprout55",
+        "sample": true,
+        "variant": 0,
+        "records": 159,
+        "physical_beats": 1157,
+        "control_cases": 18,
+        "log_sha256": "EBC672FD608B27DC3DD1B5B1764EAD27ECA3116CB49C836616BEBDB3EC5E09F5"
+      },
+      {
+        "pdk": "icsprout55",
+        "sample": true,
+        "variant": 1,
+        "records": 159,
+        "physical_beats": 1235,
+        "control_cases": 18,
+        "log_sha256": "A3F0E5FE5C299E9411235B3DEB54FC409C8CBB30787303D27FF2AC632D01848F"
+      }
+    ],
+    "report_sha256": "52E162D68C35B9377A02A9532DB257D18A923532DCEEEDAEF68C7A8CF4B15D67"
+  },
+  "native": {
+    "results": [
+      {
+        "scene": "train",
+        "camera": 150,
+        "records": 1026508,
+        "width": 1959,
+        "height": 1090,
+        "cases": [
+          {
+            "format": 3,
+            "command_cycles": 1001116513,
+            "assumed_200mhz_fps": 0.19977694644219698,
+            "attr_bytes": 133431408,
+            "attr_ar": 955548,
+            "logical_requests": 926607,
+            "dram_lines": 257651500,
+            "tail_dram_cycles": 0,
+            "total_axi_bytes": 4342232672,
+            "shared_R": 123659292,
+            "state_reads": 120375119,
+            "state_writes": 123659292,
+            "sample": {
+              "mae_rgb8": 0.411522633744856,
+              "max_channel_error": 3
+            },
+            "host_wall_s": 34100.41378278,
+            "terminal_word_differences": 0,
+            "result_sha256": "182C3C89BAC0D25F4B709E3E13722C6FC8B7739B1F13FA4966C9107890A900F6"
+          },
+          {
+            "format": 2,
+            "command_cycles": 1000915058,
+            "assumed_200mhz_fps": 0.19981715571312747,
+            "attr_bytes": 118555552,
+            "attr_ar": 952197,
+            "logical_requests": 926607,
+            "dram_lines": 257419668,
+            "tail_dram_cycles": 0,
+            "total_axi_bytes": 4327356848,
+            "shared_R": 123659293,
+            "state_reads": 120375120,
+            "state_writes": 123659293,
+            "sample": {
+              "mae_rgb8": 0.411522633744856,
+              "max_channel_error": 3
+            },
+            "host_wall_s": 34403.075245957996,
+            "terminal_word_differences": 0,
+            "result_sha256": "A34EFC7B07F10806D5F83D509E396111E37877738BBAE89BC771C4212DC4DB8E"
+          }
+        ],
+        "cycle_savings_percent": 0.020123032372754146,
+        "attribute_savings_percent": 11.148691468503424
+      },
+      {
+        "scene": "truck",
+        "camera": 125,
+        "records": 2541226,
+        "width": 1957,
+        "height": 1091,
+        "cases": [
+          {
+            "format": 3,
+            "command_cycles": 1038350558,
+            "assumed_200mhz_fps": 0.19261317717710516,
+            "attr_bytes": 239690592,
+            "attr_ar": 1716613,
+            "logical_requests": 1664518,
+            "dram_lines": 272527578,
+            "tail_dram_cycles": 0,
+            "total_axi_bytes": 4730018224,
+            "shared_R": 129074145,
+            "state_reads": 120410422,
+            "state_writes": 129074145,
+            "sample": {
+              "mae_rgb8": 0.2345679012345679,
+              "max_channel_error": 1
+            },
+            "host_wall_s": 35845.091523894,
+            "terminal_word_differences": 0,
+            "result_sha256": "9A1D72FE80492642667B956292E8E7C5F46D683E24037CF44BB471C0945BC570"
+          },
+          {
+            "format": 2,
+            "command_cycles": 1037731357,
+            "assumed_200mhz_fps": 0.19272810699118154,
+            "attr_bytes": 213002864,
+            "attr_ar": 1710725,
+            "logical_requests": 1664518,
+            "dram_lines": 272111427,
+            "tail_dram_cycles": 0,
+            "total_axi_bytes": 4703330496,
+            "shared_R": 129074146,
+            "state_reads": 120410421,
+            "state_writes": 129074146,
+            "sample": {
+              "mae_rgb8": 0.2345679012345679,
+              "max_channel_error": 1
+            },
+            "host_wall_s": 35870.876989141994,
+            "terminal_word_differences": 0,
+            "result_sha256": "48A59E05832537D41802983F76D65895E21AC6107F1A2205D7139C0EF29AF22D"
+          }
+        ],
+        "cycle_savings_percent": 0.05963313596062392,
+        "attribute_savings_percent": 11.134240930073712
+      }
+    ],
+    "report_sha256": "EAD80D25ECD79F320A16BF7A1862240B1476EFDCBC730744E128C6246F14144B"
+  },
+  "script_sha256": "8AD14366F783661E067CABAC54406A671C15F3650DB3481D1E8DF3AC5E35F711",
+  "current_batches_audited": true,
+  "signed_off": false,
+  "decision": "T08 remains unsigned. Current batch results are complete; future development is exclusively user-directed.",
+  "contract": {
+    "D04_observed_fps_failure_at_assumed_200mhz": true,
+    "D06_formal_GT_signed_off": false,
+    "D08_attribute_byte_reduction": true,
+    "ppa_signed_off": false
+  },
+  "automation": {
+    "id": "t08",
+    "delete_after_assessment": true,
+    "deletion_verified": true,
+    "evidence": "experiments/t08_20261031/current_batch_handoff_20261123/automation_deletion.json"
+  }
+}

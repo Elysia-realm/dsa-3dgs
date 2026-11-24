@@ -1,0 +1,12 @@
+{
+  "scene": "kitchen",
+  "camera_index": 139,
+  "gaussians": 1852335,
+  "full_scene": true,
+  "scope": "all PLY records; exact quantized/saturated depth oracle at QSU input, not production top/visibility/RGB validation",
+  "prepass_numeric_overflows": 0,
+  "input_order": "original PLY; CPU never pivots or constructs subsets",
+  "source_ply_sha256": "0a2a60c5b9e42c77f4e047d65622a0d7fa85cc4c716f2342cae8c897e8d75588",
+  "input_sha256": "b9388d76f69e3d4b08dd6cee67d07a4ab9cef70ad3917884311c5ccac5ccb0ca",
+  "expected_sha256": "07b3c3f9980d3faf18756cbdb9b4b3946fa76f3b913e37a1aa912a2e40b23db2"
+}

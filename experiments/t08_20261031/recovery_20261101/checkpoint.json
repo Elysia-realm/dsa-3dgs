@@ -1,0 +1,149 @@
+{
+  "observed_at": "2026-11-01T18:52:45.335306+08:00",
+  "status": "IN_PROGRESS_WITH_TWO_NATIVE_TIMEOUTS",
+  "signed_off": false,
+  "production_source_unchanged": true,
+  "native_results": [
+    {
+      "scene": "bonsai",
+      "status": "FAILED",
+      "signed_off": false,
+      "width": 3118,
+      "height": 2078,
+      "launch_sha256": "6734D78760BCBB58AD9CAEF9343AFA9025C8FD43C6A04FC97FD5C9C0D30D4B03",
+      "last_observed_progress": {
+        "cycles": 2000000000,
+        "mean_beats": 1244819,
+        "attribute_beats": 8852706,
+        "qsu_reads": 8307228,
+        "qsu_writes": 7323555,
+        "commits": 359224046,
+        "skipped": 7093207
+      },
+      "progress_observation_only_not_frame_result": true,
+      "failure_class": "FRAME_INCOMPLETE_AT_CYCLE_LIMIT",
+      "not_evidence_of_deadlock": "progress continued through final observation; no claim of complete correctness",
+      "timeout_counters": {
+        "cycles": 1999999967,
+        "commits": 359224055,
+        "misses": 353170655,
+        "reads": 353170654,
+        "writes": 359224055,
+        "mean_beats": 1244819,
+        "attr_beats": 8852706
+      },
+      "partial_state_transfer_bytes": 11398315344,
+      "partial_state_GBps_needed_at_30FPS": 341.94946032,
+      "state_reads_per_commit": 0.9831486758312997,
+      "assumed_200MHz_FPS_strict_upper_bound": 0.1,
+      "cycle_gap_to_30FPS_strict_lower_bound": 300,
+      "frequency_verified": false,
+      "execution": {
+        "exit_code": 1,
+        "wall_seconds": 83069.444383854,
+        "log_sha256": "D4FDBBDFC501FA496B695333F1358942D14CBFBCBB32E84D904B0BDF205A1862"
+      },
+      "saved_sorted_prefix_matches": 983634,
+      "immutable_failure_files": {
+        "launch.json": "6734D78760BCBB58AD9CAEF9343AFA9025C8FD43C6A04FC97FD5C9C0D30D4B03",
+        "run.command.json": "0FB6664DAA4EEC4F4EE84EB40E511B66D7BE90A2472A2ACCA0583D179934BF43",
+        "run.execution.json": "90D9990D23CA7E863436AFBC3F24198C332B3B4AB719B67E210FEAF31FCC486B",
+        "run.log": "D4FDBBDFC501FA496B695333F1358942D14CBFBCBB32E84D904B0BDF205A1862",
+        "sorted.txt": "34C31F3493F7FFF10F61A344FB6717F600561946E7FF4261223BB776560B4C1F",
+        "status.json": "6EDD163154E28ABB30B2B6E3EEF73C466EEDB184026F10FF33F020AFE915CFD5"
+      }
+    },
+    {
+      "scene": "counter",
+      "status": "FAILED",
+      "signed_off": false,
+      "width": 3115,
+      "height": 2076,
+      "launch_sha256": "29F4578B395A7075F2B4C4FA717EA682F775AB89CE51737630ACFA1056F6FE12",
+      "last_observed_progress": {
+        "cycles": 2000000000,
+        "mean_beats": 1222956,
+        "attribute_beats": 7577100,
+        "qsu_reads": 8150860,
+        "qsu_writes": 7308914,
+        "commits": 360143679,
+        "skipped": 8772065
+      },
+      "progress_observation_only_not_frame_result": true,
+      "failure_class": "FRAME_INCOMPLETE_AT_CYCLE_LIMIT",
+      "not_evidence_of_deadlock": "progress continued through final observation; no claim of complete correctness",
+      "timeout_counters": {
+        "cycles": 1999999967,
+        "commits": 360143679,
+        "misses": 353524500,
+        "reads": 353524500,
+        "writes": 360143679,
+        "mean_beats": 1222956,
+        "attr_beats": 7577100
+      },
+      "partial_state_transfer_bytes": 11418690864,
+      "partial_state_GBps_needed_at_30FPS": 342.56072592,
+      "state_reads_per_commit": 0.9816207269876865,
+      "assumed_200MHz_FPS_strict_upper_bound": 0.1,
+      "cycle_gap_to_30FPS_strict_lower_bound": 300,
+      "frequency_verified": false,
+      "execution": {
+        "exit_code": 1,
+        "wall_seconds": 84500.874112321,
+        "log_sha256": "659162828F46E905928F03CAAEAF5502264E0846CDE1455B804451AD9DF8ED51"
+      },
+      "saved_sorted_prefix_matches": 841900,
+      "immutable_failure_files": {
+        "launch.json": "29F4578B395A7075F2B4C4FA717EA682F775AB89CE51737630ACFA1056F6FE12",
+        "run.command.json": "F613DBBD92ABCC39F8237DFCBCAB55BE2ED95D2D8C80A7174646DF8AC236A436",
+        "run.execution.json": "E9AB6FEFBAD68A4836B8AE578CF20F203DF1EEE012A98F095AA6BB928CF1851B",
+        "run.log": "659162828F46E905928F03CAAEAF5502264E0846CDE1455B804451AD9DF8ED51",
+        "sorted.txt": "F3E7972053C11766CC88249C413A99A3A15A5C5E2FA60D0B187F28CF1768A16E",
+        "status.json": "679D3F939FF685F3703EE73D5F717C4D489240687B01D375A899017DE6DDD0F9"
+      }
+    },
+    {
+      "scene": "room",
+      "status": "RUNNING",
+      "signed_off": false,
+      "width": 3114,
+      "height": 2075,
+      "launch_sha256": "2E3E58F06D1E8306A11CB8219AB4014FDC54B8E670B4788A0812645DBEC5E37E",
+      "last_observed_progress": {
+        "cycles": 430000000,
+        "mean_beats": 1593376,
+        "attribute_beats": 6435765,
+        "qsu_reads": 8222965,
+        "qsu_writes": 7507819,
+        "commits": 56942448,
+        "skipped": 5391574
+      },
+      "progress_observation_only_not_frame_result": true
+    },
+    {
+      "scene": "train",
+      "status": "RUNNING",
+      "signed_off": false,
+      "width": 1959,
+      "height": 1090,
+      "launch_sha256": "AA75359477E4DE5C2CA685AABFF7EB8186B84E7D116810A1309BEF92278D52FE",
+      "last_observed_progress": null,
+      "progress_observation_only_not_frame_result": true
+    },
+    {
+      "scene": "truck",
+      "status": "RUNNING",
+      "signed_off": false,
+      "width": 1957,
+      "height": 1091,
+      "launch_sha256": "C6AB5804756D38C1DA17918EF025FAB8972312D3B8183F7A1F3CCF6EAF9A1C89",
+      "last_observed_progress": null,
+      "progress_observation_only_not_frame_result": true
+    }
+  ],
+  "precompute": "PASS",
+  "decoder": "PASS_MODULE_ONLY",
+  "compressed_DMA_integrated": false,
+  "compressed_production_render_validated": false,
+  "baseline_build_manifest_sha256": "6BF820D9C1E85038D5C84241DF5B895246B8C300D7EE53E03AD24874447DD33C"
+}

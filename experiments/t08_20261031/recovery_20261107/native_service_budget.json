@@ -1,0 +1,117 @@
+{
+  "status": "NECESSARY_BUDGET_NOT_PHYSICAL_SIGNOFF",
+  "rows": [
+    {
+      "scene": "bonsai",
+      "complete_frame": false,
+      "width": 3118,
+      "height": 2078,
+      "cycles": null,
+      "state_transfer_bytes": 11398315344,
+      "state_GBps_at_30FPS": 341.94946032,
+      "state_bytes_scope": "render state only; excludes final RGB scan and all other DMA; timeout rows are partial lower bounds",
+      "shared_R_grants": null,
+      "shared_R_single_service_budget_ratio": null,
+      "termination_counters": null,
+      "full_pixel_bitmap_bytes": 809901,
+      "coarse_count7_payload_bytes": 88725,
+      "coarse_count7_plus_epoch16_bytes": 291525,
+      "log_sha256": "D4FDBBDFC501FA496B695333F1358942D14CBFBCBB32E84D904B0BDF205A1862"
+    },
+    {
+      "scene": "counter",
+      "complete_frame": false,
+      "width": 3115,
+      "height": 2076,
+      "cycles": null,
+      "state_transfer_bytes": 11418690864,
+      "state_GBps_at_30FPS": 342.56072592,
+      "state_bytes_scope": "render state only; excludes final RGB scan and all other DMA; timeout rows are partial lower bounds",
+      "shared_R_grants": null,
+      "shared_R_single_service_budget_ratio": null,
+      "termination_counters": null,
+      "full_pixel_bitmap_bytes": 808343,
+      "coarse_count7_payload_bytes": 88725,
+      "coarse_count7_plus_epoch16_bytes": 291525,
+      "log_sha256": "659162828F46E905928F03CAAEAF5502264E0846CDE1455B804451AD9DF8ED51"
+    },
+    {
+      "scene": "room",
+      "complete_frame": false,
+      "width": 3114,
+      "height": 2075,
+      "cycles": null,
+      "state_transfer_bytes": 9790568496,
+      "state_GBps_at_30FPS": 293.71705488,
+      "state_bytes_scope": "render state only; excludes final RGB scan and all other DMA; timeout rows are partial lower bounds",
+      "shared_R_grants": null,
+      "shared_R_single_service_budget_ratio": null,
+      "termination_counters": null,
+      "full_pixel_bitmap_bytes": 807694,
+      "coarse_count7_payload_bytes": 88725,
+      "coarse_count7_plus_epoch16_bytes": 291525,
+      "log_sha256": "F25A1389891B489BFA26F16CC75DD9FCB23B03EF3DCD1F80882B8BC9DAB061C2"
+    },
+    {
+      "scene": "train",
+      "complete_frame": true,
+      "width": 1959,
+      "height": 1090,
+      "cycles": 1012803782,
+      "state_transfer_bytes": 6089681968,
+      "state_GBps_at_30FPS": 182.69045904,
+      "state_bytes_scope": "render state only; excludes final RGB scan and all other DMA; timeout rows are partial lower bounds",
+      "shared_R_grants": 192813612,
+      "shared_R_single_service_budget_ratio": 28.9220418,
+      "termination_counters": {
+        "enabled": 1,
+        "accepted": 810181561,
+        "alpha_issued": 806905075,
+        "skipped": 3276486,
+        "updates": 1321169,
+        "full_blocks": 761
+      },
+      "full_pixel_bitmap_bytes": 266914,
+      "coarse_count7_payload_bytes": 29370,
+      "coarse_count7_plus_epoch16_bytes": 96500,
+      "log_sha256": "3EB6A9953A5137F299FFD32E92FE2CC5E1F8FAEAD98325EB240C7A37447B9941"
+    },
+    {
+      "scene": "truck",
+      "complete_frame": true,
+      "width": 1957,
+      "height": 1091,
+      "cycles": 1003006820,
+      "state_transfer_bytes": 5914840064,
+      "state_GBps_at_30FPS": 177.44520192,
+      "state_bytes_scope": "render state only; excludes final RGB scan and all other DMA; timeout rows are partial lower bounds",
+      "shared_R_grants": 190455154,
+      "shared_R_single_service_budget_ratio": 28.5682731,
+      "termination_counters": {
+        "enabled": 1,
+        "accepted": 804056334,
+        "alpha_issued": 794935647,
+        "skipped": 9120687,
+        "updates": 1350633,
+        "full_blocks": 1109
+      },
+      "full_pixel_bitmap_bytes": 266886,
+      "coarse_count7_payload_bytes": 29370,
+      "coarse_count7_plus_epoch16_bytes": 96500,
+      "log_sha256": "E6C05FB3B2580947E96C1C4A290DB26672D01AACEB13FFABC5F223104AEE37BE"
+    }
+  ],
+  "assumed_frequency_MHz": 200,
+  "frequency_verified": false,
+  "existing_array_payload_bytes": {
+    "state_cache_4096": 53248,
+    "termination_256": 3104
+  },
+  "total_storage_pass": null,
+  "limitations": [
+    "Array subtotals exclude queues, replicated ports, QSU, BSU, auxiliary pipelines and controls",
+    "No sustainable DDR rate or CACTI macro costs claimed",
+    "R grant budget and memory traffic are separate overlapping constraints; do not sum"
+  ],
+  "signed_off": false
+}

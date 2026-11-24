@@ -1,0 +1,14 @@
+workload,scene,camera_index,gaussian_count,g_cycles,p_cycles,r_cycles,e_cycles,best_fixed_mode,best_fixed_cycles,auto_recommendation_valid,auto_recommended_mode,auto_selected_mode,auto_selected_runtime_cycles,selected_fixed_cycles,auto_runtime_overhead_cycles,auto_gap_cycles,auto_gap_percent,auto_matches_best,auto_within_one_percent,first_queued_window,observe_g_windows,observe_p_windows,observe_r_windows,observe_e_windows,fixed_hash_equal,auto_image_mismatches
+bicycle_cammid_n32_d64,bicycle,97,32,1423,1429,1429,1459,G,1423,1,R,R,1430,1429,1,6,0.421644,0,1,,3,0,2,0,1,0
+bonsai_cammid_n32_d64,bonsai,146,32,1721,1727,1727,1751,G,1721,1,R,R,1734,1727,7,6,0.348635,0,1,6,3,0,3,0,1,0
+counter_cammid_n32_d64,counter,120,32,1797,1803,1803,1826,G,1797,1,R,R,1807,1803,4,6,0.33389,0,1,6,3,0,4,0,1,0
+drjohnson_cammid_n32_d64,drjohnson,131,32,1701,1707,1707,1735,G,1701,1,R,R,1709,1707,2,6,0.352734,0,1,6,3,0,3,0,1,0
+flowers_cammid_n32_d64,flowers,86,32,1586,1592,1592,1618,G,1586,1,R,R,1583,1592,-9,6,0.37831,0,1,6,3,0,3,0,1,0
+garden_cammid_n32_d64,garden,92,32,1239,1245,1245,1278,G,1239,0,,E,1285,1278,7,39,3.1477,0,0,,3,0,1,0,1,0
+kitchen_cammid_n32_d64,kitchen,139,32,1792,1798,1797,1820,G,1792,1,R,R,1788,1797,-9,5,0.279018,0,1,6,3,0,4,0,1,0
+playroom_cammid_n32_d64,playroom,112,32,1644,1650,1650,1679,G,1644,1,R,R,1650,1650,0,6,0.364964,0,1,6,3,0,3,0,1,0
+room_cammid_n32_d64,room,155,32,1685,1691,1691,1753,G,1685,1,R,R,1691,1691,0,6,0.356083,0,1,6,3,0,3,0,1,0
+stump_cammid_n32_d64,stump,62,32,1360,1366,1366,1396,G,1360,1,R,R,1366,1366,0,6,0.441176,0,1,,3,0,2,0,1,0
+train_cammid_n32_d64,train,150,32,1804,1810,1810,1833,G,1804,1,R,R,1807,1810,-3,6,0.332594,0,1,6,3,0,4,0,1,0
+treehill_cammid_n32_d64,treehill,70,32,1676,1682,1682,1716,G,1676,1,R,R,1689,1682,7,6,0.357995,0,1,6,3,0,3,0,1,0
+truck_cammid_n32_d64,truck,125,32,1739,1745,1745,1761,G,1739,1,R,R,1751,1745,6,6,0.345026,0,1,6,3,0,3,0,1,0

@@ -1,0 +1,77 @@
+{
+   "creator": "Yosys 0.66+183 (git sha1 b285b72e3, Release, GNU /usr/bin/x86_64-w64-mingw32-g++ 13.2.1)",
+   "invocation": "stat -json ",
+   "modules": {
+      "\\axi4_qsu_scratch_dma": {
+         "num_wires":         304,
+         "num_wire_bits":     5511,
+         "num_pub_wires":     114,
+         "num_pub_wire_bits": 4246,
+         "num_ports":         52,
+         "num_port_bits":     915,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         267,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$add": 12,
+            "$adff": 3,
+            "$adffe": 14,
+            "$dffe": 32,
+            "$eq": 41,
+            "$ge": 1,
+            "$gt": 2,
+            "$logic_and": 19,
+            "$logic_not": 12,
+            "$logic_or": 14,
+            "$lt": 4,
+            "$mux": 49,
+            "$ne": 10,
+            "$not": 1,
+            "$or": 1,
+            "$pmux": 8,
+            "$reduce_and": 22,
+            "$reduce_bool": 16,
+            "$reduce_or": 1,
+            "$sub": 5
+         }
+      }
+   },
+      "design": {
+         "num_wires":         304,
+         "num_wire_bits":     5511,
+         "num_pub_wires":     114,
+         "num_pub_wire_bits": 4246,
+         "num_ports":         52,
+         "num_port_bits":     915,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         267,
+         "num_submodules":       0,
+         "num_cells_by_type": {
+            "$add": 12,
+            "$adff": 3,
+            "$adffe": 14,
+            "$dffe": 32,
+            "$eq": 41,
+            "$ge": 1,
+            "$gt": 2,
+            "$logic_and": 19,
+            "$logic_not": 12,
+            "$logic_or": 14,
+            "$lt": 4,
+            "$mux": 49,
+            "$ne": 10,
+            "$not": 1,
+            "$or": 1,
+            "$pmux": 8,
+            "$reduce_and": 22,
+            "$reduce_bool": 16,
+            "$reduce_or": 1,
+            "$sub": 5
+         }
+      }
+}
+

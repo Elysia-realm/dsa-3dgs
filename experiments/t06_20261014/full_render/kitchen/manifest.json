@@ -1,0 +1,18 @@
+{
+  "scene": "kitchen",
+  "camera_index": 139,
+  "gaussians": 1852335,
+  "visible": 1630751,
+  "full_scene": true,
+  "width": 16,
+  "height": 10,
+  "software_preprocessing": "PLY decode and fixed-point format only; original order; pivots zero/ignored; one command",
+  "source_ply_sha256": "0a2a60c5b9e42c77f4e047d65622a0d7fa85cc4c716f2342cae8c897e8d75588",
+  "input_sha256": {
+    "attribute.memh": "b46d9f3a9e54b53fab4b74bcaddc1b54e846bd238011526a0f14eeab3d8907ea",
+    "camera.memh": "84ebd290775662ec589e9bcff52594e2c82104035b8b11aa65b84a171162b8c0",
+    "mean.memh": "d3074fa5c091705a336965f2a666b232bb2d0e6e6c152374603572bf6200d5a1"
+  },
+  "oracle_sha256": "909f2d22fb0711827a756ce00b6a3abb9abcea7dcdff48ec7a88eb11ea65f197",
+  "status": "INPUT_PREPARED_NOT_TESTED"
+}

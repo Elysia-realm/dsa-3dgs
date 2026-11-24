@@ -1,0 +1,12 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_projection_lane_scheduler",
+  "-o",
+  "/home/gs3d/work/t07_20261029/legacy_units/tb_projection_lane_scheduler.vvp",
+  "/mnt/d/3DGS/rtl/projection/projection_lane_scheduler.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_projection_lane_scheduler.sv"
+]

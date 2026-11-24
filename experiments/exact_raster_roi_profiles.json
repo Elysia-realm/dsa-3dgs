@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "date": "2026-08-04",
+    "method": "full-scene projection followed by exact per-pixel alpha/blend trace in a centered ROI",
+    "max_dimension": 960,
+    "roi_size": 64,
+    "alpha_threshold": 0.00392156862745098,
+    "transmittance_threshold": 0.0001,
+    "selection": {
+      "garden": "largest candidate-model dynamic gain",
+      "train": "no-switch control workload",
+      "bonsai": "low-gain indoor control workload"
+    }
+  },
+  "scenes": {
+    "garden": {
+      "camera_index": 184,
+      "resolution": [
+        960,
+        622
+      ],
+      "roi": [
+        448,
+        279,
+        512,
+        343
+      ],
+      "early_termination": {
+        "projected_roi_gaussians": 38866,
+        "candidate_blocks": 167828,
+        "skipped_terminated_blocks": 119680,
+        "active_block_visits": 48148,
+        "candidate_pixels": 4828486,
+        "alpha_evaluations": 1857488,
+        "alpha_pruned": 1444505,
+        "blend_updates": 412983,
+        "skipped_terminated_pixels": 2970998,
+        "terminated_pixels": 4096
+      },
+      "termination_disabled": {
+        "projected_roi_gaussians": 38866,
+        "candidate_blocks": 167828,
+        "skipped_terminated_blocks": 0,
+        "active_block_visits": 167828,
+        "candidate_pixels": 4828486,
+        "alpha_evaluations": 4828486,
+        "alpha_pruned": 3674329,
+        "blend_updates": 1154157,
+        "skipped_terminated_pixels": 0,
+        "terminated_pixels": 0
+      },
+      "alpha_evaluation_ratio": 0.3846936700241028,
+      "active_block_ratio": 0.2868889577424506,
+      "blend_ratio": 0.357822202698593,
+      "final_transmittance": {
+        "mean": 7.460976485162973e-05,
+        "p50": 8.252628322225064e-05,
+        "p90": 9.82696219580248e-05
+      }
+    },
+    "train": {
+      "camera_index": 150,
+      "resolution": [
+        960,
+        534
+      ],
+      "roi": [
+        448,
+        235,
+        512,
+        299
+      ],
+      "early_termination": {
+        "projected_roi_gaussians": 46532,
+        "candidate_blocks": 250986,
+        "skipped_terminated_blocks": 244219,
+        "active_block_visits": 6767,
+        "candidate_pixels": 8235280,
+        "alpha_evaluations": 384319,
+        "alpha_pruned": 232712,
+        "blend_updates": 151607,
+        "skipped_terminated_pixels": 7850961,
+        "terminated_pixels": 4096
+      },
+      "termination_disabled": {
+        "projected_roi_gaussians": 46532,
+        "candidate_blocks": 250986,
+        "skipped_terminated_blocks": 0,
+        "active_block_visits": 250986,
+        "candidate_pixels": 8235280,
+        "alpha_evaluations": 8235280,
+        "alpha_pruned": 6368935,
+        "blend_updates": 1866345,
+        "skipped_terminated_pixels": 0,
+        "terminated_pixels": 0
+      },
+      "alpha_evaluation_ratio": 0.04666738714409225,
+      "active_block_ratio": 0.026961663200337868,
+      "blend_ratio": 0.08123203373438459,
+      "final_transmittance": {
+        "mean": 4.6426230255747214e-05,
+        "p50": 3.983495480497368e-05,
+        "p90": 8.594051178079098e-05
+      }
+    },
+    "bonsai": {
+      "camera_index": 291,
+      "resolution": [
+        960,
+        640
+      ],
+      "roi": [
+        448,
+        288,
+        512,
+        352
+      ],
+      "early_termination": {
+        "projected_roi_gaussians": 15081,
+        "candidate_blocks": 164729,
+        "skipped_terminated_blocks": 152138,
+        "active_block_visits": 12591,
+        "candidate_pixels": 8066337,
+        "alpha_evaluations": 804841,
+        "alpha_pruned": 542850,
+        "blend_updates": 261991,
+        "skipped_terminated_pixels": 7261496,
+        "terminated_pixels": 4096
+      },
+      "termination_disabled": {
+        "projected_roi_gaussians": 15081,
+        "candidate_blocks": 164729,
+        "skipped_terminated_blocks": 0,
+        "active_block_visits": 164729,
+        "candidate_pixels": 8066337,
+        "alpha_evaluations": 8066337,
+        "alpha_pruned": 5977075,
+        "blend_updates": 2089262,
+        "skipped_terminated_pixels": 0,
+        "terminated_pixels": 0
+      },
+      "alpha_evaluation_ratio": 0.09977775538016823,
+      "active_block_ratio": 0.07643462899671581,
+      "blend_ratio": 0.12539882503965516,
+      "final_transmittance": {
+        "mean": 9.20670063351281e-05,
+        "p50": 9.336971561424434e-05,
+        "p90": 9.88299580058083e-05
+      }
+    }
+  }
+}

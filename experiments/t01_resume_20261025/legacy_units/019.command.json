@@ -1,0 +1,15 @@
+[
+  "/usr/bin/iverilog",
+  "-g2012",
+  "-DSYNTHESIS",
+  "-Wall",
+  "-s",
+  "tb_projection_primitives",
+  "-o",
+  "/home/gs3d/work/t01_resume_20261025/legacy_units/tb_projection_primitives.vvp",
+  "/mnt/d/3DGS/rtl/common/rv_reg_slice.sv",
+  "/mnt/d/3DGS/rtl/projection/fixed_div_pipe2.sv",
+  "/mnt/d/3DGS/rtl/projection/world_to_camera_core.sv",
+  "/mnt/d/3DGS/rtl/projection/perspective_project_core.sv",
+  "/mnt/d/3DGS/verification/rtl/tb_projection_primitives.sv"
+]

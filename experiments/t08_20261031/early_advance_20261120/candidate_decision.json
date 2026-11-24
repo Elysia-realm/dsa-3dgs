@@ -1,0 +1,36 @@
+{
+  "status": "ACCEPT_FOR_T08_DEVELOPMENT",
+  "signed_off": false,
+  "qualified_parameters": {
+    "ENABLE_COMPRESSED_ATTRIBUTES": 1,
+    "ATTR_DMA_EARLY_ADVANCE": 1
+  },
+  "full_width128_audit_sha256": "5B631B418B1E1AB60A5CD818BB08C35FED7F99D2C25F6948BD065A83811830DC",
+  "local_mapping_sha256": "60D98268FA8C0588FE7832007C282D681CEF6B3BCEA00FCB4D7319157B149E2A",
+  "gates": [
+    {
+      "pdk": "nangate45",
+      "suite": "gate_functional",
+      "vectors_per_configuration": 6144,
+      "report_sha256": "6E6130E4CE63D6F9EA9BD7C6955759640E3DC0B137BD41C37C9FC11C3AA3F91E"
+    },
+    {
+      "pdk": "nangate45",
+      "suite": "gate_sample",
+      "vectors_per_configuration": 159,
+      "report_sha256": "2593AFD118CDAD55A19DE17928D286DC55775DB398CEBEDE33FF35C32F08A9E7"
+    },
+    {
+      "pdk": "icsprout55",
+      "suite": "gate_sample",
+      "vectors_per_configuration": 159,
+      "report_sha256": "99A4D37536B1FE48BEC709C764EA959B2F77199AA5C8AB00B22B0BA53C611A8B"
+    }
+  ],
+  "open_conditions": [
+    "native formal GT",
+    "native 30FPS with verified timing and shared DDR",
+    "state traffic and QSU/R service rates",
+    "local minimum timing violations and final resource budget"
+  ]
+}

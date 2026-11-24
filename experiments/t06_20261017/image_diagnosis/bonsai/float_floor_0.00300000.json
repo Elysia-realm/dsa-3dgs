@@ -1,0 +1,25 @@
+{
+  "scene": "bonsai",
+  "regularizer": 0.003,
+  "width": 16,
+  "height": 10,
+  "processed_depth_sorted_prefix": 2048,
+  "total_depth_visible": 1051092,
+  "all_pixels_terminated": true,
+  "contributing_gaussians": 89,
+  "mean_rgb": [
+    98.7625,
+    91.325,
+    72.75625
+  ],
+  "std_rgb": [
+    8.952993563607647,
+    7.6897252876809565,
+    4.7902855799524104
+  ],
+  "unique_rgb": 138,
+  "rtl_rmse_rgb8": 0.917423929634859,
+  "rtl_max_abs_rgb8": 4.0,
+  "seconds": 0.04700000000593718,
+  "scope": "float diagnostic using existing project SH interpretation; not bit-exact RTL oracle or GT; floor ablation is not a production fix"
+}

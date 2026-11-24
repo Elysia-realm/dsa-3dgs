@@ -1,0 +1,18 @@
+{
+  "scene": "garden",
+  "camera_index": 92,
+  "gaussians": 5834784,
+  "visible": 4182979,
+  "full_scene": true,
+  "width": 16,
+  "height": 10,
+  "software_preprocessing": "PLY decode and fixed-point format only; original order; pivots zero/ignored; one command",
+  "source_ply_sha256": "16701d5e0630dfaca74f8794ed7ce2aa23fa922f87dc09a7e37484e8d3f82d5a",
+  "input_sha256": {
+    "attribute.memh": "9d53ca5774f1a070eb123651c51ce53db530b518eb76a5c3878e149d411f2ea2",
+    "camera.memh": "c57d284b3b8822c7838a73e1013029368ea1ae1d226512709f369625c0a00cac",
+    "mean.memh": "a9a7603a916a54533a741a5d9e76cf3cc957dcc520213482fca73d1b4605d6ac"
+  },
+  "oracle_sha256": "5e65cb333f9281551ae12fe06626e5816e453512b405e5c848d22aad4a144281",
+  "status": "INPUT_PREPARED_NOT_TESTED"
+}

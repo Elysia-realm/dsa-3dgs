@@ -1,0 +1,218 @@
+{
+  "report_version": 1,
+  "date": "2026-08-14",
+  "simulator": "Icarus Verilog 12",
+  "workload_class": "multi-scene trained-attribute RTL micro-workload",
+  "profiles": {
+    "ideal": {
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready_period": 1,
+      "ready_low": 0,
+      "write_response_latency": 2
+    },
+    "limited": {
+      "read_latency": 8,
+      "read_gap": 2,
+      "ready_period": 4,
+      "ready_low": 1,
+      "write_response_latency": 8
+    }
+  },
+  "write_buffer_depth": 2,
+  "writeback_enabled": false,
+  "writeback_depth": 32,
+  "multiwrite_enabled": true,
+  "multiwrite_depth": 12,
+  "multiwrite_forwarding": false,
+  "physical_lanes": 4,
+  "frame_mode": 2,
+  "state_entries": 4096,
+  "state_window_entries": 4,
+  "state_mshr_count": 4,
+  "response_blend_bypass": true,
+  "blend_commit_bypass": true,
+  "results": [
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 128,
+      "resolution": [
+        8,
+        4
+      ],
+      "profile": "ideal",
+      "cycles": 3394,
+      "commits": 1421,
+      "state_misses": 32,
+      "read_stall": 9,
+      "output_stall": 0,
+      "state_reads": 32,
+      "state_writes": 1421,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 12,
+      "peak_outstanding": 4,
+      "frame_mode": 2,
+      "physical_lanes": 4,
+      "stage_cycles": {
+        "collect": 270,
+        "drain": 3116,
+        "group_busy": 2453,
+        "sort_busy": 2864,
+        "attribute_wait": 0,
+        "projection_busy": 3042,
+        "sh_busy": 2889,
+        "raster_busy": 2041,
+        "projection_raster_overlap": 2023,
+        "sorted_backpressure": 2612,
+        "block_backpressure": 0,
+        "retire_wait": 3038,
+        "state_cache_busy": 1469,
+        "state_window_wait": 41,
+        "state_window_same_key": 0,
+        "state_window_different_key": 41
+      },
+      "backend_cycles": {
+        "mshr_count": 4,
+        "blend_window_full": 133,
+        "mshr_zero": 3306,
+        "mshr_one": 30,
+        "mshr_two": 58,
+        "mshr_full_query_block": 0,
+        "cache_response_block": 0,
+        "miss_issue_block": 9,
+        "axi_ar_stall": 0,
+        "axi_r_stall": 0,
+        "reader_response_block": 0
+      },
+      "window_opportunity": {
+        "third_candidate": 41,
+        "third_mshr_two": 2,
+        "third_mshr_one": 9,
+        "third_distinct": 41,
+        "third_distinct_mshr_two": 2,
+        "third_raw": 0,
+        "head_need_query": 0,
+        "head_wait_response": 41,
+        "head_need_blend": 0,
+        "head_wait_blend": 0,
+        "head_done_blocked": 0
+      },
+      "reconfiguration": {
+        "projection_active_mask": 3,
+        "sh_active_mask": 3,
+        "raster_active_mask": 15,
+        "projection_issues": 128,
+        "sh_issues": 128,
+        "raster_issues": 1421,
+        "projection_inactive_issues": 0,
+        "sh_inactive_issues": 0,
+        "raster_inactive_issues": 0
+      },
+      "blend_bypass": {
+        "enabled": true,
+        "fires": 1421
+      }
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 128,
+      "resolution": [
+        8,
+        4
+      ],
+      "profile": "limited",
+      "cycles": 6683,
+      "commits": 1421,
+      "state_misses": 32,
+      "read_stall": 12,
+      "output_stall": 55,
+      "state_reads": 32,
+      "state_writes": 1421,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 12,
+      "peak_outstanding": 8,
+      "frame_mode": 2,
+      "physical_lanes": 4,
+      "stage_cycles": {
+        "collect": 519,
+        "drain": 6147,
+        "group_busy": 4943,
+        "sort_busy": 5871,
+        "attribute_wait": 0,
+        "projection_busy": 6049,
+        "sh_busy": 5896,
+        "raster_busy": 2431,
+        "projection_raster_overlap": 2413,
+        "sorted_backpressure": 5619,
+        "block_backpressure": 0,
+        "retire_wait": 6048,
+        "state_cache_busy": 1571,
+        "state_window_wait": 111,
+        "state_window_same_key": 0,
+        "state_window_different_key": 111
+      },
+      "backend_cycles": {
+        "mshr_count": 4,
+        "blend_window_full": 233,
+        "mshr_zero": 6493,
+        "mshr_one": 57,
+        "mshr_two": 133,
+        "mshr_full_query_block": 0,
+        "cache_response_block": 0,
+        "miss_issue_block": 12,
+        "axi_ar_stall": 6,
+        "axi_r_stall": 0,
+        "reader_response_block": 0
+      },
+      "window_opportunity": {
+        "third_candidate": 111,
+        "third_mshr_two": 27,
+        "third_mshr_one": 26,
+        "third_distinct": 111,
+        "third_distinct_mshr_two": 27,
+        "third_raw": 0,
+        "head_need_query": 0,
+        "head_wait_response": 111,
+        "head_need_blend": 0,
+        "head_wait_blend": 0,
+        "head_done_blocked": 0
+      },
+      "reconfiguration": {
+        "projection_active_mask": 3,
+        "sh_active_mask": 3,
+        "raster_active_mask": 15,
+        "projection_issues": 128,
+        "sh_issues": 128,
+        "raster_issues": 1421,
+        "projection_inactive_issues": 0,
+        "sh_inactive_issues": 0,
+        "raster_inactive_issues": 0
+      },
+      "blend_bypass": {
+        "enabled": true,
+        "fires": 1421
+      }
+    }
+  ],
+  "equivalence": {
+    "train": {
+      "ideal_equals_limited": true,
+      "all_profiles_equal": true,
+      "sha256": "428CAD0020A819C5EFF08D3BF4891880E3415F29F2974A7744D7D064E6E459D6"
+    }
+  },
+  "interpretation": "AXI timing profiles must produce bit-identical frame state; cycle and stall changes quantify memory sensitivity.",
+  "data_policy": "Local D:/3DGS only; no network upload."
+}

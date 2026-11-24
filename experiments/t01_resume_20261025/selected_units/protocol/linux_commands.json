@@ -1,0 +1,284 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-Irtl/raster",
+      "-s",
+      "tb_t06_scratch_dma",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_scratch_dma.vvp",
+      "rtl/dma/axi4_qsu_scratch_dma.sv",
+      "verification/rtl/tb_t06_scratch_dma.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.02063001199996961,
+    "child_cpu_seconds": 0.008255999999988717,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_scratch_dma.vvp"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.014561849999950027,
+    "child_cpu_seconds": 0.012218000000018492,
+    "binary_sha256": "0213BFA47D89D44729AE75494F2E97AEB287BA1ED433C54833793AC3ADE38927",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-Irtl/raster",
+      "-s",
+      "tb_t06_qsu_abort",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_qsu_abort.vvp",
+      "rtl/sort/autonomous_qsu.sv",
+      "rtl/sort/bitonic_group_sorter_pipelined_shared.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "verification/rtl/tb_t06_qsu_abort.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.054173098999967806,
+    "child_cpu_seconds": 0.02760700000001748,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_qsu_abort.vvp",
+      "+N=16",
+      "+ABORT_READ=3",
+      "+INPUT=experiments/t06_20261014/units/random_16/input.memh",
+      "+EXPECTED=experiments/t06_20261014/units/random_16/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.06516016099999433,
+    "child_cpu_seconds": 0.026987999999988688,
+    "binary_sha256": "457CA97A8AAA83F6B1297EEB30199DD15B9422519804EEBF1875B23FBB2176CE",
+    "vector_sha256": {
+      "experiments/t06_20261014/units/random_16/input.memh": "08904D4AADFF3A077216D5B84672C2803C9F1BF5659DC194304D9F0673D2ABF3",
+      "experiments/t06_20261014/units/random_16/expected.memh": "C6B5F4F896DB79C29564810E7728D9A54B7EFECB0181700104863D264A5D1257"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_qsu_abort.vvp",
+      "+N=1025",
+      "+ABORT_READ=19",
+      "+INPUT=experiments/t06_20261014/units/identical_key/input.memh",
+      "+EXPECTED=experiments/t06_20261014/units/identical_key/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.09039420199997039,
+    "child_cpu_seconds": 0.06042500000000928,
+    "binary_sha256": "457CA97A8AAA83F6B1297EEB30199DD15B9422519804EEBF1875B23FBB2176CE",
+    "vector_sha256": {
+      "experiments/t06_20261014/units/identical_key/input.memh": "BC423E08E8C4FAF0B7F0B67EDF6E8DC949E23A2E16FAA4F048570405106CEDB2",
+      "experiments/t06_20261014/units/identical_key/expected.memh": "BC423E08E8C4FAF0B7F0B67EDF6E8DC949E23A2E16FAA4F048570405106CEDB2"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-Irtl/raster",
+      "-s",
+      "tb_t06_system_recovery",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "-f",
+      "verification/rtl/system_top_sources.f",
+      "verification/rtl/tb_t06_system_recovery.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.0084979219999468,
+    "child_cpu_seconds": 0.33592299999997977,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.8443828529999564,
+    "child_cpu_seconds": 2.5814989999999796,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=1"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.7134808480000174,
+    "child_cpu_seconds": 1.550136000000009,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=2"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 4.181642443999976,
+    "child_cpu_seconds": 1.7672330000000045,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=3"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.0786228890000302,
+    "child_cpu_seconds": 1.7420520000000295,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=4"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.7766233589999274,
+    "child_cpu_seconds": 1.460092999999972,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=5"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.8224404979999917,
+    "child_cpu_seconds": 1.4466579999999851,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=6"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.267866681999976,
+    "child_cpu_seconds": 1.4376170000000172,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=7"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.9283262239999885,
+    "child_cpu_seconds": 1.5900520000000142,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=8"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 1.63068698699999,
+    "child_cpu_seconds": 1.5879290000000026,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_system_recovery.vvp",
+      "+FAULT=9"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 2.079052981000018,
+    "child_cpu_seconds": 2.032343999999995,
+    "binary_sha256": "7710908D2180D65DC1543FF90866A478CAE4C9BC58573B8559744E62847F5725",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-DSYNTHESIS",
+      "-Irtl/raster",
+      "-s",
+      "tb_t06_backpressure",
+      "-o",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_backpressure.vvp",
+      "rtl/sort/autonomous_qsu.sv",
+      "rtl/sort/bitonic_group_sorter_pipelined_shared.sv",
+      "rtl/control/shared_reconfigurable_pe_slice.sv",
+      "verification/rtl/tb_t06_backpressure.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.05458778100000927,
+    "child_cpu_seconds": 0.028180999999989353,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_backpressure.vvp",
+      "+N=512",
+      "+INPUT=experiments/t06_20261014/units_v2/random_512/input.memh",
+      "+EXPECTED=experiments/t06_20261014/units_v2/random_512/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.35840367599996625,
+    "child_cpu_seconds": 0.2927850000000092,
+    "binary_sha256": "9F401A53F5164C60C59681F9CDB155688C98386D46FF00C3E1EE1BF1558390C6",
+    "vector_sha256": {
+      "experiments/t06_20261014/units_v2/random_512/input.memh": "44FCB40D30C8C606073D61095E0299A0EA1EEE00493106E9E61462B517C22235",
+      "experiments/t06_20261014/units_v2/random_512/expected.memh": "9C4C8629B332AA3FC65A37910BEC467DD434F5EA730A759EF1F7168D73C72038"
+    }
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t01_resume_20261025/selected_units/protocol/tb_t06_backpressure.vvp",
+      "+N=4097",
+      "+INPUT=experiments/t06_20261014/units_v2/random_4097/input.memh",
+      "+EXPECTED=experiments/t06_20261014/units_v2/random_4097/expected.memh"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 3.276082524000003,
+    "child_cpu_seconds": 3.2372290000000135,
+    "binary_sha256": "9F401A53F5164C60C59681F9CDB155688C98386D46FF00C3E1EE1BF1558390C6",
+    "vector_sha256": {
+      "experiments/t06_20261014/units_v2/random_4097/input.memh": "27638E578004839D5D964F206C60E05CED18D227A57B2B6E3F13C401746D2E65",
+      "experiments/t06_20261014/units_v2/random_4097/expected.memh": "A2D2D0AF45D8DE0600930276BF9F137461DB05368465C5C0BAD284474E07444A"
+    }
+  }
+]

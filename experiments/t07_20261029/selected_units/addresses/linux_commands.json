@@ -1,0 +1,212 @@
+[
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-s",
+      "tb_t06_memory_layout",
+      "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+      "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/valid_capacity.vvp",
+      "verification/rtl/tb_t06_memory_layout.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.008820181999908527,
+    "child_cpu_seconds": 0.005357000000003609,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/valid_capacity.vvp",
+      "+FAULT=0"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.004432569000073272,
+    "child_cpu_seconds": 0.0028679999999781103,
+    "binary_sha256": "5CA92A426F1B1F022F16AD5AC942459F9D2BA738EC539877C2E6843DBC07D2D5",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-s",
+      "tb_t06_memory_layout",
+      "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+      "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/below_region.vvp",
+      "verification/rtl/tb_t06_memory_layout.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.016530268999758846,
+    "child_cpu_seconds": 0.005315999999993437,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/below_region.vvp",
+      "+FAULT=1"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.005471497000144154,
+    "child_cpu_seconds": 0.0029789999999820793,
+    "binary_sha256": "3BEF0E282744D65BC6EEDACE6A1B5C7FE07369DABCCE6E65DCF6B15DB3F8A359",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-s",
+      "tb_t06_memory_layout",
+      "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+      "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/past_region.vvp",
+      "verification/rtl/tb_t06_memory_layout.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.013287846999901376,
+    "child_cpu_seconds": 0.005372000000079424,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/past_region.vvp",
+      "+FAULT=2"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.005124657000123989,
+    "child_cpu_seconds": 0.0027719999999931133,
+    "binary_sha256": "30BA4757BFCE3E18586B0F7849C045A22BBA18F97212324AE32D9EA9D94D3324",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-s",
+      "tb_t06_memory_layout",
+      "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+      "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/address_wrap.vvp",
+      "verification/rtl/tb_t06_memory_layout.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.010624250000091706,
+    "child_cpu_seconds": 0.005177000000003318,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/address_wrap.vvp",
+      "+FAULT=3"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.004482672999984061,
+    "child_cpu_seconds": 0.002645999999970172,
+    "binary_sha256": "E8E371D1A3BF9D507BA7B7E99606A8C57389B67DE06699E95E430E2820670D97",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-s",
+      "tb_t06_memory_layout",
+      "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+      "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/zero_length.vvp",
+      "verification/rtl/tb_t06_memory_layout.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.010209882000253856,
+    "child_cpu_seconds": 0.005151000000012118,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/zero_length.vvp",
+      "+FAULT=4"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.00452180899992527,
+    "child_cpu_seconds": 0.0027999999999792635,
+    "binary_sha256": "E494A9396628262E7D97E64728D7CE36206669E95A153B7A74345C04360035F3",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-s",
+      "tb_t06_memory_layout",
+      "-Ptb_t06_memory_layout.MAX_COUNT=8500000",
+      "-Ptb_t06_memory_layout.MAX_PIXELS=16384",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/scratch_overlap.vvp",
+      "verification/rtl/tb_t06_memory_layout.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.011482741000236274,
+    "child_cpu_seconds": 0.005180999999993219,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/scratch_overlap.vvp",
+      "+FAULT=0"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.004560140000194224,
+    "child_cpu_seconds": 0.0029189999999630345,
+    "binary_sha256": "B86D7C8398715904442920518081371B4EC708B158809D85C466D5734FCC8E50",
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/iverilog",
+      "-g2012",
+      "-s",
+      "tb_t06_memory_layout",
+      "-Ptb_t06_memory_layout.MAX_COUNT=7000000",
+      "-Ptb_t06_memory_layout.MAX_PIXELS=9000000",
+      "-o",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/output_overflow.vvp",
+      "verification/rtl/tb_t06_memory_layout.sv"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.009705050999855303,
+    "child_cpu_seconds": 0.004933000000050924,
+    "binary_sha256": null,
+    "vector_sha256": {}
+  },
+  {
+    "command": [
+      "/usr/bin/vvp",
+      "/mnt/d/3DGS/experiments/t07_20261029/selected_units/addresses/output_overflow.vvp",
+      "+FAULT=0"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 0.005362632000014855,
+    "child_cpu_seconds": 0.0030339999999569045,
+    "binary_sha256": "ADE27EDB747A5819486174DA6B3DFCCB837567F5DF84845B67018E935810E8A4",
+    "vector_sha256": {}
+  }
+]

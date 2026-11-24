@@ -1,0 +1,26 @@
+{
+  "scene": "bonsai",
+  "status": "PASS",
+  "metrics": {
+    "n": 1244819,
+    "cycles": 17409200,
+    "partitions": 38081,
+    "leaves": 257981,
+    "reads": 11304002,
+    "writes": 10059183,
+    "peak": 49,
+    "overlap": 367982,
+    "parallel": 354697
+  },
+  "seconds": 1656.8279999999795,
+  "source_sha256": {
+    "rtl/sort/autonomous_qsu.sv": "95b7abdbdd59b3a79d456144aca9941fd6542ca708108b45f884d94c9bebd7b9",
+    "rtl/sort/bitonic_group_sorter_pipelined_shared.sv": "6310705f36ee327ac6a20477b7316ee73926c90ebce4be7874f0a252047fef9c",
+    "rtl/control/shared_reconfigurable_pe_slice.sv": "064259a001e202e3703c6005fe6712ced73dbf13bdcadcf0f9042e582527858c",
+    "verification/rtl/tb_t06_qsu_bsu.sv": "c0e63037ece64bac1e856225bfb60b920d4963e4852df4e14e6ff816e6819ff7"
+  },
+  "binary_sha256": "627f86dc626d1670f6706b3ab18e90f09ada85487b13bc8d0a2b5456550cdf77",
+  "simulator": "icarus",
+  "manifest_sha256": "0d716c93019698d386ca52652ba1726f8de4e3437945832dfedb9249fb640620",
+  "log_sha256": "12d10c05c372f1253a3ee6107c2ceb4b049ebd36d42ebb775e3bd7d98358e38f"
+}

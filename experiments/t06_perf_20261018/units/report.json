@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "shared-R emulator stalls + 4-entry dual bypass, RAW/order/response/commit backpressure and wrap checks; production real shared slice separately exercised by matrix",
+  "source_sha256": {
+    "rtl/common/rv_reg_slice.sv": "51e3ddcc0f2187942fc27b77905e33979acc95dc012dc30a3ed7f2b0b0d65f9d",
+    "rtl/raster/blend_fixed_core.sv": "59b41b5c382fbc77124f6cdd4c3c258da1f0374b8304f1d73689c161a6b87ebd",
+    "rtl/raster/blend_state_commit_4.sv": "6cfa263328eafab67135350376129c1af6ae5716a344023ca5236770b7815a19",
+    "verification/rtl/tb_t06_shared_window.sv": "ee8c709697b61bdeafd8faa3d7ec7f1f7b5c477ee24478d076c5e097171967a9"
+  }
+}

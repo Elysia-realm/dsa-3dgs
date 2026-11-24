@@ -1,0 +1,61 @@
+{
+  "arrays": {
+    "counts": {
+      "WIDTH": 6,
+      "SIZE": 32768,
+      "RD_PORTS": 1,
+      "WR_PORTS": 1,
+      "RD_CLK_ENABLE": 1,
+      "WR_CLK_ENABLE": 1
+    },
+    "full": {
+      "WIDTH": 1,
+      "SIZE": 32768,
+      "RD_PORTS": 1,
+      "WR_PORTS": 1,
+      "RD_CLK_ENABLE": 0,
+      "WR_CLK_ENABLE": 1
+    }
+  },
+  "inference": {
+    "exit_code": 0,
+    "wall_seconds": 0.21323665399995662,
+    "log_sha256": "22D9D556A3BC368200E9991BBA4B01FD1049388319E3FCDE45E7BA8AC4A5F1CF"
+  },
+  "inferred_logical_bytes": 28672,
+  "padded_model_bytes": 65536,
+  "settings": {
+    "-size (bytes)": "32768",
+    "-block size (bytes)": "1",
+    "-read-write port": "0",
+    "-exclusive read port": "1",
+    "-exclusive write port": "1",
+    "-output/input bus width": "8"
+  },
+  "model_per_array": {
+    "access_ns": 0.494358,
+    "cycle_ns": 0.535604,
+    "read_nJ": 0.0157697,
+    "write_nJ": 0.00490008,
+    "leakage_mW": 20.0696,
+    "area_mm2": 0.190155283
+  },
+  "two_array_area_mm2": 0.380310566,
+  "cacti": {
+    "exit_code": 0,
+    "wall_seconds": 0.34328627100012454,
+    "log_sha256": "C2B823035805C597A7F960540C8165B7B6F2F0515BDE0B04BABF668A7CD827AB"
+  },
+  "hashes": {
+    "/mnt/d/3DGS/rtl/raster/terminated_block_counter.sv": "51AFE0684BD95C0486CC83D9B516178F27B6D5B03919826BA658DB4D5368F723",
+    "/mnt/d/3DGS/scripts/check_t08_block_memory.py": "E30C4F2A7C48D0ABCE4981CB530FAFACE6AB1098F461A0359FF2529A4DF66945",
+    "/home/gs3d/eda/opt/oss-cad-suite-20260706/oss-cad-suite/bin/yosys": "7C3E3396B38C129DD7485BE5A0A0F0DA8E495A94C8FD486059E3BEA043A588D6",
+    "/mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/memory/inferred.json": "0416FDCEF3B89063F9987C15901F9BCFC6D74107A6904F360D82963D59CFE796",
+    "/mnt/d/3DGS/experiments/environment_setup_20261024/cacti_sram_diagnostic.cfg": "48A5F7D838563CBF21766A20A3E937A05D91F7494C38955EB52BCCB37C26776A",
+    "/mnt/d/3DGS/experiments/t08_20261031/terminated_blocks_20261123/memory/sram_bytewide.cfg": "A89FD74C0CBFA3EF7925C74E85436E43D028256CCB97678F4A45E874C641817C",
+    "/home/gs3d/eda/bin/cacti": "9E73F358D0336064BA44AE6C27942C05D6501FD61C9E745F5CFAD409BD1B8E20",
+    "/home/gs3d/eda/src-20261024/cacti/cacti": "AC7429383C4F229E9832E31A839B79A90BA992630CFE78A374D4B8CAE501F858"
+  },
+  "scope": "Generic 45nm 300K one-read/one-write 32768x8 RAM option per array. Counts and flags separately byte padded, full flag requires same-cycle random read. No macro substitution, IO timing signoff, control area or per-frame power.",
+  "signed_off": false
+}

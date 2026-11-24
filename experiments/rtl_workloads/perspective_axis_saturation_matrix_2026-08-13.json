@@ -1,0 +1,199 @@
+{
+  "report_version": 1,
+  "date": "2026-08-13",
+  "simulator": "Icarus Verilog 12",
+  "workload_class": "multi-scene trained-attribute RTL micro-workload",
+  "profiles": {
+    "ideal": {
+      "read_latency": 0,
+      "read_gap": 0,
+      "ready_period": 1,
+      "ready_low": 0,
+      "write_response_latency": 2
+    },
+    "limited": {
+      "read_latency": 8,
+      "read_gap": 2,
+      "ready_period": 4,
+      "ready_low": 1,
+      "write_response_latency": 8
+    }
+  },
+  "write_buffer_depth": 2,
+  "writeback_enabled": false,
+  "writeback_depth": 32,
+  "multiwrite_enabled": true,
+  "multiwrite_depth": 8,
+  "state_entries": 4096,
+  "results": [
+    {
+      "scene": "bonsai",
+      "camera": 146,
+      "gaussians": 8,
+      "resolution": [
+        32,
+        21
+      ],
+      "profile": "ideal",
+      "cycles": 1234,
+      "commits": 108,
+      "state_misses": 108,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 108,
+      "state_writes": 108,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 1
+    },
+    {
+      "scene": "bonsai",
+      "camera": 146,
+      "gaussians": 8,
+      "resolution": [
+        32,
+        21
+      ],
+      "profile": "limited",
+      "cycles": 2187,
+      "commits": 108,
+      "state_misses": 108,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 108,
+      "state_writes": 108,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 1
+    },
+    {
+      "scene": "garden",
+      "camera": 92,
+      "gaussians": 8,
+      "resolution": [
+        32,
+        21
+      ],
+      "profile": "ideal",
+      "cycles": 1201,
+      "commits": 106,
+      "state_misses": 103,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 103,
+      "state_writes": 106,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 1
+    },
+    {
+      "scene": "garden",
+      "camera": 92,
+      "gaussians": 8,
+      "resolution": [
+        32,
+        21
+      ],
+      "profile": "limited",
+      "cycles": 2113,
+      "commits": 106,
+      "state_misses": 103,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 103,
+      "state_writes": 106,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 2
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 8,
+      "resolution": [
+        32,
+        18
+      ],
+      "profile": "ideal",
+      "cycles": 1782,
+      "commits": 195,
+      "state_misses": 148,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 148,
+      "state_writes": 195,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 1
+    },
+    {
+      "scene": "train",
+      "camera": 150,
+      "gaussians": 8,
+      "resolution": [
+        32,
+        18
+      ],
+      "profile": "limited",
+      "cycles": 3069,
+      "commits": 195,
+      "state_misses": 148,
+      "read_stall": 0,
+      "output_stall": 0,
+      "state_reads": 148,
+      "state_writes": 195,
+      "consecutive_same_pixel_commits": 0,
+      "writeback_enabled": false,
+      "writeback_depth": 32,
+      "coalesced_writes": 0,
+      "forwarded_reads": 0,
+      "multiwrite_enabled": true,
+      "multiwrite_depth": 8,
+      "peak_outstanding": 3
+    }
+  ],
+  "equivalence": {
+    "bonsai": {
+      "ideal_equals_limited": true,
+      "all_profiles_equal": true,
+      "sha256": "2BA5189A3C1604133B0D5996CAD0FA391EBB747611DF034F9522B5194C005A6E"
+    },
+    "garden": {
+      "ideal_equals_limited": true,
+      "all_profiles_equal": true,
+      "sha256": "14431103028C6036663BBD2519DD49D653E51CCE56B3C5E104DB773FC3D87CAB"
+    },
+    "train": {
+      "ideal_equals_limited": true,
+      "all_profiles_equal": true,
+      "sha256": "38054720337061DC111FA76163C0F619ECD95ECA95276EDDB4B1D3B87AA53AD7"
+    }
+  },
+  "interpretation": "AXI timing profiles must produce bit-identical frame state; cycle and stall changes quantify memory sensitivity.",
+  "data_policy": "Local D:/3DGS only; no network upload."
+}

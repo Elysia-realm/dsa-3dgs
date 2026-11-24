@@ -1,0 +1,5 @@
+[
+  "/home/gs3d/work/t08_20261031/state_lines_20261123/simulation",
+  "+DECK=/mnt/d/3DGS/experiments/t08_20261031/state_lines_20261123/room/w2/stimulus.txt",
+  "+TRACE=/mnt/d/3DGS/experiments/t08_20261031/state_lines_20261123/room/w2/buffer.trace"
+]

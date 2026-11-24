@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/usr/bin/vvp",
+    "/home/gs3d/work/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/simulation.vvp",
+    "+N=159",
+    "+INPUT=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/sample/0/input.memh",
+    "+EXPECTED=/mnt/d/3DGS/experiments/t08_20261031/attribute_eight_beat_20261123/gates/icsprout55/sample/0/expected.memh"
+  ],
+  "input_sha256": "6ED779F4DFA315507A441124391CF27656299F35F94878305C14B0B2C413EE7D",
+  "expected_sha256": "251ECC82E4F5BB89B4D06DBCC138CF868D621F48D71758E738F4BA7683D74F4E",
+  "vvp_sha256": "0C9BD06899676D9CD9944C5823AA5A4C7F1438C82E228133029CD647C7EF2BFC"
+}

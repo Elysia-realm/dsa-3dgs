@@ -1,0 +1,95 @@
+{
+  "format_version": 1,
+  "source": "local D:/3DGS/data only; no network upload",
+  "scene": "bicycle",
+  "camera_index": 97,
+  "original_gaussian_indices": [
+    178607,
+    188690,
+    275546,
+    312151,
+    574164,
+    652935,
+    879043,
+    954404,
+    1127518,
+    1185478,
+    1201132,
+    1455197,
+    2196126,
+    2356947,
+    2698490,
+    2726285,
+    2870834,
+    3092928,
+    3438664,
+    3624956,
+    3849974,
+    4240568,
+    4840215,
+    4939241,
+    5179005,
+    5242873,
+    5333891,
+    5364332,
+    5597824,
+    5734626,
+    5759710,
+    6091622
+  ],
+  "gaussian_count": 32,
+  "width": 64,
+  "height": 43,
+  "mean_record_bytes": 16,
+  "attribute_record_bytes": 144,
+  "gaussian_base": 4096,
+  "attribute_base": 16384,
+  "output_base": 1048576,
+  "fixed_formats": {
+    "mean": "signed Q10.16 / 27-bit",
+    "quaternion": "signed Q2.20 / 22-bit",
+    "scale": "unsigned Q4.20 / 24-bit",
+    "opacity_rgb": "Q1.12 / 13-bit",
+    "sh": "signed Q5.12 / 18-bit channel-major"
+  },
+  "camera_fixed": {
+    "rotation_q20": [
+      293108,
+      -244487,
+      976640,
+      -106803,
+      1003897,
+      283364,
+      -1001096,
+      -178685,
+      255717
+    ],
+    "translation_q16": [
+      25236,
+      -2476,
+      276427
+    ],
+    "position_q16": [
+      256604,
+      55360,
+      -90248
+    ],
+    "fx_fy_cx_cy_q16": [
+      3942871,
+      3924041,
+      2064384,
+      1376256
+    ],
+    "near_far_q16": [
+      13107,
+      65536000
+    ],
+    "regularizer_q8": 77
+  },
+  "depth_pivots_q16": [
+    277913,
+    775023,
+    1214266
+  ],
+  "selection": "deterministic scene-wide priority sample of visible fixed-point-representable trained Gaussians; frame-local GID remap"
+}

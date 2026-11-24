@@ -1,0 +1,24 @@
+{
+  "task": "T07",
+  "date": "2026-10-31",
+  "status": "COMPLETE",
+  "signed_off": true,
+  "scope": "Formal T07 shape/low-alpha/pixel termination profile, five selected scenes width128, current-function integration and bounded local cost decision; not final GT/native-resolution/global PPA or 30FPS.",
+  "audit_sha256": "43B2D68C3E008161B152E84C44DCF7BD008EFBA9D4B3880B9EAFBF533311F0AC",
+  "report": "docs/T07功能签核与性能交接_2026-10-31.md",
+  "report_sha256": "D19019E8193C96FBA4DF78E987100ECCB0400145879B5154B824499D3EF9DDCD",
+  "profile": "verification/t07_release_profile.json",
+  "profile_sha256": "6F672F2DB63F7F05EBACB0B9D7B088EEA3709B2B91900B9381824B158DFD5B14",
+  "snapshot_manifest_sha256": "4AA41D24630B3BA5BF897A2070D17149A20E9E814C4092DB211B2B36BA2C933F",
+  "decision": "Retain shape plus pixel termination: exact RGB, bounded terminal-T equivalence, small positive incremental full-frame cycle benefit and substantial local area/state reduction. Stop optional tuning; proceed T08 with T11 budgets.",
+  "next_task": "T08",
+  "final_ppa_pass": false,
+  "formal_GT_30FPS_pass": false,
+  "outstanding": [
+    "Top-level reset electrical/hold closure and all-corner frequency",
+    "Full-chip SRAM/storage/area and shared-DDR integration",
+    "Target-resolution full-model diagnostic at T08 entry, then T10 formal 13-scene multi-view GT",
+    "Activity power and final 30FPS",
+    "System-wide epoch recycling and backing-state initialization contract; local observed-transition wrap test is not full-system wrap acceptance"
+  ]
+}

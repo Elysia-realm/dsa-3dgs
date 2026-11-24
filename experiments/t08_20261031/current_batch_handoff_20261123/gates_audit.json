@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "pdk": "nangate45",
+      "sample": false,
+      "variant": 0,
+      "records": 6144,
+      "physical_beats": 49565,
+      "control_cases": 18,
+      "log_sha256": "130F8BC97BE5467DDE504D5967572F06AD5A4668F38645630ACAB6008E15330A"
+    },
+    {
+      "pdk": "nangate45",
+      "sample": false,
+      "variant": 1,
+      "records": 6144,
+      "physical_beats": 50620,
+      "control_cases": 18,
+      "log_sha256": "56E50DBD32B090793AB6F8C83902F6826F453AB2B6430202BB23BAC2C2111C52"
+    },
+    {
+      "pdk": "nangate45",
+      "sample": true,
+      "variant": 0,
+      "records": 159,
+      "physical_beats": 1157,
+      "control_cases": 18,
+      "log_sha256": "FB56D760B2FEEFDB6F6E860C7B3F7159628AAAC01DFF000364022014B35B6953"
+    },
+    {
+      "pdk": "nangate45",
+      "sample": true,
+      "variant": 1,
+      "records": 159,
+      "physical_beats": 1235,
+      "control_cases": 18,
+      "log_sha256": "BBF8F46646BB6FBB312BB4F125B1824D6C0F0FF5A856C711305D3D0A21A93686"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": false,
+      "variant": 0,
+      "records": 6144,
+      "physical_beats": 49565,
+      "control_cases": 18,
+      "log_sha256": "4A0E8D3F5FB090AD0B340D670ACB306AC7550F1D018AD5CC88F80B2873F532CD"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": false,
+      "variant": 1,
+      "records": 6144,
+      "physical_beats": 50620,
+      "control_cases": 18,
+      "log_sha256": "8BDA6D2FF117EDA151F94DA613C542DD629F46A5400EB87BC7FEDCDEFCC00CD0"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": true,
+      "variant": 0,
+      "records": 159,
+      "physical_beats": 1157,
+      "control_cases": 18,
+      "log_sha256": "EBC672FD608B27DC3DD1B5B1764EAD27ECA3116CB49C836616BEBDB3EC5E09F5"
+    },
+    {
+      "pdk": "icsprout55",
+      "sample": true,
+      "variant": 1,
+      "records": 159,
+      "physical_beats": 1235,
+      "control_cases": 18,
+      "log_sha256": "A3F0E5FE5C299E9411235B3DEB54FC409C8CBB30787303D27FF2AC632D01848F"
+    }
+  ],
+  "report_sha256": "52E162D68C35B9377A02A9532DB257D18A923532DCEEEDAEF68C7A8CF4B15D67"
+}

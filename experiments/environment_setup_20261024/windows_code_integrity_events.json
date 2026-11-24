@@ -1,0 +1,110 @@
+[
+  {
+    "TimeCreated": "2026-10-24T09:30:13.9430771+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume4\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:30:13.9428764+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume4\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:30:13.8748742+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume4\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:30:13.8746729+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume4\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:30:13.8423561+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume4\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:30:13.842129+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume4\\Users\\12104\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:30:13.7129228+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\python3.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\libpython3.14.dll that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:30:13.6952571+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\python3.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\libpython3.14.dll that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:29:40.9607314+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:29:40.9605074+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:29:40.3370022+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\python3.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\libpython3.14.dll that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:29:40.3180353+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\python3.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\ucrt64\\bin\\libpython3.14.dll that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:29:38.2786629+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:29:38.2784294+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:26:27.0137914+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:26:27.0135917+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:25:53.8348035+08:00",
+    "Id": 3077,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6})."
+  },
+  {
+    "TimeCreated": "2026-10-24T09:25:53.8345574+08:00",
+    "Id": 3033,
+    "LevelDisplayName": "错误",
+    "Message": "Code Integrity determined that a process (\\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\bash.exe) attempted to load \\Device\\HarddiskVolume1\\Tools\\msys64\\usr\\bin\\cygpath.exe that did not meet the Enterprise signing level requirements."
+  }
+]
